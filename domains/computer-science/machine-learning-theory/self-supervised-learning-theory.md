@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Self-supervised learning (SSL) is a framework for learning representations from unlabeled data by creating self-generated labels from the input itself. Instead of requiring expensive manual annotations, SSL defines proxy tasks that are solved by the model, with solutions providing implicit supervisory signals. Examples include predicting masked tokens in language (BERT, GPT), predicting rotations in images (rotation classification), or reconstructing corrupted inputs (denoising). SSL theory addresses why and when this approach works, connecting to information theory (compression preserves structure), geometric intuitions (useful representations cluster similar instances), and empirical findings (SSL pretraining enables efficient fine-tuning with few labels).
 
+## How It's Best Learned
+Run two small experiments on an image dataset. First, train a linear classifier with 10 labels per class on frozen features, once from a random encoder and once from a contrastively pretrained one. Second, train with only a term that pulls two augmented views together and track the batch variance of the embeddings. It tends to fall toward zero, which shows why methods need negatives or another guard against collapse.
+
+## Common Misconceptions
+- Any proxy task the model learns to solve will produce useful features. (A model can solve a proxy task through low-level shortcuts, such as color artifacts or edge continuity, that do not transfer to downstream tasks.)
+- Making the embeddings of two views of the same input identical is the whole goal. (A constant embedding is perfectly invariant and carries no information. Methods add negatives, variance terms or asymmetric architectures to prevent this collapse.)
+- Data augmentations are a neutral detail of the training setup. (The augmentations decide what the representation learns to ignore. If an augmentation changes the feature a downstream label depends on, such as color jitter when the label is color, that information is discarded.)
+- Self-supervised learning removes the need for labels. (Pretraining uses no labels, but a downstream task usually still needs some labeled data to fine-tune or train a probe. SSL reduces how many are needed.)
+
 ## Questions
 
 ```yaml

@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Quantum annealing is an optimization technique using quantum mechanics to find good solutions to hard optimization problems. The algorithm evolves a quantum system adiabatically from an easily-prepared initial state (superposition of all solutions) to a final Hamiltonian whose ground state encodes the optimal solution. Unlike circuit-based quantum algorithms, quantum annealers exploit adiabatic evolution to navigate the solution space without explicitly implementing unitary gates. D-Wave Systems commercialized quantum annealers with thousands of qubits, though quantum advantage over classical methods remains debated. Quantum annealing is particularly suited to combinatorial optimization (MAX-SAT, traveling salesman, graph coloring) and optimization problems in machine learning.
 
+## How It's Best Learned
+Start with one qubit and H(s) = -(1 - s)X - sZ for s from 0 to 1. Its two energies are ±sqrt((1 - s)^2 + s^2), so plot the gap. It narrows from 2 to about 1.41 at s = 1/2, while the ground state turns from |+> into |0>. Then compare with a problem whose gap shrinks toward zero, and connect gap size to required anneal time.
+
+## Common Misconceptions
+- An annealer tries every solution at once and picks out the best one. (It works only if the system stays near the ground state as the Hamiltonian changes. If the gap becomes small compared with the sweep speed, the system ends in excited states, which are worse answers.)
+- Quantum annealing is simulated annealing run on quantum hardware. (Simulated annealing lowers a temperature so thermal hops escape local minima. Quantum annealing lowers a transverse field, and quantum tunneling plays the role of those hops.)
+- Each problem variable uses one physical qubit. (Limited hardware connectivity often forces one variable to be spread over a chain of several physical qubits.)
+- Commercial annealers are general-purpose quantum computers. (They implement a restricted family of Hamiltonians. Ideal adiabatic computation with richer Hamiltonians is universal, but that is a different machine.)
+
 ## Questions
 
 ```yaml

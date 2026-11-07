@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 Photon gas is a Bose gas with zero chemical potential (photons created/destroyed freely). Average energy U = (π^2 k_B^4 T^4 V)/(15 ℏ^3 c^3), pressure P = U/(3V) = (π^2 k_B^4 T^4)/(45 ℏ^3 c^3), and entropy S = (4π^2 k_B^4 T^3 V)/(45 ℏ^3 c^3). Radiation pressure P ∝ T^4 is significant in stellar interiors and early universe.
 
+## How It's Best Learned
+Get T⁴ from thermodynamics before doing the Planck integral. Write U = u(T)V and P = u/3, then use (∂U/∂V)_T = T(∂P/∂T)_V − P. This gives u = (T/3)u′ − u/3, so u′/u = 4/T and u ∝ T⁴. Then apply S ∝ VT³ to a slow adiabatic expansion to find T ∝ V^(−1/3).
+
+## Common Misconceptions
+- With μ = 0 the photon gas has no definite number of photons at all. (The mean photon number is fixed by T and V and grows as VT³. What is missing is a conservation law, so the number fluctuates and adjusts.)
+- Squeezing a photon gas at constant temperature raises its pressure, as for an ideal gas. (The pressure depends on T alone. At fixed T, the walls absorb photons during compression, and the pressure stays the same.)
+- The relation P = u/3 holds for any light. (It holds for isotropic radiation. A collimated beam absorbed at normal incidence exerts a pressure equal to its energy density.)
+
 ## Questions
 
 ```yaml
@@ -68,4 +76,4 @@ To get thermodynamic quantities, sum the energy over all modes. Each mode has tw
 
 The **Stefan-Boltzmann law** for the power radiated per unit area by a blackbody, P/A = σT⁴ with σ = (π²k_B⁴)/(60ℏ³c²), emerges directly from U ∝ T⁴V. The radiation pressure P_rad = U/(3V) is a consequence of the photon gas having the same equation of state as any ultrarelativistic gas: P = u/3 where u is energy density. For ordinary gases you learned P = (2/3)(kinetic energy density), but photons travel at c and the factor becomes 1/3 instead. This radiation pressure is negligible on Earth but dominant in the interior of massive stars (where T ~ 10⁷ K) and was the dominant pressure in the early universe when temperatures exceeded 10⁹ K.
 
-The connection to your partition function work is immediate: the photon gas grand canonical partition function factors into independent mode contributions because μ = 0 eliminates the coupling between modes imposed by total-number conservation. Each mode is a simple quantum harmonic oscillator, and the grand potential is Ω = −k_BT Σ_k ln(1 − e^{−ℏω_k/k_BT}). Converting the sum to an integral and evaluating gives all the T⁴ results above. The photon gas is thus one of the cleanest examples of a fully quantum statistical mechanical system — solvable exactly, physically transparent, and experimentally verified to high precision via measurements of the cosmic microwave background.
+The connection to your partition function work is immediate: the photon gas grand canonical partition function factors into independent mode contributions because μ = 0 eliminates the coupling between modes imposed by total-number conservation. Each mode is a simple quantum harmonic oscillator, and the grand potential is Ω = k_BT Σ_k ln(1 − e^{−ℏω_k/k_BT}). Converting the sum to an integral and evaluating gives all the T⁴ results above. The photon gas is thus one of the cleanest examples of a fully quantum statistical mechanical system — solvable exactly, physically transparent, and experimentally verified to high precision via measurements of the cosmic microwave background.

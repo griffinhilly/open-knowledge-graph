@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Symbolic dynamics replaces continuous trajectories with sequences of symbols by partitioning phase space into labeled regions and recording which region the orbit visits at each time step. The orbit of a point becomes an infinite symbol sequence, and the dynamics reduce to a shift on these sequences. For hyperbolic systems like the Smale horseshoe, this encoding is exact: the symbolic dynamics is topologically conjugate to the original dynamics. This converts the study of chaos into combinatorics — counting periodic orbits, computing entropy, and proving sensitive dependence become exercises in symbol sequence manipulation.
 
+## How It's Best Learned
+Start with the doubling map x → 2x mod 1, splitting the interval at ½. The symbol sequence of x is then its binary expansion, and the map is the shift. Find every point with f³(x) = x by writing repeating blocks: 001 gives 1/7, and the seven solutions are k/7 for k = 0 to 6. Then forbid the word 11, count the allowed words (they grow like Fibonacci numbers), and get entropy ln((1 + √5)/2) ≈ 0.48.
+
+## Common Misconceptions
+- Any partition of phase space gives a faithful symbolic description. (Only a suitable, generating partition makes distinct orbits get distinct sequences; a poor choice can give the same sequence to different points.)
+- Symbolic dynamics is a rough approximation that throws away detail. (For hyperbolic systems such as the horseshoe, the coding is exact: the map on the invariant set is topologically conjugate to the shift.)
+- In any chaotic system, every symbol sequence is the code of some orbit. (That holds for the full shift, but many systems forbid certain transitions, which gives a subshift (often of finite type) with a smaller set of allowed sequences.)
+
 ## Questions
 
 ```yaml
@@ -43,7 +51,7 @@ Symbolic dynamics replaces continuous trajectories with sequences of symbols by 
     - "The temperature of the chaotic attractor"
     - "The fractal dimension of the invariant set"
   answer: 1
-  explanation: "Topological entropy measures the complexity of the dynamics by counting how fast the number of distinguishable orbit types grows with time. For the full shift on k symbols, the number of distinct sequences of length n is k^n, so the entropy is lim (1/n) ln k^n = ln k. For k = 2, this is ln 2 ≈ 0.693 bits per iteration. This equals the largest Lyapunov exponent for the corresponding expanding map, connecting symbolic dynamics to the quantitative theory of chaos."
+  explanation: "Topological entropy measures the complexity of the dynamics by counting how fast the number of distinguishable orbit types grows with time. For the full shift on k symbols, the number of distinct sequences of length n is k^n, so the entropy is lim (1/n) ln k^n = ln k. For k = 2, this is ln 2 ≈ 0.693 per iteration (one bit per iteration). This equals the largest Lyapunov exponent for the corresponding expanding map, connecting symbolic dynamics to the quantitative theory of chaos."
 
 - question: "Symbolic dynamics turns the study of a chaotic map into the study of sequences of symbols. This encoding always preserves all dynamical information exactly."
   type: true-false

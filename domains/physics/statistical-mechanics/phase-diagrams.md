@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Phase diagrams map regions of (T,P,composition) space where different phases are stable. Phase boundaries are loci where two phases have equal Gibbs free energy. Triple points (three phases coexist) and critical points (liquid-gas distinction vanishes) are special points. Maxwell equal-area rule applies to first-order transitions; Clausius-Clapeyron gives the boundary slope.
 
+## How It's Best Learned
+At fixed pressure, sketch G(T) for solid, liquid and gas as three lines with slope −S, the gas line steepest. The lowest line is the stable phase, and each crossing is a transition temperature. Then raise P: each G shifts by about V·ΔP, the gas line most, so the boiling crossing moves to higher T. Read the water and CO₂ diagrams after this.
+
+## Common Misconceptions
+- A point on a phase boundary means the sample is half one phase and half the other. (On the boundary the two phases can coexist in any proportion. T and P fix the boundary, while the total energy or volume of the sample sets the amounts.)
+- Sublimation is a special property of a few substances like dry ice. (A substance with a solid-liquid-gas triple point sublimes when heated at pressures below its triple-point pressure. Freeze-drying holds water below its triple-point pressure so that ice turns directly to vapor.)
+- The liquid-gas boundary continues to arbitrarily high temperature. (It ends at the critical point. Beyond it, liquid and gas are one fluid phase, and you can pass between liquid-like and gas-like states without a transition.)
+
 ## Questions
 
 ```yaml
@@ -36,7 +44,7 @@ Phase diagrams map regions of (T,P,composition) space where different phases are
     - "The latent heat of melting is negative, meaning the substance releases energy upon melting"
     - "The substance sublimes rather than melts at atmospheric pressure"
   answer: 1
-  explanation: "The Clausius-Clapeyron slope is dP/dT = L/(TΔv), where Δv = v_liquid − v_solid. A negative slope means Δv < 0, i.e., the liquid is denser than the solid (v_liquid < v_solid). Water is the classic example: ice is less dense than liquid water, so applying pressure favors the denser liquid phase and melts the ice. This anomalous negative slope is why ice skating works and why increased pressure can melt ice below 0°C."
+  explanation: "The Clausius-Clapeyron slope is dP/dT = L/(TΔv), where Δv = v_liquid − v_solid. A negative slope means Δv < 0, i.e., the liquid is denser than the solid (v_liquid < v_solid). Water is the classic example: ice is less dense than liquid water, so applying pressure favors the denser liquid phase and melts the ice. This anomalous negative slope is why increased pressure can melt ice below 0°C."
 
 - question: "Why does solid CO₂ (dry ice) sublime directly to gas at atmospheric pressure, without passing through a liquid phase?"
   type: multiple-choice
@@ -48,7 +56,7 @@ Phase diagrams map regions of (T,P,composition) space where different phases are
   answer: 1
   explanation: "A horizontal line at 1 atm on CO₂'s phase diagram crosses from the solid region directly into the gas region — it never passes through the liquid region, because the liquid region only exists above 5.1 atm. The triple point is the minimum pressure at which liquid CO₂ can exist. Below that pressure, you move directly from solid to gas (sublimation) as temperature increases. The location of the triple point is thus directly diagnostic of whether a substance can be liquid at a given pressure."
 
-- question: "The triple point of a substance is a small range of temperatures and pressures where most three phases can coexist, and its location shifts depending on how quickly the sample is heated."
+- question: "The triple point of a substance is a small range of temperatures and pressures where all three phases can coexist, and its location shifts depending on how quickly the sample is heated."
   type: true-false
   answer: false
   explanation: "The triple point is a unique, invariant point — a single specific temperature and pressure where all three phases simultaneously coexist in equilibrium. It is fixed by the molecular properties of the substance. It is so reproducible that the triple point of water (273.16 K, 611.7 Pa) serves as a primary calibration standard for thermometry. Heating rate, sample history, and external conditions do not affect where the triple point is — they can affect whether you reach it, but not its location."
@@ -70,6 +78,6 @@ A **phase diagram** is a map of matter: it shows which physical state — solid,
 
 The stability rule is simple: at given T and P, the phase with the **lowest Gibbs free energy** G = U + PV − TS is the equilibrium state. When two phases have equal G they coexist — that is exactly the phase boundary. Because G depends on T and P differently for different phases (gases have much higher entropy than solids, for instance), the coexistence condition G₁(T,P) = G₂(T,P) defines a curve in the T-P plane. The slope of this curve is the Clausius-Clapeyron relation: dP/dT = L/(TΔv), where L is the latent heat and Δv is the molar volume change. For the liquid-gas boundary, ΔS > 0 and Δv > 0, so the slope is always positive. For the ice-water boundary in ordinary water, the anomalous negative slope (dP/dT < 0) reflects the fact that ice is less dense than liquid water — increasing pressure melts ice by making the denser liquid phase more favorable.
 
-The three phases meet at the **triple point**, a unique T and P where solid, liquid, and gas are all in mutual equilibrium. The triple point has only one possible location — it is an invariant point set by the material's molecular properties. Moving in any direction from the triple point takes you into a single-phase region. The **critical point** terminates the liquid-gas coexistence curve at high temperature and pressure. Above it, the distinction between liquid and gas disappears: the system becomes a **supercritical fluid** with no discontinuous transition between the two. Near the critical point, the Maxwell equal-area rule is needed to handle the region where the equation of state predicts unphysical behavior (negative compressibility), replacing it with a horizontal tie line representing two-phase coexistence.
+The three phases meet at the **triple point**, a unique T and P where solid, liquid, and gas are all in mutual equilibrium. The triple point has only one possible location — it is an invariant point set by the material's molecular properties. Moving away from the triple point in any direction except along a coexistence curve takes you into a single-phase region. The **critical point** terminates the liquid-gas coexistence curve at high temperature and pressure. Above it, the distinction between liquid and gas disappears: the system becomes a **supercritical fluid** with no discontinuous transition between the two. Below the critical temperature, the Maxwell equal-area rule is needed to handle the region where the equation of state predicts unphysical behavior (negative compressibility), replacing it with a horizontal tie line representing two-phase coexistence.
 
 Phase diagrams encode practical wisdom. The fact that CO₂ has a triple point at 5.1 atm means that at atmospheric pressure solid CO₂ (dry ice) sublimes directly to gas — the liquid phase is simply never stable at 1 atm. A pressure cooker raises the boiling point of water by moving up the liquid-gas coexistence curve to where the equilibrium temperature is higher. Mountain cooking requires adjustment because lower atmospheric pressure moves down the same curve, lowering the boiling point. Reading a phase diagram fluently is the same skill as reading a topographic map: every boundary and special point tells a concrete story about what the material will do under those conditions.

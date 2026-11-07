@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 The ascending chain condition (ACC) on ideals defines Noetherian rings; the descending chain condition (DCC) on ideals defines Artinian rings. A commutative Artinian ring is always Noetherian, has Krull dimension zero (every prime ideal is maximal), and decomposes as a finite product of Artinian local rings. The Hopkins-Levitzki theorem establishes that DCC implies ACC for modules over Artinian rings, revealing that the descending chain condition is strictly stronger than the ascending one in the commutative setting.
 
+## How It's Best Learned
+List every ideal of a small Artinian ring, such as k[x]/(x³) with ideals (1) ⊃ (x) ⊃ (x²) ⊃ 0, and Z/12Z. Then set them beside Z, where (2) ⊃ (4) ⊃ (8) ⊃ ... never stops. Work through the (a) ⊇ (a²) ⊇ ... argument showing an Artinian domain is a field. Finally, see Z/12Z ≅ Z/4Z × Z/3Z as the product of local rings.
+
+## Common Misconceptions
+- An Artinian ring has to be finite. (Any field is Artinian, and k[x]/(x³) over ℚ is infinite but has only four ideals.)
+- DCC implies ACC for modules over any ring. (The theorem needs an Artinian base ring. Over Z, the Prüfer group Z[1/p]/Z satisfies DCC on subgroups but has a strictly ascending chain of finite subgroups.)
+- A ring of Krull dimension zero is Artinian. (Artinian means Noetherian plus dimension zero. The ring k[x₁, x₂, ...]/(x₁, x₂, ...)² has a single prime but is not Noetherian, so it is not Artinian.)
+
 ## Questions
 
 ```yaml

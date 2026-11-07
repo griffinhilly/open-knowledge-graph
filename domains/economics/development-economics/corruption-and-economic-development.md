@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Corruption—using public power for private gain—raises costs for business, reduces public investment quality, distorts prices, and erodes trust in institutions. High-corruption countries experience lower investment, lower public goods provision, and lower growth. Empirically, reducing corruption is associated with measurable increases in investment, FDI, and economic growth.
 
+## How It's Best Learned
+Compare two firms building the same factory. One pays a known 10% formal tax; the other faces bribes of uncertain size at the permit, inspection, and utility stages. Ask which one can plan, which one gets public goods in return, and which competitor gets a better deal through connections. Then model a corruption equilibrium: an honest official in a corrupt office, and what changes when one person refuses.
+
+## Common Misconceptions
+- A bribe is just an informal tax, so cutting official taxes would offset it. (Corruption is unpredictable, funds no public goods, and favors connected firms, so a matching tax cut does not undo its damage.)
+- If a government spends heavily on schools, its schools must be well funded. (Funds can be diverted after the budget is recorded, so spending figures can overstate the services delivered.)
+- Arresting corrupt officials will clean up the system. (If everyone still expects bribes, new officials face the same incentives. Lasting change requires shifting those expectations through institutional reform.)
+- Corruption is a cultural trait that policy cannot change. (Countries such as Georgia have reduced corruption through systemic reforms.)
+
 ## Questions
 
 ```yaml

@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 A statistical ensemble is a collection of all possible microstates consistent with given macroscopic constraints. The ensemble assigns probabilities to microstates; different constraints yield different ensembles. The fundamental postulate of statistical mechanics states that in equilibrium, all microstates consistent with the constraints are equally probable in the microcanonical ensemble, which justifies using ensemble averaging to compute macroscopic properties.
 
+## How It's Best Learned
+Take four two-level units with energies 0 and ε, and fix E = ε. The microcanonical ensemble has Ω = 4 states, so each unit is excited with probability 1/4. A canonical ensemble with e^(−ε/kT) = 1/3 gives the same 1/4. But it also gives a 21% chance (54/256) of two excitations, which the microcanonical ensemble forbids. Then show that the relative spread in energy shrinks as 1/√N.
+
+## Common Misconceptions
+- An ensemble is a real set of copies of the system that must exist somewhere. (It is a probability distribution over microstates. The copies are a thinking device, and one system observed over time can stand in for them under suitable conditions.)
+- The equal-probability postulate says every macrostate is equally likely. (It applies to microstates. A macrostate's probability is proportional to the number of microstates it contains, which is why a few macrostates dominate.)
+- Ensemble equivalence means every quantity agrees between ensembles. (Averages of macroscopic quantities agree as N → ∞. Fluctuations differ: energy fluctuates in the canonical ensemble and is fixed in the microcanonical one.)
+
 ## Questions
 
 ```yaml
@@ -57,7 +65,7 @@ A statistical ensemble is a collection of all possible microstates consistent wi
 - question: "To correctly analyze a system at fixed temperature in contact with a heat bath, you should use the canonical ensemble; using the microcanonical ensemble would give incorrect thermodynamic predictions."
   type: true-false
   answer: false
-  explanation: "This is the most common misconception about ensembles. In the thermodynamic limit, all three ensembles (microcanonical, canonical, grand canonical) give identical predictions for macroscopic quantities. A physicist may use the microcanonical ensemble for a system at fixed temperature — or the canonical ensemble for an isolated system — and obtain the same thermodynamic results either way. The choice of ensemble is purely a matter of mathematical convenience, not physical accuracy. The ensemble that makes the calculation tractable is always the right one to use."
+  explanation: "This is the most common misconception about ensembles. In the thermodynamic limit, all three ensembles (microcanonical, canonical, grand canonical) give identical predictions for macroscopic quantities. A physicist may use the microcanonical ensemble for a system at fixed temperature — or the canonical ensemble for an isolated system — and obtain the same thermodynamic results either way. The choice of ensemble is purely a matter of mathematical convenience, not physical accuracy. For macroscopic averages (not fluctuations), the ensemble that makes the calculation tractable is a valid choice."
 
 - question: "Why can a physicist choose whichever statistical ensemble is mathematically most convenient, even when it doesn't exactly match the physical constraints of their system?"
   type: short-answer
@@ -73,4 +81,4 @@ A **statistical ensemble** is the conceptual tool for handling this: imagine mak
 
 The three fundamental ensembles correspond to three physical situations. The **microcanonical ensemble** describes an isolated system with fixed E, V, N. The fundamental postulate gives equal probability to every compatible microstate — entropy is S = k ln Ω where Ω is the number of microstates. The **canonical ensemble** describes a system in thermal contact with a heat bath at temperature T: E can fluctuate, but V and N are fixed. The bath enforces a Boltzmann distribution over microstates: P_i ∝ e^{−E_i/kT}. The **grand canonical ensemble** allows both energy and particle exchange with a reservoir at temperature T and chemical potential μ. Each ensemble is the right tool for a different experimental setup.
 
-A key insight is that all three ensembles give identical predictions for macroscopic quantities in the thermodynamic limit (N → ∞) — they are **equivalent**. The fluctuations in E in the canonical ensemble are of order 1/√N relative to the mean, which is negligible for N ~ 10²³. The ensemble that is most convenient mathematically is therefore the right one to use regardless of the physical setup. The canonical ensemble's partition function Z = Σ e^{−βE_i} is typically the easiest starting point because it encodes all thermodynamic information: free energy F = −kT ln Z, and all thermodynamic quantities follow by differentiation. Building intuition for which ensemble to deploy and how to extract thermodynamics from partition functions is the core skill of statistical mechanics.
+A key insight is that all three ensembles give identical predictions for macroscopic quantities in the thermodynamic limit (N → ∞) — they are **equivalent**. The fluctuations in E in the canonical ensemble are of order 1/√N relative to the mean, which is negligible for N ~ 10²³. For macroscopic averages, the ensemble that is most convenient mathematically can therefore be used regardless of the physical setup, though fluctuations still depend on the ensemble. The canonical ensemble's partition function Z = Σ e^{−βE_i} is typically the easiest starting point because it encodes all thermodynamic information: free energy F = −kT ln Z, and all thermodynamic quantities follow by differentiation. Building intuition for which ensemble to deploy and how to extract thermodynamics from partition functions is the core skill of statistical mechanics.

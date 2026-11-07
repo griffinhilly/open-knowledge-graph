@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 A Geographic Information System (GIS) is a framework for capturing, storing, analyzing, and visualizing geographically referenced data. Unlike a simple map, a GIS links spatial features (points, lines, polygons, rasters) to attribute databases, enabling queries that combine location and characteristics: "show all parcels within 500 meters of a river that are zoned residential and have slope less than 15%." GIS integrates data from many sources (remote sensing, surveys, GPS, census, administrative records) into a common spatial framework, making it possible to ask spatial questions, detect patterns, and model scenarios that would be impossible with tabular data alone.
 
+## How It's Best Learned
+Run the parcel query from the Core Idea in a free GIS such as QGIS on real local data. Buffer the river by 500 m, select residential parcels by attribute, derive slope from a DEM, and intersect the results. After each step, open the attribute table and note how many features remain. This makes the link between geometry and attributes concrete.
+
+## Common Misconceptions
+- A GIS is mainly software for drawing maps. (Maps are one output. The main work is storing, querying and analyzing features together with their attributes.)
+- Layers line up correctly as long as they show the same place. (Layers must share a coordinate reference system, or be reprojected to one, before overlay and measurement give correct results.)
+- Data in a GIS is accurate because the software displays it precisely. (The software shows coordinates to many decimal places, but accuracy depends on how the data was collected, at what scale and when.)
+
 ## Questions
 
 ```yaml
@@ -57,4 +65,4 @@ A GIS organizes data in layers (or themes), each representing a different type o
 
 The analytical power of GIS comes from spatial operations. Buffering creates zones at specified distances from features. Overlay operations (intersection, union, difference) combine layers to identify areas meeting multiple criteria. Network analysis finds shortest paths, service areas, and optimal routes. Terrain analysis derives slope, aspect, and watersheds from elevation data. Spatial statistics identify clusters, hotspots, and spatial autocorrelation. Each operation leverages the explicit spatial relationships that distinguish geographic data from ordinary tabular data.
 
-Modern GIS has evolved from expensive desktop software (ArcGIS, QGIS) into a broad ecosystem including web-based platforms (ArcGIS Online, Google Earth Engine), spatial databases (PostGIS), programming libraries (GeoPandas, sf in R), and cloud-native geospatial formats. The fundamental principles remain: geographic data integration, spatial analysis, and evidence-based spatial decision-making.
+Modern GIS has evolved from desktop software (ArcGIS, QGIS) into a broad ecosystem including web-based platforms (ArcGIS Online, Google Earth Engine), spatial databases (PostGIS), programming libraries (GeoPandas, sf in R), and cloud-native geospatial formats. The fundamental principles remain: geographic data integration, spatial analysis, and evidence-based spatial decision-making.

@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Quantum chemistry simulation applies quantum computers to compute molecular properties: ground-state energies, excitation spectra, reaction rates. Simulating quantum chemistry classically is exponentially hard; quantum computers naturally represent quantum wavefunctions. The workflow is: (1) encode the molecular Hamiltonian in second-quantized form, (2) map to qubits (Jordan-Wigner or Bravyi-Kitaev), (3) prepare trial states (ansatze), (4) measure expectation values, (5) optimize to find ground state (VQE) or excited states. Practical algorithms balance circuit depth (noise) and accuracy. Applications include drug discovery, materials design, catalysis, and accelerating chemical research.
 
+## How It's Best Learned
+Follow H2 in a minimal basis through the whole pipeline. It has 2 electrons in 4 spin-orbitals, so Jordan-Wigner gives 4 qubits, and the Hartree-Fock state is the bit string |1100>. Count the 6 ways to place 2 electrons in 4 spin-orbitals and compare with the 16 basis states of 4 qubits. Then write the energy as a weighted sum of Pauli-string expectation values.
+
+## Common Misconceptions
+- Classical computers cannot do useful quantum chemistry. (Methods such as Hartree-Fock, density functional theory and coupled cluster handle many molecules well. Classical cost becomes exponential for exact treatment, which matters most for strongly correlated systems.)
+- The number of qubits equals the number of electrons. (Jordan-Wigner uses one qubit per spin-orbital, and there are usually more spin-orbitals than electrons.)
+- The energy VQE reports is the exact ground-state energy. (With exact expectation values it is an upper bound on the true ground-state energy. Its quality depends on the ansatz, the optimizer and the noise.)
+- One run of the circuit gives the energy. (The Hamiltonian has many Pauli terms, and each must be estimated from many repeated measurements.)
+
 ## Questions
 
 ```yaml

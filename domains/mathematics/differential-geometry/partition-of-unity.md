@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 A partition of unity is a collection of smooth non-negative functions {ρα} on a manifold that sum to 1 everywhere, each supported in a single coordinate chart. Partitions of unity allow you to patch together local constructions — metrics, forms, connections — into global objects. Their existence on smooth manifolds (guaranteed by paracompactness and the existence of smooth bump functions) is what makes the passage from local to global possible throughout differential geometry.
 
+## How It's Best Learned
+Build one by hand on ℝ for the cover (−∞, 2) and (−2, ∞). With f(x) = e^{−1/x} for x > 0 and 0 otherwise, set ρ₁ = f(1 − x)/(f(1 − x) + f(x + 1)) and ρ₂ = f(x + 1)/(f(1 − x) + f(x + 1)). The denominator is positive everywhere, and the supports are (−∞, 1] and [−1, ∞). Then glue two metrics with ρ₁ and ρ₂.
+
+## Common Misconceptions
+- Partitions of unity can glue any kind of local structure. (They preserve convex conditions. Gluing nowhere-zero vector fields can produce zeros, since v and −v average to 0, and S² has no nowhere-zero field.)
+- A partition of unity uses finitely many functions. (On a noncompact manifold such as ℝ, a cover by bounded intervals needs infinitely many. Local finiteness keeps each sum finite.)
+- The function e^{−1/x} is analytic because it is smooth. (All its derivatives vanish at 0, so its Taylor series there is zero, yet the function is positive for x > 0.)
+
 ## Questions
 
 ```yaml

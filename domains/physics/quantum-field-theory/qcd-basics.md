@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 QCD is the SU(3) gauge theory of the strong interaction. Quarks carry color charge (red, green, blue) and interact via eight massless gluons that themselves carry color. The QCD Lagrangian is structurally similar to QED but with three colors, eight gluons, and gluon self-interactions that produce qualitatively different physics.
 
+## How It's Best Learned
+Write the QCD and QED Lagrangians side by side with every color index shown, and mark each place where they differ. Then do two color-counting exercises. First, compute C_F = (N² − 1)/(2N) = 4/3 for SU(3), the factor in the short-distance quark-antiquark potential. Second, find the ratio R = σ(e⁺e⁻ → hadrons)/σ(e⁺e⁻ → μ⁺μ⁻) ≈ N_c ΣQ_q². For u, d and s quarks this gives 3 × (4/9 + 1/9 + 1/9) = 2.
+
+## Common Misconceptions
+- Gluons are color-neutral, the way photons are electrically neutral. (Gluons carry color and anticolor, which is why they interact with each other.)
+- Gluon exchange can change a quark's flavor, for example turning a down quark into an up quark. (Gluons change only color; flavor changes come from the weak interaction through W exchange.)
+- Because the strong force is strong, perturbation theory never works in QCD. (At high momentum transfer α_s is small, and perturbative QCD describes jets and deep inelastic scattering well.)
+- Color charge is a single number that adds like electric charge. (Color is an SU(3) quantum number, and color-neutral states are singlets formed by group-theory combinations, such as the antisymmetric three-quark state in a baryon.)
+
 ## Questions
 
 ```yaml

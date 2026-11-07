@@ -30,6 +30,15 @@ status: validated
 ## Core Idea
 Environmental geochemistry applies geochemical principles to understand the sources, transport, fate, and remediation of contaminants in natural systems. Contaminant behavior is controlled by the same thermodynamic and kinetic processes that govern natural geochemistry: speciation (which determines toxicity and mobility), adsorption (which retards transport), precipitation/dissolution (which creates sinks and sources), and redox transformations (which change mobility and toxicity). Key contaminant classes include heavy metals (As, Pb, Cd, Cr, Hg), radionuclides (U, Cs, Sr), organic pollutants, and excess nutrients. Understanding the geochemical controls on contaminant behavior enables prediction of plume migration, risk assessment, and design of remediation strategies that work with natural processes rather than against them.
 
+## How It's Best Learned
+Trace one contaminant along a groundwater flow path that moves from oxic into reducing water. Sketch its dominant species and its sorbed or dissolved state in each zone. Do it first for arsenic, which is released as iron oxyhydroxides dissolve. Then do chromium, which moves the opposite way: mobile as oxidized chromate, immobile once reduced to Cr(III).
+
+## Common Misconceptions
+- The total concentration of a metal tells you how toxic and mobile it is. (Speciation controls both. The same chromium total is far more hazardous as Cr6+ than as Cr3+.)
+- Reducing conditions lock up metal contaminants. (Reduction immobilizes chromium and uranium, but it releases arsenic when the iron oxyhydroxides that hold it dissolve.)
+- A contaminant sorbed onto aquifer solids has been removed for good. (Sorption is often reversible. A change in pH, redox state, or competing ions can release it back to the water.)
+- Biodegradation always makes an organic contaminant less harmful. (Incomplete reductive dechlorination of TCE can stop at vinyl chloride, which is more toxic than the parent compound.)
+
 ## Questions
 
 ```yaml

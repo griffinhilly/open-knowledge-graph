@@ -22,6 +22,14 @@ status: draft
 ## Core Idea
 Essays develop arguments through exploration rather than predetermined thesis. Essayistic arguments often change and complicate themselves in process, valuing the thinking process as much as conclusions. This approach is dialectical, entertaining multiple perspectives and allowing ideas to evolve.
 
+## How It's Best Learned
+Choose a moral question you are unsure about, such as whether to lend money to a friend. Write your starting position in one sentence. Next, write a paragraph giving the strongest case against it, then a paragraph on what each side sees that the other misses. End with a revised one-sentence position and compare it with the first. Reading a short op-ed on a similar question afterward makes the contrast with thesis-first argument clear.
+
+## Common Misconceptions
+- An exploratory essay has no argument. (It argues by testing a question from several sides and can reach a position, often a more qualified one than it started with.)
+- Changing position partway through is a sign of weak writing. (In the essay, revising an initial view in response to complexity is part of the thinking the reader follows.)
+- Essayistic argument is less rigorous than formal argument. (It can be well researched and carefully reasoned. Its difference lies in exploring a question instead of defending a fixed thesis.)
+
 ## Questions
 
 ```yaml
@@ -57,6 +65,7 @@ Essays develop arguments through exploration rather than predetermined thesis. E
 
 - question: How might an essayistic argument about a complex political or moral issue differ from a position paper arguing for a specific policy? What does each accomplish?
   type: short-answer
+  answer: "A position paper argues for a specific policy, gives reasons, and refutes objections in order to persuade. An essayistic argument explores which values are in tension and what each side understands, and it may end with a revised or unresolved view. The paper aims to convince; the essay aims to investigate and deepen understanding."
   explanation: 'A position paper would argue for a particular stance: ''We should implement policy X because of reasons A, B, and C.'' It would anticipate and refute objections. The form aims to convince. An essayistic argument might explore the same issue but ask: ''What values are in tension here? What does each side understand that the other misses? What are the costs of different positions?'' Rather than trying to convince, it tries to complicate understanding. It might end without clear conclusion or with the writer having revised their thinking. Essayistic form doesn''t aim to win an argument; it aims to explore an issue thoughtfully. A position paper is meant to persuade; an essay is meant to investigate. Both are valid. Essays allow for the kind of nuance and complexity that position papers sometimes simplify.'
 ```
 

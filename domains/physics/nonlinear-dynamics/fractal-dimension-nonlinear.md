@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Fractal dimension quantifies the scaling complexity of sets that are too irregular for integer dimensions to describe. The box-counting dimension measures how the number of boxes N(ε) needed to cover a set scales as box size ε → 0: D = -lim_{ε→0} ln N(ε)/ln ε. For strange attractors, this dimension is typically non-integer, reflecting the attractor's self-similar, layered structure. The Kaplan-Yorke conjecture relates fractal dimension directly to Lyapunov exponents, connecting the geometry of the attractor to the dynamics on it.
 
+## How It's Best Learned
+Do the middle-thirds Cantor set by hand first: at box size ε = 3⁻ⁿ you need N = 2ⁿ boxes, so D = ln 2/ln 3 ≈ 0.63. Then box-count a long orbit of the Hénon map numerically and fit the slope of ln N against ln(1/ε) over a middle range of scales. Compare the result, near 1.26, with the Kaplan-Yorke estimate from the map's exponents, about 0.42 and −1.62.
+
+## Common Misconceptions
+- An attractor's dimension equals the dimension of the space it lives in. (The Lorenz attractor sits in three-dimensional space but has a dimension of about 2.06; the embedding dimension is only an upper bound.)
+- Counting boxes at one box size gives the fractal dimension. (The dimension is a scaling exponent, read from how N(ε) changes across a range of ε, typically as a slope on a log-log plot.)
+- All definitions of fractal dimension give the same number. (For attractors that are visited unevenly, the correlation, information and box-counting dimensions can differ, with D_correlation ≤ D_information ≤ D_box-counting.)
+
 ## Questions
 
 ```yaml

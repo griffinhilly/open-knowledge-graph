@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Band theory classifies solids by the filling of their energy bands. In metals, the Fermi level lies within a band, so there are empty states immediately above E_F available for conduction. In insulators, all bands below a large gap (> ~4 eV) are completely filled and all above are empty — no states are available at accessible energies. Semiconductors are insulators with small gaps (< ~3 eV) where thermal excitation or doping can promote electrons across the gap, creating mobile carriers. This classification explains why copper conducts, diamond does not, and silicon can be made to do either.
 
+## How It's Best Learned
+Count valence electrons per primitive cell: sodium has 1, magnesium (hcp, two atoms per cell) has 4, and silicon (two atoms per cell) has 8. Predict each from band filling; magnesium shows why band overlap matters. Then compare exp(−E_g/2k_BT) at 300 K with the prefactor held fixed. Germanium beats silicon by a factor of several thousand, and diamond falls below silicon by a factor of about 10³⁷.
+
+## Common Misconceptions
+- Insulators do not conduct because their electrons cannot move. (Electrons in a filled band do move, but their contributions cancel, so a filled band carries no net current.)
+- Semiconductors and insulators are different kinds of material. (They differ in the size of the gap; the dividing line of about 3–4 eV is a convention.)
+- Like a metal, a semiconductor resists more as it gets hotter. (In an intrinsic semiconductor the carrier density rises exponentially with temperature, so the resistivity falls.)
+
 ## Questions
 
 ```yaml

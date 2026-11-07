@@ -20,6 +20,14 @@ status: validated
 ## Core Idea
 The excision theorem states that if Z is a subspace of A whose closure is contained in the interior of A, then the inclusion (X \ Z, A \ Z) -> (X, A) induces isomorphisms H_n(X \ Z, A \ Z) = H_n(X, A) for all n. In other words, we can "cut out" (excise) the subspace Z from both X and A without changing the relative homology. This theorem is what gives homology its local-to-global computational power: relative homology depends only on the behavior near the boundary of A in X, not on what happens deep inside A or far from A.
 
+## How It's Best Learned
+Use excision on local homology first. Excise everything outside a small disk to get H_n(R^n, R^n \ {0}) ≅ H_n(D^n, D^n \ {0}), then use the long exact sequence to identify this with H_{n-1}(S^{n-1}) = Z. Next, test the hypothesis: with X = [-1, 1] and A = Z = [-1, 0], the excised pair ((0, 1], ∅) has H_0 = Z while H_0(X, A) = 0. The closure condition failed.
+
+## Common Misconceptions
+- Any subset of A can be excised. (The standard hypothesis is cl(Z) ⊆ int(A). Excising all of A = [-1, 0] from [-1, 1] changes H_0 of the pair.)
+- Excision says removing Z leaves the absolute homology of X unchanged. (It is a statement about relative groups. Removing a point from S^2 changes H_2 from Z to 0.)
+- H_n(X, A) ≅ H̃_n(X/A) for every pair. (That identification needs a good pair, such as a subcomplex of a CW complex. For badly behaved subspaces the two groups can differ.)
+
 ## Questions
 
 ```yaml

@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 A second-order linear homogeneous ODE has the form y'' + p(x)y' + q(x)y = 0. The general solution is a linear combination of two linearly independent solutions: y = c₁y₁ + c₂y₂. For constant coefficients, solutions have exponential or trigonometric form determined by a characteristic equation. These equations model vibrations, electrical circuits, and countless physical phenomena.
 
+## How It's Best Learned
+Start with y'' + y = 0, where cos x and sin x can be found by inspection, and check that c₁cos x + c₂sin x also works. Then substitute y = eʳˣ into y'' − y' − 2y = 0 to get r² − r − 2 = 0, with roots 2 and −1. Fit y(0) = 1, y'(0) = 0 to get c₁ = 1/3, c₂ = 2/3, which shows why two conditions fix two constants.
+
+## Common Misconceptions
+- Any two solutions combine into the general solution. (They must be linearly independent; e²ˣ and 3e²ˣ are both solutions of y'' − y' − 2y = 0, but together they give only multiples of e²ˣ.)
+- "Homogeneous" here means the same thing as in first-order equations of the form dy/dx = f(y/x). (Here it means the right-hand side is zero, so every term contains y or one of its derivatives.)
+- The characteristic equation works for any second-order linear ODE. (It depends on constant coefficients; when p and q vary with x, substituting eʳˣ does not in general give an algebraic equation for r.)
+
 ## Questions
 
 ```yaml

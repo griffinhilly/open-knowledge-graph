@@ -22,6 +22,14 @@ status: draft
 ## Core Idea
 Aphoristic nonfiction uses short, pithy statements to convey ideas with economy and force, forgoing narrative or extended argument. The form presents observations as discrete units, assuming readers will complete thoughts and find connections across gaps.
 
+## How It's Best Learned
+Take a paragraph of your own that argues one idea and rewrite it as five or six standalone sentences, cutting every connective such as "because" and "therefore." Read the fragments in two different orders and note which links a reader must now supply. Then read a published sequence of aphorisms slowly, one at a time, writing down the connection you infer between each pair.
+
+## Common Misconceptions
+- An aphorism is any short sentence. (Brevity is not enough. An aphorism compresses an observation into a complete, self-standing unit that provokes thought.)
+- A collection of fragments has no structure. (Effective collections usually have thematic unity and a purposeful order; the structure is implicit, and the reader discovers it.)
+- The aphorisms in one essay should agree with each other. (Writers often set contradictory statements side by side so that the reader has to work through the tension.)
+
 ## Questions
 
 ```yaml
@@ -57,6 +65,7 @@ Aphoristic nonfiction uses short, pithy statements to convey ideas with economy 
 
 - question: Give an example of how an aphoristic essay might explore a single concept (such as friendship or failure) differently than a traditional discursive essay would. What is gained and what is lost?
   type: short-answer
+  answer: An aphoristic essay on failure might offer several separate, even contradictory, observations about failure and leave them unreconciled, where a discursive essay would build one thesis step by step. The aphoristic version gains provocation and room for the reader's interpretation; it loses sustained argument and explicit connections.
   explanation: An aphoristic approach might offer multiple angles, contradictions, and observations about friendship without resolving them into a unified thesis. This gains freshness, provokes reflection, and mirrors the contradictory nature of actual experience. It loses clarity of argument and comprehensive coverage. For instance, an aphoristic piece might state 'Friendship requires difference, not similarity' followed by 'Friendship is easiest with those who share your fundamental values'—leaving the reader to think through the tension. A discursive essay would attempt to reconcile this contradiction. The aphoristic form trusts readers' sophistication.
 ```
 

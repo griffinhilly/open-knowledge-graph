@@ -27,6 +27,14 @@ status: validated
 ## Core Idea
 To solve y'' + py' + qy = f(x), find the homogeneous solution y_h, then guess the form of a particular solution y_p based on f(x). For f polynomial, exponential, sine, or cosine, use corresponding y_p forms with unknown coefficients. Substitute into the equation and solve for these coefficients. The general solution is y = y_h + y_p. This method is efficient when applicable.
 
+## How It's Best Learned
+Keep one left side, y'' − y' − 2y (roots 2 and −1), and change only the forcing. For f = 4x, the guess Ax + B gives A = −2, B = 1. For f = e^(2x), the guess Ae^(2x) collapses to zero, but Axe^(2x) gives 3Ae^(2x), so A = 1/3. Substitute each answer back to check it.
+
+## Common Misconceptions
+- Initial conditions can be applied to y_h before y_p is added. (y_p contributes to y(0) and y'(0), so the constants must be fitted using the full solution y = y_h + y_p.)
+- When one term of the guess duplicates y_h, only that term gets multiplied by x. (The whole guess for that piece of f is multiplied by x; for f = xe^(2x) with e^(2x) in y_h, the guess becomes x(Ax + B)e^(2x).)
+- A forcing such as 3e^(2x) + x needs one combined guess of a single form. (Each piece gets its own guess, and the particular solutions are added, because the equation is linear.)
+
 ## Questions
 
 ```yaml

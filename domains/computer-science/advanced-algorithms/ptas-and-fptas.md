@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 A Polynomial-Time Approximation Scheme (PTAS) is a family of algorithms parameterized by epsilon > 0, where each algorithm runs in polynomial time in n (for fixed epsilon) and returns a (1+epsilon)-approximate solution. An FPTAS (Fully Polynomial-Time Approximation Scheme) is stronger: the running time is polynomial in both n and 1/epsilon. The knapsack problem admits an FPTAS via scaling and rounding item profits, then applying dynamic programming — running in O(n^2/epsilon) time. PTAS existence versus FPTAS existence is a meaningful distinction: not all problems with a PTAS have an FPTAS, and the FPTAS exclusion is connected to strong NP-hardness. Problems like Euclidean TSP admit a PTAS (Arora, Mitchell) but are unlikely to have an FPTAS.
 
+## How It's Best Learned
+Take a five-item knapsack instance with large profits, pick epsilon = 0.5, and compute K, the scaled profits and the DP table on the scaled instance. Then compare the chosen set's true profit with the exact optimum and with the (1 - epsilon) guarantee. Afterward, tabulate running times such as n^(1/epsilon) and n^2/epsilon for a few values of epsilon to feel the PTAS and FPTAS gap.
+
+## Common Misconceptions
+- A PTAS is practical for any small epsilon because it is polynomial. (The degree of the polynomial can grow with 1/epsilon, so a running time like n^(1/epsilon) becomes unusable for small epsilon.)
+- A problem with an FPTAS cannot really be NP-hard. (Knapsack is NP-hard and has an FPTAS. The FPTAS gives approximate answers, and solving the problem exactly is still hard.)
+- Any NP-hard problem with a pseudopolynomial algorithm automatically has an FPTAS. (A pseudopolynomial algorithm is a starting point, but an FPTAS also needs a rounding scheme whose error can be bounded against OPT. The reverse direction is cleaner: an FPTAS for a suitable integer-valued problem yields a pseudopolynomial algorithm.)
+- Choosing a tiny epsilon turns an FPTAS into a fast exact algorithm. (For an integer objective, setting epsilon * OPT below 1 does force an exact answer. But then 1/epsilon grows with the numbers in the input, so the running time is only pseudopolynomial.)
+
 ## Questions
 
 ```yaml

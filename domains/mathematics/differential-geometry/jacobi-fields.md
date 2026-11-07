@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 A Jacobi field is a vector field along a geodesic that describes how nearby geodesics deviate from it — it satisfies the Jacobi equation J'' + R(J, γ')γ' = 0, a second-order linear ODE where the curvature tensor acts as a "spring constant." Positive curvature causes geodesics to converge (Jacobi fields oscillate), negative curvature causes divergence (Jacobi fields grow exponentially), and zero curvature gives linear behavior. Conjugate points — where Jacobi fields vanish — mark where geodesics refocus and lose minimality.
 
+## How It's Best Learned
+Differentiate an explicit family of geodesics. On the unit sphere, the meridians γ_s(t) = (sin t cos s, sin t sin s, cos t) give J(t) = ∂γ_s/∂s at s = 0, which is (0, sin t, 0). Its length sin t solves J'' + J = 0 and vanishes again at t = π, the south pole. Repeat with rays from the origin in the plane, where |J| = t, to compare.
+
+## Common Misconceptions
+- Any vector field along a geodesic that vanishes at both ends is a Jacobi field. (A Jacobi field must solve the Jacobi equation. Along a geodesic in an n-manifold, the Jacobi fields form a vector space of dimension 2n.)
+- A conjugate point is any point where two geodesics from p meet again. (Conjugacy needs a one-parameter family of geodesics that refocuses. On a flat cylinder, two geodesics from p meet on the far side, but there are no conjugate points.)
+- Jacobi fields tangent to the geodesic carry curvature information. (A tangential Jacobi field has the form (a + bt)γ' and comes from reparametrizing γ. Curvature acts only on the normal part.)
+
 ## Questions
 
 ```yaml

@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 A principal G-bundle is a fiber bundle whose fiber is a Lie group G, acting freely and transitively on each fiber by right multiplication. Unlike vector bundles (where fibers are vector spaces), principal bundles have no preferred "zero" in each fiber — every point is equivalent. The frame bundle of a manifold is a principal GL(n)-bundle, and connections on principal bundles (gauge fields) are the mathematical foundation of gauge theory in physics. Every vector bundle arises from a principal bundle via the associated bundle construction.
 
+## How It's Best Learned
+Work out the Hopf bundle as a principal U(1)-bundle. U(1) acts on S³ ⊂ ℂ² by (z, w)·λ = (zλ, wλ), freely, with quotient ℂP¹ ≅ S². Then prove that a principal bundle is trivial exactly when it has a global section, using (m, g) ↦ s(m)g. Apply this to the frame bundle of S²: a global frame would give a nowhere-zero vector field, which S² does not have.
+
+## Common Misconceptions
+- Each fiber of a principal bundle is a copy of the group G with its identity element. (A fiber is a G-torsor with no preferred point. Choosing an identity in each fiber amounts to choosing a local section.)
+- Like a vector bundle, a principal bundle always has a global section. (A vector bundle has its zero section. A principal bundle has a global section only when it is trivial.)
+- The structure group of the frame bundle cannot be made smaller than GL(n). (The frame bundle has group GL(n). A Riemannian metric reduces it to the O(n)-bundle of orthonormal frames, and an orientation reduces it further to SO(n).)
+
 ## Questions
 
 ```yaml

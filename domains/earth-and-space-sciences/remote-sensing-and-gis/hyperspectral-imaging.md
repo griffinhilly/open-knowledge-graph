@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Hyperspectral sensors (imaging spectrometers) record reflected radiation in hundreds of narrow, contiguous spectral bands (typically 5-10 nm wide), producing a near-continuous reflectance spectrum for every pixel. Where multispectral sensors sample at a few strategic wavelengths, hyperspectral sensors capture the complete spectral shape, enabling identification of specific minerals, chemicals, vegetation species, and materials based on diagnostic absorption features too narrow for broadband sensors to resolve. This comes at the cost of enormous data volume and complex processing requirements.
 
+## How It's Best Learned
+Take a laboratory spectrum of kaolinite from a public spectral library and plot it at full resolution. Then average it into Landsat's broad SWIR bands and watch the absorption feature disappear. For unmixing, start with one band: a pixel that is 60% vegetation (reflectance 0.5) and 40% soil (0.3) gives 0.6 x 0.5 + 0.4 x 0.3 = 0.42.
+
+## Common Misconceptions
+- More bands means a hyperspectral image shows more spatial detail. (Band count is spectral resolution. Spaceborne hyperspectral sensors often have coarser pixels than high-resolution multispectral ones.)
+- Each of the hundreds of bands carries independent information. (Neighboring narrow bands are strongly correlated, which is why methods such as PCA and minimum noise fraction compress the data.)
+- A pixel's spectrum can be matched to a library spectrum straight from the raw image. (Atmospheric gas absorptions overlap many diagnostic features, so the image must first be corrected to surface reflectance.)
+
 ## Questions
 
 ```yaml

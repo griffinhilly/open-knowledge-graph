@@ -19,6 +19,14 @@ status: draft
 ## Core Idea
 Documentary film is a nonfiction narrative form that uses visual imagery, sound, editing, and voice to construct meaning from reality. Like literary nonfiction, documentary engages fundamental questions about perspective, authenticity, the relationship between factual material and artistic interpretation, and the ethics of representing real people and events for audiences.
 
+## How It's Best Learned
+Watch a three-minute documentary scene twice, once muted and once with sound, and note how the music and voiceover change your reading of the people on screen. Then take the transcript of one real interview and assemble two short versions from the same quotes, each leaving a different impression of the speaker. Both cuts are factual, which shows where interpretation enters.
+
+## Common Misconceptions
+- A documentary records reality without shaping it. (Framing, selection, editing, and sound are all choices, and each one shapes what the viewer understands.)
+- If a documentary is artistically shaped, it is no longer nonfiction. (Shaping is part of the form. The line from fiction is crossed when events or people are invented or misrepresented.)
+- Ethical questions in documentary end once the subjects agree to be filmed. (Filmmakers also face questions about how the final edit represents people and how subjects will be affected when the film is seen.)
+
 ## Questions
 
 ```yaml
@@ -54,6 +62,7 @@ Documentary film is a nonfiction narrative form that uses visual imagery, sound,
 
 - question: How might the questions documentary film raises about 'perspective, authenticity, and ethics of representation' play out in a concrete example? Give a specific scenario.
   type: short-answer
+  answer: "In a documentary about poverty in one neighborhood, the filmmaker chooses whom to interview, which images and music to use, and whether to show residents as victims or as people with agency. The camera's presence may change how people act, which complicates authenticity. The filmmaker also owes the community care about how the final film represents them."
   explanation: 'Consider a documentary about poverty in a particular neighborhood. The filmmaker''s perspective shapes everything: whose people to interview, which images to show, what sounds to include. Including a depressing music score is an interpretive choice; removing it is too. Showing people as victims vs. showing their agency and resilience is a perspective choice. Authenticity gets complicated: should the filmmaker reveal they''re filming? Do people act differently when they know a camera is present? Ethics: does the filmmaker have responsibility to the community they''re documenting? Will people feel exploited if they watch themselves used to create a particular narrative? These questions don''t have easy answers, but good documentaries grapple with them. The film is still factually based—these are real people, real places—but perspective, artistic choices, and ethical responsibilities shape everything.'
 ```
 

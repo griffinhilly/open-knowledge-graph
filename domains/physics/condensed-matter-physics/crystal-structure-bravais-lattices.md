@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 A crystal is a solid whose atoms are arranged in a periodically repeating pattern. This periodicity is captured by a Bravais lattice — the set of all points R = n_1 a_1 + n_2 a_2 + n_3 a_3, where a_i are primitive lattice vectors and n_i are integers. In three dimensions there are exactly 14 distinct Bravais lattices grouped into 7 crystal systems (cubic, tetragonal, orthorhombic, hexagonal, trigonal, monoclinic, triclinic), each distinguished by the symmetry operations that leave the lattice invariant. The physical crystal is described by placing a basis (one or more atoms) at each lattice point.
 
+## How It's Best Learned
+Generate lattices from primitive vectors. For FCC take (a/2)(0,1,1), (a/2)(1,0,1) and (a/2)(1,1,0); the triple product gives a primitive volume of a³/4, so the conventional cube holds 4 points. Repeat for BCC with (a/2)(−1,1,1) and its permutations to get a³/2. Then draw a honeycomb and compare the neighbor directions seen from its two kinds of site.
+
+## Common Misconceptions
+- The cubic cells drawn for BCC and FCC are primitive cells. (They are conventional cells holding 2 and 4 lattice points; the primitive cells are smaller and less symmetric in shape.)
+- Hexagonal close-packed is a Bravais lattice. (It is a hexagonal Bravais lattice with a two-atom basis, because the two layers of atoms do not have identical surroundings under translation.)
+- A crystal lattice can have any rotational symmetry, including fivefold. (Periodicity limits lattice rotations to 2-, 3-, 4- and 6-fold axes; fivefold order appears in quasicrystals, which are not periodic.)
+- The crystal system is fixed by the cell's edge lengths and angles. (It is fixed by symmetry; a cell with equal edges and right angles whose basis lacks the cubic threefold axes is not cubic.)
+
 ## Questions
 
 ```yaml

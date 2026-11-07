@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 For constant-coefficient linear ODEs, assume a solution y = e^(rx) and substitute to obtain a characteristic equation. For y'' + py' + qy = 0, the characteristic equation is r² + pr + q = 0. The roots r determine the solution form: distinct real roots give y = c₁e^(r₁x) + c₂e^(r₂x); complex roots give oscillatory solutions; repeated roots require x factors. This algebraic approach elegantly solves a wide class of equations.
 
+## How It's Best Learned
+Work y'' − 3y' + 2y = 0 by hand: substitute e^(rx), factor r² − 3r + 2 = (r − 1)(r − 2), and write y = c₁eˣ + c₂e^(2x). Then plug e^(2x) back in to see 4 − 6 + 2 = 0. After that, sort a list of equations into the three cases by computing p² − 4q before solving any of them.
+
+## Common Misconceptions
+- The method works for any linear ODE, including ones like y'' + xy = 0. (It needs constant coefficients; with x in a coefficient, e^(rx) no longer factors out to leave a polynomial in r.)
+- The characteristic equation of ay'' + by' + cy = 0 is r² + br + c = 0. (The leading coefficient stays: the equation is ar² + br + c = 0, or divide the ODE by a first.)
+- Finding the roots finishes the problem. (The roots give the general solution; initial conditions are then needed to fix c₁ and c₂.)
+- A negative root means the solution is negative. (A negative root r gives e^(rx), which is positive and decays toward zero as x grows.)
+
 ## Questions
 
 ```yaml

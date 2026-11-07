@@ -25,6 +25,14 @@ status: draft
 ## Core Idea
 Characterization in literary journalism builds from reported observation, interviews, and research rather than invention. Writers develop complex portraits of real people through revealing detail, dialogue, behavior, and interior access (drawn from interviews or observation) while maintaining factual fidelity and avoiding caricature or stereotype.
 
+## How It's Best Learned
+Profile someone you can observe in two different settings, such as a coach at practice and at a team dinner. Gather material in three columns: what they say, what they do, and what others say about them. Build a paragraph around the three details that most complicate a first impression, attributing each to its source, then check whether any detail leans on a stereotype with nothing to complicate it.
+
+## Common Misconceptions
+- To give a real person psychological depth, a journalist has to imagine their inner life. (Depth comes from reporting: interviews about how the person understands themselves, observation across settings, and documents in their own voice.)
+- Any vivid detail is fair to use as long as it is true. (A true detail chosen without context can still create a false impression or a stereotype, so selection carries responsibility.)
+- Describing a subject reveals more than quoting them. (Accurately reported dialogue often reveals character more than description does.)
+
 ## Questions
 
 ```yaml
@@ -60,6 +68,7 @@ Characterization in literary journalism builds from reported observation, interv
 
 - question: How might a narrative journalist develop a complex, nuanced character portrait without fabricating details?
   type: short-answer
+  answer: "Through extensive interviews, observation of the person in different settings, revealing details of speech and behavior, documents in their own voice, and accurately reported dialogue. The journalist lets accumulated reported detail show the person's complexity in place of summary or invention."
   explanation: 'Through: extensive interviews that reveal how the person understands themselves, their contradictions, their evolution. Observation of behavior in different contexts showing how the person acts with different people or in different situations. Details from appearance, speech patterns, choices that reveal character. Documentation like diaries, emails, letters showing the person''s own voice. Dialogue that demonstrates intelligence, humor, contradiction. Historical context about the person''s life and experiences. The journalist shows rather than tells—letting readers understand the person through accumulated detail and dialogue rather than authorial summary. This builds complex characterization without invention.'
 ```
 

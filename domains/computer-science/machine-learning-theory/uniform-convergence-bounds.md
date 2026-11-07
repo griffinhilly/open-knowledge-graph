@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Uniform convergence is the property that the empirical risk of every hypothesis in a class simultaneously converges to its true risk as the sample size grows. This is stronger than pointwise convergence (each individual hypothesis converges) because it controls the worst case over the entire class. Uniform convergence is the primary proof technique for PAC learning bounds: if training error is a reliable estimate of true error for ALL hypotheses at once, then the hypothesis with the lowest training error (ERM) must have near-optimal true error. The rate of convergence depends on the class complexity as measured by VC dimension or Rademacher complexity.
 
+## How It's Best Learned
+Simulate selection bias. Give 50 examples fair-coin labels and generate 1000 random classifiers that ignore the inputs, so every true error is 0.5. Each classifier's training error stays near 0.5, but the minimum over all 1000 typically lands at or below 0.3. That gap is what uniform convergence controls. Repeat with larger n and watch the minimum climb back toward 0.5.
+
+## Common Misconceptions
+- If each hypothesis's training error converges to its true error, the hypothesis ERM picks has a reliable training error. (ERM chooses its hypothesis after seeing the data, which favors hypotheses whose training error is luckily low. Only a guarantee over the whole class at once covers that choice.)
+- The bound states how large the gap is for the hypothesis you trained. (It bounds the largest gap over the class. The gap for your particular hypothesis can be much smaller.)
+- An infinite hypothesis class cannot have uniform convergence. (Thresholds on the real line form an infinite class with VC dimension 1, and they satisfy uniform convergence. What matters is the growth function, not the number of hypotheses.)
+- Learning without uniform convergence is impossible in every setting. (The two are equivalent for binary classification with 0-1 loss. In some more general learning settings, a problem can be learnable even though uniform convergence fails.)
+
 ## Questions
 
 ```yaml

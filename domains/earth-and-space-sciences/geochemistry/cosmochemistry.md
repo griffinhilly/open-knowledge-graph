@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 Cosmochemistry studies the chemical composition of extraterrestrial materials -- meteorites, lunar samples, interplanetary dust, comets, and presolar grains -- to understand the origin and evolution of the solar system. Chondritic meteorites (especially CI chondrites) preserve the bulk composition of the solar nebula for non-volatile elements and serve as the reference standard for planetary compositions. Isotopic anomalies in presolar grains record nucleosynthetic processes in individual stars that contributed material to the solar nebula. The condensation sequence predicts which minerals formed first as the hot solar nebula cooled (refractory oxides, then silicates, then metals, then volatiles), explaining the compositional zonation of the inner solar system. Radiometric dating of the oldest solar system materials (CAIs at 4.567 Ga) defines time zero for planetary evolution.
 
+## How It's Best Learned
+Plot a meteorite's element abundances divided by CI chondrite values, ordered by condensation temperature. A flat line at 1 means CI-like bulk chemistry. A curve that falls toward the volatile elements shows volatile depletion. Make the same plot for a carbonaceous and an ordinary chondrite and compare. Then place CAIs, chondrules, and parent-body melting on one timeline measured from CAI formation.
+
+## Common Misconceptions
+- CI chondrites are the reference because they are the least altered meteorites. (Their bulk chemistry is primitive, but their minerals are heavily altered by water on the parent body. The bulk element ratios, not the mineralogy, make them the reference.)
+- All meteorites sample the original solar nebula. (Chondrites come from bodies that never fully melted. Iron meteorites and most achondrites come from bodies that melted and separated metal from silicate.)
+- CAIs and chondrules formed together. (CAIs are the oldest dated solids. Most dated chondrules formed about 1 to 3 Myr later.)
+- The condensation sequence is a record of what happened in the nebula. (It is an equilibrium calculation. The real nebula also had evaporation, flash heating, and mixing, so it is a framework rather than a history.)
+
 ## Questions
 
 ```yaml

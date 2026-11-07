@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Neutrino oscillations -- the quantum mechanical transformation of one neutrino flavor into another during propagation -- provide direct evidence that neutrinos have nonzero masses, which is the first confirmed physics beyond the minimal Standard Model. The oscillation probability depends on the mass-squared differences Delta m^2, the mixing angles, and the baseline-to-energy ratio L/E, and the phenomenon has been observed in solar, atmospheric, reactor, and accelerator neutrinos.
 
+## How It's Best Learned
+Find the first oscillation maximum by setting 1.27 Δm² L/E = π/2. With Δm² = 2.5 × 10⁻³ eV², this gives L/E ≈ 495 km/GeV. A 1 GeV beam needs about 500 km, and 3 MeV reactor antineutrinos need about 1.5 km. Repeat with Δm² = 7.5 × 10⁻⁵ eV² to get about 50 km for reactors. Then plot P against L/E.
+
+## Common Misconceptions
+- Oscillation experiments measure the neutrino masses. (They measure differences of squared masses. The absolute scale comes from beta-decay endpoints, cosmology, or neutrinoless double beta decay.)
+- Neutrinos change flavor because they collide with matter on the way. (Oscillation happens in vacuum, from the phase difference between mass states. Matter modifies it through the MSW effect but is not its cause.)
+- The chance of a flavor change grows steadily with distance. (The probability rises and falls with L/E. Far beyond the first maximum, energy spread averages the oscillation to a constant.)
+
 ## Questions
 
 ```yaml

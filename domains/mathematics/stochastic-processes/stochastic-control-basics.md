@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Stochastic control optimizes a controlled diffusion dX = μ(X,u)dt + σ(X,u)dW, where the control u(t) is chosen adaptively to minimize an expected cost J(u) = E[∫₀ᵀ L(X,u)dt + g(X(T))]. The Hamilton-Jacobi-Bellman (HJB) equation ∂V/∂t + min_u{L(x,u) + μ(x,u)∂V/∂x + (1/2)σ²(x,u)∂²V/∂x²} = 0 characterizes the value function V(x,t), and the optimal control u* is the minimizer in the HJB equation. This is the stochastic extension of classical optimal control theory.
 
+## How It's Best Learned
+Solve one linear-quadratic problem by hand: dX = u dt + σ dW with cost E[∫₀ᵀ u² dt + X(T)²]. Guess V = a(t)x² + b(t). The inner minimum gives u* = -V_x/2 = -a(t)x, and matching powers of x gives a' = a² and b' = -σ²a. Hence a(t) = 1/(1 + T - t) and b(t) = σ² ln(1 + T - t), so the control is a feedback rule that does not involve σ.
+
+## Common Misconceptions
+- The optimal control is a schedule u(t) fixed at time 0. (It is in general a feedback rule u*(x, t) that reacts to the current state, which lets it correct for noise as it happens.)
+- More noise calls for a different, more cautious control. (Not in general; in the linear-quadratic example u* = -x/(1 + T - t) is the same for every σ, and noise only adds the cost term σ² ln(1 + T - t).)
+- The HJB equation has a smooth solution in every problem. (The value function can fail to be twice differentiable; then it solves HJB in the viscosity sense, and the classical verification argument does not apply directly.)
+
 ## Questions
 
 ```yaml

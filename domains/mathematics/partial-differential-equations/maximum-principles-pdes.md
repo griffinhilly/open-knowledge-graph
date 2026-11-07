@@ -17,6 +17,14 @@ status: validated
 ## Core Idea
 Maximum principles state that solutions to elliptic and parabolic PDEs achieve their extreme values on the boundary of the domain (or at the initial time for parabolic equations), not in the interior. For harmonic functions (solutions to Laplace's equation), this means the maximum and minimum occur on the boundary. For the heat equation, the maximum of u over a space-time cylinder occurs on the parabolic boundary (the initial time or the spatial boundary). These principles are fundamental tools for proving uniqueness, comparison results, and a priori estimates.
 
+## How It's Best Learned
+Prove the weak maximum principle once with the perturbation trick. If Δu ≥ 0, then v = u + ε|x|² has Δv > 0 and so has no interior maximum. Let ε go to 0. Then compare two solutions on [0, π]: e^{−t} sin x for the heat equation peaks at t = 0, while sin x sin t for the wave equation is zero on the bottom and sides yet reaches 1 inside.
+
+## Common Misconceptions
+- The maximum principle holds for any solution of Poisson's equation Δu = f. (It needs Δu ≥ 0 for the maximum. On (0, 1), u = x(1 − x) solves u'' = −2 with zero boundary values and has an interior maximum of 1/4.)
+- A function with Δu ≥ 0 also attains its minimum on the boundary. (Only the maximum is controlled. On the unit disk, x² + y² has its minimum 0 at the center.)
+- For the heat equation, the maximum can only be controlled by the spatial boundary values. (The initial data count too. The parabolic boundary includes the bottom t = 0 as well as the sides.)
+
 ## Questions
 ```yaml
 - question: "If u is harmonic in a bounded domain Ω and continuous on its closure, where does u attain its maximum?"

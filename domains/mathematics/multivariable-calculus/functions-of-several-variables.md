@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 A function of n variables is a rule f: D ⊆ ℝⁿ → ℝ mapping n-tuples (x₁, ..., xₙ) to real numbers. The domain D is the set of valid inputs; understanding domain restrictions (division by zero, logarithms, square roots) is essential in multivariable calculus.
 
+## How It's Best Learned
+Turn each restriction into a shaded picture in the plane. For f(x, y) = √(y − x²) / (x − 1), shade the region on and above the parabola y = x², then erase the line x = 1 and draw it dashed. Test points against the picture: (0, 1) is in the domain, (1, 2) is not, and (2, 3) is not because 3 − 4 < 0.
+
+## Common Misconceptions
+- The domain of f(x, y) is found by finding the allowed x-values and the allowed y-values separately. (Restrictions often tie x and y together, as y ≥ x² does, so the domain is a region that is not a product of two intervals.)
+- A function of two variables has two outputs. (f(x, y) returns one real number for each input point; two outputs would make it a vector-valued function.)
+- A division restriction removes only a single point from the domain. (A condition such as x − y ≠ 0 removes the whole line y = x.)
+- Boundary points are always in the domain. (They are included for conditions like ≥ 0 under a square root, and excluded for strict conditions like x + y > 0 for a logarithm.)
+
 ## Questions
 
 ```yaml

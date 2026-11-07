@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Extra spatial dimensions beyond the three we observe could resolve the hierarchy problem by lowering the fundamental gravitational scale from the Planck mass to the TeV scale. In the ADD (Arkani-Hamed, Dimopoulos, Dvali) model, gravity spreads into large extra dimensions, diluting its apparent strength. In the Randall-Sundrum model, a warped extra dimension generates the hierarchy through an exponential factor. Both scenarios predict signatures at colliders and in gravitational experiments.
 
+## How It's Best Learned
+Do the ADD size estimate for several n: R ~ (1/M_D)(M_Pl/M_D)^(2/n), with 1/TeV ≈ 2 × 10⁻¹⁹ m and M_Pl/M_D ≈ 10¹⁶. You get about 10¹³ m for n = 1, millimeters for n = 2, and roughly 10⁻¹⁴ m for n = 6. Then evaluate the RS warp factor e^(−πkr_c) for kr_c = 12 and compare the two mechanisms.
+
+## Common Misconceptions
+- Extra dimensions would have to be Planck-sized, so no experiment could test them. (In the ADD model with n = 2, a fundamental scale near 1 TeV implies dimensions near a millimeter, which short-distance gravity tests and colliders can probe.)
+- In the ADD model, all particles move freely through the large extra dimensions. (Standard Model particles are confined to a 4D brane. Only gravity spreads into the extra dimensions.)
+- The Randall-Sundrum dimension must be large to generate a large hierarchy. (The warp factor is exponential, so an extra dimension only about ten Planck lengths across gives a factor near 10⁻¹⁶.)
+
 ## Questions
 
 ```yaml
@@ -29,7 +37,7 @@ Extra spatial dimensions beyond the three we observe could resolve the hierarchy
   type: multiple-choice
   options:
     - "About 10^{-35} meters (Planck length)"
-    - "About 1 millimeter — this is shockingly large and would produce deviations from Newtonian gravity at sub-millimeter distances; experiments testing the gravitational inverse-square law at short distances have verified it down to about 50 micrometers, constraining but not yet ruling out n = 2 with M_D = 1 TeV"
+    - "About 1 millimeter — this is shockingly large and would produce deviations from Newtonian gravity at sub-millimeter distances; experiments testing the gravitational inverse-square law at short distances have verified it down to about 50 micrometers, which rules out n = 2 with M_D = 1 TeV"
     - "About 1 nanometer"
     - "About 1 Angstrom (atomic scale)"
   answer: 1

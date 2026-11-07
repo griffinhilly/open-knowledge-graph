@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Information-theoretic security provides secrecy guarantees that hold against adversaries with unlimited computational power, unlike computational security (which assumes hard problems remain hard). Shannon proved that perfect secrecy — I(M; C) = 0, where M is the message and C is the ciphertext — requires the key to be at least as long as the message (the one-time pad achieves this bound). Wyner's wiretap channel extends this to noisy channels: when the eavesdropper has a degraded channel compared to the legitimate receiver, positive secrecy rates are achievable without any shared key. Information-theoretic security is unconditional — it cannot be broken by future algorithmic advances, quantum computers, or increased computing power.
 
+## How It's Best Learned
+Encrypt a 2-bit message with a uniform 2-bit one-time pad and write out the full table of P(C | M). Every row is the same, which is perfect secrecy. Then shorten the key to 1 bit and show that the table leaks information. Reuse a pad on two messages and XOR the ciphertexts. Finally, compute a wiretap secrecy rate for two binary symmetric channels with different crossover probabilities.
+
+## Common Misconceptions
+- A one-time pad stays perfectly secret if the key is reused or only roughly random. (Reusing a pad gives C_1 XOR C_2 = M_1 XOR M_2, which leaks information. A key that is not uniform also breaks the guarantee.)
+- Perfect secrecy means the attacker cannot try all the keys. (The attacker can try every key, but each candidate message fits the ciphertext equally well. The problem is missing information, not missing computing power.)
+- Any noise on the eavesdropper's channel makes keyless secrecy possible. (Positive secrecy rates need the eavesdropper's channel to be worse than the legitimate receiver's. If the eavesdropper hears as well or better, the secrecy capacity of a degraded channel is zero.)
+- An information-theoretically secure scheme makes the whole system unbreakable. (The proof covers the model. Stolen keys, side channels and implementation bugs can still expose the message.)
+
 ## Questions
 
 ```yaml

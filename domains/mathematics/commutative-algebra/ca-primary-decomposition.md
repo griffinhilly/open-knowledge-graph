@@ -28,6 +28,14 @@ status: validated
 ## Core Idea
 A primary ideal Q in a ring R is one where ab ∈ Q implies a ∈ Q or bⁿ ∈ Q for some n — the radical √Q is prime, and Q is "concentrated" at √Q. The Lasker-Noether theorem states that in a Noetherian ring, every ideal decomposes as a finite intersection of primary ideals. This is the algebraic generalization of unique prime factorization of integers to ideals in higher-dimensional rings.
 
+## How It's Best Learned
+Verify one decomposition completely by hand: (x², xy) = (x) ∩ (x², y) in k[x, y]. An element xg of (x) lies in (x², y) exactly when g has zero constant term, which gives x·(x, y) = (x², xy). Then check that (x², y) is primary, since in k[x]/(x²) every zero divisor is nilpotent. Finally show that (x², xy) itself is not primary.
+
+## Common Misconceptions
+- An ideal whose radical is prime is primary. (The ideal (x², xy) has prime radical (x), but xy lies in it while x does not and no power of y does.)
+- Every power of a prime ideal is primary. (In k[x, y, z]/(xy - z²), the ideal P = (x̄, z̄) is prime, but P² is not primary: x̄ȳ = z̄² ∈ P², x̄ ∉ P², and ȳ ∉ P = √(P²).)
+- Primary decomposition writes an ideal as a product of primary ideals. (It uses intersections. In k[x, y], (x) ∩ (x², y) = (x², xy), but the product (x)(x², y) = (x³, xy) does not contain x².)
+
 ## Questions
 
 ```yaml

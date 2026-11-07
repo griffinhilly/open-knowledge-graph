@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 The Jordan curve theorem states that every simple closed curve in the plane R^2 divides it into exactly two connected components (a bounded "inside" and an unbounded "outside"), with the curve as their common boundary. While intuitively obvious, the theorem is notoriously hard to prove for arbitrary continuous curves. The homological proof uses the Mayer-Vietoris sequence and the homology of S^2 to establish the separation property, generalizing naturally to the Jordan-Brouwer separation theorem: any embedded S^{n-1} in S^n separates S^n into exactly two components.
 
+## How It's Best Learned
+Prove the key lemma first: an arc does not separate S^n and its complement has trivial reduced homology. Then split the curve C into two arcs A and B meeting at points p and q. Apply Mayer-Vietoris to the open sets S^n \ A and S^n \ B. Their intersection is S^n \ C and their union is S^n \ {p, q}, which is homotopy equivalent to S^{n-1}. For n = 2 this gives H̃_0(S^2 \ C) ≅ H̃_1(S^1) = Z.
+
+## Common Misconceptions
+- Any closed curve divides the plane into two regions. (The curve must be simple, meaning injective. A figure-eight divides the plane into three regions.)
+- An arc separates the plane too, since it is a piece of a closed curve. (The complement of an arc in S^n is connected. This fact is the main lemma in the proof.)
+- The homology computation shows each component is a disk. (It shows there are two components, each with trivial reduced homology. That a component is a disk is the Schoenflies theorem, which holds in the plane but fails in general in S^3.)
+
 ## Questions
 
 ```yaml
@@ -43,12 +51,12 @@ The Jordan curve theorem states that every simple closed curve in the plane R^2 
 - question: "The homological proof of the Jordan curve theorem uses Alexander duality. What does Alexander duality say in this context?"
   type: multiple-choice
   options:
-    - "H_k(S^n \\ K) ≅ H̃^{n-k-1}(K) for any compact subspace K ⊂ S^n"
+    - "H̃_k(S^n \\ K) ≅ H̃^{n-k-1}(K) for any compact, locally contractible subspace K ⊂ S^n"
     - "The fundamental group of the complement equals the homology of the curve"
     - "The curve and its complement have the same Euler characteristic"
     - "Every closed curve in S^2 is homologous to zero"
   answer: 0
-  explanation: "Alexander duality states H_k(S^n \\ K) ≅ H̃^{n-k-1}(K) (reduced Cech cohomology). For the Jordan curve theorem: K = C ≅ S^1 embedded in S^2. Then H_0(S^2 \\ C) ≅ H̃^0(S^1) ≅ Z. Since H_0 counts connected components minus one (in reduced form), H̃_0(S^2 \\ C) ≅ Z means there are exactly 2 components. Alexander duality reduces the 'separation' question (about the complement) to a cohomology computation of the embedded object itself."
+  explanation: "Alexander duality states H̃_k(S^n \\ K) ≅ H̃^{n-k-1}(K) (reduced Cech cohomology in general; singular cohomology suffices when K is locally contractible). For the Jordan curve theorem: K = C ≅ S^1 embedded in S^2. Then H̃_0(S^2 \\ C) ≅ H̃^1(S^1) ≅ Z. Since H_0 counts connected components minus one (in reduced form), H̃_0(S^2 \\ C) ≅ Z means there are exactly 2 components. Alexander duality reduces the 'separation' question (about the complement) to a cohomology computation of the embedded object itself."
 
 - question: "A figure-eight (two circles touching at a point) in the plane divides the plane into three regions. Explain why this does not contradict the Jordan curve theorem."
   type: short-answer

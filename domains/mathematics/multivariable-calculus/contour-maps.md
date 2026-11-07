@@ -27,6 +27,14 @@ status: validated
 ## Core Idea
 A contour map shows level curves of f(x, y) at equally spaced values on the xy-plane. Spacing between contours indicates steepness: close contours mean the function changes rapidly, while distant contours indicate gentle slopes. Contour maps are the primary tool for visualizing scalar fields.
 
+## How It's Best Learned
+Draw the contours of f = x² + 4y² at c = 1, 4, 9. They are ellipses with semi-axes 1 and 1/2, then 2 and 1, then 3 and 3/2. The contours are twice as close along the y-axis, so the surface is steeper in y. Then draw a straight line across the map and plot f against distance from the labels it crosses. This recovers a cross-section of the surface.
+
+## Common Misconceptions
+- Circular contours mean the surface is a sphere. (Circles show only that f depends on distance from the center. A cone, a paraboloid and a hemisphere all have circular contours, and the spacing tells them apart.)
+- Contour spacing shows steepness on any map. (That reading needs equally spaced contour values. If the labels jump unevenly, compare the labels as well as the gaps.)
+- Between two drawn contours, the function is constant. (Contours are drawn only at chosen values. A continuous f passes through every value in between as you cross the gap.)
+
 ## Questions
 
 ```yaml

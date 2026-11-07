@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 The Poincare-Bendixson theorem states that for a continuous dynamical system in the plane, a trajectory confined to a bounded region that contains no fixed points must approach a periodic orbit. This theorem is simultaneously a powerful existence result for limit cycles and a topological impossibility result for chaos: it tells you that two-dimensional continuous flows are "too simple" for chaos. Chaotic behavior requires at least three continuous dimensions.
 
+## How It's Best Learned
+Work through one trapping-region proof in polar coordinates: ṙ = r(1 − r² + μ cos θ), θ̇ = 1, with 0 < μ < 1. Show that ṙ > 0 on every circle with r < √(1 − μ) and ṙ < 0 on every circle with r > √(1 + μ). Note that θ̇ = 1 rules out fixed points in between. That annulus then holds a closed orbit, even though the orbit is never found explicitly.
+
+## Common Misconceptions
+- Any bounded region that trajectories cannot leave must contain a limit cycle. (If the region contains a fixed point, trajectories may simply converge to it; the theorem needs a region free of fixed points, often made by cutting out a small disk around a repelling one.)
+- The theorem tells you how many limit cycles there are and where they lie. (It guarantees at least one closed orbit inside the region but says nothing about their number or exact location.)
+- Poincaré-Bendixson rules out chaos in every system with two variables. (It covers autonomous flows in the plane; two-dimensional maps such as the Hénon map, and periodically forced two-variable oscillators, can be chaotic.)
+
 ## Questions
 
 ```yaml
@@ -50,7 +58,7 @@ The Poincare-Bendixson theorem states that for a continuous dynamical system in 
 
 - question: "Explain the practical strategy for using the Poincare-Bendixson theorem to prove a limit cycle exists in a specific system."
   type: short-answer
-  answer: "Construct a trapping region — a bounded, closed subset of the phase plane that trajectories enter but cannot leave (the vector field points inward on the boundary). Then show that the trapping region contains no stable fixed points (either no fixed points at all, or only unstable ones). By Poincare-Bendixson, the omega-limit set of any trajectory in the region must be a periodic orbit. Often the trapping region is an annulus: the outer boundary is established using a Lyapunov-like argument showing trajectories can't escape to infinity, and the inner boundary comes from the instability of a fixed point (trajectories spiral away from it)."
+  answer: "Construct a trapping region — a bounded, closed subset of the phase plane that trajectories enter but cannot leave (the vector field points inward on the boundary). Then show that the trapping region contains no fixed points, if necessary by cutting a small disk around a repelling fixed point out of the region. By Poincare-Bendixson, the omega-limit set of any trajectory in the region must be a periodic orbit. Often the trapping region is an annulus: the outer boundary is established using a Lyapunov-like argument showing trajectories can't escape to infinity, and the inner boundary comes from the instability of a fixed point (trajectories spiral away from it)."
   explanation: "For the van der Pol oscillator, the strategy works beautifully. Near the origin, the fixed point is unstable (eigenvalues have positive real part for μ > 0), so trajectories spiral outward — the inner boundary of the annulus. Far from the origin, the strong damping (x² ≫ 1) drives trajectories inward, establishing the outer boundary. The annulus contains no fixed points (the only one is at the origin, excluded by the inner boundary). Poincare-Bendixson guarantees a limit cycle exists between the boundaries."
 ```
 

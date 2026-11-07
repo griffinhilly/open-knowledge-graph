@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 The S-matrix (scattering matrix) maps initial states of incoming particles to final states of outgoing particles. Its matrix elements encode all observable scattering information. The S-matrix is decomposed as S = 1 + iT, where T contains the non-trivial scattering amplitude M related to physical cross sections and decay rates.
 
+## How It's Best Learned
+Put S = 1 + iT into S†S = 1 to get −i(T − T†) = T†T. Take the forward elastic matrix element and insert a complete set of final states between T† and T; the optical theorem drops out. Then test it in φ⁴ theory. The tree amplitude −λ is real, and σ_tot starts at order λ². So Im M must first appear at one loop, at order λ², from the s-channel bubble.
+
+## Common Misconceptions
+- The S-matrix describes what happens during the collision. (It relates incoming states in the far past to outgoing states in the far future and says nothing directly about intermediate times.)
+- The invariant amplitude M is a probability. (M is an amplitude; a rate or cross section needs |M|² together with flux and phase-space factors.)
+- Unitarity holds automatically at each order, so it gives no constraint on calculations. (Unitarity links different orders: the imaginary part of a loop amplitude is fixed by products of lower-order amplitudes.)
+
 ## Questions
 
 ```yaml

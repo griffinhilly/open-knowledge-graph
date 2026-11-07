@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 The Cabibbo-Kobayashi-Maskawa (CKM) matrix describes how the quark mass eigenstates mix in charged-current weak interactions. It is a 3x3 unitary matrix with four independent parameters: three mixing angles and one CP-violating phase. The hierarchical structure of the CKM matrix -- near-diagonal with small off-diagonal elements -- governs the rates of flavor-changing processes and is the sole source of CP violation in the quark sector of the Standard Model.
 
+## How It's Best Learned
+Count the parameters yourself. An n×n unitary matrix has n² real parameters, and rephasing the quark fields removes 2n − 1 phases, leaving (n − 1)². Of these, n(n − 1)/2 are angles and the rest are phases. For n = 2 that gives one angle and no phase; for n = 3, three angles and one phase. Then draw the unitarity triangle from the Wolfenstein form.
+
+## Common Misconceptions
+- Quark mixing lets the Z boson change quark flavor at tree level as well. (Because the CKM matrix is unitary, the Z couplings stay flavor-diagonal. Flavor-changing neutral currents appear only through loops, which is why they are rare.)
+- A complex phase in a two-generation mixing matrix could still produce CP violation. (With two generations, every phase can be absorbed by redefining the quark fields, leaving one real angle and no CP violation.)
+- The Standard Model predicts the values of the CKM elements. (The three angles and the phase are free parameters fixed by measurement. Why they show the observed hierarchy is an open question.)
+
 ## Questions
 
 ```yaml

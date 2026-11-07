@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 To optimize f(x, y) without constraints: (1) find critical points by setting ∇f = 0, (2) classify each using the Hessian test, (3) check boundary behavior. This process identifies global maxima and minima.
 
+## How It's Best Learned
+Work f(x, y) = x³ − 3x + y² on the whole plane through all three steps. Setting ∇f = 0 gives (1, 0) and (−1, 0). The Hessian test makes (1, 0) a local minimum with f = −2 (D = 12, f_xx = 6) and (−1, 0) a saddle (D = −12). Then check behavior far away: along y = 0, f → −∞ as x → −∞, so there is no global minimum.
+
+## Common Misconceptions
+- If a function has exactly one local minimum, that is its global minimum. (In the example, (1, 0) is the only local minimum, yet f takes values below −2 and is unbounded below.)
+- I can solve f_x = 0 and f_y = 0 separately and collect every solution. (A critical point must satisfy both equations at the same point; a point that solves only one is not critical.)
+- Only points where ∇f = 0 can be extrema. (Points where a partial derivative fails to exist are also candidates; √(x² + y²) has its minimum at the origin, where neither partial exists.)
+
 ## Questions
 
 ```yaml

@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Ferromagnetism — the spontaneous alignment of magnetic moments below a Curie temperature T_C — arises from the quantum mechanical exchange interaction, not from magnetic dipole forces (which are far too weak). The Heisenberg model H = -J sum_{<ij>} S_i · S_j with J > 0 captures this: the exchange coupling J favoring parallel spins originates from the Pauli exclusion principle and Coulomb repulsion. Mean-field theory predicts T_C = zJS(S+1)/(3k_B), spontaneous magnetization below T_C, and Curie-Weiss susceptibility chi = C/(T - T_C) above T_C. Real ferromagnets (Fe, Co, Ni) have T_C values of 600-1400 K, confirming that exchange is an electronic energy scale, not a magnetic one.
 
+## How It's Best Learned
+Start with two spin-1/2 sites. Use S₁·S₂ = ½[S_tot² − S₁² − S₂²] to show that H = −J S₁·S₂ puts the triplet at −J/4 and the singlet at +3J/4, so J > 0 favors parallel spins. Then solve the mean-field condition for S = 1/2, m = tanh(T_C m/T), graphically. A nonzero root appears only below T_C, where the slope at the origin exceeds 1.
+
+## Common Misconceptions
+- Ferromagnetism comes from the magnetic fields of neighboring atoms aligning each other. (Dipole forces are far too weak; the alignment comes from exchange, an electrostatic effect produced by the Pauli principle.)
+- Any piece of iron below its Curie temperature is a magnet. (The spontaneous magnetization exists inside each domain, but domains with different directions can cancel, leaving no net moment.)
+- Mean-field theory gives accurate Curie temperatures. (It neglects fluctuations, so it overestimates T_C and gets the critical exponents wrong.)
+
 ## Questions
 
 ```yaml

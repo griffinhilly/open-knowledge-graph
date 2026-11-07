@@ -30,6 +30,14 @@ status: validated
 ## Core Idea
 The directional derivative D_u f = ∇f · u gives the rate of change in direction u (unit vector). The gradient ∇f = ⟨f_x, f_y⟩ points in the direction of steepest ascent and has magnitude equal to the maximum directional derivative.
 
+## How It's Best Learned
+Compute one directional derivative, then check it numerically. For f = x²y at (1, 2), ∇f = ⟨4, 1⟩. The direction toward (4, 6) is ⟨3, 4⟩, so u = ⟨3/5, 4/5⟩ and D_u f = 16/5 = 3.2. Step 0.05 along u to (1.03, 2.04): f rises from 2 to about 2.164, a rate near 3.3. Compare both with the maximum rate ‖∇f‖ = √17 ≈ 4.12.
+
+## Common Misconceptions
+- For u in ∇f · u, any vector that points the right way will do. (u must be a unit vector. Using ⟨3, 4⟩ instead of ⟨3/5, 4/5⟩ in the example gives 16, five times the true rate.)
+- The gradient points up along the surface z = f(x, y). (∇f lives in the xy-plane, the input space. It tells you which way to walk on the map, not a direction on the 3D graph.)
+- Reversing the direction gives the same directional derivative. (D_(−u) f = −D_u f. Walking the opposite way, f changes at the same rate in the opposite sense.)
+
 ## Questions
 
 ```yaml

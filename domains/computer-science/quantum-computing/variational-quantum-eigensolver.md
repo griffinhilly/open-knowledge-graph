@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 The variational quantum eigensolver (VQE) is a hybrid quantum-classical algorithm that finds the ground-state energy of a Hamiltonian by variationally optimizing a parameterized quantum circuit (ansatz). The quantum computer prepares a trial state |psi(theta)> and measures the expectation value <psi(theta)|H|psi(theta)>; a classical optimizer updates theta to minimize this energy. By the variational principle, the measured energy is always an upper bound on the true ground-state energy. VQE is designed for near-term noisy intermediate-scale quantum (NISQ) devices, requiring shallow circuits that tolerate noise, at the cost of requiring many measurement repetitions and classical optimization iterations.
 
+## How It's Best Learned
+Run VQE by hand on one qubit with H = X + Z and the ansatz Ry(theta)|0>. Show that <Z> = cos theta and <X> = sin theta, where <X> is measured by applying a Hadamard before a Z measurement. Plot E(theta) = sin theta + cos theta and find its minimum, -sqrt(2) at theta = 5pi/4. Check that -sqrt(2) is the lower eigenvalue of X + Z.
+
+## Common Misconceptions
+- When the optimizer converges, the result is the ground-state energy. (It is the lowest energy the ansatz reached. If the ansatz cannot express the ground state, or the optimizer stalls in a local minimum, the result sits above E_0.)
+- The quantum computer measures the energy directly in one run. (H is split into Pauli strings, and each term's expectation value is estimated from many repeated shots. Terms that do not commute need separate measurement settings.)
+- Adding more layers to the ansatz improves the answer. (A deeper circuit adds gate noise and can create barren plateaus where gradients become too small to follow.)
+- VQE runs on hardware have already shown a chemistry speedup over classical computers. (The molecules run so far, such as H2 and LiH, are easy for classical methods. VQE is a heuristic with no proven speedup.)
+
 ## Questions
 
 ```yaml

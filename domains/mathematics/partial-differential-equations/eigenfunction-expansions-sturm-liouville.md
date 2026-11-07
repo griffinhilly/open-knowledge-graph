@@ -19,6 +19,14 @@ status: validated
 ## Core Idea
 Sturm-Liouville theory generalizes Fourier series by showing that a wide class of second-order boundary value problems -(p(x)y')' + q(x)y = λw(x)y produce an orthogonal basis of eigenfunctions for an appropriate function space. Any sufficiently well-behaved function can be expanded in this eigenbasis, just as functions can be expanded in sines and cosines. This framework unifies the separation of variables technique: when a PDE is separated, the spatial part typically yields a Sturm-Liouville problem whose eigenfunctions provide the building blocks for the solution.
 
+## How It's Best Learned
+Solve one problem completely that is not a plain sine series: y'' + λy = 0 on [0, π] with y(0) = 0 and y'(π) = 0. The eigenfunctions are sin((n − ½)x) with λ = (n − ½)². Check their orthogonality by integration, count n − 1 interior zeros, and expand f(x) = x. Then change to y'(1) + y(1) = 0 on [0, 1] and locate the eigenvalues graphically from tan k = −k.
+
+## Common Misconceptions
+- Eigenfunctions are orthogonal in the plain integral ∫fg dx. (Orthogonality uses the weight w. Fourier-Bessel functions J₀(αₙr) on [0, 1] are orthogonal only with the factor r.)
+- The eigenfunction series equals f at every point. (Convergence is guaranteed in the weighted L² sense. The sine series of f = 1 on [0, π] equals 0 at both endpoints, since every term vanishes there.)
+- Sturm-Liouville eigenvalues are positive. (They are real and bounded below, but a negative q can push some below zero. With q = −c and Dirichlet conditions on [0, π], the eigenvalues are n² − c.)
+
 ## Questions
 ```yaml
 - question: "In a regular Sturm-Liouville problem, what is guaranteed about the eigenvalues?"

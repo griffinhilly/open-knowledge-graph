@@ -20,6 +20,15 @@ status: validated
 ## Core Idea
 Conditional Cash Transfers (CCTs) provide cash to poor households contingent on behaviors like school attendance or health checkups, directly addressing poverty while creating human capital investment incentives. Mexico's Progresa and Brazil's Bolsa Família became flagship programs. Randomized evidence shows CCTs increase enrollment and health utilization; long-run income effects remain under evaluation.
 
+## How It's Best Learned
+Walk through Progresa's design as an evaluator would. Villages were phased in at random, so later villages served as the control group. List the outcomes measured (enrollment, clinic visits, nutrition) and predict which ones conditionality should move most. Then add a school with no teacher and ask which outcomes the transfer can still change.
+
+## Common Misconceptions
+- The conditions exist to move families off welfare. (They aim to offset the cost of schooling and health visits and steer spending toward human capital, not mainly to move families off the program.)
+- If more children enroll, they will learn more. (CCTs act on demand. If schools lack teachers or materials, attendance may rise without learning gains.)
+- Conditions matter equally for every outcome. (Some evidence suggests conditions matter most for schooling, where explicitly monitored programs show larger enrollment gains. For other outcomes, such as teen pregnancy in a Malawi trial, unconditional cash did as well or better.)
+- CCTs are proven to raise adult earnings. (Long-run evidence is still accumulating. Early results from Mexico show modest positive labor market effects.)
+
 ## Questions
 
 ```yaml

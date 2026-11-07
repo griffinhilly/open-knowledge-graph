@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 The Wronskian W[y₁, y₂] = y₁y₂' - y₂y₁' is a determinant measuring linear independence of two solutions. If W ≠ 0 at any point, the solutions are linearly independent and form a fundamental set generating all solutions. For linear ODEs, the Wronskian is either always zero or never zero, making it a definitive test for independence.
 
+## How It's Best Learned
+Compute W for the pairs that came out of the root cases: W[eʳᵗ, teʳᵗ] = e^(2rt) and W[cos βt, sin βt] = β, both nonzero. Then compute W[t, t²] = t², which is zero only at t = 0. Asking why Abel's theorem allows this (these are not solutions of one equation y'' + py' + qy = 0 with continuous coefficients near 0) shows where the theorem applies.
+
+## Common Misconceptions
+- W = 0 everywhere proves that any two functions are dependent. (That holds for solutions of the same linear ODE; t² and t|t| have W = 0 everywhere, yet they are independent on (−1, 1).)
+- The Wronskian of any two functions is either always zero or never zero. (Abel's theorem covers solutions of one linear ODE on an interval where p and q are continuous; W[t, t²] = t² is zero at a single point.)
+- A nonzero Wronskian at one point shows that the two functions are solutions. (The Wronskian tests independence only; each function still has to be checked in the equation.)
+
 ## Questions
 
 ```yaml

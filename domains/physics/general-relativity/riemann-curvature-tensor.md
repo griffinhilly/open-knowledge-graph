@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 The Riemann curvature tensor R^ρ_{σμν} is the mathematical object that encodes the intrinsic curvature of spacetime — the genuine gravitational field that cannot be eliminated by any coordinate choice. It measures the failure of parallel transport to commute around closed loops, and equivalently the relative acceleration of nearby geodesics (tidal forces, via the geodesic deviation equation). It is constructed from the Christoffel symbols and their first derivatives: R^ρ_{σμν} = ∂_μ Γ^ρ_{νσ} - ∂_ν Γ^ρ_{μσ} + Γ^ρ_{μλ}Γ^λ_{νσ} - Γ^ρ_{νλ}Γ^λ_{μσ}. In four dimensions the Riemann tensor has 20 independent components (reduced from 256 by its symmetries), which fully characterize the curvature at each point. All other curvature quantities — the Ricci tensor, Ricci scalar, Weyl tensor, and Einstein tensor — are derived from it.
 
+## How It's Best Learned
+Parallel-transport a vector around the geodesic triangle on a sphere of radius a with three right angles (one octant). It comes back turned by π/2, which equals the enclosed area 4πa²/8 divided by a². Then take the Newtonian limit, where R^i_0j0 ≈ ∂_i∂_jΦ/c². For Φ = −GM/r, nearby falling particles separate radially at 2GM/r³ per unit separation and close in sideways at GM/r³.
+
+## Common Misconceptions
+- Curved spacetime means spacetime is bent inside some higher-dimensional space. (The Riemann tensor is intrinsic and needs no embedding. A cylinder looks bent from outside but has zero Riemann curvature.)
+- The Riemann tensor can be removed at a point by choosing freely falling coordinates, just as the Christoffel symbols can. (It is a tensor, so if it is nonzero in one coordinate system it is nonzero in all.)
+- Tidal effects are just a weaker form of the ordinary gravitational pull. (Tides come from differences in gravity across a body. A perfectly uniform field produces no tides and no curvature.)
+
 ## Questions
 
 ```yaml

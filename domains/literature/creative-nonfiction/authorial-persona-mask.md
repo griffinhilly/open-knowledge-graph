@@ -22,6 +22,14 @@ status: draft
 ## Core Idea
 Even in nonfiction, the narrator is a constructed persona shaped for literary effect. Understanding that memoirs and essays present a crafted self helps readers evaluate reliability and writers make conscious choices about self-presentation. The 'I' is simultaneously true and a constructed literary entity.
 
+## How It's Best Learned
+Write one true incident twice: once in the voice of your younger self at the time, once in the voice of your present, reflective self. List what each version emphasizes, omits, and judges. Then mark a published memoir passage for signs of construction, such as hindsight comments, chosen details, and tone, and describe the persona those choices create.
+
+## Common Misconceptions
+- If the narrator is constructed, the memoir is a kind of fiction. (The persona is a crafted presentation of a real self. The events and the person stay real; what is shaped is selection, voice, and emphasis.)
+- The "I" in a memoir is the author speaking directly, with no mediation. (Memory, hindsight, and craft choices all stand between the lived person and the narrating "I.")
+- A constructed persona means the reader should distrust the narrator's facts. (Awareness of construction asks the reader to notice whose perspective shapes the account. A constructed persona can still report events honestly.)
+
 ## Questions
 
 ```yaml
@@ -57,6 +65,7 @@ Even in nonfiction, the narrator is a constructed persona shaped for literary ef
 
 - question: Describe how a memoirist might construct their persona differently if writing for different audiences—say, a confessional memoir for a literary journal versus a family memoir for relatives. How does awareness of this construction affect how we read each version?
   type: short-answer
+  answer: "For a literary journal, a memoirist might present a raw, introspective persona that foregrounds vulnerability; for relatives, a more protective persona that respects shared relationships. Seeing both as constructions leads readers to ask which version of the self the writer chose to present, and why, without treating either as dishonest."
   explanation: 'A memoirist might adopt a more raw, introspective persona for a literary audience, emphasizing vulnerability and psychological insight. For family, they might construct a more protective persona, acknowledging complexity while respecting relationships. Neither is dishonest—both are truthful within different frameworks and purposes. This shows that the persona is not a fixed self but a variable constructed entity. Awareness of audience construction helps readers ask: ''What version of themselves did this writer choose to present here, and why?'' This critical awareness doesn''t undermine the memoir; it deepens our understanding of how nonfiction works.'
 ```
 

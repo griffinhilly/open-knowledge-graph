@@ -22,6 +22,14 @@ status: draft
 ## Core Idea
 Cultural translation essays explore how meanings and practices move across cultural boundaries while acknowledging the impossibility of perfect translation. Writers working across difference must attend to power dynamics, stereotype, and the ethics of interpretation.
 
+## How It's Best Learned
+Pick a word, custom, or gesture from a culture you know well that has no neat equivalent elsewhere. Write a paragraph explaining it to an outsider, then mark each sentence as explanation (how it works in context) or interpretation (what you make of it). Circle any sentence that speaks for a whole culture. Last, list what your paragraph could not carry across.
+
+## Common Misconceptions
+- A careful enough writer can translate a culture completely. (Meanings shift when they cross cultural boundaries, so some loss or change is part of the task. Good essays show those gaps.)
+- Only insiders can write about a culture responsibly. (Insiders bring knowledge outsiders lack, but they can also simplify their own culture. Both positions call for openness about where the writer stands.)
+- Describing a practice as exotic or unusual shows appreciation. (Exoticizing treats a living culture as strange or frozen. Responsible writing presents it as complex and contemporary.)
+
 ## Questions
 
 ```yaml
@@ -57,6 +65,7 @@ Cultural translation essays explore how meanings and practices move across cultu
 
 - question: How might a cultural translation essay approach a tradition or practice from another culture responsibly? What ethical considerations should shape the writing?
   type: short-answer
+  answer: "A responsible essay would state the writer's position, acknowledge that full translation is impossible, and recognize any history of stereotype around the practice. It would separate explanation from personal interpretation, credit sources from within the culture, use specific detail instead of generalizing, and present the culture as complex and contemporary."
   explanation: 'A responsible essay would acknowledge that full understanding is impossible—you''re always translating across a gap. It would recognize historical power dynamics (has this culture been stereotyped or misrepresented before?). It would distinguish between explanation and interpretation—''This practice means X in context'' versus ''I interpret this as meaning Y.'' It would credit sources and authorities from within that culture. It would acknowledge the writer''s position: Am I an insider or outsider? What shapes my perspective? What can I know and what should I admit I can''t know? The essay would use specific detail (not generalizing about ''all of culture X'') and would resist exoticizing. Most importantly, it would treat the culture being described as complex and contemporary, not as frozen anthropological specimen. These ethical commitments don''t guarantee perfect translation, but they demonstrate respect for the impossibility and complexity of the task.'
 ```
 

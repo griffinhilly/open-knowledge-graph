@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 Laplace's equation ∇²u = 0 (in 2D: ∂²u/∂x² + ∂²u/∂y² = 0) governs steady-state temperature, electric potential, and gravitational fields. It is elliptic with no time evolution; solutions depend entirely on boundary conditions (Dirichlet, Neumann, or Robin). Unlike parabolic and hyperbolic PDEs, elliptic equations require simultaneous solving over the entire domain, making them computationally different but essential for equilibrium problems.
 
+## How It's Best Learned
+Check a few functions by hand: x² − y² is harmonic (2 − 2 = 0), and x² + y² is not (2 + 2 = 4). Then average x² − y² around a circle of radius r centered at the origin; in polar form it is r²cos 2θ, which averages to 0, the value at the center. This mean-value picture explains why harmonic functions have no interior peaks.
+
+## Common Misconceptions
+- Laplace's equation is solved with the Laplace transform. (They share a name only; Laplace's equation is a PDE usually solved by separation of variables, while the Laplace transform is an integral transform used mostly for initial value problems.)
+- A solution of ∇²u = 0 has zero curvature in every direction, so it must be a plane. (Only the sum of the second derivatives is zero; x² − y² curves up in x and down in y and is harmonic.)
+- Fixing u on part of the boundary is enough to determine the solution. (Conditions are needed on the whole closed boundary; leaving part unspecified leaves many solutions.)
+
 ## Questions
 
 ```yaml
@@ -66,6 +74,6 @@ Laplace's equation ∇²u = 0 (in 2D: ∂²u/∂x² + ∂²u/∂y² = 0) governs
 
 The contrast with the wave equation (your prerequisite) is instructive. The wave equation ∂²u/∂t² = c²∇²u involves two time derivatives and describes propagation: disturbances travel outward, and the current state of the system depends on how it started and evolved. Laplace's equation has no time variable at all. It is **elliptic**: information about the solution at any point depends on conditions everywhere on the boundary simultaneously, not just nearby or upstream. This is the key structural difference — you cannot march a Laplace solution forward in time or from one boundary. You must specify conditions on the entire boundary and solve everywhere at once.
 
-The three types of **boundary conditions** specify different physical information. **Dirichlet conditions** specify the value of u on the boundary (e.g., fixed temperature). **Neumann conditions** specify the normal derivative ∂u/∂n (e.g., heat flux through the boundary). **Robin conditions** mix both. For Laplace's equation in a bounded domain, a Dirichlet or Neumann boundary condition on a closed boundary uniquely determines the solution (by the maximum principle: harmonic functions achieve their max and min on the boundary, not in the interior).
+The three types of **boundary conditions** specify different physical information. **Dirichlet conditions** specify the value of u on the boundary (e.g., fixed temperature). **Neumann conditions** specify the normal derivative ∂u/∂n (e.g., heat flux through the boundary). **Robin conditions** mix both. For Laplace's equation in a bounded domain, a Dirichlet condition on a closed boundary uniquely determines the solution (by the maximum principle: harmonic functions achieve their max and min on the boundary, not in the interior); a Neumann condition determines it only up to an added constant.
 
 Solving Laplace's equation analytically typically uses **separation of variables**, which you've already seen for the wave equation. For example, in a rectangle, assume u(x,y) = X(x)Y(y); substituting gives X''/X = −Y''/Y = constant. This splits into two ordinary differential equations, each solved by sinusoidal or exponential functions depending on the sign of the constant. Applying boundary conditions selects which eigenfunctions are permitted and determines their coefficients via Fourier series. On more complex geometries (circles, spheres), the same method leads to Bessel functions or Legendre polynomials — different families of eigenfunctions appropriate to the geometry. The essential idea is always the same: decompose the boundary data into modes, solve for each mode separately, and superpose.

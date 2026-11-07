@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 B-physics is the study of hadrons containing a bottom (b) quark, whose long lifetime (~1.5 ps), large mixing frequency, and access to all three CKM unitarity triangle angles make them ideal laboratories for testing the CKM mechanism and searching for new physics in flavor-changing processes. The B factories (BaBar, Belle, Belle II) and LHCb have produced the precision measurements that established CP violation in the B system and continue to search for deviations from Standard Model predictions.
 
+## How It's Best Learned
+Sketch one B-factory event: the boosted Υ(4S) gives a B and a B̄ that both move along the boost axis. One decays to a flavor-tagging final state, the other to J/ψ K_S. Convert the separation of the two vertices, Δz, into a decay-time difference Δt. Then plot the expected CP asymmetry against Δt as a sine curve whose amplitude is sin(2β).
+
+## Common Misconceptions
+- The asymmetric beam energies at B factories exist to make more B mesons. (The production rate is set by the center-of-mass energy at the Υ(4S). The asymmetry boosts the B pair so the two decay vertices are separated enough to measure Δt.)
+- The two B mesons from an Υ(4S) decay oscillate independently of each other. (They are produced in a coherent quantum state with opposite flavor until one decays, which is why tagging one B fixes the flavor of the other at that instant.)
+- B factories running at the Υ(4S) study B_s mesons the same way they study B_d. (The Υ(4S) lies below the threshold for a B_s pair, so B_s physics comes mainly from hadron colliders such as LHCb or from runs at higher Υ resonances.)
+
 ## Questions
 
 ```yaml
@@ -34,7 +42,7 @@ B-physics is the study of hadrons containing a bottom (b) quark, whose long life
     - "Because longer-lived particles produce more decay products"
     - "Because the long lifetime makes B mesons easier to trigger on"
   answer: 1
-  explanation: "The B factories (PEP-II, KEKB) used asymmetric beam energies so that the B mesons were boosted in the lab frame, stretching the ~450 micrometer proper decay length to ~260 micrometers (BaBar) or ~200 micrometers (Belle). Silicon vertex detectors with ~50 micrometer resolution could then measure the decay time difference between the two B mesons in each event. This time difference is the key variable for measuring mixing oscillations and time-dependent CP asymmetries."
+  explanation: "The B factories (PEP-II, KEKB) used asymmetric beam energies so that the B mesons were boosted in the lab frame, turning the ~450 micrometer proper decay length (c*tau) into mean lab flight distances of ~260 micrometers (BaBar) or ~200 micrometers (Belle). Silicon vertex detectors with ~50 micrometer resolution could then measure the decay time difference between the two B mesons in each event. This time difference is the key variable for measuring mixing oscillations and time-dependent CP asymmetries."
 
 - question: "LHCb operates at the LHC but has a very different design philosophy from ATLAS and CMS. It is a single-arm forward spectrometer covering pseudorapidity 2 < eta < 5. Why is this geometry chosen for B physics?"
   type: short-answer
@@ -56,7 +64,7 @@ B-physics is the study of hadrons containing a bottom (b) quark, whose long life
 
 **B-physics** exploits the unique properties of the bottom quark to test the Standard Model's flavor sector with high precision. The b quark's relatively long lifetime (arising from the small CKM elements |V_cb| ~ 0.04 and |V_ub| ~ 0.004 that govern its decay) produces experimentally measurable displaced vertices. The large B_d and B_s mixing frequencies allow observation of matter-antimatter oscillation. And the accessibility of decay modes sensitive to all three angles (alpha, beta, gamma) and all three sides of the unitarity triangle makes B mesons the most versatile probes of CKM physics.
 
-The **B factory era** (1999-2010) was defined by the BaBar experiment at SLAC and the Belle experiment at KEK. These experiments operated at the Upsilon(4S) resonance, which decays almost exclusively to B_d B_d-bar pairs, providing a clean, tagged environment. The primary achievement was the measurement of sin(2*beta) = 0.699 +/- 0.017 from time-dependent CP asymmetries in B -> J/psi K_S, establishing CP violation in the B system and confirming the CKM prediction. Additional measurements of alpha, gamma, branching ratios for rare decays, and searches for new physics in loop-dominated processes filled out the CKM picture.
+The **B factory era** (1999-2010) was defined by the BaBar experiment at SLAC and the Belle experiment at KEK. These experiments operated at the Upsilon(4S) resonance, which decays almost exclusively to B B-bar pairs (roughly half charged, half neutral), providing a clean, tagged environment. The primary achievement was the measurement of sin(2*beta) = 0.699 +/- 0.017 from time-dependent CP asymmetries in B -> J/psi K_S, establishing CP violation in the B system and confirming the CKM prediction. Additional measurements of alpha, gamma, branching ratios for rare decays, and searches for new physics in loop-dominated processes filled out the CKM picture.
 
 **LHCb** has extended B-physics into a new precision regime. Operating at the LHC with its enormous b-quark production rate, LHCb has measured B_s mixing with exquisite precision, discovered B_s -> mu+ mu- (a rare loop-induced decay with branching ratio ~3 x 10^{-9}, matching the SM prediction), performed the most precise single measurement of the unitarity triangle angle gamma, and discovered multiple exotic hadrons. The LHCb upgrade (Run 3, starting 2022) reads out the full detector at the LHC bunch crossing rate, increasing the effective luminosity by a factor of ~5.
 

@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Surface codes are a family of topological stabilizer codes defined on a 2D lattice, where qubits live on edges and stabilizers are local plaquette and vertex operators. The toric code encodes 2 logical qubits on a torus; the planar surface code encodes 1 logical qubit with boundary conditions. Surface codes are the leading candidates for practical quantum error correction because they require only nearest-neighbor interactions on a 2D grid, have high error thresholds (~1% per gate), and allow efficient syndrome decoding. The price is a large overhead: an [[n,1,d]] surface code uses n = O(d^2) physical qubits for distance d.
 
+## How It's Best Learned
+Draw a small planar lattice on graph paper. Put an X error on one edge and shade the plaquettes whose Z stabilizers it flips. Extend it into a chain of X errors, each new edge shared with the last plaquette reached, and notice that only the two end plaquettes stay shaded. Then stretch both ends out to opposite boundaries, so that each end is an edge that belongs to only one plaquette: no plaquette is shaded, yet the logical qubit has flipped.
+
+## Common Misconceptions
+- The syndrome tells you exactly which qubits had errors. (It shows only the endpoints of error chains, and many different chains share the same endpoints. The decoder picks a likely chain; correction succeeds if its guess and the real error together form a product of stabilizers.)
+- Making the lattice bigger reduces logical errors whatever the hardware quality. (That holds only below threshold. Above threshold, a larger code gives a higher logical error rate.)
+- Hardware just under the ~1% threshold is good enough for practical use. (Close to threshold, each increase in distance gives little suppression, so the qubit count becomes enormous. Practical schemes aim for physical error rates well below threshold.)
+- Once qubits are protected by a surface code, every logical gate is straightforward. (The T gate cannot be done in the same easy way as the Clifford gates. It usually requires magic state distillation, which adds overhead.)
+
 ## Questions
 
 ```yaml

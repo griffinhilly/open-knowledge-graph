@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Once a basis for V is chosen, a representation ρ: G → GL(V) becomes a map G → GL_n(F), assigning an n×n invertible matrix to each group element. Different basis choices yield different matrix representations of the same abstract representation. The passage from abstract linear maps to concrete matrices makes computation possible but introduces basis-dependence that must be carefully managed.
 
+## How It's Best Learned
+Write the permutation representation of S₃ on ℂ³ in two bases. In the standard basis, (12) is a 3×3 permutation matrix. In the basis (1, 1, 1), (1, −1, 0), (0, 1, −1), compute the images of the basis vectors under (12) and get the block matrix 1 ⊕ [[−1, 1], [0, 1]]. Both matrices have trace 1, and the second shows the invariant line and plane directly.
+
+## Common Misconceptions
+- The coordinates of ρ(g)(vⱼ) go in row j of the matrix. (They go in column j. Using rows gives the transposed matrices, which multiply in the reverse order and so can break ρ(gh) = ρ(g)ρ(h).)
+- A change of basis produces a new, different representation. (It produces an equivalent matrix representation. The abstract representation stays the same.)
+- Matrices for the generators define a representation as long as each one has the right order. (Every defining relation must hold. For S₃, rotation by 120° and −I have orders 3 and 2, but they commute, so srs = r⁻¹ fails.)
+
 ## Questions
 
 ```yaml

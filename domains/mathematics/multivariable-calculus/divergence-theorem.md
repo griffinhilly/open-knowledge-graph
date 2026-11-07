@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 Divergence theorem: ∬_S F · dS = ∭_W (∇·F) dV, where S is the closed surface bounding W (outward normal). This relates flux through a closed surface to divergence integrated over the volume.
 
+## How It's Best Learned
+Slice the region into many small boxes. For each box, the outward flux is about (∇·F) times its volume. Where two boxes share a face, one box's outflow is the other's inflow, so those terms cancel. Only faces on the outer surface survive. Sketching this in 2D with a grid of squares makes the cancellation visible before the 3D statement.
+
+## Common Misconceptions
+- The surface integral and the volume integral use the same integrand. (The surface side integrates F · n, while the volume side integrates the scalar ∇·F, a derivative of F.)
+- Divergence at a point tells you the flux through the whole surface. (Divergence is a local rate per unit volume; the theorem needs it integrated over every point of W.)
+- The theorem gives the flux through each piece of the surface, such as one face of a cube. (It gives only the total flux through the whole closed surface; to get one piece, you must subtract the flux through the other pieces.)
+- The theorem works for any field you can write down. (It requires F to have continuous first partial derivatives throughout W and S to be closed and piecewise smooth.)
+
 ## Questions
 
 ```yaml

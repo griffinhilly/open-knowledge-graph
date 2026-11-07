@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 A Reproducing Kernel Hilbert Space (RKHS) is a Hilbert space of functions where point evaluation is a continuous linear functional — meaning you can evaluate any function at any point without pathological behavior. Every RKHS is uniquely associated with a positive definite kernel k via the reproducing property: f(x) = <f, k(x, ·)>. This theoretical foundation explains why kernel methods work: the kernel defines both the function space and its geometry. Mercer's theorem connects positive definite kernels to feature maps, and the RKHS norm provides a natural regularizer that controls function complexity.
 
+## How It's Best Learned
+Start with the linear kernel k(x, y) = ⟨x, y⟩, whose RKHS is the linear functions f(x) = ⟨w, x⟩ with norm ||w||, and check the reproducing property directly. Next, expand (1 + xy)² on the real line into the features (1, sqrt(2)·x, x²). Finally, build f = Σ α_i k(x_i, ·) for an RBF kernel, compute ||f||² = αᵀKα, and confirm |f(x)| ≤ ||f||·sqrt(k(x, x)) at a few points.
+
+## Common Misconceptions
+- Any similarity function can serve as a kernel. (A kernel must be symmetric and positive semidefinite: every Gram matrix it produces has no negative eigenvalues. Otherwise no RKHS or feature map exists for it.)
+- The RBF kernel's RKHS contains every continuous function. (Its members are infinitely differentiable, so it is a strict subset. It is dense in the continuous functions on a compact set, which is why RBF kernel methods can approximate them.)
+- The RKHS norm is just the L² norm. (The RKHS norm depends on the kernel and penalizes roughness. Two functions with similar L² norms can have very different RKHS norms.)
+
 ## Questions
 
 ```yaml

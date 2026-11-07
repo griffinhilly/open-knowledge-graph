@@ -27,6 +27,14 @@ status: validated
 ## Core Idea
 A ring is semisimple if every module over it is completely reducible (a direct sum of simple modules). The Artin-Wedderburn theorem classifies all semisimple rings: they are precisely the finite direct products of matrix algebras over division rings, R ≅ M_{n₁}(D₁) × ··· × M_{nₖ}(Dₖ). Applied to the group algebra ℂ[G], this gives ℂ[G] ≅ M_{d₁}(ℂ) × ··· × M_{dₖ}(ℂ), where d₁, …, dₖ are the dimensions of the irreducible representations. This single theorem unifies Maschke's theorem, the dimension formula |G| = Σ dᵢ², and the structure of character theory.
 
+## How It's Best Learned
+Build the isomorphism for S₃ explicitly. Send each g to the triple (1, sign(g), ρ(g)) in ℂ × ℂ × M₂(ℂ), where ρ is the two-dimensional representation, and extend linearly. This is an algebra map between spaces of dimension 6, so it is an isomorphism once you check that the six images are linearly independent. Then compute a case over ℝ: x³ − 1 = (x − 1)(x² + x + 1), so ℝ[ℤ/3ℤ] ≅ ℝ × ℂ, a factor whose division ring is larger than the base field.
+
+## Common Misconceptions
+- A semisimple ring is the same as a simple ring. (A simple ring has no proper nonzero two-sided ideals. ℂ × ℂ is semisimple but not simple, since ℂ × 0 is a proper ideal.)
+- The Wedderburn factors are matrix algebras over the base field. (That holds over an algebraically closed field. ℝ[ℤ/3ℤ] ≅ ℝ × ℂ has a factor over the division ring ℂ.)
+- The matrix algebra M_n(D) is a simple module over itself. (As a left module it is a direct sum of n copies of the column module Dⁿ, which is its unique simple module.)
+
 ## Questions
 
 ```yaml

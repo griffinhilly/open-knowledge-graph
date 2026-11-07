@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Localization generalizes the construction of fractions. Given a commutative ring R and a multiplicatively closed subset S, the localization S⁻¹R consists of formal fractions r/s with r ∈ R, s ∈ S, subject to the same equivalence relation as ordinary fractions. This construction lets you "zoom in" on the behavior of a ring near a prime ideal by inverting everything outside it, reducing global questions to local ones.
 
+## How It's Best Learned
+Compare ℤ₍₅₎ and ℤ[1/5] side by side, listing which fractions each contains. Then localize a ring with zero divisors. In ℤ/6ℤ, the set S = {1, 3} is multiplicatively closed since 3·3 = 3. Because 3·(2 - 0) = 0, the fraction 2/1 equals 0/1, and the result is a copy of ℤ/2ℤ. This shows why the extra factor u appears in the equivalence relation.
+
+## Common Misconceptions
+- Localizing at the prime (5) means inverting 5. (It inverts everything outside (5). Inverting 5 alone gives ℤ[1/5], a different ring, in which 5 is a unit.)
+- The map R → S⁻¹R is always injective. (Its kernel is the set of elements killed by some s ∈ S. In ℤ/6ℤ with S = {1, 3}, the element 2 maps to 0.)
+- The factor u in the rule u(rs' - r's) = 0 can be dropped. (Without it, the relation can fail to be transitive when S contains zero divisors. For domains with 0 ∉ S it makes no difference.)
+
 ## Questions
 
 ```yaml

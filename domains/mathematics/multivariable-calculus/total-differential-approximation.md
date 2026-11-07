@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 The total differential df = (∂f/∂x)dx + (∂f/∂y)dy approximates the change in f when x and y change by small amounts dx and dy. For small changes, f(a+dx, b+dy) ≈ f(a, b) + df provides a linear approximation.
 
+## How It's Best Learned
+Compare df with the exact change Δf. For f(x, y) = x²y at (3, 2), df = 12 dx + 9 dy. With dx = 0.1 and dy = −0.05, df = 0.75, while Δf = f(3.1, 1.95) − 18 = 0.7395. Halve both steps: df = 0.375 and Δf ≈ 0.3724, so the gap falls from about 0.0105 to about 0.0026, roughly a quarter.
+
+## Common Misconceptions
+- The partial derivatives in df are taken at the new point (a + dx, b + dy). (They are evaluated at the base point (a, b), where the values are known.)
+- The signed sum df gives the largest possible error. (When dx and dy are uncertainties of unknown sign, the worst case is |f_x||dx| + |f_y||dy|; in the example that is 1.65, not 0.75.)
+- df only makes sense when dx and dy are infinitely small. (df is a linear function defined for any dx and dy; it is a good approximation to Δf when they are small.)
+
 ## Questions
 
 ```yaml

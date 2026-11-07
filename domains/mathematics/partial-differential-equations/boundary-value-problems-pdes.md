@@ -19,6 +19,14 @@ status: validated
 ## Core Idea
 A boundary value problem (BVP) pairs a PDE in a domain Ω with conditions on the boundary ∂Ω that determine the solution. The three classical types are: Dirichlet (specifying u on the boundary), Neumann (specifying the normal derivative ∂u/∂n on the boundary), and Robin (specifying a linear combination αu + β∂u/∂n). The choice of boundary condition corresponds to different physical situations—fixed temperature, insulated surface, or convective heat transfer—and critically affects existence, uniqueness, and the qualitative behavior of solutions.
 
+## How It's Best Learned
+Start in one dimension, where every case is solvable by hand. Take u'' = 0 on [0, 1], so u = ax + b, and impose each condition type in turn. Dirichlet u(0) = 0, u(1) = 1 gives exactly u = x. Neumann u'(0) = u'(1) = 0 gives every constant, and u'(0) = 0, u'(1) = 1 gives no solution at all. Then compare these outcomes with the compatibility and uniqueness statements in higher dimensions.
+
+## Common Misconceptions
+- Neumann data g can be any function on the boundary. (For Δu = f the divergence theorem forces ∫_∂Ω g dS = ∫_Ω f dV. Data that violates this has no solution.)
+- A Robin condition gives a unique solution whatever the signs of α and β. (For Δu = f, writing it as ∂u/∂n + hu = g with the outward normal, h > 0 gives uniqueness. For some negative h, nonzero solutions of the homogeneous problem exist.)
+- Prescribing both u and ∂u/∂n on the whole boundary pins the solution down even better. (For Laplace's equation this overdetermines the problem. Most such data pairs have no solution, and the Cauchy problem for Laplace's equation is ill-posed.)
+
 ## Questions
 ```yaml
 - question: "For the Neumann problem for Laplace's equation ∂u/∂n = g on ∂Ω, what compatibility condition must g satisfy?"

@@ -28,6 +28,14 @@ status: validated
 ## Core Idea
 Agricultural productivity improvements are central to development because agriculture employs large labor shares in poor countries. Yield improvements through better varieties and practices have massive multiplier effects: freed-up labor migrates to industry, incomes expand, and industrial demand increases. The Green Revolution demonstrated how productivity advances catalyze structural transformation and income growth.
 
+## How It's Best Learned
+Work a village example. Suppose 100 workers feed the village at the old yield; a new seed lets 70 workers grow the same food. Trace where the other 30 go, what the farm households now buy, and who feeds the new factory workers. Then remove irrigation or credit from the story and see which link breaks first.
+
+## Common Misconceptions
+- A country can industrialize first and fix agriculture later. (Stagnant farming keeps labor tied to food production, raises the cost of feeding urban workers, and leaves rural households with little to spend on manufactures.)
+- New seed varieties raise productivity on their own. (Gains depend on complements such as irrigation, fertilizer supply, extension, and credit.)
+- Agriculture's role ends once labor moves to industry. (Rising farm incomes keep supplying demand for manufactured goods, and the food surplus feeds the urban workforce.)
+
 ## Questions
 
 ```yaml

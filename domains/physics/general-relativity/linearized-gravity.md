@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Linearized gravity is the weak-field approximation of general relativity, where the metric is written as g_μν = η_μν + h_μν with |h_μν| << 1. Expanding the Einstein equations to first order in h_μν yields linear equations resembling Maxwell's equations for electromagnetism — a profound structural parallel known as gravitoelectromagnetism. In the Lorenz (harmonic) gauge, the linearized vacuum equations reduce to a wave equation □h̄_μν = 0 for the trace-reversed perturbation h̄_μν, with solutions that propagate at the speed of light. The residual gauge freedom can be used to impose the transverse-traceless (TT) gauge, isolating the two physical polarizations of gravitational waves. Linearized gravity provides the framework for gravitational wave physics, the post-Newtonian expansion, and the connection between GR and Newtonian gravity.
 
+## How It's Best Learned
+Solve the static case first. With T_00 = ρc², the Lorenz-gauge equation gives ∇²h̄_00 = −16πGρ/c², so h̄_00 = −4Φ/c². Reverse the trace to get h_00 = −2Φ/c² and h_ij = −2Φ/c² δ_ij. This recovers g_00 = −(1 + 2Φ/c²) and also shows the spatial part that doubles light bending. Then count degrees of freedom beside electromagnetism: 10 − 4 − 4 = 2 against 4 − 1 − 1 = 2.
+
+## Common Misconceptions
+- Each component of h_μν is a physical field value. (The components change under h_μν → h_μν + ∂_μξ_ν + ∂_νξ_μ. Only gauge-invariant combinations, such as the linearized Riemann tensor, are physical.)
+- Linearized gravity is just Newtonian gravity. (It also contains gravitomagnetism, gravitational waves and the full light-bending angle. Newtonian gravity is its static, slow-motion part.)
+- The TT gauge can be imposed everywhere, including inside sources. (It is available in vacuum, for example for waves far from their source. Inside matter the Lorenz gauge can still be used, but TT generally cannot.)
+- Gravitoelectromagnetism is an exact copy of Maxwell's equations. (The analogy is partial. The field is a symmetric tensor, and the gravitomagnetic equations carry different numerical factors.)
+
 ## Questions
 
 ```yaml

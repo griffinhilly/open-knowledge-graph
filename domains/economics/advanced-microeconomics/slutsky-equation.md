@@ -32,6 +32,15 @@ status: validated
 ## Core Idea
 The Slutsky equation decomposes the total change in quantity demanded into a substitution effect (movement along indifference curve at constant utility) and an income effect (adjustment for purchasing power changes). This decomposition is fundamental to understanding how consumers respond to price changes and reveals that demand slopes downward primarily through the substitution effect.
 
+## How It's Best Learned
+Verify the equation on Cobb-Douglas utility u = x^(1/2)y^(1/2) with m = 100 and both prices 1. Marshallian demand x = m/(2pₓ) gives a total effect of −50. The Hicksian derivative, evaluated at the utility the consumer actually reaches, gives −25, and the income term −x·∂x/∂m gives −25. Seeing the two halves add up makes each term concrete.
+
+## Common Misconceptions
+- The Hicksian term can be evaluated at any utility level. (It must be evaluated at u = v(p, m), the utility the consumer reaches at current prices and income, so that hᵢ and xᵢ coincide at the starting point.)
+- The income effect for a cross-price change uses the quantity of good i. (It uses xⱼ, the quantity of the good whose price changed, because that quantity sets how much purchasing power the price change removes.)
+- Every inferior good has upward-sloping demand. (Inferiority is necessary for a Giffen good but not sufficient. The income effect must also be large enough to outweigh the substitution effect.)
+- Ordinary cross-price effects are symmetric, so ∂xᵢ/∂pⱼ equals ∂xⱼ/∂pᵢ. (Symmetry holds for the compensated effects in the Slutsky matrix. The Marshallian cross-price effects differ in general because their income terms differ.)
+
 ## Questions
 
 ```yaml

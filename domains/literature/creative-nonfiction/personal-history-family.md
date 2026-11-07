@@ -22,6 +22,14 @@ status: draft
 ## Core Idea
 Personal and family histories trace origins, relationships, and transformations across generations. These nonfiction works combine family memory, research, and personal investigation to understand how individual and family histories connect to larger social currents and historical change.
 
+## How It's Best Learned
+Choose one family story you have heard told, such as why a grandparent moved or changed jobs. Write it as the family tells it, then check it against one document (a census entry, letter, or record) and one account of the historical period. Rewrite the story so the family memory and the wider history speak to each other, noting where they disagree.
+
+## Common Misconceptions
+- Family history means building a family tree of names and dates. (Genealogy supplies material, but the literary form uses narrative to ask how a family's experience connects to its historical moment.)
+- Family stories passed down are reliable facts. (Family memory carries emotional truth but can drift over time, so writers check it against records and context.)
+- When research contradicts the family version, the family story should be dropped. (The gap between what a family remembers and what records show can itself become part of the narrative.)
+
 ## Questions
 
 ```yaml
@@ -57,6 +65,7 @@ Personal and family histories trace origins, relationships, and transformations 
 
 - question: How might a family history writer combine family memory with research to understand a family's story more completely?
   type: short-answer
+  answer: "The writer collects stories through interviews with relatives, then checks and contextualizes them with records such as census and immigration documents and with histories of the period. Together, memory and research explain family choices more fully than either could alone."
   explanation: A writer might interview family members to collect stories and memories. Then research immigration records, census data, historical documents to verify and contextualize those memories. Research might reveal family members' participation in historical events. Understanding the broader historical period (migration waves, wars, economic shifts) helps explain family choices and experiences. Family memories and historical research together create fuller understanding than either alone could provide.
 ```
 

@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Stabilizer codes are the dominant framework for quantum error correction, defining the code space as the simultaneous +1 eigenspace of an abelian subgroup of the n-qubit Pauli group (the stabilizer group). An [[n,k,d]] stabilizer code encodes k logical qubits into n physical qubits with minimum distance d, correcting up to floor((d-1)/2) errors. Syndrome measurement amounts to measuring each stabilizer generator, identifying which Pauli error occurred without disturbing the encoded state. CSS codes, a major subclass, separately correct bit-flip (X) and phase-flip (Z) errors using classical linear codes, connecting quantum error correction directly to classical coding theory.
 
+## How It's Best Learned
+Start with the 3-qubit bit-flip code written as a stabilizer code with generators Z1Z2 and Z2Z3. For each single error X1, X2, X3, check whether it commutes or anticommutes with each generator. You get the syndromes 10, 11 and 01. Then note that Z1 commutes with both generators, so the code misses phase flips. Adding X-type stabilizers fixes that, which leads to the Shor and Steane codes.
+
+## Common Misconceptions
+- Measuring the stabilizers will collapse the encoded logical state. (Every code state is a +1 eigenstate of every stabilizer, so the outcomes are the same for any encoded state. The measurement reveals information about the error and none about the logical qubit.)
+- Every correctable error needs its own distinct syndrome. (Errors that differ by an element of the stabilizer group act the same way on the code space, so they can share a syndrome and one correction fixes both. Such codes are called degenerate.)
+- A code with distance d corrects d errors. (It detects errors of weight up to d-1 and corrects errors of weight up to floor((d-1)/2). The Steane [[7,1,3]] code corrects one error.)
+- Since the code only corrects Pauli errors, small continuous rotations slip through. (Any error on a qubit is a linear combination of I, X, Y and Z. Syndrome measurement projects the error onto one of these Pauli terms, so correcting Pauli errors on a set of qubits corrects any error on them.)
+
 ## Questions
 
 ```yaml

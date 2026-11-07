@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 A graded ring decomposes as a direct sum R = R₀ ⊕ R₁ ⊕ R₂ ⊕ ··· where each Rₙ is an additive subgroup and RₘRₙ ⊆ Rₘ₊ₙ. The polynomial ring k[x₁, ..., xₙ] is the prototypical example, graded by total degree. Grading introduces a notion of "degree" that is compatible with ring operations, enabling dimension counting through Hilbert functions and connecting algebra to projective geometry.
 
+## How It's Best Learned
+Work in k[x, y] and list a basis of each graded piece of a quotient. For k[x, y]/(xy), degree 0 has basis {1}, and each degree n ≥ 1 has basis {xⁿ, yⁿ}, so the Hilbert function is 1, 2, 2, 2, .... Then test whether ideals are homogeneous by splitting their elements into components, using (x + 1) and (x², xy) as the contrasting pair.
+
+## Common Misconceptions
+- An ideal with a non-homogeneous generator cannot be homogeneous. (Homogeneity depends on the ideal, not the generators chosen. The ideal (x + y², y) equals (x, y), since x = (x + y²) - y·y.)
+- A ring has only one grading. (The grading is extra structure. Giving k[x, y] the weights deg x = 1 and deg y = 2 makes x² + y homogeneous of degree 2.)
+- The degree-zero part R₀ has to be a field. (R₀ can be any ring. ℤ[x] graded by degree has R₀ = ℤ.)
+
 ## Questions
 
 ```yaml

@@ -23,6 +23,14 @@ status: draft
 ## Core Idea
 The writer's personal presence in nonfiction creates a specific kind of authority and responsibility. Autobiographical authority—credibility derived from the claim to lived experience—simultaneously empowers the writer's voice and obligates truthfulness, creating a contract with readers that the writer is telling what they actually experienced or observed.
 
+## How It's Best Learned
+Take a memoir passage and sort its claims into three columns: what the writer directly experienced, what they reconstruct (such as remembered dialogue), and what they infer about other people. Then compare a passage that signals its limits ("I don't remember his exact words") with one that presents reconstructed dialogue as exact, and discuss which earns more trust.
+
+## Common Misconceptions
+- Lived experience gives the writer authority over everything in the story. (It covers the writer's own perceptions and feelings. Other people's thoughts and exact past dialogue lie outside direct access.)
+- Questioning a memoir's accuracy attacks the writer's right to tell their story. (Readers can accept the writer's authority over their experience and still ask about memory and representation.)
+- Admitting uncertainty weakens a memoirist's credibility. (Marking what is remembered versus reconstructed shows the writer knows the difference, which tends to increase trust.)
+
 ## Questions
 
 ```yaml
@@ -58,6 +66,7 @@ The writer's personal presence in nonfiction creates a specific kind of authorit
 
 - question: Why might a writer have strong autobiographical authority to write a memoir about their own trauma, yet still need to be careful about how they represent dialogue, internal motivations of others, or disputed facts? What does this teach us about the limits of autobiographical authority?
   type: short-answer
+  answer: "The writer's authority covers their own experience of the trauma: what they felt, perceived, and understood. It does not give direct access to other people's motives, and memory of exact dialogue is unreliable, so those elements need care or signposting. Autobiographical authority is real but bounded by what the writer directly lived."
   explanation: A writer has absolute authority over their own experience—what they felt, how they understood things, their perspective on events. But they don't have direct access to others' thoughts or motivations, and memory of dialogue is notoriously unreliable. Autobiographical authority covers 'what it felt like to be me in this situation' but not 'what was objectively true about what happened.' This shows that autobiographical authority is real and powerful but not unlimited. It's most honest when writers distinguish between what they directly experienced and what they're interpreting or reconstructing. This transparency actually strengthens authority rather than weakening it, because it signals an honest engagement with the limitations of first-person narration.
 ```
 

@@ -22,6 +22,14 @@ status: draft
 ## Core Idea
 The hermit essay uses deliberate withdrawal from society to observe, reflect, and report back discoveries. This form positions the essayist as observer-participant whose sustained solitude generates insight. Following Thoreau's tradition, it asks what can be learned through sustained attention and voluntary distance from social life.
 
+## How It's Best Learned
+Set a fixed stretch of solitude, such as an hour a day for a week in the same place without a phone, and keep dated notes on what you notice. Reread the notes and find what changed in your attention between the first day and the last. Draft a short essay that reports that change to a reader, and compare it with the "Solitude" chapter of Thoreau's Walden.
+
+## Common Misconceptions
+- A hermit essay requires living alone in the wilderness. (The withdrawal can be temporary or built into ordinary life. The method is sustained attention and voluntary distance, wherever it happens.)
+- The hermit essay rejects society. (It withdraws in order to report back, so it is addressed to the society the writer stepped away from.)
+- A hermit essay is a diary of being alone. (The essay turns observations into insight for readers. The solitude is the method, and the essay is the report.)
+
 ## Questions
 
 ```yaml
@@ -57,6 +65,7 @@ The hermit essay uses deliberate withdrawal from society to observe, reflect, an
 
 - question: How might a hermit essay work? What would the structure or practice involve?
   type: short-answer
+  answer: "The writer withdraws for a set time, or keeps a regular practice of solitude, and records what they observe and how their attention shifts. The essay then reflects on those notes and reports back what the solitude revealed."
   explanation: 'A hermit essay might involve actual withdrawal—a writer spends a month in solitude, keeping notes about what happens, what they observe, how attention shifts. Or it might involve a practice of regular solitude—early mornings alone, intentional retreat from social media and distraction. The essayist then reflects on what the solitude generates. Has attention deepened? Have new thoughts emerged? What does it feel like to step outside ordinary social pace? The essay reports back: here''s what solitude revealed. It might be about how we think when not responding to others, about attention to natural world, about what becomes visible when distraction is removed. The power comes from the real experience of withdrawal and the genuine reflection it generates, not from literary pretense.'
 ```
 

@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Geodesics are curves that parallel-transport their own velocity — formally, ∇_{γ'} γ' = 0. They generalize straight lines to curved spaces: on a Riemannian manifold, geodesics are locally length-minimizing, and they are the critical points of the energy functional. The geodesic equation is a system of second-order ODEs whose solutions are determined by an initial point and initial velocity. Great circles on spheres, straight lines in Euclidean space, and freefall trajectories in general relativity are all geodesics.
 
+## How It's Best Learned
+Write the geodesic equations on the unit sphere with metric dθ² + sin²θ dφ²: θ'' − sin θ cos θ (φ')² = 0 and φ'' + 2 cot θ θ' φ' = 0. Check that the equator θ = π/2, φ = t solves them, and that a latitude circle θ = θ₀ ≠ π/2 does not. Then unroll a cylinder flat to see that its geodesics are helices, circles and vertical lines.
+
+## Common Misconceptions
+- A geodesic is the shortest path between its endpoints. (It minimizes length locally. A great-circle arc longer than half a circle is a geodesic but is not the shortest path.)
+- Any curve that traces a great circle is a geodesic. (A geodesic is a parametrized curve, and ∇_{γ'}γ' = 0 forces constant speed. A great circle traversed at varying speed is not a geodesic.)
+- Two points are joined by exactly one geodesic. (Antipodal points on a sphere are joined by infinitely many. On a cylinder, two points are joined by geodesics that wind around different numbers of times.)
+
 ## Questions
 
 ```yaml

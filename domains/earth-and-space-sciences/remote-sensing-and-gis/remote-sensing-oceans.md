@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Ocean remote sensing measures sea surface temperature (SST) from thermal infrared and microwave sensors, ocean color (chlorophyll, sediment, dissolved matter) from visible-band spectrometers, sea surface height from radar altimeters, surface winds and waves from scatterometers and SAR, and sea ice extent from passive microwave and SAR. Because oceans cover 71% of Earth's surface and are largely inaccessible to in-situ measurement, satellite remote sensing provides the only practical means of systematic global ocean observation. These measurements drive ocean circulation models, fisheries management, climate research, and maritime operations.
 
+## How It's Best Learned
+Compare infrared and microwave SST maps of the Gulf Stream for one day: one is sharp with cloud gaps, the other coarse but complete. Then turn altimetry into a current. A 0.1 m height change across 100 km at 45° latitude gives a speed of 9.8 x 10^-6 / 1.03 x 10^-4, about 0.1 m/s. Finally view a chlorophyll map of a coastal upwelling zone.
+
+## Common Misconceptions
+- Satellite SST is the temperature of the upper few meters of the ocean. (Infrared senses a skin layer much thinner than a millimeter, and microwave a layer about a millimeter deep, which can differ from water below.)
+- The sea surface is flat apart from waves and tides. (Currents and eddies raise and lower the surface by tens of centimeters, and altimetry uses those slopes to map flow.)
+- Most of the light an ocean color sensor records comes from the water. (Most of the signal is scattered by the atmosphere, so a small error in atmospheric correction becomes a large error in chlorophyll.)
+
 ## Questions
 
 ```yaml

@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 A randomized algorithm uses random coin flips as part of its logic, making its behavior (runtime, output, or both) a random variable rather than a deterministic quantity. Randomization often yields simpler, faster, or more elegant algorithms than the best known deterministic alternatives. Randomized quicksort achieves O(n log n) expected time with no adversarial worst case; randomized min-cut (Karger's algorithm) finds minimum cuts with high probability through simple edge contractions. The analysis of randomized algorithms relies on probability tools — linearity of expectation, tail bounds, and the probabilistic method — to provide rigorous guarantees despite the inherent unpredictability.
 
+## How It's Best Learned
+Work the quicksort comparison count for n = 4 by listing every pair (i, j) and its probability 2/(j - i + 1), then add them and compare with a few simulated runs. Next, run Karger's contraction by hand on a small graph with a known minimum cut, such as two triangles joined by one edge, and note which contraction orders preserve the cut. Repeating trials and recording the success rate links the 2/(n(n-1)) bound to practice.
+
+## Common Misconceptions
+- Randomized algorithms are analyzed by assuming the input is random. (The randomness is in the algorithm's own coin flips. The guarantees hold for every input, which is different from average-case analysis.)
+- Expected O(n log n) time means randomized quicksort can never take quadratic time. (A quadratic run is possible but very unlikely, and no fixed input makes it likely.)
+- Linearity of expectation needs the variables to be independent. (It holds for any random variables. That is why the quicksort indicators can be summed even though they are correlated.)
+- A low success probability per run, like 1/n^2 for Karger's algorithm, makes the algorithm useless. (Independent repetition drives the failure probability down exponentially in the number of runs, so O(n^2 log n) runs give success with high probability.)
+
 ## Questions
 
 ```yaml

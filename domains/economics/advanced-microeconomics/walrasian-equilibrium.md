@@ -30,6 +30,14 @@ status: validated
 ## Core Idea
 A Walrasian equilibrium is a price vector and allocation where every consumer maximizes utility given prices and budget, every firm maximizes profit given prices, and all markets clear (quantity supplied equals quantity demanded). In a competitive economy, these conditions can typically be satisfied through price adjustment without central coordination.
 
+## How It's Best Learned
+Solve a two-person exchange economy in an Edgeworth box. Both have u = x^(1/2)y^(1/2); A owns (10, 0) and B owns (0, 10). Set the price of y to 1 and call the price of x p. A demands 5 units of x and B demands 5/p, so clearing the x market gives p = 1. Then check that the y market clears on its own.
+
+## Common Misconceptions
+- Equilibrium pins down the dollar price of every good. (Demands depend only on relative prices, so only price ratios are determined. That is why one price can be set to 1.)
+- Walras's Law says that markets clear. (It says the total value of excess demand is zero at any price vector, as a consequence of budget constraints. Market clearing is an extra condition that holds only at equilibrium prices.)
+- An economy has exactly one Walrasian equilibrium. (Existence theorems say at least one equilibrium exists. Some economies have several, each with its own price vector and allocation.)
+
 ## Questions
 
 ```yaml

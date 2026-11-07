@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 The spin-statistics theorem proves that particles with integer spin (0, 1, 2, ...) must be bosons (obeying Bose-Einstein statistics with commutation relations) and particles with half-integer spin (1/2, 3/2, ...) must be fermions (obeying Fermi-Dirac statistics with anticommutation relations). This connection between spin and statistics is not an empirical observation but a theorem derivable from Lorentz invariance, locality, and positive energy.
 
+## How It's Best Learned
+Do the scalar case explicitly. Write ⟨0|[φ(x), φ(y)]|0⟩ = D(x − y) − D(y − x), where D(x − y) = ⟨0|φ(x)φ(y)|0⟩. At spacelike separation a Lorentz transformation takes x − y to −(x − y), so the two terms cancel. The anticommutator gives 2D(x − y) instead, which is nonzero and falls off like e^{−mr}. Then repeat the comparison for the Dirac field, where the roles reverse.
+
+## Common Misconceptions
+- The spin-statistics connection is an empirical rule with no deeper explanation. (In relativistic quantum field theory it is a theorem; non-relativistic quantum mechanics takes it as an input.)
+- Microcausality requires every field, including fermion fields, to commute at spacelike separation. (Fermion fields anticommute there; the requirement is that observables, which are built from even numbers of fermion fields, commute.)
+- Anything built from fermions is itself a fermion. (A composite of an even number of fermions has integer spin and behaves as a boson, as helium-4 atoms do.)
+
 ## Questions
 
 ```yaml

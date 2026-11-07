@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 The observed universe contains far more matter than antimatter (baryon-to-photon ratio eta ~ 6 x 10^{-10}), an asymmetry that cannot be explained by the Standard Model alone. Baryogenesis mechanisms must satisfy the three Sakharov conditions: baryon number violation, C and CP violation, and departure from thermal equilibrium. Leptogenesis -- generating a lepton asymmetry from the decay of heavy right-handed neutrinos, which is then partially converted to a baryon asymmetry by electroweak sphalerons -- is one of the most compelling scenarios.
 
+## How It's Best Learned
+Make a table with the three Sakharov conditions as rows and two columns: how the Standard Model meets each one, and where it falls short. Then do the sphaleron bookkeeping. Suppose heavy-neutrino decays leave L = −1 and B = 0, so B − L = +1. Sphalerons conserve B − L and give B = 28/79 ≈ 0.35 and L = −51/79 ≈ −0.65.
+
+## Common Misconceptions
+- Sphalerons turn leptons into baryons one for one. (Sphalerons conserve B − L and violate B + L. In the Standard Model only about a third of the B − L asymmetry ends up as baryon number.)
+- To make an excess of matter, leptogenesis must produce more leptons than antileptons. (A positive baryon asymmetry needs B − L > 0, which with B = 0 at the start means an excess of antileptons.)
+- Measuring δ_CP in neutrino oscillations would fix the leptogenesis asymmetry. (The two are related, but leptogenesis depends on high-energy phases that low-energy oscillation data do not fully determine.)
+
 ## Questions
 
 ```yaml

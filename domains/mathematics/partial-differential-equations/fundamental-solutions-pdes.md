@@ -17,6 +17,14 @@ status: validated
 ## Core Idea
 A fundamental solution of a linear PDE operator L is a distribution Φ satisfying LΦ = δ (the Dirac delta) in all of ℝⁿ, without boundary conditions. It represents the response to a point source in free space and is the building block from which Green's functions and general solutions are constructed. The fundamental solution for the Laplacian is the Newton potential (1/|x| in 3D), for the heat operator it is the Gaussian heat kernel, and for the wave operator it is a distribution supported on the light cone. These explicit formulas encode the essential character of each PDE type.
 
+## How It's Best Learned
+Verify one fundamental solution by hand in two steps. For Φ = 1/(4π|x|) in ℝ³, first show ΔΦ = 0 away from the origin using the radial formula r⁻²(r²Φ')'. Then compute the flux of ∇Φ through a sphere of radius r: it equals −1 for every r, so the singularity carries the delta. Repeat with −½|x| for −d²/dx² and with −(1/2π)ln|x| in the plane, and compare growth at infinity.
+
+## Common Misconceptions
+- Φ is harmonic away from the origin, so ΔΦ = 0 as a distribution. (The point singularity matters. The flux computation shows that −ΔΦ equals δ, a nonzero distribution concentrated at 0.)
+- The fundamental solution is unique. (Adding any solution of Lh = 0 gives another one. The standard formulas are selected by symmetry and behavior at infinity.)
+- The Laplacian's fundamental solution is a power of |x| in every dimension. (It is c_n|x|^{2−n} for n = 1 and n ≥ 3, which is proportional to |x| in one dimension. In two dimensions it is logarithmic.)
+
 ## Questions
 ```yaml
 - question: "What is the fundamental solution of the Laplacian -Δ in two dimensions?"

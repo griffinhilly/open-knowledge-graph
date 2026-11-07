@@ -27,6 +27,14 @@ status: validated
 ## Core Idea
 The martingale convergence theorems characterize when a martingale (or submartingale) converges as time goes to infinity. Doob's forward convergence theorem states that any L¹-bounded martingale converges almost surely. However, a.s. convergence alone does not guarantee L¹ convergence — for that, the martingale must be uniformly integrable. The L² martingale convergence theorem gives a cleaner sufficient condition: if sup E[M_n²] < ∞, then M_n converges both a.s. and in L². These results are the backbone of asymptotic theory for stochastic processes and underpin applications from Bayesian updating to the optional stopping theorem in unbounded time.
 
+## How It's Best Learned
+Set three examples side by side. The fraction of red balls in a Pólya urn is a bounded martingale, so it converges a.s. and in L¹. The double-or-nothing product M_n = ∏(2X_k) has E[M_n] = 1 and tends to 0 a.s., because all its mass sits on one path. The random series Σ ±1/k has E[M_n²] = Σ1/k² < 2, so the L² theorem applies.
+
+## Common Misconceptions
+- If a martingale converges almost surely, the limit keeps the starting mean. (Double-or-nothing has E[M_n] = 1 for every n but converges to 0; E[M_∞] = E[M_0] needs uniform integrability.)
+- Every martingale settles down eventually. (Simple random walk is a martingale that keeps oscillating; it is not L¹-bounded, since E|S_n| grows like √n.)
+- A nonnegative martingale needs an extra moment condition to converge. (For M_n ≥ 0, E|M_n| = E[M_0], so it is L¹-bounded and converges a.s. by Doob's theorem.)
+
 ## Questions
 
 ```yaml

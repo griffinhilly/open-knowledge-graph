@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Two representations ρ: G → GL(V) and σ: G → GL(W) are equivalent (isomorphic) if there exists an invertible linear map T: V → W that intertwines the two actions: T∘ρ(g) = σ(g)∘T for all g ∈ G. In matrix terms, this means ρ and σ differ by a change of basis. Equivalence is the right notion of "sameness" for representations — it preserves all structural properties while ignoring coordinate artifacts.
 
+## How It's Best Learned
+Work one small case by hand. Let the generator of ℤ/2ℤ act on ℂ² by the swap matrix ρ = [[0,1],[1,0]] in one representation and by σ = diag(1, −1) in another. Take P with columns (1, 1) and (1, −1), and check that P⁻¹ρP = σ. Then compare with the representation where the generator acts as the identity: same dimension, but the traces 0 and 2 show no P can exist.
+
+## Common Misconceptions
+- Two representations given by different matrices are different representations. (Matrices depend on the basis. Representations related by one change of basis, applied to every g at once, are equivalent.)
+- Any nonzero intertwining map shows that two representations are equivalent. (Equivalence needs an invertible intertwiner. The inclusion of the trivial representation into the permutation representation of S₃ on ℂ³ intertwines but is not invertible.)
+- Equivalent representations must act on the same vector space. (They can act on different spaces V and W of the same dimension. The intertwiner T: V → W identifies them.)
+
 ## Questions
 
 ```yaml

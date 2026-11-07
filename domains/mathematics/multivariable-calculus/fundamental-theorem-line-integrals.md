@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 If F = ∇f (F is conservative), then ∫_C F · dr = f(B) − f(A), depending only on endpoints A and B, not the path C. This extends the single-variable fundamental theorem of calculus and provides a shortcut for line integrals of conservative fields.
 
+## How It's Best Learned
+Compute one line integral along two paths, then by the theorem. Take F = ⟨2xy, x²⟩ = ∇(x²y) from (0, 0) to (1, 2). The straight path r(t) = ⟨t, 2t⟩ gives ∫₀¹ 6t² dt = 2. Going along the x-axis and then up the line x = 1 gives 0 + 2 = 2. The theorem gives f(1, 2) − f(0, 0) = 2 at once.
+
+## Common Misconceptions
+- A candidate f whose gradient matches most components of F is good enough. (F must equal ∇f in every component on a region containing the path; one mismatched component breaks the shortcut.)
+- The potential function is unique. (Any constant can be added to f, and the constant cancels in f(B) − f(A).)
+- Reversing the path direction leaves the integral unchanged. (Traversing from B to A gives f(A) − f(B), the negative of the original.)
+- If the integral around one closed loop is zero, the field is conservative. (Conservative fields need zero integral around every closed loop; one loop is not enough evidence.)
+
 ## Questions
 
 ```yaml

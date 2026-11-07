@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Long-range order characterizes correlations that persist at arbitrarily large distances, quantified by non-zero lim_{|r|→∞} ⟨σ(r)σ(0)⟩. Ordered phases (crystals, ferromagnets, superconductors) exhibit long-range order; disordered phases do not. Its appearance/disappearance marks a phase transition.
 
+## How It's Best Learned
+Measure ⟨σ(r)σ(0)⟩ from Monte Carlo snapshots of the 2D Ising model at three temperatures: well above T_c, near T_c, and well below. Plot it against r on log axes. Above T_c it falls exponentially to zero, near T_c it falls slowly, and below T_c it levels off at m². Note that the two-point function shows this plateau even in a finite system where ⟨σ⟩ averages to zero by symmetry.
+
+## Common Misconceptions
+- Strong correlations between neighbors mean the system has long-range order. (Long-range order concerns the limit at large separation. A paramagnet near T_c or a dense liquid can have strong short-range correlations and none at long range.)
+- Correlations that fall off as a power law count as long-range order. (A power law still goes to zero. Power-law decay occurs at critical points, and in the 2D XY model below its transition it is called quasi-long-range order.)
+- In an ordered phase the connected correlation ⟨σ(r)σ(0)⟩ − m² stays nonzero at large r. (The connected part decays to zero in the ordered phase too. It is the full correlator that approaches m².)
+
 ## Questions
 
 ```yaml

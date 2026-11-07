@@ -22,6 +22,14 @@ status: draft
 ## Core Idea
 The profile merges journalism, observation, and literary technique to create complex portraits of living people. Profiles combine biographical research, direct observation, and narrative construction to develop three-dimensional character studies while respecting ethical responsibilities to the subject.
 
+## How It's Best Learned
+Profile someone you can spend time with, such as a barber, coach, or librarian. Interview them once, watch them work for an hour, and talk to one person who knows them. Draft an opening scene from what you observed, then add one quote and one background fact. Sorting your notes into what they said, what you saw, and what others said shows how each source builds the portrait.
+
+## Common Misconceptions
+- A profile is a cleaned-up interview transcript. (A profile combines interviews with the writer's own observation, background research, and narrative shaping.)
+- Using scenes and dialogue means the writer is fictionalizing the subject. (In a profile, scenes and dialogue come from reporting, such as what the writer observed or what sources recounted, not from invention.)
+- Respecting the subject means writing a flattering portrait. (Ethical responsibility asks for accuracy and fairness, which can include the subject's contradictions and flaws.)
+
 ## Questions
 
 ```yaml
@@ -57,6 +65,7 @@ The profile merges journalism, observation, and literary technique to create com
 
 - question: What kind of research and observation would you need to do to write a strong profile of someone? What sources and methods would you use, and what ethical questions would you face?
   type: short-answer
+  answer: "Interview the subject several times, observe them in their own settings, interview people who know them, and research their background and public record. Ethical questions include what to do with information the subject wants kept private, how to handle gaps between what they say and what you observe, and how to judge independently while staying fair."
   explanation: 'You would likely interview the subject multiple times, observe them in their natural context (workplace, home, with friends), interview people who know them well, research their background and public record. Ethical questions would include: What permission is needed before publishing? How do you handle information the subject doesn''t want public but others tell you? What if your observation reveals contradictions between what the subject says and what you observe? How do you represent someone fairly while still making independent judgments? A strong profile acknowledges these tensions—it shows the complexity of the person and the writer''s relationship to them, rather than pretending to unmediated access.'
 ```
 

@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 Information theory provides fundamental limits and optimality principles for statistical inference: estimation and hypothesis testing. The **Kullback-Leibler divergence** D_KL(p||q) quantifies the information lost when approximating true distribution p with model q, and arises naturally in maximum likelihood estimation as the asymptotic objective (minimizing KL divergence). The **Fisher information** I(theta) quantifies the curvature of the likelihood landscape and lower-bounds the variance of any unbiased estimator (Cramer-Rao bound). **Hypothesis testing** can be framed information-theoretically: the error probability decays exponentially with the number of samples, with rate determined by the Chernoff exponent, which involves KL divergence between competing hypotheses. **Information criteria** (AIC, BIC, MDL) trade off model fit and complexity using KL divergence or description length. These principles unify estimation, testing, and model selection under a single information-theoretic framework, revealing that all statistical tasks are fundamentally limited by how much information the data provides about unknowns.
 
+## How It's Best Learned
+Fit a normal model by maximum likelihood to data drawn from a skewed distribution. Check that the fit matches the mean and variance, which is the normal that minimizes D_KL(p || q_theta). Then test a fair coin against a coin with P(heads) = 0.6 by likelihood ratio at n = 10, 50 and 200. Plot the log of the error rate against n and see a roughly straight line.
+
+## Common Misconceptions
+- Maximum likelihood minimizes D_KL(q_theta || p), the divergence from model to truth. (It asymptotically minimizes D_KL(p || q_theta), with the true distribution first. The two directions give different fits when the model is wrong.)
+- The Cramer-Rao bound is a floor on the mean squared error of every estimator. (It bounds the variance of unbiased estimators. Biased estimators, such as shrinkage estimators, can have lower mean squared error.)
+- Testing errors shrink like 1/n as the sample grows. (For a fixed pair of simple hypotheses, the best error probabilities fall exponentially in n, at a rate set by a divergence between the two distributions.)
+- AIC and BIC are two estimates of the same quantity, so they should agree. (AIC aims at predictive KL loss, while BIC approximates the log marginal likelihood. BIC's heavier penalty means it often picks smaller models.)
+
 ## Questions
 
 ```yaml

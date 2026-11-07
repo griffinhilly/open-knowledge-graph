@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Hodge theory uses the Riemannian metric to select a canonical representative from each de Rham cohomology class — the unique harmonic form (satisfying Δω = 0, where Δ = dδ + δd is the Hodge Laplacian). The Hodge decomposition Ωᵏ(M) = ℋᵏ ⊕ im(d) ⊕ im(δ) splits the space of k-forms into harmonic, exact, and co-exact components. This converts a topological question (cohomology) into an analytic one (solutions of an elliptic PDE), providing both computational power and deep structural results.
 
+## How It's Best Learned
+Work on the flat torus ℝ²/ℤ², where the harmonic 1-forms are the constant forms a dx + b dy, a space of dimension 2 = b₁. Decompose ω = (2 + sin 2πx) dx + cos 2πx dy by hand: 2 dx is harmonic, sin 2πx dx = d(−cos 2πx / 2π) is exact, and cos 2πx dy is co-exact. Check that the three pieces are L²-orthogonal.
+
+## Common Misconceptions
+- The harmonic representative of a class does not depend on the metric. (Changing the metric changes which form in the class is harmonic. Only the dimension of the space of harmonic forms is fixed by topology.)
+- Every closed form is harmonic. (A harmonic form must also be co-closed. On the flat torus, sin 2πx dx is closed but not harmonic.)
+- The Hodge theorem holds on any Riemannian manifold. (It needs compactness. On ℝⁿ the function x₁ satisfies Δx₁ = 0 but is not constant, so harmonic 0-forms do not match H⁰ = ℝ.)
+
 ## Questions
 
 ```yaml

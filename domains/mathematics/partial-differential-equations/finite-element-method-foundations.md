@@ -17,6 +17,14 @@ status: validated
 ## Core Idea
 The finite element method (FEM) approximates weak solutions of PDEs by restricting the variational problem to a finite-dimensional subspace V_h ⊂ H¹₀(Ω) built from piecewise polynomial functions on a mesh. The Galerkin approximation u_h ∈ V_h satisfies a(u_h, v_h) = F(v_h) for all v_h ∈ V_h, inheriting the same coercivity and stability as the continuous problem. Cea's lemma guarantees that u_h is quasi-optimal: ||u - u_h|| ≤ (M/α) inf_{v_h ∈ V_h} ||u - v_h||, so the error is controlled by the best approximation error, which vanishes as the mesh is refined.
 
+## How It's Best Learned
+Assemble one system by hand. For −u'' = 1 on (0, 1) with u(0) = u(1) = 0 and hat functions on a uniform mesh of width h, the stiffness matrix is (1/h)·tridiag(−1, 2, −1) and each load entry is h. With h = 1/2 this gives 4u₁ = 1/2, so u₁ = 1/8, which matches the exact solution x(1 − x)/2 at x = 1/2. Then compute errors as h halves and read off the rates.
+
+## Common Misconceptions
+- Piecewise linear functions cannot approximate −Δu = f, since their second derivatives are zero. (The weak form uses only first derivatives. Continuous piecewise linear functions lie in H¹, which is the space the weak problem needs.)
+- The Galerkin solution matches the exact solution at the mesh nodes. (This happens for −u'' = f in one dimension with linear elements, but not in general. In two dimensions the nodal values usually carry error.)
+- Refining the mesh gives the textbook rate O(h^k) for every problem. (The rate assumes u ∈ H^{k+1}. A reentrant corner limits the regularity of u and slows convergence on uniform meshes, which is one reason for adaptive refinement.)
+
 ## Questions
 ```yaml
 - question: "Cea's lemma states that the Galerkin approximation error is bounded by:"

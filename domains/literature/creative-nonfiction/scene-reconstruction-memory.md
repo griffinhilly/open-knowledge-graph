@@ -24,6 +24,14 @@ status: draft
 ## Core Idea
 Scene reconstruction builds vivid scenes from memory, interviews, research, and documentation when the writer was not present. The practice raises questions of authenticity: how much can writers invent dialogue and detail while maintaining truthfulness? The technique requires distinguishing between fact and inference.
 
+## How It's Best Learned
+Choose a family event you did not witness, such as a wedding or a move. Interview two people who were there and collect one photo or document. Draft the scene, then highlight each sentence in one of three colors: documented, remembered by a source, or inferred by you. Revise so the inferred sentences are signaled in the prose or explained in a short author's note.
+
+## Common Misconceptions
+- If I can't remember the exact words, I can write plausible dialogue and call it nonfiction. (Invented dialogue presented as fact breaks the nonfiction contract; summary or attributed recollection keeps the scene honest.)
+- A reconstructed scene is less truthful than one the writer saw. (A scene built from careful interviews and documents can be well grounded, provided its sources are made clear.)
+- Research removes the need for interpretation. (Choosing which details to include and what tone to stress is interpretation even when every fact is sourced.)
+
 ## Questions
 
 ```yaml
@@ -59,12 +67,13 @@ Scene reconstruction builds vivid scenes from memory, interviews, research, and 
 
 - question: You're writing about an important conversation that happened before you could take notes. How would you approach reconstructing that scene? What sources would you use? How would you signal what you know versus what you're inferring?
   type: short-answer
+  answer: "Interview the participants and gather any documents, quoting dialogue only where a recording, transcript, or consistent recollections support it. Signal inference in the prose, for example \"she seemed frustrated\" versus \"she said she felt frustrated,\" and note where memories differ."
   explanation: 'You might interview participants to learn what was discussed, who was present, what was decided—these are facts that people remember. You can present dialogue if you have a recording or transcript, or if multiple people remember the same exchange similarly. For atmosphere and emotion, you might describe the room based on knowledge of the location, or describe what participants say they felt. You''d signal inference: ''She seemed frustrated by his tone'' (your interpretation of their tone) versus ''She said she felt frustrated'' (their account of their own emotion). You might note: ''This conversation happened years ago, and memories differ on some details.'' This honesty about sources and uncertainty maintains credibility while using vivid scene reconstruction.'
 ```
 
 ## Explainer
 
-Scene reconstruction is a central technique in literary journalism, biography, and contemporary memoir. It emerged partly from fiction techniques—the writer using scenes to show rather than tell, creating reader immersion through narrative detail—but applies these techniques to nonfiction subjects. Writers like Norman Mailer (In the Executioner's Song), Tracy Kidder (House), and Rebecca Skloot (The Immortal Life of Henrietta Lacks) use extensive scene reconstruction to bring historical or contemporary events to vivid life.
+Scene reconstruction is a central technique in literary journalism, biography, and contemporary memoir. It emerged partly from fiction techniques—the writer using scenes to show rather than tell, creating reader immersion through narrative detail—but applies these techniques to nonfiction subjects. Writers like Norman Mailer (The Executioner's Song), Tracy Kidder (House), and Rebecca Skloot (The Immortal Life of Henrietta Lacks) use extensive scene reconstruction to bring historical or contemporary events to vivid life.
 
 The technique depends on careful research. A writer reconstructing a historical scene might use journals, letters, photographs, architectural records, and expert testimony to build an accurate picture. A journalist reconstructing a contemporary scene might spend months with sources, observing when possible and interviewing extensively to gather detail. This research makes scenes more trustworthy than if they were simply imagined.
 

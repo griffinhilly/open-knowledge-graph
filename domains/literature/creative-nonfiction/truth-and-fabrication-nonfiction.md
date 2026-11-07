@@ -66,6 +66,7 @@ Analyze published examples where nonfiction writers discuss their choices: how t
 
 - question: 'Describe a memory you have from your past. Now identify: What are you certain about? What details are you less sure of? How would you write this truthfully while acknowledging memory''s fallibility? What if you discovered others remembered it differently?'
   type: short-answer
+  answer: "Separate what you are sure of, often the feeling or the core event, from details you are less sure of. Write the certain parts plainly and signal the uncertain ones with phrases like \"I think\" or \"as I remember it.\" If others recall it differently, acknowledge the difference or investigate further rather than presenting your version as unquestionable fact."
   explanation: 'Example: You remember a childhood birthday as disappointing because you didn''t get the gift you wanted. You''re certain about the disappointment feeling. But are the details accurate? You might remember the gift being the wrong color, but maybe you''re confusing this with another year. Truthfully, you might write: ''I remember feeling devastated when I opened the gift—I think I expected something different, though the exact nature of my disappointment is less clear now. What I know for certain is the feeling of letdown.'' If a sibling remembers the same event as you being happy, you have a choice: write only from your perspective, acknowledge the difference, or investigate further. Truthfulness means working with these complications rather than presenting memory as unquestionable fact.'
 ```
 

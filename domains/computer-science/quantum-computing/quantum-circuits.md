@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 A quantum circuit is a sequence of quantum gates applied to a register of qubits, read left-to-right in time. Each horizontal wire represents a qubit, gates are boxes or symbols on those wires, and measurement is typically performed at the end. Circuit depth (number of time steps) and width (number of qubits) are the primary complexity measures. The quantum circuit model is the standard computational model for quantum algorithms, analogous to Boolean circuits in classical computing, and is polynomially equivalent to quantum Turing machines.
 
+## How It's Best Learned
+Trace the two-gate Bell circuit by writing the state after each time slice. Hadamard on the first qubit takes |00> to (|00> + |10>)/sqrt(2). CNOT then gives (|00> + |11>)/sqrt(2). Next, draw a small circuit with several gates on separate wires, count its gates and its depth, and slide gates on disjoint qubits into the same time step.
+
+## Common Misconceptions
+- The circuit's overall matrix is the gate matrices multiplied in left-to-right diagram order. (The first gate applied sits leftmost in the diagram but rightmost in the product. Applying A then B gives the matrix BA.)
+- A wire is a physical wire that carries a signal through space. (A wire stands for one qubit over time. In many devices the qubit does not move at all.)
+- Circuit depth is the number of gates. (Gates on disjoint qubits share a time step, so depth can be much smaller than the gate count.)
+- A wire can be split to send the same qubit into two gates. (Quantum circuits have no fan-out of arbitrary states, because that would copy an unknown state.)
+
 ## Questions
 
 ```yaml

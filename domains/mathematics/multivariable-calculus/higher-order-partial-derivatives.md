@@ -23,6 +23,9 @@ status: validated
 ## Core Idea
 Higher-order partial derivatives are obtained by differentiating partial derivatives with respect to any variable. The second-order mixed partial ∂²f/∂x∂y means 'differentiate first with respect to y, then with respect to x.' Clairaut's theorem states that if the mixed partials are continuous, the order of differentiation does not matter: ∂²f/∂x∂y = ∂²f/∂y∂x. For functions with continuous second-order partials, there are three distinct second-order derivatives: f_xx, f_yy, and f_xy.
 
+## How It's Best Learned
+Fill in a 2×2 grid of all four second partials for one function, labeling each with its order of differentiation. For f = x³y², the first partials are 3x²y² and 2x³y. Then f_xx = 6xy², f_yy = 2x³, and both mixed partials come out to 6x²y by different routes. Writing each route as an arrow diagram fixes the notation before Clairaut's theorem is used as a shortcut.
+
 ## Common Misconceptions
 - ∂²f/∂x∂y means differentiate with respect to y first, then x — the notation is read right to left.
 - Clairaut's theorem requires continuity of the mixed partials, not just their existence.

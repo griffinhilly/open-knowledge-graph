@@ -19,6 +19,15 @@ status: validated
 ## Core Idea
 Countries reliant on one or two export commodities face volatility and terms-of-trade shocks. Diversification into manufactures and services lowers volatility and increases stability. However, diversification requires learning, coordination, and access to credit—not automatic even with trade openness.
 
+## How It's Best Learned
+Compare three export baskets through the same global recession: copper alone; copper plus four other industrial metals; and copper plus garments, processed food, and software services. Ask which revenues fall together and why. Then follow South Korea's move from wigs and plywood toward semiconductors, and list the capabilities each step had to build first.
+
+## Common Misconceptions
+- Exporting several commodities protects a country from price shocks. (If their prices move together, as industrial metals often do in a recession, the basket falls almost as hard as one commodity.)
+- Free trade will diversify a commodity exporter's exports on its own. (New sectors need skills, infrastructure, credit, and coordination among firms, which openness alone does not supply.)
+- Diversification matters only because it reduces volatility. (Manufacturing and services can also build skills and supply-chain links that compound into later growth.)
+- A dollar of exports is worth the same for growth whatever the product. (The two count the same in GDP, but some products bring more learning and capability with them.)
+
 ## Questions
 
 ```yaml

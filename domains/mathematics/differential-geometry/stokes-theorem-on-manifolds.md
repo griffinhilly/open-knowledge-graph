@@ -30,6 +30,14 @@ status: validated
 ## Core Idea
 The generalized Stokes' theorem states that for any (n-1)-form ω on a compact oriented n-manifold M with boundary, ∫_M dω = ∫_{∂M} ω. This single equation subsumes Green's theorem, the divergence theorem, and the classical Stokes theorem as special cases. It is the deepest relationship between differentiation (the exterior derivative d) and integration on manifolds, and it is the foundation for de Rham cohomology and many physical conservation laws.
 
+## How It's Best Learned
+Check both sides for ω = x dy on the closed unit disk. Here dω = dx∧dy integrates to π, and on the boundary x = cos t, y = sin t gives ∫₀^{2π} cos²t dt = π. Repeat on the upper unit hemisphere, oriented by the outward normal. Its boundary is the same equator, so both sides again equal π. Two different surfaces with one boundary give one answer.
+
+## Common Misconceptions
+- On a closed manifold, every n-form integrates to zero. (Exact n-forms do, by Stokes. The area form of S² is closed and integrates to 4π, so it is not exact.)
+- Any orientation of the boundary will do. (∂M must carry the induced, outward-normal-first orientation. For an annulus in the plane, the inner circle then runs clockwise.)
+- The theorem holds on noncompact manifolds as stated. (It needs ω to have compact support. On [0, ∞) with ω = 1, ∫ dω = 0, but the boundary term is −1.)
+
 ## Questions
 
 ```yaml

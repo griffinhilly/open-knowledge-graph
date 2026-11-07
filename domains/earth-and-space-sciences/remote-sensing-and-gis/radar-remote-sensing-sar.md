@@ -29,6 +29,15 @@ status: validated
 ## Core Idea
 Radar remote sensing transmits microwave pulses (wavelengths 1 cm to 1 m) toward Earth's surface and measures the returned signal (backscatter). Synthetic Aperture Radar (SAR) uses the satellite's motion to synthesize a much larger antenna, achieving fine spatial resolution despite long wavelengths. Because the sensor provides its own illumination and microwaves penetrate clouds, rain, and smoke, SAR operates day and night in all weather. Backscatter intensity depends on surface roughness, moisture content, and dielectric properties. SAR also records signal phase, enabling interferometric SAR (InSAR) to measure surface deformation with millimeter precision.
 
+## How It's Best Learned
+Work out why SAR is needed. For 10 m resolution at C-band (5.6 cm) from 700 km, a real antenna would need to be 700,000 x 0.056 / 10, about 3.9 km long. Then view a Sentinel-1 scene beside an optical image and label water, city and forest. Finally count the fringes in a published interferogram; each C-band fringe is about 2.8 cm of line-of-sight motion.
+
+## Common Misconceptions
+- Bright areas in a SAR image are light-colored on the ground. (Brightness shows how much energy returns to the antenna, which depends on roughness, geometry and moisture, so a white beach can look dark.)
+- One InSAR fringe equals one full wavelength of ground motion. (The signal travels out and back, so in repeat-pass InSAR one fringe is half a wavelength of change along the line of sight.)
+- InSAR measures how far the ground moved up or down. (It measures motion along the radar line of sight. Ascending and descending passes are combined to separate vertical and east-west motion.)
+- Speckle is a defect that a better sensor would remove. (Speckle comes from coherent radar signals adding within each pixel, so it is reduced by multilooking or filtering.)
+
 ## Questions
 
 ```yaml

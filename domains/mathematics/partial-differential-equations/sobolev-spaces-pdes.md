@@ -19,6 +19,14 @@ status: validated
 ## Core Idea
 Sobolev spaces W^{k,p}(Ω) consist of functions whose weak derivatives up to order k belong to L^p(Ω). They are the natural function spaces for PDE theory because they measure both the size and the smoothness of functions in a way compatible with integral formulations. The Sobolev embedding theorems determine when membership in W^{k,p} implies classical smoothness or continuity, while trace theorems characterize which boundary values are achievable by Sobolev functions. These spaces provide the analytical infrastructure for the variational and weak formulation of PDEs.
 
+## How It's Best Learned
+Use the power functions u = |x|^{−a} on the unit ball as a test bench. In ℝ³, |∇u|² behaves like |x|^{−2a−2}, so u ∈ H¹ exactly when a < 1/2. Such u is unbounded, and u ∈ L^q exactly when aq < 3. Letting a approach 1/2 recovers the critical exponent q = 6. Then check that the Heaviside function on (−1, 1) is not in H¹, because its weak derivative is δ.
+
+## Common Misconceptions
+- H¹ functions are continuous. (That holds in one dimension. In ℝ³, |x|^{−a} with 0 < a < 1/2 lies in H¹ of the unit ball and is unbounded near the origin.)
+- A function that is differentiable on each piece belongs to W^{1,p}. (The pieces must match up. A jump produces a delta in the weak derivative, so a function with a jump is not in W^{1,p}.)
+- Every L² function on the boundary is the trace of some H¹ function. (The traces of H¹(Ω) form H^{1/2}(∂Ω), which is a proper subspace of L²(∂Ω).)
+
 ## Questions
 ```yaml
 - question: "The Sobolev space H¹(Ω) = W^{1,2}(Ω) consists of L² functions whose:"

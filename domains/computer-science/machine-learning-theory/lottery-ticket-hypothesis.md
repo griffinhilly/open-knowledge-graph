@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 The Lottery Ticket Hypothesis (LTH), proposed by Frankle and Carbin (2019), posits that dense neural networks contain sparse subnetworks ("winning lottery tickets") that, when trained in isolation from random initialization, achieve test accuracy comparable to the original dense network. A winning ticket is found by training a dense network, pruning low-magnitude weights, and training the remaining weights from their original initialization (not from scratch). This suggests that dense networks redundantly encode multiple possible solutions; training initializes an implicit lottery where some random initializations hit a winning ticket. LTH has profound implications for neural network structure, generalization, and optimization efficiency.
 
+## How It's Best Learned
+Run iterative magnitude pruning on a small fully connected network for MNIST. Train, prune 20% of the remaining weights in each layer, reset the survivors to their initial values, and retrain; repeat several times. At each sparsity level, compare three runs: the rewound ticket, the same mask with fresh random weights, and a random mask. Plot test accuracy against the fraction of weights kept.
+
+## Common Misconceptions
+- A winning ticket lets you skip training the dense network. (The standard procedure trains the dense network at least once to choose the mask. The savings come at inference and storage, not in training.)
+- The ticket's value lies in the mask alone. (Keeping the mask but drawing new random initial weights usually loses the accuracy. The original initial values matter.)
+- Rewinding to the initial weights works for any network. (For larger networks, tickets are often found only by rewinding to weights from early in training rather than to the initialization itself.)
+
 ## Questions
 
 ```yaml

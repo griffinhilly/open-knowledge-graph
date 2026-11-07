@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 The double descent phenomenon reveals a non-monotonic generalization curve: as model complexity increases, test error first decreases (fitting phase), then increases (overfitting phase), then decreases again (interpolation phase). This contradicts classical bias-variance theory, which predicts monotonic increase in test error past a critical complexity threshold. Double descent occurs when models are overparameterized enough to interpolate training data perfectly yet generalize well. The phenomenon unifies classical learning theory (underfitting and overfitting regimes) with modern deep learning success (the modern interpolating regime), explaining why scaling up models and data often improves performance even in the presence of noise.
 
+## How It's Best Learned
+Reproduce the curve yourself. Take about 40 noisy samples of a smooth one-dimensional function and fit p random Fourier features by minimum-norm least squares (the pseudo-inverse), sweeping p from 5 to 400. Test error should peak near p = 40, where the fit first interpolates. Then add a small ridge penalty and rerun to see the peak shrink.
+
+## Common Misconceptions
+- Double descent means a bigger model is a better model. (Near the interpolation threshold, adding parameters makes test error worse. Depending on noise and regularization, the second descent can end above or below the classical minimum.)
+- The peak is fixed by the model's size alone. (The peak sits where the model can just interpolate the training set, so it moves with the number of samples. Near that point, adding data can raise test error.)
+- The peak appears whatever you do. (Label noise makes it larger, and well-tuned ridge regularization can shrink or remove it in linear models.)
+
 ## Questions
 
 ```yaml

@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 Burnside's pᵃqᵇ theorem states that every group of order pᵃqᵇ (for primes p, q) is solvable. The proof, remarkably, uses representation theory — specifically, the fact that a character of degree d evaluated at an element whose conjugacy class has size coprime to d must be zero or have absolute value d. This was one of the first major applications of character theory to pure group theory, demonstrating that representation-theoretic methods can prove statements with no obvious connection to linear algebra.
 
+## How It's Best Learned
+Split the proof into two steps and learn them separately. First, prove that a nonabelian simple group has no conjugacy class of prime-power size greater than 1, using the character lemma and column orthogonality for the regular character. Second, show that a group of order pᵃqᵇ with b ≥ 1 has such a class or a nontrivial center: a nontrivial element z in the center of a Sylow q-subgroup Q has a centralizer containing Q, so its class size is a power of p. If that size is 1, z is central. Check this in A₄, where (12)(34) has class size 3.
+
+## Common Misconceptions
+- Burnside's theorem says that groups of order pᵃqᵇ are nilpotent or abelian. (It gives solvability only. The symmetric group S₃, of order 6 = 2 · 3, is solvable but neither nilpotent nor abelian.)
+- A group whose order has three or more distinct prime factors cannot be solvable. (The theorem gives no information about such orders. The cyclic group of order 30 = 2 · 3 · 5 is abelian and therefore solvable.)
+- Burnside's theorem is the orbit-counting formula. (That formula, often called Burnside's lemma, is a different result about group actions. The pᵃqᵇ theorem concerns the structure of finite groups.)
+
 ## Questions
 
 ```yaml

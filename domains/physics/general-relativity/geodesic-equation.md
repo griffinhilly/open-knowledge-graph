@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 The geodesic equation d²x^μ/dτ² + Γ^μ_{αβ}(dx^α/dτ)(dx^β/dτ) = 0 describes the motion of a freely falling particle in curved spacetime — the GR generalization of Newton's first law. Geodesics extremize the proper time between two events (for timelike paths) or equivalently extremize the spacetime interval. They are the straightest possible curves in a curved geometry: the four-velocity is parallel-transported along itself. For massive particles the affine parameter is proper time τ; for photons (null geodesics, ds² = 0) a different affine parameter is used. The geodesic equation encodes the complete gravitational dynamics of test particles without reference to forces — gravity is simply the curvature of the spacetime through which particles travel along their natural paths.
 
+## How It's Best Learned
+Start on the 2-sphere: write the Euler-Lagrange equations for L = θ̇² + sin²θ φ̇² and check that the equator and the meridians solve them. Then move to equatorial Schwarzschild with c = 1. Because t and φ do not appear in the metric, you get conserved E = (1 − r_s/r)ṫ and ℓ = r²φ̇. The normalization g_μν ẋ^μ ẋ^ν = −1 then becomes a one-dimensional energy equation with an effective potential.
+
+## Common Misconceptions
+- A freely falling particle takes the path of least proper time. (A timelike geodesic locally maximizes proper time. The accelerated paths nearby record less.)
+- A planet's orbit is curved, so it cannot be a geodesic. (The orbit is curved in space, but its worldline is a geodesic of spacetime. A thrown ball and a passing light ray start at the same place and follow very different spatial paths, because a geodesic depends on the initial velocity.)
+- Any parameter along the curve can be used in the geodesic equation. (The standard form holds only for affine parameters. A non-affine parameter adds a term proportional to the velocity.)
+
 ## Questions
 
 ```yaml

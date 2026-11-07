@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 The HDI combines life expectancy, education (mean and expected years), and GNI per capita into a single index scaled 0–1. It enables cross-country comparisons of development progress and reveals that countries at similar income levels achieve vastly different human outcomes based on health and education investment.
 
+## How It's Best Learned
+Compute the index both ways for two made-up countries. Country A has dimension indices of 0.9, 0.9, and 0.3; Country B has 0.7 on all three. Both have an arithmetic mean of 0.7. The geometric mean is 0.70 for B but about 0.62 for A, since 0.9 × 0.9 × 0.3 = 0.243. Then compare real countries with similar income but different ranks.
+
+## Common Misconceptions
+- A higher HDI means a country is richer. (Countries with similar income per person can have very different HDI scores because of differences in health and education.)
+- Raising one dimension can fully make up for a very low score in another. (The geometric mean limits this substitution, so a very low dimension pulls the whole index down.)
+- Doubling income doubles the income index. (The income index uses the logarithm of GNI per capita, so each doubling adds the same fixed step.)
+- A high national HDI means most people in the country are doing well. (The HDI is a national average and ignores inequality, which is why the inequality-adjusted IHDI exists.)
+
 ## Questions
 
 ```yaml
@@ -63,6 +72,7 @@ The HDI combines life expectancy, education (mean and expected years), and GNI p
 - question: "Explain what the comparison between Sri Lanka and Equatorial Guinea reveals about the relationship between income and human development, and why this is the HDI's core insight."
   type: short-answer
   answer: "Sri Lanka has modest per capita income but achieves high HDI scores through strong public investment in free healthcare and universal education, translating limited resources into long lives and an educated population. Equatorial Guinea has much higher per capita income from oil but scores poorly because that wealth is concentrated among elites while most citizens lack basic health and education services. This comparison demonstrates the HDI's central insight: income is not destiny — the same level of national income can produce dramatically different human outcomes depending on whether it is distributed equitably and invested in public goods. This finding challenges income-centric development frameworks and supports the capabilities approach: what matters is not just what a country earns, but whether that translates into people living long, healthy, and educated lives. The HDI makes this gap visible and politically consequential."
+  explanation: "The answer is right because it ties each country's HDI score to how income becomes health and education outcomes, which is what the index adds beyond income. The geometric mean means Equatorial Guinea's weak health and education scores pull its HDI down even with high income, while Sri Lanka's strong scores lift its HDI above what its income alone would suggest."
 ```
 
 ## Explainer

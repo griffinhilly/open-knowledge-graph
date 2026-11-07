@@ -20,6 +20,14 @@ status: draft
 ## Core Idea
 Collage essays assemble fragments—quoted texts, images, notes—without smoothing over the seams. Borrowing from visual art, the form allows juxtaposition of disparate materials to generate meaning. Coherence emerges from fragments without explicit authorial transition.
 
+## How It's Best Learned
+Gather six to eight found fragments on one subject: a dictionary definition, a line from a news story, a family document, a short memory you write yourself. Print them on separate slips and arrange them on a table in two different orders. For each order, write one sentence on what the sequence suggests. This shows that arrangement is where the author's argument lives.
+
+## Common Misconceptions
+- A collage essay has no author, only fragments. (Choosing, cutting, and ordering the fragments are authorial acts, and some collage essays also include the writer's own voice.)
+- Collage is the same as a braided essay. (A braid weaves a few strands the author writes. A collage assembles many separate pieces, often including borrowed material, and leaves the seams visible.)
+- If readers make different meanings from a collage, the essay has failed. (The form deliberately leaves more interpretation to the reader, though a good collage still guides that interpretation through arrangement.)
+
 ## Questions
 
 ```yaml
@@ -55,6 +63,7 @@ Collage essays assemble fragments—quoted texts, images, notes—without smooth
 
 - question: How might a collage essay about a historical event (using period documents, photographs, personal accounts, and interpretive commentary) work differently than a chronological historical essay about the same event?
   type: short-answer
+  answer: "A chronological essay traces causes, events, and effects in sequence and builds toward one interpretation. A collage layers documents, photographs, accounts, and commentary so that the reader meets the event from several angles at once. The first stresses causality; the second stresses multiple, partial perspectives on the event."
   explanation: A chronological essay would trace causes, events, and effects in sequence, building toward interpretation. A collage essay would layer fragments—a newspaper headline from the day, a diary entry, a photograph, a modern historian's reflection, a government document—creating meaning through juxtaposition rather than narrative progression. The reader doesn't learn 'what happened' as a clear sequence but encounters the event from multiple angles simultaneously. One approach emphasizes causality and narrative understanding; the other emphasizes the multiplicity of perspectives and the difficulty of comprehending historical events. Collage can create a more fractured, realistic sense of how people actually experience historical moments—fragmented, incomplete, from limited perspectives.
 ```
 

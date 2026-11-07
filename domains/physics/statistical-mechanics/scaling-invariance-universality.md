@@ -23,12 +23,20 @@ status: validated
 # Scaling Invariance and Universality Classes
 
 ## Core Idea
-At criticality, the system has no intrinsic length scale: correlations scale as power laws with system size, and the structure is fractal-like. Universality states that exponents depend only on spatial dimension and order-parameter symmetry, not microscopic details. This explains why vastly different systems (binary fluids, ferromagnets, superconductors) have identical exponents.
+At criticality, the system has no intrinsic length scale: correlations scale as power laws with system size, and the structure is fractal-like. Universality states that exponents depend only on spatial dimension and order-parameter symmetry, not microscopic details. This explains why vastly different systems in the same class (binary fluids, liquid-gas critical points, uniaxial magnets) have identical exponents.
+
+## How It's Best Learned
+Check the scaling relations with known exponents. For 2D Ising, α = 0, β = 1/8, γ = 7/4, ν = 1 and η = 1/4. Rushbrooke gives 0 + 1/4 + 7/4 = 2, Fisher gives 1 × (2 − 1/4) = 7/4, and Josephson gives 2 × 1 = 2 − 0. Repeat with mean-field values and find that Josephson holds only at d = 4. Then zoom in on a 2D Ising snapshot at T_c.
+
+## Common Misconceptions
+- At T_c the system looks the same at every scale, right down to single atoms. (Self-similarity holds between the lattice spacing and the system size. Below the lattice spacing, the microscopic structure is visible.)
+- Power-law correlations at T_c mean that distant spins are strongly correlated. (The correlations still decay with distance, only more slowly than any exponential. How fast they decay is set by d and η.)
+- Universality means systems in one class share the same T_c and the same amplitudes. (T_c and amplitudes depend on microscopic details. The exponents, certain amplitude ratios and the scaling functions are universal.)
 
 ## Questions
 
 ```yaml
-- question: "Water near its liquid-gas critical point and iron near its Curie temperature have identical critical exponents (β ≈ 0.326, ν ≈ 0.630). What is the deepest reason for this?"
+- question: "Water near its liquid-gas critical point and a uniaxial magnet near its Curie temperature have identical critical exponents (β ≈ 0.326, ν ≈ 0.630). What is the deepest reason for this?"
   type: multiple-choice
   options:
     - "Their microscopic interactions happen to be numerically similar at the relevant energy scale"
@@ -48,10 +56,10 @@ At criticality, the system has no intrinsic length scale: correlations scale as 
   answer: 1
   explanation: "This is the geometric heart of scaling invariance. An exponential e^{−r/ξ} has a built-in length scale ξ — it decays by 1/e every ξ units. When ξ → ∞ at T_c, this form becomes trivial (no decay at all), which is unphysical. Power laws r^{−(d−2+η)} have no preferred length scale — zoom in by any factor and the functional form is unchanged. This is why scale-invariant systems at criticality necessarily exhibit power-law correlations and fractal-like structure."
 
-- question: "The critical exponents of the 3D Ising model are the same for a square lattice as for a triangular lattice."
+- question: "The critical exponents of the 2D Ising model are the same for a square lattice as for a triangular lattice."
   type: true-false
   answer: true
-  explanation: "This is a direct consequence of universality. Lattice structure is a microscopic detail, and critical exponents depend only on spatial dimension (d = 3 here) and order-parameter symmetry (Z₂ / scalar for Ising). The renormalization-group coarse-graining washes out all lattice-scale structure, so the two lattices flow to the same fixed point with identical exponents. A student who believes exponents depend on lattice type has missed the central message of universality."
+  explanation: "This is a direct consequence of universality. Lattice structure is a microscopic detail, and critical exponents depend only on spatial dimension (d = 2 here) and order-parameter symmetry (Z₂ / scalar for Ising). The renormalization-group coarse-graining washes out all lattice-scale structure, so the two lattices flow to the same fixed point with identical exponents. A student who believes exponents depend on lattice type has missed the central message of universality."
 
 - question: "Adding more microscopic detail to a model (e.g., including next-nearest-neighbor interactions) will shift the critical temperature T_c but will not change the critical exponents."
   type: true-false
@@ -70,6 +78,6 @@ From critical exponents, you know that near a critical point thermodynamic quant
 
 **Scaling invariance** at T_c means the system has no characteristic length scale. Ordinarily a ferromagnet has two relevant length scales: the lattice spacing a (microscopic) and the correlation length ξ (mesoscopic, measuring how far spins tend to align). At T_c, ξ → ∞ — spin correlations extend across the entire system. With no finite ξ to compare distances to, the system looks statistically the same at every scale: zoom in by a factor of 2 and the spin configuration is statistically indistinguishable from the original. This **self-similarity** is the defining property of fractals. Correlation functions that decay exponentially ~e^{−r/ξ} for finite ξ must, when ξ → ∞, decay instead as power laws: ⟨S(0)S(r)⟩ ~ r^{−(d−2+η)}, where η is a critical exponent. Power laws are the only functional form that is scale-free — they have no preferred length encoded in an exponent.
 
-**Universality** says that the critical exponents depend only on (1) spatial dimension d and (2) the symmetry of the order parameter — not on the microscopic Hamiltonian, lattice structure, or interaction details. Water near its liquid-gas critical point and an iron magnet near its Curie temperature both belong to the **3D Ising universality class** and share identical exponents (β ≈ 0.326, ν ≈ 0.630, γ ≈ 1.237), even though their microscopic physics is completely different. The deep explanation comes from the renormalization group: when you systematically coarse-grain a system — averaging over short-distance degrees of freedom — the Hamiltonian flows through a space of possible Hamiltonians. Near a critical point, this flow converges to a **fixed point**. The universal exponents are properties of the fixed point, not of the microscopic starting Hamiltonian. All systems whose coarse-graining flows to the same fixed point share the same exponents — they are in the same universality class.
+**Universality** says that the critical exponents depend only on (1) spatial dimension d and (2) the symmetry of the order parameter — not on the microscopic Hamiltonian, lattice structure, or interaction details. Water near its liquid-gas critical point and a uniaxial magnet near its Curie temperature both belong to the **3D Ising universality class** and share identical exponents (β ≈ 0.326, ν ≈ 0.630, γ ≈ 1.237), even though their microscopic physics is completely different. The deep explanation comes from the renormalization group: when you systematically coarse-grain a system — averaging over short-distance degrees of freedom — the Hamiltonian flows through a space of possible Hamiltonians. Near a critical point, this flow converges to a **fixed point**. The universal exponents are properties of the fixed point, not of the microscopic starting Hamiltonian. All systems whose coarse-graining flows to the same fixed point share the same exponents — they are in the same universality class.
 
 The universality classes are organized by symmetry content. The **Ising class** (Z₂ symmetry, scalar order parameter) covers liquid-gas transitions, binary alloy order-disorder transitions, and uniaxial ferromagnets. The **Heisenberg class** (O(3) symmetry, 3-component vector order parameter) covers isotropic ferromagnets. The **XY class** (O(2) symmetry) covers superfluid helium-4 and describes the Kosterlitz-Thouless transition in two dimensions. Within each class, critical exponents are not independent — they are related by **scaling relations** such as the Rushbrooke relation α + 2β + γ = 2 and the Fisher relation γ = ν(2 − η). These relations reduce the number of independent exponents to two, reflecting the fact that the fixed point is characterized by only two relevant scaling fields (temperature and the ordering field). Scaling relations are the mathematical signature of the underlying scale invariance: they follow from demanding that the singular part of the free energy obeys a generalized homogeneity law near T_c.

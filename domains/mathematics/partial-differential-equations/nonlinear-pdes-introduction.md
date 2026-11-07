@@ -19,6 +19,14 @@ status: validated
 ## Core Idea
 Nonlinear PDEs arise when the equation depends nonlinearly on the unknown function or its derivatives, breaking the superposition principle that makes linear theory tractable. They are classified by degree of nonlinearity: semilinear (nonlinear in u but linear in highest derivatives, like -Δu = u³), quasilinear (coefficients of highest derivatives depend on u, like div(|∇u|^{p-2}∇u) = 0), and fully nonlinear (arbitrary dependence on highest derivatives, like det(D²u) = f). Each class requires different techniques, and fundamentally new phenomena emerge: blow-up in finite time, multiple solutions, pattern formation, and solitons.
 
+## How It's Best Learned
+Classify a short list by asking which terms contain the highest derivatives and what multiplies them: −Δu = u³, u_t + uu_x = 0, u_t = Δ(u²), det(D²u) = 1. Then solve the ODE u' = u² to get u = u₀/(1 − u₀t), whose blow-up time depends on the size of the data. Finally check that λu(λx) solves −Δu = u³ whenever u does. Scaling of this kind often replaces superposition.
+
+## Common Misconceptions
+- Nonlinear PDEs never have solution formulas. (Some can be transformed into linear ones. The Cole-Hopf substitution turns the viscous Burgers equation u_t + uu_x = νu_xx into the heat equation.)
+- A semilinear equation behaves like its linear part for all data. (Small data often behave linearly, but the nonlinearity can take over for large data. For u_t = Δu + u² on a bounded domain with zero boundary values, small data decay while large data can blow up.)
+- Burgers' equation is semilinear because it has no second derivatives. (Its highest derivative is u_x, and the coefficient of u_x is u itself. That makes it quasilinear.)
+
 ## Questions
 ```yaml
 - question: "Which of the following is a semilinear PDE?"

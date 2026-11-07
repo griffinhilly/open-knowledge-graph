@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Oxygen has three stable isotopes (16O, 17O, 18O) with 18O/16O ratios varying by ~10% across Earth materials due to mass-dependent fractionation. Delta-18O is the primary tracer, measured relative to VSMOW (water) or VPDB (carbonates). In the water cycle, evaporation preferentially removes 16O (light isotope), making vapor isotopically lighter and residual water heavier. Progressive condensation during poleward atmospheric transport (Rayleigh distillation) produces precipitation that becomes increasingly depleted in 18O toward the poles and at high altitudes. In minerals, delta-18O records formation temperature (via equilibrium fractionation with water) and the isotopic composition of the water from which the mineral grew, underpinning paleothermometry, paleoaltimetry, and water-rock interaction studies.
 
+## How It's Best Learned
+Split a glacial benthic foraminifera shift into its two parts by hand. Suppose glacial values are 1.8 per mil higher and ice volume explains 1.0 per mil. The remaining 0.8 per mil, at about 0.25 per mil per degree C, means about 3.2 C of cooling. Then sketch a Rayleigh curve of rain delta-18O as an air mass loses its vapor.
+
+## Common Misconceptions
+- Higher delta-18O in foraminiferal calcite means warmer water. (It is the reverse. Calcite delta-18O rises with colder water and with larger ice sheets.)
+- Precipitation delta-18O is a direct record of local temperature. (It also depends on moisture source, transport path, and season, and in the tropics on rainfall amount.)
+- Values on the VSMOW and VPDB scales can be compared directly. (The two scales are offset by about 30 per mil for the same material, so values must be converted to one scale.)
+- Evaporation makes the vapor heavier. (Vapor takes up more 16O and is lighter. The water left behind becomes heavier.)
+
 ## Questions
 
 ```yaml

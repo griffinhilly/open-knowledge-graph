@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Schur's lemma states that any intertwining operator between irreducible representations is either zero or an isomorphism. Over an algebraically closed field, any self-intertwining operator of an irreducible representation is a scalar multiple of the identity. This seemingly simple result has enormous consequences: it constrains the structure of Hom_G spaces, underpins the orthogonality relations for characters, and is the single most-used tool in representation theory.
 
+## How It's Best Learned
+Compute a commutant by hand. Let ℤ/4ℤ act on ℝ² by R = [[0, −1], [1, 0]], and solve TR = RT for a 2×2 real matrix T. You get T = [[a, −b], [b, a]], a copy of ℂ rather than the scalars. That shows why Part 2 needs algebraic closure. Then do the same for the two-dimensional representation of S₃ over ℂ, where commuting with a rotation and a reflection forces T = λI.
+
+## Common Misconceptions
+- Schur's lemma says every G-map between irreducibles is a scalar. (Between two different irreducibles it says the map is zero or an isomorphism. The scalar statement is about maps from an irreducible to itself, over an algebraically closed field.)
+- The scalar conclusion holds over ℝ too. (For the rotation representation of ℤ/4ℤ on ℝ², the G-maps form a copy of ℂ, so non-scalar G-maps exist.)
+- Schur's lemma applies only to finite groups. (Part 1 uses only irreducibility, so it holds for any group and any field. Part 2 holds for finite-dimensional irreducibles of any group over an algebraically closed field.)
+
 ## Questions
 
 ```yaml

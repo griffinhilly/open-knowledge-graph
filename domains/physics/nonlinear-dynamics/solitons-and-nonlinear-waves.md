@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 A soliton is a localized wave packet in a nonlinear dispersive medium that propagates without changing shape and survives collisions with other solitons. In linear systems, wave packets always disperse (different frequencies travel at different speeds). Solitons arise when nonlinearity exactly balances dispersion, creating permanent traveling waves. The Korteweg-de Vries (KdV) equation u_t + 6uu_x + u_xxx = 0 is the archetype: its soliton solutions are pulses whose speed depends on amplitude (taller = faster), and they pass through each other with only a phase shift.
 
+## How It's Best Learned
+Substitute the traveling-wave form u = f(x − ct) into KdV and integrate the resulting ODE to get the one-soliton u = (c/2) sech²(√c (x − ct)/2). Read off that height c/2 and speed c rise together while width falls like 1/√c. Then simulate the same initial pulse three ways: in u_t + u_xxx = 0, where it disperses; in u_t + 6uu_x = 0, where it steepens; and in full KdV, where it holds together.
+
+## Common Misconceptions
+- A soliton is held together by nonlinearity alone. (Nonlinearity alone steepens a pulse toward a shock; the soliton exists because dispersion spreads it at a matching rate.)
+- Taller solitons travel more slowly because they carry more water. (In KdV, taller solitons are both faster and narrower; speed and height are tied together by the equation.)
+- During a collision, two solitons simply add up as linear waves do. (While they overlap, the combined profile is not the sum of the two pulses; they emerge intact but shifted in position from where they would otherwise be.)
+- Any localized wave that keeps its shape is a soliton. (Many equations have solitary waves that hold their shape alone but lose energy or deform in collisions; the term soliton is usually reserved for waves that survive collisions intact.)
+
 ## Questions
 
 ```yaml

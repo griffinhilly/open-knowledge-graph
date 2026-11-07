@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Modular representation theory studies representations of finite groups over fields whose characteristic p divides the group order |G|. In this setting, Maschke's theorem fails — the group algebra is no longer semisimple, and representations need not decompose into irreducible summands. Indecomposable representations (which cannot be written as direct sums) need not be irreducible, and the Jordan-Hölder composition factors of a module become the primary objects of study. Brauer characters replace ordinary characters, and the representation theory organizes into blocks determined by p-local structure.
 
+## How It's Best Learned
+Begin with ℤ/3ℤ over 𝔽₃. Write the generator as a Jordan block J = I + N of size 1, 2 or 3 with eigenvalue 1. Check that J³ = I + 3N + 3N² + N³ = I, so all three are representations, and that only the size-1 block is irreducible. Then treat S₃ over 𝔽₂: count the 2-regular classes (e and the 3-cycles) and find the two simple modules, the trivial one and 𝔽₂² with S₃ acting as GL₂(𝔽₂).
+
+## Common Misconceptions
+- An indecomposable module is irreducible, as in characteristic 0. (In characteristic p they can differ. The 2-dimensional Jordan block for ℤ/pℤ over 𝔽_p has an invariant line but does not split.)
+- The number of simple modules equals the number of conjugacy classes. (Over an algebraically closed field of characteristic p, it equals the number of p-regular classes. S₃ has three classes, but over a field of characteristic 2 it has two simple modules.)
+- Any field of positive characteristic puts you in the modular case. (The modular case needs p to divide |G|. If it does not, Maschke's theorem holds and the theory is semisimple.)
+
 ## Questions
 
 ```yaml

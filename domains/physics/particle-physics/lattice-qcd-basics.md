@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Lattice QCD is the non-perturbative formulation of quantum chromodynamics on a discrete spacetime lattice, where the path integral is evaluated numerically using Monte Carlo methods. It provides first-principles calculations of hadron masses, decay constants, form factors, and other quantities that are inaccessible to perturbation theory. Lattice QCD is essential for extracting fundamental parameters (quark masses, CKM elements, alpha_s) from experimental data.
 
+## How It's Best Learned
+Extract a mass from a synthetic correlator. Take C(t) = e^(−0.5t) + 0.5e^(−1.2t) in lattice units and compute the effective mass m_eff(t) = ln[C(t)/C(t+1)]. It is about 0.68 at t = 0 and about 0.51 at t = 5, settling toward the ground-state mass 0.5. Then check by hand that a plaquette trace is unchanged under a gauge transformation of its four links.
+
+## Common Misconceptions
+- Lattice results depend on the arbitrary lattice spacing chosen. (Calculations at several spacings and volumes are extrapolated to zero spacing and infinite volume, which removes the discretization artifacts.)
+- A lattice simulation shows quarks moving in real time. (The calculation runs in Euclidean time, so real-time dynamics such as scattering are not directly accessible.)
+- Lattice QCD fits a separate parameter to each hadron it reproduces. (Only the coupling and quark masses are inputs, fixed with a few hadron masses. The rest of the spectrum is then a prediction.)
+
 ## Questions
 
 ```yaml

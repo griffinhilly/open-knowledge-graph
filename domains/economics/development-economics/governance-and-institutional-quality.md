@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Governance encompasses state capacity (ability to collect taxes and deliver services), accountability (institutions that check abuse of power), and legitimacy (public trust). Countries with weak governance struggle to fund education, health, and infrastructure; strong governance enables sustained public investment and social development, creating a virtuous cycle of growth.
 
+## How It's Best Learned
+Score a few short country scenarios on three separate dials: capacity, accountability, and legitimacy. Use this page's own cases, such as an honest government that collects 8% of GDP in tax, or a democracy whose transfer program reaches 30% of eligible households. For each, name the weak dial and the fix that targets it. Then draw the legitimacy loop and mark where a visible early win could reverse it.
+
+## Common Misconceptions
+- An honest government will be an effective one. (Low corruption does not supply the records, trained staff, and systems needed to collect taxes and deliver services.)
+- Elections and a free press guarantee good public services. (Accountability checks abuse of power, but building administrative capacity is a separate task.)
+- Weak services in poor countries come mainly from bad leaders. (Often the administrative apparatus is weak, so well-meant policies fail in execution.)
+- Legitimacy is a matter of politics with no economic effect. (Trust affects tax compliance, which funds the services that sustain trust.)
+
 ## Questions
 
 ```yaml

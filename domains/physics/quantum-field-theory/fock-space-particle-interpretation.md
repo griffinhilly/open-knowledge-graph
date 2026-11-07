@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 Fock space is the Hilbert space of quantum field theory, built as the direct sum of n-particle Hilbert spaces for all n = 0, 1, 2, ... It accommodates states with any number of particles, including the vacuum. Creation operators add particles; annihilation operators remove them; the number operator counts them.
 
+## How It's Best Learned
+Work with just two modes before using a continuum of momenta. Write states as |n₁, n₂⟩ and apply a† and a by hand, using a†|n⟩ = √(n + 1)|n + 1⟩. Then redo it with fermionic operators and find that only four states exist. Finally, count creation and annihilation operators in each term of a φ⁴ interaction to see which terms change particle number.
+
+## Common Misconceptions
+- Fock space is the tensor product of the n-particle spaces. (It is their direct sum, so a single state can have components with different particle numbers.)
+- |p, q⟩ and |q, p⟩ are two different two-particle states. (For bosons they are the same state; for fermions they differ only by a sign, so they describe the same physical state.)
+- Particle number is conserved in every quantum field theory. (It commutes with the free Hamiltonian, but interaction terms such as φ⁴ contain pieces that change particle number.)
+- The ground state of an interacting theory is the free Fock vacuum |0⟩. (The interacting vacuum differs from |0⟩ and has components with nonzero numbers of free-field quanta.)
+
 ## Questions
 
 ```yaml

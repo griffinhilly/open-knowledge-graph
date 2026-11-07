@@ -21,7 +21,15 @@ status: validated
 # Percolation and Critical Phenomena
 
 ## Core Idea
-Percolation theory studies connectivity in random networks. At a critical density p_c, a spanning connected path first forms, marking a phase transition. The order parameter (cluster size) exhibits critical exponents that match those of equilibrium phase transitions, revealing universal behavior independent of microscopic details.
+Percolation theory studies connectivity in random networks. At a critical density p_c, a spanning connected path first forms, marking a phase transition. The order parameter (the fraction of sites in the infinite cluster) obeys power laws with critical exponents, in the same scaling framework as equilibrium phase transitions. Percolation forms its own universality class, and its exponents are independent of microscopic details such as lattice type.
+
+## How It's Best Learned
+Give each site of a square grid a fixed random number in [0, 1) and occupy it when the number is below p. Raise p slowly and flood-fill to check for a path between opposite edges. Because the random numbers stay fixed, clusters only grow and merge. Repeat on a larger grid and watch the jump in spanning probability near 0.59 become sharper.
+
+## Common Misconceptions
+- When half the sites are filled, a connected path has to cross the lattice. (For site percolation on the square lattice p_c ≈ 0.5928, so at p = 0.5 a large lattice has no spanning cluster.)
+- The threshold p_c is the universal number. (p_c changes with the lattice and with site or bond occupation. Universality applies to the critical exponents.)
+- The spanning cluster at p_c is a solid, compact blob. (At p_c it is a fractal with holes on every scale, so its mass grows more slowly with system size than the lattice volume does.)
 
 ## Questions
 
@@ -36,7 +44,7 @@ Percolation theory studies connectivity in random networks. At a critical densit
   answer: 1
   explanation: "The mean finite cluster size diverges as |p − p_c|^{−γ} as you approach p_c from either side. Observing rapid growth of cluster size while still below the spanning transition is precisely the signature of approaching p_c from below. This diverging correlation length — clusters of all scales appearing — is the hallmark of the critical point."
 
-- question: "What is the deepest reason that percolation shares critical exponents with equilibrium phase transitions like the Ising model, despite having no Hamiltonian or temperature?"
+- question: "What is the deepest reason that percolation shows the same kind of critical behavior (power laws, scaling, universal exponents) as equilibrium phase transitions like the Ising model, despite having no Hamiltonian or temperature?"
   type: multiple-choice
   options:
     - "Both models are defined on square lattices, and the lattice geometry determines the critical exponents"
@@ -44,7 +52,7 @@ Percolation theory studies connectivity in random networks. At a critical densit
     - "Both exhibit scale invariance at the critical point — no characteristic length scale — and critical exponents are determined by spatial dimension and symmetry, not microscopic details"
     - "Temperature and occupation probability play identical mathematical roles in both models, making them formally equivalent"
   answer: 2
-  explanation: "Universality means critical exponents depend only on spatial dimension and the symmetry of the order parameter — not on whether the system has a Hamiltonian, what the microscopic interactions are, or whether the transition is geometric or thermodynamic. Both Ising and percolation exhibit a diverging correlation length at criticality and become scale-invariant. It is this shared geometry of the critical point, not microscopic similarity, that produces identical exponents."
+  explanation: "Universality means critical exponents depend only on spatial dimension and the symmetry of the order parameter — not on whether the system has a Hamiltonian, what the microscopic interactions are, or whether the transition is geometric or thermodynamic. Both Ising and percolation exhibit a diverging correlation length at criticality and become scale-invariant. It is this shared scale invariance of the critical point, not microscopic similarity, that produces the same scaling framework. The exponent values themselves differ: percolation is its own universality class (in 2D, β = 5/36 for percolation versus β = 1/8 for Ising)."
 
 - question: "Below the critical probability p_c, no clusters of any size exist in a percolation model."
   type: true-false
@@ -68,6 +76,6 @@ Percolation is one of the simplest models that exhibits a genuine phase transiti
 
 The answer is the **critical probability** p_c. For the square lattice, p_c ≈ 0.5928. Below p_c, only finite clusters exist; no path crosses the system. Above p_c, a single **infinite cluster** (in the thermodynamic limit) exists and spans the system. This is a genuine phase transition, with p playing the role of temperature (or its inverse) and the probability of belonging to the infinite cluster playing the role of the **order parameter**. From your study of phase transitions, you know that the order parameter goes from zero to nonzero as you cross the transition — here it goes from zero below p_c to a nonzero percolation probability P_∞ above p_c.
 
-The transition has a **critical exponent** structure that mirrors equilibrium statistical mechanics. The percolation probability P_∞ ~ (p − p_c)^β for p just above p_c, where β ≈ 0.14 in 2D. The mean finite cluster size diverges as ξ ~ |p − p_c|^{−γ}. The correlation length — roughly the typical size of clusters — diverges as |p − p_c|^{−ν} as you approach p_c from either side. These power laws are the hallmark of a continuous phase transition. Exactly at p_c, clusters of all sizes exist simultaneously, and the system is **scale-invariant**: there is no characteristic length, and the cluster size distribution follows a pure power law.
+The transition has a **critical exponent** structure that mirrors equilibrium statistical mechanics. The percolation probability P_∞ ~ (p − p_c)^β for p just above p_c, where β ≈ 0.14 in 2D. The mean finite cluster size diverges as S ~ |p − p_c|^{−γ}. The correlation length — roughly the typical size of clusters — diverges as |p − p_c|^{−ν} as you approach p_c from either side. These power laws are the hallmark of a continuous phase transition. Exactly at p_c, clusters of all sizes exist simultaneously, and the system is **scale-invariant**: there is no characteristic length, and the cluster size distribution follows a pure power law.
 
-What makes percolation particularly important in the context of phase transitions is that it is a *geometric* transition, not a thermodynamic one, yet it obeys the same critical scaling framework. This is the first hint of a deep universality: systems as different as bond percolation, site percolation, random graphs (Erdős–Rényi networks), and polymer gelation all share the same critical exponents when they have the same spatial dimension and symmetry. Percolation thus serves as a bridge between combinatorics and statistical physics, and as a clean testing ground for the concepts of critical exponents and scaling that you will carry forward into universality classes and the renormalization group.
+What makes percolation particularly important in the context of phase transitions is that it is a *geometric* transition, not a thermodynamic one, yet it obeys the same critical scaling framework. This is the first hint of a deep universality: systems as different as bond percolation, site percolation, and polymer gelation all share the same critical exponents when they have the same spatial dimension and symmetry. Percolation thus serves as a bridge between combinatorics and statistical physics, and as a clean testing ground for the concepts of critical exponents and scaling that you will carry forward into universality classes and the renormalization group.

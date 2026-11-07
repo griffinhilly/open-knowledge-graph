@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Jets are collimated sprays of hadrons produced when high-energy quarks or gluons from a hard scattering undergo fragmentation and hadronization. Because free quarks and gluons cannot be observed (confinement), jets are the experimental proxies for partons. Jet algorithms define systematic procedures for clustering final-state particles into jets, and their design must be infrared and collinear (IRC) safe to allow meaningful comparison with perturbative QCD calculations.
 
+## How It's Best Learned
+Run anti-k_T by hand with R = 0.4 on three particles along one axis: 100 GeV at y = 0, 5 GeV at 0.3, and 50 GeV at 0.9. Compute every d_ij and d_iB. The soft particle merges with the hard one first, giving jets of 105 and 50 GeV. Then add a nearly zero-energy particle at 0.6 and confirm the jets barely change.
+
+## Common Misconceptions
+- Each jet is one quark or gluon. (A jet is whatever the algorithm returns. Hard radiation can split one parton's energy into two jets, and two nearby partons can merge into one jet.)
+- Any sensible clustering rule will do for comparing with theory. (The rule must be infrared and collinear safe. Some older seeded cone algorithms failed this, and their results could not be computed reliably in perturbation theory.)
+- A larger jet radius is better because it captures more of the parton's energy. (A larger R also sweeps in more pileup and underlying-event energy, so the best choice depends on the analysis.)
+
 ## Questions
 
 ```yaml
@@ -33,7 +41,7 @@ Jets are collimated sprays of hadrons produced when high-energy quarks or gluons
     - "It always produces exactly two jets"
     - "It eliminates the need for jet energy corrections"
   answer: 1
-  explanation: "The anti-k_T algorithm preferentially clusters soft particles with nearby hard particles (because the 1/p_T^2 weighting favors high-p_T seeds). This produces jets with regular, circular boundaries around hard cores. The k_T algorithm (which uses p_T^2 instead of 1/p_T^2) clusters soft particles first, producing irregular jet shapes. Both are IRC safe and give the same inclusive cross sections, but anti-k_T jets are experimentally easier to calibrate and correct."
+  explanation: "The anti-k_T algorithm preferentially clusters soft particles with nearby hard particles (because the 1/p_T^2 weighting favors high-p_T seeds). This produces jets with regular, circular boundaries around hard cores. The k_T algorithm (which uses p_T^2 instead of 1/p_T^2) clusters soft particles first, producing irregular jet shapes. Both are IRC safe, but anti-k_T jets are experimentally easier to calibrate and correct."
 
 - question: "A jet algorithm must be 'infrared and collinear (IRC) safe' to be useful for QCD calculations. What does this requirement mean physically?"
   type: short-answer

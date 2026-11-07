@@ -20,6 +20,13 @@ status: validated
 ## Core Idea
 There is no formula in terms of radicals for the roots of a general quintic polynomial. The proof uses Galois theory: the symmetric group S₅ is not solvable, so no solvable extension can contain all roots of a general quintic.
 
+## How It's Best Learned
+Draw a solvable case first: for x⁵ − 2 over ℚ, adjoin a primitive fifth root of unity, then the real fifth root of 2, and match each step to a subgroup with cyclic quotient. Then compute why S₅ stalls. Show g = (23)(45) is in A₅ and conjugates (123) to (132), so (123) = g(123)g⁻¹(123)⁻¹ is a commutator. Since 3-cycles generate A₅, [A₅, A₅] = A₅.
+
+## Common Misconceptions
+- A quintic that cannot be solved by radicals has no roots. (Every degree-5 polynomial has five complex roots, counted with multiplicity. The theorem only says they cannot in general be written with radicals.)
+- The theorem rules out every closed-form method for the quintic. (It rules out radical expressions. Roots of the general quintic can be written with other special functions, such as the Bring radical.)
+
 ## Questions
 
 ```yaml
@@ -31,7 +38,7 @@ There is no formula in terms of radicals for the roots of a general quintic poly
     - "x⁵ - 1 = 0 has roots expressible by radicals; insolvability applies only to the general quintic with Galois group S₅"
     - "The Fundamental Theorem of Algebra only guarantees roots for polynomials over the reals, not over the complex numbers"
   answer: 2
-  explanation: "The insolvability result says the *general* quintic — one with Galois group S₅ — cannot be solved by radicals. Specific quintics can be solvable: x⁵ - 1 = 0 has roots that are fifth roots of unity, expressible as e^(2πik/5), and its Galois group is Z₅, which is abelian and hence solvable. Moreover, every degree-5 polynomial has exactly five complex roots by the Fundamental Theorem of Algebra — insolvability only says those roots cannot always be written using radicals, not that they don't exist."
+  explanation: "The insolvability result says the *general* quintic — one with Galois group S₅ — cannot be solved by radicals. Specific quintics can be solvable: x⁵ - 1 = 0 has roots that are fifth roots of unity, expressible as e^(2πik/5), and its Galois group is Z₄, which is abelian and hence solvable. Moreover, every degree-5 polynomial has exactly five complex roots by the Fundamental Theorem of Algebra — insolvability only says those roots cannot always be written using radicals, not that they don't exist."
 
 - question: "Why is A₅ the critical obstacle in proving that S₅ is not solvable?"
   type: multiple-choice

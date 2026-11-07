@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 General relativity has been tested across an extraordinary range of scales and field strengths, from laboratory experiments to cosmological observations, passing every test with remarkable precision. The classical solar-system tests include: perihelion precession of Mercury (43 arcsec/century, confirmed to 0.1%), deflection of light by the Sun (1.75 arcsec, confirmed to 0.01% via VLBI), gravitational redshift (Pound-Rebka, GPS, confirmed to 10⁻⁵), and Shapiro time delay (confirmed to 0.001%). Strong-field tests include binary pulsar orbital decay (PSR B1913+16, matching the gravitational wave quadrupole formula to 0.2%), direct gravitational wave detection (LIGO/Virgo, confirming the nonlinear strong-field regime), black hole shadow imaging (Event Horizon Telescope), and frame-dragging measurements (Gravity Probe B, LAGEOS). Cosmological tests include the expansion history consistent with the Friedmann equations and the spectrum of CMB anisotropies. No confirmed deviation from GR has been found.
 
+## How It's Best Learned
+Sort the tests in a table by what each one probes: the equivalence principle, the weak-field metric, strong fields, or radiation. For the weak-field rows, use the post-Newtonian parameters γ and β. Light deflection scales as (1 + γ)/2 times 1.75 arcseconds, the Shapiro delay as (1 + γ), and the perihelion shift as (2 + 2γ − β)/3. Setting γ = 0 shows at once why a Newtonian-style calculation gives half the deflection.
+
+## Common Misconceptions
+- The 1919 eclipse settled the light-deflection question with high precision. (Those measurements had large uncertainties. Later radio interferometry is what pins the deflection down precisely.)
+- Solar-system tests check gravity in the strong-field regime. (In the solar system GM/(rc²) is about 10⁻⁶ or smaller. Strong-field tests need binary pulsars, gravitational waves or black hole imaging.)
+- All the classic tests measure the same thing, so passing one means passing them all. (Each test is sensitive to different parts of the theory, which is why they are combined to constrain alternatives.)
+- Passing every test so far shows that GR is the final theory of gravity. (It is expected to fail at the Planck scale, where quantum effects matter and no experiment has yet reached.)
+
 ## Questions
 
 ```yaml

@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Phase diagrams map the stability fields of minerals and mineral assemblages as functions of temperature, pressure, and composition. Each region of the diagram represents conditions where a specific mineral or assemblage has the lowest Gibbs free energy and is therefore thermodynamically stable. Boundaries between fields represent conditions where two assemblages coexist in equilibrium (univariant reactions). The Clausius-Clapeyron equation (dP/dT = delta-S/delta-V) governs the slope of these boundaries. Phase diagrams are the primary tool for interpreting metamorphic grade, predicting magmatic crystallization sequences, and understanding the mineralogical structure of Earth's interior.
 
+## How It's Best Learned
+Draw the Al2SiO5 diagram and trace a clockwise P-T path across it, listing the polymorph stable at each stage. Apply the phase rule at each feature: at the triple point, F = 1 - 3 + 2 = 0. Then practice the lever rule on a binary eutectic. A bulk of 40% B, with pure A crystals and liquid at 60% B, is two-thirds liquid.
+
+## Common Misconceptions
+- A mineral found in a surface rock must be stable at the surface. (Many rocks keep the minerals of their peak conditions because reactions are too slow at low temperature. Those minerals are metastable.)
+- Kyanite, andalusite, and sillimanite in one rock show it formed at the triple point. (They often grew at different stages of the P-T path, or one persisted metastably. Impurities can also shift the boundaries.)
+- A reaction happens as soon as conditions cross its boundary. (The boundary marks where free energies are equal. Real reactions often need some overstepping to overcome nucleation and kinetic barriers.)
+- A boundary that is steep on a P-T diagram (pressure on the vertical axis) is a good barometer. (A steep boundary occurs at nearly the same temperature across a range of pressures, so it works as a thermometer. A flat boundary works as a barometer.)
+
 ## Questions
 
 ```yaml

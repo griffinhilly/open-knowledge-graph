@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 A Mott insulator is a material that band theory predicts should be metallic (partially filled band) but is insulating due to strong electron-electron Coulomb repulsion. When the on-site repulsion U exceeds the bandwidth W, it becomes energetically prohibitive for electrons to hop between sites (each hop creates a doubly-occupied site costing energy U), and the system develops a charge gap despite the absence of a band gap. The Mott metal-insulator transition (MIT) can be driven by changing U/W through pressure, temperature, or chemical doping. Mott insulators are the parent compounds of many exotic materials, including cuprate high-T_c superconductors, colossal magnetoresistance manganites, and frustrated quantum magnets.
 
+## How It's Best Learned
+Start in the atomic limit with one electron per site. The electron-removal level sits at ε_d and the electron-addition level at ε_d + U, so the charge gap is U. Then let hopping broaden each level into a band of width about W, and watch the gap shrink to roughly U − W and close near U ~ W. Finally, compare a standard DFT density of states for a Mott oxide with its measured photoemission spectrum.
+
+## Common Misconceptions
+- A Mott insulator is a band insulator with an unusually large gap. (Its band is partially filled; the gap comes from electron-electron repulsion, not from filled bands.)
+- Standard DFT calculations predict Mott insulators correctly. (LDA and GGA often predict a metal for these materials, and the mismatch with experiment is a sign of Mott physics.)
+- Doping a Mott insulator works like doping a semiconductor, adding carriers to rigid bands. (Doping moves spectral weight between the Hubbard bands and toward low energy, so the bands change as carriers are added.)
+
 ## Questions
 
 ```yaml

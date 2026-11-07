@@ -28,6 +28,14 @@ status: validated
 ## Core Idea
 Optical remote sensing captures reflected solar radiation in the visible and near-infrared wavelengths (roughly 0.4-2.5 micrometers) to create images of Earth's surface. The fundamental measurement is surface reflectance -- the fraction of incoming sunlight reflected by each material at each wavelength. Because different surface materials reflect sunlight differently across wavelengths, optical imagery encodes rich information about land cover, vegetation health, water quality, and mineral composition. Key system parameters include spatial resolution, spectral resolution, temporal resolution, and radiometric resolution.
 
+## How It's Best Learned
+View one town in MODIS, Landsat, Sentinel-2 and sub-meter imagery side by side. List which features appear at each pixel size. Then build a table with the four resolutions for each sensor and mark the trade-offs. For radiometric resolution, compare levels: 8 bits give 256 brightness levels and 12 bits give 4096.
+
+## Common Misconceptions
+- Optical satellites can image the surface at night or through cloud. (Most record reflected sunlight, so they need daylight, and cloud blocks their view of the surface.)
+- An object smaller than a pixel cannot show up in the image. (A small feature with strong contrast, such as a road or a bright roof, can change the pixel value enough to be visible.)
+- A material has one fixed reflectance value at each wavelength. (Reflectance also changes with sun and view angles, moisture and condition, so the same field can look different on two dates.)
+
 ## Questions
 
 ```yaml

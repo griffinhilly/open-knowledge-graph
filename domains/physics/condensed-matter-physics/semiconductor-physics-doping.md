@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Intrinsic semiconductors have equal concentrations of thermally excited electrons and holes (n = p = n_i). Doping — substituting impurity atoms with more or fewer valence electrons — creates extrinsic semiconductors: n-type (donor impurities, excess electrons) or p-type (acceptor impurities, excess holes). The Fermi level shifts toward the conduction band in n-type and toward the valence band in p-type material. A p-n junction forms a depletion region with a built-in electric field that permits current flow in one direction (forward bias) but blocks it in the other (reverse bias), creating a diode — the fundamental building block of all semiconductor electronics.
 
+## How It's Best Learned
+Work silicon at 300 K with n_i ≈ 10¹⁰ cm⁻³. For N_D = 10¹⁶ cm⁻³, n ≈ 10¹⁶ and p = n_i²/n ≈ 10⁴ cm⁻³, and E_F sits k_BT ln(n/n_i) ≈ 0.36 eV above midgap. Join it to p-type silicon with N_A = 10¹⁶ cm⁻³: V_bi = (k_BT/e) ln(N_A N_D/n_i²) ≈ 0.71 V. Draw the band diagram with one flat Fermi level.
+
+## Common Misconceptions
+- n-type silicon carries a negative charge. (It is electrically neutral; each free electron is balanced by a positively charged ionized donor.)
+- The depletion region holds no charge. (It has almost no mobile carriers, but it holds the fixed charge of ionized donors and acceptors, which creates the built-in field.)
+- The built-in potential can drive current through a wire connecting the two sides. (In equilibrium the contact potentials at the metal leads cancel it, so a voltmeter reads zero and no current flows.)
+- Doping a semiconductor adds carriers of both types. (In equilibrium np = n_i², so adding electrons lowers the hole concentration.)
+
 ## Questions
 
 ```yaml

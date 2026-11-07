@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 The unit step function u(t - a) is 0 for t < a and 1 for t ≥ a. Its Laplace transform L{u(t - a)} = e^{-as}/s handles piecewise-defined forcing terms. The shifting property L{f(t - a)u(t - a)} = e^{-as}F(s) simplifies solving ODEs with discontinuous inputs.
 
+## How It's Best Learned
+Sketch the forcing first, then write one switch per breakpoint. Take f(t) = 1 for t < 2 and f(t) = t for t ≥ 2. The switch rule gives f = 1 + (t − 1)u(t − 2). Rewriting t − 1 as (t − 2) + 1 gives F(s) = 1/s + e^(−2s)/s² + e^(−2s)/s. Check the formula by evaluating it at t = 1 and t = 3.
+
+## Common Misconceptions
+- A pulse that is on for a ≤ t < b is u(t − a) · u(t − b). (That product equals u(t − b); the pulse is the difference u(t − a) − u(t − b).)
+- At a breakpoint, the step function multiplies the new formula h(t). (It multiplies the change h(t) − g(t), because the old formula g(t) is still present after the switch.)
+- The transform of u(t − a) is e^(−as). (It is e^(−as)/s; the delay factor multiplies 1/s, the transform of the constant 1.)
+
 ## Questions
 
 ```yaml

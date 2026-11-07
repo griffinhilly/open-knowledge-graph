@@ -25,6 +25,14 @@ status: draft
 ## Core Idea
 The lyric essay privileges sensory immediacy, image, and emotional intensity over conventional linear narrative or discursive argument. It employs poetic and modernist techniques including fragmentation, juxtaposition, white space, and associative thinking to explore subjective experience, often combining multiple temporal planes or perspectives to create meaning through form rather than explicit connection.
 
+## How It's Best Learned
+Write a short narrative paragraph about a memory, then rebuild it as five to seven fragments, each centered on one sensory image and separated by white space. Add one fragment from the present that sits beside the memory without explaining the link. Give both versions to a reader and ask what connection they found in the juxtaposition.
+
+## Common Misconceptions
+- Fragmentation means the essay lacks structure. (The fragments are arranged with care, and coherence comes from image, theme and juxtaposition in place of linear sequence.)
+- White space is a section break and nothing more. (In a lyric essay, white space can mark silence, absence or emotional weight, and it slows the reader down.)
+- A lyric essay should explain what its images mean. (The form often places images side by side and leaves the reader to find the connection.)
+
 ## Questions
 
 ```yaml
@@ -60,6 +68,7 @@ The lyric essay privileges sensory immediacy, image, and emotional intensity ove
 
 - question: How might a lyric essay about a memory work? How would its form differ from a traditional narrative memoir about the same memory?
   type: short-answer
+  answer: "A narrative memoir would tell the memory in order and explain its significance. A lyric essay might break it into fragments of sensory detail, interwoven with present reflection and separated by white space, so the juxtaposition conveys the meaning in place of explanation."
   explanation: 'A traditional memoir would narrate: I was five years old, walking through my grandmother''s garden. I saw a butterfly. I followed it and got lost. My grandmother found me and was angry. Now, thinking back, I understand that moment taught me about fear and care. A lyric essay might present the memory differently: fragments of sensory detail from the garden (colors, sounds, smells), interwoven with present reflection, broken into short paragraphs with white space between them. Images might jump—from childhood garden to adult understanding of loss. Rather than explaining the memory''s significance, the form enacts it. The reader experiences disorientation and beauty and sadness through the fragmented form, not through explanation. Lyric form asks readers to feel and understand through experience, not through narrative explanation.'
 ```
 

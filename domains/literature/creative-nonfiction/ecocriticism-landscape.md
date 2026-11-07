@@ -19,6 +19,14 @@ status: draft
 ## Core Idea
 Ecocriticism reads landscape and nature as cultural texts shaped by ideology, power relations, and history rather than as pristine or politically neutral. In creative nonfiction, this approach reveals how nature writing itself is always culturally situated, showing how writers' observations of nature are framed by assumptions about wilderness, environmental value, and the human relationship to land.
 
+## How It's Best Learned
+Choose a nearby place that looks natural, such as a park, a lakeshore, or a field. Look up its land-use history: who lived there, how it was used, and when it was protected or designed. Then write two short descriptions, one as pure scenery and one that names the human decisions visible in it. Compare what the first version took for granted.
+
+## Common Misconceptions
+- Reading landscape as a cultural text means nature is not real. (Ecocriticism accepts that land and living things exist. It argues that how people see, value, and describe them is shaped by culture.)
+- Land that looks wild has been untouched by people. (Many landscapes that appear wild have been shaped by human management, use, or displacement over long periods.)
+- Admitting a cultural lens weakens nature writing. (Acknowledging the frameworks behind an observation can make the writing more honest and more precise.)
+
 ## Questions
 
 ```yaml
@@ -54,6 +62,7 @@ Ecocriticism reads landscape and nature as cultural texts shaped by ideology, po
 
 - question: How might an ecocritical reading of a particular landscape or nature writing piece reveal cultural assumptions? Give an example.
   type: short-answer
+  answer: "An ecocritical reading of American writing that praises untouched wilderness can show that the land had been shaped and inhabited by Native peoples, so the idea of empty, pristine land reflects the writers' cultural values. The reading reveals whose relationship to the land the text centers and whose it leaves out."
   explanation: 'An ecocritical reading of American nature writing about ''wilderness'' reveals that ''wilderness'' is a cultural construct. What early American nature writers valued as untouched wild nature was actually shaped by Native American land management. The ''pristine wilderness'' was pristine partly because of European diseases that decimated indigenous populations. The writers'' celebration of wilderness as valuable precisely for being uninhabited reflected particular cultural values (about progress, development, nature''s ''proper'' role) while ignoring others'' relationships to the same land. An ecocritical nonfiction piece might examine these assumptions—showing how a particular landscape is actually a cultural palimpsest, shaped by history and ideology. Or it might analyze a contemporary nature writer''s assumptions: what do they value in nature? What counts as ''natural''? Whose relationship to land are they centering? Ecocriticism doesn''t claim there''s a ''true'' nature beyond culture; instead, it reveals that all our understandings of nature are culturally mediated.'
 ```
 

@@ -17,6 +17,14 @@ status: validated
 ## Core Idea
 Conservation laws are PDEs of the form u_t + f(u)_x = 0 expressing that some quantity (mass, momentum, energy) is locally conserved. Even with smooth initial data, nonlinear conservation laws develop discontinuities (shock waves) in finite time, as faster-moving parts of the solution overtake slower parts. Classical (smooth) solutions cease to exist, necessitating the concept of weak solutions—functions that satisfy the PDE in an integral sense rather than pointwise. Since weak solutions are generally non-unique, additional entropy conditions are required to select the physically relevant one.
 
+## How It's Best Learned
+Solve the two Riemann problems for Burgers' equation u_t + (u²/2)_x = 0 and draw the characteristics in the x-t plane for each. With u_L = 1 and u_R = 0 they collide, and Rankine-Hugoniot gives a shock of speed 1/2. With u_L = 0 and u_R = 1 they leave a gap. Check that the fan u = x/t and a jump moving at speed 1/2 both solve the weak form there.
+
+## Common Misconceptions
+- Shocks form only when the initial data is already discontinuous. (For Burgers' equation, smooth data with u₀' < 0 somewhere forms a shock at the first time characteristics cross, t = −1/min u₀'.)
+- Any equation with the same smooth solutions gives the same shocks. (Multiplying Burgers' equation by u gives (u²/2)_t + (u³/3)_x = 0. For the jump from 1 to 0 this predicts speed 2/3 instead of 1/2, so the choice of conserved quantity matters.)
+- A jump that satisfies Rankine-Hugoniot is automatically the physical solution. (Entropy-violating jumps also satisfy Rankine-Hugoniot. The entropy condition is a separate test.)
+
 ## Questions
 ```yaml
 - question: "Why do smooth solutions of nonlinear conservation laws break down in finite time?"

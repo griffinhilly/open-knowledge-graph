@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Quantum gates are unitary transformations that manipulate qubit states, analogous to classical logic gates but reversible and operating on amplitudes rather than bits. Single-qubit gates include the Pauli gates (X, Y, Z), the Hadamard gate (H), and phase gates (S, T). The controlled-NOT (CNOT) is the standard two-qubit gate. Any unitary operation on n qubits can be decomposed into single-qubit gates plus CNOT — this is the universality theorem that makes a finite gate set sufficient for arbitrary quantum computation.
 
+## How It's Best Learned
+Multiply the 2 x 2 matrices by hand and check that HZH = X. Then follow |0> through H, Z, H: you get |+>, then |->, then |1>. A Z gate that changes no probability on its own has turned |0> into |1> once Hadamards surround it. Finish by applying CNOT to all four basis states and writing its 4 x 4 permutation matrix.
+
+## Common Misconceptions
+- Applying any gate twice undoes it. (This holds for X, Z, H and CNOT. S applied twice gives Z, and T applied twice gives S.)
+- The control qubit of a CNOT is never changed. (In the Hadamard basis the roles swap. Surrounding a CNOT with Hadamards on both qubits gives a CNOT whose control and target are reversed.)
+- Quantum gates act on bit values the way classical gates do. (Gates act linearly on amplitudes, so a gate applied to a superposition acts on every branch at once and can change relative phases.)
+- A universal gate set like {H, T, CNOT} builds every unitary exactly. (A finite gate set can only approximate most unitaries. The Solovay-Kitaev theorem shows the approximation is efficient.)
+
 ## Questions
 
 ```yaml

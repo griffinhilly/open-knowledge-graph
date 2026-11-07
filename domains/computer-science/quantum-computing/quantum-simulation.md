@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Quantum simulation uses quantum computers to simulate quantum systems, one of the most promising near-term applications of quantum computing. Instead of classically simulating quantum mechanics (exponentially hard), a quantum computer directly evolves a quantum state according to a target Hamiltonian. Key techniques include Trotter-Suzuki formulas (decomposing evolution into local gates), LCU (Linear Combination of Unitaries) methods, and variational approaches (VQE, QAOA). Applications include simulating molecular chemistry for drug discovery, materials science, and understanding quantum condensed matter systems. Quantum simulation bridges quantum algorithms and chemistry, providing concrete near-term value before fault-tolerance.
 
+## How It's Best Learned
+Take the one-qubit Hamiltonian H = X + Z, whose exact evolution is cos(sqrt(2) t) I - i sin(sqrt(2) t)(X + Z)/sqrt(2). In a short script, compare it with the Trotter product (e^(-iXt/k) e^(-iZt/k))^k for k = 1, 2, 4, 8 and watch the error shrink. Then swap Z for a term that commutes with X and see the product become exact.
+
+## Common Misconceptions
+- Splitting e^(-i(A + B)t) into e^(-iAt) e^(-iBt) is exact. (This holds only when A and B commute. Otherwise the split introduces an error, which is why the evolution is cut into many short steps.)
+- A quantum simulation lets you read out the full final state. (You measure chosen observables. Reconstructing the whole state would take a number of measurements that grows exponentially with the qubit count.)
+- Simulating time evolution makes every property of a quantum system easy to compute. (Evolving under a local Hamiltonian is efficient, but preparing ground states can be hard in general. The Local Hamiltonian problem is QMA-complete.)
+- Every quantum system needs a quantum computer to simulate. (Classical methods such as tensor networks handle many weakly entangled systems well. The exponential cost arises for general, highly entangled states.)
+
 ## Questions
 
 ```yaml

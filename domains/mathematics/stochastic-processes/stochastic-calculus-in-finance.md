@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Mathematical finance applies stochastic calculus to price and hedge financial derivatives. The fundamental theorem of asset pricing connects arbitrage-freeness to the existence of an equivalent martingale measure, and market completeness to its uniqueness. Under the Black-Scholes model, Girsanov's theorem constructs the risk-neutral measure, the martingale representation theorem provides the hedging strategy, and the Feynman-Kac formula connects risk-neutral expectations to the Black-Scholes PDE.
 
+## How It's Best Learned
+Start with a one-step market: S₀ = 100 moves to 120 or 80, r = 0, and a call has strike 100. Holding 0.5 shares and borrowing 40 pays 20 or 0, so the call costs 10. The risk-neutral up-probability (100 - 80)/(120 - 80) = 0.5 gives the same price, and the real-world probability never enters. Then treat Black-Scholes as the many-step limit of this argument.
+
+## Common Misconceptions
+- Risk-neutral probabilities are the market's forecast of what will happen. (Q is a pricing measure under which discounted prices are martingales; Φ(d₂) is the Q-probability of exercise, not the real-world one.)
+- In Black-Scholes, a stock with a higher expected return has more valuable call options. (With S₀ and σ fixed, the price does not depend on μ, because the option can be replicated at a cost set by σ and r.)
+- Risk-neutral pricing assumes investors do not care about risk. (It rests on no-arbitrage and replication; risk preferences are absorbed into the change from P to Q.)
+
 ## Questions
 
 ```yaml

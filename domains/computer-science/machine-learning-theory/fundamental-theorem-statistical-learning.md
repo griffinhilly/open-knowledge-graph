@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 The fundamental theorem of statistical learning establishes a remarkable equivalence: for binary classification, a hypothesis class is PAC-learnable if and only if its VC dimension is finite. This single combinatorial quantity — the VC dimension — completely characterizes learnability. The theorem further shows that finite VC dimension is equivalent to uniform convergence of empirical risk to true risk, to the existence of a consistent ERM (empirical risk minimization) learner, and to the finiteness of the growth function's polynomial bound. These equivalences unify the statistical, computational, and combinatorial perspectives on learning.
 
+## How It's Best Learned
+Draw the chain of implications as a loop of arrows, then attach a concrete class to each link. Thresholds on the line have VC dimension 1 and growth function m + 1. Intervals have VC dimension 2 and growth function m(m+1)/2 + 1, which equals the Sauer-Shelah bound exactly. For the reverse direction, work the argument on a shattered set of 2m points to see why m samples leave half the labels unconstrained.
+
+## Common Misconceptions
+- Finite VC dimension means the class is easy to learn computationally. (The theorem is about the number of samples. Finding the ERM hypothesis can be NP-hard even when VC dimension is finite.)
+- VC dimension is the number of parameters. (It often tracks parameter count, but not always: the class sign(sin(wx)) has one parameter and infinite VC dimension.)
+- The theorem covers every learning problem. (It is a statement about binary classification. Multiclass and real-valued problems use other measures, such as the Natarajan and fat-shattering dimensions, and online learning uses the Littlestone dimension.)
+
 ## Questions
 
 ```yaml

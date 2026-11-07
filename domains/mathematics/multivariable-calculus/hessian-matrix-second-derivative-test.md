@@ -24,7 +24,16 @@ status: validated
 # The Hessian Matrix and Second Derivative Test
 
 ## Core Idea
-The Hessian matrix H = [[f_xx, f_xy], [f_yx, f_yy]] contains all second partial derivatives. At a critical point, the determinant det(H) and trace tr(H) determine whether it is a local max (det > 0, f_xx > 0), local min (det > 0, f_xx < 0), or saddle point (det < 0).
+The Hessian matrix H = [[f_xx, f_xy], [f_yx, f_yy]] contains all second partial derivatives. At a critical point, the determinant det(H) and trace tr(H) determine whether it is a local min (det > 0, f_xx > 0), local max (det > 0, f_xx < 0), or saddle point (det < 0).
+
+## How It's Best Learned
+Classify one function where the diagonal entries mislead, then check along lines. For f = x² + 3xy + y² at the origin, f_xx = f_yy = 2 and f_xy = 3, so det(H) = 4 − 9 = −5, a saddle. Along y = x, f = 5x², which curves up. Along y = −x, f = −x², which curves down. The eigenvalues 5 and −1 match these two directions.
+
+## Common Misconceptions
+- If f_xx > 0 and f_yy > 0, the point is a local minimum. (A large mixed partial can make det(H) negative, as in x² + 3xy + y², which has a saddle at the origin.)
+- det(H) > 0 by itself means a local minimum. (det(H) > 0 means both eigenvalues have the same sign; f_xx > 0 gives a minimum and f_xx < 0 gives a maximum.)
+- det(H) = 0 means the critical point is a saddle. (The test is inconclusive then; x⁴ + y⁴ has a minimum and x⁴ − y⁴ has a saddle, and both have det(H) = 0 at the origin.)
+- The Hessian test can be used at any point. (It classifies critical points, where ∇f = 0; at an interior point where ∇f ≠ 0, a differentiable f has no local extremum to classify.)
 
 ## Questions
 

@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Relative homology H_n(X, A) measures the homology of X "modulo" its subspace A — it detects holes in X that are not already present in A. The short exact sequence of chain complexes 0 -> C_*(A) -> C_*(X) -> C_*(X)/C_*(A) -> 0 gives rise to a long exact sequence ... -> H_n(A) -> H_n(X) -> H_n(X, A) -> H_{n-1}(A) -> ..., which is the principal tool for computing homology by decomposing spaces into simpler pieces. The connecting homomorphism in this sequence encodes how the topology of the boundary of A interacts with the topology of the whole space.
 
+## How It's Best Learned
+Compute a small pair by hand and check it against the quotient. Take X = S^1 and A = two points p and q. In the long exact sequence, H_0(A) = Z^2 maps onto H_0(X) = Z with kernel Z. This gives 0 -> Z -> H_1(X, A) -> Z -> 0, so H_1(X, A) = Z^2. That matches X/A, a wedge of two circles. Note the arc from p to q: it is a relative cycle whose ∂ is q - p.
+
+## Common Misconceptions
+- H_n(X, A) is the homology of the complement X \ A. (For X = D^2 and A = S^1, the complement is an open disk with H_2 = 0, while H_2(D^2, S^1) = Z.)
+- H_n(X, A) is the quotient group H_n(X)/H_n(A). (It is the homology of the quotient chain complex. For (D^2, S^1), both H_2 groups are zero, yet H_2(D^2, S^1) = Z, which comes from H_1(S^1) through the connecting map.)
+- A relative cycle must have zero boundary. (Its boundary only has to lie in A. An arc joining two points of A is a relative 1-cycle.)
+
 ## Questions
 
 ```yaml

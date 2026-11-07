@@ -22,6 +22,14 @@ status: draft
 ## Core Idea
 Meditative essays privilege reflection over reportage, using personal experience as a springboard for philosophical inquiry. These essays often circle around themes without reaching conclusions, valuing the quality of attention and reflection over argument advancement.
 
+## How It's Best Learned
+Pick a concrete object tied to a large question, such as a parent's old watch and the question of time. Write four short sections that each approach the question from a different angle: a memory, a close physical description, a fact, an open question. End each section by returning to the object. Skip the conclusion, then reread and note what the last return sees that the first did not.
+
+## Common Misconceptions
+- An essay without a conclusion is unfinished. (Meditative essays can deliberately leave a question open and find their value in the depth of reflection.)
+- Meditative writing is vague or abstract. (It usually stays anchored in a concrete object, moment, or memory and returns to it.)
+- Circling back to the same theme is repetition. (Each return approaches the theme from a new angle, so the understanding shifts with every pass.)
+
 ## Questions
 
 ```yaml
@@ -57,6 +65,7 @@ Meditative essays privilege reflection over reportage, using personal experience
 
 - question: How might a meditative essay approach a difficult concept (loss, mortality, beauty, justice) differently than an argumentative essay? What does meditation offer?
   type: short-answer
+  answer: "An argumentative essay makes a claim about the concept and supports it with evidence. A meditative essay circles the concept, examining it from several angles and letting contradictions stand, such as loss being both terrible and transformative. Meditation offers depth and careful attention where argument offers a clear conclusion."
   explanation: 'An argumentative essay would present a claim about the concept: ''X is fundamentally about Y'' and support it with evidence. A meditative essay might circle around the concept, examining it from multiple angles, reflecting on different dimensions. It might present contradictions—loss is both terrible and transformative—without trying to resolve them. Where argument reaches clarity, meditation offers depth. Where argument convinces, meditation reveals. For some concepts, especially those touching human experience deeply, meditation is more honest than argument. You can''t really argue about what mortality means; you can only think about it carefully, reflecting on different experiences and implications. Meditation privileges this kind of thoughtful attention.'
 ```
 

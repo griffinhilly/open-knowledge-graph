@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 A Riemannian metric on a smooth manifold assigns a smoothly varying inner product to each tangent space, enabling measurement of lengths, angles, areas, and volumes on curved spaces. In local coordinates, the metric is given by a symmetric positive-definite matrix gij(x) that encodes the geometry. Every smooth manifold admits a Riemannian metric (by partition of unity), but different metrics on the same manifold produce dramatically different geometries — the choice of metric is the central datum of Riemannian geometry.
 
+## How It's Best Learned
+Pull back dx² + dy² + dz² through x = sin θ cos φ, y = sin θ sin φ, z = cos θ to get the round metric dθ² + sin²θ dφ². Use it to find the latitude circle's length, 2π sin θ₀. Then put two metrics on the same open unit disk: the Euclidean one, and 4(dx² + dy²)/(1 − r²)². Integrating 2/(1 − r²) along a radius shows the second makes the boundary infinitely far away.
+
+## Common Misconceptions
+- A Riemannian metric is a distance function d(p, q). (It is an inner product on each tangent space. The distance is derived from it as the infimum of lengths of curves.)
+- Metric coefficients that vary from point to point mean the space is curved. (The flat plane in polar coordinates has ds² = dr² + r² dθ². Curvature, not the look of the coefficients, decides flatness.)
+- A manifold carries one natural metric. (A manifold admits many. The open disk is bounded in the Euclidean metric but has infinite diameter in the hyperbolic metric.)
+
 ## Questions
 
 ```yaml

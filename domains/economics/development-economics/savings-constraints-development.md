@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 In developing economies, poor households face lumpy investment costs (minimum farm size, equipment) and high-frequency shocks (illness, crop failure). Without insurance or credit, they save in small lumps into cash or livestock, earning low or negative real returns. This prevents the capital accumulation needed to escape poverty.
 
+## How It's Best Learned
+Work a saving-up example. A household saves 10 a month toward a pump costing 120. Each month brings a 10% chance of a shock that uses up all savings. The chance of 12 shock-free months in a row is 0.9 to the 12th power, about 0.28. With insurance that covers the shock instead, the household reaches the pump in 12 months.
+
+## Common Misconceptions
+- Poor households do not save. (Many save a meaningful share of income, but in cash, grain, or livestock that earn low returns.)
+- A higher savings rate would solve the problem. (When shocks keep draining the stock, saving more still may not reach the cost of a lumpy investment.)
+- Holding savings in cash or livestock is a mistake. (Without insurance or credit, liquid buffer assets protect the household when a shock hits.)
+- Insurance helps only after a shock happens. (By reducing the need for a large liquid buffer, insurance frees savings for productive investment before any shock occurs.)
+
 ## Questions
 
 ```yaml

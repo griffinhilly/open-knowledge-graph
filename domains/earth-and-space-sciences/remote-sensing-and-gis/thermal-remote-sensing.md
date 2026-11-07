@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Thermal remote sensing measures electromagnetic radiation emitted by Earth's surface in the thermal infrared bands (3-14 um) rather than reflected sunlight. Every object above absolute zero emits thermal radiation governed by its temperature and emissivity (Planck's law). By measuring this emission in atmospheric windows around 3-5 um and 8-14 um, thermal sensors derive land surface temperature (LST) and sea surface temperature (SST). Because thermal emission occurs continuously, thermal sensors operate day and night. Applications span urban heat island mapping, volcanic monitoring, fire detection, and evapotranspiration estimation.
 
+## How It's Best Learned
+Point a handheld infrared thermometer at paper and at shiny foil resting on the same warm surface; the foil reads colder. Then work Wien's law, peak wavelength = 2898 / T in micrometers: about 9.7 µm at 300 K and 2.9 µm for a 1000 K fire. That second value explains why fire detection uses the 3-5 µm window.
+
+## Common Misconceptions
+- A thermal sensor reads surface temperature directly. (It measures radiance. Temperature is derived only after allowing for emissivity and the atmosphere.)
+- Land surface temperature is the same as air temperature. (A sunlit road or roof can be much hotter than the air above it, so LST and weather-station air temperature differ.)
+- Thermal sensors see the ground through cloud because they work at night. (Clouds absorb and emit thermal infrared, so a thermal image of a cloudy area shows the cloud top.)
+
 ## Questions
 
 ```yaml

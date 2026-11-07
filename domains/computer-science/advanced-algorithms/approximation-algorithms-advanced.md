@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 Approximation algorithms provide provably near-optimal solutions to NP-hard optimization problems in polynomial time. LP relaxation replaces integer constraints with continuous ones, solves the resulting linear program, and then rounds the fractional solution to an integer solution — the integrality gap bounds the worst-case approximation ratio. The primal-dual method constructs feasible primal and dual solutions simultaneously, using complementary slackness conditions to guide the algorithm and weak duality to prove the approximation guarantee. For vertex cover, LP relaxation yields a 2-approximation (round all variables >= 1/2); for set cover, randomized rounding of the LP relaxation gives an O(log n)-approximation matching the hardness of approximation lower bound. These techniques transform optimization problems into algebraic ones where duality theory provides the performance guarantee.
 
+## How It's Best Learned
+Write the vertex cover ILP for a small graph, relax it, and solve the LP by inspection. Round at 1/2 and compare the three numbers: LP value, rounded cost and true optimum. Then run the primal-dual algorithm on the same graph, raising edge duals until a vertex goes tight. Seeing both methods produce the same 2-factor bound shows where the guarantee comes from.
+
+## Common Misconceptions
+- An approximation proof compares the algorithm's cost with the true optimum directly. (The ratio is defined against the true optimum, but the proof usually compares against the LP optimum or a dual solution, which is a bound on the true optimum. The true optimum is unknown during the algorithm.)
+- A small integrality gap guarantees a good rounding algorithm exists and is easy to find. (The gap bounds what any analysis against that LP can prove. A specific rounding scheme still has to be designed and analyzed to reach it.)
+- Primal-dual algorithms solve the LP and then round. (They build primal and dual solutions together with a combinatorial procedure. No LP solver is run. The LP guides the design through complementary slackness and supplies the bound in the proof.)
+- Randomized rounding for set cover is one round of coin flips. (One round leaves each element uncovered with probability up to about 1/e. Repeating O(log n) rounds is what covers every element with high probability, and it is the source of the log n factor.)
+
 ## Questions
 
 ```yaml

@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 A critical point satisfies f_x = 0 and f_y = 0 (where partials exist). Extrema occur at critical points, boundary points, or points where partials don't exist. Not all critical points are extrema; some are saddle points.
 
+## How It's Best Learned
+Run the full closed-region procedure on f = x² + y² − 2x over the disk x² + y² ≤ 4. The only interior critical point is (1, 0), with f = −1. On the boundary circle, f = 4 − 2x for −2 ≤ x ≤ 2, which ranges from 0 to 8. Comparing all values gives a minimum of −1 inside and a maximum of 8 at (−2, 0) on the edge.
+
+## Common Misconceptions
+- On a square, checking the four corners covers the boundary. (Extrema can occur partway along an edge. For f = x + (y − 1/2)² on [0, 1] × [0, 1], the minimum 0 is at (0, 1/2), the middle of the left edge.)
+- If the only critical point is a local minimum, it must be the global minimum. (In one variable this holds on an interval, but in two variables it can fail. f = x² + y²(1 − x)³ has a single critical point, a local minimum at the origin, yet f has no global minimum.)
+- A critical point where f_x = f_y = 0 is a local extremum. (It may be a saddle. For x² − y², the origin is a minimum along the x-axis and a maximum along the y-axis.)
+
 ## Questions
 
 ```yaml

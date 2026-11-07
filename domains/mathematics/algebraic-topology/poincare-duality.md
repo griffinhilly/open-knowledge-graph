@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Poincare duality states that for a closed, connected, oriented n-manifold M, there is an isomorphism H^k(M; Z) = H_{n-k}(M; Z) for all k. This isomorphism is given by the cap product with the fundamental class [M] in H_n(M): the map alpha -> alpha cap [M] is an isomorphism H^k(M) -> H_{n-k}(M). Poincare duality is one of the deepest theorems in algebraic topology, revealing a perfect symmetry between the homology and cohomology of manifolds and connecting the dimensions k and n-k in a precise way.
 
+## How It's Best Learned
+Check the isomorphism on manifolds you can compute. Surfaces of genus g show the Betti symmetry. RP^3 shows how torsion behaves: H_1 = Z/2 and H_2 = 0, while H^2 = Z/2 matches H_1 as duality predicts. Then test the hypotheses: RP^2 breaks the symmetry with Z coefficients but satisfies it with Z/2, and the disk D^2 breaks it because it has boundary.
+
+## Common Misconceptions
+- Poincaré duality says H_k(M) ≅ H_{n-k}(M). (It pairs cohomology with homology: H^k ≅ H_{n-k}. For RP^3, H_1 = Z/2 while H_2 = 0. The torsion appears in H^2 instead.)
+- It holds for every compact manifold. (With Z coefficients it needs M closed and oriented. The disk has H^0 = Z but H_2 = 0. Manifolds with boundary need the relative version, Lefschetz duality.)
+- Non-orientable manifolds have no duality at all. (Every closed manifold has a Z/2 fundamental class, and duality holds with Z/2 coefficients.)
+
 ## Questions
 
 ```yaml
@@ -48,8 +56,8 @@ Poincare duality states that for a closed, connected, oriented n-manifold M, the
 
 - question: "The real projective plane RP^2 is a closed 2-manifold with H_0 = Z, H_1 = Z/2Z, H_2 = 0 (integer coefficients). This violates Poincare duality because H^0 ≅ Z ≇ H_2 = 0."
   type: true-false
-  answer: true
-  explanation: "This does not 'violate' Poincare duality — it confirms that Poincare duality requires orientability. RP^2 is non-orientable, so the theorem does not apply with Z coefficients. With Z/2Z coefficients, RP^2 has H_0 = H_1 = H_2 = Z/2Z, and Poincare duality holds: H^k(RP^2; Z/2Z) ≅ H_{2-k}(RP^2; Z/2Z). The statement in the question is technically true — the integer homology does not display Poincare symmetry — but the reason is that the hypothesis (oriented) is not met."
+  answer: false
+  explanation: "This does not 'violate' Poincare duality — it confirms that Poincare duality requires orientability. RP^2 is non-orientable, so the theorem does not apply with Z coefficients. With Z/2Z coefficients, RP^2 has H_0 = H_1 = H_2 = Z/2Z, and Poincare duality holds: H^k(RP^2; Z/2Z) ≅ H_{2-k}(RP^2; Z/2Z). The integer homology does fail the Poincare symmetry, but that is not a violation, because the hypothesis (oriented) is not met."
 
 - question: "Explain what the fundamental class [M] ∈ H_n(M; Z) represents for a closed oriented n-manifold, and why it is essential for Poincare duality."
   type: short-answer

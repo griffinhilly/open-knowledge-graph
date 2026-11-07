@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 Fibonacci heaps are a priority queue data structure achieving O(1) amortized time for insert, find-min, decrease-key, and merge, with O(log n) amortized time for delete-min. The decrease-key in O(1) amortized time (versus O(log n) for binary heaps) is the critical improvement: it makes Dijkstra's algorithm run in O(m + n log n) and Prim's algorithm run in O(m + n log n), both optimal for dense graphs. The analysis uses the potential method of amortized analysis, where the potential function Phi = t(H) + 2*m(H) counts the number of root-list trees plus twice the number of marked nodes. The three pillars of amortized analysis — aggregate, accounting, and potential methods — are unified through Fibonacci heaps as their most sophisticated application.
 
+## How It's Best Learned
+Insert about ten keys into an empty Fibonacci heap, do one delete-min, then several decrease-keys that trigger a cascading cut. Draw the heap after every operation and write the potential t(H) + 2m(H) beside each drawing. Comparing the actual work with the change in potential at each step shows how the marks pay for the cuts. Then derive the F_{k+2} size bound for a degree-k node.
+
+## Common Misconceptions
+- O(1) amortized decrease-key means every decrease-key takes constant time. (A single decrease-key can trigger a long cascade of cuts. The bound holds for the total cost over any sequence of operations, averaged per operation.)
+- Insert and merge do no work, so the heap is lazy for free. (Their cheapness adds trees to the root list, which raises the potential. Delete-min pays for this when it consolidates the roots.)
+- The marks exist to record which keys changed. (A mark records that a node has lost one child since it became a child itself. Losing a second child triggers a cut, which keeps subtree sizes exponential in degree.)
+- Fibonacci heaps make Dijkstra's algorithm faster in practice. (They improve the asymptotic bound to O(m + n log n), but large constant factors and pointer-heavy layout often make binary heaps or pairing heaps faster on real inputs.)
+
 ## Questions
 
 ```yaml

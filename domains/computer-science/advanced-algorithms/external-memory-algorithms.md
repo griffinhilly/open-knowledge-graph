@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 External memory (EM) algorithms optimize for the memory hierarchy by minimizing the number of block transfers between slow storage (disk) and fast memory (RAM). In the standard model, memory holds M elements, disk blocks hold B elements, and the cost metric is the number of I/O operations (block transfers). Scanning N elements costs Theta(N/B), sorting costs Theta((N/B) * log_{M/B}(N/B)), and searching in a B-tree costs Theta(log_B N). The sorting bound reveals a fundamental separation from the RAM model: the log base is M/B (the number of blocks fitting in memory), not 2, reflecting the ability to merge M/B sorted runs simultaneously. External memory sorting is the foundational primitive — many EM algorithms reduce to sorting, making the sorting I/O bound the de facto baseline.
 
+## How It's Best Learned
+Pick concrete numbers, such as N = 10^12 elements, M = 10^9 and B = 10^3, and compute the I/O cost of a scan, of 2-way mergesort and of M/B-way mergesort. The gap between the last two makes the log base real. Then simulate a tiny case on paper with M = 6 and B = 2, tracking which blocks sit in memory during each merge pass.
+
+## Common Misconceptions
+- Counting comparisons tells you how fast an external sort is. (In this model, computation in memory is free and only block transfers count. Two algorithms with the same comparison count can differ widely in I/Os.)
+- Two-way merging is good enough once the initial runs fill memory. (Two-way merging needs about log_2(N/M) passes over the data, while M/B-way merging needs about log_{M/B}(N/M). With realistic M/B, that is the difference between many passes and one or two.)
+- A B-tree is a binary tree with large nodes. (Each node holds Theta(B) keys and has Theta(B) children, so the tree height is about log_B N rather than log_2 N.)
+- Permuting data is cheaper than sorting it in external memory, since the target positions are known. (Permuting costs Theta(min(N, sort(N))) I/Os, so for typical parameters it costs as much as sorting.)
+
 ## Questions
 
 ```yaml

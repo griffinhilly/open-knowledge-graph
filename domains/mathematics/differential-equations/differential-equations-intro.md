@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 A differential equation is an equation involving a function and its derivatives. Differential equations model how systems change over time and are fundamental to physics, engineering, and natural sciences. The goal is to find the function (or functions) that satisfy the equation.
 
+## How It's Best Learned
+Start by checking candidate solutions instead of solving. Test y = sin x in y'' + y = 0 (it works: −sin x + sin x = 0) and y = x² in dy/dx = y (it fails: 2x ≠ x²). Then plot several members of y = Ce^x and pick out the one through (0, 5). This builds the idea of a solution family before any solving method appears.
+
+## Common Misconceptions
+- The solution to a differential equation is a number, like the solution to an algebra equation. (A solution is a function that makes the equation true for every x in an interval.)
+- An equation is nonlinear if its solution is a curved graph. (Linearity refers to how y and its derivatives appear in the equation; y'' + y = 0 is linear even though its solutions are sine waves.)
+- The order of an equation is the highest power that appears. (The order is the highest derivative that appears; (y')³ = x is first-order.)
+- Every differential equation can be solved by integrating both sides. (Direct integration works for equations like dy/dx = g(x); most equations need other methods, and many have no formula solution at all.)
+
 ## Questions
 
 ```yaml

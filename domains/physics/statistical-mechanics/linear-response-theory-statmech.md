@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 When a weak external field is applied to a system in equilibrium, the response is proportional to the field (linear response) for small fields. The proportionality constant is the susceptibility χ, which measures the system's tendency to reorder. The Kubo formula expresses χ in terms of equilibrium correlation functions, unifying dynamics and equilibrium statistical mechanics.
 
+## How It's Best Learned
+Start with the static classical case. Differentiate ⟨A⟩ for the Hamiltonian H − hA with respect to h at h = 0 to get χ = β(⟨A²⟩ − ⟨A⟩²). Apply it to N independent two-state spins with moment ±μ and recover the Curie law χ = Nμ²/kT. Then drive a damped oscillator at frequency ω, find χ(ω) = 1/[m(ω₀² − ω² − iγω)] with the e^(−iωt) convention, and check that Im χ is positive and peaks near ω₀.
+
+## Common Misconceptions
+- The response at time t depends only on the field at time t. (It depends on the field at all earlier times through the convolution with χ(t − t′). The system has memory.)
+- The real and imaginary parts of χ(ω) are independent quantities. (Causality ties them together through the Kramers-Kronig relations, so Im χ at all frequencies determines Re χ.)
+- A field small enough for linear response in one system is small enough in any system. (The linear range depends on the system. Near a critical point χ grows very large and the linear range shrinks.)
+
 ## Questions
 
 ```yaml

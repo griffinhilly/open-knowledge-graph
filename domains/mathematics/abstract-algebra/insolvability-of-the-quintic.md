@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 A polynomial is solvable by radicals if roots can be expressed using field operations and nth roots. The Galois group determines solvability: f is solvable iff its Galois group is solvable. The general quintic has Galois group S_5, which is not solvable, proving the quintic is generally insolvable.
 
+## How It's Best Learned
+First check the solvable series S₄ ⊃ A₄ ⊃ V₄ ⊃ {e} and confirm each quotient (ℤ₂, ℤ₃, V₄) is abelian. Then show A₅ is simple from its class sizes 1, 15, 20, 12, 12: no union containing the identity class has a size dividing 60 except 1 and 60. Finally contrast x⁵ − 2, whose Galois group has order 20 and is solvable, with x⁵ − 4x + 2, whose Galois group is S₅.
+
+## Common Misconceptions
+- No fifth-degree polynomial can be solved by radicals. (The theorem concerns the general quintic. Quintics such as x⁵ − 2 have solvable Galois groups and can be solved by radicals.)
+- If a quintic cannot be solved by radicals, its roots cannot be found. (The roots exist and can be approximated to any precision. Only a radical expression for them is ruled out.)
+- S₅ fails to be solvable because it has no proper normal subgroups. (S₅ has the normal subgroup A₅. The obstruction is that A₅ is simple and non-abelian, so no series through it can have all quotients abelian.)
+
 ## Questions
 
 ```yaml
@@ -64,7 +72,7 @@ A polynomial is solvable by radicals if roots can be expressed using field opera
 
 ## Explainer
 
-For thousands of years, mathematicians searched for a formula that would solve fifth-degree (quintic) equations by radicals — the way the quadratic formula solves degree-2 equations, and analogous formulas solve degrees 3 and 4. In the early 19th century, Abel and Galois proved no such formula exists. This is one of mathematics' landmark negative results: not "we haven't found the formula yet" but "the formula cannot exist." Understanding why requires the Galois correspondence you've already studied.
+For centuries, mathematicians searched for a formula that would solve fifth-degree (quintic) equations by radicals — the way the quadratic formula solves degree-2 equations, and analogous formulas solve degrees 3 and 4. In the early 19th century, Abel and Galois proved no such formula exists. This is one of mathematics' landmark negative results: not "we haven't found the formula yet" but "the formula cannot exist." Understanding why requires the Galois correspondence you've already studied.
 
 A polynomial is **solvable by radicals** if its roots can be written using the four field operations (addition, subtraction, multiplication, division) together with taking nth roots — just like the quadratic formula √(b²−4ac). The Galois group of a polynomial encodes the symmetries among its roots: it is the group of field automorphisms that permute the roots while fixing the base field. The central theorem connecting these ideas: a polynomial f(x) is solvable by radicals if and only if its Galois group Gal(f) is a **solvable group**.
 

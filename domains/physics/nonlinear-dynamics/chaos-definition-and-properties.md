@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 Chaos is aperiodic long-term behavior in a deterministic system that exhibits sensitive dependence on initial conditions. "Deterministic" means the future is uniquely determined by the present state — there are no random inputs. "Aperiodic" means trajectories never repeat exactly. "Sensitive dependence" means that nearby initial conditions diverge exponentially fast, making long-term prediction impossible despite perfect determinism. Chaos requires at least three dimensions for continuous flows (by Poincare-Bendixson) or can occur in one-dimensional discrete maps.
 
+## How It's Best Learned
+In a spreadsheet, iterate the logistic map x → 4x(1 − x) from 0.3 and from 0.3000001, and plot the gap between the two runs on a log scale. The gap roughly doubles each step and reaches order one after about 20–25 iterations. Repeat with x → 3.2x(1 − x), where the gap shrinks, to separate chaos from ordinary deterministic motion.
+
+## Common Misconceptions
+- Chaotic behavior is a kind of randomness. (A chaotic system is deterministic: the same initial condition always gives the same trajectory. The unpredictability comes from amplifying tiny differences in the starting state.)
+- Exponential divergence of nearby trajectories is enough to make a system chaotic. (In ẋ = x nearby solutions separate exponentially but simply run off to infinity; chaos also needs bounded, recurrent, aperiodic motion.)
+- Chaos needs many variables or very complicated equations. (The one-variable logistic map is chaotic, and the Lorenz system is three ODEs with only two nonlinear terms.)
+- If a system is chaotic, nothing about its future can be predicted. (Short-term forecasts work up to a prediction horizon, and long-run statistical properties of the attractor can still be predicted.)
+
 ## Questions
 
 ```yaml

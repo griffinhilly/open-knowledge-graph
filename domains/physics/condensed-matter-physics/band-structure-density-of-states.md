@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 The band structure E_n(k) is the energy-versus-wavevector relationship for electrons in a crystal, with n the band index and k the crystal momentum in the Brillouin zone. The density of states g(E) counts the number of electronic states per unit energy: g(E) = sum_n integral [delta(E - E_n(k))] d^3k / (2pi)^3. Peaks in the density of states (van Hove singularities) occur where the gradient nabla_k E_n(k) vanishes — at band edges, saddle points, and flat regions. The density of states at the Fermi level, g(E_F), governs essentially all low-energy properties: electronic specific heat, Pauli paramagnetism, superconducting transition temperature, and transport.
 
+## How It's Best Learned
+Start with the 1D band E(k) = −2t cos(ka) and derive g(E) by hand; it diverges as 1/√(4t² − E²) at the band edges. Then histogram E(k) for the 2D square-lattice band on a fine k-grid and find the logarithmic peak at E = 0 from the saddle points. Finally, read a real band structure plot and its g(E) side by side.
+
+## Common Misconceptions
+- Van Hove singularities are always infinite spikes in g(E). (In 3D they are kinks with a finite density of states; true divergences appear in 1D and at 2D saddle points, while 2D band edges give finite steps.)
+- If a band plot shows a gap along one direction, the material has a band gap. (A true gap needs no states at that energy anywhere in the Brillouin zone; bands can overlap in energy at different k, as in semimetals.)
+- g(E_F) is the number of electrons in the material. (It is the number of states per unit energy at the Fermi level; the electron count is the integral of g(E) up to E_F.)
+- A plot along high-symmetry lines shows every band extremum. (Band minima and maxima can lie away from those lines, so a full Brillouin-zone calculation is needed to be sure.)
+
 ## Questions
 
 ```yaml

@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 The Quantum Approximate Optimization Algorithm (QAOA) is a variational hybrid quantum-classical algorithm for approximately solving combinatorial optimization problems. It alternates between a problem Hamiltonian (encoding the objective function as phases) and a mixing Hamiltonian (creating transitions between candidate solutions), with p layers of parameterized rotations. The circuit depth grows linearly with p, and as p increases, QAOA interpolates between a single-round heuristic and the adiabatic algorithm (which is exact in the infinite-depth limit). QAOA is a leading candidate for near-term quantum advantage on optimization problems like MaxCut, satisfiability, and portfolio optimization.
 
+## How It's Best Learned
+Work MaxCut on a single edge with p = 1. Start from |++>, apply e^(-i*gamma*C) with gamma = pi/2, and the cut states |01> and |10> pick up a phase of -i. Then apply the mixer e^(-i*beta*(X_1 + X_2)) with beta = pi/8. The expected cut comes out exactly 1, which shows phase plus mixing producing interference. Then scan gamma and beta on a grid to see what the classical optimizer searches.
+
+## Common Misconceptions
+- QAOA returns the optimal solution. (Each run yields a sampled bit string. You keep the best of many samples, and at finite p the result is usually an approximation.)
+- Adding layers always improves results on real hardware. (With ideal optimized parameters the best value cannot get worse as p grows. On noisy hardware, deeper circuits gather more errors and the parameters become harder to optimize.)
+- QAOA is known to beat classical algorithms on MaxCut. (At p = 1 on 3-regular graphs its guarantee of 0.6924 is below the 0.878 of Goemans-Williamson, and no clear advantage has been demonstrated.)
+
 ## Questions
 
 ```yaml

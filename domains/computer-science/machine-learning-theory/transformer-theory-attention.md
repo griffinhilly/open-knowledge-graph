@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Transformers revolutionized deep learning by replacing recurrence with attention mechanisms, enabling parallel processing of sequential data and improving scalability. The self-attention operation learns which input positions to focus on when processing each position, computed via query-key-value projections. Attention is theoretically analyzable as a learned weighted average of value vectors, with theoretical properties including permutation equivariance, ability to simulate recurrent networks, and implicit regularization. Transformer scaling laws and loss curves are now fundamental to understanding modern language models and foundation models, with connections to neural tangent kernels and implicit bias in large networks.
 
+## How It's Best Learned
+Compute one attention layer by hand for three tokens with 2-D vectors, using identity matrices for the query, key and value projections. Then swap two tokens and recompute: the outputs swap in the same way, which shows why positional encodings are needed. Finally, sample random queries and keys at d = 4 and d = 256 and compare the softmax weights with and without the 1/sqrt(d) factor.
+
+## Common Misconceptions
+- Self-attention picks up word order on its own. (Without positional encodings or a causal mask, self-attention is permutation equivariant. Shuffling the input tokens shuffles the outputs the same way, so order information has to be supplied.)
+- Dividing by sqrt(d) makes the attention weights sum to one. (The softmax already does that. The scaling keeps the dot products at roughly unit variance when query and key entries are independent with mean zero and unit variance, so the softmax does not saturate.)
+- A large attention weight shows that a token drove the model's prediction. (A weight shows how one head mixes value vectors in one layer. Value projections, residual paths and later layers also shape the output, so weights alone are a weak explanation.)
+- Attention cost grows linearly with sequence length, like an RNN's. (Standard self-attention computes a T × T score matrix, so time grows with T², and so does memory if the full matrix is stored. Sparse and linear variants trade some exactness to reduce this.)
+
 ## Questions
 
 ```yaml

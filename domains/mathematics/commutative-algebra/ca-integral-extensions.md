@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 An element b of a ring extension R ⊆ S is integral over R if it satisfies a monic polynomial with coefficients in R. When every element of S is integral over R, we call R ⊆ S an integral extension. This concept generalizes algebraic field extensions to the ring setting and governs how prime ideals in R relate to prime ideals in S — the foundation for the going-up and going-down theorems.
 
+## How It's Best Learned
+Prove by hand that 1/2 is not integral over ℤ. Suppose it satisfied a monic integer polynomial of degree n. Multiplying by 2ⁿ gives 1 + 2a₁ + 4a₂ + ··· = 0, so 1 would be even. Then check that (1 + √5)/2 is integral, since it satisfies x² - x - 1 = 0. Compare ℤ[1/2], which is not a finitely generated ℤ-module, with ℤ[(1 + √5)/2] = ℤ + ℤ·(1 + √5)/2.
+
+## Common Misconceptions
+- Any element algebraic over the fraction field is integral. (Integrality needs a monic polynomial over R itself. The element 1/2 is algebraic over ℚ but not integral over ℤ.)
+- The integers of ℚ(√d) are always ℤ[√d]. (For ℚ(√5), the element (1 + √5)/2 is integral over ℤ but does not lie in ℤ[√5].)
+- If R[b] is finitely generated as a ring over R, then b is integral. (Every R[b] is generated as a ring by b. Integrality is equivalent to R[b] being a finitely generated R-module, and ℤ[1/2] is not one.)
+
 ## Questions
 
 ```yaml

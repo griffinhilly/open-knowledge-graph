@@ -19,6 +19,14 @@ status: draft
 ## Core Idea
 Graphic memoir tells life narrative through the integration and interaction of visual and textual language. This hybrid form offers unique possibilities for conveying embodied experience, emotional intensity, spatial relationships, and identity complexity while raising questions about how drawing relates to memory, how the page layout functions rhetorically, and how visual metaphor operates in nonfiction.
 
+## How It's Best Learned
+Take a short written memory of your own and storyboard it as four to six rough panels. Decide what the picture shows and what the caption says, which moment gets the largest panel, and where white space falls. Then study one page of a published graphic memoir with the same questions about panel size, spacing and text placement.
+
+## Common Misconceptions
+- The drawings illustrate what the words already say. (Image and text often carry different information, and meaning comes from how they interact, sometimes in tension with each other.)
+- A graphic memoir is less truthful unless the drawings look realistic. (Drawing style is an interpretive choice, like a prose writer's voice. A simplified or distorted style can convey how an experience felt.)
+- Graphic memoir is a lighter form than prose memoir. (Writers use it for trauma, illness, grief, migration and political experience, and the visual form can reach states that are hard to put into words.)
+
 ## Questions
 
 ```yaml
@@ -54,6 +62,7 @@ Graphic memoir tells life narrative through the integration and interaction of v
 
 - question: How might a graphic memoir represent a difficult experience (trauma, grief, complex identity) differently than a written memoir about the same experience?
   type: short-answer
+  answer: "A written memoir describes the experience in words. A graphic memoir can show it through a body's posture, a distorted drawing style, visual metaphor or fragmented panels, which conveys emotional states that are hard to put into words."
   explanation: A written memoir would use language to describe experience and emotion. A graphic memoir could show embodied experience directly—the posture of a traumatized person, the physicality of grief, how a person of a particular identity occupies space. Some things are easier to show visually than to describe. Complex emotions might be conveyed through visual metaphor, through distorted drawing, through fragmented panels. The reader experiences emotional intensity through the visual form. A graphic memoir about identity might show physical transformation, might use drawing style to convey internal shifts. Graphic form allows memoirists to express what's difficult to put into words.
 ```
 

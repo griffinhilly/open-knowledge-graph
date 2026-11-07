@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 In the Standard Model, lepton flavor (electron number, muon number, tau number) is conserved in charged-lepton interactions to extraordinary precision, with neutrino oscillations being the only observed lepton-flavor-violating process. Lepton flavor universality -- the principle that the gauge bosons couple identically to all three lepton generations -- is a fundamental prediction of the Standard Model. Tests of both conservation and universality are sensitive probes of new physics.
 
+## How It's Best Learned
+Sort example processes into two bins: universality tests such as τ → μνν̄ against τ → eνν̄, and conservation tests such as μ → eγ. Then estimate the Standard Model suppression of μ → eγ. Take Δm² ≈ 2.5 × 10⁻³ eV² and M_W² ≈ 6.5 × 10²¹ eV², so the ratio is about 4 × 10⁻²⁵. Square it and compare with the 10⁻¹³ experimental reach.
+
+## Common Misconceptions
+- Since neutrinos oscillate, μ → eγ should be observable in the Standard Model. (The rate is suppressed by the tiny ratio of neutrino mass splittings to M_W², which puts it many orders of magnitude below any experiment.)
+- Lepton universality means electrons, muons, and taus behave identically in every process. (Universality means equal gauge couplings. The masses differ, so rates differ through phase space and helicity, as in the strong suppression of π → eν.)
+- Lepton flavor universality and lepton flavor conservation are the same principle. (Universality concerns equal coupling strengths, while conservation forbids transitions between flavors. New physics could break one without breaking the other.)
+
 ## Questions
 
 ```yaml
@@ -57,6 +65,6 @@ In the Standard Model, lepton flavor (electron number, muon number, tau number) 
 
 Neutrino oscillations demonstrate that **lepton flavor is not exactly conserved** -- a muon neutrino can become a tau neutrino. This is analogous to quark mixing via the CKM matrix but has a crucial difference: the resulting charged-lepton flavor violation (CLFV) in the SM is suppressed by (m_nu/M_W)^4 ~ 10^{-50}, rendering processes like mu -> e gamma, tau -> mu gamma, and mu -> e conversion in nuclei completely unobservable. This GIM-like suppression makes CLFV a "zero-background" probe: any observation would be unambiguous new physics. Experiments like MEG II (mu -> e gamma), Mu2e and COMET (mu -> e conversion), and Belle II (tau -> mu gamma) push sensitivity to branching ratios of 10^{-13} to 10^{-16}.
 
-**Lepton flavor universality** is tested in multiple ways. In the charged-current sector, the ratios of W -> l nu partial widths (measured at LEP) are consistent with universality to 0.3%. In the tau sector, the ratios of leptonic decay rates test universality at 0.2%. In the B meson sector, the ratios R(K(*)) = BR(B -> K(*) mu mu) / BR(B -> K(*) ee) test universality in neutral-current b -> s transitions, and R(D(*)) tests it in charged-current b -> c transitions. Several of these measurements have shown tensions with SM predictions at the 2-3 sigma level, generating intense interest in possible new physics.
+**Lepton flavor universality** is tested in multiple ways. In the charged-current sector, the ratios of W -> l nu partial widths (measured at LEP and the LHC) test universality at the 1-2% level. In the tau sector, the ratios of leptonic decay rates test universality at 0.2%. In the B meson sector, the ratios R(K(*)) = BR(B -> K(*) mu mu) / BR(B -> K(*) ee) test universality in neutral-current b -> s transitions, and R(D(*)) tests it in charged-current b -> c transitions. Several of these measurements have shown tensions with SM predictions at the 2-3 sigma level, generating intense interest in possible new physics.
 
 The theoretical implications of lepton flavor physics extend beyond the Standard Model. If CLFV is discovered, the pattern of rates (which channels are enhanced, the relative rates of mu vs tau processes) would point toward the type of new physics responsible. **Leptoquarks**, which couple quarks to leptons and naturally break lepton universality, are a leading candidate for explaining the B-physics anomalies. **Supersymmetric models** predict CLFV from slepton mixing. The interplay between CLFV searches, B-physics anomalies, and direct searches at the LHC forms a powerful multi-pronged test of the Standard Model's lepton sector.

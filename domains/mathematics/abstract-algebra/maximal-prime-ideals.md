@@ -19,7 +19,15 @@ status: validated
 # Maximal and Prime Ideals
 
 ## Core Idea
-A maximal ideal M of a ring R is an ideal properly contained in R such that no ideal properly contains M. An ideal P is prime if ab ∈ P implies a ∈ P or b ∈ P. In a commutative ring with unity, R/M is a field iff M is maximal, and R/P is an integral domain iff P is prime.
+A maximal ideal M of a ring R is an ideal properly contained in R such that no proper ideal properly contains M. An ideal P is prime if ab ∈ P implies a ∈ P or b ∈ P. In a commutative ring with unity, R/M is a field iff M is maximal, and R/P is an integral domain iff P is prime.
+
+## How It's Best Learned
+Use the correspondence between ideals of R/I and ideals of R containing I. Draw the inclusion diagram of ideals of ℤ containing (12): (1), (2), (3), (4), (6), (12). The maximal ones, (2) and (3), sit just below the top. Then test ℝ[x]: ℝ[x]/(x² + 1) ≅ ℂ, so (x² + 1) is maximal, while (x² − 1) fails primality because (x − 1)(x + 1) lies in it.
+
+## Common Misconceptions
+- A ring has one maximal ideal, the biggest proper one. (A ring can have many. In ℤ, (2) and (3) are both maximal, and neither contains the other.)
+- The prime ideals of ℤ are exactly the ideals (p) for prime numbers p. (The zero ideal is also prime, because ℤ is an integral domain.)
+- Showing P is prime also shows R/P is a field. (Primality gives an integral domain. ℤ/(0) ≅ ℤ is a domain but not a field.)
 
 ## Questions
 
@@ -32,7 +40,7 @@ A maximal ideal M of a ring R is an ideal properly contained in R such that no i
     - "Neither prime nor maximal, because 2·3 = 6 ∈ (6) while 2 ∉ (6) and 3 ∉ (6), and (6) ⊊ (2) ⊊ ℤ"
     - "Maximal but not prime, because (6) cannot be extended to a larger proper ideal"
   answer: 2
-  explanation: "For (6) to be prime, whenever ab ∈ (6) we would need a ∈ (6) or b ∈ (6). But 2·3 = 6 ∈ (6), yet neither 2 nor 3 is divisible by 6 — so (6) is not prime. For (6) to be maximal, there would need to be no proper ideal strictly between (6) and ℤ. But (6) ⊊ (2) ⊊ ℤ is a chain of proper inclusions, so (6) is not maximal either. In ℤ, an ideal (n) is prime iff n is prime, and maximal iff n is prime — both require n to be a prime number."
+  explanation: "For (6) to be prime, whenever ab ∈ (6) we would need a ∈ (6) or b ∈ (6). But 2·3 = 6 ∈ (6), yet neither 2 nor 3 is divisible by 6 — so (6) is not prime. For (6) to be maximal, there would need to be no proper ideal strictly between (6) and ℤ. But (6) ⊊ (2) ⊊ ℤ is a chain of proper inclusions, so (6) is not maximal either. In ℤ, for n > 0, the ideal (n) is prime iff n is prime, and maximal iff n is prime. (The zero ideal is also prime, but not maximal.)"
 
 - question: "A student argues: 'Since every field is an integral domain, and R/P is an integral domain when P is prime, it follows that R/P is always a field.' What is wrong?"
   type: multiple-choice
@@ -49,7 +57,7 @@ A maximal ideal M of a ring R is an ideal properly contained in R such that no i
   answer: true
   explanation: "If M is maximal, then R/M is a field. Every field is an integral domain (it has no zero divisors). Since R/M is an integral domain, M is prime. The chain is: M maximal ⟹ R/M is a field ⟹ R/M is an integral domain ⟹ M is prime. The reverse implication fails: prime does not imply maximal."
 
-- question: "In a commutative ring with unity, nearly every prime ideal is also maximal."
+- question: "In a commutative ring with unity, every prime ideal is also maximal."
   type: true-false
   answer: false
   explanation: "In ℤ, the ideal (0) is prime because ℤ has no zero divisors (if ab = 0 in ℤ, then a = 0 or b = 0). But (0) is not maximal because (0) ⊊ (2) ⊊ ℤ — the ideal (2) sits strictly between (0) and all of ℤ. However, in a principal ideal domain, every nonzero prime ideal is maximal. The claim holds in special settings but fails in general."

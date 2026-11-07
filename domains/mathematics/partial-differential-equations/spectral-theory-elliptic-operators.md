@@ -19,6 +19,14 @@ status: validated
 ## Core Idea
 The spectral theory of elliptic operators generalizes Sturm-Liouville theory to multiple dimensions: the eigenvalue problem -Δu = λu (or more generally, Lu = λu for a self-adjoint elliptic operator L) on a bounded domain with Dirichlet conditions has a discrete spectrum 0 < λ₁ < λ₂ ≤ λ₃ ≤ ... → ∞ with corresponding eigenfunctions forming an orthonormal basis of L²(Ω). The eigenvalues encode geometric information about the domain (Weyl's law: λ_k ~ C_n(k/|Ω|)^{2/n}), and the eigenfunction expansion provides a complete solution theory for evolution equations on bounded domains.
 
+## How It's Best Learned
+Compute the full Dirichlet spectrum of the unit square, where the eigenfunctions are sin(mπx) sin(nπy) with λ = π²(m² + n²). List the first few eigenvalues, note which repeat, and compare the count N(λ) with Weyl's prediction λ/(4π) for area 1. Then test the Rayleigh quotient with x(1 − x)y(1 − y). It gives 20, just above λ₁ = 2π² ≈ 19.74.
+
+## Common Misconceptions
+- Every eigenvalue is simple, as in one-dimensional Sturm-Liouville problems. (On the unit square, 5π² has multiplicity two, from (m, n) = (1, 2) and (2, 1). The first Dirichlet eigenvalue of a connected domain is simple.)
+- The k-th eigenfunction has exactly k nodal domains, mirroring the k − 1 zeros in one dimension. (Courant's theorem gives at most k. Many eigenfunctions have fewer.)
+- The lowest eigenvalue is positive for every boundary condition. (With Neumann conditions, λ = 0 is an eigenvalue with constant eigenfunctions.)
+
 ## Questions
 ```yaml
 - question: "The first eigenvalue λ₁ of -Δ on a bounded domain Ω with Dirichlet conditions satisfies:"

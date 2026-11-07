@@ -19,6 +19,14 @@ status: validated
 ## Core Idea
 Hyperbolic PDEs describe wave propagation phenomena with finite speed of information travel. The wave equation u_tt = c²Δu is the prototype, with solutions determined by initial data through D'Alembert's formula (1D) and Kirchhoff's formula (3D). Key features include: finite domain of dependence (the solution at a point depends only on data within the backward characteristic cone), preservation of singularities (unlike parabolic equations, waves carry discontinuities), and energy conservation. The theory of symmetric hyperbolic systems extends these results to Maxwell's equations, elasticity, and general relativity.
 
+## How It's Best Learned
+Draw two solutions of u_tt = u_xx on an x-t diagram using D'Alembert's formula. With u(x, 0) equal to the indicator of [−1, 1] and u_t = 0, the box splits into two half-height boxes that travel along the characteristics x ± t. With u = 0 and u_t equal to the same indicator, u(0, t) = 1 for every t ≥ 1, so a tail remains. Then compare with Kirchhoff's sphere averages in 3D.
+
+## Common Misconceptions
+- A discontinuous function such as the traveling box cannot solve the wave equation. (It is a weak solution. D'Alembert's formula makes sense for rough data, and the jumps travel along characteristics.)
+- Finite speed of propagation means only data at distance exactly ct affects the solution. (That sharp form is Huygens' principle and holds in odd dimensions three and higher. In one and two dimensions, data inside the backward cone also contributes.)
+- Hyperbolic equations must be second order with opposite-sign terms. (First-order equations and systems can be hyperbolic too. The transport equation u_t + cu_x = 0 and symmetric hyperbolic systems are examples.)
+
 ## Questions
 ```yaml
 - question: "The domain of dependence for the wave equation u_tt = c²Δu at a point (x₀, t₀) is:"

@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Regularization theory provides the mathematical framework for solving ill-posed inverse problems — problems where the solution does not depend continuously on the data. In machine learning, learning from finite samples is ill-posed: small changes in the training data can cause large changes in the learned function. Tikhonov regularization stabilizes the problem by adding a squared-norm penalty, shrinking the solution toward zero. Spectral regularization generalizes this by applying a filter function to the eigenvalues of the kernel matrix, controlling which frequency components of the solution are retained. Both approaches can be understood through the bias-variance lens: the regularization parameter trades off approximation error against estimation stability.
 
+## How It's Best Learned
+Work in the eigenbasis with three eigenvalues, 1, 0.1 and 0.001, and add noise of 0.01 to the data in the last direction. Plain inversion turns that noise into an error of 0.01/0.001 = 10. Tikhonov with λ = 0.01 gives 0.01/0.011 ≈ 0.91. Then tabulate the filter factors of Tikhonov, truncated SVD and ten gradient steps side by side.
+
+## Common Misconceptions
+- Tikhonov regularization discards the components with small eigenvalues. (It multiplies each component by σ/(σ + λ), which is small but positive. Setting components to exactly zero is what truncated SVD does.)
+- Early stopping is a training shortcut, so it is not a form of regularization. (After t gradient steps the solution has the spectral filter 1 - (1 - ησ)^t, which suppresses small-eigenvalue components. Stopping earlier acts like a larger λ.)
+- More regularization always gives a more reliable model. (A large λ also shrinks the strong signal directions, which adds bias. The best λ balances that bias against the noise amplification from too little regularization.)
+
 ## Questions
 
 ```yaml

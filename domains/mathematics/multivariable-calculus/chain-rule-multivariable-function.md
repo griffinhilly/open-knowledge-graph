@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 For z = f(x, y) where x = x(t) and y = y(t), the chain rule gives dz/dt = (∂f/∂x)(dx/dt) + (∂f/∂y)(dy/dt). For z = f(x, y) where x = x(s, t), the general case involves partial derivatives: ∂z/∂s and ∂z/∂t.
 
+## How It's Best Learned
+Draw the dependency tree first, then check the chain rule against direct substitution. Take z = x²y with x = s + t and y = st. The tree gives ∂z/∂s = 2xy · 1 + x² · t. Substituting first gives z = (s + t)²st, whose s-derivative is 2(s + t)st + (s + t)²t. Rewriting the first answer in s and t shows the two agree.
+
+## Common Misconceptions
+- The contributions from x and y multiply. (They add. Each intermediate variable is a separate path from z to t, and each path contributes one term to the sum.)
+- You evaluate ∂f/∂x at the values of s and t. (You evaluate it at the point (x, y) that s and t produce. At s = 1, t = 2 in the example above, use x = 3 and y = 2.)
+- ∂z/∂s and dz/ds mean the same thing in the two-parameter case. (When x and y depend on both s and t, ∂z/∂s holds t fixed. The ordinary derivative notation fits only when everything depends on a single parameter.)
+
 ## Questions
 
 ```yaml

@@ -20,7 +20,15 @@ status: validated
 # Spontaneous Symmetry Breaking
 
 ## Core Idea
-A system with symmetric interactions (H invariant under spin flip, for instance) can develop a state with lower symmetry when the free energy cost is outweighed by entropy gain. The ordered phase selects one of multiple degenerate ground states, breaking symmetry. This mechanism is fundamental to magnetism, superconductivity, and particle physics and emerges from statistical mechanics below a critical temperature.
+A system with symmetric interactions (H invariant under spin flip, for instance) can develop a state with lower symmetry when the energy gained by ordering outweighs the entropy lost. The ordered phase selects one of multiple degenerate ground states, breaking symmetry. This mechanism is fundamental to magnetism, superconductivity, and particle physics and emerges from statistical mechanics below a critical temperature.
+
+## How It's Best Learned
+Solve the mean-field equation m = tanh(mT_c/T) graphically at T = T_c/2. The line crosses the curve at m = 0 and at m ≈ ±0.96. Then compare two orders of limits: taking N → ∞ before h → 0⁺ leaves m ≈ +0.96, while setting h = 0 at finite N gives m = 0 by symmetry. A small Ising simulation below T_c shows M flipping sign less often as the lattice grows.
+
+## Common Misconceptions
+- A finite magnet in zero field has a nonzero equilibrium magnetization below T_c. (For any finite N the exact average over both minima is zero. The sample flips between ±M₀ on a time scale that grows rapidly with size, so the broken state becomes permanent only in the thermodynamic limit.)
+- Every ordered phase has gapless Goldstone modes. (They follow from broken continuous symmetries. Ising order breaks a discrete symmetry, and its excitations cost a finite energy.)
+- A continuous symmetry can break spontaneously in any dimension at finite temperature. (For short-range interactions the Mermin-Wagner theorem rules this out at T > 0 in one and two dimensions.)
 
 ## Questions
 

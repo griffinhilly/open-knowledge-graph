@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 A continuous-time Markov chain (CTMC) is a Markov process on a countable state space where the process holds in each state for an Exponential(qᵢ) time, then jumps to state j with probability qᵢⱼ/qᵢ. The generator matrix Q (with off-diagonal entries qᵢⱼ ≥ 0 and rows summing to zero) encodes the dynamics. The forward equation dp/dt = pQ and backward equation dp/dt = Qp govern the evolution of transition probabilities, and the stationary distribution π satisfies πQ = 0.
 
+## How It's Best Learned
+Picture each state as running independent exponential alarm clocks, one per possible target j with rate qᵢⱼ; the first clock to ring decides the jump. Work the two-state chain fully: solve the forward equation to get P₀₀(t) = β/(α+β) + (α/(α+β))e^{-(α+β)t}, check it equals 1 at t = 0, and watch it settle to the stationary value β/(α+β).
+
+## Common Misconceptions
+- The entry qᵢⱼ is the probability of moving from i to j. (It is a rate per unit time and can exceed 1; the probability that the next jump goes to j is qᵢⱼ/qᵢ.)
+- The diagonal entry qᵢᵢ is the chance of staying put. (qᵢᵢ = -qᵢ is minus the total exit rate; staying is captured by the exponential holding time.)
+- The stationary distribution of the CTMC is the same as that of its embedded jump chain. (The embedded chain ignores how long each visit lasts; weighting its stationary probabilities by mean holding times 1/qᵢ and renormalizing gives π.)
+
 ## Questions
 
 ```yaml

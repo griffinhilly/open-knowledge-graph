@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 For a rectangular region R = [a, b] × [c, d], the double integral ∬_R f dA = ∫_a^b ∫_c^d f(x, y) dy dx is straightforward: the bounds are constants. This is the entry point for computing double integrals; the order of integration does not matter for rectangles.
 
+## How It's Best Learned
+Start with a midpoint sum, then compute the exact value. For f = x + y on [0, 2] × [0, 2], four unit squares have midpoint values 1, 2, 2, 3, so the estimate is 8. The iterated integral gives ∫₀² (2x + 2) dx = 8. The match is exact because f is linear. Then note the product shortcut: ∬ x eʸ over [0, 2] × [0, 1] equals (∫₀² x dx)(∫₀¹ eʸ dy) = 2(e − 1).
+
+## Common Misconceptions
+- Any double integral over a rectangle splits into a product of two single integrals. (The product shortcut applies when f factors as g(x)h(y); for f = x + y, the product (∫₀² x dx)(∫₀² y dy) = 4 is wrong, since the integral is 8.)
+- The answer to the inner integral should be a number. (On a rectangle, the inner integral gives a function of the outer variable, which the outer integral then integrates.)
+- A double integral over a rectangle equals f at the center times the area. (That is a one-term midpoint estimate; it is exact for linear f but not in general.)
+
 ## Questions
 
 ```yaml

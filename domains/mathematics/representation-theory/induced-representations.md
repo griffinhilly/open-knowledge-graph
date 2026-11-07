@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Given a subgroup H ≤ G and a representation σ of H, the induced representation Ind_H^G(σ) is a representation of G constructed by "extending" σ from H to all of G. It acts on a space of dimension [G:H]·dim(σ), built by taking one copy of σ for each coset of H in G. Induction is the primary method for constructing representations of a group from representations of its subgroups, and its character can be computed by an explicit formula.
 
+## How It's Best Learned
+Induce the sign representation of H = ⟨(12)⟩ up to S₃ with the character formula. At e the value is 3. At (12), only the two elements of H conjugate (12) back to (12), so the value is (1/2) · 2 · (−1) = −1. No 3-cycle is conjugate into H, so the value there is 0. Recognize (3, −1, 0) as the sign character plus the two-dimensional character (2, 0, −1).
+
+## Common Misconceptions
+- The induced character equals χ_σ on H and zero off H. (That is the extension by zero, which feeds into the formula. In the S₃ example the induced character takes the value 3 at e, where χ_σ is 1.)
+- Induction requires H to be a normal subgroup. (Any subgroup works. The construction uses the left cosets of H, which exist for every subgroup.)
+- The induced representation depends on which coset representatives you pick. (Different choices give equivalent representations. The description ℂ[G] ⊗_{ℂ[H]} W uses no choices at all.)
+
 ## Questions
 
 ```yaml

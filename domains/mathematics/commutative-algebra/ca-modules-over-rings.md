@@ -29,6 +29,14 @@ status: validated
 ## Core Idea
 A module over a commutative ring R is the natural generalization of a vector space over a field: an abelian group M equipped with a scalar multiplication by elements of R satisfying the same axioms as vector spaces. Unlike vector spaces, modules over general rings need not have bases, and the absence of division in R creates fundamentally new phenomena — torsion elements, non-free modules, and the failure of dimension theory.
 
+## How It's Best Learned
+Take a linear algebra fact and test it on ℤ-modules. The set {2, 3} generates ℤ, and neither element alone does, yet 3·2 - 2·3 = 0, so it is not a basis. Next show that ℚ has no basis: any two fractions a/b and c/d satisfy (bc)(a/b) - (ad)(c/d) = 0, and no single fraction generates ℚ.
+
+## Common Misconceptions
+- A minimal generating set is a basis, as in vector spaces. (In ℤ, the set {2, 3} is a minimal generating set but is linearly dependent, since 3·2 - 2·3 = 0.)
+- A submodule of a free module is free. (This holds over a PID but fails in general. The ideal (x, y) in k[x, y] is a submodule of the free module k[x, y] but is not free: it is not principal, and any two of its elements f, g satisfy g·f - f·g = 0.)
+- A torsion-free module is free. (ℚ is a torsion-free ℤ-module with no basis.)
+
 ## Questions
 
 ```yaml

@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 The quark model classifies all observed hadrons as bound states of quarks: mesons are quark-antiquark pairs and baryons are three-quark states. Combining quark flavors, spins, and orbital angular momenta using SU(3) flavor symmetry and angular momentum addition rules reproduces the observed hadron spectrum, including the pseudoscalar and vector meson octets, the baryon octet and decuplet, and their excited states.
 
+## How It's Best Learned
+Build the pseudoscalar and vector nonets yourself on a weight diagram, with I₃ on one axis and strangeness on the other. Then test the hyperfine picture with real masses. The splitting K* − K ≈ 892 − 495 = 397 MeV, while ρ − π ≈ 775 − 138 = 637 MeV. Their ratio, about 0.62, should roughly match the ratio of light to strange constituent quark masses.
+
+## Common Misconceptions
+- A proton's mass is the sum of its three quark masses. (The u and d current masses are only a few MeV. Most of the nucleon mass comes from QCD binding energy, which the quark model hides in constituent masses near 300 MeV.)
+- The quark model forbids tetraquarks and pentaquarks. (QCD only requires hadrons to be color singlets. Several exotic candidates have been observed, including pentaquark states at LHCb.)
+- The neutral pion is a uū pair. (The π⁰ is a superposition, (uū − dd̄)/√2, as isospin symmetry requires.)
+
 ## Questions
 
 ```yaml

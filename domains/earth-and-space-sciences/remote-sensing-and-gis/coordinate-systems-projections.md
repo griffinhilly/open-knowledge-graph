@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Representing Earth's curved surface on flat maps or in digital systems requires two concepts: a geographic coordinate system (GCS) that defines locations on the 3D ellipsoid using latitude and longitude, and a map projection that transforms those 3D coordinates onto a 2D plane. Every projection distorts reality -- it is mathematically impossible to flatten a sphere without distorting area, shape, distance, or direction. Conformal projections (like UTM/Transverse Mercator) preserve local shapes and angles at the cost of area distortion; equal-area projections preserve area at the cost of shape. Choosing the right coordinate system and projection for a given analysis is essential because using the wrong one introduces systematic spatial errors.
 
+## How It's Best Learned
+Start with one calculation: a degree of longitude is about 111 km times the cosine of latitude, so about 111 km at the equator and about 56 km at 60°N. Then load one country into a GIS and compute its area in Web Mercator, UTM and an equal-area projection. Compare Tissot's indicatrix circles on Mercator and on an equal-area map.
+
+## Common Misconceptions
+- Latitude and longitude are the same everywhere, so a point's coordinates do not depend on the datum. (The same physical point has slightly different coordinates on different datums, and mixing datums can shift features by meters or more.)
+- Reprojecting data fixes a mismatch between datums. (A projection change alone does not move data between datums. A separate datum transformation is needed when the datums differ.)
+- Some projection shows the whole Earth without distortion. (No flat map can preserve area, shape, distance and direction everywhere at once, so every projection gives up at least one.)
+- A layer with no projection set can be assigned any projection to make it line up. (Assigning the wrong definition only relabels the coordinates. You need the CRS the data was actually created in.)
+
 ## Questions
 
 ```yaml
@@ -40,7 +49,7 @@ Representing Earth's curved surface on flat maps or in digital systems requires 
 - question: "The Universal Transverse Mercator (UTM) system divides Earth into 60 zones, each 6 degrees of longitude wide, because a single Transverse Mercator projection cannot accurately cover the entire globe."
   type: true-false
   answer: true
-  explanation: "The Transverse Mercator projection is accurate near its central meridian but distortion increases with distance. By limiting each zone to 6 degrees of longitude, UTM keeps maximum scale distortion below 0.04% -- adequate for large-scale mapping and engineering. Using a single zone for the entire globe would produce extreme distortion far from the central meridian. This zone system is why UTM coordinates always include a zone number."
+  explanation: "The Transverse Mercator projection is accurate near its central meridian but distortion increases with distance. By limiting each zone to 6 degrees of longitude, UTM keeps scale distortion within about 0.1% (1 part in 1,000) -- adequate for large-scale mapping and engineering. Using a single zone for the entire globe would produce extreme distortion far from the central meridian. This zone system is why UTM coordinates always include a zone number."
 
 - question: "Explain the difference between a datum and a map projection, and why both are needed to define a coordinate reference system."
   type: short-answer

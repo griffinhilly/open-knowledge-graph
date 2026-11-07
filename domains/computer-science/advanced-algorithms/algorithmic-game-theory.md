@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 Algorithmic game theory studies strategic interaction through the lens of computational complexity and algorithm design. While classical game theory establishes that Nash equilibria exist (Nash, 1950), algorithmic game theory asks: can we compute them efficiently? The answer is surprisingly negative -- computing a Nash equilibrium in a general two-player game is PPAD-complete (Daskalakis-Goldberg-Papadimitriou, 2006/2009), meaning it is unlikely to be polynomial-time solvable even though a solution is guaranteed to exist. The field also studies the price of anarchy (how much worse is a selfish equilibrium than the social optimum?), mechanism design (how do you design rules so that self-interested agents produce good outcomes?), and the computational complexity of auctions, voting, and network routing.
 
+## How It's Best Learned
+Start with Pigou's two-link network and compute the selfish and optimal routings by hand, which gives the 4/3 ratio directly. Then work a sealed-bid auction with three bidders under first-price and second-price rules, checking where each bidder gains by misreporting. Move to VCG only after the second-price case is clear, since VCG generalizes it.
+
+## Common Misconceptions
+- If a Nash equilibrium is guaranteed to exist, finding one must be easy. (Existence and efficient computation are separate questions. Computing a Nash equilibrium is PPAD-complete, so no polynomial-time algorithm is expected even though a solution exists.)
+- PPAD-complete means NP-complete. (PPAD contains total search problems, where a solution is guaranteed. A PPAD-complete problem is not believed to be NP-hard, because NP-hardness for a total search problem would imply NP = coNP.)
+- The price of anarchy describes the typical equilibrium. (It is the ratio for the worst equilibrium. The price of stability uses the best equilibrium, and the two can differ widely in the same game.)
+- Any good approximation algorithm becomes truthful once payments are added. (In single-parameter settings, an allocation rule can be made truthful only if it is monotone. Many approximation algorithms fail that condition.)
+
 ## Questions
 
 ```yaml

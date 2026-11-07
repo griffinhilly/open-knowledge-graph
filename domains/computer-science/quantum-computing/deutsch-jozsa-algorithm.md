@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 The Deutsch-Jozsa algorithm determines whether a Boolean function f:{0,1}^n -> {0,1} is constant (same output for all inputs) or balanced (outputs 0 for exactly half the inputs and 1 for the other half), promised that one of these holds. A classical deterministic algorithm requires 2^(n-1) + 1 queries in the worst case, but the quantum algorithm uses exactly one query to the function oracle. It was the first algorithm to demonstrate a provable exponential separation between quantum and classical deterministic query complexity, establishing that quantum computers can solve certain problems fundamentally faster.
 
+## How It's Best Learned
+Trace the n = 2 circuit by hand for two oracles: a constant f(x) = 0 and the balanced f(x) = x_1 (the first bit). Write the four signs after the oracle (+ + + + versus + + - -), then compute the amplitude of |00> as one quarter of their sum. Seeing 1 versus 0 makes the interference argument concrete before the general n-qubit sum.
+
+## Common Misconceptions
+- Deutsch-Jozsa is exponentially faster than every classical method. (The separation is against deterministic algorithms. A randomized classical algorithm that checks a few random inputs succeeds with high probability.)
+- The quantum computer evaluates f on all inputs and then checks the results. (A single measurement returns one n-bit string. The answer comes from interference concentrating or cancelling the amplitude at |0...0>.)
+- For a balanced function, the measured string lists which inputs map to 1. (A nonzero outcome only shows that f is balanced. It does not identify the inputs where f(x) = 1.)
+
 ## Questions
 
 ```yaml

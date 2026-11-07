@@ -27,6 +27,14 @@ status: validated
 ## Core Idea
 The symmetric group Sₙ is the group of all bijections (permutations) of an n-element set under composition. Permutation groups are fundamental: every finite group is a subgroup of some symmetric group. The order of Sₙ is n!.
 
+## How It's Best Learned
+Write each element of S₃ in two-line notation, fix one composition convention, and fill in the full 6 × 6 Cayley table by tracing where each of 1, 2, 3 goes. The table shows identity, inverses, and non-commuting pairs at a glance. Then embed the rotations of a square in S₄ by labelling the corners 1 to 4.
+
+## Common Misconceptions
+- σ∘τ means do σ first, then τ. (With the usual function convention, τ acts first. Some books use the opposite order, so check the convention and keep it fixed.)
+- Sₙ has nⁿ elements, one for each way to assign images. (nⁿ counts all functions from the set to itself. Permutations must be bijections, which leaves n! of them.)
+- A permutation group means the full group Sₙ. (Any subgroup of Sₙ is a permutation group. A₃ and the four rotations of a square inside S₄ are examples.)
+
 ## Questions
 
 ```yaml
@@ -74,4 +82,4 @@ The order of Sₙ is n!, since there are n! ways to arrange n distinct objects. 
 
 The symmetric group is important far beyond combinatorics. **Cayley's theorem** states that every finite group is isomorphic to a subgroup of Sₙ for some n. This means permutation groups are *universal*: any abstract finite group can be concretely realized as a group of rearrangements. Rather than reasoning about arbitrary groups in the abstract, you can always find a copy inside some Sₙ and compute by shuffling elements of a set. This is analogous to the way every finite-dimensional vector space can be realized as ℝⁿ — a concrete coordinate model always exists.
 
-A key subgroup of Sₙ is the **alternating group** Aₙ, consisting of all "even" permutations — those expressible as a product of an even number of transpositions. Aₙ has order n!/2 and plays a central role in Galois theory: the fact that A₅ is simple (has no normal subgroups) is the reason no general formula exists for solving quintic equations. For now, the main skill to develop is fluency with permutation composition — writing permutations explicitly, composing them left-to-right or right-to-left consistently, and recognizing that the result depends on the order of composition.
+A key subgroup of Sₙ is the **alternating group** Aₙ, consisting of all "even" permutations — those expressible as a product of an even number of transpositions. Aₙ has order n!/2 and plays a central role in Galois theory: the fact that A₅ is simple (has no normal subgroups other than {e} and A₅) is the reason no general formula exists for solving quintic equations. For now, the main skill to develop is fluency with permutation composition — writing permutations explicitly, composing them left-to-right or right-to-left consistently, and recognizing that the result depends on the order of composition.

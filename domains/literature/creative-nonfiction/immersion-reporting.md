@@ -22,6 +22,14 @@ status: draft
 ## Core Idea
 Immersion reporting requires prolonged presence within the subject community, organization, or situation, with the writer functioning as embedded observer. This creates narrative intimacy with material and reduces authorial distance, enabling rich character development and detailed scene reconstruction while raising questions about how the observer's presence affects what is observed.
 
+## How It's Best Learned
+Return to one place with a routine, such as a diner, gym or workshop, over several visits. Keep dated field notes that separate what you saw and heard from what people told you, and note moments when your presence seemed to change behavior. Then reconstruct one scene from the notes and match each detail to an entry.
+
+## Common Misconceptions
+- Immersion reporting is a very long interview. (The method rests on prolonged presence and direct observation over time. Interviews are one part of it.)
+- An embedded reporter sees people as they are when no one is watching. (The reporter's presence affects behavior, and good immersion reporting accounts for that effect.)
+- Having been there means reconstructed scenes need no checking. (Memory drifts. Scenes should rest on notes made at the time and be checked against other sources where possible.)
+
 ## Questions
 
 ```yaml
@@ -50,13 +58,14 @@ Immersion reporting requires prolonged presence within the subject community, or
   answer: true
   explanation: This is a fundamental challenge of immersion reporting. Your presence changes what you observe. People behave differently when a reporter is present. You affect relationships and dynamics. Good immersion reporters acknowledge this rather than pretending their presence doesn't matter.
 
-- question: 'False: Immersion reporting reduces narrative distance and authorial distance, making the writing more transparent about what the reporter actually witnessed.'
+- question: 'Immersion reporting reduces narrative distance and authorial distance, making the writing more transparent about what the reporter actually witnessed.'
   type: true-false
-  answer: false
-  explanation: This statement is actually true, not false. The prolonged presence does reduce distance. The reporter is embedded, observing directly, often building relationships with subjects. This proximity creates narrative intimacy and allows the reporter to convey what they actually witnessed rather than relying on secondhand accounts.
+  answer: true
+  explanation: This statement is true. The prolonged presence does reduce distance. The reporter is embedded, observing directly, often building relationships with subjects. This proximity creates narrative intimacy and allows the reporter to convey what they actually witnessed rather than relying on secondhand accounts.
 
 - question: What are the advantages and challenges of immersion reporting compared to reported journalism that relies on interviews and documents?
   type: short-answer
+  answer: "Immersion lets the reporter see behavior and relationships firsthand and reconstruct scenes in detail that interviews and documents rarely provide. The challenges are that the reporter's presence changes what happens, relationships create ethical pressures, and the volume of material makes selection hard."
   explanation: 'Advantages: You see behavior, dynamics, relationships firsthand. You develop understanding of context and complexity that interviews alone don''t provide. You can describe scenes with precision and capture dialogue naturally. You develop relationships that allow subjects to be more open. Challenges: Your presence affects behavior. You develop relationships that create ethical complications. You face overwhelming amounts of information and must select what to focus on. You''re embedded in the situation, which can reduce objectivity. But immersion reporting often produces the most compelling narrative journalism because the writer understands the material deeply and can convey its complexity authentically.'
 ```
 

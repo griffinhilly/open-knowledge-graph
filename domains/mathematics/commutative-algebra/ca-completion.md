@@ -27,6 +27,14 @@ status: validated
 ## Core Idea
 The I-adic completion of a ring R with respect to an ideal I is the inverse limit of the quotients R/I^n, capturing the "formal neighborhood" of V(I). For a local ring (R, m), the m-adic completion R-hat retains the essential algebraic properties of R while gaining powerful analytic-like tools such as Hensel's lemma, which lifts approximate factorizations to exact ones. Completion is the algebraic analogue of passing from polynomials to power series, or from rational numbers to real numbers, and is indispensable in local algebraic geometry and number theory.
 
+## How It's Best Learned
+Write elements of a completion as coherent sequences of residues before using the inverse-limit language. Then run Hensel's lemma by hand: x² - 2 has the root 3 mod 7, and f'(3) = 6 is a unit mod 7. Setting b = 3 + 7t and solving 6t ≡ -1 mod 7 gives b = 10, and 10² = 100 ≡ 2 mod 49. Repeat once more to see the Newton-style iteration.
+
+## Common Misconceptions
+- A ring has one completion. (The completion depends on the ideal. Z completed at (2) gives the 2-adic integers, at (3) the 3-adic integers, and at the zero ideal Z itself.)
+- The map R → R-hat is injective for every ring and ideal. (Its kernel is the intersection of the powers I^n. In Z/6Z with I = (2), I² = I, so the kernel is (2) and the completion is Z/2Z.)
+- Hensel's lemma lifts every root modulo m. (The simple form needs f'(a) to be a unit mod m. The polynomial x² - 2 has the root 0 mod 2, but 2 is not a square in the 2-adic integers.)
+
 ## Questions
 
 ```yaml

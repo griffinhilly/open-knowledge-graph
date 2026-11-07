@@ -29,6 +29,14 @@ status: validated
 ## Core Idea
 A phase transition occurs when a small change in control parameters (T, P, H) causes a discontinuous change in macroscopic properties. First-order transitions show discontinuities in density, entropy, or order parameter; second-order transitions have continuous order parameters but divergent susceptibilities. Free energy surfaces determine stability and govern the Clausius-Clapeyron equation for phase boundaries.
 
+## How It's Best Learned
+Derive Clausius-Clapeyron from dG_liq = dG_gas, then use it once with numbers. For boiling water at 373 K, take L ≈ 40.7 kJ/mol and ΔV ≈ RT/P. This gives dP/dT = LP/RT² ≈ 3.6 kPa per kelvin. Next, sketch S(T) through each kind of transition: a vertical jump for first-order, a continuous curve with a kink or steep slope for second-order.
+
+## Common Misconceptions
+- At the boiling point the liquid turns to gas all at once. (At coexistence both phases share the same T and P. Added heat converts liquid to gas at constant temperature until the liquid is gone.)
+- A second-order transition is a first-order transition with a small jump. (A weak first-order transition still has latent heat and coexistence. A continuous transition has neither and shows a diverging correlation length instead.)
+- A sharp transition shows up in the free energy of a finite sample. (For a finite number of particles, the partition function is a smooth, positive function of temperature, so the free energy is smooth too. True singularities appear only in the thermodynamic limit.)
+
 ## Questions
 
 ```yaml

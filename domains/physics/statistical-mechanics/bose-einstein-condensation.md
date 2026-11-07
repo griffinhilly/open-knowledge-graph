@@ -25,7 +25,15 @@ status: validated
 # Bose-Einstein Condensation
 
 ## Core Idea
-Below a critical temperature T_c = (2π)^{2/3} (ℏ^2 n / mk_B)^{2/3} / k_B, a macroscopic fraction of bosons occupies the ground state, forming a Bose-Einstein condensate. The transition is a consequence of the finite density of states at k=0 combined with the ability of bosons to occupy the same state. Above T_c, particles are distributed over excited states with average density ∝ T^{3/2}.
+Below a critical temperature T_c = (2πℏ²/mk_B)(n/ζ(3/2))^{2/3}, with ζ(3/2) ≈ 2.612, a macroscopic fraction of bosons occupies the ground state, forming a Bose-Einstein condensate. The transition is a consequence of the density of states vanishing as ε^{1/2} near ε = 0, combined with the ability of bosons to occupy the same state. Below T_c, the excited states hold a density ∝ T^{3/2}, and the rest of the particles sit in the ground state.
+
+## How It's Best Learned
+Run the counting argument in 3D and 2D side by side. At μ = 0, write N_excited = ∫ g(ε) / (e^{ε/k_BT} − 1) dε. Near ε = 0 the Bose factor goes as k_BT/ε. In 3D, g ∝ ε^{1/2} makes the integrand go as ε^{−1/2}, which converges to a finite cap. In 2D, constant g gives 1/ε, which diverges, so no cap exists and no condensate forms.
+
+## Common Misconceptions
+- Below T_c the chemical potential turns positive and pushes particles into the ground state. (For the ideal gas μ stays pinned at the ground-state energy, zero, throughout the condensed phase. A positive μ would make the ground-state occupation negative.)
+- The condensate is a dense clump of atoms in real space. (In a uniform box the condensate occupies the k = 0 state, which is spread evenly over the whole volume. The condensation is in momentum space.)
+- Cooling an ideal Bose gas produces a condensate in any number of dimensions. (For a uniform ideal gas in 2D the excited states can hold any number of particles at finite temperature, so no transition occurs.)
 
 ## Questions
 
@@ -58,7 +66,7 @@ Below a critical temperature T_c = (2π)^{2/3} (ℏ^2 n / mk_B)^{2/3} / k_B, a m
 - question: "Below T_c, the condensate fraction N₀/N grows as temperature decreases, reaching 1 (all particles in the ground state) only at absolute zero."
   type: true-false
   answer: true
-  explanation: "The condensate fraction below T_c grows as N₀/N = 1 − (T/T_c)³: at T = T_c the fraction is 0, and it increases continuously as T decreases, reaching 1 only at T = 0. This gradual growth is characteristic of a second-order (continuous) phase transition — there is no latent heat, just a smooth order parameter (the condensate fraction) that grows from zero. At absolute zero, all N particles occupy the single k=0 ground state, described by a single macroscopic wavefunction."
+  explanation: "The condensate fraction below T_c grows as N₀/N = 1 − (T/T_c)^{3/2}: at T = T_c the fraction is 0, and it increases continuously as T decreases, reaching 1 only at T = 0. This gradual growth is characteristic of a second-order (continuous) phase transition — there is no latent heat, just a smooth order parameter (the condensate fraction) that grows from zero. At absolute zero, all N particles occupy the single k=0 ground state, described by a single macroscopic wavefunction."
 
 - question: "Explain the role of the density of states in triggering BEC. Why does the k=0 ground state specifically accumulate a macroscopic occupation below T_c, rather than the accumulation being spread smoothly across many low-energy states?"
   type: short-answer
@@ -72,6 +80,6 @@ You already know from Bose-Einstein statistics that bosons — particles with in
 
 The key is the **density of states** near zero energy. In three dimensions, the density of states goes as g(ε) ∝ ε^{1/2} — there are very few states near ε = 0. From the grand-canonical ensemble you know that the average occupation of a state with energy ε is n̄(ε) = 1/(e^{(ε−μ)/k_BT} − 1). For this to be well-defined for all states, the chemical potential μ must stay below the lowest energy, which we set to ε = 0. As you lower T at fixed particle number, μ rises toward zero. At the **critical temperature T_c**, μ hits zero from below. At this point, the number of particles that can be accommodated in *excited* states reaches a maximum (a finite value despite infinite states, because the Bose factor diverges and the density of states vanishes at ε = 0). Any additional particles — or any particles already present when T drops below T_c — *must* go into the ground state.
 
-Below T_c, the ground state develops a **macroscopic occupation**: a finite fraction N₀/N of all N particles pile into the single k = 0 state. This fraction grows as (1 − (T/T_c)³) as the temperature drops, reaching 1 at T = 0. This is qualitatively different from a thermal distribution — a single state captures a nonzero fraction of a macroscopic system. The condensate is described by a single macroscopic wavefunction, giving the system long-range phase coherence. This coherence is the microscopic origin of **superfluidity**: the condensate flows without viscosity because scattering processes that would dissipate momentum require exciting particles out of the condensate, which costs a finite energy even at arbitrarily small flow speeds.
+Below T_c, the ground state develops a **macroscopic occupation**: a finite fraction N₀/N of all N particles pile into the single k = 0 state. This fraction grows as (1 − (T/T_c)^{3/2}) as the temperature drops, reaching 1 at T = 0. This is qualitatively different from a thermal distribution — a single state captures a nonzero fraction of a macroscopic system. The condensate is described by a single macroscopic wavefunction, giving the system long-range phase coherence. This coherence is the microscopic origin of **superfluidity**: the condensate flows without viscosity because scattering processes that would dissipate momentum require exciting particles out of the condensate, which costs a finite energy even at arbitrarily small flow speeds.
 
 Real Bose-Einstein condensates in dilute atomic gases (first achieved in 1995 with rubidium-87) are extraordinarily cold — hundreds of nanokelvin — because the critical temperature scales with density and mass as T_c ∝ n^{2/3}/m. In these experiments you can directly see the condensate appear as a sharp spike in the velocity distribution at zero momentum, sitting on top of a broad thermal cloud. The sudden appearance of this spike as you cool through T_c is a phase transition with no latent heat (a second-order transition), and it is a direct demonstration that quantum statistics, not interactions, can drive macroscopic order.

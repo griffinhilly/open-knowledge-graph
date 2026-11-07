@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Mixed partial derivatives are equal when they are continuous: ∂²f/∂x∂y = ∂²f/∂y∂x, by Clairaut's theorem. This equality simplifies computation and reflects symmetry in the function's behavior.
 
+## How It's Best Learned
+Compute both mixed partials by hand for one function and watch them match. For f = x³y² + sin(xy), the x-then-y route gives 3x²y² + y cos(xy), then 6x²y + cos(xy) − xy sin(xy). The y-then-x route reaches the same expression through different intermediate steps. Then look at the standard counterexample xy(x²−y²)/(x²+y²) to see why continuity is a hypothesis.
+
+## Common Misconceptions
+- Mixed partials are equal for any function whose second partials exist. (Clairaut's theorem needs the mixed partials to be continuous; functions with discontinuous mixed partials can have unequal ones at a point.)
+- Clairaut's theorem says f_xx = f_yy. (It concerns only the mixed partials; for f = x², f_xx = 2 while f_yy = 0.)
+- If my two mixed partials of a polynomial come out different, the theorem must not apply here. (Every partial of a polynomial is continuous, so differing results point to an algebra error.)
+- f_xy and ∂²f/∂x∂y mean the same order of differentiation. (f_xy means x first, then y; ∂²f/∂x∂y means y first, then x. Under Clairaut's hypotheses the values agree, but the conventions differ.)
+
 ## Questions
 
 ```yaml

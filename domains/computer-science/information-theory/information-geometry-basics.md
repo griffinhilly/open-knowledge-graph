@@ -28,6 +28,15 @@ status: validated
 ## Core Idea
 Information geometry treats families of probability distributions as points on a Riemannian manifold, with the Fisher information matrix as the metric tensor. This geometric perspective reveals that statistical inference is fundamentally a geometric operation: maximum likelihood estimation finds the nearest point on a model manifold, the EM algorithm alternates between two dual projections, and exponential families are flat submanifolds. The dual connection structure (e-connection and m-connection) discovered by Amari captures the asymmetry of KL divergence geometrically. Information geometry unifies concepts from statistics, information theory, and differential geometry, providing deep structural insights into optimization, machine learning, and neural networks.
 
+## How It's Best Learned
+Start with the one-parameter Bernoulli family. Integrate the Fisher length element dp / sqrt(p(1-p)) and show that the substitution phi = 2 arcsin(sqrt(p)) turns Fisher distance into ordinary distance in phi. Mark equal steps of phi on the p-axis and see them bunch near 0 and 1. Then compare D_KL(p||p + dp) with half the squared Fisher distance for small dp.
+
+## Common Misconceptions
+- Equal steps in a parameter are equal changes in the distribution. (Under the Fisher metric, moving a Bernoulli parameter from 0.01 to 0.02 covers far more distance than moving it from 0.50 to 0.51.)
+- KL divergence is the squared Fisher distance. (For nearby distributions, KL is about half the squared Fisher length element. For distributions far apart the two can differ greatly, and KL is not symmetric.)
+- The geometry belongs to the parameters. (It belongs to the distributions. If moving the parameters in some direction leaves the distribution unchanged, the Fisher matrix is singular there and the parameters are a poor coordinate system.)
+- A statistical manifold has one natural connection, as in ordinary Riemannian geometry. (It carries the Levi-Civita connection of the Fisher metric, plus the dual e- and m-connections, and these give different notions of a straight line.)
+
 ## Questions
 
 ```yaml

@@ -32,6 +32,15 @@ status: validated
 ## Core Idea
 Shannon's channel coding theorem (noisy coding theorem) proves that for any discrete memoryless channel with capacity C, reliable communication is possible at any rate R < C and impossible at any rate R > C. The achievability proof shows that randomly generated codebooks, with maximum likelihood decoding, achieve vanishing error probability as the block length n grows. The converse uses Fano's inequality to show that rates above C force non-vanishing error. This theorem separated the problem of communication into source coding (compression) and channel coding (error correction), enabling the modular design of modern communication systems.
 
+## How It's Best Learned
+Treat the proof as two separate arguments and write each as a short chain of steps. For achievability, count codewords and typical output sets on a binary symmetric channel to see why 2^(nR) codewords fit when R < C. For the converse, follow Fano's inequality line by line. A repetition code makes a useful contrast, since its error falls only as its rate goes to zero.
+
+## Common Misconceptions
+- Driving the error probability toward zero means the rate has to go toward zero too. (That is true of repetition codes, but the theorem shows any fixed rate below C can have vanishing error as the block length grows.)
+- The theorem tells you how to build a good code. (It proves good codes exist by showing a random codebook works on average. Building practical codes near capacity took decades of later work.)
+- Above capacity the error probability is merely a little higher. (The converse shows that at rates above C the error probability stays bounded away from zero however long the code.)
+- The rate R is the number of channel symbols sent per use. (R is the number of message bits per channel use, log2(number of messages) divided by the block length n. A code with 2^(nR) codewords of length n has rate R.)
+
 ## Questions
 
 ```yaml

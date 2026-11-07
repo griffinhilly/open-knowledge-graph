@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 A length is constructible with ruler and compass iff it lies in a field extension Q(α₁, ..., αₙ) where each [Q(α₁, ..., αᵢ) : Q(α₁, ..., αᵢ₋₁)] = 2. This proves angle trisection and cube doubling are impossible: they require non-power-of-2 degree extensions. The theory uses Galois extensions of degree 2^k.
 
+## How It's Best Learned
+Derive the trisection polynomial yourself. From cos 3θ = 4cos³θ − 3cos θ with θ = 20°, you get 8c³ − 6c − 1 = 0. Check the rational candidates ±1, ±1/2, ±1/4, ±1/8 and confirm none is a root, so the cubic is irreducible and has degree 3. Before that, build √a from a semicircle on a segment of length 1 + a.
+
+## Common Misconceptions
+- No angle can be trisected with ruler and compass. (Some angles can, such as 90°, since a 30° angle is constructible. The theorem says no method works for every angle, and 60° is one that fails.)
+- A number whose degree over ℚ is a power of 2 is constructible. (The degree condition is necessary but not sufficient. The number must lie at the top of a tower of degree-2 steps.)
+- The impossibility proofs rule out trisection by any physical method. (They apply to an unmarked straightedge and compass. With a marked ruler any angle can be trisected exactly, and with ruler and compass it can be trisected to any desired approximation.)
+
 ## Questions
 
 ```yaml
@@ -69,4 +77,4 @@ The **constructibility criterion** follows: a length is constructible if and onl
 
 Now the famous impossibility results fall out cleanly. **Doubling the cube** means constructing ∛2 — a root of x³ - 2, which is irreducible over ℚ. The degree [Q(∛2) : Q] = 3, which is not a power of 2. Impossible. **Trisecting a 60° angle** means constructing cos(20°), a root of 8x³ - 6x - 1, again irreducible of degree 3. Impossible. The impossibility is not about ingenuity or complexity — no sequence of compass-and-straightedge moves, no matter how clever, can escape the algebraic constraint that each step only adjoins square roots.
 
-**Squaring the circle** (constructing √π) is also impossible, but for a deeper reason: π is transcendental, meaning it satisfies no polynomial with rational coefficients at all. It is not merely in a "wrong-degree" extension — it is outside the entire algebraic hierarchy. Contrast this with regular polygons: a regular n-gon is constructible if and only if n = 2^k · p₁ · p₂ · ... · pₘ where each pᵢ is a distinct **Fermat prime** (primes of the form 2^(2^k) + 1). Gauss proved this at age 19 by showing constructibility of a regular n-gon is equivalent to the Galois group of the n-th cyclotomic field being a 2-group. The field extension framework transforms ancient geometric puzzles into questions you can answer with algebra.
+**Squaring the circle** (constructing √π) is also impossible, but for a deeper reason: π is transcendental, meaning it satisfies no polynomial with rational coefficients at all. It is not merely in a "wrong-degree" extension — it is outside the entire algebraic hierarchy. Contrast this with regular polygons: a regular n-gon is constructible if and only if n = 2^k · p₁ · p₂ · ... · pₘ where each pᵢ is a distinct **Fermat prime** (primes of the form 2^(2^k) + 1). Gauss proved the sufficiency (constructing the regular 17-gon at age 19), and Wantzel proved the necessity in 1837. In modern terms, a regular n-gon is constructible exactly when the Galois group of the n-th cyclotomic field is a 2-group. The field extension framework transforms ancient geometric puzzles into questions you can answer with algebra.

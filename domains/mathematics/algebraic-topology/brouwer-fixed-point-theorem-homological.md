@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 The Brouwer fixed point theorem states that every continuous map f : D^n -> D^n has a fixed point: there exists x in D^n with f(x) = x. The homological proof proceeds by contradiction: if f had no fixed point, we could construct a retraction r : D^n -> S^{n-1} = boundary(D^n), but no such retraction exists because it would force the identity on H_{n-1}(S^{n-1}) = Z to factor through H_{n-1}(D^n) = 0. This argument showcases how algebraic topology converts a geometric claim into an algebraic impossibility.
 
+## How It's Best Learned
+Start with n = 1, where the theorem is the intermediate value theorem applied to f(x) - x on [-1, 1]. Then draw the ray picture for n = 2: no fixed-point-free map exists, so pick a few points x with made-up values f(x) ≠ x, and sketch r(x) for each, including boundary points, to see why r fixes the boundary. Finally write the homology diagram H_{n-1}(S^{n-1}) -> H_{n-1}(D^n) -> H_{n-1}(S^{n-1}) and check that it must be both zero and the identity.
+
+## Common Misconceptions
+- The theorem works for any space shaped like a disk, including the open disk. (It needs the closed disk, or a space homeomorphic to it. A translation of R^n, which is homeomorphic to the open disk, has no fixed point.)
+- The proof shows where the fixed point is. (It is a proof by contradiction and gives no location. Finding fixed points in practice takes separate, constructive methods.)
+- The retraction step needs f(x) to lie in the interior of the disk. (f(x) can lie on the boundary. The construction needs only f(x) ≠ x, so that the ray from f(x) through x is defined.)
+- The argument uses the top homology group H_n. (It uses H_{n-1}: the sphere S^{n-1} has H_{n-1} = Z, while the disk has H_{n-1} = 0 for n ≥ 2.)
+
 ## Questions
 
 ```yaml
@@ -44,7 +53,7 @@ The Brouwer fixed point theorem states that every continuous map f : D^n -> D^n 
 - question: "How does one construct the hypothetical retraction r: D^n → S^{n-1} from a fixed-point-free map f: D^n → D^n?"
   type: short-answer
   answer: "For each x ∈ D^n, since f(x) ≠ x, consider the ray starting at f(x) and passing through x. This ray hits the boundary sphere S^{n-1} at a unique point r(x). Formally, r(x) = x + t(x - f(x)) where t ≥ 0 is chosen so |r(x)| = 1. This map r is continuous (because f is continuous and the ray direction varies continuously) and satisfies r(x) = x for x ∈ S^{n-1} (since the ray from f(x) through x, with x already on the boundary, hits the boundary at x). So r is a retraction of D^n onto S^{n-1}."
-  explanation: "The geometric picture is clear: for each interior point x, draw a ray from f(x) through x and extend it to the boundary. If x is on the boundary, the ray starts at f(x) (which is in the interior since the map goes D^n → D^n) and passes through x, which is already on the boundary — so r(x) = x. The no-fixed-point assumption ensures f(x) ≠ x, so the ray direction is well-defined."
+  explanation: "The geometric picture is clear: for each interior point x, draw a ray from f(x) through x and extend it to the boundary. If x is on the boundary, the ray starts at f(x) (a point of D^n different from x, possibly also on the boundary) and passes through x, which is already on the boundary — so r(x) = x. The no-fixed-point assumption ensures f(x) ≠ x, so the ray direction is well-defined."
 
 - question: "The Brouwer fixed point theorem can be proved using the fundamental group for n = 2 but requires homology for n ≥ 3."
   type: true-false

@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 The additive white Gaussian noise (AWGN) channel models a continuous-valued channel where the received signal Y = X + Z, with Z ~ N(0, N) independent of the input X, and the input has a power constraint E[X^2] <= P. Its capacity is C = (1/2) log2(1 + P/N) bits per channel use — the Shannon-Hartley formula. The capacity-achieving input distribution is Gaussian: X ~ N(0, P). Combined with the bandwidth theorem, this gives C = W log2(1 + P/(NW)) bits per second for bandwidth W, establishing the fundamental tradeoff between bandwidth, power, and data rate that governs all modern wireless and wired communication.
 
+## How It's Best Learned
+Derive C = (1/2) log2(1 + P/N) in three lines from h(Y) - h(Z), naming the step where the Gaussian maximum-entropy property enters. Then build a small table of capacity at SNRs of 0, 10, 20 and 30 dB. Finally, plot W log2(1 + P/(N_0 W)) against W for fixed P and N_0, and watch it level off at P/(N_0 ln 2).
+
+## Common Misconceptions
+- Doubling the transmit power doubles the capacity. (Capacity grows with the logarithm of SNR. At high SNR, doubling power adds about half a bit per real channel use.)
+- With unlimited bandwidth, capacity grows without limit. (Noise power grows with bandwidth too. For fixed power, capacity approaches the finite limit P/(N_0 ln 2) bits per second.)
+- SNR in decibels can go straight into the formula. (The formula needs the linear ratio P/N. A 15 dB SNR is about 31.6, not 15.)
+- The 1/2 in the formula applies to every Gaussian channel. (It is for a real-valued channel use. A complex baseband channel use carries two real dimensions, giving log2(1 + SNR).)
+
 ## Questions
 
 ```yaml

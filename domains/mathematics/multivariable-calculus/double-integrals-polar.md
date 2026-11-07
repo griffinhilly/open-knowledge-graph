@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 In polar coordinates (r, θ), the area element becomes dA = r dr dθ. The double integral becomes ∫_α^β ∫_{r₁(θ)}^{r₂(θ)} f(r cos θ, r sin θ) r dr dθ. Polar is natural for circular or radial regions.
 
+## How It's Best Learned
+Find the r and θ limits by sweeping a ray from the origin across the region. Note where each ray enters and leaves. Try the circle r = 2 cos θ, a disk of radius 1 centered at (1, 0). Rays run from θ = −π/2 to π/2, and r runs from 0 to 2 cos θ. The area integral gives ∫ 2cos²θ dθ = π, which matches π · 1².
+
+## Common Misconceptions
+- The r limits are always constants. (For regions such as r = 2 cos θ or a cardioid, the outer edge depends on θ, so the inner r limits are functions of θ.)
+- A disk is described by 0 ≤ θ ≤ 2π no matter where it sits. (That works for a disk centered at the origin; a disk off the origin may cover only some angles, as r = 2 cos θ covers −π/2 to π/2.)
+- The extra r is a convention to memorize. (It comes from geometry: a small polar patch has radial side dr and arc side r dθ, so its area is about r dr dθ.)
+- Since dA = r dr dθ, the r and θ integrals can be done in either order with the same limits. (They can be swapped only when all limits are constants; when r depends on θ, the region must be redescribed.)
+
 ## Questions
 
 ```yaml

@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Gravitational redshift is the decrease in frequency (increase in wavelength) of light as it climbs out of a gravitational potential well, and the corresponding blueshift as light falls in. For the Schwarzschild metric, a photon emitted at radius r_e with frequency ν_e is observed at radius r_o with frequency ν_o = ν_e √[(1 - r_s/r_e)/(1 - r_s/r_o)], where r_s = 2GM/c². In the weak-field limit, the fractional shift is Δν/ν ≈ ΔΦ/c², where ΔΦ is the difference in Newtonian gravitational potential. Equivalently, clocks at lower gravitational potentials tick more slowly than clocks at higher potentials. Gravitational redshift was predicted by Einstein from the equivalence principle alone (before the full theory was complete), confirmed by the Pound-Rebka experiment (1959), and is an essential correction in the GPS satellite system.
 
+## How It's Best Learned
+Get the exact formula from the static Killing vector: a photon conserves E = −p·ξ, and a static observer measures −p·u with u = ξ/√(1 − r_s/r), so the local frequency scales as 1/√(1 − r_s/r). Then test the weak-field limit on GPS. Use GM/c² ≈ 4.4 mm for Earth, R = 6371 km and r = 26,600 km. The result, ΔΦ/c² ≈ 5.3 × 10⁻¹⁰, adds up to about 45 μs per day.
+
+## Common Misconceptions
+- Light climbing out of a gravity well slows down, and that causes the redshift. (Every local observer measures light at c. The shift comes from the different rates of the emitter's and receiver's clocks.)
+- A clock low in a gravity well feels itself running slow. (Each clock ticks normally by local measurement. The slowing shows up only when clocks at different heights compare signals.)
+- The redshift depends on the strength of gravity g at the emitter. (It depends on the potential difference between emitter and receiver. In a uniform field this is gΔh, but in general it is an integral over the path.)
+- Measuring gravitational redshift tests Einstein's field equations. (It follows from the equivalence principle alone, so it tests that principle and not the field equations.)
+
 ## Questions
 
 ```yaml

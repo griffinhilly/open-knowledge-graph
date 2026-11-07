@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 A critical point (a, b) of f(x, y) satisfies ∇f(a, b) = 0 (or ∇f is undefined). Critical points are candidates for local maxima, local minima, or saddle points. Every continuous function on a closed bounded set attains its absolute maximum and minimum.
 
+## How It's Best Learned
+Classify the origin for a short list of functions and compare. x² + y² has D = 4, a minimum. x² − y² has D = −4, a saddle. x² + 3xy + y² has D = 4 − 9 = −5, a saddle despite f_xx, f_yy > 0. Then x⁴ + y⁴ and x⁴ − y⁴ both have D = 0. The first is a minimum and the second a saddle, which shows why D = 0 is inconclusive.
+
+## Common Misconceptions
+- If f_xx > 0 and f_yy > 0, the point is a local minimum. (The mixed partial can override them. For x² + 3xy + y², D = −5 and the origin is a saddle, since f = −x² along y = −x.)
+- D = 0 means the point is a saddle. (D = 0 settles nothing. At the origin, x⁴ + y⁴ has a minimum and x⁴ − y⁴ has a saddle, and both give D = 0.)
+- A continuous function attains a maximum and minimum on any region. (The guarantee requires a closed and bounded region. On the open disk x² + y² < 1, f = x has no maximum.)
+
 ## Questions
 
 ```yaml

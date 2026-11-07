@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Quantum supremacy (or advantage) refers to the ability of quantum computers to solve problems faster than the best-known classical algorithms, ideally exponentially faster. Computational complexity theory formalizes this: BQP is the class of problems solvable by quantum computers in polynomial time. Strong evidence suggests BQP is larger than P (polynomial-time classical), supporting quantum advantages. Google's 2019 quantum supremacy claim demonstrated sampling a distribution from a random quantum circuit faster than classical simulation. However, supremacy claims require careful benchmarking; advantage is problem-specific, often requires asymptotic advantages (large problem instances), and practical value depends on application relevance.
 
+## How It's Best Learned
+Sort claimed quantum speedups into three bins: proven in a black-box query model (Grover, Bernstein-Vazirani), conditional on an unproven hardness assumption (Shor, random circuit sampling), and heuristic with no proof (QAOA on most instances). For each item, write the one assumption a skeptic would attack. This shows what kind of evidence each supremacy argument rests on.
+
+## Common Misconceptions
+- Shor's algorithm proves that BQP is larger than P. (Nobody has proven that factoring is hard for classical computers, so the separation remains unproven.)
+- An oracle separation shows a quantum computer will be faster on real problems. (The separation holds relative to a black box. A real problem must supply that box as a circuit, and classical algorithms may then exploit its structure.)
+- Hardness results for exact sampling cover the noisy sampling real devices perform. (The proofs mainly address exact or near-exact sampling. Claims about noisy, low-fidelity experiments rest on further conjectures.)
+
 ## Questions
 
 ```yaml

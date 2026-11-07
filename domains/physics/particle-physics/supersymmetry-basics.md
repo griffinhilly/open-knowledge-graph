@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Supersymmetry (SUSY) is a symmetry relating bosons and fermions: every Standard Model particle has a superpartner with spin differing by 1/2. SUSY solves the hierarchy problem by cancelling the quadratic divergences in the Higgs mass, provides a dark matter candidate (the lightest supersymmetric particle), and enables gauge coupling unification. The minimal supersymmetric Standard Model (MSSM) doubles the particle content and introduces over 100 new parameters, making it a rich but complex framework.
 
+## How It's Best Learned
+Make a table pairing each Standard Model particle with its superpartner, listing spin and R-parity from R = (−1)^(3(B−L)+2s). Check that the electron gets +1 and the selectron −1. Then estimate the leftover Higgs correction after stop-top cancellation, roughly (3y_t²/8π²) m_stop² ln(Λ²/m_stop²), for 0.5 and 2 TeV stops with Λ ≈ 10¹⁶ GeV. Compare each with (125 GeV)² to see how fine-tuning grows.
+
+## Common Misconceptions
+- A superpartner is the same thing as an antiparticle. (An antiparticle has the same spin and opposite charges. A superpartner has the same charges and a spin that differs by 1/2.)
+- If supersymmetry were true, the selectron would weigh the same as the electron. (That holds only for unbroken supersymmetry. No such light scalar exists, so supersymmetry must be broken and the superpartners heavier.)
+- LHC null results have ruled out supersymmetry. (They exclude light gluinos, squarks, and stops in many simplified models. Heavier or compressed spectra remain allowed, though at the cost of more fine-tuning.)
+
 ## Questions
 
 ```yaml

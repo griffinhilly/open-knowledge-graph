@@ -21,6 +21,15 @@ status: draft
 ## Core Idea
 Interviewing for nonfiction requires preparation, active listening, follow-up questioning, and ethical responsibility. Writers develop techniques for drawing out authentic voice and significant detail, asking questions that deepen rather than direct answers, and transcribing or reconstructing dialogue while maintaining the truth of what was said.
 
+## How It's Best Learned
+Draft five questions for a practice interview, then rewrite each yes-no or leading question as an open, concrete one: "Tell me about the day you started" in place of "Was starting hard?" In the interview, wait a few seconds after each answer before speaking. Afterward, mark in the transcript which good material came from prepared questions and which came from follow-ups or pauses.
+
+## Common Misconceptions
+- A good interview sticks closely to the prepared question list. (Preparation makes informed questions possible, but strong material often comes from following up on what the subject raises.)
+- Leading questions save time by getting to the point. (A question that suggests its answer tends to return the interviewer's framing in place of the subject's own.)
+- Silence in an interview is awkward and should be filled quickly. (A pause after an answer often prompts the subject to say more.)
+- A quote reconstructed from notes can be polished as long as the gist stays. (Material presented as a direct quote should be as close to the actual words as possible. When unsure of the exact words, paraphrase.)
+
 ## Questions
 
 ```yaml
@@ -56,6 +65,7 @@ Interviewing for nonfiction requires preparation, active listening, follow-up qu
 
 - question: What techniques might help an interviewer draw out authentic voice and significant detail rather than surface-level responses?
   type: short-answer
+  answer: "Prepare enough to ask informed, specific questions; ask open questions about concrete moments; follow up on what emerges; and let silences sit so the subject elaborates. Being clear about who you are and how the material will be used builds the trust that draws out fuller answers."
   explanation: 'Preparation: research the subject so you can ask informed, specific questions. Open-ended questions: avoid yes-no questions that kill conversation. Follow-up: when something interesting emerges, pursue it rather than moving to the next prepared question. Silence: sometimes the most powerful interviewing technique is staying quiet. After the subject answers, silence often prompts them to elaborate. Specificity: ask about concrete moments and details, not abstractions. ''Tell me about a time you...'' works better than ''How do you generally...'' Active listening: genuinely engage with what''s being said. Let your natural curiosity guide follow-up questions. Building trust: explain who you are, why you''re interested, how the material will be used. Subjects reveal more to people they trust. Vulnerability: sometimes asking how something affected you, not just what happened, opens doors to deeper response.'
 ```
 

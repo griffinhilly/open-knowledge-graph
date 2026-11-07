@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 The Drude model treats conduction electrons as a classical ideal gas that undergoes collisions with a characteristic relaxation time tau, yielding the DC conductivity sigma = ne^2 tau / m and the Hall coefficient R_H = -1/ne. It correctly predicts Ohm's law and the Wiedemann-Franz ratio but fails for the electronic specific heat (predicting 3/2 k_B per electron, far too large). The Sommerfeld model corrects this by applying Fermi-Dirac statistics: at temperature T, only the fraction ~k_BT/E_F of electrons near the Fermi surface are thermally active, giving a specific heat C_el = (pi^2/2)(k_BT/E_F)(Nk_B) that is linear in T and much smaller than the classical prediction.
 
+## How It's Best Learned
+Put numbers in for copper. From n ≈ 8.5 × 10²⁸ m⁻³ and a room-temperature resistivity of 1.7 × 10⁻⁸ Ω·m, τ = m/(ne²ρ) gives about 2.5 × 10⁻¹⁴ s. Multiply by the classical thermal speed and you get a mean free path near 3 nm. With the Fermi velocity, about 1.6 × 10⁶ m/s, it is near 40 nm, many lattice spacings.
+
+## Common Misconceptions
+- Electrons in a metal scatter off every ion they pass. (A perfect periodic lattice does not scatter Bloch electrons; the collisions come from phonons, impurities and defects.)
+- Sommerfeld's model changes the conductivity formula σ = ne²τ/m. (The formula is unchanged for a free-electron gas; Sommerfeld changes which electrons respond and how fast they move, which changes the inferred mean free path.)
+- The current flows because electrons are pushed to high speeds by the field. (The drift velocity in an ordinary wire is far smaller than the Fermi velocity; the field only slightly shifts an already fast-moving electron distribution.)
+- All conduction electrons contribute to the heat capacity, each a little less than classically. (Most electrons cannot absorb heat at all; only those within about k_BT of E_F can, which is why C_el is linear in T.)
+
 ## Questions
 
 ```yaml

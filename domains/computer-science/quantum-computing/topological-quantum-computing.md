@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Topological quantum computing encodes quantum information in the global topological properties of exotic quasiparticles called non-abelian anyons, rather than in local properties of physical qubits. Quantum gates are performed by braiding anyons — exchanging their positions in spacetime along specified paths. Because the computation depends only on the topology of the braids (which paths cross over which) and not on exact positions or timing, it is inherently protected against local perturbations and noise. This topological protection provides fault tolerance at the physical level, potentially eliminating or greatly reducing the need for active quantum error correction.
 
+## How It's Best Learned
+Draw braids as world lines of three strands and check by sliding strands that σ1σ2σ1 = σ2σ1σ2, while σ1σ2 and σ2σ1 are different braids. Then take four Majorana modes encoding one qubit. Exchanging modes 1 and 2 acts as a diagonal phase gate; exchanging modes 2 and 3 is a quarter-turn rotation about X. Multiply the two matrices in both orders and confirm they do not commute.
+
+## Common Misconceptions
+- Topological protection makes the qubit error-free. (Errors are suppressed exponentially with anyon separation, but they are not zero. Stray anyon pairs created by heat, finite separations and imperfect measurements can still cause errors.)
+- Each anyon holds one qubit. (The information sits in the joint fusion channel of several anyons. For example, four Majorana modes together encode one qubit.)
+- Exchanging any 2D quasiparticles performs a quantum gate. (Exchanging abelian anyons multiplies the state by a phase. A gate needs non-abelian anyons, whose exchanges act as unitaries on a degenerate state space.)
+- Braiding Majorana modes is enough for universal quantum computation. (They behave as Ising anyons, whose braids give only Clifford operations. A non-topological step such as magic state injection is needed for the T gate.)
+
 ## Questions
 
 ```yaml

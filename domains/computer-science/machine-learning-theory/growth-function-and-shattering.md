@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 The growth function Pi_H(n) counts the maximum number of distinct labelings a hypothesis class H can induce on any set of n points. Since n points have 2^n possible labelings, the growth function satisfies Pi_H(n) <= 2^n. When Pi_H(n) = 2^n, the class shatters some set of n points. The Sauer-Shelah lemma provides the critical bridge: if the VC dimension is d, then Pi_H(n) <= sum_{i=0}^{d} C(n,i), which is O(n^d) — meaning the growth function transitions from exponential to polynomial at the VC dimension. This polynomial growth is what makes uniform convergence and PAC learning possible.
 
+## How It's Best Learned
+Do both halves of a VC proof for axis-aligned rectangles in the plane. Place four points in a diamond and find a rectangle for each of the 16 labelings. Then take any five points, mark the leftmost, rightmost, top and bottom ones positive and a remaining point negative: any rectangle holding the four holds the fifth. Finally, count labelings for thresholds on a line (n + 1) and compare with the Sauer-Shelah sum.
+
+## Common Misconceptions
+- VC dimension d means the class shatters every set of d points. (One shattered set of d points is enough. Half-planes shatter three points in general position but cannot shatter three collinear points.)
+- Finding one set of d + 1 points that the class fails to shatter proves the VC dimension is at most d. (The upper bound needs every set of d + 1 points to fail.)
+- The growth function counts the hypotheses in the class. (It counts distinct labelings of n points. Thresholds on a line form an infinite class, yet their growth function is n + 1.)
+
 ## Questions
 
 ```yaml

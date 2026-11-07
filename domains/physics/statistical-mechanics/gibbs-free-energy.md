@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Gibbs free energy G = H − TS = U + PV − TS is the natural thermodynamic potential at constant T and P. Equilibrium occurs at minimum G; phase transitions occur when Gibbs energies of competing phases are equal. It governs chemical reactions and phase behavior under constant pressure.
 
+## How It's Best Learned
+Sketch G against T at fixed pressure for ice and for liquid water. Each curve has slope −S, so the liquid curve falls more steeply and crosses the solid curve at T_m. Then set dG_solid = dG_liquid along the coexistence line using dG = V dP − S dT, derive dP/dT = ΔS/ΔV, and check why the melting line of ice tilts backward (ΔV < 0 on melting).
+
+## Common Misconceptions
+- An endothermic process cannot happen spontaneously. (If ΔS > 0, then above T = ΔH/ΔS the TΔS term outweighs ΔH and ΔG is negative.)
+- A negative ΔG means the process happens quickly. (ΔG gives the direction of change, not its rate. Diamond turning into graphite at room conditions has ΔG < 0 but is extremely slow because of a large activation barrier.)
+- A negative standard ΔG° means a reaction runs to completion under any conditions. (The actual ΔG = ΔG° + RT ln Q depends on the current amounts of reactants and products, and net change stops at equilibrium, where ΔG = 0.)
+
 ## Questions
 
 ```yaml

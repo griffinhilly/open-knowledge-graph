@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 CP violation -- the non-invariance of physical laws under the combined transformation of charge conjugation (C, swapping particle and antiparticle) and parity (P, mirror reflection) -- was discovered in 1964 in the neutral kaon system. In the Standard Model, CP violation arises from the complex phase in the CKM matrix. It is a necessary condition for generating the matter-antimatter asymmetry of the universe (one of the Sakharov conditions), though the amount of CP violation in the Standard Model appears insufficient to explain the observed asymmetry.
 
+## How It's Best Learned
+Apply C, P, and CP to a left-handed neutrino and note that only the CP image, a right-handed antineutrino, is observed. Then derive the condition for a direct CP asymmetry: write A = A₁e^{i(φ₁+δ₁)} + A₂e^{i(φ₂+δ₂)}, flip the weak phases φ for the antiparticle, and show |A|² − |Ā|² = −4A₁A₂ sin(φ₁ − φ₂) sin(δ₁ − δ₂).
+
+## Common Misconceptions
+- The CP violation we have measured explains why the universe is made of matter. (CP violation is one of the Sakharov conditions, but the amount from the CKM phase is far too small to produce the observed asymmetry.)
+- CP violation leaves time-reversal symmetry intact. (If CPT symmetry holds, CP violation implies an equal violation of T.)
+- Any CP-violating phase in a single decay amplitude produces a difference between particle and antiparticle decay rates. (A direct asymmetry in a decay rate needs at least two interfering amplitudes that differ in both their weak phase and their strong phase. In neutral-meson decays, mixing can supply the second path.)
+
 ## Questions
 
 ```yaml

@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 The no-cloning theorem states that no quantum operation can create an identical copy of an arbitrary unknown quantum state. Given an unknown state |psi>, there is no unitary U such that U(|psi>|0>) = |psi>|psi> for all |psi>. The proof follows directly from the linearity of quantum mechanics: cloning two different states leads to a contradiction with the superposition principle. No-cloning has profound consequences — it prevents simple redundancy-based error correction, makes quantum information fundamentally different from classical information, and is the basis for the security of quantum key distribution.
 
+## How It's Best Learned
+Test the obvious candidate copier, a CNOT with a blank |0> target. Check that it copies |0> and |1> correctly. Then feed it |+> = (|0> + |1>)/sqrt(2) and expand: the output is the entangled state (|00> + |11>)/sqrt(2), not |+>|+>. After this failure, the inner-product proof explains why every candidate copier fails on some pair of states.
+
+## Common Misconceptions
+- No quantum state can ever be copied. (A known state can be prepared as often as you like, and a device can copy states drawn from a fixed set of mutually orthogonal states. CNOT does this for |0> and |1>.)
+- A CNOT gate copies its control qubit onto the target. (It does so only for basis states. On a superposition it produces entanglement, not two independent copies.)
+- Quantum teleportation makes a copy of the state at the receiver. (The sender's original is destroyed by the measurement, so only one copy exists at any time.)
+- No-cloning rules out any copying, even rough copies. (Approximate cloning is allowed. The theorem forbids only perfect copies of arbitrary unknown states.)
+
 ## Questions
 
 ```yaml

@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Response functions relate observables to applied fields: susceptibility χ = ∂⟨m⟩/∂h connects magnetization to field in a magnetic system. By fluctuation-dissipation, χ relates to equilibrium magnetization fluctuations χ ∝ ⟨(ΔM)^2⟩. Compressibility κ_T, thermal expansion α, heat capacity C_P and C_V are all response functions derived from the free energy.
 
+## How It's Best Learned
+Do the single spin-½ paramagnet first. With Z = 2cosh(βμh), you get ⟨M⟩ = μ tanh(βμh), so χ at h = 0 is μ²/k_BT. At zero field ⟨M²⟩ = μ² and ⟨M⟩ = 0, so ⟨(ΔM)²⟩/k_BT gives the same Curie law. Then differentiate ln Z twice in β to get C_V = ⟨(ΔE)²⟩/k_BT², and check C_P − C_V = Nk_B for an ideal gas.
+
+## Common Misconceptions
+- A large susceptibility means the material is strongly magnetized. (χ is the slope of M against h. A ferromagnet just above T_c can have a huge χ while M is zero at zero field.)
+- C_P and C_V are the same for solids and liquids, so the distinction only matters for gases. (They differ by TVα²/κ_T. This is small for many condensed phases but nonzero, and it can be large for liquids near a critical point.)
+- A fluctuation formula such as C_V = ⟨(ΔE)²⟩/k_BT² holds in any ensemble. (It holds in the canonical ensemble, where energy exchanges with a bath. In the microcanonical ensemble the energy does not fluctuate, yet C_V is still finite.)
+
 ## Questions
 
 ```yaml
@@ -53,7 +61,7 @@ Response functions relate observables to applied fields: susceptibility χ = ∂
 - question: "Near a phase transition, mainly the response function directly associated with the order parameter (e.g., magnetic susceptibility for a ferromagnet) diverges; other response functions like heat capacity remain finite."
   type: true-false
   answer: false
-  explanation: "Near a phase transition, multiple response functions diverge together. The heat capacity C_V = ⟨(ΔE)²⟩/(k_BT²) also diverges because energy fluctuations grow anomalously large near the critical point. Because all response functions are second derivatives of the same free energy, their divergences are interrelated — described by distinct but coordinated critical exponents. The divergence of susceptibility, heat capacity, and correlation length near a critical point are simultaneous signatures of the same underlying physics."
+  explanation: "Near a phase transition, multiple response functions diverge together. The heat capacity C_V = ⟨(ΔE)²⟩/(k_BT²) is also singular, and in many systems diverges, because energy fluctuations grow anomalously large near the critical point. Because all response functions are second derivatives of the same free energy, their divergences are interrelated — described by distinct but coordinated critical exponents. The divergence of susceptibility, heat capacity, and correlation length near a critical point are simultaneous signatures of the same underlying physics."
 
 - question: "Explain why the fluctuation-dissipation theorem implies that a thermodynamically 'stiff' system — one that resists perturbation — is also one with small equilibrium fluctuations."
   type: short-answer
@@ -67,6 +75,6 @@ From linear response theory, you know that a system's reaction to a weak externa
 
 Start with the **magnetic susceptibility** χ = ∂⟨M⟩/∂h, the slope of the magnetization curve at zero applied field. This measures how easily the material magnetizes. From the partition function, ⟨M⟩ = k_BT ∂(ln Z)/∂h, and taking one more derivative gives χ = (1/k_BT) [⟨M²⟩ − ⟨M⟩²] = ⟨(ΔM)²⟩/(k_BT). This is the **fluctuation-dissipation** relation for susceptibility: the magnetic response equals the variance of the magnetization divided by thermal energy. A system that fluctuates strongly between different magnetization states (large ⟨(ΔM)²⟩) also responds strongly to applied fields. Near a ferromagnetic phase transition, fluctuations diverge, and so does χ — a hallmark of critical phenomena.
 
-The same logic applies to every conjugate pair in thermodynamics. The **isothermal compressibility** κ_T = −(1/V) ∂V/∂P|_T measures volume response to pressure and equals ⟨(ΔN)²⟩/(k_BT N²ρ) in the grand canonical ensemble — volume fluctuations encode compressibility. The **heat capacity** C_V = ∂⟨E⟩/∂T|_V = ⟨(ΔE)²⟩/(k_BT²) — energy fluctuations encode heat capacity. The **thermal expansion coefficient** α connects volume response to temperature. All of these are second derivatives of the appropriate thermodynamic potential (free energy F, Gibbs free energy G, grand potential Ω) with respect to their natural variables.
+The same logic applies to every conjugate pair in thermodynamics. The **isothermal compressibility** κ_T = −(1/V) ∂V/∂P|_T measures volume response to pressure and equals ⟨(ΔN)²⟩/(k_BT Nρ) in the grand canonical ensemble — particle-number fluctuations encode compressibility. The **heat capacity** C_V = ∂⟨E⟩/∂T|_V = ⟨(ΔE)²⟩/(k_BT²) — energy fluctuations encode heat capacity. The **thermal expansion coefficient** α connects volume response to temperature. All of these are second derivatives of the appropriate thermodynamic potential (free energy F, Gibbs free energy G, grand potential Ω) with respect to their natural variables.
 
 This systematic structure is powerful for two reasons. First, it means you can measure fluctuations (using scattering experiments, for instance) to determine response functions without ever applying a perturbation. Second, it means that near phase transitions, where fluctuations become anomalously large, all response functions diverge together in characteristic ways described by critical exponents. The interrelations between C_P and C_V (through the identity C_P − C_V = TVα²/κ_T) and between different susceptibilities are consequences of the underlying free energy structure, not independent results — they are all windows into the same thermodynamic potential.

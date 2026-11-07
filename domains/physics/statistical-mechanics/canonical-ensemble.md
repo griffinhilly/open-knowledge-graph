@@ -30,6 +30,14 @@ status: validated
 ## Core Idea
 The canonical ensemble describes a system in thermal contact with a heat bath at temperature T, with fixed N and V. Microstates have probabilities proportional to exp(−E/kT), where the Boltzmann factor exp(−E/kT) is the fundamental weight. This is the most commonly used ensemble in practice.
 
+## How It's Best Learned
+Derive the Boltzmann factor once from the reservoir: P_i ∝ Ω_R(E_tot − E_i), and expanding S_R = k ln Ω_R to first order gives exp(−E_i/kT). Then work a two-level system with energies 0 and ε. Z = 1 + e^(−ε/kT), so ⟨E⟩ = ε/(e^(ε/kT) + 1). Check both limits: ⟨E⟩ goes to 0 as T → 0 and to ε/2 as T → ∞.
+
+## Common Misconceptions
+- Because the ground state is the most probable microstate, a large system is most likely found near the ground-state energy. (The probability of an energy is the Boltzmann factor times the number of microstates at that energy. For a macroscopic system that product peaks sharply near ⟨E⟩, well above the ground state.)
+- The partition function is only a normalization constant. (Its logarithm gives the free energy F = −kT ln Z, and derivatives of ln Z give ⟨E⟩, entropy, pressure and heat capacity.)
+- The canonical and microcanonical ensembles give different thermodynamics for a large system. (Relative energy fluctuations in the canonical ensemble shrink as 1/√N. For large systems away from phase coexistence the two ensembles give the same results.)
+
 ## Questions
 
 ```yaml

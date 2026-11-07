@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 A singular n-simplex in a topological space X is any continuous map sigma : Delta^n -> X from the standard n-simplex into X. Unlike simplicial complexes, there is no requirement that sigma be injective or respect any combinatorial structure — it can crumple, fold, or wrap the simplex around X in any continuous way. The singular chain group C_n(X) is the free abelian group on ALL singular n-simplices, and the boundary operator uses the same alternating-face formula as simplicial homology. This gives a chain complex that works for any topological space, not just triangulable ones.
 
+## How It's Best Learned
+Compute boundaries of specific singular simplices. For n ≥ 1, a constant n-simplex has as boundary the constant (n-1)-simplex when n is even and 0 when n is odd. A loop γ, viewed as one 1-simplex with γ(0) = γ(1), has boundary 0. Then show that γ plus its reverse path is a boundary. Build a singular 2-simplex whose faces are γ, the reverse of γ and a constant path, and use the constant 2-simplex to absorb the constant term.
+
+## Common Misconceptions
+- A singular simplex is a subset of X, its image. (It is the map itself. Two different parametrizations of the same path are different generators of C_1(X).)
+- Singular simplices must be embedded, like simplices in a triangulation. (Any continuous map counts, including constant maps and maps that fold the simplex.)
+- The reverse of a path γ equals -γ in C_1(X). (They are different generators in the chain group. Their sum is a boundary, so the reverse path equals -γ only modulo boundaries.)
+
 ## Questions
 
 ```yaml

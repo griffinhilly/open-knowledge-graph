@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 The triple integral ∭_W f(x,y,z) dV gives signed volume or accumulates density. In Cartesian coordinates, dV = dx dy dz, and the integral becomes an iterated integral with three steps.
 
+## How It's Best Learned
+Compute one volume by stacking columns and another by stacking slices. Under z = 4 − x² − y² over the unit square, the z-integral leaves the height 4 − x² − y², and the double integral gives 4 − 1/3 − 1/3 = 10/3. For the cone with cross-sections x² + y² ≤ z², 0 ≤ z ≤ 2, the inner double integral is the disk area πz², and ∫_0^2 πz² dz = 8π/3.
+
+## Common Misconceptions
+- After the innermost integral I should have a number. (The result is a function of the outer variables, such as the height 4 − x² − y², which is then integrated over the base.)
+- ∭_W f dV is the volume under the graph of f. (The graph of f(x, y, z) would need four dimensions; read f as a density and the integral as a total amount, such as mass.)
+- z should always be the innermost variable. (When the solid is given by cross-sections at each height, integrating x and y first and z last is simpler, as with the cone.)
+
 ## Questions
 
 ```yaml

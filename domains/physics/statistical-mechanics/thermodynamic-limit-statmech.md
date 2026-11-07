@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 The thermodynamic limit (N → ∞, V → ∞, N/V constant) converts microscopic properties into well-defined macroscopic thermodynamics. In this limit, fluctuations become negligible relative to average values, and ensembles become equivalent; the free energy becomes extensive and permits phase transitions at critical points.
 
+## How It's Best Learned
+Compute the canonical energy spread of a monatomic ideal gas. With ⟨E⟩ = (3/2)Nk_BT and σ_E² = k_BT²C_V, you get σ_E/⟨E⟩ = √(2/3N): about 0.08 for N = 100 and 3 × 10⁻¹² for N = 10²³. Then plot the specific heat of 2D Ising lattices of side 8, 16 and 32. The rounded peak grows taller and narrower as the lattice grows.
+
+## Common Misconceptions
+- The thermodynamic limit means letting N grow in a fixed box. (N and V must grow together at fixed density. More particles in the same volume describe a denser and denser system.)
+- Every system becomes extensive once N is large. (With long-range forces such as gravity, the energy grows faster than N. Ensemble equivalence can then fail, and the microcanonical heat capacity can even be negative.)
+- In the limit, fluctuations are unimportant for every question. (Relative fluctuations of extensive quantities vanish away from critical points. Near a critical point the susceptibility, which measures order-parameter fluctuations per particle, diverges and these fluctuations control the physics.)
+
 ## Questions
 
 ```yaml

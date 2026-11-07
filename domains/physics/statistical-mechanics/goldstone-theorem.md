@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Goldstone's theorem states that every continuously broken symmetry produces a gapless (zero-energy) excitation mode. Breaking translational symmetry yields phonons; breaking spin symmetry yields magnons. These Goldstone bosons are the long-wavelength fluctuations of the broken order parameter and appear at all temperatures below the transition.
 
+## How It's Best Learned
+Draw the "Mexican hat" free energy for a two-component order parameter ψ = |ψ|e^(iθ). Expand about one point on the circle of minima: changing |ψ| climbs the wall and costs energy even at k = 0, while changing θ moves along the flat rim, so only the gradient term (∇θ)² costs energy, giving an energy that vanishes as k → 0. Repeat with the Ising double well, which has no flat direction.
+
+## Common Misconceptions
+- Any broken symmetry gives a gapless mode, including the up-down symmetry of an Ising magnet. (The theorem needs a continuous symmetry. Discrete broken symmetries give gapped excitations such as domain walls.)
+- Gapless means the excitation costs zero energy. (The energy goes to zero as the wavevector goes to zero. A Goldstone mode with finite wavelength still costs finite energy.)
+- The number of Goldstone modes always equals the number of broken generators. (A Heisenberg ferromagnet breaks two rotation generators but has one magnon branch with ω ∝ k². An antiferromagnet with the same broken generators has two branches with ω ∝ k.)
+- A superconductor breaks a continuous phase symmetry, so it must have a gapless Goldstone mode. (The phase couples to the electromagnetic field. The would-be Goldstone mode is absorbed and the field acquires a gap, the Anderson-Higgs mechanism.)
+
 ## Questions
 
 ```yaml
@@ -59,7 +68,7 @@ Goldstone's theorem states that every continuously broken symmetry produces a ga
 - question: "Explain why an Ising ferromagnet (discrete Z₂ symmetry) has no Goldstone modes while a Heisenberg ferromagnet (continuous SO(3) symmetry) does. What is the physical reason for the difference?"
   type: short-answer
   answer: "In the Heisenberg ferromagnet, continuous rotational symmetry is broken: you can smoothly interpolate between ground states by slowly rotating the magnetization direction. A long-wavelength twist of the order parameter costs energy proportional to k², which goes to zero as k → 0 — producing gapless magnon modes. In the Ising ferromagnet, the broken symmetry is discrete: spins are either up or down, with no continuous interpolation between them. You cannot create a smooth long-wavelength deformation; to change a spin you must flip it discretely, which always costs a finite energy. No gapless modes result."
-  explanation: "The physical essence of Goldstone's theorem is the ability to 'slide' between degenerate ground states continuously, generating long-wavelength, low-cost deformations of the order parameter. Continuous symmetry makes this possible; discrete symmetry does not. This is why the theorem's statement specifies 'continuous symmetry' — it is not a technical restriction but the physical heart of the argument. The counting rule — one Goldstone mode per broken continuous symmetry generator — follows directly from this logic: each independent direction in which you can continuously deform the order parameter produces one gapless mode."
+  explanation: "The physical essence of Goldstone's theorem is the ability to 'slide' between degenerate ground states continuously, generating long-wavelength, low-cost deformations of the order parameter. Continuous symmetry makes this possible; discrete symmetry does not. This is why the theorem's statement specifies 'continuous symmetry' — it is not a technical restriction but the physical heart of the argument. Each independent direction in which you can continuously deform the order parameter gives a gapless deformation. In Lorentz-invariant systems this yields one Goldstone mode per broken generator; in a ferromagnet two broken generators combine into a single magnon branch."
 ```
 
 ## Explainer
@@ -70,4 +79,4 @@ The intuition comes from thinking about the symmetry the ground state broke. If 
 
 Contrast this with a discrete symmetry breaking, such as an Ising magnet where spins are either up or down. There, the broken symmetry is discrete — you cannot continuously rotate between the two ground states. No Goldstone theorem applies, and excitations typically have an energy gap. The theorem is specifically about **continuous** symmetries because only there can you continuously interpolate between ground states, generating the smooth long-wavelength deformations that become gapless modes.
 
-**Phonons** are the canonical example in a crystal. A crystal breaks continuous translational symmetry: the atoms settle into a lattice that picks specific positions. Long-wavelength sound waves — coherent slow displacements of the lattice — are the corresponding Goldstone modes. Their dispersion relation ω ∝ k vanishes as k → 0, confirming the gapless character. In general, the number of Goldstone bosons equals the number of broken continuous symmetry generators, a counting rule that gives a powerful handle on the low-energy physics of any ordered phase without solving the full microscopic problem.
+**Phonons** are the canonical example in a crystal. A crystal breaks continuous translational symmetry: the atoms settle into a lattice that picks specific positions. Long-wavelength sound waves — coherent slow displacements of the lattice — are the corresponding Goldstone modes. Their dispersion relation ω ∝ k vanishes as k → 0, confirming the gapless character. In Lorentz-invariant systems, and in many ordered phases such as antiferromagnets, the number of Goldstone bosons equals the number of broken continuous symmetry generators. Ferromagnets are an exception: two broken generators give a single magnon branch with ω ∝ k². Counting broken generators still gives a powerful handle on the low-energy physics of an ordered phase without solving the full microscopic problem.

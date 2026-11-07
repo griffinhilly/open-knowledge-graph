@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 A first-order linear ODE has the form dy/dx + P(x)y = Q(x). The general solution is y = c·e^(-∫P(x)dx) + e^(-∫P(x)dx)∫Q(x)e^(∫P(x)dx)dx, consisting of a homogeneous part and a particular solution. These equations are fundamental throughout applied mathematics and physics, modeling everything from radioactive decay to chemical reactions.
 
+## How It's Best Learned
+After a constant-coefficient case like dy/dx + 2y = 4, work one with variable P(x): xy' + 2y = x² for x > 0. Divide by x to get y' + (2/x)y = x, use μ = x², and integrate (x²y)' = x³ to reach y = x²/4 + C/x². Substitute back to check. Then label each piece as homogeneous or particular.
+
+## Common Misconceptions
+- You can read P(x) off the equation as written. (P(x) is the coefficient of y only after the equation is in the form y' + P(x)y = Q(x); in xy' + 2y = x², P(x) is 2/x, not 2.)
+- Linear means P(x) and Q(x) must be linear functions of x. (Linear refers to y and y'; P and Q can be any functions of x, such as eˣ or sin x.)
+- The particular solution is unique. (Any one solution of the full equation can serve as y_p; different choices differ by a homogeneous solution, which the constant C absorbs.)
+
 ## Questions
 
 ```yaml
@@ -47,15 +55,15 @@ A first-order linear ODE has the form dy/dx + P(x)y = Q(x). The general solution
   answer: 2
   explanation: "Linearity — y and dy/dx appearing only to the first power, with no y², sin(y), or (dy/dx)³ terms — is the structural property that makes the integrating factor trick work. It guarantees that the solution space has the additive structure that allows homogeneous and particular solutions to be combined. Nonlinear first-order ODEs do not generally admit this clean decomposition and cannot be solved by integrating factors."
 
-- question: "For the equation dy/dx + P(x)y = Q(x) with P(x) > 0, the homogeneous solution always decays to zero as x → ∞."
+- question: "For the equation dy/dx + P(x)y = Q(x) with P(x) ≥ k for some constant k > 0, the homogeneous solution always decays to zero as x → ∞."
   type: true-false
   answer: true
-  explanation: "The homogeneous solution is y_h = Ce^(−∫P(x)dx). When P(x) > 0, the integral ∫P(x)dx grows without bound as x → ∞, so e^(−∫P(x)dx) → 0. This is why the homogeneous part is called a 'transient' in applied contexts — it represents the system's natural response to initial conditions, which eventually dies away, leaving only the particular solution (the forced steady state)."
+  explanation: "The homogeneous solution is y_h = Ce^(−∫P(x)dx). When P(x) ≥ k > 0, the integral ∫P(x)dx grows without bound as x → ∞, so e^(−∫P(x)dx) → 0. This is why the homogeneous part is called a 'transient' in applied contexts — it represents the system's natural response to initial conditions, which eventually dies away, leaving only the particular solution (the forced steady state)."
 
 - question: "In the general solution y = y_h + y_p of a first-order linear ODE, y_h captures the steady-state behavior the system approaches, while y_p represents the transient that dies away over time."
   type: true-false
   answer: false
-  explanation: "This is reversed. The homogeneous solution y_h is the transient — it decays to zero (when P(x) > 0) and represents what the system does when left to its own natural dynamics from initial conditions. The particular solution y_p is the steady state — the system's persistent response to the forcing term Q(x). In the example dy/dx + 2y = 4, the solution y = 2 + Ce^(−2x) has transient Ce^(−2x) (homogeneous) and steady state y = 2 (particular)."
+  explanation: "This is reversed. The homogeneous solution y_h is the transient — it decays to zero (when P(x) stays above a positive constant) and represents what the system does when left to its own natural dynamics from initial conditions. The particular solution y_p is the steady state — the system's persistent response to the forcing term Q(x). In the example dy/dx + 2y = 4, the solution y = 2 + Ce^(−2x) has transient Ce^(−2x) (homogeneous) and steady state y = 2 (particular)."
 
 - question: "Explain why the solution to a first-order linear ODE dy/dx + P(x)y = Q(x) splits into a homogeneous part and a particular solution. What does each part represent physically or dynamically?"
   type: short-answer

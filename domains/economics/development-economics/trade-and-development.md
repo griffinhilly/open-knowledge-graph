@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Trade enables specialization, allows countries to import capital goods, and creates access to larger markets. Technology spillovers from trade partners accelerate learning. However, adjustment costs are steep for workers in displaced industries; institutions matter—weak governance and poor education limit benefits. Import substitution (protecting infant industries) can be justified but requires sunset clauses and productivity discipline.
 
+## How It's Best Learned
+Count winners and losers from cheaper imported shirts. One million consumers each save 2, a gain of 2 million. One thousand garment workers each lose 1,000 in earnings, a loss of 1 million. The net gain is 1 million, but each loser loses 500 times what each winner gains. Use the example to explain both the gains from trade and the resistance to opening.
+
+## Common Misconceptions
+- Free trade benefits everyone. (The gains exist in aggregate, but workers in import-competing industries can bear large, lasting losses.)
+- A country must be the cheapest producer of a good to gain from trade. (Comparative advantage is enough. A country gains by specializing where its opportunity cost is lowest.)
+- Comparative advantage is fixed by a country's current endowments. (It can shift as a country builds skills, capital, and production experience.)
+- East Asia's growth proves that pure free trade works. (Korea and Taiwan combined export orientation with selective protection and subsidies.)
+
 ## Questions
 
 ```yaml

@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Inequality is both a feature of development (Kuznets curve: inequality rises then falls) and a potential obstacle. High inequality may reduce growth, limit social cohesion, or reduce human capital investment by the poor. Developing countries have highly unequal distributions of wealth and income, reflecting historical inequities, weak institutions, and unequal access to education and credit.
 
+## How It's Best Learned
+Work a credit-constraint example with no borrowing. Schooling costs 50 and pays back well later. In Country A, every household holds 60, so all invest. In Country B, half hold 20 and half hold 100, so only half invest. Both have average wealth 60. The example shows how the spread of wealth, beyond its average, sets how much an economy invests.
+
+## Common Misconceptions
+- Inequality is a fairness issue with no effect on growth. (When credit markets are imperfect, poor households cannot fund high-return investments, so inequality can lower total output.)
+- Developing countries are unequal because they are poor. (Countries at similar incomes differ widely. Latin America has long been more unequal than the fast-growing East Asian economies.)
+- The Kuznets curve guarantees that inequality will fall as a country grows. (The inverted-U is a hypothesis with mixed evidence, and many countries have not followed it.)
+- Income inequality and wealth inequality are the same thing. (Wealth, such as land, is usually more concentrated than income, and land distribution shaped later development paths.)
+
 ## Questions
 
 ```yaml
@@ -70,4 +79,4 @@ The most influential framework for thinking about inequality and development is 
 
 The deeper question is whether inequality is merely a byproduct of development or an active obstacle to it. Several channels suggest it can be harmful. When credit markets are imperfect — as they almost always are in developing countries — poor households cannot borrow to invest in education or start businesses, even when the returns would be high. **Credit constraints** mean that the distribution of wealth, not just its total level, determines how much human capital an economy accumulates. A country with the same average income but higher inequality will underinvest in the education of its poorest citizens, wasting potential. High inequality also concentrates political power, allowing elites to shape institutions — tax policy, land law, regulation — in ways that protect their position rather than promote broad-based growth.
 
-Measuring inequality requires tools like the **Gini coefficient**, which ranges from 0 (perfect equality) to 1 (one person holds everything). Latin American countries like Brazil and South Africa consistently show Gini coefficients above 0.50, reflecting legacies of colonialism, slavery, and concentrated land ownership. East Asian economies that grew rapidly — South Korea, Taiwan — began their growth periods with relatively low inequality, partly because of land reforms that redistributed agricultural wealth before industrialization. This comparison suggests that initial conditions matter: high inequality at the start of development may lock in political and economic structures that make broad-based growth harder to achieve. Addressing inequality is therefore not just a matter of fairness after growth occurs, but potentially a precondition for sustained growth itself.
+Measuring inequality requires tools like the **Gini coefficient**, which ranges from 0 (perfect equality) to 1 (one person holds everything). Countries like Brazil and South Africa consistently show Gini coefficients above 0.50, reflecting legacies of colonialism, slavery, and concentrated land ownership. East Asian economies that grew rapidly — South Korea, Taiwan — began their growth periods with relatively low inequality, partly because of land reforms that redistributed agricultural wealth before industrialization. This comparison suggests that initial conditions matter: high inequality at the start of development may lock in political and economic structures that make broad-based growth harder to achieve. Addressing inequality is therefore not just a matter of fairness after growth occurs, but potentially a precondition for sustained growth itself.

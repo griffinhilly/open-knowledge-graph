@@ -28,6 +28,14 @@ status: validated
 ## Core Idea
 The projective dimension of a module M measures how far M is from being projective, via the minimum length of a projective resolution. The global dimension of a ring R is the supremum of projective dimensions of all modules. Serre's theorem -- that a Noetherian local ring is regular if and only if it has finite global dimension -- was the first major application of homological algebra to commutative algebra, and the Auslander-Buchsbaum formula pd(M) + depth(M) = depth(R) connects projective dimension to the concrete notion of regular sequences.
 
+## How It's Best Learned
+Write out two resolutions of a residue field and compare them. Over R = k[x, y], the Koszul complex 0 → R → R² → R → k → 0 with maps (-y, x) and (x, y) has length 2. Check exactness in the middle by hand. Over k[x]/(x²), the resolution ··· → R →^{x} R →^{x} R → k → 0 never stops, matching the fact that this ring is not regular.
+
+## Common Misconceptions
+- Bigger modules have bigger projective dimension. (Projective dimension measures distance from projective, not size. The free module ℤ¹⁰⁰ has projective dimension 0, while ℤ/2ℤ has projective dimension 1.)
+- Every finitely generated module over a Noetherian local ring has finite projective dimension. (Over k[x]/(x²), the residue field has an infinite minimal resolution. Serre's theorem says this happens exactly when the ring is not regular.)
+- The Auslander-Buchsbaum formula applies to every finitely generated module. (It needs pd(M) < ∞. For the residue field of k[x]/(x²), the projective dimension is infinite, so the formula says nothing.)
+
 ## Questions
 
 ```yaml

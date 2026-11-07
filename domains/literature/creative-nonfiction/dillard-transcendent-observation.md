@@ -24,6 +24,14 @@ status: draft
 ## Core Idea
 Dillard merges precise scientific observation with mystical or spiritual reflection. Her practice of beginning with acute attention to a natural detail and spiraling into broader philosophical questioning demonstrates that nature writing can honor empirical detail while pursuing transcendent experience and meaning.
 
+## How It's Best Learned
+Read the giant water bug passage in the first chapter of Pilgrim at Tinker Creek and mark the sentence where exact description turns into questioning. Then observe one small natural thing for fifteen minutes and write only what you see. Afterward, add a paragraph of questions that grow directly from specific details in your notes, and cut any question that could have been written without looking.
+
+## Common Misconceptions
+- Spiritual nature writing trades accuracy for feeling. (Dillard's reflections start from exact, often scientifically informed observation, and the reflection depends on that precision.)
+- Transcendence in her work is added on top of the description. (The larger questions grow out of sustained attention to a particular detail.)
+- Dillard writes about a gentle, comforting nature. (Her observations include violence, waste, and predation, and these raise some of her hardest questions.)
+
 ## Questions
 
 ```yaml
@@ -59,6 +67,7 @@ Dillard merges precise scientific observation with mystical or spiritual reflect
 
 - question: How does Dillard's method challenge the assumption that scientific accuracy and spiritual meaning are incompatible in nature writing?
   type: short-answer
+  answer: "Dillard begins with the most careful observation she can, seeing exactly what is there, and lets that attention open into wonder and spiritual questioning. Her work shows that meaning can come through accurate detail, so the writer does not have to give up empirical precision to reach transcendence."
   explanation: 'The assumption is that you must choose: either accurate scientific description (which is objective and mechanical) or spiritual interpretation (which is subjective and transcendent). Dillard shows that this is a false choice. By beginning with the most careful scientific observation possible—seeing exactly what is there—and allowing that attention to open into wonder, she demonstrates that transcendence doesn''t require abandoning empiricism. Instead, sufficient empirical attention becomes transcendent. Her work suggests that the spiritual and the scientific are not enemies but partners. The closer you look at actual nature, the more mystery you find. Transcendence doesn''t come despite the facts; it comes through them.'
 ```
 

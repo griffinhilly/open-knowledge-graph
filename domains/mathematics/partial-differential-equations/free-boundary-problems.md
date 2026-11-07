@@ -19,6 +19,14 @@ status: validated
 ## Core Idea
 In a free boundary problem, the domain on which the PDE holds is not given in advance but is itself part of the unknown, determined simultaneously with the solution. The classic examples are the obstacle problem (find u ≥ ψ minimizing ∫|∇u|²dx, where the contact set {u = ψ} has an unknown boundary) and the Stefan problem (modeling ice-water phase transitions, where the interface between phases moves according to the heat flux jump). The mathematical challenge is that the PDE holds only on an unknown region, and the free boundary must satisfy additional conditions coupling it to the solution.
 
+## How It's Best Learned
+Solve a one-dimensional obstacle problem exactly. Minimize ∫u'² over [−1, 1] with u(±1) = 0 and u ≥ ψ = ½ − x². Off the contact set u is linear and meets ψ tangentially. Matching slopes at x = a gives a² − 2a + ½ = 0, so a = 1 − 1/√2. Then note that u'' jumps from −2 to 0 at a, so u is C^{1,1} but not C².
+
+## Common Misconceptions
+- The solution is as smooth across the free boundary as the obstacle. (For a smooth obstacle the solution is typically C^{1,1} and no better. Its second derivatives jump at the free boundary, as the one-dimensional example shows.)
+- One boundary condition on the free boundary is enough, as on a fixed boundary. (An unknown boundary needs an extra condition to locate it. In the obstacle problem both u = ψ and ∇u = ∇ψ hold there.)
+- The free boundary is a smooth surface everywhere. (It is C^{1,α} near regular points, but singular points where the contact set degenerates can occur.)
+
 ## Questions
 ```yaml
 - question: "In the obstacle problem, the free boundary is:"

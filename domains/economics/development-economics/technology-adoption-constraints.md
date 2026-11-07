@@ -20,6 +20,15 @@ status: validated
 ## Core Idea
 Developing countries have access to superior technologies invented in wealthy countries yet adoption is slow. Constraints include credit for purchase, complementary skill gaps, risk aversion, and incomplete benefit information. Behavioral experiments show demonstrations and subsidies accelerate adoption (chlorine for water, improved seeds), but sustained behavior change requires ongoing support and complementary investments.
 
+## How It's Best Learned
+Work a risk example at subsistence. The old seed yields 100 for sure. The new seed yields 200 with a 70% chance and 40 with a 30% chance, an expected 152. A farmer who needs 80 to eat faces a 30% chance of going hungry. Planting the new seed on a quarter of the plot yields 125 or 85, both above 80.
+
+## Common Misconceptions
+- Farmers who do not adopt better seeds are bound by tradition. (Credit limits, downside risk, and doubt about local results explain much of slow adoption.)
+- A rational farmer adopts any technology with a higher expected return. (Near subsistence, a bad harvest can mean hunger, so the risk of a low outcome can outweigh a higher average.)
+- Telling farmers about a technology is enough. (Information helps most when it shows results under local conditions, and credit and inputs must also be in place.)
+- A one-time subsidy produces lasting adoption. (Without input supply, extension, and roads, adoption can collapse when the subsidy ends.)
+
 ## Questions
 
 ```yaml

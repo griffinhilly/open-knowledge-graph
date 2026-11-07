@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Land cover describes the physical material on the surface (forest, water, impervious surface, bare soil), while land use describes the human purpose (residential, agricultural, industrial, recreational). Remote sensing directly observes land cover through spectral, spatial, and temporal characteristics; land use must be inferred from land cover patterns, ancillary data, and contextual information. LULC mapping is one of the most important applications of remote sensing, providing essential data for urban planning, environmental monitoring, climate modeling, biodiversity assessment, and food security. Global LULC products (GlobeLand30, ESA WorldCover, Dynamic World) now provide annual or near-real-time maps at 10-30 meter resolution.
 
+## How It's Best Learned
+Pick ten places you know, such as a park, a cemetery, a farm and a parking lot. Give each one a land cover label and a land use label, and note where one cover serves several uses. Then open ESA WorldCover and Dynamic World over the same area. Find where they disagree, and decide whether the cause is class definitions, date or resolution.
+
+## Common Misconceptions
+- Land cover and land use are two names for the same thing. (Cover is the physical surface, such as grass. Use is the human purpose, such as a golf course or pasture, and must be inferred.)
+- Counting the pixels in each map class gives the true area of that class. (Classification errors bias pixel counts. Area is better estimated from a reference sample and the confusion matrix, with confidence intervals.)
+- Two global land cover products should agree because they map the same surface. (They differ in class definitions, input dates, resolution and methods, so their maps and area totals can differ a lot.)
+
 ## Questions
 
 ```yaml

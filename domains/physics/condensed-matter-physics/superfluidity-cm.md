@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Superfluidity is a macroscopic quantum state in which a fluid flows without viscosity. Helium-4 becomes superfluid below T_lambda = 2.17 K, exhibiting zero viscosity, quantized vortices (circulation = nh/m_4), a two-fluid behavior (superfluid and normal components), and a linear phonon-roton excitation spectrum. The Landau criterion states that superfluidity persists as long as the flow velocity is below a critical velocity v_c = min(epsilon(p)/p) set by the excitation spectrum. Superfluidity is intimately connected to Bose-Einstein condensation, though not identical: in liquid helium-4, only ~8% of atoms are in the condensate at T = 0 due to strong interactions, yet the superfluid fraction is 100%.
 
+## How It's Best Learned
+Apply the Landau criterion graphically to the measured helium-4 dispersion. Draw lines from the origin that touch the curve. The phonon branch gives a slope near the sound speed, about 240 m/s, while the tangent to the roton minimum gives about 58 m/s, which sets v_c. Repeat for the ideal-gas curve p²/2m and see that no line with positive slope stays below it.
+
+## Common Misconceptions
+- The superfluid fraction is the fraction of atoms in the condensate. (In helium-4 at T = 0 the condensate is about 8% of the atoms, but the whole liquid is superfluid.)
+- With zero viscosity, an object moves through a superfluid without drag at any speed. (Above a critical velocity the flow creates excitations or vortices, and in practice vortex creation often sets a critical velocity far below the Landau value.)
+- A superfluid in a rotating bucket stays still or rotates as a smooth solid body. (It forms an array of quantized vortices, whose density lets it mimic solid-body rotation on average.)
+
 ## Questions
 
 ```yaml

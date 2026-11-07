@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 Biogeochemistry studies the cycling of elements (C, N, P, S, Fe, Mn) through the coupled biological, geological, and chemical processes that link the lithosphere, hydrosphere, atmosphere, and biosphere. Microorganisms are the primary engines: they catalyze thermodynamically favorable redox reactions that would be kinetically inhibited without enzymatic mediation, driving nutrient transformations that control ecosystem productivity, atmospheric composition, and water quality. The major biogeochemical cycles -- carbon, nitrogen, phosphorus, sulfur, and iron -- are interconnected through stoichiometric coupling (Redfield ratios in marine systems: C:N:P = 106:16:1), redox linkages, and microbial metabolic networks. Understanding these cycles is essential for predicting climate feedbacks, managing water quality, and interpreting the geological record of life-environment co-evolution.
 
+## How It's Best Learned
+Draw the redox ladder of electron acceptors used to oxidize organic matter: O2, nitrate, Mn(IV), Fe(III), sulfate, then CO2 in methanogenesis. Then match each rung to a zone in a sediment porewater depth profile. Next, use the Redfield ratio as a test. A water with 32 units of nitrate per unit of phosphate has N:P twice 16:1, so phosphorus runs out first.
+
+## Common Misconceptions
+- Microbes make reactions happen that chemistry would forbid. (Microbes that gain energy from a reaction only speed up one that is already thermodynamically favorable. An unfavorable step, such as fixing CO2 into sugar, runs only when coupled to an energy source like light or another reaction.)
+- Nitrogen limits growth because there is little nitrogen on Earth. (N2 is the main gas in the atmosphere. The limit is fixed, bioavailable nitrogen, because breaking the N2 bond costs organisms a lot of energy.)
+- Phosphorus has no redox valence change, so redox does not affect its cycle. (Phosphate stays in the same oxidation state, but much of it binds to iron oxyhydroxides. When those dissolve under anoxic conditions, phosphate is released from sediments.)
+- Most of the carbon fixed by photosynthesis ends up buried. (Most is respired back to CO2 within the fast cycle. Only a small fraction escapes into sediments.)
+
 ## Questions
 
 ```yaml

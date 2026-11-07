@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 Isotope hydrology uses the natural variations in water isotopes (delta-18O, delta-D) and dissolved solute isotopes (tritium, 14C, 36Cl, 87Sr/86Sr, delta-34S, delta-15N) to trace water sources, determine groundwater recharge conditions, estimate residence times, and track mixing and contamination. The Global Meteoric Water Line (delta-D = 8*delta-18O + 10) provides the baseline against which all water sources are compared. Local meteoric water lines may differ in slope and intercept, reflecting regional climate. Groundwater isotopes preserve the climatic conditions at the time of recharge (paleo-recharge from glacial periods has distinctly lighter isotopic signatures), while radioactive tracers (tritium, 14C) provide residence time estimates ranging from decades (tritium) to tens of thousands of years (14C). These tools are essential for water resource management, contaminant tracking, and understanding groundwater-surface water interactions.
 
+## How It's Best Learned
+Do a two-component hydrograph separation with delta-18O. If storm rain is -12 per mil, pre-storm groundwater is -8, and the stream is -9, the rain fraction is (-9 + 8)/(-12 + 8) = 0.25. Check it: 0.25 x -12 + 0.75 x -8 = -9. Then build a chart of age tracers against the time range each can cover.
+
+## Common Misconceptions
+- A groundwater age is the age of all the water in the sample. (A sample mixes water of many ages. A tracer gives an apparent age that depends on the tracer and on how the water mixed.)
+- Storm runoff is mostly the rain that just fell. (Isotope hydrograph separations in many catchments show that much of the storm flow is older water already stored in the soil and aquifer.)
+- Groundwater with no tritium is very old. (No tritium shows only that recharge came before atmospheric bomb testing began in the early 1950s. The water could be a century old or many millennia old, and another tracer such as 14C is needed.)
+- The 14C content of groundwater DIC can be converted straight to an age. (Dissolution of old carbonate dilutes the starting 14C, so an uncorrected age comes out too old.)
+
 ## Questions
 
 ```yaml

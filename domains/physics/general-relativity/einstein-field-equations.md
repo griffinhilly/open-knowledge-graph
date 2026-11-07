@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 The Einstein field equations G_μν + Λg_μν = (8πG/c⁴) T_μν are the fundamental dynamical equations of general relativity, relating the curvature of spacetime (left side) to the distribution of matter and energy (right side). The Einstein tensor G_μν = R_μν - (1/2)g_μν R encodes the curvature, T_μν is the stress-energy tensor of matter and radiation, Λ is the cosmological constant, and 8πG/c⁴ is the coupling constant fixed by requiring consistency with Newtonian gravity in the weak-field limit. These are 10 coupled, nonlinear, second-order partial differential equations for the metric tensor g_μν. They embody Wheeler's summary: "Spacetime tells matter how to move; matter tells spacetime how to curve." The contracted Bianchi identity ∇^μ G_μν = 0 ensures automatic consistency with local energy-momentum conservation ∇^μ T_μν = 0.
 
+## How It's Best Learned
+Work the Newtonian limit by hand using the trace-reversed form R_μν = (8πG/c⁴)(T_μν − ½Tg_μν). For static dust, T_00 = ρc² and T = −ρc², so the right side of the 00 equation is 4πGρ/c². With g_00 = −(1 + 2Φ/c²), R_00 ≈ ∇²Φ/c², and Poisson's equation drops out. Next, take the trace to show that vacuum means R_μν = 0.
+
+## Common Misconceptions
+- Where there is no matter, T_μν = 0, so spacetime is flat. (Vacuum gives R_μν = 0, but the Riemann tensor can still be nonzero, as outside the Sun or in a gravitational wave.)
+- Only mass density acts as a source of gravity. (Every component of T_μν enters, including pressure, stress and momentum flux. Pressure appears in the combination ρ + 3p/c².)
+- The equations fix the whole curvature tensor at each point from the local matter. (They fix only the Ricci part. The rest, the Weyl curvature, depends on distant sources and boundary conditions.)
+- ∇^μ T_μν = 0 means the total energy of the universe is conserved. (It is a local statement. In a general spacetime, such as an expanding universe, there is no globally conserved total energy.)
+
 ## Questions
 
 ```yaml

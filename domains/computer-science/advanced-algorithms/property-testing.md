@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Property testing asks whether an input has a specific property or is "far" from having it, using a number of queries sublinear in the input size. An input is epsilon-far from a property if more than an epsilon fraction of the input must change to satisfy the property. A property tester must accept inputs with the property (with probability >= 2/3) and reject inputs that are epsilon-far (with probability >= 2/3). Blum, Luby, and Rubinfeld initiated the field with a tester for linearity of Boolean functions using O(1/epsilon) queries. Goldreich, Goldwasser, and Ron showed that many graph properties (bipartiteness, k-colorability, having a large clique) are testable in the dense graph model with query complexity depending only on epsilon, independent of graph size. The field reveals a fundamental classification of properties by their query complexity.
 
+## How It's Best Learned
+Write out the truth table of a function on three bits that differs from a linear function in one position. Compute its distance to the nearest linear function, then count by hand the fraction of (x, y) pairs that fail the BLR check. Next, test bipartiteness in the dense model on a small graph: sample a few vertices, look at the induced subgraph, and see why an epsilon-far graph tends to show an odd cycle.
+
+## Common Misconceptions
+- A property tester decides whether the input has the property. (It only separates inputs with the property from inputs that are epsilon-far from it. Inputs that are close but do not have the property can be accepted or rejected.)
+- Query complexity independent of n means the tester is practical. (Some constant bounds, such as those from the regularity lemma, are tower-sized in 1/epsilon.)
+- The same property has the same query complexity in every graph model. (Bipartiteness needs poly(1/epsilon) queries in the dense model but about sqrt(n) queries in the bounded-degree model, because each query reveals different information.)
+- Being epsilon-far depends only on the input. (It also depends on the distance measure, which is set by the model, such as a fraction of n^2 matrix entries in the dense model or of dn edge slots in the bounded-degree model.)
+
 ## Questions
 
 ```yaml

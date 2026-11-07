@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 For regular singular points where (x-x₀)p and (x-x₀)²q are analytic in y'' + p(x)y' + q(x)y = 0, the Frobenius method seeks y = (x-x₀)^r Σ aₙ(x-x₀)^n. Substituting yields an indicial equation for r and a recurrence relation for coefficients. Two independent solutions typically arise from different indicial roots. This method extends power series to a broader class of important equations.
 
+## How It's Best Learned
+Start from a Cauchy-Euler equation, where the Frobenius series is a single term xʳ, then move to 2xy'' + y' + y = 0. Substituting y = Σ aₙxⁿ⁺ʳ, the lowest power x^(r−1) gives a₀ r(2r − 1) = 0, so r = 0 or 1/2. Their difference is not an integer, so each root gives its own series. Compute the first three coefficients for each root from the recurrence.
+
+## Common Misconceptions
+- The exponent r has to be a whole number. (r can be any root of the indicial equation, including fractions or complex numbers; that freedom is what the method adds to plain power series.)
+- The Frobenius method works at any singular point. (It applies at regular singular points; at an irregular singular point the ansatz (x − x₀)ʳ Σ aₙ(x − x₀)ⁿ may not produce a solution.)
+- The indicial equation is found by setting a₀ = 0. (a₀ is assumed nonzero; the indicial equation comes from requiring the coefficient of the lowest power, which is a₀ times a quadratic in r, to vanish.)
+
 ## Questions
 
 ```yaml

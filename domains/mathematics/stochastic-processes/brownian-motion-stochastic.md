@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Brownian motion (the Wiener process) is a continuous-time stochastic process W(t) with W(0) = 0, independent increments, stationary Gaussian increments (W(t) - W(s) ~ N(0, t-s)), and almost surely continuous sample paths. It is the canonical building block of stochastic calculus and the continuous-time analogue of a symmetric random walk. The Wiener measure on the space of continuous functions C([0,∞)) provides the rigorous measure-theoretic foundation.
 
+## How It's Best Learned
+Simulate a random walk on [0, 1] with n steps of size ±1/√n for n = 10, 100 and 10,000, and plot the paths on the same axes. Check that Var(W(1)) stays near 1 and that zooming into any piece gives a path that looks just as rough. Then derive Cov(W(s), W(t)) = min(s, t) by splitting W(t) = W(s) + (W(t) - W(s)).
+
+## Common Misconceptions
+- A continuous path must be smooth at most points, so Brownian motion has a derivative almost everywhere. (With probability 1 the path is differentiable at no point; increments of size about √h make the difference quotient blow up like 1/√h.)
+- W(s) and W(t) are independent for s ≠ t. (Increments over disjoint intervals are independent, but the values are correlated: Cov(W(s), W(t)) = min(s, t).)
+- The typical distance of W(t) from 0 grows in proportion to t. (The standard deviation of W(t) is √t, so typical displacement grows like the square root of time.)
+
 ## Questions
 
 ```yaml

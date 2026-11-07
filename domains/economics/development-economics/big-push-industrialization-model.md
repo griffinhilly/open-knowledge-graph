@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 The Big Push model argues that coordinated large-scale investment across many sectors simultaneously is necessary to overcome poverty traps. Individual sectoral investment fails because workers earning subsistence wages cannot afford output; simultaneous investment across sectors creates reciprocal demand. This coordination failure justifies industrial policy and large-scale coordinated development initiatives.
 
+## How It's Best Learned
+Set up a two-firm payoff table. Each investor chooses "invest" or "wait"; investing pays off only if the other also invests, and waiting pays zero. Show that both "both invest" and "both wait" are stable outcomes. Then extend the story to the shoe factory and textile mill, and ask what a coordinator would have to promise each investor to move them to the better outcome.
+
+## Common Misconceptions
+- The Big Push says poor countries mainly lack capital. (The model's diagnosis is coordination failure. Capital alone does not help if no investor expects a market for its output.)
+- A failed factory in a poor country must have been badly run. (In the model, a well-run factory can fail because the surrounding economy earns too little to buy its goods.)
+- If investing together is profitable, firms will coordinate on their own. (Each investor's gain depends on others moving, and no single firm captures the economy-wide spillover, so all can rationally wait.)
+- The model proves that large state investment programs succeed. (It shows when coordination could help. It assumes the coordinator picks the right sectors and manages the investment well, which is hard in practice.)
+
 ## Questions
 
 ```yaml

@@ -20,6 +20,15 @@ status: validated
 ## Core Idea
 The demographic transition describes how mortality, then fertility, decline as economies develop. Early stages have high births and deaths; mortality declines first (population boom); fertility eventually declines. The transition creates large working-age cohorts (demographic dividend) but also challenges like aging and school costs that require careful policy.
 
+## How It's Best Learned
+Sketch birth and death rates as two lines across the four stages, and shade the gap between them as population growth. Then follow one large birth cohort through time with a sequence of age pyramids: wide base in Stage 2, a bulge at working age in Stage 3, a bulge at retirement in Stage 4. Mark where the dividend window opens and closes.
+
+## Common Misconceptions
+- Health improvements slow population growth right away. (Mortality falls first while fertility stays high, so population grows faster for a time.)
+- Birth and death rates fall together. (Fertility lags mortality, often by a generation or more, and that lag produces the boom.)
+- A large working-age population guarantees growth. (The dividend is an opportunity. It depends on education, jobs, and institutions that turn savings into investment.)
+- The demographic dividend lasts indefinitely. (It is a temporary window. The large cohort eventually retires, and the dependency ratio rises again.)
+
 ## Questions
 
 ```yaml

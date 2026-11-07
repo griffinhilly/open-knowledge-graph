@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 The broadcast channel (BC) models one sender transmitting independent messages to multiple receivers through a shared medium. Unlike the MAC (many-to-one), the BC is one-to-many. For the degraded BC (where receiver 2's signal is a noisier version of receiver 1's), superposition coding achieves capacity: the sender layers messages at different power levels, and stronger receivers decode all layers while weaker receivers decode only their own. The Gaussian BC capacity region is fully characterized and equals the MAC capacity region by duality. The general (non-degraded) BC capacity region remains incompletely characterized, though Marton's inner bound is known to be tight in many cases.
 
+## How It's Best Learned
+Draw the "cloud center and cloud points" picture of superposition coding: a sparse set of high-power codewords for the weak user, each surrounded by a small cluster for the strong user. Then trace what each receiver decodes, step by step. Set the broadcast channel beside the multiple access channel in a two-column table, comparing who coordinates, where interference is removed, and what is known about capacity.
+
+## Common Misconceptions
+- A broadcast channel sends the same message to everyone, like a radio station. (In the information-theory model each receiver wants its own independent message. A common message can be added, but it is not the basic case.)
+- The broadcast channel is the multiple access channel run backward, so the theory is the same. (The two are related by a duality in the Gaussian case, but they differ in who coordinates, how decoding works, and how much is known about capacity.)
+- In superposition coding the strong receiver ignores the weak user's layer. (The strong receiver first decodes the weak user's layer, subtracts it, and then decodes its own message from what remains.)
+- Any two receivers can be ranked as stronger and weaker. (When one receiver is better on some frequencies and the other on others, the channel is not degraded, and no single ranking of the receivers holds across the whole band.)
+
 ## Questions
 
 ```yaml

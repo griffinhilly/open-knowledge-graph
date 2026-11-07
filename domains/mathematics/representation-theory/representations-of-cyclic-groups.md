@@ -27,6 +27,14 @@ status: validated
 ## Core Idea
 Every irreducible complex representation of a cyclic group ℤ/nℤ is one-dimensional, given by sending a generator g to an nth root of unity ζ = e^{2πik/n} for k = 0, 1, …, n−1. This gives exactly n irreducible representations, matching the n conjugacy classes (each element is its own conjugacy class since the group is abelian). The character table is the DFT matrix (1/√n)(ζʲᵏ), and the representation theory of cyclic groups is equivalent to the discrete Fourier transform — a fact that connects algebra to signal processing.
 
+## How It's Best Learned
+Decompose a representation that is not given in diagonal form. Let ℤ/3ℤ act on ℂ² by A = [[0, −1], [1, −1]]. Check that A³ = I, and that A has trace −1 and characteristic polynomial x² + x + 1, with roots ω and ω². So the representation is ρ₁ ⊕ ρ₂. Confirm with characters: the character is (2, −1, −1), whose inner product with the trivial character is 0.
+
+## Common Misconceptions
+- Every ρ_k is faithful. (ρ_k is injective exactly when gcd(k, n) = 1. For ℤ/4ℤ, ρ₂ sends the generator to −1 and has kernel {0, 2}.)
+- ρ_k and ρ_{n−k} are the same representation, since one is the complex conjugate of the other. (Over ℂ they are non-isomorphic when ζᵏ is not real, because they send the generator to different scalars. Over ℝ they merge into one two-dimensional irreducible.)
+- Every representation of a cyclic group can be diagonalized. (This needs the field to contain the nth roots of unity and its characteristic not to divide n. Over 𝔽_p, the Jordan block [[1, 1], [0, 1]] gives a representation of ℤ/pℤ that cannot be diagonalized.)
+
 ## Questions
 
 ```yaml

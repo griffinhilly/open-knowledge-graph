@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 The Metropolis algorithm constructs a Markov chain that samples from the canonical ensemble. Proposed moves are accepted with probability min(1, exp(-ΔE/kT)). Detailed balance is satisfied, ensuring the stationary distribution is the Boltzmann distribution. The algorithm is simple, scalable, and has become standard for simulating classical statistical systems.
 
+## How It's Best Learned
+Code the algorithm for a three-level system with energies 0, kT and 2kT, proposing either other level with equal chance. The histogram should approach 0.665, 0.245 and 0.090. Then break it on purpose: make the proposal favor one level without correcting the acceptance rule, or skip recording rejected steps, and watch the histogram drift. Move on to the 2D Ising model only after this works.
+
+## Common Misconceptions
+- Any proposal scheme works as long as moves are accepted with min(1, e^(−ΔE/kT)). (That rule assumes the chance of proposing s → s′ equals the chance of proposing s′ → s. Unequal proposals need the Hastings correction.)
+- A rejected move produces no sample, so it can be left out of the averages. (After a rejection the current state counts again as the next sample. Dropping it under-counts the states where the chain lingers, often the low-energy ones, and biases the averages.)
+- A high acceptance rate means the simulation is efficient. (Very small trial moves are almost all accepted but explore slowly. Efficiency depends on how fast correlations between samples decay.)
+
 ## Questions
 
 ```yaml

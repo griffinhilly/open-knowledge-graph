@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Time-correlation functions C(t) = ⟨A(t)A(0)⟩ measure how observables decorrelate in time for an equilibrium system. They characterize the timescale of fluctuations, relax to zero for ergodic systems, and provide access to dynamical properties like diffusion coefficients and viscosity through the fluctuation-dissipation theorem.
 
+## How It's Best Learned
+Work the Langevin particle with friction coefficient ζ first. Its velocity autocorrelation is ⟨v(t)·v(0)⟩ = (3k_BT/m)e^(−t/τ) with τ = m/ζ. Integrating gives D = (1/3)(3k_BT/m)τ = k_BT/ζ, the Einstein relation. Then compute the same function from a liquid simulation, averaging over particles and time origins. Check that its integral matches the slope of the mean-squared displacement, ⟨Δr²⟩ ≈ 6Dt.
+
+## Common Misconceptions
+- C(t) is found by following one molecule from one starting moment. (It is an equilibrium average. In practice you average over many particles and many time origins, because a single segment gives a very noisy estimate.)
+- The velocity autocorrelation function always decays smoothly like an exponential. (In a dense liquid it often dips below zero as a molecule rebounds from its neighbors. At long times in three dimensions it decays as a power law, about t^(−3/2).)
+- Once C(t) reaches zero, A(t) and A(0) are statistically independent. (Zero correlation rules out a linear relation only. Higher-order correlations such as ⟨A(t)²A(0)²⟩ can still differ from their uncorrelated values.)
+
 ## Questions
 
 ```yaml

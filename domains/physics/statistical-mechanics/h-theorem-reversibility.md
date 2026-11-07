@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Boltzmann's H-theorem shows that the quantity H = ∫ f ln(f) dv is monotonically decreasing under the Boltzmann equation, as long as collisions respect molecular chaos. Since entropy S = -k H, this explains the microscopic origin of the second law: irreversibility emerges from the statistics of many collisions, not from time-reversal violation at the microscopic level.
 
+## How It's Best Learned
+Run a small molecular-dynamics gas that starts confined to the left half of a box. Let it spread, reverse every velocity at time t₀, and watch it return to the left half. Then add a tiny random change to the velocities before reversing. For long enough t₀ the gas no longer returns, which shows how special the reversed state is. Set Loschmidt's reversal objection beside Zermelo's recurrence objection and answer each.
+
+## Common Misconceptions
+- Entropy rises because the microscopic laws prefer one direction of time. (Newton's laws are time-reversal symmetric. The asymmetry comes from low-entropy initial conditions and the molecular chaos assumption.)
+- Reversing every velocity in a gas at equilibrium would make it unmix. (Reversal makes the gas retrace its own past. A gas that has been in equilibrium for a time t first retraces about that long of equilibrium states, and any tiny disturbance destroys the correlations needed to go further back. Visible unmixing needs a gas that left a low-entropy state recently.)
+- Poincaré recurrence shows the H-theorem is false. (Recurrence times for a macroscopic gas are vastly longer than any observation, so the theorem still describes what happens on observable time scales.)
+
 ## Questions
 
 ```yaml

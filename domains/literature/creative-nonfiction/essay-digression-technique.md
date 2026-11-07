@@ -24,6 +24,14 @@ status: draft
 ## Core Idea
 Digression in the essay is not a structural flaw but an essential principle: the apparently tangential development of thought creates associative meaning and mirrors how consciousness actually works. Skillful digression deepens rather than distracts from the central inquiry, allowing the essay to explore implications and connections the writer discovers while thinking.
 
+## How It's Best Learned
+Take a short linear essay of your own and add one deliberate digression: a memory, an odd fact, or a side question that the main subject brings to mind. Write the sentence that leads out and the sentence that brings the reader back. Then test it: delete the digression and reread the ending. If the ending loses meaning, the digression was doing structural work.
+
+## Common Misconceptions
+- Digression and focus are opposites. (A skillful digression stays tied to the central inquiry by a thread, even a hidden one, and returns with something that deepens it.)
+- New ideas found while drafting should be cut to keep to the plan. (The essay form welcomes discoveries made in the writing; the craft lies in shaping them so they serve the inquiry.)
+- A digressive essay has to give up direction entirely. (Many essays combine a central question and general momentum with tangents along the way.)
+
 ## Questions
 
 ```yaml
@@ -59,6 +67,7 @@ Digression in the essay is not a structural flaw but an essential principle: the
 
 - question: How might an essay that uses digression as a structural principle work differently than one that follows strict linear argument? What does each form accomplish?
   type: short-answer
+  answer: "A linear essay states a thesis and builds evidence toward a conclusion, which gives clarity and persuasive force. A digressive essay follows associations from a central question, which gives discovery and complexity but may not reach a firm conclusion. Many essays blend the two, keeping a direction while allowing tangents."
   explanation: 'A linear essay would state a thesis and support it with evidence in sequence—each point building toward conclusion. A digressive essay would explore a question, following associations and implications, allowing the inquiry to complicate and deepen. The linear essay reaches conclusion; the digressive essay deepens understanding without necessarily concluding. The linear form emphasizes clarity and logical force. The digressive form emphasizes discovery and complexity. Linear argument works well for convincing; digression works well for exploring. Many essays blend both—they have a central inquiry and general direction, but they allow themselves to follow tangents. This blend can be most powerful: you''re not completely linear (which would be rigid) but not completely digressive (which would be formless). You''re using digression as a technique within an overall exploratory structure.'
 ```
 

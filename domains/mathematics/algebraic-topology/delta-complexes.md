@@ -20,6 +20,14 @@ status: validated
 ## Core Idea
 A Delta-complex is a generalization of a simplicial complex that allows simplices to have self-identifications on their faces — for instance, a triangle can have two of its edges identified, which is impossible in a simplicial complex. This flexibility dramatically reduces the number of simplices needed to triangulate a space while preserving the ability to compute homology via chain complexes and boundary operators. Delta-complexes serve as a practical middle ground between the rigidity of simplicial complexes and the full generality of singular homology.
 
+## How It's Best Learned
+Draw the torus square with edges a, b and diagonal c, put an arrow on every edge, and order each triangle's vertices to match the arrows. Compute d_2 of both triangles. With consistent orderings both have the same boundary, a + b - c, so their difference generates H_2 and H_1 ≅ Z^2. Then reverse one arrow to get the Klein bottle and redo the computation to see where torsion appears.
+
+## Common Misconceptions
+- The order of vertices in each simplex does not matter. (Each simplex carries a vertex ordering, and face maps must respect it. The ordering fixes the signs in the boundary formula and restricts which identifications are allowed.)
+- Using fewer simplices gives a different homology. (The homology of a Delta-complex agrees with simplicial and singular homology of the same space. Only the size of the computation changes.)
+- Every CW complex is a Delta-complex. (A Delta-complex must be built from simplices glued along face maps. The CW structure on S^2 with one point and one 2-cell collapses the whole boundary, which a Delta-complex does not permit.)
+
 ## Questions
 
 ```yaml

@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 The Riemann curvature tensor R(X,Y)Z measures the failure of covariant differentiation to commute: R(X,Y)Z = ∇_X ∇_Y Z - ∇_Y ∇_X Z - ∇_{[X,Y]} Z. Equivalently, it measures the rotation a vector undergoes when parallel-transported around an infinitesimal loop. The curvature tensor is the fundamental invariant of a connection — it vanishes if and only if the manifold is locally flat (isometric to Euclidean space). All other curvature quantities (Ricci, scalar, sectional) are derived from it.
 
+## How It's Best Learned
+Compute one component by hand on the unit sphere with metric dθ² + sin²θ dφ². The nonzero Christoffel symbols are Γ^θ_φφ = −sin θ cos θ and Γ^φ_θφ = cot θ, and the coordinate formula gives R^θ_φθφ = sin²θ, so the sectional curvature is 1. Then parallel-transport a vector around the triangle bounding one octant of the sphere and see it return rotated by π/2, the enclosed area.
+
+## Common Misconceptions
+- The curvature tensor measures how a manifold bends inside a surrounding space. (R is computed from the connection alone. A cylinder in ℝ³ looks bent, but its curvature tensor is zero.)
+- If R = 0 everywhere, the manifold is Euclidean space. (R = 0 gives only local isometry with Euclidean space. A flat torus has R = 0 but is compact, so it is not ℝⁿ.)
+- The Ricci tensor determines the full curvature tensor. (That holds in dimensions 2 and 3. From dimension 4 on, the Weyl part of R is invisible to Ricci, so a Ricci-flat manifold can have R ≠ 0.)
+
 ## Questions
 
 ```yaml

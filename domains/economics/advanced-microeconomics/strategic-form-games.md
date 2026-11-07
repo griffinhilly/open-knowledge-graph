@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Strategic form specifies players, each player's strategy set, and payoff functions. A Nash equilibrium is a strategy profile where no player wants to unilaterally deviate. Nash's existence theorem guarantees that mixed-strategy equilibria exist under mild continuity conditions, even if pure-strategy equilibria don't. Best-response functions visualize equilibrium as the intersection of best-response correspondences.
 
+## How It's Best Learned
+Underline best responses in three 2×2 games side by side: the Prisoner's Dilemma (one equilibrium), Battle of the Sexes (two pure equilibria) and Matching Pennies (none in pure strategies). Then find the mixed equilibrium of Matching Pennies. Set the column player's mix so the row player is indifferent between Heads and Tails, which gives one half each.
+
+## Common Misconceptions
+- In a Nash equilibrium each player's strategy is best no matter what the others do. (That describes a dominant strategy. Nash equilibrium asks only that each strategy be a best response to the others' equilibrium strategies.)
+- A game has one Nash equilibrium. (Many games have several. Battle of the Sexes has two pure-strategy equilibria and a third in mixed strategies.)
+- In a mixed equilibrium, a player's own payoffs determine its mixing probabilities. (Each player mixes so that the opponent is indifferent, so a player's probabilities are pinned down by the opponent's payoffs.)
+
 ## Questions
 
 ```yaml

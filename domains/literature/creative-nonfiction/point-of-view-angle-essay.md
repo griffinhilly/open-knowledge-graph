@@ -24,6 +24,14 @@ status: draft
 ## Core Idea
 Essays and memoirs are inherently perspectival, shaped by the writer's position, experience, and time. Some nonfiction explicitly plays with perspective by shifting viewpoints or acknowledging limits. Understanding how perspective shapes nonfiction helps writers make conscious choices about whose viewpoint to privilege.
 
+## How It's Best Learned
+Take one shared event, such as a family dinner that went wrong, and write three short accounts: yours as you felt it then, yours as you understand it now, and the account another person present might give. List the details each version includes and leaves out. Then draft a paragraph that openly names which angle the essay will take and why.
+
+## Common Misconceptions
+- Good nonfiction removes the writer's perspective to be objective. (Every account comes from a position, and naming that position can make an essay more honest and credible.)
+- An essay has to hold one fixed viewpoint from start to finish. (Essays can move between past and present selves or set the writer's view against other witnesses and records.)
+- An insider's account is automatically more accurate than an outsider's. (Each position has access to different things, and both are limited.)
+
 ## Questions
 
 ```yaml
@@ -59,6 +67,7 @@ Essays and memoirs are inherently perspectival, shaped by the writer's position,
 
 - question: Consider an event you could write about from multiple perspectives (a family argument, a historical incident, a social conflict). How would the essay differ if told from each perspective? What does perspective shape—what facts are noticed, what interpretation is offered, what gets included or excluded?
   type: short-answer
+  answer: "Each perspective would notice different details, interpret the event differently, and include or leave out different moments. An essay aware of this can present several accounts or state openly whose view it privileges and why."
   explanation: A family conflict might be experienced as 'I was wrongly blamed for something' from one family member's perspective, 'I was defending my child' from another, and 'I felt unsafe and invisible' from a third. The same argument looks entirely different depending on whose perspective shapes the account. One perspective might focus on words said, another on tone and facial expressions, another on the historical pattern the conflict continued. What is 'true' becomes complicated when perspective enters. An essay aware of this multiplicity might present multiple accounts explicitly, or acknowledge which perspective is being privileged and why. The work reveals how perspective shapes truth itself.
 ```
 

@@ -21,7 +21,16 @@ status: validated
 # The Stress-Energy Tensor
 
 ## Core Idea
-The stress-energy tensor T_μν is the source term in Einstein's field equations — it encodes the density and flux of energy and momentum for all non-gravitational matter and fields. T_{00} is the energy density, T_{0i} is the momentum density (or equivalently the energy flux), and T_{ij} is the stress (momentum flux, including pressure and shear). For a perfect fluid, T_μν = (ρ + p/c²)u_μ u_ν + p g_μν, where ρ is the energy density, p is the pressure, and u^μ is the four-velocity. The local conservation law ∇^μ T_μν = 0 generalizes energy-momentum conservation to curved spacetime and is automatically enforced by the Einstein equations through the contracted Bianchi identity. The stress-energy tensor is symmetric (T_μν = T_νμ), which ensures conservation of angular momentum.
+The stress-energy tensor T_μν is the source term in Einstein's field equations — it encodes the density and flux of energy and momentum for all non-gravitational matter and fields. T_{00} is the energy density, T_{0i} is the momentum density (or equivalently the energy flux), and T_{ij} is the stress (momentum flux, including pressure and shear). For a perfect fluid, T_μν = (ρ + p/c²)u_μ u_ν + p g_μν, where ρ is the mass density (energy density divided by c²), p is the pressure, and u^μ is the four-velocity. The local conservation law ∇^μ T_μν = 0 generalizes energy-momentum conservation to curved spacetime and is automatically enforced by the Einstein equations through the contracted Bianchi identity. The stress-energy tensor is symmetric (T_μν = T_νμ), which ensures conservation of angular momentum.
+
+## How It's Best Learned
+Build T^μν for dust from its number flux N^μ = nu^μ: multiplying by each particle's mass and four-velocity gives T^μν = ρu^μu^ν, with ρ the rest-frame mass density. Then boost to a frame where the dust moves at speed v along x, so u = γ(c, v, 0, 0). The components become T^00 = γ²ρc², T^0x = γ²ρcv and T^xx = γ²ρv². Finally write a perfect fluid at rest as diag(ρc², p, p, p) and set its trace −ρc² + 3p to zero to get radiation's p = ρc²/3.
+
+## Common Misconceptions
+- T_00 is just the rest-mass density. (It is the total energy density, including kinetic, thermal and field energy, as measured in a given frame.)
+- The energy density of moving dust is larger by one factor of γ. (It grows as γ². Each particle's energy gains a factor γ, and length contraction raises the number density by another γ.)
+- Pressure has no gravitational effect, only mass does. (Pressure is part of T_μν and sources gravity, entering combinations such as ρ + 3p/c².)
+- T_μν includes the energy of the gravitational field. (It contains only non-gravitational matter and fields. Gravitational energy has no local tensor description.)
 
 ## Questions
 

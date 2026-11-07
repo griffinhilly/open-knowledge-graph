@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Grand unified theories embed the three Standard Model gauge groups SU(3)_C x SU(2)_L x U(1)_Y into a single simple gauge group (such as SU(5) or SO(10)) at a very high energy scale (~10^{16} GeV). This unification explains the quantization of electric charge, relates quark and lepton quantum numbers, and predicts proton decay. The observed running of the three gauge couplings is suggestive of unification, particularly in supersymmetric extensions.
 
+## How It's Best Learned
+Plot the one-loop running 1/α_i(μ) = 1/α_i(M_Z) − (b_i/2π) ln(μ/M_Z) as straight lines against ln μ. Start from roughly 59, 29.6, and 8.5, using b = (41/10, −19/6, −7) for the Standard Model and (33/5, 1, −3) for the MSSM. Then check charge quantization in the 5̄ of SU(5): three d^c states at +1/3 plus e⁻ and ν sum to zero.
+
+## Common Misconceptions
+- In the Standard Model alone, the three couplings meet at one point. (They approach each other but miss. A single crossing needs extra particle content, such as the MSSM superpartners.)
+- Because proton decay has not been seen, grand unification is ruled out. (The limits exclude minimal non-supersymmetric SU(5). Supersymmetric and SO(10) models predict lifetimes near or beyond current limits.)
+- Coupling unification in the MSSM proves supersymmetry exists. (It is indirect evidence. No superpartner has been observed, and other choices of new particles can also make the couplings meet.)
+
 ## Questions
 
 ```yaml

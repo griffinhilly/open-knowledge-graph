@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 The Robertson-Walker (RW) metric ds² = -c²dt² + a(t)²[dr²/(1-kr²) + r²dΩ²] is the most general metric for a spatially homogeneous and isotropic universe. The scale factor a(t) encodes the expansion history of the universe, and the curvature parameter k takes values +1 (closed, spherical spatial geometry), 0 (flat, Euclidean spatial geometry), or -1 (open, hyperbolic spatial geometry). The coordinates are comoving: galaxies at rest in the cosmic expansion have fixed spatial coordinates (r, θ, φ), and the physical distance between them grows as a(t) increases. Cosmic time t is the proper time of comoving observers. The RW metric is the geometric foundation of all standard cosmological models — the Friedmann equations, which govern the evolution of a(t), are derived by inserting this metric into the Einstein field equations.
 
+## How It's Best Learned
+Derive the redshift from the metric. For a radial light ray with k = 0, c dt = a dr. Two wave crests leaving a source dt_e apart must cover the same comoving distance, so dt_o/dt_e = a(t_o)/a(t_e), which gives 1 + z. Then write the spatial metric with r = sin χ, χ or sinh χ for k = +1, 0, −1. Compare the circumference 2πa·r with the proper radius aχ in each case.
+
+## Common Misconceptions
+- The RW metric is derived from Einstein's equations. (Its form follows from homogeneity and isotropy alone. Einstein's equations are needed only to find how a(t) evolves.)
+- Because space expands, atoms, people and galaxies expand too. (Bound systems are held together by their own forces and gravity, so they do not grow with a(t). Comoving coordinates describe the large-scale average flow.)
+- Cosmological redshift is a Doppler shift from galaxies flying through space. (It records how much a(t) grew while the light traveled, 1 + z = a(t_o)/a(t_e). Only at small z does it match a Doppler formula.)
+- k = 0 or k = −1 proves the universe is infinite. (k fixes the local geometry. A flat or hyperbolic space can still be finite if its global topology is not the simplest one.)
+
 ## Questions
 
 ```yaml

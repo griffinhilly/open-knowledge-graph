@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Developing countries industrialize by adopting already-developed technologies from rich countries—a faster route than original invention. However, adoption requires complementary investments in workforce skills, infrastructure, and institutional capacity. Successful industrial catch-up countries (South Korea, Taiwan) share characteristics: state-directed education investment, infant industry protection, and integration into global value chains.
 
+## How It's Best Learned
+Pick one imported technology, such as a modern textile mill, and list everything it needs to run: trained operators, steady power, ports, long-term credit, and enforceable contracts. Check the list against a low-income country. Then follow one protected industry over time under two rules: protection that ends unless firms start exporting, and protection with no end date.
+
+## Common Misconceptions
+- Getting the technology is enough for a country to catch up. (Imported technology needs skills, infrastructure, and institutions to operate. Without them, blueprints produce little.)
+- Poorer countries grow faster than rich ones as a matter of course. (The advantage of backwardness is a potential. Most developing countries have not converged.)
+- Protecting infant industries builds competitive firms. (Protection with no time limit or performance test can shelter inefficient firms for decades, as in much of Latin American import substitution.)
+- Adopting technology is pure copying with no learning. (Firms must adapt methods to local conditions, and productivity rises as they gain experience in production.)
+
 ## Questions
 
 ```yaml

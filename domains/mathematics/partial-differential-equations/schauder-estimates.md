@@ -17,6 +17,14 @@ status: validated
 ## Core Idea
 Schauder estimates are a priori regularity results stating that solutions of elliptic PDEs with Holder continuous coefficients and data inherit Holder regularity with a gain of two derivatives. For -Δu = f with f ∈ C^{k,α}(Ω), the solution satisfies u ∈ C^{k+2,α}(Ω) with the estimate ||u||_{C^{k+2,α}} ≤ C(||f||_{C^{k,α}} + ||u||_{C⁰}). These pointwise estimates complement the L²-based Sobolev regularity theory and are essential for the continuity method and fixed-point arguments used to prove existence for nonlinear elliptic equations.
 
+## How It's Best Learned
+Do the scaling check first. If −Δu = f in B₁, then u_r(x) = u(rx) solves −Δu_r = r²f(rx). Both [D²u_r]_α and the Hölder seminorm of r²f(rx) pick up the same factor r^{2+α}, so the estimate can hold with a constant independent of scale. Then follow the coefficient-freezing step once for −a^{ij}u_{ij} = f, tracking where the Hölder continuity of a^{ij} makes the error small.
+
+## Common Misconceptions
+- Since the equation controls Δu, it obviously controls every second derivative. (Δu is only the trace of D²u. Recovering each u_{ij} needs the Newtonian potential estimates, and the bound fails when f is merely continuous.)
+- Schauder estimates prove that solutions exist. (They are a priori bounds on a solution assumed to exist. Existence comes from another argument, such as the continuity method, that uses the bounds.)
+- The ‖u‖_{C⁰} term on the right side of the interior estimate is unnecessary. (Harmonic functions have f = 0 yet can be large. For example, M(x₁² − x₂²) has second derivatives of size 2M.)
+
 ## Questions
 ```yaml
 - question: "The Schauder estimate for -Δu = f in a ball B₁ states:"

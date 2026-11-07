@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Quantum random walks generalize classical random walks to quantum systems, where a "walker" is in a superposition of positions on a graph. Unlike classical walks (probabilistic position), quantum walks are deterministic unitary evolution, exhibiting interference and dramatic speedups for search and graph problems. Key examples: Grover's algorithm is a quantum walk on the complete graph with quadratic speedup; quantum walks on general graphs can achieve quadratic speedups for element distinctness, triangle finding, and other problems. Quantum walks bridge quantum algorithms and combinatorial optimization, providing a framework for designing quantum algorithms for graph problems.
 
+## How It's Best Learned
+Run three steps of the Hadamard walk on a line by hand. Start at position 0 with coin |0>; at each step apply H to the coin, then move left on |0> and right on |1>. After two steps the distribution matches the classical walk. On step three, two paths cancel and the probabilities at -3, -1, 1, 3 become 1/8, 5/8, 1/8, 1/8, against the classical 1/8, 3/8, 3/8, 1/8.
+
+## Common Misconceptions
+- A quantum walk is a classical random walk driven by quantum randomness. (The evolution is unitary and deterministic, and randomness enters only at measurement. Measuring after every step turns the walk back into the classical one.)
+- A quantum walker spreads out at the same rate as a classical one. (On a line, the classical spread grows like the square root of the number of steps, while the quantum walk's spread grows in proportion to the number of steps.)
+- Running a search walk longer always brings the walker closer to the target. (As in Grover's algorithm, the amplitude on the target rises and then falls, so the walk must be stopped near the right time.)
+
 ## Questions
 
 ```yaml

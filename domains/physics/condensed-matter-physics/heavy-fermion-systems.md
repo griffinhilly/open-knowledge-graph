@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Heavy fermion systems are metallic compounds (typically containing Ce, Yb, or U with partially filled f-shells) where the electronic specific heat coefficient gamma and the effective mass m* are enhanced by factors of 100-1000 over free-electron values. This enormous mass enhancement arises from the Kondo lattice effect: at each site, a localized f-electron moment is screened by conduction electrons, forming a narrow, coherent quasiparticle band at the Fermi level with bandwidth ~k_BT_K (typically 1-10 meV). Heavy fermion materials exhibit a stunning variety of ground states: unconventional superconductivity, antiferromagnetism, quantum critical behavior, and non-Fermi-liquid phases, often tuned by pressure or magnetic field.
 
+## How It's Best Learned
+Read the data for one heavy-fermion compound before the theory. Plot C/T against T and compare its size with copper's. Then follow the resistivity on cooling: it rises roughly as −ln T from single-site Kondo scattering, peaks near the coherence temperature, and falls as T² once the heavy Fermi liquid forms. Map each regime onto the Kondo and Doniach pictures afterward.
+
+## Common Misconceptions
+- The electrons are heavy because cerium and uranium nuclei are heavy. (The large effective mass comes from a very narrow quasiparticle band produced by correlations; nuclear mass plays no role.)
+- The f-electrons stay localized in the heavy Fermi liquid. (At low temperature they join the itinerant quasiparticles, and quantum oscillation experiments see a Fermi surface that counts them.)
+- Heavy-fermion behavior is present at all temperatures. (At high temperature the f-moments act as free local moments with Curie-like susceptibility; the heavy state forms only below a coherence temperature.)
+- In a Kondo lattice, Kondo screening always wins. (RKKY coupling between the moments competes with screening and often produces magnetic order instead.)
+
 ## Questions
 
 ```yaml

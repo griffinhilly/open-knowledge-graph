@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 A subrepresentation of ρ: G → GL(V) is a subspace W ⊆ V that is invariant under every ρ(g). A representation is **irreducible** if its only invariant subspaces are {0} and V itself — it cannot be broken into smaller pieces. Irreducible representations are the atoms of representation theory: under favorable conditions (characteristic zero, finite groups), every representation decomposes as a direct sum of irreducibles.
 
+## How It's Best Learned
+Let ℤ/4ℤ act on ℝ² by rotation through 90°, R = [[0, −1], [1, 0]]. Over ℝ, R has no real eigenvector, so no line is invariant and the representation is irreducible. Over ℂ, check that R(1, −i) = i(1, −i) and R(1, i) = −i(1, i), so the space splits into two invariant lines. Then write a reducible example in block upper-triangular form to see what a subrepresentation looks like in matrices.
+
+## Common Misconceptions
+- Irreducibility depends only on the matrices, not on the field. (Rotation by 90° is irreducible over ℝ but splits over ℂ into the eigenlines for i and −i.)
+- If every ρ(g) has an eigenvector, the representation is reducible. (An invariant subspace must be invariant under all ρ(g) at once. In the two-dimensional representation of S₃ over ℂ, every element has an eigenvector, but no line is mapped to itself by all six elements.)
+- A reducible representation splits into a direct sum of smaller pieces. (Over a field of characteristic 2, [[1, 1], [0, 1]] gives a representation of ℤ/2ℤ with an invariant line and no invariant complement.)
+
 ## Questions
 
 ```yaml

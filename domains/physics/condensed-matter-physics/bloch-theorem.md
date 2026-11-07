@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Bloch's theorem states that the eigenstates of an electron in a periodic potential V(r) = V(r + R) for all lattice vectors R take the form psi_{nk}(r) = e^{ik·r} u_{nk}(r), where u_{nk}(r) has the periodicity of the lattice. The quantum number k (crystal momentum) lives in the first Brillouin zone, and n is the band index. This theorem is the foundation of electronic band theory: it reduces the problem of an electron in an infinite crystal to solving for u_{nk} within a single unit cell, and it explains why electronic states organize into continuous energy bands separated by gaps.
 
+## How It's Best Learned
+Prove the theorem first on a ring of N identical sites. The translation operator commutes with H, its eigenvalues are e^{ika} with k = 2πm/(Na), and the Bloch form follows. Then take V(x) = 2V₀ cos(2πx/a), write H in a plane-wave basis where it couples k only to k ± 2π/a, and diagonalize a truncated matrix. Plot one eigenstate split into its e^{ikx} factor and periodic part u_k(x).
+
+## Common Misconceptions
+- ħk is the electron's momentum. (A Bloch state is not a momentum eigenstate; ħk is crystal momentum, defined only up to adding ħG for a reciprocal lattice vector G.)
+- Wavevectors outside the first Brillouin zone describe new states. (The labels k and k + G give the same set of Bloch states, so the first zone already contains every state.)
+- Bloch's theorem holds only when the periodic potential is weak. (It follows from translation symmetry alone, so it holds for a periodic potential of any strength.)
+- Bloch states remain exact eigenstates in a crystal with impurities. (Impurities break the perfect periodicity, so k is no longer a good quantum number and electrons scatter between Bloch states.)
+
 ## Questions
 
 ```yaml

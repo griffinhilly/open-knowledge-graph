@@ -27,6 +27,14 @@ status: validated
 ## Core Idea
 A representation of a group G is a homomorphism ρ: G → GL(V), where GL(V) is the group of invertible linear transformations on a vector space V. This translates the abstract algebraic structure of a group into concrete linear algebra, where powerful matrix techniques become available. The dimension of V is called the degree of the representation.
 
+## How It's Best Learned
+Build the two-dimensional representation of S₃ from the symmetries of an equilateral triangle centered at the origin. Write r as rotation by 120° and s as a reflection across a line through a vertex. Check by matrix multiplication that r³ = I, s² = I and srs = r⁻¹. These are the defining relations of S₃, so the two matrices determine a homomorphism on the whole group.
+
+## Common Misconceptions
+- A representation has to be injective. (Any homomorphism to GL(V) counts. The sign representation of S₃ sends all three transpositions to −1, so it is not injective.)
+- To define a representation you must write down a matrix for every group element. (Matrices for a set of generators are enough, provided they satisfy the group's defining relations. The rest follow from ρ(gh) = ρ(g)ρ(h).)
+- The degree of a representation is the order of the group. (The degree is the dimension of V. S₃ has order 6 and has representations of degree 1, 2, 3 and others.)
+
 ## Questions
 
 ```yaml

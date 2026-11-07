@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 Joint entropy H(X,Y) measures the total uncertainty in a pair of random variables considered together. Conditional entropy H(Y|X) measures the remaining uncertainty in Y after observing X — how much new information Y provides beyond what X already told you. The chain rule H(X,Y) = H(X) + H(Y|X) decomposes joint uncertainty into what X reveals plus what remains. Conditioning never increases entropy on average: H(Y|X) <= H(Y), with equality only when X and Y are independent. These quantities form the algebraic backbone of information theory.
 
+## How It's Best Learned
+Write a small joint probability table, such as 2 x 3, and compute every quantity from it by hand: H(X), H(Y), H(X,Y), each H(Y|X=x), H(Y|X) and H(X|Y). Check that both orderings of the chain rule give the same H(X,Y). Then change one row so that some H(Y|X=x) exceeds H(Y), and confirm that the average H(Y|X) still does not.
+
+## Common Misconceptions
+- H(X,Y) is H(X) + H(Y). (That holds only when X and Y are independent. With any dependence, the joint entropy is smaller than the sum.)
+- H(Y|X) and H(X|Y) are the same number. (The chain rule gives H(X) + H(Y|X) = H(Y) + H(X|Y). The two conditional entropies are equal only when H(X) = H(Y).)
+- H(Y|X) = 0 means X and Y carry the same information. (It means Y is a function of X. X can hold more, as when exam answers determine a score but the score does not determine the answers.)
+- H(Y|X) is the entropy of Y for one observed value of X. (That is H(Y|X=x). H(Y|X) is the average of these over x, weighted by p(x).)
+
 ## Questions
 
 ```yaml

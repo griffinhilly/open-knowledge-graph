@@ -18,6 +18,14 @@ status: validated
 ## Core Idea
 If N and M are normal subgroups of G with N ⊆ M, then M/N is a normal subgroup of G/N, and (G/N)/(M/N) ≅ G/M.
 
+## How It's Best Learned
+Start with G = ℤ, N = 12ℤ, M = 3ℤ. Draw ℤ₁₂ as a ring of twelve residues and color the cosets of {0, 3, 6, 9}; three classes appear, matching ℤ/3ℤ. Check the proof map gN ↦ gM and its kernel on this example. Then try a nonabelian case: in S₄ take N = V₄ and M = A₄, where S₄/V₄ ≅ S₃ and both sides give ℤ₂.
+
+## Common Misconceptions
+- The theorem applies to any subgroups N ⊆ M of G. (N and M must be normal in G; otherwise G/N or G/M is not a group.)
+- The theorem means G/N splits as G/M × M/N. (It describes a quotient of G/N, not a product decomposition; with G = ℤ, N = 4ℤ, M = 2ℤ, G/N ≅ ℤ₄ is not isomorphic to ℤ₂ × ℤ₂.)
+- (G/N)/(M/N) and G/M are the same set because the N's cancel. (Elements of the left side are cosets of M/N inside G/N, so the theorem gives an isomorphism, induced by gN ↦ gM, rather than an equality.)
+
 ## Questions
 
 ```yaml
@@ -59,7 +67,7 @@ If N and M are normal subgroups of G with N ⊆ M, then M/N is a normal subgroup
 
 ## Explainer
 
-The Third Isomorphism Theorem is easiest to understand through a familiar arithmetic analogy. Consider the integers ℤ, with the subgroups 2ℤ ⊆ 6ℤ. Here N = 6ℤ and M = 2ℤ. The quotient ℤ/6ℤ ≅ ℤ₆ is the integers mod 6. Inside ℤ₆, the subgroup 2ℤ/6ℤ = {0, 2, 4} ≅ ℤ₃ is the even residues mod 6. The theorem says (ℤ/6ℤ)/(2ℤ/6ℤ) ≅ ℤ/2ℤ — that is, ℤ₆ modulo its subgroup {0, 2, 4} gives ℤ₂. Check: ℤ₆/{0,2,4} has cosets {0,2,4} and {1,3,5}, giving a two-element group. And ℤ/2ℤ ≅ ℤ₂. The theorem is confirmed.
+The Third Isomorphism Theorem is easiest to understand through a familiar arithmetic analogy. Consider the integers ℤ, with the subgroups 6ℤ ⊆ 2ℤ. Here N = 6ℤ and M = 2ℤ. The quotient ℤ/6ℤ ≅ ℤ₆ is the integers mod 6. Inside ℤ₆, the subgroup 2ℤ/6ℤ = {0, 2, 4} ≅ ℤ₃ is the even residues mod 6. The theorem says (ℤ/6ℤ)/(2ℤ/6ℤ) ≅ ℤ/2ℤ — that is, ℤ₆ modulo its subgroup {0, 2, 4} gives ℤ₂. Check: ℤ₆/{0,2,4} has cosets {0,2,4} and {1,3,5}, giving a two-element group. And ℤ/2ℤ ≅ ℤ₂. The theorem is confirmed.
 
 The intuition is cancellation, like fractions: (G/N)/(M/N) behaves like "G over M", with the N's cancelling. The N that was introduced into the denominator of both quotient groups washes out, leaving G/M. This is why the Third Isomorphism Theorem is sometimes stated as a "cancellation law" for quotient groups.
 

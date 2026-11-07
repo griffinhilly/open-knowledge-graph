@@ -19,6 +19,14 @@ status: validated
 ## Core Idea
 Non-equilibrium systems driven away from equilibrium develop sustained currents and dissipation. Response to weak external fields is still given by the fluctuation-dissipation theorem when the system remains close to equilibrium (linear response). Far from equilibrium, novel phenomena emerge: bistability, spatiotemporal chaos, self-organization. The theory connects microscopic dynamics to macroscopic irreversibility and transport.
 
+## How It's Best Learned
+Start with a rod held between reservoirs at T_h and T_c. In steady state a constant heat current J flows, and the entropy production rate is J/T_c − J/T_h, which is positive whenever T_h > T_c. Contrast this with the same rod isolated, where the current decays to zero. Then raise the drive and look at convection rolls in a heated fluid layer as the first case linear response cannot describe.
+
+## Common Misconceptions
+- A steady state is the same as equilibrium, because nothing changes in time. (A driven steady state has time-independent averages but carries nonzero currents and produces entropy at a constant rate. At equilibrium the currents vanish and entropy production is zero.)
+- Local order in a living cell or a convection pattern breaks the second law. (The second law limits total entropy. An open system can lower its own entropy while it exports a larger amount of entropy to its surroundings.)
+- Linear response describes any driven system. (It holds for weak drives near equilibrium. Strong driving brings nonlinear current-force relations, bistability and patterns that linear response does not capture.)
+
 ## Questions
 
 ```yaml
@@ -66,4 +74,4 @@ The conceptually simplest regime is **linear response**: the system is close to 
 
 Moving further from equilibrium, linear response breaks down. The relationship between currents and forces becomes nonlinear, and the system can develop multiple stable states (**bistability**) — systems that can sit in either of two macroscopic configurations and switch between them. Driving still further, temporal periodicity (**limit cycles**), **spatiotemporal patterns** (like Turing patterns in chemical reactions or convection rolls in heated fluids), and ultimately chaos can emerge. These phenomena are not accessible from equilibrium statistical mechanics and require a separate framework — often built around nonlinear differential equations for macroscopic order parameters.
 
-The unifying thread is **entropy production**. In equilibrium, entropy production is zero. Close to equilibrium, Onsager's minimum entropy production principle constrains the steady state. Far from equilibrium, no such minimum principle holds, and the system can organize into low-entropy structures maintained by continuous dissipation — what Prigogine called **dissipative structures**. This is the statistical mechanical basis for understanding why living organisms, which are quintessentially non-equilibrium, are locally ordered while globally increasing entropy: they are sustained dissipative structures, maintained by a continuous flow of free energy from food (or sunlight) to heat.
+The unifying thread is **entropy production**. In equilibrium, entropy production is zero. Close to equilibrium, Prigogine's minimum entropy production principle constrains the steady state. Far from equilibrium, no such minimum principle holds, and the system can organize into low-entropy structures maintained by continuous dissipation — what Prigogine called **dissipative structures**. This is the statistical mechanical basis for understanding why living organisms, which are quintessentially non-equilibrium, are locally ordered while globally increasing entropy: they are sustained dissipative structures, maintained by a continuous flow of free energy from food (or sunlight) to heat.

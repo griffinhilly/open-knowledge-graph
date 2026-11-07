@@ -22,13 +22,21 @@ status: validated
 ## Core Idea
 The Lefschetz fixed point theorem generalizes the Brouwer fixed point theorem from disks to arbitrary compact polyhedra. For a continuous map f : X -> X on a compact triangulable space, the Lefschetz number L(f) = sum(-1)^n tr(f_* : H_n(X; Q) -> H_n(X; Q)) is defined as the alternating sum of traces of the induced maps on rational homology. If L(f) != 0, then f has at least one fixed point. The Brouwer theorem is the special case X = D^n, where L(f) = 1 for any f (since D^n is contractible).
 
+## How It's Best Learned
+Compute L(f) on spaces where homology is a few small matrices. On S^n, L(f) = 1 + (-1)^n deg(f). On the torus, L(f) = 1 - tr(A) + det(A), where A is the matrix on H_1. Try A = [[2, 1], [1, 1]], which gives L = -1, so the map has a fixed point. Then check a reflection of S^2: it has degree -1 and L = 0, yet it fixes a whole circle.
+
+## Common Misconceptions
+- L(f) = 0 means f has no fixed points. (The theorem says nothing when L(f) = 0. A reflection of S^2 has L = 0 and fixes an entire great circle.)
+- L(f) is the number of fixed points. (It is a weighted count by local indices, valid when fixed points are isolated. The identity on S^2 has L = 2, but every point is fixed.)
+- A homotopy can change L(f). (L(f) depends only on the induced maps on homology, so homotopic maps have the same Lefschetz number.)
+
 ## Questions
 
 ```yaml
 - question: "A map f: S^2 → S^2 has degree 3. What is its Lefschetz number, and does it have a fixed point?"
   type: multiple-choice
   options:
-    - "L(f) = 4, so f has a fixed point"
+    - "L(f) = 3, so f has a fixed point"
     - "L(f) = 2, so f has a fixed point"
     - "L(f) = 0, so the theorem gives no information"
     - "L(f) = 1 - 0 + 3 = 4, so f has a fixed point"
@@ -60,7 +68,7 @@ The Lefschetz fixed point theorem generalizes the Brouwer fixed point theorem fr
 
 The **Lefschetz fixed point theorem** is a far-reaching generalization of the Brouwer fixed point theorem. Where Brouwer applies only to the disk (or more generally, convex compact sets), the Lefschetz theorem works for any compact triangulable space X and gives a numerical criterion for the existence of fixed points. The key quantity is the **Lefschetz number** L(f) = sum_{n >= 0} (-1)^n tr(f_{*,n}), where f_{*,n} : H_n(X; Q) -> H_n(X; Q) is the induced map on rational homology and tr denotes the trace of the linear map.
 
-The theorem states: if L(f) != 0, then f has at least one fixed point. The contrapositive — if f is fixed-point-free, then L(f) = 0 — is often more useful for showing that certain maps MUST have fixed points. The converse is false: L(f) = 0 does not guarantee that f is fixed-point-free (translations on the torus have L = 0 but the identity is the only fixed-point-free map with L = 0 up to homotopy considerations).
+The theorem states: if L(f) != 0, then f has at least one fixed point. The contrapositive — if f is fixed-point-free, then L(f) = 0 — is often more useful for showing that certain maps MUST have fixed points. The converse is false: L(f) = 0 does not guarantee that f is fixed-point-free (the identity map of the torus has L = 0, yet every point is fixed).
 
 **Recovery of Brouwer's theorem**: for X = D^n (the closed disk), H_0(D^n; Q) = Q and H_k(D^n; Q) = 0 for k > 0. Any map f : D^n -> D^n induces f_* = id on H_0 (since D^n is connected), so L(f) = tr(id) = 1 != 0. Therefore every continuous self-map of the disk has a fixed point — Brouwer's theorem.
 

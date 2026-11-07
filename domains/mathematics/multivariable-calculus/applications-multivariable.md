@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 Multivariable calculus models physical phenomena: optimization (minimal surfaces, maximum profit), work and energy (line integrals), fluid flow and electromagnetism (divergence theorem, Stokes' theorem). These tools unify mathematics with physics and engineering.
 
+## How It's Best Learned
+Check each big theorem on one small example where both sides can be computed by hand. For F = ⟨2x, 2y⟩ = ∇(x² + y²), compute the work from (0,0) to (1,1) along the diagonal and along the L-shaped path through (1,0); both give 2. Then for F = ⟨x, y, z⟩ on the unit sphere, the flux and the divergence integral both give 4π.
+
+## Common Misconceptions
+- The work a force does depends on how long the path is. (For a conservative field, the work depends only on the endpoints. Path length matters for forces such as friction, which are not conservative.)
+- Zero net flux through a closed surface means the field is zero inside. (It means the divergence integrates to zero over the volume. Fluid can flow straight through, or sources and sinks inside can cancel.)
+- If curl F = 0, then F has a potential function. (This needs a simply connected domain. The field ⟨−y, x⟩/(x² + y²) has zero curl away from the origin, yet its circulation around the unit circle is 2π.)
+- Solving ∇f = λ∇g hands you the maximum. (It produces candidate points. You must evaluate f at each candidate and compare to find the maximum and minimum.)
+
 ## Questions
 
 ```yaml

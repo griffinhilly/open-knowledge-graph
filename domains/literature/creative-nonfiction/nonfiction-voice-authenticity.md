@@ -70,6 +70,7 @@ Read multiple essays or memoirs by the same author to identify their distinctive
 
 - question: How might a writer develop an authentic voice? What practices help?
   type: short-answer
+  answer: "Read widely to hear how other voices work, write regularly without imitating, read drafts aloud to catch false-sounding cadence or diction, and revise for honesty so the writer's real perspective shows."
   explanation: Reading widely in nonfiction to encounter diverse voices and understand what makes a voice work. Writing regularly in your own voice without trying to imitate other writers. Paying attention to cadence—how sentences sound when read aloud. Being aware of diction—word choice that reveals character and sensibility. Revising for voice—reading work aloud, noticing where language sounds false or where it hits true. Being honest in writing—letting your actual perspective show rather than trying to sound objective or neutral. Understanding that voice develops over time and practice, not by trying to sound a particular way but by being yourself on the page with increasing authenticity and craft.
 ```
 

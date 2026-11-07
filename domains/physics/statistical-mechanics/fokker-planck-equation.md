@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 The Fokker-Planck equation describes how the probability distribution P(x,t) evolves under stochastic dynamics. Derived from the Langevin equation, it generalizes the diffusion equation to include drift due to external forces, and appears in many contexts from Brownian motion to population dynamics.
 
+## How It's Best Learned
+Work the harmonic case first. Write the equation with A = −kx/γ and D = k_BT/γ, set the probability current J = AP − ∂(DP)/∂x to zero, and integrate to get P ∝ exp(−kx²/2k_BT). Then simulate many Langevin trajectories with small time steps and compare their histogram at several times with the Gaussian solution of the equation.
+
+## Common Misconceptions
+- The Fokker-Planck equation tells you where a particular particle goes. (It evolves the probability density over many realizations. A single random path needs the Langevin equation.)
+- When D depends on x, writing ∂/∂x[D ∂P/∂x] is the same as ∂²(DP)/∂x². (The two differ by an extra drift term proportional to dD/dx. Which form is right depends on the physics and on how the noise in the Langevin equation is interpreted.)
+- Any stationary solution is the Boltzmann equilibrium. (Stationary only means ∂P/∂t = 0. With non-conservative forces, a stationary state can carry a steady probability current and differ from exp(−V/k_BT).)
+
 ## Questions
 
 ```yaml

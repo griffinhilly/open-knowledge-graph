@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Vegetation indices are mathematical combinations of spectral bands designed to enhance the vegetation signal while minimizing confounding factors like soil background, illumination variation, and atmospheric effects. The Normalized Difference Vegetation Index (NDVI) -- calculated as (NIR - Red)/(NIR + Red) -- is the most widely used, exploiting the contrast between chlorophyll absorption in the red band and strong scattering in the near-infrared by leaf mesophyll. NDVI ranges from -1 to +1, with dense healthy vegetation near 0.8-0.9, sparse vegetation around 0.2-0.4, bare soil near 0.1, and water typically negative. Other indices address specific limitations: EVI reduces atmospheric and soil effects, SAVI adjusts for varying soil brightness, and NDWI targets water content.
 
+## How It's Best Learned
+Compute NDVI by hand for three surfaces. Forest with red 0.04 and NIR 0.40 gives 0.36/0.44 = 0.82. Soil with 0.20 and 0.25 gives 0.11. Water with 0.05 and 0.02 gives -0.43. Then halve both forest values as if in shadow: NDVI stays 0.82, while the plain difference NIR - Red drops from 0.36 to 0.18.
+
+## Common Misconceptions
+- NDVI measures how healthy a plant is. (NDVI responds to green leaf area and cover as well as leaf condition, so a sparse healthy crop and a dense stressed one can give similar values.)
+- Negative NDVI marks dead or dying vegetation. (Dead vegetation and dry soil usually give low positive values. Negative values usually mean water or snow.)
+- NDVI from any two sensors can be compared directly. (Band positions, band widths and processing level, such as TOA or surface reflectance, shift the values, so cross-sensor comparisons need adjustment.)
+
 ## Questions
 
 ```yaml

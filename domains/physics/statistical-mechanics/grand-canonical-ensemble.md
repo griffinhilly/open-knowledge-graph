@@ -27,6 +27,14 @@ status: validated
 ## Core Idea
 The grand canonical ensemble allows particle number N to fluctuate while the chemical potential μ, volume V, and temperature T remain fixed. Microstates have weights proportional to exp[−(E − μN)/kT]. This ensemble is natural for systems in contact with a particle reservoir and is essential for describing quantum gases.
 
+## How It's Best Learned
+Start with one fermion orbital of energy ε: it has two states, n = 0 and n = 1, with weights 1 and e^(−(ε−μ)/kT), so ⟨n⟩ = 1/[e^((ε−μ)/kT) + 1]. Repeat for a boson orbital by summing a geometric series. Then compute Z_G for the classical ideal gas and show that the variance of N equals ⟨N⟩, so relative fluctuations shrink as 1/√⟨N⟩.
+
+## Common Misconceptions
+- Since N fluctuates, grand canonical results for a large system differ from canonical ones. (Relative fluctuations in N fall as 1/√⟨N⟩, so the ensembles agree in the thermodynamic limit away from special cases such as phase coexistence.)
+- The chemical potential is an energy per particle, so it must be positive. (For a classical ideal gas, μ = kT ln(nλ³), which is negative whenever the gas is dilute enough that nλ³ < 1.)
+- Any value of μ is allowed for an ideal Bose gas. (μ must stay below the lowest single-particle energy. Otherwise the geometric series for that orbital diverges and its occupation is undefined.)
+
 ## Questions
 
 ```yaml

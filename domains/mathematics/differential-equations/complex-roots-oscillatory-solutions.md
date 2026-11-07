@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 When the characteristic equation has complex conjugate roots r = α ± iβ, the general solution is y = e^(αx)(c₁cos(βx) + c₂sin(βx)). The real part α controls exponential growth or decay of the amplitude; β controls the oscillation frequency. This form naturally captures all oscillatory behavior in physical systems with damping, making complex roots essential for understanding vibrations.
 
+## How It's Best Learned
+Solve y'' + 2y' + 5y = 0 with y(0) = 1, y'(0) = 0 from start to finish. The roots are −1 ± 2i, so y = e^(−x)(c₁cos 2x + c₂sin 2x); y(0) gives c₁ = 1 and y'(0) = −c₁ + 2c₂ = 0 gives c₂ = 1/2. Graph the result with the envelope curves ±e^(−x)√(5)/2 drawn in, so the roles of α and β are visible.
+
+## Common Misconceptions
+- Complex roots mean the ODE has complex solutions. (For real coefficients, the real and imaginary parts of e^((α+iβ)x) are themselves real solutions, so the general real solution uses only cosines, sines and exponentials.)
+- With roots α ± iβ, the solution is e^(βx)(c₁cos αx + c₂sin αx). (The real part α goes in the exponential and the imaginary part β goes inside cosine and sine.)
+- Since y(0) = c₁, the second constant c₂ comes from y'(0) alone. (y'(0) = αc₁ + βc₂, so c₂ depends on both initial conditions unless α = 0.)
+
 ## Questions
 
 ```yaml

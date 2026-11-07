@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 A function f(x, y) is differentiable at (a, b) if it is well-approximated by its tangent plane, with error going to zero faster than distance. Differentiability implies continuity but not vice versa.
 
+## How It's Best Learned
+Test the definition directly with the ratio |f − L| / √(x² + y²) along the line y = x. For f = x² + y² at the origin, L = 0 and the ratio is √2|x|, which goes to 0. For f = √|xy|, which is continuous with both partials 0, the ratio is 1/√2. It does not shrink, so f is not differentiable there.
+
+## Common Misconceptions
+- A continuous function with both partial derivatives is differentiable. (√|xy| is continuous at the origin, and both partials there are 0. Yet along y = x the error stays a fixed fraction of the distance, so no tangent plane works.)
+- If every directional derivative exists, f is differentiable. (x²y/(x⁴ + y²), with value 0 at the origin, has a directional derivative there in every direction. It is not even continuous at the origin, since along y = x² it equals 1/2.)
+- Differentiability requires continuous partial derivatives. (Continuous partials are sufficient but not necessary. (x² + y²) sin(1/√(x² + y²)), with value 0 at the origin, is differentiable there, but its partials are not continuous at the origin.)
+
 ## Questions
 
 ```yaml

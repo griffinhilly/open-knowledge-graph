@@ -17,6 +17,14 @@ status: validated
 ## Core Idea
 The Lax-Milgram theorem guarantees the existence and uniqueness of solutions to abstract variational problems: if a bilinear form a(u,v) on a Hilbert space H is continuous and coercive (a(u,u) ≥ α||u||² for some α > 0), then for every continuous linear functional F on H, there exists a unique u ∈ H with a(u,v) = F(v) for all v ∈ H. This abstract result, when applied to the weak formulations of elliptic PDEs, immediately yields existence and uniqueness of weak solutions. It does not require symmetry of the bilinear form, making it more general than the Riesz representation theorem or variational minimization.
 
+## How It's Best Learned
+Check the hypotheses on one-dimensional forms on H¹₀(0, 1), where every integral can be done by hand. For −u'' + bu' = f with constant b, the convection term gives (b/2)[u²]₀¹ = 0, so a(u, u) = ∫u'² and coercivity holds for every b. Then take −u'' − λu. Coercivity follows from the Poincaré inequality when λ < π², and u = sin(πx) gives a(u, u) = 0 when λ = π².
+
+## Common Misconceptions
+- Coercivity means a(u, u) > 0 for every u ≠ 0. (It requires a uniform bound a(u, u) ≥ α‖u‖² with a fixed α > 0. In infinite dimensions, strict positivity alone does not give a bounded inverse.)
+- If a problem has a unique weak solution, Lax-Milgram must apply. (The theorem gives sufficient conditions. The form for −u'' − λu with λ between π² and 4π² is not coercive, yet the problem is uniquely solvable by the Fredholm alternative.)
+- Coercivity can be checked in any convenient norm. (It must hold in the norm of the space H where the problem is posed. A bound in the L² norm alone does not satisfy the hypothesis on H¹₀.)
+
 ## Questions
 ```yaml
 - question: "What are the two hypotheses on the bilinear form a(u,v) in the Lax-Milgram theorem?"

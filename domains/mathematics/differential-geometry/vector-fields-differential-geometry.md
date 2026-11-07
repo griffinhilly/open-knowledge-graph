@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 A vector field on a smooth manifold M is a smooth assignment of a tangent vector to each point — formally, a smooth section of the tangent bundle. In local coordinates, a vector field looks like X = Xⁱ(x)∂/∂xⁱ where the coefficient functions Xⁱ are smooth. Vector fields act as derivations on the algebra of smooth functions, generating flows (one-parameter families of diffeomorphisms) that describe how points move along the field.
 
+## How It's Best Learned
+Work one field on ℝ² all the way through. Take X = −y∂/∂x + x∂/∂y: solve dx/dt = −y, dy/dt = x to get the flow φt as rotation by angle t, and check that X(x² + y²) = −2xy + 2xy = 0, so circles are integral curves. Then rewrite X in polar coordinates with the chain rule and find X = ∂/∂θ.
+
+## Common Misconceptions
+- A vector field is a function from M to ℝⁿ. (That picture works inside one chart, but it depends on the chart. The vector at p lives in TpM, and its components change by the Jacobian when the coordinates change.)
+- Every manifold carries a vector field with no zeros. (On S² every smooth vector field vanishes somewhere. A closed connected manifold has a nowhere-zero vector field exactly when its Euler characteristic is zero.)
+- The flow of a smooth vector field exists for all time. (On a noncompact manifold integral curves can leave in finite time, as for x²∂/∂x on ℝ. Compactness of M, or compact support of X, guarantees a complete flow.)
+- Composing two vector fields gives another vector field. (XY is a second-order differential operator. The commutator XY − YX is first order, and it is the Lie bracket [X, Y].)
+
 ## Questions
 
 ```yaml

@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 The Higgs boson was discovered at the LHC in 2012 by the ATLAS and CMS experiments, with a mass of 125.1 GeV. Its production and decay rates are consistent with Standard Model predictions: it is a spin-0, CP-even scalar whose couplings to other particles are proportional to their masses. Measuring the Higgs couplings with increasing precision is the central goal of the LHC program and future colliders.
 
+## How It's Best Learned
+Reconstruct a diphoton mass by hand with m² = 2E₁E₂(1 − cos θ). Photons of 100 GeV and 50 GeV with an opening angle near 124° give m ≈ 125 GeV. Then make a table of branching ratio against background for bb̄, γγ, and ZZ* → 4ℓ, and see why the rare channels won. Finish with a log-log plot of coupling against mass.
+
+## Common Misconceptions
+- The Higgs boson gives the universe all of its mass. (It gives mass to the elementary particles. Most of the mass of protons and neutrons, and so of ordinary matter, comes from QCD binding energy.)
+- The Higgs decays mostly to photons, since that is how it was found. (The dominant decay is to bb̄. The γγ mode is about 0.2% of decays but has a clean signature.)
+- A particle with no direct coupling to gluons or photons cannot be produced from gluons or decay to photons. (Both happen through loops: gluon fusion runs through a top-quark loop, and H → γγ through W and top loops.)
+
 ## Questions
 
 ```yaml

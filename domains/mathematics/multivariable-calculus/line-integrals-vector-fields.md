@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 The line integral ∫_C F · dr integrates a vector field along a curve. Parametrically: ∫_C F · dr = ∫_a^b F(r(t)) · r'(t) dt. This represents work done by force F along the path.
 
+## How It's Best Learned
+Compute one field along two paths with the same endpoints. For F = ⟨y, 0⟩ from (0, 0) to (1, 1), the line r(t) = ⟨t, t⟩ gives ∫_0^1 t dt = 1/2, while the parabola r(t) = ⟨t, t²⟩ gives ∫_0^1 t² dt = 1/3. Then sketch F as arrows along each curve and mark where F · r'(t) is positive, zero, or negative.
+
+## Common Misconceptions
+- The line integral of a vector field gives a vector, since F is a vector. (The dot product F · r'(t) is a number at each t, so the integral is a scalar.)
+- Orientation does not matter, just as for scalar line integrals. (Traversing the curve backward flips the sign: ∫_{−C} F · dr = −∫_C F · dr.)
+- A strong field along the path means a large line integral. (Only the component of F along the direction of travel counts; a field perpendicular to the path contributes zero, however strong it is.)
+- Traversing the curve faster with a different parametrization changes the answer. (Any parametrization of the same curve in the same direction gives the same value; a larger r'(t) is offset by a shorter t-interval.)
+
 ## Questions
 
 ```yaml

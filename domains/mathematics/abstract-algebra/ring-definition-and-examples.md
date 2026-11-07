@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 A ring has two operations (addition and multiplication) where (R, +) is an abelian group and multiplication is associative with distributivity over addition. Rings can be commutative or not, with or without unity. Examples: integers, polynomials, matrices, Gaussian integers.
 
+## How It's Best Learned
+Make a table with rows ℤ, 2ℤ, ℤ/6ℤ, ℤ[i], and M₂(ℝ), and columns for commutative, has unity, and has zero divisors. Fill each cell with a reason or a counterexample. For M₂(ℝ), let A have a single 1 in the top-right corner. Then A² = 0, and A times its transpose differs from the transpose times A.
+
+## Common Misconceptions
+- Every ring has a multiplicative identity. (Under the definition used here, unity is optional, and 2ℤ has none. Some textbooks include unity in the definition, so check which convention is in use.)
+- Ring multiplication is commutative, as it is for numbers. (Only addition must commute. In M₂(ℝ), AB and BA can differ.)
+- If ab = 0, then a = 0 or b = 0. (This fails in many rings. In ℤ/6ℤ, 2 · 3 = 0, and in M₂(ℝ) a nonzero matrix can square to 0.)
+
 ## Questions
 
 ```yaml
@@ -53,7 +61,7 @@ A ring has two operations (addition and multiplication) where (R, +) is an abeli
   answer: true
   explanation: "True. Proof using only ring axioms: 0·a = (0 + 0)·a = 0·a + 0·a (by distributivity). Adding the additive inverse of 0·a to both sides (which exists since (R,+) is a group): 0 = 0·a. No additional assumptions are needed. This demonstrates the power of the axiom system — properties that seem obvious often fall out as theorems. The analogous result a·0 = 0 follows from the other distributive law. Zero always 'kills' multiplication, distinguishing the additive identity from any possible multiplicative identity."
 
-- question: "Nearly every ring is expected to contain a multiplicative identity element (unity), just as most ring is expected to contain an additive identity element (zero)."
+- question: "Every ring must contain a multiplicative identity element (unity), just as every ring must contain an additive identity element (zero)."
   type: true-false
   answer: false
   explanation: "False. An additive identity (0) is required — (R, +) must be an abelian group, which mandates an identity element. But a multiplicative identity (1) is *not* required by the ring axioms. Rings possessing a multiplicative identity are called 'rings with unity' or 'unital rings'; those without are valid rings lacking this additional structure. The even integers 2Z are the canonical example: all ring axioms are satisfied, yet no even integer serves as a multiplicative identity. Many important algebraic structures are rings without unity."
@@ -61,7 +69,7 @@ A ring has two operations (addition and multiplication) where (R, +) is an abeli
 - question: "What is a zero divisor in a ring, and why does the ring of integers Z contain no zero divisors?"
   type: short-answer
   answer: "A zero divisor is a nonzero element a in a ring R such that there exists a nonzero element b with ab = 0. In Z, if ab = 0 for integers a and b, then at least one must be zero — this is the fundamental property of integer multiplication. Z is therefore an integral domain (a commutative ring with unity and no zero divisors). By contrast, in Z/6Z, the elements 2 and 3 are both nonzero yet 2·3 = 6 ≡ 0 (mod 6), so both are zero divisors."
-  explanation: "Zero divisors are what distinguish general rings from integral domains, and integral domains from fields. The absence of zero divisors enables cancellation: if ab = ac and a ≠ 0, then b = c (multiply both sides by a's inverse in the appropriate sense). This fails in Z/6Z: 2·3 = 2·0 (mod 6) but 3 ≠ 0. Understanding zero divisors is key to the algebraic hierarchy: fields (every nonzero element has a multiplicative inverse) ⊂ integral domains (no zero divisors, commutative, with unity) ⊂ commutative rings ⊂ rings."
+  explanation: "Zero divisors are what distinguish general rings from integral domains, and integral domains from fields. The absence of zero divisors enables cancellation: if ab = ac and a ≠ 0, then b = c (since a(b − c) = 0 with a ≠ 0 forces b − c = 0). This fails in Z/6Z: 2·3 = 2·0 (mod 6) but 3 ≠ 0. Understanding zero divisors is key to the algebraic hierarchy: fields (every nonzero element has a multiplicative inverse) ⊂ integral domains (no zero divisors, commutative, with unity) ⊂ commutative rings ⊂ rings."
 ```
 
 ## Explainer

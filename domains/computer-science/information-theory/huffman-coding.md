@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Huffman coding is an optimal prefix-free variable-length coding scheme for lossless compression of a known discrete source. It assigns shorter codewords to more probable symbols and longer codewords to less probable ones, achieving the minimum expected codeword length among all prefix codes. The algorithm builds a binary tree bottom-up by repeatedly merging the two least probable symbols. The resulting code satisfies H(X) <= L < H(X) + 1, where L is the average code length and H(X) is the source entropy. Huffman coding is optimal per-symbol; arithmetic coding can outperform it by encoding sequences as a whole.
 
+## How It's Best Learned
+Build two Huffman trees by hand: one for {0.5, 0.25, 0.125, 0.125}, where the code matches entropy, and one for {0.4, 0.3, 0.2, 0.1}, where it does not. Compute L and H(X) for both and compare the gaps. Then decode a short bitstring by walking the tree. Finally, Huffman-code pairs of symbols from a skewed binary source and watch the per-symbol length drop.
+
+## Common Misconceptions
+- A source has one Huffman code. (Ties between equal weights and the choice of 0 or 1 on each branch give several different codes, all with the same minimum expected length.)
+- The most probable symbol always gets a 1-bit codeword. (For {0.3, 0.3, 0.2, 0.2} every symbol gets a 2-bit codeword.)
+- Huffman coding is the best possible lossless code for the source. (It is optimal among symbol-by-symbol prefix codes. Coding blocks of symbols, or using arithmetic coding, can get closer to entropy.)
+- A code that is not prefix-free cannot be decoded. (Some non-prefix codes are still uniquely decodable, though they may need lookahead. They cannot beat the best prefix code on expected length.)
+
 ## Questions
 
 ```yaml

@@ -25,6 +25,14 @@ status: draft
 ## Core Idea
 Thoreau demonstrates how meticulous observation of the natural world becomes a vehicle for philosophical and political argument. His practice of slow, sustained attention to place shows that nonfiction can simultaneously document ecological detail, develop character, and make moral claims about society. Walden models the fusion of scientific observation with transcendental reflection.
 
+## How It's Best Learned
+Read the "Brute Neighbors" chapter of Walden and mark each paragraph O for observation or R for reflection. Watch how the battle of the ants turns into a comment on human war. Then observe one small natural event yourself, such as birds at a feeder. Write a paragraph that moves from exact description to a question about how people live.
+
+## Common Misconceptions
+- Thoreau lived as a hermit cut off from society at Walden. (His cabin was near Concord, and he walked into town and received visitors during his stay.)
+- Walden is a day-by-day diary of his time at the pond. (The book was revised over years and arranges his two-year stay into the cycle of a single year.)
+- Thoreau's nature writing is description, and the philosophy is a separate part. (His reflections grow out of specific observations, so the two are woven together.)
+
 ## Questions
 
 ```yaml
@@ -60,6 +68,7 @@ Thoreau demonstrates how meticulous observation of the natural world becomes a v
 
 - question: Choose a place you know well and observe it over extended time (or imagine doing so). What would slow, sustained observation reveal that quick observation would miss? What philosophical or personal questions might emerge from detailed attention to that place?
   type: short-answer
+  answer: "Sustained observation would reveal seasonal change, ecological relationships, and shifts in how people use the place, which a single visit would miss. Those details can raise questions about change and constancy, solitude and community, and the observer's own relationship to nature."
   explanation: 'Example: A familiar park. Quick observation: ''It''s a nice green space with trees and a pond.'' Sustained observation over seasons: You notice how different species arrive and leave, how humans use the space differently in seasons, how your own mood and perspective change through the year. The park becomes a mirror for reflection—how you feel about solitude, community, change, constancy. You notice ecological relationships (which trees support which insects, how water cycles through the pond). Over time, your place becomes a text to read, and reading it reveals something about yourself and about human relationships with nature. The detail makes the reflection possible.'
 ```
 

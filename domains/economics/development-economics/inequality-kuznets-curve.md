@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Kuznets hypothesized inequality first rises with growth (rural-to-urban migration concentrates capital income in cities), then falls (mass education, political pressure, strong labor unions reduce inequality). Modern evidence is mixed: inequality follows diverse paths across countries. Piketty argues capital concentration dominates in modern economies unless policy redistributes aggressively. Historical divergence and inequality levels matter more than the shape of the transition.
 
+## How It's Best Learned
+Build the two-sector mechanism with numbers. Farm workers earn 1 and factory workers earn 3, with no inequality inside either sector. Let p be the share in factories. The variance of income is 4p(1 − p), which gives 0, 0.75, 1.0, 0.75, and 0 at p = 0, 0.25, 0.5, 0.75, and 1. Then contrast this tidy inverted-U with real country time series.
+
+## Common Misconceptions
+- The Kuznets curve is an established law of development. (It is a hypothesis. Countries tracked over time follow many different inequality paths.)
+- A cross-country inverted-U shows that each country passes through that path. (A cross-section compares different countries at one moment, so it cannot show how any one country changes over time.)
+- Rising inequality during structural change means the poor are getting poorer. (In the two-sector story, inequality rises because workers move into better-paid jobs, and no one's income has to fall.)
+- Piketty's r > g means inequality must rise in every country. (It describes a tendency. Taxes, transfers, and shocks to capital can offset it.)
+
 ## Questions
 
 ```yaml

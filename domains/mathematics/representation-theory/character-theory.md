@@ -31,6 +31,14 @@ status: validated
 ## Core Idea
 The character of a representation ρ: G → GL(V) is the function χ_ρ: G → F defined by χ_ρ(g) = tr(ρ(g)). Characters are class functions (constant on conjugacy classes), are independent of the choice of basis, and — remarkably — determine the representation up to equivalence over ℂ. Character theory reduces the study of representations to the study of these numerical functions, making computation tractable.
 
+## How It's Best Learned
+Start with S₃ acting on ℂ³ by permuting coordinates. The trace of a permutation matrix counts fixed points, so the character is (3, 1, 0) on the classes of e, transpositions and 3-cycles. Subtract the trivial character (1, 1, 1) to get (2, 0, −1), the character of the two-dimensional piece. Then compute the decomposition multiplicities with the inner product and confirm they match.
+
+## Common Misconceptions
+- A character is a homomorphism from G to the nonzero complex numbers. (That holds for one-dimensional representations only. For the two-dimensional representation of S₃, χ((12))² = 0 but χ(e) = 2.)
+- Two representations with the same dimension have the same character. (The dimension is the single value χ(e). The trivial and sign representations of S₃ both have dimension 1 but differ on transpositions.)
+- Characters determine representations over every field. (This uses characteristic zero. Over a field of characteristic p, V and V ⊕ (p copies of the trivial representation) have the same character.)
+
 ## Questions
 
 ```yaml

@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Concentration inequalities quantify how tightly a random variable clusters around its expected value. Unlike the central limit theorem (which gives asymptotic normality), concentration inequalities provide finite-sample, non-asymptotic tail bounds. Hoeffding's inequality bounds the deviation of a sum of bounded independent random variables: P(|mean - E[mean]| >= t) <= 2 * exp(-2nt^2) for variables in [0,1]. McDiarmid's inequality extends this to any function of independent variables with bounded differences. Bernstein's inequality tightens the bound when the variance is small. These are the workhorses of learning theory — every generalization bound, uniform convergence result, and sample complexity argument relies on concentration inequalities.
 
+## How It's Best Learned
+Simulate many batches of n fair coin flips and plot the observed frequency of |mean − 0.5| ≥ t against Hoeffding's 2·exp(−2nt²) and Chebyshev's 1/(4nt²). Repeat with a coin that lands heads with probability 0.01, measuring deviations from 0.01, to see how much room Bernstein's variance term recovers. Then invert the bound by hand: epsilon = 0.05 and delta = 0.05 give n = ln(40)/0.005, about 738 samples.
+
+## Common Misconceptions
+- Hoeffding's bound estimates the actual tail probability. (It is an upper bound that holds for every distribution on the given range. For a particular distribution the true tail can be far smaller.)
+- These inequalities hold for any random variables. (Hoeffding and McDiarmid need independent inputs and a bounded range or bounded differences. Heavy-tailed or dependent data needs other tools.)
+- Halving the tolerance t doubles the number of samples needed. (The required n scales as 1/t², so halving t multiplies it by four.)
+
 ## Questions
 
 ```yaml

@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Raw satellite imagery contains systematic distortions that must be corrected before meaningful analysis. Preprocessing transforms raw sensor data into scientifically usable products through three main steps: radiometric calibration (converting raw digital numbers to physical units of radiance or reflectance), atmospheric correction (removing the atmosphere's contribution to isolate the surface signal), and geometric correction (aligning image pixels to accurate ground coordinates). Without preprocessing, pixel values do not represent true surface properties, multi-date comparisons are invalid, and data from different sensors cannot be combined.
 
+## How It's Best Learned
+Download one Landsat scene as raw digital numbers, as TOA reflectance and as surface reflectance. Sample the same vegetation pixel and a clear deep-water pixel in all three, and plot each as a spectrum. The shortest-wavelength (blue and coastal) bands change most between TOA and surface reflectance because scattering is strongest at short wavelengths. Then overlay the image on a road layer before and after orthorectification.
+
+## Common Misconceptions
+- Digital numbers from two dates or two sensors can be compared directly. (DNs depend on each sensor's gain and calibration, so they must first be converted to radiance or reflectance.)
+- Atmospheric correction subtracts the same amount from every band. (Scattering and absorption vary with wavelength, so the correction differs by band and is usually largest in the blue.)
+- Choosing a resampling method only affects how the image looks. (Nearest neighbor keeps the original pixel values, while bilinear and cubic resampling create new values that change later statistics.)
+
 ## Questions
 
 ```yaml

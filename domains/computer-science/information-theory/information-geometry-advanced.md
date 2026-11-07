@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 Advanced information geometry explores the dually flat structure of statistical manifolds, where exponential families and mixture families sit in geometric duality. The **alpha-connection** (a family of connections parameterized by alpha in [-1, 1]) interpolates between the exponential (e) connection (alpha=+1) and mixture (m) connection (alpha=-1). The KL divergence D_KL(p||q) is the canonical divergence of the dually flat structure, with the **generalized Pythagorean theorem** providing a fundamental decomposition: for any m-projection of p onto a submanifold, D_KL(p||r) decomposes into the KL from p to the projection plus the KL from the projection to r. Natural gradient descent in parameter space becomes a geodesic flow in the manifold, with convergence rates determined by the manifold's curvature. Variational inference can be understood geometrically as alternating projections on dual spaces. These structures have profound implications for optimization, machine learning, and understanding why certain algorithms (EM, natural gradient) converge efficiently.
 
+## How It's Best Learned
+Work on the simplex of 2 x 2 joint distributions. Draw the e-geodesic and the m-geodesic between two points, one in natural parameters and one in probability coordinates, and see that they differ. Then project a correlated joint p onto the family of independent distributions: the closest one in D_KL(p||r) is the product of p's marginals. Check the Pythagorean split numerically for a few other product distributions r.
+
+## Common Misconceptions
+- KL divergence is the distance in this geometry. (KL is the canonical divergence of the dually flat structure, but it is asymmetric and fails the triangle inequality. The Fisher metric gives the local, symmetric notion of distance.)
+- "Flat" under the e-connection means the manifold has zero curvature under the Fisher metric. (Flatness refers to a particular connection. The normal family is e-flat, yet with the Fisher metric it has constant negative curvature, like a hyperbolic plane.)
+- Natural gradient is ordinary gradient descent with a tuned learning rate. (Multiplying by F(theta)^(-1) changes the direction of the step as well as its size. The result is invariant to how the model is parameterized, at least for small steps.)
+- Because each EM step improves the likelihood, EM finds the global maximum. (EM never decreases the likelihood, but it can stop at a local maximum or a saddle point. Different starting points can give different answers.)
+
 ## Questions
 
 ```yaml

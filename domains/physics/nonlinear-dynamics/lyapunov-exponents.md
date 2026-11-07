@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Lyapunov exponents quantify the average exponential rate at which nearby trajectories diverge or converge in each direction. An n-dimensional system has n Lyapunov exponents, ordered λ₁ ≥ λ₂ ≥ ... ≥ λₙ. A positive largest Lyapunov exponent (λ₁ > 0) is the definitive signature of chaos: it means nearby trajectories diverge exponentially on average. The full spectrum of exponents characterizes the attractor's geometry — stretching, neutral, and contracting directions — and determines its fractal dimension.
 
+## How It's Best Learned
+Start with a one-dimensional map, where the exponent is the orbit average of ln|f′(xₙ)|. For x → 4x(1 − x), average ln|4(1 − 2xₙ)| over a long orbit and get a value near ln 2 ≈ 0.693. At r = 3.2 the orbit is a 2-cycle whose multiplier is 4 + 2r − r² = 0.16, giving λ = ½ ln 0.16 ≈ −0.92. Only then move to flows and the renormalized two-trajectory method.
+
+## Common Misconceptions
+- A positive Lyapunov exponent means trajectories fly off to infinity. (On a bounded chaotic attractor, nearby trajectories separate exponentially while folding keeps every trajectory in a bounded region.)
+- The stretching rate at a single point gives the Lyapunov exponent. (The exponent is a long-time average; the local rate varies along the orbit and can be negative in places, as near x = 1/2 for the logistic map at r = 4.)
+- You can measure λ₁ by following two nearby trajectories for as long as you like. (Their separation stops growing once it reaches the size of the attractor, so numerical methods rescale the separation at regular intervals.)
+
 ## Questions
 
 ```yaml
@@ -56,7 +64,7 @@ Lyapunov exponents quantify the average exponential rate at which nearby traject
 - question: "How do the Lyapunov exponents relate to the rate of information loss in a chaotic system?"
   type: short-answer
   answer: "The positive Lyapunov exponents determine the rate of information loss. The sum of all positive exponents equals the Kolmogorov-Sinai entropy, which measures the rate (in bits per unit time) at which the system generates new information (equivalently, destroys information about initial conditions). A system with a larger positive Lyapunov exponent loses predictability faster. This connects dynamical systems theory to information theory: chaos is, quantitatively, the exponential generation of information about which trajectory the system is on."
-  explanation: "The Pesin identity (for certain well-behaved systems) states h_KS = Σ(λᵢ > 0) λᵢ. For the Lorenz system with λ₁ ≈ 0.9 bits/time, the system generates about 0.9 bits of new information per unit time. This means that to maintain a prediction of fixed accuracy, you must continuously supply 0.9 bits/time of new measurement data. If you stop measuring, your prediction degrades exponentially."
+  explanation: "The Pesin identity (for certain well-behaved systems) states h_KS = Σ(λᵢ > 0) λᵢ. For the Lorenz system with λ₁ ≈ 0.9 per unit time (natural-log units), the system generates about 0.9/ln 2 ≈ 1.3 bits of new information per unit time. This means that to maintain a prediction of fixed accuracy, you must continuously supply about 1.3 bits/time of new measurement data. If you stop measuring, your prediction degrades exponentially."
 ```
 
 ## Explainer

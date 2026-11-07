@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 A level curve of f(x, y) is a curve where f(x, y) = c for constant c. Contour maps show families of level curves, like topographic maps where each contour represents constant elevation. Level curves are perpendicular to the gradient.
 
+## How It's Best Learned
+Draw the level curves c = 0, 1, 2, 3, 4 for two functions with the same shapes. For f = √(x² + y²), the circles have radii 0, 1, 2, 3, 4, evenly spaced, so the surface is a cone. For f = x² + y², the radii are 0, 1, √2, √3, 2, crowding together outward, so the bowl steepens. Same shapes with different spacing show that spacing encodes slope.
+
+## Common Misconceptions
+- Closely spaced contours mean f is large there. (Spacing shows how fast f changes, not how big it is. Tight contours mean a steep slope, at any height.)
+- Level curves can never cross. (Curves for different values cannot meet, since f has one value at each point. A single level curve can cross itself: the level set x² − y² = 0 is two lines crossing at a saddle.)
+- A level curve is drawn on the surface itself. (It lives in the xy-plane. It is the set of inputs where f = c, the horizontal slice of the graph at height c projected down.)
+
 ## Questions
 
 ```yaml

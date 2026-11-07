@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 Noether's theorem for fields states that every continuous symmetry of the Lagrangian density yields a conserved current j^mu with partial_mu j^mu = 0. Spacetime translations give energy-momentum conservation; internal symmetries give conserved charges like electric charge.
 
+## How It's Best Learned
+Derive the U(1) current for a complex scalar, then check ∂_μj^μ = 0 by substituting the Klein-Gordon equation. Next apply translations to a real scalar to get T^μν = ∂^μφ∂^νφ − g^μν L. Confirm that T⁰⁰ = (1/2)(φ̇² + (∇φ)² + m²φ²), the energy density you would expect. Doing one internal and one spacetime symmetry side by side shows the same recipe at work.
+
+## Common Misconceptions
+- Every symmetry of the Lagrangian gives a conserved current, including parity. (Noether's theorem needs a continuous symmetry; discrete symmetries such as parity give selection rules, not currents.)
+- The current is conserved for any field configuration. (∂_μj^μ = 0 holds when the equations of motion are satisfied, that is, on-shell.)
+- The Noether current is unique. (You can add a term ∂_νB^μν with B antisymmetric without spoiling conservation or changing the charge; this freedom is used to make the energy-momentum tensor symmetric.)
+- Charge conservation requires the symmetry to be local (gauged). (The global U(1) symmetry is enough to give a conserved charge; gauging it adds the coupling to the photon.)
+
 ## Questions
 
 ```yaml

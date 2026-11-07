@@ -22,6 +22,14 @@ status: draft
 ## Core Idea
 Embodied nonfiction argues that knowledge comes through the body—through physical experience, sensation, and embodied perspective. Essays about illness, disability, pain, or athletic experience draw on bodily knowledge as expertise, challenging the assumption that knowledge is primarily intellectual.
 
+## How It's Best Learned
+Pick a bodily experience you know well, such as a long run, kneading bread, or a recurring headache. Write a short paragraph the way a manual or textbook would describe it. Then write what your body has taught you about it, moment by moment, in sensory terms. Mark each claim in the second version that the first could not contain; those marks show what embodied knowledge adds.
+
+## Common Misconceptions
+- Writing about one's own body is personal narrative, not knowledge. (Embodied nonfiction treats lived physical experience as a source of understanding that can inform readers.)
+- Embodied knowledge belongs only to illness and disability writing. (Athletes, dancers, laborers, and anyone writing closely from physical experience can draw on it.)
+- Embodied knowledge competes with clinical knowledge. (The two answer different questions. A clinical account generalizes about a condition; an embodied account conveys what living with it is like.)
+
 ## Questions
 
 ```yaml
@@ -57,6 +65,7 @@ Embodied nonfiction argues that knowledge comes through the body—through physi
 
 - question: How might an essay about living with a specific physical condition produce knowledge differently than a medical textbook about the same condition? What kind of knowledge does each provide?
   type: short-answer
+  answer: "A medical textbook gives general clinical knowledge: diagnosis, treatment, and prognosis that apply across patients. An embodied essay gives particular, felt knowledge of living with the condition, such as how symptoms feel, how daily life changes, and how others react. Each is a real form of knowledge, answering different questions."
   explanation: 'A medical textbook provides clinical knowledge—diagnosis, treatment, prognosis. It aims for universalizable information about the condition. An embodied nonfiction essay provides knowledge of what it''s like to live with the condition—what pain actually feels like, how it changes daily experience, how others react, how identity shifts, how you adapt and cope. These are not less valuable than clinical knowledge; they''re different. The embodied knowledge account is more particular and felt; the clinical account is more general and abstract. But both are knowledge. In fact, medicine is beginning to recognize that patients'' embodied knowledge—what they report about their experience—is crucial information. Embodied nonfiction makes this knowledge visible and valuable. It says: your lived experience is not anecdotal; it''s a form of understanding.'
 ```
 

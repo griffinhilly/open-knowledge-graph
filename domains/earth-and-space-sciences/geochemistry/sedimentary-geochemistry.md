@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 Sedimentary geochemistry examines the chemical processes and signatures in sediments and sedimentary rocks, from their formation through weathering and transport to their burial and diagenetic transformation. Sediment chemistry records source rock composition (provenance), weathering intensity, redox conditions in the depositional environment, and post-depositional diagenetic modifications. Key tools include major-element weathering indices (CIA, CIW), REE patterns for provenance, redox-sensitive trace elements (Mo, U, V, Re) for paleoenvironmental reconstruction, and stable isotope chemostratigraphy (delta-13C, delta-34S, delta-18O) for global biogeochemical changes. Sedimentary rocks are the archive of Earth's surface conditions through time.
 
+## How It's Best Learned
+Compute the CIA by hand from molar oxide proportions, not weight percent. Molar Al2O3 = 0.15 with CaO*, Na2O, and K2O at 0.05 each gives CIA = 50, like fresh feldspar. Lowering them to 0.01, 0.01, and 0.03 gives 75. Then normalize Mo and U to Al and compare with average shale to get enrichment factors instead of raw concentrations.
+
+## Common Misconceptions
+- The CIA can be calculated from oxide weight percents. (It uses molar proportions, and CaO* must exclude calcium held in carbonate and apatite.)
+- A high CIA in an ancient shale records a warm, humid climate at that time. (Recycling of older weathered sediment, grain-size sorting, and potassium added during diagenesis also shift CIA.)
+- Raw Mo or U concentrations can be compared directly between shales. (Dilution by carbonate, silica, or organic matter changes concentrations, so values are normalized to Al before comparison.)
+- A black shale means the water column above it was anoxic. (Dark organic-rich mud can form where bottom water was oxic and only the sediment below was anoxic. Trace metals and iron speciation are needed to tell these apart.)
+
 ## Questions
 
 ```yaml

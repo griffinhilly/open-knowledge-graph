@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 Redox (reduction-oxidation) reactions involve the transfer of electrons between chemical species and are among the most important processes in Earth systems. The redox state of natural environments -- quantified by Eh (voltage) or pe (electron activity) -- controls the speciation and mobility of many elements (Fe, Mn, S, N, U, As, Cr, Se), governs the stability of minerals (sulfides vs. oxides, reduced vs. oxidized iron minerals), and drives biogeochemical cycling. Earth's surface is fundamentally a redox boundary: the atmosphere is oxidizing (O2-rich), while the subsurface becomes increasingly reducing with depth as oxygen is consumed by organic matter decomposition and mineral reactions. This redox gradient drives much of Earth's surface chemistry.
 
+## How It's Best Learned
+Build the iron Eh-pH diagram one line at a time. Start with the stability limits of water. Add the Fe3+/Fe2+ boundary, which is flat at about 0.77 V because no H+ takes part. Then add the sloping Fe(OH)3/Fe2+ boundary, where H+ does take part. Convert between scales as you go. At 25 C, pe = Eh/0.0592 V, so 0.59 V is pe 10.
+
+## Common Misconceptions
+- Redox couples in a natural water are in equilibrium with each other. (Many electron transfers are slow without microbes. Methane can persist in oxic water and ammonium can persist with nitrate.)
+- A reducing environment has used up its oxidants. (Marine sediments in the sulfate reduction zone can hold plenty of sulfate while being strongly reducing.)
+- Redox state and pH are separate variables that do not interact. (Many half-reactions consume or release H+, so their boundaries slope on an Eh-pH diagram.)
+- Oxidation means adding oxygen. (Oxidation is the loss of electrons. Fe2+ can be oxidized to Fe3+ by other acceptors such as nitrate.)
+
 ## Questions
 
 ```yaml

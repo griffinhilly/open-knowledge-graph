@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Rademacher complexity measures the ability of a hypothesis class to fit random noise. Given a sample of n points, the empirical Rademacher complexity is the expected maximum correlation between functions in the class and random +/-1 labels (Rademacher variables). A class that can correlate highly with random labels is overly expressive and will need more data to generalize. Unlike VC dimension, Rademacher complexity is data-dependent — it adapts to the actual distribution, often yielding tighter generalization bounds.
 
+## How It's Best Learned
+Compute it exactly for a tiny case. Take three points on a line and the class of thresholds that label points +1 at or above t and -1 below. List all 8 sign vectors and find the best correlation for each; the empirical complexity comes out to 2/3. Compare with 1 for all functions and 0 for a single function, then simulate larger n.
+
+## Common Misconceptions
+- Rademacher complexity is a fixed property of the hypothesis class, like VC dimension. (The empirical version depends on the sample. The same class can have different values on different datasets, which is the source of its data dependence.)
+- Rademacher complexity measures how well the class fits the true labels. (The labels in the definition are random signs drawn independently of the data. The true labels play no role in computing it.)
+- A high value on a dataset proves that a particular trained model has overfit. (It measures the capacity of the whole class on that sample and gives an upper bound on the generalization gap. A specific model can still generalize well.)
+- Rademacher bounds are tighter than VC bounds in every case. (They are at most of order sqrt(d/n) for a class of VC dimension d and can be much smaller on structured data. In the worst case they give about the same rate.)
+
 ## Questions
 
 ```yaml

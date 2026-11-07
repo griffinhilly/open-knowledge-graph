@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 The index of a fixed point measures how many times the vector field rotates as you traverse a small closed curve around it. Nodes, spirals, and centers all have index +1; saddle points have index -1. The index is a topological invariant — it can't change under continuous deformation of the vector field. The index of any closed curve equals the sum of the indices of the fixed points enclosed, and any limit cycle must enclose fixed points whose indices sum to +1. These constraints restrict what phase portrait configurations are topologically possible.
 
+## How It's Best Learned
+Draw a unit circle and, at eight evenly spaced points, sketch the vector field for three systems: (x, y), (x, −y) and (x² − y², 2xy). Count the net turns of the arrows over one lap: +1, −1 and +2. Check the first two against the sign of det(Df). Then use the counts to test proposed phase portraits, such as a limit cycle drawn around a single saddle.
+
+## Common Misconceptions
+- A saddle has index −1 because it is unstable. (Unstable nodes and spirals have index +1; the index comes from how the field rotates around the point, not from its stability.)
+- Every fixed point has index +1 or −1. (Those are the values for nondegenerate fixed points; degenerate ones can have other indices, such as +2 for the field (x² − y², 2xy).)
+- The index of a closed curve depends on its size and shape. (It depends only on the fixed points it encloses, so the curve can be deformed freely as long as it does not cross a fixed point.)
+- A limit cycle can encircle any combination of fixed points. (The enclosed indices must sum to +1, so, for example, a limit cycle cannot surround a lone saddle.)
+
 ## Questions
 
 ```yaml
@@ -33,7 +42,7 @@ The index of a fixed point measures how many times the vector field rotates as y
     - "It must have index +1 (a node, spiral, or center) — but three fixed points with indices -1, -1, +1 sum to -1, not +1. So this configuration is impossible with only these three"
     - "It could be any type of fixed point — the index theorem places no constraints on enclosed fixed points"
   answer: 2
-  explanation: "The index of a limit cycle is +1, and it must equal the sum of indices of enclosed fixed points. Two saddles contribute -2, and a single node/spiral contributes +1, giving a total of -1 ≠ +1. This configuration is impossible. You would need at least two nodes/spirals (contributing +2) plus two saddles (-2) to reach the required sum of +1... but that requires a fourth fixed point. Index theory thus constrains which phase portrait configurations can support limit cycles."
+  explanation: "The index of a limit cycle is +1, and it must equal the sum of indices of enclosed fixed points. Two saddles contribute -2, and a single node/spiral contributes +1, giving a total of -1 ≠ +1. This configuration is impossible. With the two saddles (-2) you would need at least three nodes/spirals (+3) to reach the required sum of +1, which takes five fixed points. Index theory thus constrains which phase portrait configurations can support limit cycles."
 
 - question: "The index of an isolated fixed point can be determined from the eigenvalues of the Jacobian."
   type: true-false
@@ -49,11 +58,11 @@ The index of a fixed point measures how many times the vector field rotates as y
   type: multiple-choice
   options:
     - "Yes — two stable nodes can coexist with all trajectories going to one or the other"
-    - "No — two stable nodes (each index +1) require at least one saddle (index -1) between them to separate their basins of attraction"
+    - "No — the two basins must be separated by a boundary of trajectories that go to neither node, and in a typical portrait that boundary is the stable manifold of a saddle (index -1)"
     - "Yes, but only if the system is non-autonomous"
     - "No — a planar system can have at most one stable fixed point"
   answer: 1
-  explanation: "On the plane (not a closed surface), the index theorem doesn't require a global sum constraint. However, the topological structure of basins of attraction forces a saddle between any two stable nodes — the basins must be separated by a boundary, and that boundary must contain a saddle point (or extend to infinity in a specific way). Generically, two attractors in the plane require a saddle between them whose stable manifold forms the separatrix. This is a practical consequence of the flow topology, even though the formal index theorem on the (non-compact) plane is more subtle."
+  explanation: "On the plane (not a closed surface), the index theorem doesn't require a global sum constraint. However, the topological structure of basins of attraction forces a boundary between any two stable nodes — the basins must be separated by a boundary, and that boundary must contain a saddle point (or extend to infinity in a specific way). Generically, two attractors in the plane require a saddle between them whose stable manifold forms the separatrix. This is a practical consequence of the flow topology, even though the formal index theorem on the (non-compact) plane is more subtle."
 ```
 
 ## Explainer

@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 A line in 3D is parametrized as r(t) = r₀ + td (position plus scalar multiple of direction vector). A plane with normal vector n = ⟨a, b, c⟩ passing through (x₀, y₀, z₀) has equation a(x−x₀) + b(y−y₀) + c(z−z₀) = 0.
 
+## How It's Best Learned
+Find a plane through three points and check every step. For P(1, 0, 0), Q(0, 2, 0), R(0, 0, 3), the vectors PQ = ⟨−1, 2, 0⟩ and PR = ⟨−1, 0, 3⟩ have cross product ⟨6, 3, 2⟩. The plane is 6x + 3y + 2z = 6. Plug in all three points to confirm. Its distance from the origin is 6/√49 = 6/7.
+
+## Common Misconceptions
+- The parameter t measures distance along the line. (It does only when d is a unit vector; otherwise each unit of t moves |d| units of distance.)
+- Planes with proportional normals are the same plane. (Proportional normals make the planes parallel; they coincide only if the whole equations are multiples of each other.)
+- Any two vectors in the plane give a normal through their cross product. (The two vectors must not be parallel; parallel vectors have a zero cross product.)
+- The constant d in ax + by + cz = d is the distance from the origin to the plane. (The distance is |d| / |n|, which equals |d| only when n is a unit vector.)
+
 ## Questions
 
 ```yaml
@@ -68,7 +77,7 @@ A line in 3D is parametrized as r(t) = r₀ + td (position plus scalar multiple 
 
 ## Explainer
 
-In 2D, a line is fully described by a slope and a point — but in 3D, there is no single "slope." Instead, the natural description of a line uses the idea from your study of vectors: start at a known point and walk in a fixed direction. The **parametric equation** of a line is r(t) = r₀ + t**d**, where r₀ is the position vector of a point on the line and **d** is the direction vector. As t ranges over all real numbers, r(t) traces out the entire line. The parameter t plays the role of a signed distance along the line. In component form: x = x₀ + at, y = y₀ + bt, z = z₀ + ct, where ⟨a, b, c⟩ = **d**. Two parallel lines have proportional direction vectors; two intersecting lines share a point for some pair of t values.
+In 2D, a line is fully described by a slope and a point — but in 3D, there is no single "slope." Instead, the natural description of a line uses the idea from your study of vectors: start at a known point and walk in a fixed direction. The **parametric equation** of a line is r(t) = r₀ + t**d**, where r₀ is the position vector of a point on the line and **d** is the direction vector. As t ranges over all real numbers, r(t) traces out the entire line. When **d** is a unit vector, the parameter t is the signed distance along the line. In component form: x = x₀ + at, y = y₀ + bt, z = z₀ + ct, where ⟨a, b, c⟩ = **d**. Two parallel lines have proportional direction vectors; two intersecting lines share a point for some pair of t values.
 
 A plane in 3D is characterized not by a direction of travel but by a **normal vector** — a vector perpendicular to every vector lying in the plane. This is where the cross product becomes essential: if you know two vectors **u** and **v** that lie in the plane, then **n** = **u** × **v** is normal to both and hence to the plane. Given a normal vector **n** = ⟨a, b, c⟩ and a point (x₀, y₀, z₀) in the plane, any other point (x, y, z) in the plane satisfies: the vector from (x₀, y₀, z₀) to (x, y, z) must be perpendicular to **n**. Writing this dot product condition gives the **point-normal form**: a(x−x₀) + b(y−y₀) + c(z−z₀) = 0, which expands to ax + by + cz = d for some constant d. The coefficients of x, y, z in the plane equation are precisely the components of the normal vector.
 

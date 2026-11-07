@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Image classification assigns each pixel (or object) in a remote sensing image to a land cover or land use category based on its spectral, spatial, or temporal characteristics. Supervised classification trains an algorithm on labeled samples (training data) where the analyst has identified known examples of each class; the algorithm then extends these labels to the entire image. Unsupervised classification groups pixels by spectral similarity without prior labels, and the analyst interprets the groups afterward. Modern approaches include object-based classification (grouping pixels into meaningful segments first), deep learning (convolutional neural networks), and multi-temporal classification using time-series phenology.
 
+## How It's Best Learned
+Classify one Landsat scene twice: once with K-means and once with a random forest trained on polygons you digitize. Then read a confusion matrix by hand. If 50 reference wetland pixels include 20 mapped as wetland, producer's accuracy is 20/50 = 40%. If the map's 25 wetland pixels include those 20, user's accuracy is 20/25 = 80%.
+
+## Common Misconceptions
+- A high overall accuracy means every class is mapped well. (A rare class can have poor accuracy while the overall figure stays high, so read the per-class producer's and user's accuracies.)
+- Checking the classifier against its training pixels measures map accuracy. (Training pixels give an inflated score. Accuracy needs independent reference samples, ideally from separate locations.)
+- Each cluster from an unsupervised classification is one land cover class. (Clusters are spectral classes. One land cover class can split into several clusters, and one cluster can mix several classes.)
+
 ## Questions
 
 ```yaml

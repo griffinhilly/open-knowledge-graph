@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 Effective field theory (EFT) is the framework for describing physics at a given energy scale without knowing the complete theory at higher energies. You write the most general Lagrangian consistent with the symmetries, organized by operator dimension. Higher-dimension operators are suppressed by powers of the high-energy scale Lambda, making their effects systematically small at low energies.
 
+## How It's Best Learned
+Integrate out the W boson by hand. Expand the propagator as 1/(q² − M_W²) = −(1/M_W²)(1 + q²/M_W² + …) and match the leading term to G_F/√2 = g²/(8M_W²). With g ≈ 0.65 and M_W ≈ 80.4 GeV you should get G_F ≈ 1.2 × 10⁻⁵ GeV⁻². The next term in the expansion is a dimension-8 operator, suppressed by a further q²/M_W².
+
+## Common Misconceptions
+- A non-renormalizable theory cannot make predictions. (At energies far below Λ only finitely many operators matter at a given precision, so the theory predicts to any chosen accuracy once their coefficients are measured.)
+- Low-energy predictions depend on every detail of the high-energy theory. (The unknown physics enters only through a set of Wilson coefficients, which can be fit from data or computed by matching if the full theory is known.)
+- Higher-dimension operators are negligible at all energies. (Their effects grow like powers of E/Λ, so they become as important as the leading terms as E approaches Λ, where the EFT breaks down.)
+
 ## Questions
 
 ```yaml

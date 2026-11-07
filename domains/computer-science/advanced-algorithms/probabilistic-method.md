@@ -28,6 +28,15 @@ status: validated
 ## Core Idea
 The probabilistic method, pioneered by Erdos, proves the existence of combinatorial objects with desired properties by showing that a random object has the property with positive probability. If Pr[X has property P] > 0, then an object with property P must exist. The first moment method (linearity of expectation) shows that if the expected number of "bad" substructures is less than 1, a good object exists. The second moment method (Chebyshev/Paley-Zygmund) strengthens this by showing concentration. The alteration method generates a random object, then deterministically fixes any defects. These techniques yield otherwise-inaccessible bounds on Ramsey numbers, chromatic numbers, set systems, and circuit complexity, and connect directly to derandomization when the probabilistic argument can be made constructive.
 
+## How It's Best Learned
+Redo Erdos's Ramsey argument with numbers: fix k = 10, compute C(n, 10) * 2^(1-45) for several n, and find where it drops below 1. Then run the alteration argument for independent sets on a specific graph, choosing p and computing the expected size after deletions. Comparing a first-moment proof with a second-moment proof on one random-graph question, such as whether G(n, p) contains a triangle, shows what each method can and cannot show.
+
+## Common Misconceptions
+- If a random object is good with positive probability, it is easy to find one by sampling. (The probability can be tiny, so sampling may take exponentially many tries. Efficient construction needs a separate argument, such as a high success probability or conditional expectations.)
+- E[X] large means X is positive with high probability. (A large mean can come from rare outcomes where X is huge. The second moment method is needed to show that X is rarely 0.)
+- E[X] < 1 for the number of bad structures means a random object is usually good. (Markov's inequality guarantees only Pr[X = 0] >= 1 - E[X]. If E[X] is close to 1, the chance that a random object is good can be small.)
+- The probabilistic method needs a uniform distribution. (Any distribution on the objects works, and choosing it well, such as tuning p in the alteration method, is often the main step.)
+
 ## Questions
 
 ```yaml

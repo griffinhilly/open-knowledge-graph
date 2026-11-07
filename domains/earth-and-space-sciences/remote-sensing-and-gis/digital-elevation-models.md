@@ -28,6 +28,15 @@ status: validated
 ## Core Idea
 A Digital Elevation Model (DEM) is a gridded representation of terrain elevation where each cell stores a height value. DEMs come in two main variants: Digital Terrain Models (DTM) represent the bare-earth surface with vegetation and buildings removed, while Digital Surface Models (DSM) include the tops of all features. DEMs are derived from multiple sources -- stereo photogrammetry, InSAR, LiDAR, and GPS surveys -- each with different accuracy, resolution, and coverage characteristics. DEMs underpin slope analysis, watershed delineation, viewshed computation, flood modeling, orthorectification of imagery, and countless other spatial analyses.
 
+## How It's Best Learned
+Work one slope by hand: if elevation rises 15 m across a 30 m cell, slope is 15/30 = 50% or about 26.6°. Then subtract a LiDAR DTM from a DSM of the same forest or town. The result is a height model of trees and buildings, which shows the DTM and DSM difference directly. Compute hillshade and flow accumulation next.
+
+## Common Misconceptions
+- DEM, DTM and DSM are interchangeable names. (A DTM is bare earth and a DSM includes canopy and buildings. DEM is the general term, so you need to check which surface a dataset holds.)
+- A DEM with 30 m cells is accurate to 30 m in height. (Cell size is horizontal resolution. Vertical accuracy is a separate measure and depends on the sensor, terrain and land cover.)
+- Global radar DEMs show the ground under forests. (C-band radar such as SRTM's returns mostly from within or near the canopy, so in forests the surface sits above the ground.)
+- Higher-resolution DEMs give better results for every analysis. (Fine DEMs can add noise, small pits and data volume, so the best cell size depends on the scale of the process studied.)
+
 ## Questions
 
 ```yaml

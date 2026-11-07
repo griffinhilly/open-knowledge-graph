@@ -28,6 +28,15 @@ status: validated
 ## Core Idea
 Link-cut trees, introduced by Sleator and Tarjan (1983), maintain a forest of rooted trees under link (add an edge), cut (remove an edge), and path queries (find minimum/aggregate on root-to-node path), all in O(log n) amortized time. The data structure represents each tree as a collection of preferred paths (heavy paths chosen dynamically based on access patterns), each stored as a splay tree keyed by depth. The access operation splays a node to the root of its auxiliary tree and restructures preferred paths, making it the foundation for all other operations. Link-cut trees achieve O(m log n) total time for max-flow algorithms (by maintaining the residual tree structure) and are essential for dynamic graph algorithms, making them one of the most powerful data structures in advanced algorithm design.
 
+## How It's Best Learned
+Draw a represented tree of about ten nodes and mark one preferred path decomposition. Beside it, draw the auxiliary splay trees and path-parent pointers. Then perform access on a deep node step by step, redrawing both pictures after each splay and path switch. Doing link, cut and find-root as short sequences built on access comes next, followed by the heavy-light argument that bounds preferred-child changes.
+
+## Common Misconceptions
+- The auxiliary splay trees have the same shape as the represented tree. (Each splay tree stores one preferred path keyed by depth, and its shape changes with every splay. The represented tree's structure is recovered from in-order order plus path-parent pointers.)
+- Preferred paths are fixed heavy paths. (Preferred children change with each access, following the most recent access. Heavy and light edges appear only in the analysis that bounds how often preferred children change.)
+- Each link-cut operation runs in O(log n) time. (In the splay-tree version, the bound is amortized. A single access can take much longer, and the total over a sequence of operations is what is bounded.)
+- Link can join any two nodes. (Link(u, v) requires u to be the root of its tree and v to be in a different tree, so the result stays a forest.)
+
 ## Questions
 
 ```yaml

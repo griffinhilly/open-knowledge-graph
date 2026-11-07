@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Fano's inequality relates the probability of error in estimating a random variable X from an observation Y to the conditional entropy H(X|Y). Specifically, if X-hat = g(Y) is any estimator of X from Y with error probability P_e = Pr(X-hat != X), then H(X|Y) <= H(P_e) + P_e * log(|X| - 1), where H(P_e) is the binary entropy. Equivalently, low error probability implies low conditional entropy: if you can estimate X well from Y, then Y must carry a lot of information about X. Fano's inequality is the primary tool for proving converse (impossibility) results in information theory, including the converse of the channel coding theorem.
 
+## How It's Best Learned
+Prove the inequality once using an error indicator E = 1 if the guess is wrong: expand H(E, X | Y) two ways with the chain rule. Each term then maps to a piece of the bound. Next, plug in numbers, such as |X| = 8 with P_e = 0.01 and then P_e = 0.3, to feel how the bound tightens. Finally, rearrange it into the lower bound on P_e used in the channel coding converse.
+
+## Common Misconceptions
+- Fano's inequality gives a lower bound on H(X|Y). (It gives an upper bound on H(X|Y) in terms of P_e. Rearranged, it gives a lower bound on the error probability.)
+- Fano's inequality only applies to the best estimator. (It holds for every estimator X-hat = g(Y), so it bounds the error of the best one too.)
+- The log(|X| - 1) term means the bound gets weaker as the alphabet grows, so Fano is useless for long messages. (In the coding converse, |X| = 2^(nR) and the term grows with n, but so does H(M|Y^n). Dividing through by n gives a useful bound on the rate.)
+
 ## Questions
 
 ```yaml

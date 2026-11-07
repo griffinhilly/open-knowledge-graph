@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 The representation ring R(G) (also called the Green ring or character ring) is the Grothendieck group of finite-dimensional representations of G, with addition from direct sum and multiplication from tensor product. Its elements are formal differences of isomorphism classes of representations — "virtual representations" — and it is a commutative ring where the irreducible representations form a ℤ-basis. The character map χ: R(G) → Class(G, ℂ) embeds R(G) as a subring of class functions, making R(G) a bridge between representation theory, K-theory, and algebraic number theory.
 
+## How It's Best Learned
+Write out the multiplication table of R(S₃) in the basis 1, ε, σ (trivial, sign, two-dimensional), using products of characters on the classes e, (12), (123). You get ε² = 1, εσ = σ and σ² = 1 + ε + σ, since (4, 0, 1) = (1, 1, 1) + (1, −1, 1) + (2, 0, −1). Then look at σ − 1 − ε, a nonzero virtual representation with character (0, 0, −3) and dimension 0.
+
+## Common Misconceptions
+- Every element of R(G) is a representation. (Elements are integer combinations of irreducibles with possibly negative coefficients. In R(S₃), σ − 1 − ε is nonzero but has virtual dimension 0.)
+- The character map sends R(G) onto all class functions. (Its image is the lattice of integer combinations of irreducible characters. Half the trivial character is a class function outside that image.)
+- R(G) is noncommutative when G is nonabelian. (V ⊗ W ≅ W ⊗ V for any representations, so R(G) is commutative for every group G.)
+
 ## Questions
 
 ```yaml

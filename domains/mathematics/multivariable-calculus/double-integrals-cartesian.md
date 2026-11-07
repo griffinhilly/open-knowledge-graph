@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 The double integral ∬_R f(x,y) dA gives the volume under z = f(x,y) above region R. For non-rectangular regions, bounds depend on neighboring variables: ∫_a^b ∫_{g₁(x)}^{g₂(x)} f(x,y) dy dx.
 
+## How It's Best Learned
+Sketch the region and draw one typical slice before writing any limits. Read the slice's endpoints off the boundary curves. Practice on the region between y = x² and y = x: vertical slices give ∫₀¹ (x − x²) dx = 1/6. Horizontal slices run from x = y to x = √y and give ∫₀¹ (√y − y) dy = 1/6. Matching areas confirm both setups.
+
+## Common Misconceptions
+- The outer integral can have limits that depend on the inner variable. (The outer limits must be constants; only the inner limits may depend on the outer variable.)
+- The curve that looks "bigger," such as x² compared with x, is the upper boundary. (You need to check which curve is on top over the interval; on [0, 1], x lies above x², and this reverses outside that interval.)
+- Reversing the order means swapping the two sets of limits. (You must re-describe the region from the sketch, which usually gives new limit functions.)
+- A double integral over a region always gives a volume. (With f = 1 it gives area, with a density it gives mass, and with f taking negative values it gives a signed volume.)
+
 ## Questions
 
 ```yaml

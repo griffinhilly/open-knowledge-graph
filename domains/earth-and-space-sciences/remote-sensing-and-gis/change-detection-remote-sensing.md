@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Change detection identifies differences in the state of a landscape between two or more dates by comparing remote sensing images acquired at different times. Techniques range from simple image differencing (subtracting one date from another) to post-classification comparison (classifying each date independently and comparing the maps) to advanced time-series analysis that tracks continuous change trajectories. Reliable change detection requires that differences between images reflect actual surface change rather than artifacts from atmospheric conditions, sensor calibration, illumination geometry, or phenological cycles. This makes preprocessing and careful image selection critical.
 
+## How It's Best Learned
+Difference two anniversary-date NDVI images of one small area, then pick a threshold and see how the changed area grows or shrinks as you move it. Next, run post-classification comparison on the same pair and build the from-to matrix. Finally, difference a summer image against a winter image of an unchanged forest to see how much false change phenology alone produces.
+
+## Common Misconceptions
+- Any pixel that differs between two dates has changed on the ground. (Differences also come from haze, sun angle, sensor drift, misregistration and season, so a difference is a candidate for change until those causes are ruled out.)
+- Post-classification comparison is as accurate as the two maps it uses. (Errors from both dates combine. Two maps that are each 90% accurate with independent errors give a change map of roughly 81% accuracy.)
+- More images make change detection harder because there is more data to compare. (Dense time series help, because a model fitted through many dates can separate seasonal cycles and noisy single dates from real trends and breaks.)
+
 ## Questions
 
 ```yaml

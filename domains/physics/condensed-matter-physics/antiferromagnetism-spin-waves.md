@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 In antiferromagnets, the exchange coupling J < 0 favors antiparallel alignment of neighboring spins, producing a state with zero net magnetization but long-range alternating order below the Neel temperature T_N. The order parameter is the staggered magnetization (sublattice difference). Spin waves in both ferromagnets and antiferromagnets are quantized collective excitations called magnons. Ferromagnetic magnons have a quadratic dispersion omega proportional to k^2, while antiferromagnetic magnons have a linear dispersion omega proportional to k (like phonons). Magnons are bosons and their thermal population determines the temperature dependence of the magnetization.
 
+## How It's Best Learned
+Treat a one-dimensional chain twice in linear spin-wave theory: once with ferromagnetic coupling and once with antiferromagnetic coupling and two sublattices. Linearize the precession equations and solve for ω(k). The ferromagnet gives ω ∝ 1 − cos(ka), which is quadratic at small k. The antiferromagnet gives ω ∝ |sin(ka)|, which is linear. Then compare both with a measured neutron-scattering dispersion.
+
+## Common Misconceptions
+- Zero net magnetization means an antiferromagnet does not respond to a magnetic field. (It has a finite susceptibility, which shows a cusp at T_N; below T_N the response depends on whether the field is parallel or perpendicular to the ordered spins.)
+- The alternating up-down Néel state is the exact quantum ground state. (The transverse exchange terms flip neighboring spin pairs, so the true ground state has quantum fluctuations that reduce the sublattice magnetization.)
+- Magnons are particles that exist apart from the spins, like electrons added to the crystal. (A magnon is a quantized collective precession of the existing spins; it carries one unit of spin change.)
+- Antiferromagnetic magnons are linear because antiferromagnetic coupling is stronger. (The difference comes from the nature of the ordered state: the staggered magnetization does not commute with the Hamiltonian, while the ferromagnet's total spin does.)
+
 ## Questions
 
 ```yaml

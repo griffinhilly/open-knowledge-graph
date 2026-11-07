@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Loop diagrams arise at higher orders in perturbation theory and involve integrals over undetermined internal momenta. These integrals often diverge: ultraviolet (UV) divergences come from high momenta (short distances) and infrared (IR) divergences from low momenta (long distances). Understanding and controlling these divergences is essential for extracting finite, physical predictions.
 
+## How It's Best Learned
+Power-count the three one-loop QED diagrams with D = 4L − 2I_B − I_F. The electron self-energy gives D = 1, vacuum polarization D = 2, and the vertex D = 0. Then evaluate a model integral with a cutoff, ∫d⁴k_E/(k_E² + m²)², and see the ln Λ appear. For the infrared side, give the photon a small mass λ and watch the vertex correction depend on ln λ.
+
+## Common Misconceptions
+- A diagram with superficial degree D diverges exactly like Λ^D. (D is an upper estimate; symmetries can soften it, and gauge invariance turns the quadratic estimate for vacuum polarization into a logarithm.)
+- Infrared divergences are removed by renormalization, just like ultraviolet ones. (They cancel when virtual corrections are combined with real soft-photon emission in an inclusive cross section.)
+- A divergent loop integral means some measurable quantity is infinite. (The divergences are absorbed into the bare parameters, and physical observables expressed in terms of measured mass and charge come out finite.)
+
 ## Questions
 
 ```yaml
@@ -29,11 +37,11 @@ Loop diagrams arise at higher orders in perturbation theory and involve integral
   type: multiple-choice
   options:
     - "Because the integrand oscillates without damping"
-    - "At large k, the integrand falls off as 1/k^2 while the four-dimensional integration measure grows as k^3 dk — the integral diverges logarithmically because 1/k^2 times k^3 = k grows without bound"
+    - "At large k, the integrand falls off as 1/k^3 while the four-dimensional integration measure grows as k^3 dk — power counting gives a linear divergence, and symmetric integration softens it to a logarithmic one"
     - "Because the electron propagator in the loop has a pole on the real axis"
     - "Because the photon is massless, creating an infrared divergence"
   answer: 1
-  explanation: "In four spacetime dimensions, the loop integration measure is d^4k ~ k^3 dk (in spherical coordinates). The electron self-energy has a fermion propagator (~1/k) and a photon propagator (~1/k^2) in the loop, giving an integrand that falls as 1/k^3 at large k. Combined with the measure k^3 dk, the integral goes as dk/k ~ ln(k), which diverges logarithmically as k -> infinity. This is an ultraviolet divergence — it comes from arbitrarily high momenta (equivalently, arbitrarily short distances). Different diagrams have different power-counting behavior; some diverge quadratically, some logarithmically, and some are finite."
+  explanation: "In four spacetime dimensions, the loop integration measure is d^4k ~ k^3 dk (in spherical coordinates). The electron self-energy has a fermion propagator (~1/k) and a photon propagator (~1/k^2) in the loop, giving an integrand that falls as 1/k^3 at large k. Combined with the measure k^3 dk, power counting gives an integral of dk, a linear divergence (superficial degree D = 1). The leading term is odd in k and vanishes under symmetric integration, so the actual divergence goes as dk/k ~ ln(k), a logarithmic divergence as k -> infinity. This is an ultraviolet divergence — it comes from arbitrarily high momenta (equivalently, arbitrarily short distances). Different diagrams have different power-counting behavior; some diverge quadratically, some logarithmically, and some are finite."
 
 - question: "Ultraviolet divergences indicate that QFT is mathematically inconsistent and must be replaced by a fundamentally different theory at high energies."
   type: true-false

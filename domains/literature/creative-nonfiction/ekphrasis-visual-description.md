@@ -22,6 +22,14 @@ status: draft
 ## Core Idea
 Ekphrasis—literary description of visual art—allows nonfiction writers to explore artworks while using description as a vehicle for broader reflection. An ekphrastic essay might begin with close attention to a painting and spiral into personal memory, history, or philosophy, showing how attention to visual detail generates meaning.
 
+## How It's Best Learned
+Spend twenty minutes with one artwork, in person or in a high-resolution image. First write only description: color, composition, gesture, what sits at the edges. Then underline the detail that held you longest and write outward from it into a memory or a question. Finally, compare your page with the museum label for the same work to see how ekphrasis differs from explanation.
+
+## Common Misconceptions
+- Ekphrasis means describing an artwork completely and exactly. (Ekphrastic writers select the details that spark reflection, so two essays on one painting can describe quite different things.)
+- Writing about art requires art-historical expertise. (Expertise can enrich the essay, but the form starts from close looking and honest response.)
+- Once the essay turns to memory or philosophy, the artwork no longer matters. (Effective ekphrasis keeps returning to the visual detail that generated the reflection.)
+
 ## Questions
 
 ```yaml
@@ -57,6 +65,7 @@ Ekphrasis—literary description of visual art—allows nonfiction writers to ex
 
 - question: How might an ekphrastic nonfiction piece about a specific painting work differently than a formal art criticism essay about the same painting? What does each form offer?
   type: short-answer
+  answer: "Formal art criticism places the painting in art history and analyzes its technique, composition, and context, staying focused on the work. An ekphrastic piece uses close description as a starting point and follows it into the writer's memory, questions, or reflection. Criticism explains the artwork; ekphrasis uses it as a window onto wider experience."
   explanation: A formal art criticism essay would analyze the painting's place in art history, discuss technique and composition, perhaps interpret meaning based on the artist's intention and context. An ekphrastic essay might also do some of this, but its primary work is using attention to the visual as a launching point for reflection. Where a critical essay stays focused on the artwork and its historical/technical significance, an ekphrastic essay might spiral into the writer's personal memory, into philosophical questions, into experiences the painting sparks. An ekphrastic essay about a Hopper painting might begin with description of the lonely figures and harsh light, then spiral into the writer's own experiences of urban isolation. Art criticism distances the viewer; ekphrasis invites personal engagement. Neither is better—they're different forms with different purposes. Criticism explains the artwork; ekphrasis uses the artwork as a window into larger human experience.
 ```
 

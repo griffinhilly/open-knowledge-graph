@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 A Dedekind domain is a Noetherian, integrally closed, one-dimensional integral domain. While elements in a Dedekind domain may not factor uniquely (ℤ[√-5] is the classic example), every nonzero ideal factors uniquely as a product of prime ideals. This "unique factorization of ideals" recovers the arithmetic lost at the element level and is the foundation of algebraic number theory.
 
+## How It's Best Learned
+Compute one ideal factorization by hand in ℤ[√-5]. Let P = (2, 1+√-5). Then P² = (4, 2+2√-5, -4+2√-5) contains 6 and 4, hence 2, and every generator is a multiple of 2, so P² = (2). Next show P is not principal: a generator would have norm a² + 5b² = 2, which has no integer solution.
+
+## Common Misconceptions
+- Since ideals factor uniquely, elements of a Dedekind domain do too. (For a Dedekind domain, element factorization is unique exactly when the class group is trivial, which is when the ring is a PID. In ℤ[√-5] it fails.)
+- Any Noetherian domain of dimension 1 is a Dedekind domain. (Integral closure is also required. ℤ[√-3] is Noetherian of dimension 1 but is not integrally closed, and there the ideal (2) is not a product of prime ideals.)
+- An irreducible element generates a prime ideal. (In ℤ[√-5], 2 is irreducible, but (2) = (2, 1+√-5)² is the square of a prime ideal and is not prime.)
+
 ## Questions
 
 ```yaml

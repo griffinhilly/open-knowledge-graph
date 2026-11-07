@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Given representations ρ: G → GL(V) and σ: G → GL(W), their tensor product ρ ⊗ σ: G → GL(V ⊗ W) is defined by (ρ ⊗ σ)(g)(v ⊗ w) = ρ(g)v ⊗ σ(g)w. The character of the tensor product is the pointwise product of characters: χ_{ρ⊗σ}(g) = χ_ρ(g)·χ_σ(g). Decomposing tensor products of irreducibles into irreducible summands (the Clebsch-Gordan problem) is fundamental in both mathematics and physics.
 
+## How It's Best Learned
+Split ρ ⊗ ρ for the two-dimensional representation ρ of S₃ into symmetric and alternating parts. Use χ_Sym²(g) = (χ(g)² + χ(g²))/2 and χ_Λ²(g) = (χ(g)² − χ(g²))/2 on the classes e, (12), (123). You get (3, 1, 0), the trivial plus ρ, and (1, −1, 1), the sign. Together they recover the decomposition trivial ⊕ sign ⊕ ρ.
+
+## Common Misconceptions
+- In V ⊗ W, different group elements can act on the two factors. (One element g acts on both at once. Letting a pair (g, h) act gives the external tensor product, which is a representation of G × G.)
+- Every vector in V ⊗ W has the form v ⊗ w. (General vectors are sums of such pure tensors. In ℂ² ⊗ ℂ², the vector e₁ ⊗ e₁ + e₂ ⊗ e₂ is not a pure tensor.)
+- The tensor product of two irreducibles is always reducible. (Tensoring with a one-dimensional representation keeps irreducibility. For S₃, sign ⊗ ρ ≅ ρ.)
+
 ## Questions
 
 ```yaml

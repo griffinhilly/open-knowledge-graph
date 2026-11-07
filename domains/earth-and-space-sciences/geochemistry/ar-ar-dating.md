@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 The 40Ar/39Ar method is a refined version of K-Ar dating where the sample is irradiated with neutrons to convert 39K to 39Ar, enabling measurement of both parent and daughter isotopes on the same aliquot by mass spectrometry. Step-heating (incrementally increasing temperature) releases argon from different crystallographic sites, producing an age spectrum that reveals the sample's thermal history. A flat (plateau) age spectrum indicates a single undisturbed cooling age. Disturbed spectra with young edges and old cores record partial argon loss during thermal events. The method dates cooling through the closure temperature of the mineral analyzed (K-feldspar ~150-350 C, biotite ~300 C, hornblende ~500 C, muscovite ~350 C), making it a thermochronometer that records when a rock cooled through specific temperatures.
 
+## How It's Best Learned
+Plot age spectra by hand from tables of step ages and cumulative 39Ar fraction. Compare a flat plateau, a spectrum with young low-temperature steps from argon loss, and one with old low-temperature steps from excess argon. Then turn mineral ages into a cooling rate. Hornblende at 95 Ma (about 500 C) and biotite at 90 Ma (about 300 C) give 200 C over 5 Myr, or about 40 C/Myr.
+
+## Common Misconceptions
+- An Ar-Ar age is the age the rock crystallized. (It dates cooling through the closure temperature of the mineral analyzed. It matches crystallization only when the rock cooled quickly, as in many volcanic rocks.)
+- The 39Ar measured in the sample is natural argon. (It is made from 39K during neutron irradiation. The conversion is calibrated with a co-irradiated standard of known age, which gives the J factor.)
+- A flat plateau proves the age is correct. (Excess argon spread evenly through a mineral can give a plateau that is too old. Isochron plots of the step data help test for a trapped non-atmospheric component.)
+- Each mineral has one fixed closure temperature. (Closure temperature depends on grain size and cooling rate as well as crystal structure, so quoted values are approximate.)
+
 ## Questions
 
 ```yaml

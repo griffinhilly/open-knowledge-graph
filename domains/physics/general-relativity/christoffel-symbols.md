@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 The Christoffel symbols Γ^λ_{μν} are the connection coefficients of the unique torsion-free, metric-compatible connection on a pseudo-Riemannian manifold (the Levi-Civita connection). They are computed entirely from the metric tensor and its first partial derivatives: Γ^λ_{μν} = (1/2) g^{λσ}(∂_μ g_νσ + ∂_ν g_μσ - ∂_σ g_μν). Although Christoffel symbols are not tensors — they can be made to vanish at any single point by choosing locally inertial coordinates — they are essential for constructing the covariant derivative, the geodesic equation, and ultimately the curvature tensors. They encode how the coordinate basis vectors change from point to point, serving as the gravitational analog of a force in the equations of motion.
 
+## How It's Best Learned
+Start with the flat plane in polar coordinates, ds² = dr² + r²dθ², and get Γ^r_θθ = −r and Γ^θ_rθ = 1/r from the formula. Then redo it the fast way: write the Euler-Lagrange equations for L = ṙ² + r²θ̇² and read the symbols off r̈ − rθ̇² = 0 and θ̈ + (2/r)ṙθ̇ = 0. Repeat on the 2-sphere, where the symbols mark real curvature.
+
+## Common Misconceptions
+- Nonzero Christoffel symbols mean the space is curved. (Polar coordinates on a flat plane give nonzero symbols. Curvature lives in the Riemann tensor, built from their derivatives and products.)
+- Christoffel symbols are tensors, so if they vanish in one coordinate system they vanish in all. (They pick up an extra second-derivative term under coordinate changes, so they can be zero in one system and nonzero in another.)
+- If all Christoffel symbols vanish at a point, spacetime is flat there. (In Riemann normal coordinates they vanish at P, but their first derivatives, and so the curvature, generally do not.)
+
 ## Questions
 
 ```yaml

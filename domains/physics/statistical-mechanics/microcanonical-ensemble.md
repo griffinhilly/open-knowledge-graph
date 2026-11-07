@@ -28,6 +28,14 @@ status: validated
 ## Core Idea
 The microcanonical ensemble describes an isolated system with fixed energy E, volume V, and particle number N. All microstates with energy exactly E are equally probable. Entropy is proportional to the logarithm of the multiplicity Ω(E,V,N), and all thermodynamic quantities follow from the fundamental relation S(E,V,N).
 
+## How It's Best Learned
+Tabulate two Einstein solids in contact, with 300 and 200 oscillators sharing 100 energy units, using Ω(N, q) = C(q + N − 1, q). The product Ω_A Ω_B peaks sharply near q_A = 60, where ∂ln Ω/∂q is equal for both, and that equality is what defines a common temperature. Then compute S(E) for N two-state spins and see that ∂S/∂E turns negative above E = 0.
+
+## Common Misconceptions
+- Every microstate of the system is equally likely. (Only the accessible microstates, those with the fixed E, V and N, are equally likely. States with other energies have zero probability.)
+- If all microstates are equally likely, all macrostates are equally likely too. (Macrostates differ enormously in multiplicity. The one with the most microstates is overwhelmingly the most probable.)
+- Temperature is the average kinetic energy, so it is positive for every system. (Here temperature is defined by 1/T = ∂S/∂E. For spins in a field, where energy is bounded above, adding energy past E = 0 lowers S and gives a negative temperature.)
+
 ## Questions
 
 ```yaml

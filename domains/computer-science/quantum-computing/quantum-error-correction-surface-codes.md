@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Surface codes are among the most practical quantum error correction (QEC) codes, offering a path to fault-tolerant quantum computing. Surface codes arrange qubits in a 2D lattice, detecting and correcting errors through stabilizer measurements without revealing encoded information. Key advantages: (1) threshold error rate ~1%, higher than most codes, (2) local interactions only (no long-range gates), compatible with 2D architectures, (3) syndrome decoding via classical post-processing, (4) scalability via lattice expansion. Surface codes underpin leading quantum hardware approaches (Google, IBM, ion trap systems) and are central to achieving practical fault-tolerance.
 
+## How It's Best Learned
+Draw the distance-3 rotated surface code: 9 data qubits on a 3 x 3 grid with 8 stabilizers, which leaves 9 - 8 = 1 logical qubit. Put an X error on one data qubit and mark which Z-type stabilizers flip. Then find a line of 3 X errors running from one boundary to the opposite one that flips no stabilizer at all. That line is a logical operator, and its length is the code distance.
+
+## Common Misconceptions
+- The syndrome shows exactly which qubits had errors. (Different error patterns can give the same syndrome. The decoder picks a likely explanation, and correction succeeds if the error and the correction together do not form a logical operator.)
+- Syndrome measurements are reliable, so one round is enough. (Measurement itself can fail, so rounds are repeated and the decoder works on the syndrome history in space and time.)
+- A bigger lattice always gives fewer logical errors. (Growing the code helps only when physical error rates are below threshold. Above it, larger codes fail more often.)
+- Every logical gate is easy on a surface code. (Some gates, such as the T gate, need extra machinery like magic state distillation.)
+
 ## Questions
 
 ```yaml

@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 The Ising model represents a magnetic system as a lattice of spins σ_i = ±1 coupled by nearest-neighbor interactions. The Hamiltonian is H = -J Σ σ_i σ_j - h Σ σ_i. It exhibits a ferromagnetic phase transition at T_c in d ≥ 2. The 2D Ising model is exactly solvable (Onsager); in higher dimensions, it reveals universal critical behavior.
 
+## How It's Best Learned
+Write a short program that sums all 2^16 = 65,536 configurations of a 4×4 periodic lattice and plots ⟨E⟩, specific heat and ⟨|m|⟩ against T. The specific heat shows a rounded peak near the exact 2D T_c. Note that a 10×10 lattice already has 2^100 configurations, which motivates sampling methods. Then solve m = tanh(βJzm) graphically by intersecting the line and the curve.
+
+## Common Misconceptions
+- Below T_c every spin points the same way. (Full alignment occurs only at T = 0. At any T between 0 and T_c, thermal excitations reduce |m| below 1, and |m| falls to zero continuously at T_c.)
+- At T_c the spins all flip into alignment at once. (Near T_c the lattice holds correlated domains of many sizes, and the magnetization grows gradually as T drops below T_c.)
+- Mean-field theory gets the specific heat right even though its exponents are off. (Mean-field theory gives a finite jump in the specific heat, while Onsager's solution shows a logarithmic divergence at T_c.)
+
 ## Questions
 
 ```yaml

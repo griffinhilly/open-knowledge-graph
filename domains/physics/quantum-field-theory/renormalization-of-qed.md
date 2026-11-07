@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Renormalization of QED absorbs ultraviolet divergences into redefinitions of the electron mass, the electric charge, and the field normalizations. Only three types of divergent diagrams exist in QED (self-energy, vacuum polarization, vertex correction), making the theory renormalizable: all divergences at every order are absorbed by a finite number of counterterms.
 
+## How It's Best Learned
+Carry one diagram all the way through. Compute the one-loop vacuum polarization Π₂(q²) in dimensional regularization, then subtract its value at q² = 0 so that α keeps its measured low-energy value. The result, Π̂₂(q²) = −(2α/π)∫₀¹dx x(1 − x) ln[m²/(m² − x(1 − x)q²)], has no 1/ε pole. Take −q² ≫ m² and read off how the effective charge grows logarithmically.
+
+## Common Misconceptions
+- Renormalization hides infinities and leaves the theory unable to predict anything. (After a few quantities such as the electron mass and α are measured, every other observable is fixed, including g − 2 and the Lamb shift.)
+- The bare charge and bare mass are what experiments measure. (Experiments measure renormalized quantities; the bare parameters depend on the regulator and are not observable.)
+- The vertex correction contributes to charge renormalization. (The Ward identity Z₁ = Z₂ makes the vertex and self-energy contributions cancel in the charge, so only Z₃ from vacuum polarization renormalizes it.)
+- A renormalizable theory has divergences only at one loop. (Divergences appear at every order, but they always take the same few forms and are absorbed by the same counterterms.)
+
 ## Questions
 
 ```yaml

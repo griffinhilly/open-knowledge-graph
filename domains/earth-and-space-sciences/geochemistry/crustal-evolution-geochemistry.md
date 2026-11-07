@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Continental crust has formed and been recycled through Earth history, with geochemical evidence constraining when, how much, and by what mechanisms crust was generated. Nd model ages and detrital zircon U-Pb age distributions reveal episodic crustal growth, with peaks at ~2.7, 1.9, and 1.1 Ga associated with supercontinent assembly. The continental crust has a bulk composition approximating andesite (~60% SiO2), despite being generated primarily at subduction zones and hotspots. Intracrustal differentiation (partial melting, metamorphism, delamination of dense lower crust) has produced the stratified structure observed today: felsic upper crust, intermediate middle crust, and mafic lower crust. The secular evolution of crustal composition through time is recorded in shale composites, glacial tills, and river sediments that integrate large-scale crustal averages.
 
+## How It's Best Learned
+Draw an epsilon-Nd versus time diagram with the depleted mantle curve. For one granite, project its Nd evolution line back to that curve to read the model age. Then mark its zircon U-Pb crystallization age. If the two ages are close, the granite is juvenile crust. If the model age is much older, it reworks older crust. Repeat with zircon Hf and O data.
+
+## Common Misconceptions
+- Detrital zircon age peaks show when most crust was made. (Zircon dates magmatism, which includes remelting of older crust. Peaks may also reflect which crust was preserved, not how much was produced.)
+- A Nd model age is the age the rock formed. (It estimates when the source separated from the depleted mantle. If the rock mixes sources of different ages, the model age falls between them and dates no real event.)
+- The mantle melts directly into andesitic or granitic crust. (Mantle melting mostly gives basalt. Andesitic bulk crust needs further differentiation, and possibly loss of dense mafic lower crust.)
+- Once continental crust forms, it stays. (Sediment subduction, subduction erosion, and delamination return crust to the mantle, so net growth is less than gross production.)
+
 ## Questions
 
 ```yaml

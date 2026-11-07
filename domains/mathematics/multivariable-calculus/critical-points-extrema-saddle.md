@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Critical points occur where ∇f = 0 (or partials fail to exist). A point is a local maximum or minimum (extremum) if f is larger or smaller than nearby values; it is a saddle point if it is larger in some directions and smaller in others. Finding critical points is the first step in optimization.
 
+## How It's Best Learned
+Work f = x³ − 3x + y². Setting f_x = 3x² − 3 = 0 and f_y = 2y = 0 gives (1, 0) and (−1, 0). At (−1, 0), slice along the x-axis: x³ − 3x has a local maximum at −1, while y² has a minimum. Those two slices prove a saddle. At (1, 0), both slices have minima, which suggests a minimum but does not prove one.
+
+## Common Misconceptions
+- Every point with ∇f = 0 is a maximum or a minimum. (Saddle points also have ∇f = 0. For x² − y², the origin is critical but is neither.)
+- A minimum along both coordinate axes means a local minimum. (Other directions can disagree. For f = x² − 3xy + y², the axes show minima at the origin, but along y = x, f = −x², so the origin is a saddle.)
+- Critical points are only where ∇f = 0. (Points where a partial derivative fails to exist also count. The cone f = √(x² + y²) has its minimum at the origin, where neither partial exists.)
+
 ## Questions
 
 ```yaml

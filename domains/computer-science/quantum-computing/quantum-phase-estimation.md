@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Quantum phase estimation (QPE) estimates the eigenvalue phase of a unitary operator: given a unitary U and an eigenstate |u> with U|u> = e^(2*pi*i*phi)|u>, QPE outputs an n-bit approximation of phi using O(n) controlled applications of U and an inverse QFT. It is the core subroutine of Shor's algorithm, the HHL algorithm for linear systems, quantum chemistry simulations, and many other quantum algorithms. QPE converts the inaccessible phase information stored in a unitary's eigenvalue into a measurable computational-basis state.
 
+## How It's Best Learned
+Run QPE by hand with two ancilla qubits, U = S = diag(1, i), and eigenstate |1>, so phi = 1/4. The controlled U and U^2 give the ancillas phases i and -1, which is the QFT of |01>. The inverse QFT returns |01>, the binary fraction 0.01 = 1/4. Then repeat with phi = 1/3 to see the outcome spread, with the nearest outcome, 01, appearing about 70% of the time.
+
+## Common Misconceptions
+- The phase is read by measuring the target register. (The phase is kicked back onto the ancilla register. The target stays in |u> and reveals nothing about phi.)
+- QPE only works if you can prepare an exact eigenstate. (If the target is a superposition of eigenstates, QPE returns one of their phases at random, weighted by the squared overlaps, and leaves the target near that eigenstate.)
+- Each controlled power U^(2^j) costs the same as one U. (Unless the power has a shortcut, as modular exponentiation does in Shor's algorithm, U^(2^j) takes 2^j applications of U, so the total grows exponentially with the precision.)
+
 ## Questions
 
 ```yaml

@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 Feynman diagrams are a systematic graphical representation of terms in the perturbative expansion of scattering amplitudes. Each diagram encodes a precise mathematical expression: external lines represent incoming/outgoing particles, internal lines are propagators, and vertices carry coupling constants. The Feynman rules translate any diagram into an integral.
 
+## How It's Best Learned
+Derive one amplitude both ways. Compute tree-level e⁻μ⁻ → e⁻μ⁻ from Wick's theorem at second order, then from the diagram rules, and check that the two expressions match term by term. For symmetry factors, count contractions directly. In φ⁴ theory the single-vertex vacuum bubble has 3 ways to pair four fields; times the 1/4! in the vertex this gives 1/8, so S = 8.
+
+## Common Misconceptions
+- Internal lines are real particles traveling along the drawn paths. (Internal lines are propagators for virtual quanta, which need not satisfy p² = m², and loop momenta are integrated over all values.)
+- The drawn shape of a diagram, such as which vertex is earlier, matters. (Only the topology counts; one Feynman diagram already includes every time ordering of its vertices.)
+- Each diagram is a separate physical process with its own measurable rate. (Only the sum of diagrams at a given order is physical, and individual diagrams can depend on the gauge choice, as the two tree-level Compton diagrams do.)
+
 ## Questions
 
 ```yaml

@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 The propagator (Feynman propagator) is the amplitude for a particle to travel from one spacetime point to another. Mathematically, it is the time-ordered vacuum expectation value of two field operators, and it equals the Green's function of the classical field equation. Propagators are the internal lines in Feynman diagrams.
 
+## How It's Best Learned
+Do the p⁰ integral in ∫d⁴p/(2π)⁴ i e^{−ip·(x−y)}/(p² − m² + iε) by contour integration. The poles sit at p⁰ = ±(E_p − iε). For x⁰ > y⁰ close the contour below and recover the positive-frequency term ⟨0|φ(x)φ(y)|0⟩; for x⁰ < y⁰ close above. Then move both poles below the real axis and see that you get the retarded Green's function instead.
+
+## Common Misconceptions
+- The Feynman propagator vanishes outside the light cone, as causality requires. (D_F is nonzero at spacelike separation; causality is guaranteed because the commutator [φ(x), φ(y)] vanishes there.)
+- The iε is a technical detail that can be dropped. (It fixes which way the contour passes the poles, and other choices give the retarded or advanced Green's functions instead of the Feynman one.)
+- The particles on internal lines satisfy p² = m², like real particles. (Internal momenta are fixed by conservation at the vertices or integrated over, and are generally off-shell.)
+
 ## Questions
 
 ```yaml

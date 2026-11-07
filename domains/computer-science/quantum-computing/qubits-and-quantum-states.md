@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 A qubit is the fundamental unit of quantum information, analogous to a classical bit but capable of existing in a superposition of |0> and |1>. The general state of a single qubit is alpha|0> + beta|1>, where alpha and beta are complex amplitudes satisfying |alpha|^2 + |beta|^2 = 1. Multi-qubit systems live in tensor-product Hilbert spaces whose dimension grows exponentially: n qubits span a 2^n-dimensional space. This exponential state space is the source of quantum computing's potential power over classical computation.
 
+## How It's Best Learned
+Translate a few states among three forms: Dirac notation, column vector and Bloch-sphere angles. For example, (|0> + i|1>)/sqrt(2) is [1, i]^T/sqrt(2), with theta = pi/2 and phi = pi/2, so it points along +y. Then build |+>|0> as a 4-vector with the tensor product. Try to factor (|00> + |11>)/sqrt(2) the same way: the four product equations ac, ad, bc, bd cannot all hold.
+
+## Common Misconceptions
+- n qubits in superposition store 2^n bits you can read out. (Measuring n qubits yields n classical bits. The amplitudes describe the state but cannot be read out directly.)
+- The amplitude is the probability. (The probability is the squared magnitude of the amplitude. An amplitude of 4/5 gives probability 16/25.)
+- Multiplying the whole state by -1 makes a different state. (A global phase has no observable effect. Only relative phases between components change measurement results.)
+- Orthogonal states sit 90 degrees apart on the Bloch sphere. (Orthogonal states are antipodal, 180 degrees apart, like |0> at the north pole and |1> at the south pole.)
+
 ## Questions
 
 ```yaml

@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 The No Free Lunch (NFL) theorems, proved by Wolpert and Macready (1997), state that no learning algorithm is universally superior — when averaged over ALL possible target functions, every algorithm performs identically. For any algorithm that excels on one class of problems, there exists another class where it performs worse than random guessing. The implication is that every successful learning algorithm embodies inductive biases — assumptions about which target functions are more likely — and the choice of algorithm is really a choice of which assumptions to make. The NFL theorems do not say all algorithms are equal in practice (they are not); they say that superiority requires assumptions about the problem domain.
 
+## How It's Best Learned
+Enumerate all 256 Boolean functions on 3-bit inputs. Fix a training set of 5 labeled inputs: 8 functions agree with it, one for each labeling of the 3 unseen inputs. For any prediction on those 3 inputs, average the accuracy over the 8 completions; it comes out to exactly 1/2. Then restrict the targets to a structured family, such as threshold functions, and watch a learner that assumes that family beat 1/2.
+
+## Common Misconceptions
+- No Free Lunch means every algorithm is equally good on real problems. (The equality holds only when averaging uniformly over all possible targets. Real problems are not drawn that way, and algorithms whose biases match them do better.)
+- No Free Lunch shows that learning is impossible. (It shows that learning without assumptions is impossible on unseen points. With a restricted hypothesis class, PAC learning gives real guarantees.)
+- The theorem is about training error. (It concerns performance on inputs outside the training set. Algorithms can differ widely in how well they fit the training data.)
+
 ## Questions
 
 ```yaml

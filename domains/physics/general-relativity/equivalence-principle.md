@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 The equivalence principle states that gravitational and inertial mass are identical, so that local experiments cannot distinguish between a uniform gravitational field and a uniformly accelerating reference frame. In its weak form, this is the empirical observation that all objects fall at the same rate. In its strong (Einstein) form, it asserts that in a sufficiently small freely falling laboratory, the laws of physics reduce to those of special relativity — gravity is locally undetectable. This principle is the conceptual foundation of general relativity: it implies that gravity is not a force but a manifestation of spacetime curvature, and it dictates that the correct mathematical framework must treat freely falling frames as locally inertial.
 
+## How It's Best Learned
+Work the accelerating-rocket version of gravitational redshift. Light leaves the floor of a rocket of height h accelerating at g. It reaches the ceiling after about h/c, when the ceiling is moving gh/c faster, so the first-order Doppler shift is Δf/f ≈ −gh/c². Put in h = 22.5 m, the tower height in the Pound-Rebka experiment, to get about 2.5 × 10⁻¹⁵.
+
+## Common Misconceptions
+- The equivalence principle says gravity and acceleration are the same everywhere. (It holds only locally. Over larger regions tidal effects show real curvature that no uniform acceleration can copy.)
+- Astronauts on the International Space Station are weightless because there is no gravity up there. (Gravity at that altitude is roughly 90% of its surface value. They float because they and the station are in free fall together.)
+- A person standing on the ground is in an inertial frame and a falling person is accelerating. (In general relativity it is the reverse: the falling person is locally inertial, and the ground pushes the standing person off a geodesic.)
+
 ## Questions
 
 ```yaml

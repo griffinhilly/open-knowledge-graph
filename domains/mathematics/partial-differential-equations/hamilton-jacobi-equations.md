@@ -19,6 +19,14 @@ status: validated
 ## Core Idea
 Hamilton-Jacobi (HJ) equations are first-order nonlinear PDEs of the form u_t + H(x, ∇u) = 0, where H is the Hamiltonian. They arise in classical mechanics (Hamilton-Jacobi theory connects the action principle to wave-like evolution), optimal control (the value function satisfies an HJ equation), and geometric optics (wavefront propagation). Classical solutions typically break down in finite time as characteristics cross, and viscosity solutions provide the correct framework for global-in-time solutions. The Hopf-Lax formula gives an explicit representation for convex Hamiltonians.
 
+## How It's Best Learned
+Evaluate the Hopf-Lax formula by hand for u_t + ½u_x² = 0 with two kinked data. For u₀ = |x| it gives u = x²/(2t) when |x| < t and |x| − t/2 otherwise, so a fan fills the gap between characteristics. For u₀ = −|x| it gives −|x| − t/2, and the kink persists where characteristics meet. Then differentiate in x: v = u_x solves Burgers' equation, and the two cases become a rarefaction and a shock.
+
+## Common Misconceptions
+- A Lipschitz function that satisfies the equation almost everywhere is the solution. (On (−1, 1) with u(±1) = 0, every sawtooth with slopes ±1 satisfies |u'| = 1 almost everywhere. The viscosity condition selects 1 − |x|.)
+- When classical solutions break down, u itself blows up. (For Lipschitz initial data the solution stays Lipschitz, so u does not blow up. What fails is differentiability: ∇u develops jumps across kinks.)
+- Kinks in the solution can point either way. (For uniformly convex H, such as ½p², the viscosity solution is semiconcave for t > 0. Kinks like −|x| can persist, while kinks like |x| are smoothed out at once.)
+
 ## Questions
 ```yaml
 - question: "The Hamilton-Jacobi equation u_t + H(∇u) = 0 with convex H has the Hopf-Lax solution formula:"

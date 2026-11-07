@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 Phonons are quantized lattice vibrations obeying Bose-Einstein statistics. The number of phonons in mode k with energy ℏω_k is n_k = 1/[exp(ℏω_k/kT)−1]. Total thermal energy U = Σ_k ℏω_k n_k and heat capacity C_V = ∂U/∂T follow from the phonon distribution. Acoustic branches have linear dispersion at small k; optical branches are nearly flat.
 
+## How It's Best Learned
+Derive the dispersion of a 1D chain with alternating masses m and M joined by springs K. You get an acoustic branch that is linear near k = 0 and an optical branch starting at ω = √(2K(1/m + 1/M)). Then tabulate n = 1/(eˣ − 1) for x = ℏω/k_BT: about 9.5 at x = 0.1, 0.58 at x = 1, and 0.007 at x = 5. This shows which modes freeze out first.
+
+## Common Misconceptions
+- A phonon is a small particle of matter moving through the crystal. (A phonon is one quantum of a collective vibration mode. It carries energy and crystal momentum, while each atom only oscillates about its site.)
+- The number of phonons is fixed, like the number of atoms. (The number of modes is fixed at 3N. The number of phonons in each mode is not conserved and rises with temperature.)
+- At absolute zero the lattice is perfectly still. (No phonons are excited at T = 0, but each mode keeps its zero-point energy ℏω_k/2, so the atoms still fluctuate about their sites.)
+
 ## Questions
 
 ```yaml

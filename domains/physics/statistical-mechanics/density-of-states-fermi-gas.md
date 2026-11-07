@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 The density of states g(E) counts the number of states per unit energy interval. For a 3D free-electron Fermi gas, g(E) ∝ √E. At the Fermi surface, g(E_F) = 3N/(2E_F), which relates the jump in the Fermi-Dirac distribution to the density of states and determines the linear heat capacity coefficient.
 
+## How It's Best Learned
+Get g(E_F) without constants: the state count below E is N(E/E_F)^(3/2), so g = dN/dE = (3N/2)E^(1/2)/E_F^(3/2), which equals 3N/(2E_F) at E_F. For copper, with E_F ≈ 7 eV, that is about 0.21 states per eV per electron. Then repeat the shell count in 1D and 2D, where g goes as E^(−1/2) and as a constant.
+
+## Common Misconceptions
+- g(E) ∝ √E for electrons in any material. (That form holds for free particles with E ∝ k² in three dimensions. A 2D free gas has constant g(E), and real band structures give other shapes.)
+- The density of states changes with temperature as electrons are excited. (g(E) counts available states and is fixed by the dispersion and the volume. Temperature enters only through the occupation f(E).)
+- Each allowed k holds one electron. (Each holds two, of opposite spin. Dropping the factor of 2 makes E_F too large by a factor of 2^(2/3).)
+
 ## Questions
 
 ```yaml

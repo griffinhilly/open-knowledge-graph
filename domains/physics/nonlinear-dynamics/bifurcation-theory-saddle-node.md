@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 A saddle-node bifurcation occurs when a stable and an unstable fixed point collide and annihilate as a parameter varies, leaving no fixed point at all. It is the most generic bifurcation — the typical way fixed points appear or disappear. The normal form is ẋ = r + x², where two fixed points exist for r < 0, merge at r = 0, and vanish for r > 0. This mechanism underlies sudden transitions, tipping points, and hysteresis in physical systems from lasers to ecosystems.
 
+## How It's Best Learned
+Plot ẋ = r + x² against x for r = −1, 0 and 1, and mark the flow direction on the x-axis. The parabola slides up, its two crossings merge, then lift off the axis. Then integrate dt = dx/(r + x²) over the whole line for small r > 0 to get a passage time of π/√r. This shows that the vanished pair still slows trajectories as a bottleneck.
+
+## Common Misconceptions
+- At a saddle-node bifurcation the two fixed points swap stability and carry on. (Swapping stability is the transcritical case; in a saddle-node the stable and unstable points merge and both disappear.)
+- Once the fixed points are gone, they leave no trace in the dynamics. (Just past the bifurcation, trajectories linger near the old collision point, and in the normal form the passage time grows like π/√r as r approaches zero.)
+- A sudden jump in the system's state means the parameter must have changed suddenly. (A slow, smooth change in r can trigger the jump, because the stable state the system was following stops existing at r = 0.)
+- The name means the bifurcation needs a two-dimensional system with a saddle point. (The name comes from the planar picture where a saddle and a node collide, but the same event happens in one dimension as an unstable and a stable point merging.)
+
 ## Questions
 
 ```yaml

@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 An order parameter M characterizes the broken symmetry phase: M=0 above transition, M≠0 below. For magnetism, M is the average magnetization. The free energy as a function of M has a single minimum at M=0 above T_c and splits into two minima below T_c. Minimizing the free energy yields self-consistent equations for M(T), enabling computation of critical exponents.
 
+## How It's Best Learned
+Plot F(M) = aM² + bM⁴ with b > 0 for a positive, zero and negative, and watch one minimum split into two. Then set dF/dM = 2aM + 4bM³ = 0 to get M² = −a/2b. With a = a₀(T − T_c), this gives M ∝ (T_c − T)^½, so β = ½. Finally, name the order parameter for a liquid-gas transition and a superconductor to see the idea outside magnets.
+
+## Common Misconceptions
+- The order parameter is zero above T_c because the spins stop interacting. (The interactions are present at every temperature. Above T_c, thermal fluctuations make opposite orientations equally likely, so the average vanishes while short-range correlations remain.)
+- Below T_c the material is driven into one unique ordered state. (With Ising symmetry there are two equal minima, +M and −M. A small field or the sample's history selects one, and separate domains can select different signs.)
+- An order parameter grows smoothly from zero at every phase transition. (That holds for continuous transitions. At a first-order transition the order parameter jumps to a finite value.)
+
 ## Questions
 
 ```yaml

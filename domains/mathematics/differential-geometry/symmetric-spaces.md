@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 A Riemannian symmetric space is a Riemannian manifold where every point is a fixed point of an involutive isometry (a "point reflection"). This high degree of symmetry forces the curvature tensor to be parallel (∇R = 0) and makes the space a homogeneous space G/K where G is the isometry group and K is the isotropy subgroup. Symmetric spaces include Euclidean spaces, spheres, hyperbolic spaces, Grassmannians, and the spaces of positive definite matrices. Cartan's classification organizes them into a finite list of families.
 
+## How It's Best Learned
+Write the geodesic symmetry of the unit sphere Sⁿ ⊂ ℝⁿ⁺¹ at p as σ_p(x) = 2⟨x, p⟩p − x. Check that it is orthogonal, fixes p, squares to the identity, and sends each tangent vector v ⊥ p to −v. Then do the space of positive-definite matrices, where the symmetry at I is A ↦ A⁻¹ and its derivative at I is X ↦ −X.
+
+## Common Misconceptions
+- The geodesic symmetry of a sphere is the antipodal map. (The antipodal map x ↦ −x fixes no point. The symmetry at p fixes p and −p and reverses the great circles through p.)
+- A symmetric space has constant sectional curvature. (∇R = 0 is weaker. ℂPⁿ with n ≥ 2 is symmetric, but its sectional curvature varies with the 2-plane, between 1 and 4 in the usual normalization.)
+- Every homogeneous Riemannian manifold is symmetric. (Homogeneity is weaker. The Heisenberg group with a left-invariant metric is homogeneous but is not a symmetric space.)
+
 ## Questions
 
 ```yaml

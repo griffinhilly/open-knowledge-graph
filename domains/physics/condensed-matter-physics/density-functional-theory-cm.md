@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Density functional theory (DFT) replaces the intractable many-electron Schrodinger equation with an equivalent problem involving only the electron density n(r). The Hohenberg-Kohn theorems (1964) prove that the ground state energy is a unique functional of n(r) and that minimizing this functional yields the exact ground state density. The Kohn-Sham scheme (1965) maps the interacting problem onto non-interacting electrons moving in an effective potential that includes exchange and correlation effects. DFT with approximate exchange-correlation functionals (LDA, GGA, hybrid) has become the standard method for calculating band structures, crystal structures, lattice constants, elastic properties, and phase stability of real materials from first principles.
 
+## How It's Best Learned
+Run a Kohn-Sham calculation for bulk silicon with LDA or PBE. Converge the plane-wave cutoff and the k-point mesh first. Then compute the total energy at several lattice constants and fit the minimum to compare with the measured 5.43 Å. Finally, plot the band structure and compare the Kohn-Sham gap with the measured gap of about 1.1 eV.
+
+## Common Misconceptions
+- Kohn-Sham orbitals and eigenvalues are the real electrons' wavefunctions and energies. (They belong to an auxiliary non-interacting system built to reproduce the density, which is why Kohn-Sham band gaps differ from measured gaps.)
+- DFT is exact, so any error in a result is numerical. (The theory is exact in principle, but the exchange-correlation functional must be approximated, and that approximation causes most systematic errors.)
+- DFT is a mean-field theory that leaves out electron correlation. (Correlation is included through the exchange-correlation functional, although only approximately.)
+- A well-converged calculation gives the right answer. (Convergence removes errors from the basis and k-point sampling; it does not remove errors from the functional.)
+
 ## Questions
 
 ```yaml

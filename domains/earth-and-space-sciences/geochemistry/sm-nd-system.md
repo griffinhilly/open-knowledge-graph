@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 The Sm-Nd system is based on the alpha decay of 147Sm to 143Nd (half-life 106 Gyr). Because both Sm and Nd are light rare earth elements with very similar geochemical behavior, Sm/Nd fractionation during geological processes is small but systematic: partial melting preferentially concentrates the lighter Nd over the slightly heavier Sm in the melt, giving the crust lower Sm/Nd (and therefore lower time-integrated 143Nd/144Nd) than the residual mantle. Epsilon-Nd notation expresses 143Nd/144Nd as deviations from a chondritic reference (CHUR): positive epsilon-Nd indicates a depleted-mantle source; negative epsilon-Nd indicates enriched or crustal source. The Sm-Nd system is resistant to metamorphic resetting and provides robust constraints on crust-mantle differentiation, mantle source heterogeneity, and crustal residence ages.
 
+## How It's Best Learned
+Compute an epsilon-Nd value by hand to see why the notation exists. With a CHUR value of 0.512638, a sample at 0.512126 differs by only 0.000512 in the raw ratio, but that is an epsilon-Nd of about -10. Then sketch 143Nd/144Nd growth lines over time for a high-Sm/Nd mantle, CHUR, and low-Sm/Nd crust. Watch the lines fan apart.
+
+## Common Misconceptions
+- A negative epsilon-Nd means the rock is old. (It means the source had low Sm/Nd for a long time. A young granite made by melting old crust can have strongly negative epsilon-Nd.)
+- Sm and Nd are so alike that melting leaves Sm/Nd unchanged. (The fractionation is small, but over billions of years it builds up differences of tens of epsilon units.)
+- The Sm-Nd system cannot be reset. (It resists resetting better than Rb-Sr, but high-grade metamorphism can reset it. Garnet growth during metamorphism is dated with Sm-Nd for this reason.)
+
 ## Questions
 
 ```yaml

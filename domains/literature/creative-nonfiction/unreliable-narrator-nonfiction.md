@@ -22,6 +22,14 @@ status: draft
 ## Core Idea
 Nonfiction narrators can be unreliable through faulty memory, limited perspective, self-deception, or explicit dishonesty. Contemporary memoirs increasingly acknowledge that the writer's account may be partial. Recognizing unreliability in nonfiction acknowledges how perspective and subjectivity shape truth-telling.
 
+## How It's Best Learned
+Read a memoir passage where the narrator describes a conflict, and list three things the narrator could not have known, such as another person's feelings or a conversation they missed. Then mark any spot where the narrator flags uncertainty. Apply the same audit to a page of your own draft and add one sentence that names a limit of your view.
+
+## Common Misconceptions
+- An unreliable nonfiction narrator is a liar. (Unreliability often comes from honest limits of memory, perspective, and self-knowledge, without intent to deceive.)
+- Admitting my memory might be wrong undercuts the memoir. (Acknowledging partiality can increase a reader's trust in the account.)
+- Unreliable narration is a fiction concept that doesn't apply to true stories. (The same reading habits, such as noticing gaps and contradictions, can reveal a nonfiction narrator's limits.)
+
 ## Questions
 
 ```yaml
@@ -57,6 +65,7 @@ Nonfiction narrators can be unreliable through faulty memory, limited perspectiv
 
 - question: Think of a significant event in your life. How might your account of it be unreliable? What might you misremember? What wouldn't you see? How might self-deception shape your understanding? How would you write truthfully while acknowledging these limits?
   type: short-answer
+  answer: "My account could be unreliable through misremembered words or tone, through not knowing what others felt or said when I was absent, and through self-deception that flatters my own role. I would write what I remember while naming these limits openly, such as my age or emotional state at the time."
   explanation: 'Example: A family conflict. Faulty memory: you might misremember exact words said, emotional tone, whose idea it was. Limited perspective: you don''t know what others felt, what others said when you weren''t there, what caused their behavior. Self-deception: you might rationalize your own role, remember yourself as more reasonable than you were, blame others unfairly. Truthful writing acknowledging these limits: ''As I remember it, this is what happened and how I felt. I''m aware I may have misremembered details or misunderstood others'' motivations. My perspective is necessarily limited—others who were there would tell different stories. I was young/angry/scared, which likely shaped my perception.'' This honesty doesn''t undermine truthfulness; it strengthens credibility by showing the narrator is thinking critically.'
 ```
 

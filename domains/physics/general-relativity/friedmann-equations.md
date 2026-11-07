@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 The Friedmann equations are the Einstein field equations applied to a homogeneous, isotropic universe described by the Robertson-Walker metric. The first Friedmann equation (ȧ/a)² = (8πG/3)ρ - kc²/a² + Λ/3 relates the expansion rate H = ȧ/a (Hubble parameter) to the total energy density ρ, the spatial curvature parameter k, and the cosmological constant Λ. The second (acceleration) equation ä/a = -(4πG/3)(ρ + 3p/c²) + Λ/3 determines whether the expansion is accelerating or decelerating. Together with an equation of state relating pressure to density, they form a complete dynamical system for the scale factor a(t). These equations are the foundation of the standard ΛCDM cosmological model and describe the expansion history of the universe from the Big Bang to the present accelerating expansion.
 
+## How It's Best Learned
+First get the shape of the first equation from Newtonian energy conservation. A test mass on the edge of a uniform expanding ball has ½ṙ² − GM/r = E. Set r = a·x and M = (4π/3)ρa³x³ to find (ȧ/a)² = (8πG/3)ρ + 2E/(a²x²), so 2E/x² plays the role of −kc². Then solve the flat, matter-only case to get a ∝ t^(2/3), and compute ρ_crit = 3H²/(8πG) for H₀ ≈ 70 km/s/Mpc.
+
+## Common Misconceptions
+- The Big Bang was an explosion from a point into empty space that already existed. (The Robertson-Walker metric describes space itself expanding everywhere at once, with no center and no edge to expand into.)
+- A closed universe must recollapse and an open one must expand forever. (That link is guaranteed only when Λ = 0. With a positive cosmological constant, a closed universe can expand forever.)
+- The Hubble constant is the same at all times. (H = ȧ/a changes as the universe evolves. H₀ is its value today.)
+- Galaxies receding faster than light break special relativity. (Recession speeds from expansion can exceed c at large distances. The speed limit applies to motion relative to local observers.)
+
 ## Questions
 
 ```yaml

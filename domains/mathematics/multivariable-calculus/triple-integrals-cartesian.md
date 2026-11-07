@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 For a region W in 3D, the triple integral ∭_W f(x, y, z) dV = ∫∫∫ f(x, y, z) dz dy dx represents volume (when f = 1) or weighted volume. Fubini's theorem permits changing order of integration. Setting up bounds for W requires careful description as a region in 3D.
 
+## How It's Best Learned
+Use the shadow method on the tetrahedron x, y, z ≥ 0, x + y + z ≤ 1. Project it onto the xy-plane to get the triangle under x + y = 1, and let z run from 0 up to 1 − x − y. Then ∫_0^1 ∫_0^{1−x} (1 − x − y) dy dx = ∫_0^1 (1 − x)²/2 dx = 1/6, matching one third of base times height. Redo it in the order dx dy dz.
+
+## Common Misconceptions
+- The outer bounds can depend on the inner variables. (Each bound may depend only on variables integrated further out; the outermost bounds are constants.)
+- To change the order, I swap the variable names in the bounds. (The region must be described again from the new viewpoint, and the new bounds usually look quite different.)
+- A triple integral of f over W gives the volume of W. (It gives the volume only when f = 1; for a density f it gives mass, and in general a weighted total.)
+
 ## Questions
 
 ```yaml

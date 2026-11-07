@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 The Langevin equation m(dv/dt) = F - γv + ξ(t) describes particle motion with damping and random thermal noise. The friction coefficient γ and noise variance are related through the fluctuation-dissipation theorem, making this equation fundamental to modeling thermal motion, molecular dynamics, and response to external forces.
 
+## How It's Best Learned
+Solve the free equation formally, v(t) = v₀e^(−t/τ) + (1/m)∫₀ᵗ e^(−(t−s)/τ) ξ(s) ds, and compute the mean-squared displacement, averaging over thermal initial velocities. It goes as (k_BT/m)t² for t ≪ τ and as 2Dt for t ≫ τ. Then code the equation step by step, drawing each noise kick with standard deviation √(2γk_BTΔt), and check that the simulated curve shows the same crossover near t = τ.
+
+## Common Misconceptions
+- In a simulation, the noise kick per step scales with Δt like any other force. (White-noise increments have a standard deviation proportional to √Δt. Scaling them by Δt makes the noise vanish as the step shrinks.)
+- The overdamped equation describes the motion at every time scale. (It drops inertia. For times shorter than τ = m/γ, the particle moves ballistically and ⟨x²⟩ grows as t².)
+- White noise means the solvent kicks are uncorrelated at any time separation, however small. (White noise is an idealization that works when collision times are far shorter than the times of interest. Real forces have a short but finite correlation time.)
+
 ## Questions
 
 ```yaml

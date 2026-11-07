@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 Generating functionals encode all correlation functions of a quantum field theory in a single object. Z[J] generates all Green's functions, W[J] = -i ln Z[J] generates connected Green's functions, and the effective action Gamma[phi_cl] generates one-particle-irreducible (1PI) vertices. These functionals provide a compact and powerful framework for deriving Ward identities, the effective potential, and non-perturbative results.
 
+## How It's Best Learned
+Use a zero-dimensional toy model, where the path integral is an ordinary integral: Z(J) = ∫dφ exp(−φ²/2 − λφ⁴/4! + Jφ). At λ = 0, Z ∝ exp(J²/2), so W = ln Z has no fourth derivative while Z gives ⟨φ⁴⟩ = 3. To first order in λ, show ⟨φ²⟩ = 1 − λ/2 and ⟨φ⁴⟩ = 3 − 4λ. The connected part, ⟨φ⁴⟩ − 3⟨φ²⟩², is then −λ.
+
+## Common Misconceptions
+- The source J is a physical field that must be included in the final answer. (J is a bookkeeping device; you take derivatives with respect to it and then set it to zero.)
+- Disconnected diagrams are mistakes to be thrown away. (They are part of Z and are correct, but they factor into lower-point connected pieces, which is why W = −i ln Z can drop them without losing information.)
+- One-particle-irreducible means the same as connected. (A 1PI diagram must stay connected after cutting any single internal line, so many connected diagrams are not 1PI.)
+- The effective potential is the classical potential evaluated at the field's expectation value. (V_eff includes loop corrections, which can shift the minima and even create symmetry breaking absent at tree level.)
+
 ## Questions
 
 ```yaml

@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Most workers in poor countries are in informal employment—self-employed in micro-businesses, agricultural work, or casual wage labor with no contract protections. The informal sector offers flexibility but low wages, no benefits, and limited growth. Debate centers on whether to formalize informal workers or create conditions for growth into formal employment.
 
+## How It's Best Learned
+Sort a list of jobs (street vendor, contract-free garment worker, registered factory worker, motorbike taxi driver, government clerk) by three tests: written contract, tax registration, social insurance. Then run a thought experiment. Registration time falls from 60 days to 3, and informality barely moves. Ask which view of informality that outcome supports, and what policy it points to.
+
+## Common Misconceptions
+- Informal work is a small fringe of the economy. (In much of Sub-Saharan Africa and South Asia, most workers are informal.)
+- Informal means illegal. (Most informal work produces legal goods and services. It lacks registration, contracts, and social insurance.)
+- Open unemployment is the main labor problem in poor countries. (Without unemployment insurance, few poor people can afford to stay jobless. They take low-productivity informal work, so low earnings matter more than measured unemployment.)
+- Cutting red tape will move informal workers into formal jobs by itself. (If formal firms are not creating enough jobs, easier registration changes little.)
+
 ## Questions
 
 ```yaml

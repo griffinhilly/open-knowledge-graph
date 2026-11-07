@@ -17,6 +17,14 @@ status: validated
 ## Core Idea
 A weak solution of a PDE is a function in an appropriate Sobolev space that satisfies the equation when tested against all smooth test functions via integration by parts. For the equation -Δu = f with Dirichlet boundary conditions, the weak formulation is: find u ∈ H¹₀(Ω) such that ∫∇u·∇v dx = ∫fv dx for all v ∈ H¹₀(Ω). This transfers derivatives from the solution to the test function, allowing solutions with less regularity than the classical formulation requires. The Lax-Milgram theorem and variational methods then guarantee existence and uniqueness under natural conditions.
 
+## How It's Best Learned
+Derive the weak form in one dimension first: multiply −u″ = f on (0,1) by a test function v with v(0) = v(1) = 0, then integrate by parts. Next, try f = 1 on (0, ½) and f = −1 on (½, 1), with u(0) = u(1) = 0. Its solution, u = x/4 − x²/2 on the left half and u = x²/2 − 3x/4 + ¼ on the right half, is C¹ but not C². Then repeat the derivation for −Δu = f using Green's first identity.
+
+## Common Misconceptions
+- A weak solution is an approximate solution, less exact than a classical one. (A weak solution satisfies the integral identity exactly for every test function. A classical solution that lies in H¹₀(Ω) is also a weak solution, and since the weak solution is unique, the two coincide.)
+- The boundary condition u = 0 is a separate equation added on top of the integral identity. (For Dirichlet conditions the boundary condition is built into the space. Requiring u ∈ H¹₀(Ω) encodes u = 0 on ∂Ω in the trace sense (for a bounded domain with C¹ boundary), since H¹ functions need not have pointwise boundary values.)
+- If u is differentiable almost everywhere and that derivative is in L², then u is in H¹. (A weak derivative must satisfy the integration-by-parts identity against test functions. The Cantor function has derivative zero almost everywhere, yet it is not constant, so it has no weak derivative at all and it is not in H¹.)
+
 ## Questions
 ```yaml
 - question: "To derive the weak formulation of -Δu = f, we multiply by a test function v and apply:"

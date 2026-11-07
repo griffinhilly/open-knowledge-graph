@@ -23,7 +23,16 @@ status: validated
 # Line Integrals of Scalar and Vector Functions
 
 ## Core Idea
-Line integrals ∫_C f ds (scalar) or ∫_C F · dr (vector) integrate along curves. The scalar version sums f weighted by arc length; the vector version computes work done by F along a path C. Both depend on the parametrization's orientation.
+Line integrals ∫_C f ds (scalar) or ∫_C F · dr (vector) integrate along curves. The scalar version sums f weighted by arc length; the vector version computes work done by F along a path C. Only the vector version depends on the curve's orientation.
+
+## How It's Best Learned
+Work both kinds on one curve: the quarter circle r(t) = ⟨cos t, sin t⟩ for 0 ≤ t ≤ π/2. The scalar integral of f = xy uses |r′(t)| = 1 and gives ∫ cos t sin t dt = 1/2. The vector integral of F = ⟨0, x⟩ uses F · r′(t) = cos²t and gives π/4. Run the curve backward and check that only the vector answer changes sign.
+
+## Common Misconceptions
+- In the scalar integral, ds is the same as dt. (ds = |r′(t)| dt; dropping the speed factor gives a wrong answer unless the curve is parametrized at unit speed.)
+- The scalar and vector line integrals both change sign when the curve is reversed. (Only the vector integral changes sign, because r′(t) flips; the scalar integral uses |r′(t)|, which does not.)
+- ∫_C F · dr adds up the full strength of F along the curve. (It adds up only the component of F along the direction of travel; a field perpendicular to the path contributes zero.)
+- Two curves with the same endpoints give the same line integral. (In general the value depends on the path; path independence holds for special fields, such as gradient fields.)
 
 ## Questions
 

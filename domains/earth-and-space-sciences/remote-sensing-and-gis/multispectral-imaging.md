@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Multispectral sensors capture images in a discrete number of relatively broad spectral bands (typically 4-12), each covering 20-200 nanometers. Each band targets a specific physical property: blue for water penetration, green for vegetation vigor, red for chlorophyll absorption, near-infrared for vegetation structure, shortwave infrared for moisture and minerals. The result is a multi-layer data cube where each pixel has a reflectance value in every band, enabling band combinations and ratios that discriminate surface materials far beyond what a single band or photograph can achieve.
 
+## How It's Best Learned
+Sample one pixel each of water, forest, bare soil and roof in every band of a Sentinel-2 or Landsat scene. Plot the four spectra on one chart. Then display the same scene as true color and as NIR-red-green false color, and find each pixel in both. Vegetation turns bright red in the false-color view because its high NIR reflectance is shown in the red channel.
+
+## Common Misconceptions
+- Red areas in a false-color composite are red or hot on the ground. (Colors in a composite show which bands are assigned to which display channels. In the standard NIR-red-green view, healthy vegetation looks red.)
+- A band number means the same wavelength on every sensor. (Band numbers are sensor-specific. Band 4 is near-infrared on Landsat 7 but red on Landsat 8, where near-infrared is band 5.)
+- Adding more spectral bands also makes the pixels smaller. (Spectral and spatial resolution are separate design choices, and many sensors have different pixel sizes for different bands.)
+
 ## Questions
 
 ```yaml

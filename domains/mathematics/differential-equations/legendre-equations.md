@@ -20,6 +20,14 @@ status: validated
 ## Core Idea
 Legendre's equation (1-x²)y'' - 2xy' + n(n+1)y = 0 has polynomial solutions P_n(x) for non-negative integers n. These arise in spherically symmetric problems and are orthogonal on [-1,1] with respect to the standard inner product. Legendre polynomials have generating functions, recurrence relations, and explicit formulas, forming the basis for Legendre expansions.
 
+## How It's Best Learned
+Generate P₂ from the recurrence with n = 1: 2P₂ = 3x·x − 1, so P₂ = (3x² − 1)/2. Substitute it into Legendre's equation with n = 2 to watch every term cancel. Then compute ∫₋₁¹ P₀P₂ dx = 0 and ∫₋₁¹ P₂² dx = 2/5, which shows where the factor (2n + 1)/2 in the expansion coefficients comes from.
+
+## Common Misconceptions
+- When n is a non-negative integer, both series solutions become polynomials. (Only the series with the same parity as n terminates; the other stays infinite and is unbounded near x = ±1.)
+- Legendre polynomials are orthonormal. (They are orthogonal, but ∫₋₁¹ Pₙ² dx = 2/(2n + 1), which is why the coefficient formula carries the factor (2n + 1)/2.)
+- The variable x in Legendre's equation is the polar angle. (x = cos θ, so the interval −1 ≤ x ≤ 1 covers θ from π to 0.)
+
 ## Questions
 
 ```yaml

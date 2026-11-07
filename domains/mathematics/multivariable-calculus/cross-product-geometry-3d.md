@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 The cross product a × b produces a vector perpendicular to both a and b, with magnitude |a × b| = |a||b|sin(θ) equal to the area of the parallelogram they span. Right-hand rule determines direction: curl fingers from a toward b, thumb points in direction of a × b.
 
+## How It's Best Learned
+Take the triangle with vertices P = (1,0,0), Q = (0,2,0) and R = (0,0,3). Form the edge vectors PQ = ⟨−1, 2, 0⟩ and PR = ⟨−1, 0, 3⟩. Their cross product is ⟨6, 3, 2⟩, with length 7, so the area is 7/2. Dot the result with each edge to confirm 0. Then use it as a normal: the plane is 6x + 3y + 2z = 6.
+
+## Common Misconceptions
+- a × b and b × a are the same vector. (They point in opposite directions: b × a = −(a × b). The magnitude is the same, but the right-hand rule flips.)
+- The area of a triangle is |a × b|. (That is the area of the parallelogram. The triangle is half of it, so its area is |a × b|/2.)
+- You can cross the vertices' position vectors to get a triangle's area. (That works only when one vertex is the origin. In general, cross two edge vectors that start at the same vertex.)
+
 ## Questions
 
 ```yaml

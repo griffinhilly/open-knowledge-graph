@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Randomized algorithms split into two fundamental classes based on where the randomness manifests. Las Vegas algorithms always produce the correct answer but have random running time — randomized quicksort always sorts correctly, but the number of comparisons varies. Monte Carlo algorithms run in deterministic (or bounded) time but may produce incorrect results with bounded probability — the Miller-Rabin primality test runs in fixed polynomial time but has a small false-positive probability. The distinction matters for complexity theory (ZPP vs BPP/RP) and for practice: Las Vegas algorithms compose trivially (correctness is guaranteed) while Monte Carlo algorithms require careful error management when chained together.
 
+## How It's Best Learned
+Convert one algorithm in each direction. Take randomized quicksort, cut it off after 2E[T] steps, and use Markov's inequality to show it now fails with probability at most 1/2. Then take an RP algorithm and a coRP algorithm for the same problem and alternate them until one gives a certain answer, computing the expected number of rounds. Sorting familiar algorithms into the two classes in a table helps afterward.
+
+## Common Misconceptions
+- A Las Vegas algorithm has unbounded running time, so it is less useful than Monte Carlo. (Its expected running time is bounded, and by Markov's inequality long runs are unlikely. Cutting it off at a time budget gives a Monte Carlo algorithm.)
+- Monte Carlo means approximate answers. (Monte Carlo refers to a chance of error in a fixed time bound. The answer can be exact when it is right, as with a primality test.)
+- Majority vote is the right way to amplify any Monte Carlo algorithm. (For one-sided error, accepting if any run accepts is better, since an accepting answer is always correct. Majority vote is for two-sided error.)
+- Any Monte Carlo algorithm can be turned into a Las Vegas one by repeating it. (Repetition lowers the error but cannot remove it. Conversion needs a way to check answers, as in ZPP = RP ∩ coRP.)
+
 ## Questions
 
 ```yaml

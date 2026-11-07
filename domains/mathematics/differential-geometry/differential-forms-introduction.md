@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Differential forms are the objects you integrate on manifolds. A differential k-form assigns to each point a multilinear, alternating function on k tangent vectors. 0-forms are smooth functions, 1-forms are dual to vector fields (they eat a vector and return a number), and higher forms generalize the integrands of line, surface, and volume integrals. The exterior algebra provides a coordinate-free framework for multivariable calculus on manifolds.
 
+## How It's Best Learned
+Evaluate dx∧dy on pairs of vectors in ℝ² until it reads as signed area: (dx∧dy)(v, w) = v₁w₂ − v₂w₁. Then substitute x = r cos θ, y = r sin θ. Expanding dx = cos θ dr − r sin θ dθ and dy = sin θ dr + r cos θ dθ gives dx∧dy = r dr∧dθ. The Jacobian factor from calculus appears without being put in by hand.
+
+## Common Misconceptions
+- dx is an infinitely small change in x. (Here dx is a covector: a linear function that returns the x-component of a tangent vector.)
+- A 1-form is the same thing as a vector field. (They transform differently under coordinate changes. Turning one into the other requires a metric.)
+- dx∧dy and dy∧dx are equal. (The wedge product of 1-forms anticommutes, so dy∧dx = −dx∧dy, and dx∧dx = 0.)
+
 ## Questions
 
 ```yaml

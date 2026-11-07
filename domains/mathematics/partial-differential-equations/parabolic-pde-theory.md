@@ -19,6 +19,14 @@ status: validated
 ## Core Idea
 Parabolic PDEs like u_t - Δu = f describe diffusion and heat conduction, combining the spatial ellipticity of the Laplacian with time evolution. The heat kernel K(x,y,t) = (4πt)^(-n/2)exp(-|x-y|²/(4t)) serves as the fundamental solution and reveals the key properties: infinite speed of propagation, instantaneous smoothing, and irreversibility. Parabolic regularity theory shows that solutions gain spatial smoothness instantaneously (u_t = Δu with L² initial data is C^∞ for t > 0) and that the natural function spaces are anisotropic, counting one time derivative as equivalent to two spatial derivatives.
 
+## How It's Best Learned
+Convolve the heat kernel with the indicator of [−1, 1] on ℝ to get u = ½[erf((x + 1)/(2√t)) − erf((x − 1)/(2√t))]. Check that this is smooth and positive at every x for each t > 0. Then verify that u(λx, λ²t) also solves u_t = u_xx, which is the parabolic scaling in action. Finally follow the mode e^{−k²t} sin kx backward and see the factor e^{k²T} that recovering the data would need.
+
+## Common Misconceptions
+- Instantaneous smoothing makes the solution smooth up to t = 0. (Smoothness holds for t > 0. For rough data, derivatives of u grow without bound as t decreases to 0.)
+- Infinite speed of propagation means a large effect arrives everywhere at once. (The solution is positive everywhere for t > 0, but far from the support of the data it is exponentially small.)
+- Every parabolic equation propagates at infinite speed. (Degenerate equations such as the porous medium equation u_t = Δ(u^m) with m > 1 have finite speed of propagation and compactly supported solutions.)
+
 ## Questions
 ```yaml
 - question: "The parabolic scaling that relates time and space derivatives is:"

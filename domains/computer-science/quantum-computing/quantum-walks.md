@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Quantum walks are the quantum analog of classical random walks, where a particle traverses a graph in superposition rather than probabilistically. In a discrete-time quantum walk, a coin operator creates superposition and a shift operator moves the walker conditioned on the coin state. In a continuous-time quantum walk, the Hamiltonian is the graph's adjacency matrix and evolution is via the Schrodinger equation. Quantum walks spread quadratically faster than classical random walks (standard deviation grows linearly with time vs. sqrt(t) classically) and serve as the basis for quantum algorithms for graph problems, element distinctness, and spatial search.
 
+## How It's Best Learned
+Start with a continuous-time walk on a two-vertex graph, where A = X. Starting at vertex 0, the probability of vertex 1 is sin^2(gamma t), which swings fully back and forth. A classical walk hopping at the same rate settles toward 1/2, as (1 - e^(-2 gamma t))/2. Then simulate the Hadamard walk on a line for 100 steps and find the two peaks near ±71, about t/sqrt(2).
+
+## Common Misconceptions
+- The coin in a discrete-time walk is a random coin flip. (The coin is a unitary operation, such as a Hadamard. No randomness enters until the walker's position is measured.)
+- A quantum walk settles into a stationary distribution like a classical walk. (Unitary evolution keeps oscillating and does not converge. Only the time-averaged distribution settles.)
+- Quantum-walk search finds a marked vertex in O(sqrt(N)) steps on any graph. (The speedup depends on the graph. On low-dimensional grids the basic algorithm loses part or all of it.)
+
 ## Questions
 
 ```yaml

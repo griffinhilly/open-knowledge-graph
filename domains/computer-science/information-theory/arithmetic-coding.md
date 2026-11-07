@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 Arithmetic coding represents an entire message as a single number in the interval [0, 1), achieving compression rates arbitrarily close to the source entropy. Unlike Huffman coding, which assigns a discrete codeword to each symbol, arithmetic coding encodes sequences by successively narrowing a subinterval: each symbol shrinks the current interval proportionally to its probability. The final interval width is the product of all symbol probabilities, and specifying a point within it requires approximately -log2 of that product = sum of -log2(p_i) bits — exactly the information content. Arithmetic coding is theoretically optimal and is the basis of modern entropy coders like ANS (asymmetric numeral systems).
 
+## How It's Best Learned
+Draw the unit interval on paper and encode a three- or four-symbol message by hand, writing the new endpoints after each symbol. Check that the final width equals the product of the symbol probabilities. Then decode it again from a single point inside the interval. Finally, compare the bit count with Huffman's on a skewed source such as P(A) = 0.9.
+
+## Common Misconceptions
+- Arithmetic coding gives each symbol its own codeword, only shorter than Huffman's. (It gives the whole message one codeword, a point inside the final interval. Single symbols have no separate codewords, which is how fractional bits per symbol become possible.)
+- Encoding a long message needs numbers with unbounded precision. (Practical coders use fixed-width integers and renormalize, sending out leading bits once they are settled and rescaling the interval.)
+- Arithmetic coding beats entropy for skewed sources. (No lossless code can average fewer bits than the entropy. Arithmetic coding comes close to entropy where Huffman falls short of it.)
+- The coder knows the probabilities on its own. (Compression is only as good as the probability model fed to it. The decoder must use the same model to recover the message.)
+
 ## Questions
 
 ```yaml

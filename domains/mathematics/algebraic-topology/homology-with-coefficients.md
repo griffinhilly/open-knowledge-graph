@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Homology with coefficients in an abelian group G, denoted H_n(X; G), is obtained by tensoring the singular chain complex with G: C_n(X; G) = C_n(X) tensor G, with boundary operators d tensor id_G. The choice of coefficient group G dramatically affects the resulting homology: integer coefficients Z give the most information but are hardest to compute; field coefficients (Q, Z/pZ) eliminate torsion subtleties and make homology a vector space; Z/2Z coefficients are natural for non-orientable manifolds and mod-2 intersection theory. The universal coefficient theorem relates H_n(X; G) back to H_n(X; Z).
 
+## How It's Best Learned
+Take the cellular chain complex of RP^2, Z --2--> Z --0--> Z, and tensor it with several coefficient groups. With Z/3 or Q, multiplication by 2 is invertible, so homology is G in degree 0 and zero above. With Z/2, every map becomes zero and each degree gives Z/2. Then check each answer against the universal coefficient sequence, term by term.
+
+## Common Misconceptions
+- H_n(X; G) is just H_n(X; Z) ⊗ G. (There is also a Tor term from H_{n-1}(X; Z). With G = Z/4, H_2(RP^2; Z/4) = Tor(Z/2, Z/4) = Z/2, though H_2(RP^2; Z) = 0.)
+- Mod-p homology detects torsion of every order. (It sees only p-primary torsion. With Z/3 coefficients, the Z/2 in H_1(RP^2; Z) disappears.)
+- A chain with coefficients in G is a function from simplices to G. (A chain is a finite formal sum of simplices with coefficients in G. Functions from chains to G are cochains, which give cohomology.)
+
 ## Questions
 
 ```yaml
@@ -35,10 +43,10 @@ Homology with coefficients in an abelian group G, denoted H_n(X; G), is obtained
   answer: 2
   explanation: "By the universal coefficient theorem: H_1(X; G) ≅ (H_1(X; Z) ⊗ G) ⊕ Tor(H_0(X; Z), G). H_1(RP^2; Z) ⊗ Z/3Z = Z/2Z ⊗ Z/3Z = Z/gcd(2,3)Z = 0. Tor(H_0(RP^2; Z), Z/3Z) = Tor(Z, Z/3Z) = 0 (Z is free). So H_1(RP^2; Z/3Z) = 0. The 2-torsion in H_1(RP^2; Z) becomes invisible with Z/3Z coefficients because gcd(2,3) = 1. This illustrates that different coefficient groups detect different torsion phenomena."
 
-- question: "With field coefficients k, all homology groups H_n(X; k) are vector spaces over k, and the universal coefficient theorem simplifies to H_n(X; k) ≅ H_n(X; Z) ⊗ k."
+- question: "With coefficients in a field k of characteristic 0 (such as Q, R or C), all homology groups H_n(X; k) are vector spaces over k, and the universal coefficient theorem simplifies to H_n(X; k) ≅ H_n(X; Z) ⊗ k."
   type: true-false
   answer: true
-  explanation: "When G = k is a field, Tor(−, k) = 0 (every module over a field is free, hence flat, so the tensor product is exact). The universal coefficient theorem gives H_n(X; k) = H_n(X; Z) ⊗_Z k ⊕ Tor(H_{n-1}(X; Z), k) = H_n(X; Z) ⊗ k. Concretely: Z ⊗ k = k (free summands survive) and Z/mZ ⊗ k depends on whether m is invertible in k. Over Q: Z/mZ ⊗ Q = 0 for all m (torsion vanishes). Over Z/pZ: Z/mZ ⊗ Z/pZ = Z/gcd(m,p)Z (only p-torsion survives)."
+  explanation: "A field of characteristic 0 is torsion-free as an abelian group, hence flat over Z, so Tor(−, k) = 0. The universal coefficient theorem gives H_n(X; k) = H_n(X; Z) ⊗_Z k ⊕ Tor(H_{n-1}(X; Z), k) = H_n(X; Z) ⊗ k. Concretely: Z ⊗ k = k (free summands survive) and Z/mZ ⊗ k = 0 (torsion vanishes). The simplification fails for k = Z/pZ, because Tor(Z/mZ, Z/pZ) = Z/gcd(m,p)Z can be nonzero. For example, H_2(RP^2; Z/2Z) = Z/2Z, while H_2(RP^2; Z) ⊗ Z/2Z = 0."
 
 - question: "Why is Z/2Z a natural choice of coefficients for studying non-orientable manifolds?"
   type: multiple-choice
@@ -52,7 +60,7 @@ Homology with coefficients in an abelian group G, denoted H_n(X; G), is obtained
 
 - question: "Explain the relationship between H_n(X; Z) and H_n(X; Z/pZ) for a prime p. What information about the integer homology does the mod-p homology detect?"
   type: short-answer
-  answer: "By the universal coefficient theorem: H_n(X; Z/pZ) ≅ (H_n(X; Z) ⊗ Z/pZ) ⊕ Tor(H_{n-1}(X; Z), Z/pZ). The tensor part detects the free rank of H_n (each Z summand contributes Z/pZ) and the p-primary torsion (Z/p^kZ ⊗ Z/pZ = Z/pZ). The Tor part detects p-primary torsion in H_{n-1} (Tor(Z/p^kZ, Z/pZ) = Z/pZ). So mod-p homology sees: (1) the free rank, and (2) the p-primary torsion of the integer homology in dimensions n and n-1. By computing H_n(X; Z/pZ) for all primes p, one can recover the full torsion structure of H_n(X; Z)."
+  answer: "By the universal coefficient theorem: H_n(X; Z/pZ) ≅ (H_n(X; Z) ⊗ Z/pZ) ⊕ Tor(H_{n-1}(X; Z), Z/pZ). The tensor part detects the free rank of H_n (each Z summand contributes Z/pZ) and the p-primary torsion (Z/p^kZ ⊗ Z/pZ = Z/pZ). The Tor part detects p-primary torsion in H_{n-1} (Tor(Z/p^kZ, Z/pZ) = Z/pZ). So mod-p homology sees: (1) the free rank, and (2) the p-primary torsion of the integer homology in dimensions n and n-1. It counts the p-primary cyclic summands but not their orders: Z/2Z and Z/4Z both give Z/2Z after tensoring with Z/2Z."
   explanation: "This is the algebraic topology version of 'localization at p.' Computing mod-p homology for various primes is often the most efficient route to understanding the integer homology: first determine the free rank (from rational homology), then determine the p-primary torsion for each prime (from mod-p homology). The universal coefficient theorem reassembles these local computations into the global integer answer."
 ```
 
@@ -64,6 +72,6 @@ The most important coefficient choices are: **Z** (integer coefficients, the def
 
 The **universal coefficient theorem for homology** relates H_n(X; G) to H_*(X; Z): there is a short exact sequence 0 -> H_n(X; Z) tensor G -> H_n(X; G) -> Tor(H_{n-1}(X; Z), G) -> 0, which splits (non-naturally). The tensor term is the "expected" contribution: each Z summand in H_n(X; Z) contributes a copy of G, and each Z/mZ summand contributes G/mG. The Tor term is the correction from torsion in one degree lower: each Z/mZ summand in H_{n-1}(X; Z) contributes Tor(Z/mZ, G) to H_n(X; G). For G = Z/pZ: Tor(Z/mZ, Z/pZ) = Z/gcd(m,p)Z, which is Z/pZ when p divides m and 0 otherwise.
 
-Field coefficients are technically simpler because Tor vanishes for fields (every module over a field is flat). With field coefficients k, homology groups are vector spaces: H_n(X; k) = H_n(X; Z) tensor k, with dimension equal to the free rank of H_n(X; Z) (over Q) or the free rank plus a correction for the relevant torsion (over Z/pZ). The Euler characteristic and Betti numbers are most naturally defined using field coefficients, and many theorems (Poincare duality with Z/2Z, the Kunneth formula over fields) take their simplest form with field coefficients.
+Field coefficients are technically simpler because homology groups become vector spaces. Over Q, Tor vanishes (Q is torsion-free, hence flat over Z), so H_n(X; Q) = H_n(X; Z) tensor Q, with dimension equal to the free rank of H_n(X; Z). Over Z/pZ, the Tor term survives, and the dimension is the free rank plus the number of p-primary cyclic summands in H_n(X; Z) and in H_{n-1}(X; Z). The Euler characteristic and Betti numbers are most naturally defined using field coefficients, and many theorems (Poincare duality with Z/2Z, the Kunneth formula over fields) take their simplest form with field coefficients.
 
-In practice, the most common workflow is: compute H_*(X; Z) directly if possible (using cellular or simplicial methods), then derive H_*(X; G) for other G via the universal coefficient theorem. Alternatively, for spaces where the integer computation is hard, one may compute H_*(X; Q) (to get Betti numbers) and H_*(X; Z/pZ) for small primes p (to detect torsion), then reconstruct H_*(X; Z) from these partial results. The universal coefficient theorem ensures no information is lost in this process — the integer homology is uniquely determined by the collection of all mod-p homologies together with the rational homology.
+In practice, the most common workflow is: compute H_*(X; Z) directly if possible (using cellular or simplicial methods), then derive H_*(X; G) for other G via the universal coefficient theorem. Alternatively, for spaces where the integer computation is hard, one may compute H_*(X; Q) (to get Betti numbers) and H_*(X; Z/pZ) for small primes p (to detect torsion), then reconstruct H_*(X; Z) from these partial results. This reconstruction has a limit: mod-p homology counts p-primary cyclic summands but cannot tell Z/pZ from Z/p^2Z, so finding the exact torsion orders takes extra work, such as Z/p^kZ coefficients or a direct integer computation.

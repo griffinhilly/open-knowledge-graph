@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Secure property rights give individuals and firms incentive to invest, maintain assets, and engage in long-term planning. Without protection, land and capital are underutilized and informal sectors predominate. De Soto's research on property titling shows how formalization unlocks capital in developing economies by enabling collateral-based borrowing and improving incentives for reinvestment.
 
+## How It's Best Learned
+Take an urban squatter household that receives a title and trace three channels: more investment in the house, labor freed from guarding the plot, and a loan backed by the title. For each channel, name the institution it needs, such as a working registry, courts that enforce foreclosure, or banks that make small loans. Then check the channels against the Peru results.
+
+## Common Misconceptions
+- Property rights are about land. (They cover any asset whose returns someone could take, including houses, equipment, and businesses.)
+- A title document is the same as a secure right. (A title gives security only if registries record it and courts enforce it at reasonable cost.)
+- The main payoff from titling is access to credit. (In Peru, effects on housing investment and freed labor were clearer than effects on bank lending.)
+- Secure rights must belong to a single individual owner. (Communal or customary rights can be secure. Security means confidence in keeping the returns from an investment.)
+
 ## Questions
 
 ```yaml

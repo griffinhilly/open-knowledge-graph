@@ -19,6 +19,14 @@ status: draft
 ## Core Idea
 Nonfiction narrative arc follows the actual sequence and proportions of lived events while employing rising action, climax, falling action, and resolution. Writers shape actual experience into compelling narrative form, managing pacing and emphasis to create dramatic engagement and emotional impact without fabricating events, using selection and proportion as primary tools.
 
+## How It's Best Learned
+Take a true story you know well, such as a week spent waiting for news, and list every event with how long it took in life. Beside each, write how many words you plan to give it: compress routine stretches to a sentence and give the most tense moment the most space. Check the plan against the record so every event is real and readers are not misled about what happened when.
+
+## Common Misconceptions
+- A true story has an arc only if the events were dramatic. (Arc comes from selection, pacing and emphasis, so a quiet story can build tension through what the writer reveals and when.)
+- Giving events unequal space distorts the truth. (Proportion signals significance. Summarizing routine weeks and slowing down on a key conversation reflects what mattered.)
+- Narrative craft in nonfiction borrows fiction's freedom to invent. (Nonfiction writers shape real events through selection, proportion and pacing, without fabricating events.)
+
 ## Questions
 
 ```yaml
@@ -54,6 +62,7 @@ Nonfiction narrative arc follows the actual sequence and proportions of lived ev
 
 - question: How might a nonfiction writer create narrative tension and arc from a true story that isn't inherently dramatic? What tools are available?
   type: short-answer
+  answer: "The writer can slow down and dramatize the moments that matter, move quickly through routine stretches, raise questions that pull readers forward, and control when readers learn each piece of information. A story about family research, for example, can build tension by revealing discoveries gradually as the research uncovered them."
   explanation: 'Even stories without obvious drama have moments of significance. The writer''s job is to recognize and emphasize them. Tools include: detailed development of tense moments (showing rather than summarizing), control of pacing (moving quickly through exposition, slowing in key scenes), raising questions that propel readers forward (''What will happen next?''), using foreshadowing drawn from actual events, managing what information readers know when, building toward revelations. A story about someone researching their family history might not have obvious plot tension, but the writer can create tension through pacing—revealing discoveries gradually, withholding information until it will have maximum impact—all while remaining faithful to how the actual research unfolded.'
 ```
 

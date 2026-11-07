@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 A line in 3D can be written parametrically as r(t) = r₀ + tv, where r₀ is a point on the line and v is the direction vector. A plane through point (x₀, y₀, z₀) with normal vector n = ⟨a, b, c⟩ has equation a(x−x₀) + b(y−y₀) + c(z−z₀) = 0.
 
+## How It's Best Learned
+Build a line from two points, then find where it meets a plane. Through (1, 2, 3) and (3, 3, 1), the direction is v = ⟨2, 1, −2⟩, so r(t) = ⟨1 + 2t, 2 + t, 3 − 2t⟩. Check that t = 0 and t = 1 give the two points. Substituting into x + y + z = 9 gives 6 + t = 9, so t = 3 and the point is (7, 5, −3).
+
+## Common Misconceptions
+- An equation like 2x − y + 4z = 5 describes a line, as y = mx + b does in 2D. (One linear equation in x, y, z describes a plane in 3D.)
+- A line has one correct parametric equation. (Any point on the line and any nonzero multiple of v describe the same line, so many equations are valid.)
+- The normal vector lies in the plane. (The normal is perpendicular to every vector in the plane.)
+- Two lines in 3D that are not parallel must intersect. (In 3D they can be skew: not parallel and never meeting.)
+
 ## Questions
 
 ```yaml

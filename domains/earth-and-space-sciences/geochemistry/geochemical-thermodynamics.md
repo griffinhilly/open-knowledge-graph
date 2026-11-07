@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 Geochemical thermodynamics applies the principles of chemical thermodynamics -- Gibbs free energy, enthalpy, entropy, and chemical potential -- to predict the stability of minerals, the direction of geochemical reactions, and the composition of natural systems at equilibrium. The central quantity is the Gibbs free energy of reaction (delta-G), which determines whether a reaction proceeds spontaneously at given temperature and pressure. At equilibrium, delta-G = 0, and the equilibrium constant K relates to standard-state free energy by delta-G-naught = -RT ln K. Because geological systems operate over enormous temperature (0-1400 C) and pressure (1 atm to 30+ GPa) ranges, geochemical thermodynamics must account for T-P dependence of thermodynamic properties -- a complexity rarely encountered in benchtop chemistry.
 
+## How It's Best Learned
+Convert between delta-G-naught and K by hand before using any software. At 25 C, 2.303RT is about 5.71 kJ/mol, so a delta-G-naught of +48 kJ/mol gives log K of about -8.4. That is close to calcite's solubility product. Then compute delta-G = delta-G-naught + RT ln Q for real waters with Q above and below K, and see the sign flip.
+
+## Common Misconceptions
+- A negative delta-G means the reaction will happen quickly. (Delta-G gives only the direction. Diamond at the surface has a negative delta-G for conversion to graphite, yet it persists because the reaction is extremely slow.)
+- The sign of delta-G-naught tells you which way a reaction goes in nature. (The direction depends on delta-G, which includes RT ln Q. A reaction with positive delta-G-naught can run forward when Q is small enough.)
+- Data tabulated at 25 C and 1 bar can be used directly for conditions at depth. (Properties must be extrapolated using heat capacity, molar volume, and equations of state for fluids.)
+- At equilibrium, all reactions have stopped. (Forward and reverse reactions continue at equal rates, so there is no net change.)
+
 ## Questions
 
 ```yaml

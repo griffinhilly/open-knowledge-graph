@@ -18,7 +18,16 @@ status: validated
 # Welfare Analysis: Deadweight Loss and Policy Evaluation
 
 ## Core Idea
-Deadweight loss measures surplus loss from market distortions (monopoly, taxes, externalities). For small changes, deadweight loss is approximately half the distortion squared times quantity. Advanced welfare analysis uses compensating or equivalent variation to account for income effects, essential when income effects are large or distributional impacts matter. Distributional effects are equally important to efficiency effects in policy evaluation.
+Deadweight loss measures surplus loss from market distortions (monopoly, taxes, externalities). For small changes, deadweight loss is approximately half the distortion squared times the rate at which quantity responds to price. Advanced welfare analysis uses compensating or equivalent variation to account for income effects, essential when income effects are large or distributional impacts matter. Distributional effects are equally important to efficiency effects in policy evaluation.
+
+## How It's Best Learned
+Draw demand P = 100 − Q against flat supply at P = 20, so 80 units trade. A tax of 10 cuts trade to 70 and leaves a deadweight triangle of 50. A tax of 20 cuts trade to 60 and leaves a triangle of 200. Revenue rises from 700 to 1200, but the lost surplus quadruples. Redraw with a flatter demand curve and compare the triangles.
+
+## Common Misconceptions
+- Deadweight loss is the surplus that buyers and sellers lose to the tax. (Part of what they lose becomes government revenue. Deadweight loss is only the part that no one receives, from trades that stop happening.)
+- A tax on a good with perfectly inelastic demand causes a large deadweight loss because buyers cannot avoid it. (If quantity does not change, no trades are lost and the deadweight loss is zero. The tax still shifts income from buyers to the government.)
+- Compensating and equivalent variation give the same number. (They differ when the good has income effects. They coincide when preferences are quasilinear in money.)
+- A policy with positive net surplus makes everyone better off. (Positive net surplus means winners could in principle compensate losers. Unless transfers are actually made, the losers remain worse off.)
 
 ## Questions
 
@@ -63,7 +72,7 @@ Deadweight loss measures surplus loss from market distortions (monopoly, taxes, 
 
 You already know that consumer and producer surplus measure the gains from trade in a market. **Deadweight loss** is what happens when a policy or market failure prevents some of those gains from being realized — it is surplus that simply vanishes, captured by no one. When a tax is imposed on a good, transactions that would have occurred at the free-market price no longer happen because the tax drives a wedge between what buyers pay and what sellers receive. The lost surplus from those missing transactions is the deadweight loss, represented by the familiar triangle between the supply and demand curves.
 
-For small taxes or distortions, deadweight loss follows a useful approximation: it is roughly **one-half times the tax (or distortion) squared times the quantity affected**. The squared term is critical — it means deadweight loss grows more than proportionally with the size of the distortion. Doubling a tax roughly quadruples the deadweight loss. This is why economists generally prefer broad-based taxes at low rates over narrow taxes at high rates, and why large market distortions (like monopoly pricing far above marginal cost) are more damaging than small ones.
+For small taxes or distortions, deadweight loss follows a useful approximation: it is roughly **one-half times the tax (or distortion) squared times the rate at which quantity responds to price** (the change in quantity per unit change in price). The squared term is critical — it means deadweight loss grows more than proportionally with the size of the distortion. Doubling a tax roughly quadruples the deadweight loss. This is why economists generally prefer broad-based taxes at low rates over narrow taxes at high rates, and why large market distortions (like monopoly pricing far above marginal cost) are more damaging than small ones.
 
 Standard surplus analysis assumes that a dollar is worth the same to every consumer, but this is clearly wrong when income effects matter. A dollar lost by a poor household is more consequential than a dollar lost by a wealthy one. **Compensating variation** asks: how much money would we need to give (or take from) a consumer after a price change to restore their original utility level? **Equivalent variation** asks: how much money would the consumer pay (or accept) to avoid the price change altogether? These measures, which you encountered in consumer theory, give more precise welfare assessments than simple surplus calculations because they account for how purchasing power changes affect different consumers differently.
 

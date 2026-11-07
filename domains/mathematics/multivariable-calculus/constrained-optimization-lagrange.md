@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 To optimize f(x, y) subject to constraint g(x, y) = 0, solve ∇f = λ∇g at extrema. The multiplier λ indicates the rate of change of the optimum with respect to the constraint. Check boundary and critical points for absolute extrema on constrained regions.
 
+## How It's Best Learned
+Draw the circle x² + y² = 2 over the level lines x + y = k, and find where a line just touches the circle. Then solve ⟨1, 1⟩ = λ⟨2x, 2y⟩ with the constraint: x = y = ±1, so f = x + y has maximum 2 and minimum −2. On the circle x² + y² = c the maximum is √(2c). Its derivative at c = 2 is 1/2, which matches λ at the maximum.
+
+## Common Misconceptions
+- The equations ∇f = λ∇g are the whole system. (The constraint g = 0 is a required equation too. Without it, there are more unknowns than equations.)
+- The multiplier λ must be positive. (It can be negative or zero. In the circle example, λ = −1/2 at the minimum point (−1, −1).)
+- On a region such as a disk, the Lagrange method finds every candidate. (It covers only the boundary curve. Interior points where ∇f = 0 must be found and checked separately.)
+
 ## Questions
 
 ```yaml

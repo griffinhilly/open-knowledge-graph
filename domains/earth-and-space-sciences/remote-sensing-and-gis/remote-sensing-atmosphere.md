@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Atmospheric remote sensing measures the composition, structure, and dynamics of Earth's atmosphere from satellites. While surface remote sensing treats the atmosphere as an obstacle (to be corrected away), atmospheric remote sensing treats it as the target. Key measurements include atmospheric temperature and humidity profiles (from infrared and microwave sounders), cloud properties (from visible, infrared, and radar sensors), aerosol distribution (from multi-angle and polarimetric sensors), trace gas concentrations (from ultraviolet, visible, and infrared spectrometers), and precipitation (from radar and passive microwave). These measurements drive weather forecasting, climate monitoring, and air quality assessment.
 
+## How It's Best Learned
+Sketch weighting functions for three CO2 sounder channels with strong, medium and weak absorption. The strong channel peaks high in the atmosphere and the weak one near the surface. Then open TROPOMI NO2 maps of one city and compare weekday and weekend averages. Ask what the column value can and cannot say about the air at street level.
+
+## Common Misconceptions
+- A satellite NO2 or CO2 value is the concentration in the air people breathe. (Most products are total or tropospheric columns over the whole depth of air. Surface values need profile assumptions or models.)
+- Each sounder channel measures temperature at one exact height. (Each channel senses a broad layer described by its weighting function, and the layers overlap, so vertical detail is limited.)
+- Satellites measure gas amounts directly. (They measure radiance. Gas amounts and temperatures are retrieved from it using radiative transfer models and prior information.)
+
 ## Questions
 
 ```yaml
@@ -37,7 +45,7 @@ Atmospheric remote sensing measures the composition, structure, and dynamics of 
   answer: 1
   explanation: "NO2 absorbs strongly in the blue-violet portion of the visible spectrum. By measuring the depth of these absorption features in sunlight reflected from the surface and atmosphere, TROPOMI retrieves the total column amount of NO2. This has revealed urban pollution hotspots, shipping lanes, and the dramatic drop in NO2 during COVID-19 lockdowns at unprecedented spatial detail."
 
-- question: "Weather satellites in geostationary orbit can directly measure atmospheric temperature profiles from space."
+- question: "Weather satellites in geostationary orbit can retrieve atmospheric temperature profiles from space."
   type: true-false
   answer: true
   explanation: "Infrared sounders on geostationary satellites measure thermal emission at multiple wavelengths in CO2 absorption bands. Because CO2 is well-mixed and its concentration is known, the emission at different wavelengths originates from different altitudes (stronger absorption = higher altitude of emission). By measuring emission in a series of channels with different CO2 absorption strengths, the instrument retrieves temperature at multiple atmospheric levels -- a technique called thermal sounding."

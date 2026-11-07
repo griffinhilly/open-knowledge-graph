@@ -27,6 +27,14 @@ status: draft
 ## Core Idea
 Literary journalism applies narrative and stylistic techniques—scene construction, dialogue, characterization, point of view, interior access—to factual reporting and journalistic investigation. It prioritizes the reader's immersion in and experience of events over summary exposition, creating immediate engagement with reported reality through literary craft.
 
+## How It's Best Learned
+Take a short news story with a summary lead and rewrite one moment from it as a scene with setting, action and attributed dialogue. Use only facts in the article or ones you report yourself. Then label each sentence with its source, and cut any sentence you cannot source, especially one that claims to know what someone thought.
+
+## Common Misconceptions
+- Literary journalism lets writers fill gaps with plausible invented detail. (The techniques come from fiction, but every detail, including dialogue and thoughts, needs a basis in reporting.)
+- Showing a person's thoughts is off-limits in nonfiction. (Interior access is allowed when the writer learned those thoughts through interviews, documents or testimony.)
+- Literary journalism is fine writing laid over thin reporting. (Building a scene takes more reporting, since the writer needs the details, dialogue and sequence of events to construct it.)
+
 ## Questions
 
 ```yaml
@@ -62,6 +70,7 @@ Literary journalism applies narrative and stylistic techniques—scene construct
 
 - question: How might a literary journalist report on an event or investigation differently than a traditional journalist? What does literary technique add?
   type: short-answer
+  answer: "A traditional journalist would summarize the event or investigation. A literary journalist would reconstruct key moments as scenes, with dialogue, setting and characterization grounded in reporting, so readers experience the events and feel their importance."
   explanation: 'A traditional journalist might write: ''Investigators conducted interviews with twelve witnesses over three weeks. Their accounts differed on key details but confirmed the main sequence of events.'' A literary journalist might reconstruct one or two pivotal interviews in scene—showing dialogue, setting, tension, the investigator''s perception. This creates reader immersion. Traditional journalism reports about investigation; literary journalism lets readers experience it. Literary journalism doesn''t just say something is important; through scene and detail, it makes readers feel its importance. This requires both solid reporting and literary skill—the writer must have done thorough investigation and then rendered it with narrative craft.'
 ```
 

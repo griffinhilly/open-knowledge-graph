@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 Primary completion rates have risen in poor countries, but learning outcomes have stagnated due to teacher absenteeism, weak pedagogy, and lack of resources. Children spend years in school without learning to read or calculate. RCT evidence shows that targeted interventions—teacher incentives, teaching at the right level, school meals—boost learning and future earnings.
 
+## How It's Best Learned
+Picture a fifth-grade class taught from the fifth-grade textbook. Ask the learner to sort the pupils by what they can actually read, and see how many the lesson leaves behind. Then contrast "years of schooling" with "skills acquired" as two columns for the same country. Finish by redesigning the class the way Teaching at the Right Level does, grouping by level rather than age.
+
+## Common Misconceptions
+- A child who completes several years of school can read and do basic arithmetic. (Surveys find large shares of such children cannot read a simple paragraph or do basic sums.)
+- High enrollment means human capital is growing. (Enrollment measures access. Human capital depends on the skills children gain, which can stagnate while enrollment rises.)
+- More schools and longer days will fix weak learning. (These add inputs without fixing the mismatch between instruction and pupils' levels. Targeted pedagogy has stronger evidence.)
+- Weak learning is mainly a matter of household poverty. (Much of the problem lies inside schools: teacher absence, curricula pitched too high, and crowded, under-equipped classrooms.)
+
 ## Questions
 
 ```yaml

@@ -20,6 +20,14 @@ status: validated
 ## Core Idea
 The static structure factor S(k) is the Fourier transform of the pair distribution function, describing how a system scatters radiation at different wavelengths. It encodes density correlations at all length scales and is directly measurable in X-ray, neutron, or light scattering experiments.
 
+## How It's Best Learned
+Compute S(k) = (1/N)|Σⱼ e^(ik·rⱼ)|² directly from particle positions. For random points it averages to 1 at every k ≠ 0. For a perfect 1D lattice of spacing a it equals N at k = 2πn/a and is near zero elsewhere. Add random displacements to the lattice and watch the peaks shrink, fastest at large k. Finally check that S(0) = ρk_BTκ_T gives 1 for an ideal gas.
+
+## Common Misconceptions
+- The value of S(k) at a given k comes only from particle pairs exactly 2π/k apart. (The Fourier integral mixes in all separations. The main liquid peak sits near 2π/d, but its position and shape reflect the whole g(r).)
+- A dense liquid has S(0) close to 1, like a gas. (A liquid is far less compressible than an ideal gas at the same density and temperature, so S(0) = ρk_BTκ_T is well below 1. For water near room temperature it is about 0.06.)
+- The scattered intensity in an experiment is S(k) itself. (The raw intensity also contains the atomic form factor or neutron scattering length, plus incoherent and multiple scattering. These must be removed to extract S(k).)
+
 ## Questions
 
 ```yaml

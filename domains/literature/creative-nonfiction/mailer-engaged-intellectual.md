@@ -24,6 +24,14 @@ status: draft
 ## Core Idea
 Mailer's essays and reported pieces position the nonfiction writer as a public intellectual willing to stake claims and provoke debate. His digressive, ego-driven style demonstrates that writerly personality and argumentative force can coexist in serious journalism, and that the essayist can be both witness and protagonist.
 
+## How It's Best Learned
+Read a section of The Armies of the Night, in which Mailer writes about himself in the third person as a participant in the 1967 march on the Pentagon. Mark each passage as witness (what he saw), protagonist (what he did) or argument (what he claims). Then ask how the self-portrait affects your trust in his claims about the event.
+
+## Common Misconceptions
+- Mailer's ego makes his nonfiction self-indulgent and unserious. (His pieces rest on reporting, and the visible personality is a way of showing a mind working on the subject.)
+- When the writer becomes a protagonist, the subject fades into the background. (The writer's presence and reactions become part of how the subject is examined and understood.)
+- Taking sides in an essay means giving up rigor. (Mailer's example suggests that passionate engagement and careful argument can reinforce each other.)
+
 ## Questions
 
 ```yaml
@@ -59,6 +67,7 @@ Mailer's essays and reported pieces position the nonfiction writer as a public i
 
 - question: How does Mailer's approach to the essay differ from traditional objective journalism? What does his approach offer?
   type: short-answer
+  answer: "Objective journalism keeps the reporter invisible and lets the facts appear to speak for themselves. Mailer makes himself visible, reporting an event while reacting, digressing and arguing about it. His approach offers openness about perspective and the energy of a thinking mind at work."
   explanation: Traditional objective journalism tries to disappear—the reporter is invisible, facts speak for themselves, the piece seems to be about the subject only. Mailer's journalism makes the reporter visible. His personality, his thinking, his reactions are part of the piece. He reports on an event but also reflects on it, argues about it, engages with it. This can seem less objective but is arguably more honest—it acknowledges that all reporting is perspectival. Readers aren't getting supposedly neutral facts; they're getting a thinking mind grappling with material. This can be more compelling and credible because it's transparent about perspective. It also makes the journalism more lively—Mailer's engaged passion makes the work vivid.
 ```
 

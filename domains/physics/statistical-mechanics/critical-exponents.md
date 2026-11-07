@@ -24,10 +24,18 @@ status: validated
 ## Core Idea
 Near criticality, macroscopic quantities scale as powers of the distance from criticality: heat capacity ~ |T - T_c|^(-α), order parameter ~ |T - T_c|^β, etc. Remarkably, many different microscopic systems share the same exponents (universality), determined only by symmetry and dimensionality. Exponent values are non-trivial and require renormalization group analysis.
 
+## How It's Best Learned
+Check the scaling laws by hand on the exactly solved 2D Ising model: α = 0, β = 1/8, γ = 7/4, δ = 15, ν = 1, η = 1/4. Rushbrooke gives 0 + 1/4 + 7/4 = 2, Widom gives (1/8)(15 − 1) = 7/4, and Fisher gives 1 × (2 − 1/4) = 7/4. Then repeat with the mean-field set to see that it obeys the same relations with different numbers.
+
+## Common Misconceptions
+- Systems in the same universality class have the same T_c. (T_c depends on microscopic couplings and differs from system to system. Only the exponents, and certain amplitude ratios, are shared.)
+- An exponent of α = 0 means the heat capacity has no singularity. (α = 0 can hide a logarithmic divergence. The 2D Ising heat capacity diverges as ln|t|.)
+- Symmetry and dimension alone fix the class, whatever the interactions. (Interactions that decay slowly enough with distance can change the exponents. The usual classification assumes short-range forces.)
+
 ## Questions
 
 ```yaml
-- question: "Iron and a liquid-gas mixture near their critical points are found to share the same critical exponent β ≈ 0.326, despite having completely different molecules and interactions. What is the best explanation for this?"
+- question: "A binary alloy near its order-disorder transition and a liquid-gas system near its critical point are found to share the same critical exponent β ≈ 0.326, despite having completely different molecules and interactions. What is the best explanation for this?"
   type: multiple-choice
   options:
     - "Their microscropic Hamiltonians happen to be mathematically identical when written in the right units"
@@ -35,7 +43,7 @@ Near criticality, macroscopic quantities scale as powers of the distance from cr
     - "Critical exponents are always approximately 1/3, regardless of the system"
     - "Mean-field theory correctly predicts β = 1/3 for all three-dimensional systems"
   answer: 1
-  explanation: "Universality is the profound result that critical exponents depend only on the symmetry of the order parameter and the spatial dimension — not on microscopic details like interaction strengths, lattice structure, or chemical identity. Iron's magnetization and the density difference of a liquid-gas system are both scalar (one-component) order parameters in 3D, placing them in the 3D Ising universality class. Mean-field theory predicts β = 1/2, which is wrong in 3D due to fluctuations; the actual value (~0.326) requires renormalization group analysis."
+  explanation: "Universality is the profound result that critical exponents depend only on the symmetry of the order parameter and the spatial dimension — not on microscopic details like interaction strengths, lattice structure, or chemical identity. The alloy's sublattice order and the density difference of a liquid-gas system are both scalar (one-component) order parameters in 3D, placing them in the 3D Ising universality class. Mean-field theory predicts β = 1/2, which is wrong in 3D due to fluctuations; the actual value (~0.326) requires renormalization group analysis."
 
 - question: "Mean-field theory predicts β = 1/2 for the order parameter exponent, but experiments on 3D Ising systems give β ≈ 0.326. Why does mean-field fail?"
   type: multiple-choice
@@ -47,7 +55,7 @@ Near criticality, macroscopic quantities scale as powers of the distance from cr
   answer: 1
   explanation: "Mean-field theory assumes each spin (or molecule) sees only the average field from its neighbors, ignoring correlated fluctuations. Near a critical point, the correlation length diverges — fluctuations on all length scales become important — and the mean-field approximation fails badly. Mean-field predictions are exactly correct only above the upper critical dimension (d = 4 for the Ising class), where long-range correlations are suppressed by the high connectivity of space. In 3D, fluctuations dominate and renormalization group methods are needed to get the correct exponents."
 
-- question: "The critical exponents α, β, γ, ν, and δ are most independent quantities that should be measured separately for each universality class."
+- question: "The critical exponents α, β, γ, ν, and δ are independent quantities that must be measured separately for each universality class."
   type: true-false
   answer: false
   explanation: "The exponents are constrained by scaling laws that reduce the number of independent exponents. The Rushbrooke relation (α + 2β + γ = 2), the Widom relation (γ = β(δ − 1)), and the Fisher relation (γ = ν(2 − η)) all follow from the scaling hypothesis — the assumption that near T_c, the free energy is a generalized homogeneous function. These relationships mean that once two independent exponents are known (plus the anomalous dimension η), all others are determined. The exponents are related, not free."

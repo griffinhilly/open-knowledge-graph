@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Institutional quality—measured by rule of law, contract enforcement, property rights security, and political stability—correlates strongly with long-run development. Institutions reduce transaction costs, encourage investment in productive assets, and enable complex economic organization. Countries with extractive institutions concentrating power grow slower; inclusive institutions enabling broad participation generate faster sustained growth.
 
+## How It's Best Learned
+Start from the split of Korea after 1945, which left geography and culture similar but gave the two halves very different institutions. For a would-be shop owner on each side, list the costs of getting a permit, borrowing, and keeping equipment safe from seizure. Then name who would lose power from reform on the extractive side.
+
+## Common Misconceptions
+- Institutions means government agencies. (Institutions are the rules of the game, formal laws and informal norms, plus how they are enforced.)
+- The link between institutions and income proves that institutions cause growth. (Richer countries can also afford better institutions, so researchers look for historical sources of institutional differences to sort out the direction.)
+- Extractive institutions cannot produce growth at all. (They can produce growth for a time, but they tend to block the creative destruction that sustains it.)
+- A country can fix weak institutions by copying another country's laws. (Laws on paper can go unenforced. Results depend on who holds power and whether they gain from enforcing the rules.)
+
 ## Questions
 
 ```yaml

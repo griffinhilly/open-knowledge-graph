@@ -28,6 +28,15 @@ status: validated
 ## Core Idea
 The Fast Fourier Transform (FFT) computes the Discrete Fourier Transform (DFT) of a sequence of n values in O(n log n) time, down from the naive O(n^2). Its primary algorithmic application is O(n log n) polynomial multiplication: evaluate two degree-n polynomials at the n-th roots of unity (via FFT), multiply the values pointwise in O(n), then interpolate back (via inverse FFT). The Cooley-Tukey algorithm achieves this through a divide-and-conquer decomposition that splits even- and odd-indexed coefficients, exploiting the symmetry properties of roots of unity (the "butterfly" structure). The FFT is the foundation for Schonhage-Strassen integer multiplication (O(n log n log log n)) and has applications throughout signal processing, string matching, and computational algebra. It is frequently cited as one of the ten most important algorithms of the 20th century.
 
+## How It's Best Learned
+Multiply (1 + 2x) by (3 + x) with the full pipeline using n = 4 and the fourth roots of unity 1, i, -1, -i. Evaluate both polynomials at the four points, multiply pointwise, and invert by hand. Then draw the recursion tree for n = 8, marking at each level which roots each subproblem evaluates at, so the squaring step that halves the point set is visible.
+
+## Common Misconceptions
+- The FFT is a faster way to multiply coefficient vectors directly. (It changes representation. Multiplication happens pointwise on values at roots of unity, and the FFT and inverse FFT do the conversions.)
+- Evaluating at n points is enough to multiply two degree-(n-1) polynomials. (The product has degree up to 2n-2, so it needs at least 2n-1 points. Inputs are padded to length at least 2n-1, usually the next power of two.)
+- Any n distinct evaluation points would give the same speedup. (The recursion depends on squaring the n-th roots of unity giving the (n/2)-th roots. Arbitrary points do not collapse this way.)
+- The inverse FFT needs a different algorithm. (It is the same algorithm run with omega^(-1) in place of omega, followed by division by n.)
+
 ## Questions
 
 ```yaml

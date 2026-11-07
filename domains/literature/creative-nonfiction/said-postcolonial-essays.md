@@ -22,6 +22,14 @@ status: draft
 ## Core Idea
 Said's essays combine close textual analysis, historical scope, and personal reflection to argue that all cultural representation is political. His work demonstrates that intellectuals have a responsibility to intervene in public discourse by naming and analyzing systems of power.
 
+## How It's Best Learned
+Pick a short passage that describes a foreign place, such as a page of an old travel guide or a film's opening narration. First do a close reading of its word choices. Then ask who wrote it, for whom, and in what historical relationship to the place. Write one paragraph that links a single phrase to that wider history, the way Said moves from text to power.
+
+## Common Misconceptions
+- Said's argument is that Western writers lied about the East. (His claim is about a system of representation that shaped what counted as knowledge, beyond individual falsehoods.)
+- Calling representation political means a text has no literary value. (Said read literature closely and with appreciation while analyzing the power relations it carried.)
+- Naming a system of power ends its influence. (Said treated analysis as a step that makes resistance possible, without claiming it changes power on its own.)
+
 ## Questions
 
 ```yaml
@@ -57,12 +65,13 @@ Said's essays combine close textual analysis, historical scope, and personal ref
 
 - question: Take a cultural text you know well (a film, novel, advertisement, news story) and analyze it using Said's approach. How does representation work? What power relationships are embedded in it? Whose perspective is centered, and whose is marginalized?
   type: short-answer
+  answer: "Read the text's details closely, then ask who made it, for which audience, and what power relationship it assumes between observer and observed. Identify whose perspective is centered, whose is left out, and what the representation reinforces or challenges."
   explanation: 'For example, analyzing a nature documentary: Who made it and from what perspective? Is the narration authoritative, claiming to know the animals'' experience? What is the relationship between the documentary audience (often Western, wealthy) and the nature being observed (often in poor countries)? Does the representation suggest that ''nature'' exists for human consumption? A Western documentary about African wildlife might unconsciously reproduce colonial relationships—portraying Africa as exotic landscape for Western viewers'' entertainment, centering the Western observer, excluding African perspectives. Said''s method means asking: what power relationships does this text embed, reinforce, or challenge? Who benefits from this representation? What other representations are made invisible?'
 ```
 
 ## Explainer
 
-Edward Said (1926-2003) was a Palestinian-American intellectual whose essay collections—particularly *Orientalism*, *The World, the Text, and the Critic*, and *Culture and Imperialism*—transformed how we analyze cultural representation and power. His work is foundational to postcolonial studies, but it matters for nonfiction writers because it models how to write about power, representation, and politics while maintaining intellectual rigor and literary sophistication.
+Edward Said (1935-2003) was a Palestinian-American intellectual whose books—particularly *Orientalism*, *The World, the Text, and the Critic*, and *Culture and Imperialism*—transformed how we analyze cultural representation and power. His work is foundational to postcolonial studies, but it matters for nonfiction writers because it models how to write about power, representation, and politics while maintaining intellectual rigor and literary sophistication.
 
 Said's method combines several approaches. From literary criticism, he learned close reading—analyzing specific words, narrative techniques, and structures to reveal hidden meanings. From history, he learned to situate cultural texts within power structures—to ask not just what a text says but what material interests it serves. From his own experience as a displaced person between cultures, he brought the awareness that intellectual work is never disinterested but always comes from somewhere. Together, these create an essay method that is simultaneously analytical, historical, and personally engaged.
 

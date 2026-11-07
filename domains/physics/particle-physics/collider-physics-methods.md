@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Collider physics measurements follow a systematic methodology: define a signal process, identify backgrounds, design event selection criteria (cuts or multivariate classifiers) to maximize signal significance, estimate backgrounds from data-driven methods or simulation, and extract the signal through fits to discriminating distributions. Statistical methods (hypothesis testing, confidence intervals, profile likelihood) quantify the significance of observations and the precision of measurements.
 
+## How It's Best Learned
+Work a cut-and-count example by hand. Start with 10 signal and 100 background events, so s/√b = 1.0. Add a cut that keeps 80% of signal and 10% of background: now s = 8, b = 10, and s/√b ≈ 2.5. Then try a cut that keeps 50% of each and see the significance drop. Finally, sketch signal, control, and validation regions for one real search.
+
+## Common Misconceptions
+- A 5σ result means there is a 99.99997% chance the signal is real. (The p-value is the probability of data at least this extreme if only background were present. It is not the probability that the signal hypothesis is true.)
+- Tighter cuts give a more sensitive analysis. (A cut helps only if it removes background faster than it removes signal. Very tight cuts also leave so few events that statistical and systematic uncertainties grow.)
+- Monte Carlo simulation is the ground truth for backgrounds. (Simulation carries modeling uncertainties from cross sections, parton showers, and detector response, so analyses check or replace it with measurements in control regions.)
+
 ## Questions
 
 ```yaml
@@ -33,7 +41,7 @@ Collider physics measurements follow a systematic methodology: define a signal p
     - "It means the experiment was repeated 5 times with consistent results"
     - "It means the signal is 5 times larger than the background"
   answer: 1
-  explanation: "A significance of N sigma corresponds to a p-value (probability of the background-only hypothesis producing the observed excess or worse) equal to the tail probability of a Gaussian distribution at N standard deviations. For 5 sigma, p = 2.9 x 10^{-7}. The threshold is deliberately conservative: in a large experiment searching in many channels and mass bins, statistical fluctuations are expected somewhere (the look-elsewhere effect reduces the significance), and systematic uncertainties can mimic signals. The 5-sigma convention, while somewhat arbitrary, has served the field well: every 5-sigma discovery in particle physics has been confirmed."
+  explanation: "A significance of N sigma corresponds to a p-value (probability of the background-only hypothesis producing the observed excess or worse) equal to the tail probability of a Gaussian distribution at N standard deviations. For 5 sigma, p = 2.9 x 10^{-7}. The threshold is deliberately conservative: in a large experiment searching in many channels and mass bins, statistical fluctuations are expected somewhere (the look-elsewhere effect reduces the significance), and systematic uncertainties can mimic signals. The 5-sigma convention, while somewhat arbitrary, has served the field well, but it does not protect against unrecognized systematic errors."
 
 - question: "Background estimation at a hadron collider often uses 'data-driven' methods rather than relying entirely on Monte Carlo simulation. Why?"
   type: short-answer

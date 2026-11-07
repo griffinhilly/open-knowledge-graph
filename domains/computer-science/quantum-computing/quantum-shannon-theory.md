@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Quantum Shannon theory extends classical information theory to quantum systems, characterizing the fundamental limits of quantum communication, data compression, and channel capacity. Key results include the Holevo bound (an upper limit on classical information extractable from quantum states), Schumacher compression (the quantum analog of Shannon's source coding theorem, compressing quantum data to the von Neumann entropy rate), and the quantum channel capacity theorems (classical, quantum, and entanglement-assisted capacities of noisy quantum channels). The theory reveals that entanglement assistance can increase channel capacity, and that quantum information has a richer structure than classical.
 
+## How It's Best Learned
+Work one ensemble all the way through: |0> or |+>, each with probability 1/2. The average state is rho = [[3/4, 1/4], [1/4, 1/4]], with eigenvalues (1 ± 1/sqrt(2))/2. Its von Neumann entropy is about 0.60, below the 1 bit of Shannon entropy in the labels. That one number is both the Schumacher compression rate and the Holevo limit for this ensemble.
+
+## Common Misconceptions
+- Because n qubits have 2^n amplitudes, they can carry exponentially many classical bits. (The Holevo bound limits n qubits to at most n bits of accessible classical information without entanglement assistance.)
+- A quantum source compresses to the Shannon entropy of its labels. (The rate is the von Neumann entropy of the average state. It is lower than the label entropy when the states are non-orthogonal pure states.)
+- A quantum channel has a single capacity, as a classical channel does. (It has distinct capacities for classical bits, for qubits, and for classical bits with shared entanglement, and they can differ.)
+
 ## Questions
 
 ```yaml

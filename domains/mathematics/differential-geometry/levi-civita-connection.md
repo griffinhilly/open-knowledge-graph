@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 The Levi-Civita connection is the unique connection on a Riemannian manifold that is both torsion-free (∇_X Y - ∇_Y X = [X,Y]) and metric-compatible (∇g = 0, meaning parallel transport preserves inner products). Its existence and uniqueness — the Fundamental Theorem of Riemannian Geometry — means the Riemannian metric alone determines all of Riemannian geometry: connections, geodesics, curvature, and parallel transport.
 
+## How It's Best Learned
+Apply the Christoffel formula to the upper half-plane metric (dx² + dy²)/y². The nonzero symbols are Γ^x_xy = Γ^x_yx = −1/y, Γ^y_xx = 1/y and Γ^y_yy = −1/y. Then check that the vertical line x = 0, y = e^t solves the geodesic equations. Separately, verify the Koszul formula on coordinate fields, where all brackets vanish.
+
+## Common Misconceptions
+- Metric compatibility alone picks out the connection. (Many connections preserve the metric, and they differ by their torsion. Torsion-freeness is the second condition that makes the choice unique.)
+- For a surface in ℝ³, the Levi-Civita connection is the ordinary derivative of ℝ³. (It is the tangential part of that derivative. The normal part is the second fundamental form.)
+- Because Γ(p) = 0 in normal coordinates, the curvature at p is zero. (Curvature involves the derivatives of the Christoffel symbols, and these need not vanish at p.)
+
 ## Questions
 
 ```yaml

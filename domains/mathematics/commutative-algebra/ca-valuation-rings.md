@@ -27,6 +27,14 @@ status: validated
 ## Core Idea
 A valuation ring is an integral domain V such that for every nonzero element x of its fraction field, either x or x^{-1} belongs to V. This total ordering on divisibility makes valuation rings the algebraic analogue of "measuring size" in a field. Discrete valuation rings (DVRs) -- the Noetherian valuation rings -- are local PIDs with a single uniformizer, and they are exactly the regular local rings of dimension 1. DVRs arise as the local rings of smooth curves at points and as completions of number rings at primes, making them foundational in both algebraic geometry and algebraic number theory.
 
+## How It's Best Learned
+Compute the 2-adic valuation on ℚ by hand: v₂(12/5) = 2 and v₂(3/8) = -3. Check that 3/8 is not in ℤ₍₂₎ but 8/3 is, which is the defining property. Then test the inequality v(x + y) ≥ min(v(x), v(y)) with x = y = 1, where v₂(2) = 1 exceeds the minimum. Finally contrast with k[x, y] localized at (x, y), which fails the defining test for x/y.
+
+## Common Misconceptions
+- The valuation of a sum is the minimum of the valuations. (It is at least the minimum, with equality when the two valuations differ. For the 2-adic valuation, v₂(1 + 1) = 1 while v₂(1) = 0.)
+- Every local domain is a valuation ring. (In k[x, y] localized at (x, y), neither x/y nor y/x lies in the ring.)
+- Every valuation ring is discrete. (The union of the rings k[[t^{1/n}]] for n ≥ 1 is a valuation ring with value group ℚ. Its maximal ideal equals its own square, so it is not finitely generated.)
+
 ## Questions
 
 ```yaml

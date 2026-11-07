@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Superfluidity in bosonic systems (⁴He, Bose condensates) results from macroscopic quantum coherence where many particles occupy the same single-particle state. The condensate order parameter confers phase rigidity, enabling frictionless flow. Thermal excitations are Goldstone phonons; quantized vortices carry angular momentum.
 
+## How It's Best Learned
+Take the Bogoliubov spectrum ε(p) = √(c²p² + (p²/2m)²) and compute ε/p = √(c² + p²/4m²). Its minimum is c, so v_c = c, while the free gas gives ε/p = p/2m and v_c = 0. Next, integrate v_s = (ℏ/m)∇φ around a vortex to get circulation h/m, about 10⁻⁷ m²/s for ⁴He. Feynman's rule n_v = 2Ω/κ then predicts about 2000 vortices per cm² at 1 rad/s.
+
+## Common Misconceptions
+- A superfluid flows without friction at any speed. (Frictionless flow holds only below a critical velocity. Above it, excitations or vortices are created and dissipation begins.)
+- In superfluid helium every atom sits in the condensate. (In ⁴He near T = 0 the condensate fraction is roughly a tenth, while the superfluid fraction approaches one. Strong interactions deplete the condensate, so the two fractions measure different things.)
+- Rotating the container leaves the superfluid at rest. (Above a small critical rotation rate, quantized vortices enter. With many vortices the superfluid rotates with the container on average.)
+
 ## Questions
 
 ```yaml

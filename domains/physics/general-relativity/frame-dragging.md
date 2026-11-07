@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Frame dragging is the phenomenon whereby a rotating mass drags the surrounding spacetime — and anything in it — in the direction of its rotation. The Lense-Thirring effect (1918) is the leading-order frame-dragging effect in linearized GR: a rotating mass with angular momentum J produces off-diagonal metric components g_{0i} proportional to the gravitomagnetic potential, analogous to the magnetic vector potential in electromagnetism. This causes precession of gyroscopes (geodetic + Lense-Thirring precession), dragging of orbital planes, and the impossibility of static observers near rotating black holes (the ergosphere). Frame dragging was experimentally confirmed by Gravity Probe B (2011), which measured the precession of gyroscopes in Earth orbit, and by LAGEOS satellite observations of orbital plane precession. It is the gravitational analog of the magnetic field: just as moving charges create magnetic fields, moving masses create gravitomagnetic fields.
 
+## How It's Best Learned
+Build a two-column table for the gravitoelectromagnetic analogy: mass density beside charge density, mass current beside electric current, angular momentum J beside a magnetic dipole moment. Borrow the dipole field to get a precession rate of order GJ/(c²r³). For Earth, J ≈ 6 × 10³³ kg·m²/s and r ≈ 7 × 10⁶ m give about 10⁻¹⁴ rad/s. That is tens of milliarcseconds per year, the scale Gravity Probe B measured.
+
+## Common Misconceptions
+- Frame dragging and geodetic precession are the same effect. (Geodetic precession would occur even around a non-rotating Earth. The Lense-Thirring part needs rotation and was about 170 times smaller for Gravity Probe B.)
+- Anything that enters the ergosphere is trapped. (The ergosphere lies outside the event horizon, so objects can enter and leave it, as long as they co-rotate while inside.)
+- Frame dragging is a kind of friction that pushes nearby objects around. (No local force acts. A freely falling gyroscope precesses relative to the distant stars because of the g_0i terms in the metric.)
+- Frame dragging weakens with distance like Newtonian gravity, as 1/r². (The Lense-Thirring precession rate falls off as 1/r³.)
+
 ## Questions
 
 ```yaml
@@ -46,9 +55,9 @@ Frame dragging is the phenomenon whereby a rotating mass drags the surrounding s
   answer: "Frame dragging tilts the light cones in the direction of the black hole's rotation. Inside the ergosphere, the dragging is so strong that all future-directed timelike worldlines must have a positive angular velocity component in the direction of rotation. A 'stationary' observer (fixed angular coordinate φ) would need a four-velocity with dφ/dt = 0, but this requires the worldline to be outside the future light cone — it becomes spacelike, which is physically impossible. The static limit (outer boundary of the ergosphere) is defined as the surface where the Killing vector ∂/∂t becomes null; inside it, ∂/∂t is spacelike, so 'static' (constant φ) worldlines are spacelike and unphysical."
   explanation: "The ergosphere demonstrates frame dragging at its most extreme. Unlike the event horizon (from which nothing escapes), the ergosphere permits escape — an observer can enter and leave, as long as they co-rotate with the black hole. This is what makes the Penrose process possible: the negative-energy orbits within the ergosphere exist precisely because the timelike Killing vector is spacelike there."
 
-- question: "Calculate the order of magnitude of the Lense-Thirring precession rate for a gyroscope in low Earth orbit, given Earth's angular momentum J_⊕ ≈ 7 × 10³³ kg⋅m²/s and orbital radius r ≈ 7 × 10⁶ m."
+- question: "Calculate the order of magnitude of the Lense-Thirring precession rate for a gyroscope in low Earth orbit, given Earth's angular momentum J_⊕ ≈ 6 × 10³³ kg⋅m²/s and orbital radius r ≈ 7 × 10⁶ m."
   type: short-answer
-  answer: "The Lense-Thirring precession rate is of order Ω_LT ~ GJ/(c²r³). Plugging in: Ω_LT ~ (6.67×10⁻¹¹)(7×10³³)/((3×10⁸)²(7×10⁶)³) = (4.7×10²³)/(3.1×10²⁵) ≈ 1.5 × 10⁻² arcsec/year, or about 15 milliarcseconds per year. This is consistent with the GP-B measurement of about 39 mas/yr (the exact value depends on orbital inclination and the precise formula). The extraordinary smallness of this effect — a precession rate of milliarcseconds per year — illustrates why frame-dragging required decades of technological development to measure directly."
+  answer: "The Lense-Thirring precession rate is of order Ω_LT ~ GJ/(c²r³). Plugging in: Ω_LT ~ (6.67×10⁻¹¹)(6×10³³)/((3×10⁸)²(7×10⁶)³) = (4.0×10²³)/(3.1×10³⁷) ≈ 1.3 × 10⁻¹⁴ rad/s, or about 0.08 arcsec (80 milliarcseconds) per year. This order of magnitude is consistent with the GP-B measurement of about 39 mas/yr (the exact value depends on orbital inclination and the precise formula, which carries extra numerical factors). The extraordinary smallness of this effect — a precession rate of milliarcseconds per year — illustrates why frame-dragging required decades of technological development to measure directly."
   explanation: "The Lense-Thirring effect scales as GJ/(c²r³), falling off as r⁻³ — faster than the gravitoelectric (Newtonian) force which falls off as r⁻². Near rapidly rotating compact objects (neutron stars, Kerr black holes), the effect becomes dramatic: the ISCO (innermost stable circular orbit) shifts, and the ergosphere opens up."
 ```
 

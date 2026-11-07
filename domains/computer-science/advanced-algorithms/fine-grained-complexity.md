@@ -23,7 +23,16 @@ status: validated
 
 ## Core Idea
 Fine-grained complexity studies the exact polynomial-time complexity of problems within P or NP, asking not just "is this polynomial-time solvable?" but "what polynomial power is necessary?" The Orthogonal Vectors (OV) problem exemplifies this: given n sets of d-dimensional binary vectors, do any two come from different sets and have inner product 0? An O(n^2 d) algorithm is trivial, but whether it can be improved to O(n^2 - epsilon d^O(1)) is open despite decades of research. Conditional hardness assumes a conjecture (like SETH: Strong Exponential Time Hypothesis, stating k-SAT has no 2^((1 - epsilon)kn) algorithm) and uses fine-grained reductions to prove that problems are as hard as the conjecture, creating a web of equivalent hardness assumptions. These hardness assumptions explain why many natural problems resist faster algorithms despite polynomial-time solvability.
-  
+
+## How It's Best Learned
+Work the reduction from CNF-SAT to Orthogonal Vectors on a formula with four variables and three clauses. Split the variables into two halves, list every partial assignment of each half as a vector with one coordinate per clause, and check that an orthogonal pair matches a satisfying assignment. Then do the time accounting: about 2^(n/2) vectors per side shows why an n^(2-epsilon) OV algorithm would beat 2^n for SAT.
+
+## Common Misconceptions
+- To show problem X is hard, reduce X to the hard problem. (The direction is the other way. You reduce the known-hard problem to X, so a fast algorithm for X would give a fast algorithm for the hard problem.)
+- Any polynomial-time reduction is good enough. (A fine-grained reduction has to preserve the exponent. A reduction that itself takes n^3 time cannot prove an n^2 lower bound.)
+- A conditional lower bound rules out every speedup. (It rules out polynomial improvements such as n^(2-epsilon). Speedups by logarithmic or other subpolynomial factors can still exist, and some are known for problems like APSP.)
+- A conditional lower bound is a theorem about the problem's true complexity. (It holds only if the conjecture holds. Its value is that a faster algorithm would refute a widely studied conjecture.)
+
 ## Questions
 
 ```yaml

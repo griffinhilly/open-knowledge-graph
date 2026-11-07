@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Optimal stopping asks: given a stochastic process X(t) and a payoff function g(X(t)), when should you stop to maximize the expected reward? The solution is characterized by the Snell envelope — the smallest supermartingale dominating the payoff process — and the optimal stopping time is the first time the process hits the boundary of the "continuation region." In continuous time, this leads to a free-boundary problem where the stopping boundary itself must be determined as part of the solution.
 
+## How It's Best Learned
+Before any theory, solve a die game by backward induction: roll a fair die up to three times and keep the roll you stop on. The last roll is worth 3.5, so with two rolls left you stop on 4, 5 or 6, for a value of 4.25. On the first roll you stop only on 5 or 6, for a value of 14/3, and the Snell envelope is this table of values.
+
+## Common Misconceptions
+- Stop as soon as the payoff beats its average. (The rule compares the payoff now with the value of continuing optimally; in the three-roll die game a first roll of 4 beats the mean 3.5 but should be rerolled.)
+- The Snell envelope is the largest process above the payoff. (It is the smallest supermartingale that dominates the payoff, which is exactly the value of optimal play.)
+- The right to stop early always adds value. (An American call on a stock with no dividends, with a nonnegative interest rate, is never optimally exercised early, so it is worth the same as the European call.)
+
 ## Questions
 
 ```yaml

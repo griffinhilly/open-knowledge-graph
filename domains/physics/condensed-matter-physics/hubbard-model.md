@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 The Hubbard model is the simplest model of interacting electrons on a lattice: H = -t sum_{<ij>,sigma} c^dagger_{i,sigma} c_{j,sigma} + U sum_i n_{i,up} n_{i,down}. The first term is nearest-neighbor hopping (kinetic energy, bandwidth W ~ zt), and the second penalizes double occupancy of any site by Coulomb repulsion U. The competition between kinetic energy (which delocalizes electrons) and interaction energy (which localizes them) produces a rich phase diagram including metallic, Mott insulating, antiferromagnetic, and (in some geometries) superconducting phases. At half-filling with U >> t, the model reduces to the Heisenberg antiferromagnet. The Hubbard model is believed to capture the essential physics of high-temperature superconductivity in the cuprates.
 
+## How It's Best Learned
+Solve the two-site Hubbard model at half filling exactly. In the S_z = 0 sector there are four states; diagonalize the 4 × 4 matrix. The ground state is a singlet with energy (U − √(U² + 16t²))/2, which approaches −4t²/U for U ≫ t, while the triplet sits at 0. The splitting gives J = 4t²/U directly. Then plot the ground-state energy against U/t.
+
+## Common Misconceptions
+- The Pauli principle is what forbids two electrons on one site. (Pauli allows two electrons of opposite spin on a site; U is the energy cost that discourages it.)
+- The Mott gap is caused by antiferromagnetic order. (The charge gap comes from U and can persist above the Néel temperature; NiO, for example, stays insulating in its paramagnetic phase.)
+- U is the bare Coulomb repulsion between two electrons on a free atom. (In a solid, U is a screened effective parameter and is much smaller than the bare atomic value.)
+- In the large-U Mott insulator, the electrons are frozen and nothing happens at low energy. (Charge motion is suppressed, but virtual hopping leaves a spin exchange J = 4t²/U that sets the magnetic physics.)
+
 ## Questions
 
 ```yaml

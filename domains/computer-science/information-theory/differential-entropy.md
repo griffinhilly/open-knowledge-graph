@@ -29,6 +29,15 @@ status: validated
 ## Core Idea
 Differential entropy h(X) = -integral f(x) log f(x) dx extends Shannon entropy to continuous random variables by replacing sums with integrals and probabilities with densities. Unlike discrete entropy, differential entropy can be negative (a narrow Gaussian has h(X) < 0). It is NOT the limit of discrete entropy as the quantization becomes finer — that limit diverges. Despite this, differences of differential entropies are well-defined and match the corresponding discrete quantities: mutual information I(X;Y) = h(X) - h(X|Y) is always non-negative and finite. Differential entropy is essential for analyzing continuous channels, Gaussian sources, and rate-distortion theory.
 
+## How It's Best Learned
+Compute h(X) for Uniform(0, a) at a = 4, 1 and 1/4, and watch it pass through zero. Then quantize a Uniform(0, 1) variable into bins of width 1/2, 1/4 and 1/8, compute the discrete entropy of each, and compare with h(X) + log2(1/delta). Finally, rescale X to cX and confirm that h shifts by log2|c| while I(X;Y) stays the same.
+
+## Common Misconceptions
+- Negative differential entropy means negative information, so something is wrong. (Differential entropy is not a count of bits. It goes negative whenever the density is concentrated enough, for example Uniform(0, 1/4) has h = -2 bits.)
+- h(X) is the number of bits needed to describe X. (Describing a continuous value exactly takes unbounded bits. The quantized entropy is about h(X) + log2(1/delta), which grows without limit as the bin width delta shrinks.)
+- Changing units, say from meters to centimeters, leaves differential entropy unchanged. (Scaling X by a shifts h(X) by log|a|. Mutual information does not change under such rescaling.)
+- Every property of discrete entropy carries over to the continuous case. (Non-negativity and invariance under relabeling fail for h(X). Mutual information and KL divergence stay non-negative and unchanged under invertible transformations.)
+
 ## Questions
 
 ```yaml

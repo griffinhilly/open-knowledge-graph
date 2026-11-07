@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 A Young diagram is a graphical representation of a partition λ = (λ₁ ≥ λ₂ ≥ ··· ≥ λₖ) as left-justified rows of boxes. A Young tableau fills these boxes with numbers according to specified rules. Standard Young tableaux (entries increase along rows and down columns) count the dimension of the corresponding Specht module, while semistandard tableaux arise in the theory of symmetric functions and Schur-Weyl duality.
 
+## How It's Best Learned
+List the standard tableaux of shape (3, 2) by hand. The 1 sits in the top-left box, and the 5 must end a row. You should find five: bottom rows 45, 35, 34, 25 and 24. Then compute the hook lengths 4, 3, 1, 2, 1 and confirm 120/24 = 5. Finally list the semistandard tableaux of shape (2) with entries 1 and 2 (11, 12, 22). There are three, the dimension of Sym²ℂ².
+
+## Common Misconceptions
+- A hook includes the whole row and column through a box. (It includes the box, the boxes to its right in its row and the boxes below it in its column. Boxes to the left and above are not counted.)
+- Counting fillings that increase along rows gives the dimension of the Specht module. (Those fillings number n!/(λ₁!λ₂!···), the dimension of the permutation module. For λ = (2, 1) that gives 3, while the Specht module has dimension 2.)
+- Semistandard tableaux may repeat entries down a column. (Entries may repeat along a row, which weakly increases, but columns must strictly increase.)
+
 ## Questions
 
 ```yaml

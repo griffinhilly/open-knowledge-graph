@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 When two superconductors are connected by a weak link (thin insulating barrier, narrow constriction, or normal metal), a supercurrent flows that depends on the phase difference phi = phi_1 - phi_2 between the two superconducting order parameters: I = I_c sin(phi) (DC Josephson effect). If a voltage V is applied across the junction, the phase evolves as d(phi)/dt = 2eV/hbar, producing an AC current at frequency f = 2eV/h (AC Josephson effect). The Josephson effects are macroscopic quantum phenomena that directly manifest the phase of the superconducting wavefunction and form the basis of SQUIDs (superconducting quantum interference devices), voltage standards, and superconducting qubits.
 
+## How It's Best Learned
+Derive both relations from Feynman's two-state model: two condensates with amplitudes ψ₁ and ψ₂, coupled by a weak tunneling term. Matching real and imaginary parts gives I = I_c sin φ and dφ/dt = 2eV/ħ. Then compute the AC frequency for 1 μV (about 484 MHz). Finally, solve the overdamped resistively shunted junction to get the average voltage V = R√(I² − I_c²) above I_c.
+
+## Common Misconceptions
+- A supercurrent through the junction needs a voltage to drive it. (A DC supercurrent up to I_c flows at zero voltage, set by the phase difference; a DC voltage instead makes the current oscillate.)
+- The Josephson current is carried by single electrons tunneling. (It is carried by Cooper pairs; single-quasiparticle tunneling gives a separate, dissipative current that in a junction of identical superconductors turns on near eV = 2Δ.)
+- The phase of one superconductor on its own can be measured. (Only phase differences, such as the one across a junction, have physical consequences.)
+
 ## Questions
 
 ```yaml

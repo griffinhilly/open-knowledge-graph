@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 The Laplace transform converts f(t) to F(s) = ∫₀^∞ e^(-st)f(t)dt, mapping time-domain differential equations to frequency-domain algebra. Key properties: linearity, the derivative rule L[f'(t)] = sF(s) - f(0), and shifting theorems. These transform initial conditions into the equation automatically, making Laplace transforms powerful for solving IVPs, especially with discontinuous forcing functions.
 
+## How It's Best Learned
+Compute ℒ{e^(2t)} from the integral, noting the step where s > 2 is needed for convergence. Then derive the derivative rule with one integration by parts: ∫₀^∞ e^(−st)f′(t) dt = [e^(−st)f(t)]₀^∞ + s∫₀^∞ e^(−st)f(t) dt, and the boundary term leaves −f(0). Seeing where f(0) comes from makes the rule hard to misremember.
+
+## Common Misconceptions
+- ℒ{f′} = sF(s). (The initial value appears: ℒ{f′} = sF(s) − f(0), and for the second derivative ℒ{f″} = s²F(s) − sf(0) − f′(0).)
+- Every function has a Laplace transform. (The integral has to converge for some s; a function that grows faster than any exponential, such as e^(t²), has no Laplace transform.)
+- The transform depends on what f does for negative t. (The integral runs from 0 to ∞, so values of f for t < 0 play no part.)
+
 ## Questions
 
 ```yaml

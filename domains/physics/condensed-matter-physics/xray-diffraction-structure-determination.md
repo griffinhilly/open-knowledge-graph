@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 X-ray diffraction is the primary experimental technique for determining crystal structures. When X-rays (wavelength comparable to atomic spacings, ~1 Angstrom) scatter from a crystal, constructive interference occurs only when the Bragg condition 2d sin(theta) = n*lambda is satisfied, or equivalently when the scattering vector equals a reciprocal lattice vector (von Laue condition). The intensity of each diffraction peak is proportional to |F(G)|^2, where F(G) is the structure factor — the Fourier transform of the electron density within one unit cell. Systematic absences in the structure factor reveal the lattice type and basis arrangement.
 
+## How It's Best Learned
+Draw the Ewald construction on a 2D reciprocal lattice and rotate the crystal to see when lattice points touch the circle. Then compute F for BCC and FCC and list the allowed values of h² + k² + l² (BCC: 2, 4, 6, 8; FCC: 3, 4, 8, 11). Use the ratios of sin²θ to index a cubic powder pattern. Compare NaCl with KCl, where nearly equal K⁺ and Cl⁻ form factors make the all-odd peaks almost vanish.
+
+## Common Misconceptions
+- The θ in Bragg's law is the angle between the incident and diffracted beams. (θ is the glancing angle between the beam and the planes. The beam is deflected by 2θ, which is the angle a diffractometer records.)
+- X-rays bounce off lattice planes the way light reflects from a mirror. (The electrons around each atom scatter the X-rays. The planes are a way to keep track of which scattered waves add in phase.)
+- A missing peak means the crystal has no planes with those Miller indices. (In a systematic absence, the planes exist, but scattering from the atoms of the basis cancels, so F(G) = 0 for that reflection.)
+- The order n in Bragg's law is unrelated to the Miller indices. (An nth-order reflection from the (hkl) planes is the same peak as a first-order reflection from (nh nk nl) planes with spacing d/n.)
+
 ## Questions
 
 ```yaml

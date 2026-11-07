@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 The Ricci curvature Ric(v,v) averages the sectional curvatures of all 2-planes containing v, measuring how volumes of geodesic balls grow compared to Euclidean space. The scalar curvature R further averages the Ricci curvature over all directions, giving a single number at each point. These contractions of the Riemann tensor are central to Einstein's field equations (Ric - ½Rg = 8πT), comparison geometry, and global theorems constraining manifold topology from curvature bounds.
 
+## How It's Best Learned
+Compute both contractions for the round n-sphere of radius r: every sectional curvature is 1/r², so Ric = ((n − 1)/r²) g and R = n(n − 1)/r². Then check the small-ball formula on the unit S². There R = 2, and the geodesic disk area 2π(1 − cos ε) expands to πε²(1 − ε²/12 + …), matching 1 − Rε²/(6(n + 2)).
+
+## Common Misconceptions
+- Ric(v, v) is the sectional curvature in the direction v. (For a unit vector v, it is the sum of the sectional curvatures of n − 1 orthogonal planes containing v.)
+- Positive scalar curvature implies positive Ricci curvature. (On S² × S¹ the scalar curvature is positive, but Ric is zero in the circle direction.)
+- A Ricci-flat manifold is flat. (In dimension 3 that holds. In dimension 4 and up, there are Ricci-flat metrics with nonzero curvature tensor, such as Ricci-flat metrics on the K3 surface.)
+
 ## Questions
 
 ```yaml

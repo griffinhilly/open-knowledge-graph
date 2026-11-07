@@ -28,6 +28,15 @@ status: validated
 ## Core Idea
 The capacity of a discrete memoryless channel is C = max_{p(x)} I(X;Y), the maximum mutual information between input X and output Y over all possible input distributions. Capacity represents the highest rate (in bits per channel use) at which information can be transmitted with arbitrarily low error probability. The channel's noise characteristics are fixed; the only freedom is choosing the input distribution. Shannon showed that capacity is achievable — there exist coding schemes that transmit at any rate below C with error probability approaching zero — and that rates above C are impossible. This is the channel coding theorem, the most celebrated result in information theory.
 
+## How It's Best Learned
+Pick a small channel, such as a binary symmetric channel with p = 0.1, and compute I(X;Y) for several input distributions: P(X=0) = 0.5, 0.7, 0.9 and 1. Plot I(X;Y) against P(X=0) and find the peak. That peak is the capacity. Then repeat for an asymmetric channel such as the Z-channel, where the best input is not uniform.
+
+## Common Misconceptions
+- Capacity is the number of raw symbols the channel can carry per second. (Capacity counts reliable information per channel use after noise. A binary channel carries one raw bit per use but has capacity below 1 bit whenever it is noisy.)
+- Capacity changes depending on which input distribution you choose. (Mutual information changes with the input. Capacity is the maximum over all inputs, so it is a fixed property of the channel.)
+- Sending below capacity gives zero errors. (The theorem promises error probability that can be made as small as desired by using long enough codes. It does not promise zero errors at a finite block length.)
+- The uniform input is the best input for every channel. (It is optimal for symmetric channels such as the BSC. For asymmetric channels the capacity-achieving input is often non-uniform.)
+
 ## Questions
 
 ```yaml

@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 The Kondo effect is the anomalous increase of resistivity at low temperatures in metals containing dilute magnetic impurities. Instead of the expected monotonic decrease (phonon scattering diminishes as T falls), the resistivity reaches a minimum and then rises logarithmically: rho ~ rho_0 - c ln(T/T_K), where T_K is the Kondo temperature. Below T_K, the impurity spin is screened by a cloud of conduction electrons forming a many-body singlet state, and the impurity behaves as a strong (unitary) scatterer. The Kondo problem was the first example in condensed matter of a renormalization group flow between weak-coupling and strong-coupling fixed points, solved exactly by Wilson's numerical RG (1975).
 
+## How It's Best Learned
+Do Anderson's poor man's scaling. Lower the conduction bandwidth from D to D − δD, absorb the removed high-energy states into a new coupling, and get a flow equation with dJ/d ln D ∝ −J². Integrate it and find the scale where J diverges; it has the exponential form of T_K. Note that antiferromagnetic J grows while ferromagnetic J shrinks. Then compare with resistivity data for iron in gold.
+
+## Common Misconceptions
+- The resistivity keeps rising logarithmically as T → 0. (The logarithm is a high-temperature result; below T_K the resistivity saturates at the unitarity limit.)
+- At T_K the impurity undergoes a phase transition into a screened state. (The change from free moment to screened singlet is a smooth crossover with no sharp transition.)
+- The screening is done by one conduction electron bound to the impurity. (The singlet is a many-body state of many conduction electrons, spread over a Kondo cloud of size about ħv_F/k_BT_K.)
+
 ## Questions
 
 ```yaml

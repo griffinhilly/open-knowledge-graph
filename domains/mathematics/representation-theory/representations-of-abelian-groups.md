@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Every irreducible complex representation of a finite abelian group is one-dimensional, a consequence of Schur's lemma (every group element commutes with the entire representation, hence acts as a scalar). Since every finite abelian group is a product of cyclic groups ℤ/n₁ℤ × ··· × ℤ/nₖℤ, its irreducible representations are products of irreducible representations of the cyclic factors — each specified by a tuple of roots of unity. The set of all irreducible representations forms the **dual group** Ĝ, which is (non-canonically) isomorphic to G itself.
 
+## How It's Best Learned
+Write the character tables of the two groups of order 4 side by side. For ℤ/2ℤ × ℤ/2ℤ every entry is ±1. For ℤ/4ℤ the entries are powers of i. Check row orthogonality in both. Then expand the function on ℤ/4ℤ that is 1 at 0 and 0 elsewhere: each Fourier coefficient is 1/4, which ties the character table to the discrete Fourier transform.
+
+## Common Misconceptions
+- Irreducible representations of an abelian group are one-dimensional over every field. (The proof uses an algebraically closed field such as ℂ. Over ℝ, ℤ/4ℤ acting on ℝ² by rotation through 90° is irreducible of dimension 2.)
+- The isomorphism between Ĝ and G is canonical. (It depends on choices. For ℤ/nℤ, matching k with the character 1 ↦ ζᵏ requires picking a primitive nth root of unity ζ.)
+- Nonabelian groups have no one-dimensional representations besides the trivial one. (The sign representation of S₃ is one-dimensional. A finite nonabelian group has at least one complex irreducible of dimension greater than 1.)
+
 ## Questions
 
 ```yaml

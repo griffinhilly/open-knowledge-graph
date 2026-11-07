@@ -19,6 +19,15 @@ status: validated
 ## Core Idea
 Cross sections and decay rates are the measurable quantities extracted from S-matrix elements. The differential cross section is proportional to |M|^2 times the phase space available to the final-state particles. Decay rates follow the same structure but for a single initial particle at rest. Fermi's golden rule is the non-relativistic limit of these formulas.
 
+## How It's Best Learned
+Do the two-body phase-space integral by hand once: use the delta function to remove the second particle's three-momentum, then the energy delta to fix |p_f|, leaving only the angles. Check the result on π⁺ → μ⁺ν. With m_π ≈ 139.6 MeV and m_μ ≈ 105.7 MeV, |p_f| = (m_π² − m_μ²)/(2m_π) ≈ 29.8 MeV. Then repeat the bookkeeping for 2 → 2 scattering in the center-of-mass frame.
+
+## Common Misconceptions
+- A cross section is the geometric size of the target particle. (It is an effective area that measures how likely an interaction is, and it can change by orders of magnitude with energy, as near a resonance.)
+- The amplitude |M|² alone sets how fast a process happens. (The rate also depends on the phase space available to the final state and on the flux factor, so equal |M|² can give very different rates.)
+- The width Γ and the lifetime τ are separate properties that must be measured independently. (They are the same information: τ = ħ/Γ, and a short lifetime shows up as a broad resonance peak.)
+- The formula dσ/dΩ = |M|²/(64π²s) holds for every 2 → 2 process. (It assumes the final momentum equals the initial momentum in the center-of-mass frame; when masses change, an extra factor |p_f|/|p_i| appears.)
+
 ## Questions
 
 ```yaml

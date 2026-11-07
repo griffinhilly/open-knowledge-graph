@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 The Bernstein-Vazirani algorithm finds a hidden n-bit string s given an oracle for f(x) = s dot x (mod 2), where dot denotes the bitwise inner product. Classically, n queries are required (one for each standard basis vector). The quantum algorithm recovers s exactly in a single query using the same Hadamard-oracle-Hadamard structure as Deutsch-Jozsa. It demonstrates a linear-to-constant quantum speedup and illustrates the power of phase kickback for extracting global properties from a function oracle.
 
+## How It's Best Learned
+Work the n = 2 case by hand with s = 10. After the first Hadamards the register is (|00> + |01> + |10> + |11>)/2; the oracle flips the signs of |10> and |11>, giving |->|+>; the final Hadamards turn that into |10>. Then compare with the classical strategy of querying f(10) and f(01) one at a time.
+
+## Common Misconceptions
+- The quantum computer evaluates f on every input and then reads out all the answers. (Measurement returns a single n-bit string. The speedup comes from interference turning the phase pattern (-1)^(s dot x) into the basis state |s>.)
+- The answer is read from the ancilla qubit. (The ancilla stays in |-> and is unchanged; the hidden string s is read from the input register.)
+- Bernstein-Vazirani gives an exponential speedup like Deutsch-Jozsa. (The gap here is n classical queries versus one quantum query, a linear speedup.)
+
 ## Questions
 
 ```yaml

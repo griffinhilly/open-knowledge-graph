@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 Measuring GDP in developing economies presents unique challenges: informal sectors, subsistence agriculture, in-kind transactions, and weak statistical capacity. Purchasing Power Parity (PPP) adjustments are critical because exchange rates overstate poverty in poor countries. These measurement issues profoundly affect assessments of whether development policy is working.
 
+## How It's Best Learned
+Price a small basket (a haircut, a month's rent, a kilo of rice) in a poor country and in a rich one. Convert a $500 income at the market exchange rate, then at a PPP rate where local prices are one third as high, and see it become $1,500. Next, list where a farming household's output goes (sold, eaten at home, bartered) and ask which parts a statistician sees directly and which must be estimated.
+
+## Common Misconceptions
+- Market exchange rates give the best comparison of living standards. (They reflect traded-goods prices. Non-traded goods are cheaper in poor countries, so PPP conversion gives a better comparison.)
+- A drop in measured poverty after a data revision means people got better off. (When price surveys are updated, people can cross the poverty line on paper with no change in their lives.)
+- Food a farmer grows and eats is left out of GDP. (National accountants impute a value for it at local prices, though the estimate is approximate.)
+- Official GDP figures in poor countries are precise. (Informal activity and subsistence output are estimated with wide error margins, so GDP is a rough estimate.)
+
 ## Questions
 
 ```yaml

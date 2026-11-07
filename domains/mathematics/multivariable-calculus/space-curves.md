@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 A space curve r(t) has tangent vector r'(t), which indicates direction of motion. Arc length parameterization uses s(t) as the parameter and gives unit tangent T(s) = dr/ds. Curvature κ measures how quickly the curve changes direction.
 
+## How It's Best Learned
+Carry one helix through every step. For r(t) = ⟨3 cos t, 3 sin t, 4t⟩, the speed is 5, so s = 5t. Substituting t = s/5 gives a unit-speed curve whose unit tangent turns at rate κ = 3/25. Then redo the computation with r(2t), which moves at speed 10, and confirm that the curvature does not change.
+
+## Common Misconceptions
+- r'(t) is the unit tangent vector. (Its length is the speed ‖r'(t)‖; dividing by the speed gives T.)
+- Curvature is ‖T'(t)‖ for any parameter t. (κ = ‖dT/ds‖ = ‖T'(t)‖/‖r'(t)‖; skipping the division by speed gives a number that depends on the parametrization.)
+- Only a circle has constant curvature. (In space, a circular helix also has constant curvature, such as κ = 3/25 for the helix above.)
+- The arc length parameter can be found in closed form for any curve. (The integral for s(t), or its inverse, often has no elementary formula, even though the arc length parametrization exists.)
+
 ## Questions
 
 ```yaml

@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 The Rb-Sr system is based on the beta decay of 87Rb to 87Sr (half-life 48.8 Gyr). Because Rb (an alkali metal) and Sr (an alkaline earth) have different geochemical behaviors, igneous processes fractionate Rb/Sr ratios: Rb is incompatible (concentrates in melts and K-bearing minerals like micas and K-feldspar), while Sr is compatible in plagioclase and apatite. The isochron method dates rocks by plotting 87Sr/86Sr versus 87Rb/86Sr for co-genetic samples: the slope gives the age and the y-intercept gives the initial 87Sr/86Sr ratio. Initial Sr ratios are themselves powerful petrogenetic tracers -- mantle-derived rocks have low initial 87Sr/86Sr (~0.703-0.704) while rocks incorporating ancient continental crust have higher values (>0.710), reflecting long-term Rb/Sr fractionation.
 
+## How It's Best Learned
+Build an isochron by hand, then invert it. Use plagioclase, whole rock, and biotite with 87Rb/86Sr of 0, 10, and 100, an initial ratio of 0.712, and a slope of 0.00498. They plot at 0.712, 0.762, and 1.210. Then recover the age with t = ln(1 + slope)/lambda. With lambda = 1.42 x 10^-11 per year, t is about 350 Ma.
+
+## Common Misconceptions
+- The y-intercept of an isochron is the rock's present-day 87Sr/86Sr. (It is the initial ratio, the value all samples shared when the system closed.)
+- A straight line on an isochron diagram always gives a real age. (Mixing of two sources with different Rb/Sr and 87Sr/86Sr also makes a straight line, and its slope dates nothing.)
+- Mineral and whole-rock isochrons from the same rock should give the same age. (Mineral isochrons reset more easily during heating, so they often record a later cooling or metamorphic event.)
+- A high 87Sr/86Sr means the rock has a high Rb/Sr today. (The ratio records Rb/Sr integrated over time. A source that later lost Rb keeps its high 87Sr/86Sr.)
+
 ## Questions
 
 ```yaml

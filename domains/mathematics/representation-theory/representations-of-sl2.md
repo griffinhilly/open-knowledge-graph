@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 The representation theory of SL₂(ℂ) (or equivalently its Lie algebra 𝔰𝔩₂(ℂ)) is the fundamental example in Lie theory. The Lie algebra 𝔰𝔩₂ is spanned by three elements e, f, h with [h,e] = 2e, [h,f] = −2f, [e,f] = h. The finite-dimensional irreducible representations are classified by a single non-negative integer n: for each n ≥ 0, there is a unique (n+1)-dimensional irreducible representation V(n) with highest weight n. The representation V(n) has a basis of weight vectors v_n, v_{n−2}, …, v_{−n} on which e raises weight by 2, f lowers weight by 2, and h acts by the weight.
 
+## How It's Best Learned
+Realize V(n) as homogeneous polynomials of degree n in x and y, with e = x∂/∂y, f = y∂/∂x and h = x∂/∂x − y∂/∂y. For n = 2, use the basis x², xy, y² with weights 2, 0, −2. Compute e(y²) = 2xy, e(xy) = x², and check [e, f] = h on x². Then list the weights of V(1) ⊗ V(1), namely 2, 0, 0, −2, and peel off V(2) to leave V(0).
+
+## Common Misconceptions
+- The weights of a finite-dimensional representation can be any complex numbers. (They are integers. In V(n) they are n, n − 2, …, −n, all with the same parity as n.)
+- e and f undo each other, so f(e·v) = v. (They satisfy ef − fe = h instead. On the highest weight vector, e·v_n = 0, so f(e·v_n) = 0.)
+- Every weight space of a finite-dimensional representation is one-dimensional. (That holds in each irreducible V(n). In V(1) ⊗ V(1), the weight-0 space has dimension 2.)
+
 ## Questions
 
 ```yaml

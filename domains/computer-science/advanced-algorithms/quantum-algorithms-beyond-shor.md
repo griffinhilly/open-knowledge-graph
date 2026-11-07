@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Quantum algorithms leverage superposition, entanglement, and interference to solve problems faster than known classical algorithms. Shor's factoring algorithm is famous but the broader quantum algorithmic toolkit is richer. Grover's search algorithm finds a marked element in an unsorted database of size n using O(sqrt(n)) quantum queries, a quadratic speedup over classical Omega(n) queries — proven optimal by the Grover lower bound. Amplitude amplification generalizes Grover's mechanism to amplify the probability of success in any quantum algorithm. Quantum phase estimation and the Quantum Fourier Transform are crucial subroutines in many algorithms. Variational quantum algorithms (VQE, QAOA) use quantum circuits as parameterized functions to solve optimization problems. The complexity class BQP (problems solvable by quantum computers in polynomial time) likely contains problems outside P and NP, though the full relationship is unknown. Recent developments include quantum algorithms for linear systems, tensor networks, and machine learning, though speedup claims require careful analysis of the query/gate complexity and comparison to classical algorithms.
 
+## How It's Best Learned
+Run Grover's algorithm by hand on four items with one marked. Track the four amplitudes through the oracle and diffusion steps, and plot them as bars, which shows one iteration finding the item with certainty. Then draw the two-dimensional picture, with the state rotating by 2θ toward the marked direction each iteration, and use it to see why overshooting past about (pi/4) sqrt(n) iterations makes the result worse.
+
+## Common Misconceptions
+- A quantum computer tries all answers at once and reads off the right one. (Superposition alone gives a random answer on measurement. Speedups come from interference that boosts the amplitude of correct answers, which each algorithm must arrange.)
+- More Grover iterations always raise the success probability. (The state rotates past the marked direction if you keep going, so the success probability rises and falls. Stopping near (pi/4) sqrt(n) iterations is needed.)
+- Grover's algorithm gives an exponential speedup for NP-complete problems. (It gives a quadratic speedup over brute-force search, so 2^n becomes about 2^(n/2). That is still exponential.)
+- An algorithm like HHL that outputs a quantum state has solved the classical problem. (The answer is encoded in amplitudes. Reading out the full vector takes many runs, so the speedup holds only if a few measured quantities are enough.)
+
 ## Questions
 
 ```yaml

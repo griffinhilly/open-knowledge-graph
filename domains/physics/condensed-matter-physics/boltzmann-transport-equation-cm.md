@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 The Boltzmann transport equation (BTE) governs the distribution function f(r, k, t) of electrons in a solid subject to external fields and scattering. In steady state, the balance between the driving term (electric and magnetic fields changing k, temperature gradients changing the local equilibrium) and the collision integral (scattering returning the distribution toward equilibrium) determines transport coefficients: electrical conductivity, thermal conductivity, thermoelectric power, and magnetoresistance. The relaxation-time approximation replaces the full collision integral with -(f - f_0)/tau, making the BTE analytically solvable and recovering the Drude formula as a special case.
 
+## How It's Best Learned
+Linearize the equation for a uniform electric field in the relaxation-time approximation. Solve for the deviation f − f₀ to first order, insert it into the current, and show that a parabolic band gives σ = ne²τ/m. Sketch the result as a slightly shifted Fermi sphere. Then add a magnetic field and derive the single-band Hall coefficient R_H = −1/(ne).
+
+## Common Misconceptions
+- The relaxation time τ is the average time between collisions. (The transport time weights each collision by how much it turns the velocity, so small-angle scattering relaxes the current slowly and the transport time can be much longer than the time between collisions.)
+- Every electron in the band speeds up in the field and carries the current. (In a metal the linearized deviation f − f₀ is nonzero only near the Fermi surface; shifting the Fermi sphere changes occupations only there, so only those electrons contribute to the net current.)
+- The Wiedemann-Franz law holds at every temperature. (It holds when scattering is elastic; at intermediate temperatures, inelastic phonon scattering degrades the heat current more than the charge current and the law fails.)
+
 ## Questions
 
 ```yaml

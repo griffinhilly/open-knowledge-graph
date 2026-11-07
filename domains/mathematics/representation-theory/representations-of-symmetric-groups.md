@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 The irreducible representations of the symmetric group Sₙ over ℂ are indexed by partitions of n. Each partition λ ⊢ n gives an irreducible representation Sλ (the Specht module) whose dimension equals the number of standard Young tableaux of shape λ. This parametrization connects representation theory to combinatorics: the deep structure of Sₙ-representations is encoded in the combinatorics of partitions, tableaux, and symmetric functions.
 
+## How It's Best Learned
+Work through S₄ completely. List its five partitions and compute each dimension by the hook length formula: (4) gives 1, (3,1) gives 24/(4·2·1·1) = 3, (2,2) gives 24/(3·2·2·1) = 2, then 3 and 1 for the last two. Check that 1 + 9 + 4 + 9 + 1 = 24. Then restrict (3,1) to S₃ by removing one box in each possible way, which gives (3) and (2,1), with dimensions 1 + 2 = 3.
+
+## Common Misconceptions
+- The irreducible Sλ is the permutation representation on cosets of the Young subgroup for λ. (That permutation module usually contains Sλ together with other irreducibles. For λ = (2,1), it is the three-dimensional permutation representation of S₃, which is the trivial plus S^(2,1).)
+- The dimension of Sλ counts all ways to fill the diagram with 1, …, n. (It counts only standard fillings, which increase along rows and down columns.)
+- The conjugate partition, with rows and columns swapped, gives the dual representation. (It gives Sλ tensored with the sign representation. Every complex representation of Sₙ is isomorphic to its own dual, because the characters are real.)
+
 ## Questions
 
 ```yaml

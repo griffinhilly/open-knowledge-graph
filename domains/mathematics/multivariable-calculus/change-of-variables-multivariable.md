@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 To change variables in integrals: ∬_R f(x,y) dx dy = ∬_S f(x(u,v), y(u,v)) |det(J)| du dv, where J is the Jacobian matrix. The determinant's absolute value scales area/volume.
 
+## How It's Best Learned
+Find the area of the ellipse x²/a² + y²/b² ≤ 1 with x = au, y = bv. The region becomes the unit disk, and J = [[a, 0], [0, b]], so |det(J)| = ab and the area is πab. Then draw a small square of side h in the uv-plane next to its image, an ah-by-bh rectangle. The picture shows why ab is the scale factor.
+
+## Common Misconceptions
+- Substituting into f and changing the limits is all a change of variables needs. (You must also multiply by |det(J)|. Without it, each du dv patch is counted as if it had the same area as its image, which is generally false.)
+- The sign of det(J) can be ignored, so the absolute value is optional. (The swap x = v, y = u has det(J) = −1. Dropping the absolute value would make the area of any region come out negative.)
+- The Jacobian matrix is built from ∂u/∂x, ∂u/∂y and so on. (For this formula its entries are the derivatives of the old coordinates with respect to the new ones, such as ∂x/∂u. The matrix of ∂u/∂x entries has the reciprocal determinant.)
+
 ## Questions
 
 ```yaml

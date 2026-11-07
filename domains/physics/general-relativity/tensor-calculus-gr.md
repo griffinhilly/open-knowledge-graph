@@ -28,6 +28,15 @@ status: validated
 ## Core Idea
 Tensors are the mathematical objects that transform in a well-defined way under general coordinate transformations, making them the natural language for expressing physical laws in a form that is valid in all coordinate systems (general covariance). A tensor of type (p,q) has p contravariant (upper) indices and q covariant (lower) indices, and transforms with p factors of the Jacobian and q factors of the inverse Jacobian under coordinate changes. The metric tensor raises and lowers indices, connecting contravariant and covariant components. Einstein's summation convention, index manipulation, symmetrization, and antisymmetrization form the computational backbone of GR. The requirement that physical equations be tensor equations — valid in all coordinates — is the mathematical expression of the principle of general covariance.
 
+## How It's Best Learned
+Transform one vector by hand. Take V = ∂_x at the point (x, y) = (1, 1) on the flat plane and convert to polar coordinates: V^r = x/r = 1/√2 and V^θ = −y/r² = −1/2. Lower with g = diag(1, r²) to get V_r = 1/√2 and V_θ = −1, and check that V^μV_μ = 1 in both systems. Then note that V^r = cos θ varies, so ∂_θV^r ≠ 0 although every partial derivative was zero in Cartesian coordinates.
+
+## Common Misconceptions
+- V^μ and V_μ are two different vectors. (They are components of one geometric object, converted into each other by the metric.)
+- A tensor's components are the same in every coordinate system. (The components change. What carries over to every system is the truth of a tensor equation.)
+- Any array of numbers with indices is a tensor. (It must obey the tensor transformation law. The Christoffel symbols and ∂_μV^ν do not.)
+- A repeated index can be summed whether it appears up or down. (A contraction pairs one upper index with one lower index. Two repeated upper indices need the metric before they can be summed.)
+
 ## Questions
 
 ```yaml

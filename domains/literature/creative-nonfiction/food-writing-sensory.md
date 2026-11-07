@@ -21,6 +21,15 @@ status: draft
 ## Core Idea
 Food writing uses precise sensory language and culinary detail to explore culture, memory, identity, family, and pleasure. It demands sophisticated vocabulary for taste, texture, and aroma while using food as an entry point to broader themes of tradition, economics, labor, embodied experience, and the intersection of the personal and political.
 
+## How It's Best Learned
+Pick one dish you know well and write it three ways: a one-line verdict ("it was delicious"), a paragraph using taste, texture, aroma, temperature and sound, and a third version that links the dish to who cooked it or where its ingredients came from. Comparing the three shows how sensory detail opens the door to the larger theme.
+
+## Common Misconceptions
+- Good food writing means strong praise words like "delicious" or "amazing." (Those words give the reader a verdict but no experience. Specific detail about texture, smell, temperature and sound lets the reader reconstruct the food.)
+- Food writing is a light genre about recipes and restaurants. (A dish or meal often serves as a way into family history, cultural identity, migration, labor and economics.)
+- Taste is the main sense a food writer needs. (Smell, texture, sound and appearance all shape how food is experienced, and strong food writing draws on them.)
+- Writing about the ethics of food means giving up writing about pleasure. (A food essay can hold the joy of eating and questions about labor or food systems side by side.)
+
 ## Questions
 
 ```yaml
@@ -56,6 +65,7 @@ Food writing uses precise sensory language and culinary detail to explore cultur
 
 - question: How might a food essay about a particular meal or dish work? What elements might it combine?
   type: short-answer
+  answer: "It might open with a personal memory of a meal, render it in precise sensory detail, then widen to the dish's history, the person who taught it, and the labor and economics behind its ingredients. The food is the thread that ties personal memory to cultural and social meaning."
   explanation: A food essay might begin with a personal memory of eating or preparing a meal. From there, it could explore the sensory experience—precise description of taste, texture, aroma. It might research the food's history or cultural significance. It might reflect on who taught the recipe, what that relationship meant. It might investigate the economics of the ingredients (where they come from, who grows them, what labor goes into production). It might connect the food to identity or tradition. A strong food essay weaves all these together—personal memory, sensory precision, cultural knowledge, and broader social or political insight. The food is the thread that connects these different dimensions.
 ```
 

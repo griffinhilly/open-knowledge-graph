@@ -28,6 +28,15 @@ status: validated
 ## Core Idea
 Concentration inequalities — Chernoff bounds, Hoeffding's inequality, Azuma-Hoeffding martingale inequality, and the Lovasz Local Lemma — form the essential probability toolkit for designing and analyzing randomized algorithms. Chernoff bounds show that sums of independent Bernoulli random variables are exponentially concentrated around their mean: Pr[X > (1+delta)*mu] <= (e^delta / (1+delta)^(1+delta))^mu. The Azuma-Hoeffding inequality extends concentration to martingale sequences, enabling analysis when variables are exposed one at a time (as in randomized rounding or random graph processes). The Lovasz Local Lemma provides existence guarantees when bad events are mostly independent: if each bad event has probability at most p and depends on at most d others, and ep(d+1) <= 1, then with positive probability none of the bad events occur. These tools are used throughout streaming algorithms, randomized data structures, and derandomization.
 
+## How It's Best Learned
+Take one random variable, such as the number of heads in 1000 fair flips, and bound Pr[X >= 600] three ways: Markov, Chebyshev and Chernoff. Seeing the bounds shrink from loose to tiny shows what each extra assumption buys. Then rework the max-load analysis for n balls in n bins, where a Chernoff bound plus a union bound over the bins gives the O(log n / log log n) result.
+
+## Common Misconceptions
+- Chernoff bounds apply to any sum of random variables. (The standard forms need independent, bounded variables. Dependent variables need tools such as Azuma-Hoeffding or negative-association arguments.)
+- Azuma-Hoeffding works for any martingale. (It needs bounded differences between consecutive steps, and the bound depends on the sum of their squares. A martingale with large jumps can fail to concentrate.)
+- The Lovasz Local Lemma shows that a good outcome is likely. (It shows only that the probability of avoiding all bad events is positive, and that probability can be exponentially small. The Moser-Tardos algorithm is what makes finding such an outcome efficient.)
+- A bound that holds in expectation is enough for a union bound over many events. (A union bound needs each failure probability to be small, such as below 1/m for m events. Exponential tail bounds supply this. Expectations alone do not.)
+
 ## Questions
 
 ```yaml

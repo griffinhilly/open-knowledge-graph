@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 BQP (Bounded-Error Quantum Polynomial Time) is the class of decision problems solvable by a polynomial-time quantum computer with error probability at most 1/3. It is the quantum analog of BPP. The known containments are P subset of BPP subset of BQP subset of PSPACE, and BQP is believed to be strictly between BPP and PSPACE. Factoring is in BQP but not known to be in BPP, providing evidence that BQP is strictly larger than BPP. BQP is believed not to contain NP-complete problems, implying quantum computers are not expected to solve all of NP efficiently. QMA (Quantum Merlin Arthur) is the quantum analog of NP/MA, with a quantum proof verified by a quantum computer.
 
+## How It's Best Learned
+Draw the containment chain P ⊆ BPP ⊆ BQP ⊆ PSPACE, with NP placed beside BQP inside PSPACE. Place concrete problems on it: factoring, SAT, the Local Hamiltonian problem. For each placement, mark whether it is proven or only believed. Then walk through why a polynomial-space classical machine can compute one output amplitude of a small circuit by summing over paths.
+
+## Common Misconceptions
+- Quantum computers can solve NP-complete problems quickly by trying every answer at once. (No such algorithm is known. Grover's lower bound shows brute-force search gets only a quadratic speedup in the black-box setting.)
+- Factoring is NP-complete, so Shor's algorithm puts NP inside BQP. (Factoring is in NP but is not believed to be NP-complete. Its decision version is also in coNP.)
+- It has been proven that BQP is strictly larger than BPP. (This is open. Proving it would also prove P ≠ PSPACE, which nobody has done.)
+- An error rate of up to 1/3 makes BQP answers unreliable. (Repeating the computation and taking a majority vote drives the error down exponentially in the number of repetitions.)
+
 ## Questions
 
 ```yaml

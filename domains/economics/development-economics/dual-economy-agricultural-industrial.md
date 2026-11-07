@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 Developing economies characteristically exhibit coexisting low-productivity agricultural sectors with large rural populations and small high-productivity modern industrial sectors. Substantial wage gaps between sectors reflect genuine productivity differences and create migration incentives. Development policy must simultaneously address sectoral productivity gaps and manage labor transitions between sectors.
 
+## How It's Best Learned
+Draw two boxes, farm and factory, with output per worker and number of workers in each. Move workers from one box to the other in steps and recompute total output, showing how the economy's average productivity rises. Then add frictions one at a time (moving costs, missing skills, hukou-style registration rules) and see how each slows the shift. China's migration since 1980 serves as the running case.
+
+## Common Misconceptions
+- Once workers can migrate, rural and urban wages will equalize quickly. (Distance, information gaps, skill mismatches, and policy barriers can keep wage gaps open for decades.)
+- Rural workers earn less because they work less hard. (The gap reflects differences in capital, technology, and output per worker between sectors.)
+- A country should pick one sector to develop. (The sectors depend on each other. Farms supply food and labor, and industry absorbs workers and buys farm output.)
+- Industrial growth can outrun a stagnant farm sector. (Rising food prices push up the wages industry must pay, squeezing profits and investment.)
+
 ## Questions
 
 ```yaml

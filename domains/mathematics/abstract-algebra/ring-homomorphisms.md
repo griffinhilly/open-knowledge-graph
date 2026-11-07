@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 A ring homomorphism φ: R → S preserves both addition and multiplication: φ(a + b) = φ(a) + φ(b) and φ(ab) = φ(a)φ(b). The kernel of φ is an ideal of R.
 
+## How It's Best Learned
+Test a short list of maps against both conditions and find the kernel of each one that passes. Good cases: n ↦ 2n on ℤ, which fails because φ(1 · 1) = 2 but φ(1)φ(1) = 4; reduction ℤ → ℤ/6ℤ; evaluation ℝ[x] → ℝ at 3, with kernel (x − 3); and n ↦ (n, 0) into ℤ × ℤ.
+
+## Common Misconceptions
+- Preserving addition is enough to be a ring homomorphism. (The map n ↦ 2n on ℤ preserves addition but not multiplication, since 2 · 2 ≠ 2.)
+- Every ring homomorphism sends 1 to 1. (This depends on the convention. The map n ↦ (n, 0) preserves both operations but sends 1 to (1, 0), and books that require φ(1) = 1 exclude it.)
+- The kernel can contain 1 without anything going wrong. (If 1 is in the kernel, then φ(r) = φ(r)φ(1) = 0 for every r, so φ is the zero map.)
+
 ## Questions
 
 ```yaml
@@ -52,10 +60,10 @@ A ring homomorphism φ: R → S preserves both addition and multiplication: φ(a
   answer: true
   explanation: "Given any ideal I ⊆ R, the natural quotient map φ: R → R/I defined by φ(r) = r + I is a ring homomorphism (this will be proved when you study quotient rings), and ker(φ) = {r : r + I = 0 + I} = I. So ideals are not merely a superset of kernels — they are exactly the kernels, and every ideal arises as the kernel of the quotient map. This perfect correspondence ('ideals = kernels') is the analogue of 'normal subgroups = kernels of group homomorphisms' and is one of the central structural facts of ring theory."
 
-- question: "A ring homomorphism φ: R → S mainly needs to satisfy φ(a + b) = φ(a) + φ(b) — the multiplicative condition φ(ab) = φ(a)φ(b) follows automatically from the additive one."
+- question: "A ring homomorphism φ: R → S only needs to satisfy φ(a + b) = φ(a) + φ(b) — the multiplicative condition φ(ab) = φ(a)φ(b) follows automatically from the additive one."
   type: true-false
   answer: false
-  explanation: "The multiplicative condition does NOT follow from the additive condition. A map that preserves addition is a group homomorphism on the additive group (R, +), but a ring has additional structure — multiplication — and preserving addition says nothing about how the map interacts with it. Consider the zero map φ(r) = 0 for all r: it preserves addition but φ(ab) = 0 ≠ φ(a)φ(b) = 0·0 = 0... actually this one works. Better: take φ: ℤ → ℤ × ℤ sending n to (n, 0). This preserves addition but φ(1·1) = (1,0) while φ(1)φ(1) = (1,0)(1,0) = (1,0) — actually also fine. The point is that both conditions must be checked independently; neither implies the other in general."
+  explanation: "The multiplicative condition does NOT follow from the additive condition. A map that preserves addition is a group homomorphism on the additive group (R, +), but a ring has additional structure — multiplication — and preserving addition says nothing about how the map interacts with it. Consider φ: ℤ → ℤ with φ(n) = 2n. It preserves addition, since 2(a + b) = 2a + 2b, but φ(1·1) = 2 while φ(1)φ(1) = 4. Both conditions must be checked independently."
 
 - question: "State the First Isomorphism Theorem for rings and explain what it reveals about the relationship between homomorphisms, kernels, and ideals."
   type: short-answer

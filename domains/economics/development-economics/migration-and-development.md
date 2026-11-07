@@ -28,6 +28,15 @@ status: validated
 ## Core Idea
 International migration reallocates labor from low-wage to high-wage economies, benefiting migrants and receiving countries but creating selection (high-ability emigrate) and skill-drain risks for sending countries. Remittances supplement household income in sending countries and now exceed official aid. Internal migration (rural-to-urban) drives urbanization and structural transformation; quality of urban institutions determines whether migrants thrive or end in slums.
 
+## How It's Best Learned
+Compare two households in one village, one with a member working abroad. For a year, track the remittances received, the labor and skills the household lost, and how the money is used: school fees, a new roof, a buffer after a bad harvest. Then scale up and sort the effects into those that add up nationally, like foreign exchange, and those that work against exports.
+
+## Common Misconceptions
+- Remittances go to consumption, so they do little for development. (Households also use them for schooling, health, and housing, and steady consumption through bad years has real value.)
+- Remittances can only help the sending economy. (Large inflows can raise the value of the local currency and make exports less competitive.)
+- Migrants are a typical cross-section of the population. (Migrants tend to be younger, healthier, and more educated than those who stay.)
+- Rural-to-urban migration leads to development by itself. (Without housing, services, and formal jobs, migrants can end up in slums, and poverty moves rather than shrinks.)
+
 ## Questions
 
 ```yaml

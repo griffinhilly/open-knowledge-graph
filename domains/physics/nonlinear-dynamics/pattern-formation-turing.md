@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Turing instability occurs when a spatially uniform steady state that is stable without diffusion becomes unstable when diffusion is added — the counterintuitive result that diffusion (which normally smooths out variations) can create spatial patterns. In a reaction-diffusion system with an activator and an inhibitor, if the inhibitor diffuses much faster than the activator, the uniform state becomes unstable to spatial perturbations of specific wavelengths, and stable patterns (spots, stripes, labyrinths) emerge spontaneously. This mechanism explains pattern formation in chemistry (Belousov-Zhabotinsky reaction), biology (animal coat markings, morphogenesis), and physics (convection cells).
 
+## How It's Best Learned
+Work one linear example by hand. Take the reaction Jacobian J = [[1, −1], [2, −1.5]] with D_u = 1. It has trace −0.5 and determinant 0.5, so it is stable when well mixed. Adding diffusion gives a determinant of D_v k⁴ + (1.5 − D_v)k² + 0.5, and the trace stays negative. Show that this determinant dips below zero for some k exactly when D_v > 4.5. Then run a two-dimensional simulation and watch spots or stripes grow from noise.
+
+## Common Misconceptions
+- For a Turing pattern, the uniform state must already be unstable before diffusion is added. (The Turing condition is the opposite: the well-mixed state is stable, and unequal diffusion is what destabilizes it.)
+- Diffusion can only smooth concentrations out. (With equal diffusion rates it can only stabilize a stable uniform state, but when the inhibitor spreads much faster than the activator, diffusion can amplify perturbations at certain wavelengths.)
+- The pattern spacing is set by the size of the container. (The preferred wavelength comes from the reaction rates and diffusion constants; the domain size and shape affect which nearby modes fit.)
+- A Turing pattern needs a template or prepattern to copy. (It grows spontaneously from small random fluctuations of the uniform state.)
+
 ## Questions
 
 ```yaml

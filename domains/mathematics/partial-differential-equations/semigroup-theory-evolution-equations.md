@@ -19,6 +19,14 @@ status: validated
 ## Core Idea
 Semigroup theory provides an abstract framework for evolution equations by treating u_t = Au as an "ODE in a Banach space," where A is an unbounded operator (like the Laplacian Δ). The solution operator S(t) = e^{tA} forms a strongly continuous semigroup: S(0) = I, S(t+s) = S(t)S(s), and S(t)u₀ → u₀ as t → 0⁺. The Hille-Yosida theorem characterizes which operators A generate such semigroups, providing an abstract existence and uniqueness theory for linear evolution equations. This framework unifies the heat equation, wave equation, Schrodinger equation, and many other evolution problems.
 
+## How It's Best Learned
+Work with a diagonal model before the Laplacian itself. On ℓ², let (Ax)ₙ = −n²xₙ, which is the Dirichlet Laplacian on (0, π) written in sine coefficients. Then S(t)x = (e^{−n²t}xₙ). Check the semigroup law and strong continuity. Show that ‖S(t) − I‖ = 1 for every t > 0, and verify the Hille-Yosida bound ‖(λ − A)⁻¹‖ ≤ 1/λ from 1/(λ + n²) ≤ 1/λ.
+
+## Common Misconceptions
+- e^{tA} is defined by the power series Σ tᵏAᵏ/k!, as for matrices. (For an unbounded A the series does not converge on general vectors. The semigroup is built from resolvents, for example through Yosida approximations.)
+- Strong continuity means ‖S(t) − I‖ → 0 as t → 0. (Norm continuity at 0 holds only when the generator is bounded. In the diagonal heat example, ‖S(t) − I‖ = 1 for every t > 0.)
+- The domain of the generator is a technical detail. (The domain encodes the boundary conditions. The Laplacian with Dirichlet and with Neumann conditions generates different semigroups.)
+
 ## Questions
 ```yaml
 - question: "A strongly continuous (C₀) semigroup S(t) on a Banach space X satisfies:"

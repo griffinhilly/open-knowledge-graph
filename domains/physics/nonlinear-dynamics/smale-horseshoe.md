@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 The Smale horseshoe is a geometric construction that captures the essence of chaos: take a square, stretch it into a long strip, fold it into a horseshoe shape, and map it back onto the original square. The invariant set of this map — the set of points that never leave the square under forward and backward iteration — is a Cantor set with uncountably many points, all unstable periodic orbits and aperiodic orbits. The horseshoe proves that chaos is a topologically robust phenomenon: once a horseshoe exists, it persists under small perturbations.
 
+## How It's Best Learned
+First do the one-dimensional version, the tent map x → 3 min(x, 1 − x). Points in the middle third land above 1 and escape, so the points that never leave form the middle-thirds Cantor set. Then draw the square with the two horizontal strips H₀ and H₁ that map onto the vertical legs V₀ and V₁. Label the four strips of the second iterate with two-symbol words, and locate fixed points where matching vertical and horizontal strips cross.
+
+## Common Misconceptions
+- The horseshoe's invariant set is an attractor. (It has zero area, and almost every point of the square eventually leaves under iteration; the set is a saddle-type invariant set, not an attractor.)
+- If a system contains a horseshoe, its typical long-term behavior is chaotic. (A horseshoe guarantees a chaotic invariant set, but most trajectories may pass near it and then settle onto some other attractor, which shows up as transient chaos.)
+- A set with zero area can hold only a few orbits. (The horseshoe set contains periodic orbits of every period and uncountably many aperiodic orbits; each of its points corresponds to one bi-infinite symbol sequence.)
+
 ## Questions
 
 ```yaml

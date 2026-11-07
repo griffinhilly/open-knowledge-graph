@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 A surface can be parametrized as r(u, v) = ⟨x(u, v), y(u, v), z(u, v)⟩. The tangent vectors r_u and r_v span the tangent plane. The normal vector n = r_u × r_v is perpendicular to the surface and has magnitude equal to the local area scaling factor.
 
+## How It's Best Learned
+Take the cone r(u, v) = ⟨v cos u, v sin u, v⟩ and sketch its coordinate curves: circles where v is fixed, rays where u is fixed. Then r_u = ⟨−v sin u, v cos u, 0⟩, r_v = ⟨cos u, sin u, 1⟩, and r_u × r_v = ⟨v cos u, v sin u, −v⟩, of length v√2. Check that it is perpendicular to both, and note that it vanishes at the apex v = 0.
+
+## Common Misconceptions
+- r_u and r_v are perpendicular, like the x- and y-axes. (They are perpendicular only for an orthogonal parametrization; in general |r_u × r_v| = |r_u||r_v| sin θ with θ the angle between them.)
+- r_u × r_v is a unit normal. (Its length is the area scaling factor, such as v√2 on the cone; divide by that length to get a unit normal.)
+- The normal vector r_u × r_v depends only on the surface. (The line it lies along is set by the surface, but its length and its direction along that line depend on the parametrization; swapping u and v reverses it.)
+
 ## Questions
 
 ```yaml

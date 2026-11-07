@@ -24,6 +24,14 @@ status: draft
 ## Core Idea
 Oral history involves collecting, transcribing, editing, and presenting spoken narratives of others. The form raises ethical questions about authenticity and editorial intervention: how much can historians shape material while honoring speakers' voices? Oral history demonstrates that nonfiction writers are often custodians of others' stories.
 
+## How It's Best Learned
+Record a ten-minute conversation with a relative or neighbor about one memory, with their consent. Transcribe two minutes word for word, then make two edited versions: one lightly cleaned and one heavily smoothed. Reading all three side by side, and showing them to the speaker, makes the tradeoff between readability and voice concrete.
+
+## Common Misconceptions
+- A faithful oral history keeps every "um," pause, and false start. (Some editing for readability is standard practice; the ethical question is how much editing can happen before the speaker's voice is distorted.)
+- Once someone agrees to an interview, the historian owns the story. (The historian acts as a custodian, with responsibilities to the speaker about consent, use, and accurate representation.)
+- Oral history is less reliable than written records, so it is not real history. (Spoken accounts are primary sources that preserve experiences written records often miss, though like any source they need context and corroboration.)
+
 ## Questions
 
 ```yaml
@@ -59,6 +67,7 @@ Oral history involves collecting, transcribing, editing, and presenting spoken n
 
 - question: How might an oral historian approach collecting and presenting stories responsibly?
   type: short-answer
+  answer: "Get explicit consent and explain how the material will be used, transcribe carefully, and edit only for readability while keeping the speaker's distinctive voice. Provide context, credit the speaker, be open about editing choices, and where possible let the speaker review the edited version."
   explanation: 'The historian might: get explicit consent from speakers. Discuss how the material will be used. Transcribe carefully. Edit minimally while improving readability. Preserve distinctive voice and speech patterns. Provide context about the speaker and circumstances. Credit speakers appropriately. Be transparent about editing choices. Some historians share edited transcripts with speakers before publication, allowing speakers to review representation. This approach honors speakers'' stories while making them available to larger audiences.'
 ```
 

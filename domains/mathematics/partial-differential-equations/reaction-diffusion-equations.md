@@ -19,6 +19,14 @@ status: validated
 ## Core Idea
 Reaction-diffusion equations u_t = DΔu + f(u) combine spatial diffusion with local nonlinear reaction kinetics, modeling phenomena where substances spread and interact: chemical reactions, population dynamics, nerve impulse propagation, and morphogenesis. The interplay between diffusion (which homogenizes) and reaction (which can amplify differences) produces rich behavior including traveling wave fronts (Fisher-KPP equation), Turing patterns (diffusion-driven instability in systems), and blow-up. The mathematical theory draws on parabolic regularity, comparison principles, and dynamical systems methods.
 
+## How It's Best Learned
+Derive the Fisher-KPP minimum speed yourself. Substitute u = φ(x − ct) to get φ'' + cφ' + φ(1 − φ) = 0, and linearize near φ = 0 to get λ² + cλ + 1 = 0. For c < 2 the roots are complex, so φ oscillates and turns negative. A nonnegative front therefore needs c ≥ 2. For Turing patterns, form the matrix J − k²D for a two-species system and track the sign of its determinant as k² varies.
+
+## Common Misconceptions
+- Diffusion can only smooth things out, so it cannot create patterns. (In a system of two species with unequal diffusion rates, diffusion can destabilize a steady state that is stable without it. That is the Turing mechanism.)
+- The Fisher-KPP front speed is set by the reaction at large u. (For KPP-type reactions and compactly supported data, the asymptotic speed is 2√(Df'(0)), set by the linearization at u = 0. The front is pulled along by its leading edge.)
+- A single scalar reaction-diffusion equation can produce Turing patterns. (On a convex domain with no-flux boundary conditions, u_t = DΔu + f(u) has no stable nonconstant steady states. Turing patterns need at least two interacting species.)
+
 ## Questions
 ```yaml
 - question: "The Fisher-KPP equation u_t = u_xx + u(1-u) models:"

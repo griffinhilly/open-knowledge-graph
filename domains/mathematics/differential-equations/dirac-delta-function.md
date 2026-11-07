@@ -20,6 +20,14 @@ status: validated
 ## Core Idea
 The Dirac delta δ(t) models an instantaneous impulse: zero everywhere except at t = 0, with ∫_{-∞}^∞ δ(t)dt = 1. Its Laplace transform is L[δ(t)] = 1. The impulse response of a system is the solution when forced by δ(t), and convolution with the impulse response gives the response to any input. Deltas are essential for modeling sudden shocks and discontinuous inputs.
 
+## How It's Best Learned
+Model δ(t) as a rectangular pulse of height 1/ε on [0, ε] and watch what stays fixed as ε shrinks: the area stays 1 and ∫f(t)·pulse dt approaches f(0). Then solve y'' + y = δ(t) with y(0) = y'(0) = 0: transforming gives (s² + 1)Y = 1, so y = sin t. The impulse sets the mass moving from rest with unit velocity.
+
+## Common Misconceptions
+- δ(0) = 1, because the delta has area 1. (δ(t) has no ordinary value at t = 0; the 1 is its total area, a statement about integrals.)
+- The delta is a very tall, very narrow ordinary function. (Tall narrow pulses approach the delta in their effect inside integrals, but no ordinary function has zero width and area 1.)
+- The transform of a delayed impulse δ(t − a) is also 1. (The delay multiplies the transform by e^(−as), so L[δ(t − a)] = e^(−as) for a > 0.)
+
 ## Questions
 
 ```yaml

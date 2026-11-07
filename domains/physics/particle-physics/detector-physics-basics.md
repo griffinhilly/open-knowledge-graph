@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Particle detectors at colliders are layered systems designed to measure the energy, momentum, and identity of every particle produced in a collision. The typical layout consists of an inner tracking system (in a magnetic field, measuring charged particle momenta from track curvature), electromagnetic and hadronic calorimeters (measuring particle energies through shower development), and a muon spectrometer (identifying and measuring muons that penetrate the calorimeters). The design exploits the different interaction patterns of electrons, photons, hadrons, muons, and neutrinos.
 
+## How It's Best Learned
+Draw a wedge of the detector and trace an electron, a photon, a charged pion, a muon, and a neutrino through it, marking where each leaves a signal. Then compute a sagitta. In 2 T over 1 m, a 10 GeV track has r = p_T/(0.3B) ≈ 16.7 m and s = L²/(8r) ≈ 7.5 mm. At 1 TeV, s shrinks to about 75 μm.
+
+## Common Misconceptions
+- A photon leaves a track in the tracker like an electron does. (A photon is neutral and leaves no track unless it converts to an electron pair. The presence or absence of a matching track is how the two are told apart.)
+- Higher-momentum tracks are measured more precisely. (In a tracker the fractional momentum resolution gets worse as p_T rises, because stiffer tracks bend less. Calorimeter resolution improves with energy instead.)
+- Missing transverse energy measures the full momentum of the invisible particles. (Only the transverse part can be inferred. The colliding partons' momenta along the beam are unknown, so the longitudinal balance cannot be used.)
+
 ## Questions
 
 ```yaml

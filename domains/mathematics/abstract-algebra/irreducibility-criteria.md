@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 A polynomial is irreducible if it cannot be factored into non-constant polynomials. Eisenstein's criterion provides a sufficient condition for irreducibility over fields and principal ideal domains.
 
+## How It's Best Learned
+Run each test on a short list and record which one succeeds. Try x⁴ + 1: no prime works directly, but x → x + 1 gives x⁴ + 4x³ + 6x² + 4x + 2, which is Eisenstein at 2. Try x³ + x + 1 mod 2: neither 0 nor 1 is a root, so the cubic is irreducible mod 2 and hence over ℚ. Then factor x⁴ + 4 to see where root tests stop.
+
+## Common Misconceptions
+- If no prime makes Eisenstein work, the polynomial is reducible. (Eisenstein is sufficient, not necessary. x³ + x + 1 fails it for every prime and is still irreducible over ℚ.)
+- A polynomial with no rational roots is irreducible over ℚ. (That test settles degrees 2 and 3 only. x⁴ + 4 has no rational roots but equals (x² + 2x + 2)(x² − 2x + 2).)
+- If f factors mod p, it factors over ℚ. (The implication runs the other way when p does not divide the leading coefficient. x² + 1 is (x + 1)² mod 2 but is irreducible over ℚ.)
+
 ## Questions
 
 ```yaml

@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Superdense coding is a quantum communication protocol that transmits two classical bits by sending only one qubit, using a pre-shared entangled pair. Alice encodes her two-bit message by applying one of four Pauli operations (I, X, Z, XZ) to her half of a Bell pair, then sends that qubit to Bob. Bob performs a Bell measurement on both qubits to recover the two-bit message with certainty. It is the dual of quantum teleportation: teleportation sends one qubit using two classical bits and shared entanglement; superdense coding sends two classical bits using one qubit and shared entanglement.
 
+## How It's Best Learned
+Work all four messages by hand. Start from (|00> + |11>)/sqrt(2), apply I, X, Z or XZ to the first qubit, and write the Bell state you get. Then run Bob's decoder on each: CNOT from qubit 1 to qubit 2, then H on qubit 1. Each case ends in a basis state (up to a global sign) that spells the two-bit message.
+
+## Common Misconceptions
+- One qubit carries two bits all by itself. (Bob's half of the Bell pair had to reach him earlier. Counting both qubits, two qubits are delivered for two bits.)
+- Alice's operation changes Bob's qubit the moment she applies it. (Bob's qubit on its own is maximally mixed before and after Alice acts. He learns nothing until her qubit arrives.)
+- Bob can read the message by measuring only the qubit Alice sends. (That qubit on its own is maximally mixed for all four messages. Bob needs a joint Bell measurement on both qubits.)
+- The same Bell pair can be used again for the next message. (Bob's measurement destroys the entanglement, so each two-bit message uses up one fresh pair.)
+
 ## Questions
 
 ```yaml

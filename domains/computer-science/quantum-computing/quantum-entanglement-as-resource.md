@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 Entanglement is a quantifiable resource in quantum information theory, analogous to fuel or currency that is consumed to perform tasks impossible with classical communication alone. The resource-theoretic framework defines free operations (local operations and classical communication, LOCC) and identifies entanglement as the resource that LOCC alone cannot create. Entanglement enables quantum teleportation, superdense coding, and enhanced communication capacity. Measures like entanglement entropy, concurrence, and entanglement of formation quantify how much entanglement a state contains. Bell pairs are the standard unit: one ebit (entanglement bit) denotes the entanglement in a maximally entangled two-qubit state.
 
+## How It's Best Learned
+Keep a resource ledger with columns for ebits, classical bits and qubits sent. Enter teleportation (1 ebit + 2 bits -> 1 qubit) and superdense coding (1 ebit + 1 qubit -> 2 bits) as transactions. Then compute the entanglement entropy of cos(theta)|00> + sin(theta)|11>, the binary entropy of cos^2(theta). It runs from 0 at theta = 0 to 1 ebit at theta = pi/4.
+
+## Common Misconceptions
+- Shared entanglement lets Alice send Bob a message without using any channel. (Every entanglement-assisted protocol still needs a classical or quantum channel. Entanglement alone carries no message.)
+- One Bell pair can power many teleportations. (Each teleportation consumes its Bell pair, so sending n qubits takes n ebits.)
+- Enough classical communication can build entanglement between distant labs. (LOCC cannot create entanglement from unentangled states, however much classical communication is used.)
+- Any entangled mixed state can be refined into pure Bell pairs. (Bound entangled states are entangled but yield no Bell pairs under LOCC.)
+
 ## Questions
 
 ```yaml

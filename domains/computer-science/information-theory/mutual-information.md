@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 Mutual information I(X;Y) = H(X) - H(X|Y) = H(Y) - H(Y|X) = H(X) + H(Y) - H(X,Y) measures the amount of information that one random variable provides about another. Unlike correlation, which only captures linear relationships, mutual information detects any statistical dependence. It is symmetric: X tells you as much about Y as Y tells you about X. I(X;Y) = 0 if and only if X and Y are independent. It is always non-negative and is bounded above by min(H(X), H(Y)). Mutual information is the central quantity in channel capacity, feature selection, and information-theoretic analysis of learning.
 
+## How It's Best Learned
+From one small joint table, compute I(X;Y) three ways: H(X) - H(X|Y), H(Y) - H(Y|X), and the sum of p(x,y) log(p(x,y)/(p(x)p(y))). All three should agree. Then build the Y = X^2 example with X uniform on {-1, 0, 1}, where the correlation is zero but the mutual information is not. Finally, work the XOR example to see conditioning raise mutual information.
+
+## Common Misconceptions
+- Conditioning on a third variable can only lower mutual information. (If X and Y are independent fair bits and Z = X XOR Y, then I(X;Y) = 0 but I(X;Y|Z) = 1 bit.)
+- High mutual information means X causes Y. (Mutual information is symmetric and measures dependence. It says nothing about direction or cause.)
+- Clever processing of Y can increase what it tells you about X. (By the data processing inequality, I(X; g(Y)) is at most I(X;Y) for any function g.)
+- Since I(X;Y) is at most min(H(X), H(Y)), mutual information is finite for any pair of variables. (That bound uses discrete entropy. For a continuous X with a density, I(X;X) is infinite.)
+
 ## Questions
 
 ```yaml

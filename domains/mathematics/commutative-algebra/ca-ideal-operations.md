@@ -28,6 +28,14 @@ status: validated
 ## Core Idea
 Ideals in a commutative ring support a rich algebra of operations: sum (I + J), product (IJ), intersection (I ∩ J), and the ideal quotient (I : J) = {r in R : rJ ⊆ I}. These operations interact with prime ideals in precise ways -- for instance, a prime ideal contains an intersection if and only if it contains one of the factors. The radical √I (the set of elements some power of which lies in I) connects ideals to their underlying geometry, with radical ideals corresponding to reduced algebraic sets via the Nullstellensatz.
 
+## How It's Best Learned
+Compute all the operations on one pair of ideals in ℤ before moving to polynomial rings. For (4) and (6): the sum is (2), the product is (24), the intersection is (12), and (4) : (6) = (2). Then in k[x, y], compare (x)(y) = (xy) = (x) ∩ (y) with (x)(x) = (x²), which is smaller than (x) ∩ (x) = (x).
+
+## Common Misconceptions
+- The product of two ideals equals their intersection. (The product sits inside the intersection and can be smaller. In ℤ, (4)(6) = (24) while (4) ∩ (6) = (12).)
+- The union of two ideals is an ideal. (The set (2) ∪ (3) in ℤ contains 2 and 3 but not their sum 5. The smallest ideal containing both is the sum (2) + (3) = ℤ.)
+- The ideal quotient undoes multiplication, so (I : J)J = I. (In ℤ, (4) : (6) = (2), but (2)(6) = (12), which is strictly inside (4).)
+
 ## Questions
 
 ```yaml

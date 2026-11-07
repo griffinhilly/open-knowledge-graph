@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 For dx/dt = Ax with equilibrium at x = 0, stability is determined by eigenvalues: asymptotically stable if all Re(λ) < 0 (decay to origin); unstable if any Re(λ) > 0 (grow unbounded); marginally stable if Re(λ) = 0 with geometric multiplicity equal to algebraic multiplicity. Stability is geometric and visible in phase portraits, making it the lens for understanding system behavior.
 
+## How It's Best Learned
+Classify four matrices by hand and plot each on the trace-determinant plane: [[−1, 2], [−2, −1]] (λ = −1 ± 2i, stable spiral), [[1, 0], [0, −2]] (saddle), [[0, 1], [−4, 0]] (λ = ±2i, center) and [[0, 1], [0, 0]]. For the last one, solve directly to get x₁ = c₁ + c₂t, which shows a defective zero eigenvalue producing growth.
+
+## Common Misconceptions
+- A center is asymptotically stable because trajectories stay near the origin. (Nearby trajectories stay close but keep orbiting and never approach the origin, so a center is stable without being asymptotically stable.)
+- A saddle is half stable, so it counts as stable. (One growing direction is enough; trajectories that start off the stable line move away, so a saddle is unstable.)
+- A defective matrix makes the origin unstable whenever a tⁿ term appears. (If every eigenvalue has Re(λ) < 0, the exponential decay outweighs the polynomial factor, so tⁿe^(λt) still tends to zero and the origin is asymptotically stable.)
+- Zero real parts guarantee bounded solutions. (A defective eigenvalue with Re(λ) = 0 gives polynomial growth, as in x₁ = c₁ + c₂t.)
+
 ## Questions
 
 ```yaml
@@ -61,6 +70,7 @@ For dx/dt = Ax with equilibrium at x = 0, stability is determined by eigenvalues
 - question: "The condition Re(λ) = 0 for all eigenvalues is necessary but not sufficient for marginal stability. What additional condition is required, and what goes wrong when it fails?"
   type: short-answer
   answer: "The additional condition is that the matrix must be non-defective: for every eigenvalue, its geometric multiplicity (the number of linearly independent eigenvectors) must equal its algebraic multiplicity (its multiplicity as a root of the characteristic polynomial). When this fails — when the matrix is defective — the solution contains generalized eigenvector terms of the form tⁿe^(λt). Even when Re(λ) = 0, the polynomial factor tⁿ grows without bound as t → ∞. Trajectories that start near the origin move away from it, so the origin is unstable despite the purely imaginary eigenvalues. The canonical example is a 2×2 matrix with a single repeated eigenvalue λ = 0i and only one independent eigenvector; the solution then contains a term growing linearly in time. Marginal stability requires the system to be able to produce purely oscillatory solutions with no polynomial growth, which demands a complete set of independent eigenvectors."
+  explanation: "When Re(λ) = 0, the factor e^(λt) has constant modulus, so it neither damps nor amplifies. Any extra factor of t from a missing eigenvector is then left unchecked and grows. For A = [[0, 1], [0, 0]], solving directly gives x₁ = c₁ + c₂t, which grows whenever c₂ ≠ 0. With a full set of eigenvectors no such factor appears, and every solution stays bounded."
 ```
 
 ## Explainer

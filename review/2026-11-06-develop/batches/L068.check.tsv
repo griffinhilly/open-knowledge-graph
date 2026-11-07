@@ -70,6 +70,7 @@ domains/mathematics/abstract-algebra/ruler-compass-constructions-algebraic.md	ho
 domains/mathematics/abstract-algebra/ruler-compass-constructions-algebraic.md	mis	6	0	ok
 domains/mathematics/abstract-algebra/ruler-compass-constructions-algebraic.md	old:core	2	2	fixed	writer flag confirmed: "constructible iff minimal polynomial degree is a power of 2" false (root of x^4-x-1 has degree 4, Galois group S4); also "pi is transcendental" listed as a consequence; rewritten
 domains/mathematics/abstract-algebra/ruler-compass-constructions-algebraic.md	old:q:2:explanation	1	1	fixed	"converse also holds: any number of degree 2^k lies in a tower"; false; replaced with the x^4-x-1 counterexample (question stem itself is true and kept)
+domains/mathematics/abstract-algebra/ruler-compass-constructions-algebraic.md	old:q:3:explanation	1	1	fixed	"The relevant criterion is always the degree of the minimal polynomial" overstated -> "the relevant obstruction here"
 domains/mathematics/abstract-algebra/ruler-compass-constructions-algebraic.md	old:q:4:explanation	1	1	fixed	recast reachability as equivalent to degree power of 2; now stated as a necessary condition
 domains/mathematics/abstract-algebra/ruler-compass-constructions-algebraic.md	old:ex	1	1	fixed	"constructible iff [Q(a):Q] is a power of 2, which happens iff Galois group is a 2-group": first iff false; now Galois 2-group criterion with counterexample
 domains/mathematics/abstract-algebra/second-and-third-isomorphism-theorems.md	how	5	0	ok	worked: 4Z+6Z = 2Z, 4Z∩6Z = 12Z, both quotients order 3

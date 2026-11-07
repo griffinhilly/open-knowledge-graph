@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 The reciprocal lattice is the Fourier dual of the direct (real-space) Bravais lattice. Its lattice vectors b_i are defined by a_i · b_j = 2π δ_{ij}, so every reciprocal lattice vector G satisfies e^{iG·R} = 1 for all direct lattice vectors R. The first Brillouin zone is the Wigner-Seitz cell of the reciprocal lattice — the region of k-space closer to the origin than to any other reciprocal lattice point. It is the fundamental domain for describing wave phenomena in crystals: electron band structures, phonon dispersions, and diffraction conditions are all naturally expressed within the first Brillouin zone.
 
+## How It's Best Learned
+Construct one case by hand in 2D. For the hexagonal lattice a₁ = a(1, 0), a₂ = a(1/2, √3/2), the reciprocal vectors are b₁ = (2π/a)(1, −1/√3) and b₂ = (2π/a)(0, 2/√3); check all four dot products. Draw the perpendicular bisectors to the nearest reciprocal points and get a hexagonal zone rotated by 30° from the real-space Wigner-Seitz cell. Then apply the 3D formula to FCC and confirm the result is BCC.
+
+## Common Misconceptions
+- Each reciprocal vector b_i points along the matching direct vector a_i. (b₁ is perpendicular to a₂ and a₃; it is parallel to a₁ only when the direct lattice is orthogonal.)
+- The reciprocal lattice depends on which atoms make up the basis. (It depends only on the Bravais lattice; the basis enters through the structure factor, which can remove some diffraction spots.)
+- A larger real-space unit cell gives a larger Brillouin zone. (The zone volume is (2π)³ divided by the primitive cell volume, so a larger cell gives a smaller zone.)
+
 ## Questions
 
 ```yaml

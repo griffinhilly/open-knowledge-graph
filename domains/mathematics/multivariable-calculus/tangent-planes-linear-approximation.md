@@ -28,6 +28,14 @@ status: validated
 ## Core Idea
 The tangent plane to z = f(x, y) at (a, b) is z = f(a,b) + f_x(a,b)(x-a) + f_y(a,b)(y-b). This plane is the best linear approximation to f near (a, b), used for error propagation and differential approximation.
 
+## How It's Best Learned
+Use a function you can check on a calculator. For f(x, y) = √(x² + y²) at (3, 4), f = 5, f_x = 3/5 and f_y = 4/5. The linearization gives f(3.02, 3.97) ≈ 5 + 0.6(0.02) + 0.8(−0.03) = 4.988, against a true value near 4.9881. Repeat with steps ten times larger, at (3.2, 3.7), and the error grows about a hundredfold.
+
+## Common Misconceptions
+- In the formula I plug in x and y themselves. (The partials multiply the displacements x − a and y − b from the base point, not the raw coordinates.)
+- The tangent plane stays on one side of the surface, like a sheet resting on a bowl. (It can cross the surface; at the origin, z = 0 is the tangent plane of the saddle z = x² − y², which lies above it in some directions and below it in others.)
+- If f is smooth, the linearization is accurate at any distance from (a, b). (The error grows with distance, roughly with the square of the step for a twice-differentiable f.)
+
 ## Questions
 
 ```yaml

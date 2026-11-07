@@ -46,7 +46,7 @@ Study controversies around truth claims in autobiography and memoir to understan
   type: multiple-choice
   options:
   - Nothing; composite characters are fine in nonfiction.
-  - They are inherently dishonest because readers assume characters are individual real people, but composites are invented.
+  - They can mislead readers, who assume characters are individual real people, unless the composite is disclosed.
   - They make writing less interesting.
   - Composites are only acceptable in fiction.
   answer: 1
@@ -64,6 +64,7 @@ Study controversies around truth claims in autobiography and memoir to understan
 
 - question: Consider a situation where you might use literary technique in nonfiction. How would you make an ethically responsible choice about what shaping serves truthfulness and what would cross the line into fabrication?
   type: short-answer
+  answer: "Shaping is responsible when it rests on what you remember or can confirm, such as dialogue recalled or verified by others, and when uncertainty is signaled. It becomes fabrication when you invent dialogue or events, exaggerate for effect, or present details you did not witness as fact."
   explanation: 'Example: You''re writing about a difficult family conversation. Literary choice: reconstruct it as a scene with dialogue and setting rather than summarizing it. Truthful boundary: you can present dialogue you remember or dialogue confirmed by others present, noting if memory is uncertain (''As I remember it, she said X, though she might phrase it differently''). Fabrication boundary: inventing dialogue that didn''t occur, exaggerating what was said for emotional effect, adding details you didn''t witness. Ethical practice: acknowledge the limits of your reconstruction. You might write: ''This scene happened as I remember it, though I''m aware memory isn''t perfect and others might recall it differently.'' That honesty actually increases truthfulness by acknowledging reality''s complexity.'
 ```
 

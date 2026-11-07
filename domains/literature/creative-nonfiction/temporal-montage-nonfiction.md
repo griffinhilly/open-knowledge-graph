@@ -20,6 +20,14 @@ status: draft
 ## Core Idea
 Non-linear, montage-like temporal structures jump between past, present, and possible futures. This approach can reflect memory's associative nature or consciousness's fluid temporality. The technique challenges the assumption that nonfiction must follow chronological order, creating meaning through temporal juxtaposition.
 
+## How It's Best Learned
+Write five short moments from different ages that share one object or feeling, such as a kitchen table or a fear of water. Put each on its own index card with the age on the back. Lay them out in chronological order, read them, then rearrange them by association and read again. Note which pairs gain meaning when placed side by side out of sequence.
+
+## Common Misconceptions
+- Non-linear structure means jumping around in time at random. (Effective montage orders its moments by theme, image, or emotion so each jump feels motivated.)
+- Nonfiction has to be told in chronological order to be truthful. (Chronology is a convention, and a non-linear order can be truer to how memory and understanding unfold.)
+- If readers have to infer the connections, the writing has failed. (Montage relies on reader inference, though the writer still needs to give enough cues to keep the logic followable.)
+
 ## Questions
 
 ```yaml
@@ -55,6 +63,7 @@ Non-linear, montage-like temporal structures jump between past, present, and pos
 
 - question: Take a significant realization or change you've experienced. Organize the moments that led to it or that illustrate it not chronologically but through temporal montage—juxtaposing moments that illuminate each other. What meaning emerges from the juxtaposition?
   type: short-answer
+  answer: "Select moments from different times that share a theme and arrange them by association, such as an adult moment of realization placed before the childhood scene it explains. The juxtaposition shows how a pattern recurs and how present understanding reshapes past events."
   explanation: 'For example, a realization about loneliness: You might move from a moment at age 8 (sitting alone at lunch), to age 25 (at a crowded party feeling isolated), to age 35 (finally understanding that you''re not actually lonely in the way you feared). These three moments aren''t in chronological order, but each illuminates the others. The juxtaposition shows how the same fear recurs across time; how understanding develops non-linearly; how the present self looks back on past moments with new comprehension. A chronological narrative would have moved 8→25→35, but the narrative significance would be unclear until the end. Montage structure makes the emotional and thematic arc immediate.'
 ```
 

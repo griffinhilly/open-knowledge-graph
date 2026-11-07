@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 Aqueous geochemistry describes the chemical behavior of dissolved species in natural waters -- rivers, groundwater, ocean, hydrothermal fluids. Water is the universal geological solvent, mediating mineral dissolution and precipitation, transporting elements, and hosting the reactions that drive weathering, diagenesis, and ore formation. Key concepts include aqueous speciation (how dissolved elements distribute among free ions, complexes, and ion pairs), activity versus concentration (the effective thermodynamic concentration in non-ideal solutions), saturation indices (whether a water will dissolve or precipitate a given mineral), and the master variables pH and pe (or Eh) that control speciation of virtually all dissolved species.
 
+## How It's Best Learned
+Take one real groundwater analysis and compute a calcite saturation index by hand. Find the ionic strength, get activity coefficients from the Debye-Hückel equation, then form the ion activity product. Then run the same analysis through a speciation code such as PHREEQC and compare the free-ion fractions. Repeat the code run with seawater, where the simple Debye-Hückel equation no longer holds, to see how ionic strength and ion pairing change the result.
+
+## Common Misconceptions
+- A positive saturation index means the mineral is precipitating. (SI > 0 shows a thermodynamic driving force only. Slow nucleation and inhibitors such as dissolved Mg2+ or phosphate can keep a water supersaturated with calcite for a long time.)
+- The measured total of an element is the amount of its free ion. (A dissolved element is split among free ions, complexes, and ion pairs, so the free-ion activity can be well below the analyzed total.)
+- Activity coefficients are close to 1, so concentrations work in equilibrium calculations. (That holds for dilute waters. At seawater ionic strength, activity coefficients for divalent ions are well below 1.)
+- A platinum-electrode Eh reading gives the redox state of the whole water. (Redox couples in natural waters are often out of equilibrium with each other, so one measured Eh may not describe every couple.)
+
 ## Questions
 
 ```yaml

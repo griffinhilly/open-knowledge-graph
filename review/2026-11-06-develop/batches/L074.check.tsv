@@ -1,0 +1,79 @@
+domains/earth-and-space-sciences/geophysics/gravity-surveys-and-data-inversion.md	how	4	0	ok	sphere half-width x=0.766z verified
+domains/earth-and-space-sciences/geophysics/gravity-surveys-and-data-inversion.md	mis	6	0	ok
+domains/earth-and-space-sciences/geophysics/heat-flow-conduction-steady-state.md	how	4	0	ok	0.06/1.5=40 K/km, 0.06/3=20 K/km verified
+domains/earth-and-space-sciences/geophysics/heat-flow-conduction-steady-state.md	mis	6	0	ok
+domains/earth-and-space-sciences/geophysics/heat-flow-conduction-steady-state.md	old:core	1	1	fixed	said continental ~60 "exceeds" oceanic ~82; rewrote: continental ~60-65 is lower than oceanic average ~100 mW/m2
+domains/earth-and-space-sciences/geophysics/heat-flow-conduction-steady-state.md	old:ex	1	1	fixed	said heat flow increases with depth when crust produces heat; it decreases with depth (contradicted q:1 and new mis bullet)
+domains/earth-and-space-sciences/geophysics/heat-flow-measurement-geothermal.md	how	4	0	ok	25 K/km x 2.4 = 60 mW/m2; Bullard plot slope = q verified
+domains/earth-and-space-sciences/geophysics/heat-flow-measurement-geothermal.md	mis	6	0	ok
+domains/earth-and-space-sciences/geophysics/induced-polarization-methods.md	how	3	0	ok	parallel R with series R-C circuit behaviour checked at DC, high f, switch-off
+domains/earth-and-space-sciences/geophysics/induced-polarization-methods.md	mis	6	1	fixed	bullet 2 correction compared disseminated sulfide to "a smaller amount" of massive sulfide, which does not refute "more metal = bigger anomaly"; changed to "the same amount"
+domains/earth-and-space-sciences/geophysics/isostasy-and-crustal-balance.md	how	3	0	ok	3000x900/3300=818 m verified
+domains/earth-and-space-sciences/geophysics/isostasy-and-crustal-balance.md	mis	6	0	ok	erosion bullet: net lowering = 1-rho_c/rho_m = 0.15-0.18 of thickness, under a fifth, holds for Airy with uniform removal
+domains/earth-and-space-sciences/geophysics/isostasy-and-crustal-balance.md	old:ex	1	1	fixed	postglacial rebound "centuries after" ice melted -> "thousands of years after" (matches q:0)
+domains/earth-and-space-sciences/geophysics/isostatic-flexure-lithosphere.md	mis	6	0	ok
+domains/earth-and-space-sciences/geophysics/joint-inversion-gravity-seismics.md	how	4	0	ok	2piG=0.0419 mGal/m per g/cc; -10 mGal -> 954 m at -0.25, 477 m at -0.5 verified
+domains/earth-and-space-sciences/geophysics/joint-inversion-gravity-seismics.md	mis	6	0	ok
+domains/earth-and-space-sciences/geophysics/lithospheric-structure-and-strength.md	how	4	0	ok
+domains/earth-and-space-sciences/geophysics/lithospheric-structure-and-strength.md	mis	6	0	ok
+domains/earth-and-space-sciences/geophysics/lithospheric-structure-and-strength.md	old:core	1	1	fixed	"young, hot lithosphere is weak and thick" -> "weak and thin"
+domains/earth-and-space-sciences/geophysics/lithospheric-structure-and-strength.md	old:q:0:explanation	2	2	fixed	"more of the plate is below the brittle-ductile transition temperature" read as the wrong side of the BDT -> "cold enough to resist creep"; cut Hawaiian sentence claiming stronger subsidence on older lithosphere (contradicts the answer)
+domains/earth-and-space-sciences/geophysics/lithospheric-thermal-evolution.md	how	4	0	ok	sqrt(36/4)=3 for thickness and subsidence, 1/3 for heat flow verified
+domains/earth-and-space-sciences/geophysics/lithospheric-thermal-evolution.md	mis	6	0	ok
+domains/earth-and-space-sciences/geophysics/magnetic-dipole-anomalies.md	how	3	0	ok	1/z^3 scaling: peak 1/8, width x2 verified
+domains/earth-and-space-sciences/geophysics/magnetic-dipole-anomalies.md	mis	6	0	ok
+domains/earth-and-space-sciences/geophysics/magnetic-dipole-anomalies.md	old:q:2:explanation	1	1	fixed	said magnetic field falls as square of distance; dipole falls as cube (new mis bullet says 1/r^3)
+domains/earth-and-space-sciences/geophysics/magnetic-field-reduction-pole.md	how	3	0	ok
+domains/earth-and-space-sciences/geophysics/magnetic-field-reduction-pole.md	mis	6	0	ok	bullet 3 (positive lobe equatorward in N hemisphere) is right; older text contradicted it, fixed below
+domains/earth-and-space-sciences/geophysics/magnetic-field-reduction-pole.md	old:q:0:explanation	1	1	fixed	peak offset "poleward" -> "equatorward" (stem itself says peak offset to the south)
+domains/earth-and-space-sciences/geophysics/magnetic-field-reduction-pole.md	old:q:4:answer	1	1	fixed	peak shift "(toward the pole)" -> "(toward the equator)"
+domains/earth-and-space-sciences/geophysics/magnetic-field-reduction-pole.md	old:q:3:explanation	1	1	fixed	vertical dipole at pole has "no negative lobe" -> weak symmetric negative ring (Bz ~ (2z^2-x^2)/r^5); note q:2 is a true-false item phrased as an open question, left as is
+domains/earth-and-space-sciences/geophysics/magnetostratigraphy-dating.md	how	3	0	ok
+domains/earth-and-space-sciences/geophysics/magnetostratigraphy-dating.md	mis	6	0	ok
+domains/earth-and-space-sciences/geophysics/magnetostratigraphy-dating.md	old:q:3:question	1	1	fixed	"an mostly self-contained ... without any input" garbled and self-contradictory -> "a fully self-contained"
+domains/earth-and-space-sciences/geophysics/magnetotelluric-methods-em-induction.md	how	4	0	ok	503*sqrt(100/f): 0.50, 5.0, 50 km verified; phase >45 deg where resistivity falls with depth
+domains/earth-and-space-sciences/geophysics/magnetotelluric-methods-em-induction.md	mis	6	0	ok
+domains/earth-and-space-sciences/geophysics/mantle-adiabat-temperature.md	how	4	0	ok	3e-5*10*1600/1200 = 0.4 K/km verified; 25 K/km line meets 1350 C adiabat near 55 km
+domains/earth-and-space-sciences/geophysics/mantle-adiabat-temperature.md	mis	6	0	ok
+domains/earth-and-space-sciences/geophysics/mantle-adiabat-temperature.md	old:core	1	1	fixed	Tp "approximately 1300 K" -> "1300-1350 C (about 1600 K)"
+domains/earth-and-space-sciences/geophysics/mantle-convection-and-dynamics.md	how	4	0	ok	Ra = 7.3e6 verified; (2900/660)^3 = 85 verified
+domains/earth-and-space-sciences/geophysics/mantle-convection-and-dynamics.md	mis	6	0	ok
+domains/earth-and-space-sciences/geophysics/mantle-rheology-flow.md	how	4	0	ok	exp(60140*(1/1600-1/1700)) = 9.1 verified; 2^3=8
+domains/earth-and-space-sciences/geophysics/mantle-rheology-flow.md	mis	6	0	ok
+domains/earth-and-space-sciences/geophysics/mantle-rheology-flow.md	old:ex	1	1	fixed	1e19-1e20 to 1e22-1e23 called "roughly two orders of magnitude" -> "three to four" (matches q:4 explanation)
+domains/earth-and-space-sciences/geophysics/mid-ocean-ridge-dynamics-and-geophysics.md	how	4	0	ok	5 cm/yr x 1 Myr = 50 km; 1 cm/yr = 10 km verified
+domains/earth-and-space-sciences/geophysics/mid-ocean-ridge-dynamics-and-geophysics.md	mis	6	0	ok	note: old Core Idea full rate 2-20 cm/yr omits ultraslow ridges (<2), left
+domains/earth-and-space-sciences/geophysics/moment-tensor-inversion.md	how	4	0	ok	M_xy=M0, eigenvalues +M0,-M0,0, n/s swap symmetry verified
+domains/earth-and-space-sciences/geophysics/moment-tensor-inversion.md	mis	6	0	ok
+domains/earth-and-space-sciences/geophysics/moment-tensor-inversion.md	old:q:2:explanation	1	1	fixed	null axis "perpendicular to the fault plane" -> lies in the fault plane, perpendicular to slip
+domains/earth-and-space-sciences/geophysics/near-surface-geophysics-methods.md	how	3	0	ok	c/sqrt(4)=0.15 m/ns; 0.15/0.1 GHz = 1.5 m verified
+domains/earth-and-space-sciences/geophysics/near-surface-geophysics-methods.md	mis	6	0	ok
+domains/earth-and-space-sciences/geophysics/paleomagnetic-apparent-polar-wander.md	how	4	0	ok	tan I=2tan(30.0); colatitude 60 deg from 50N on 0E meridian lands at 70N 180E verified
+domains/earth-and-space-sciences/geophysics/paleomagnetic-apparent-polar-wander.md	mis	6	0	ok
+domains/earth-and-space-sciences/geophysics/paleomagnetic-apparent-polar-wander.md	old:q:3:explanation	0	0	fixed	style only: banned "load-bearing" replaced
+domains/earth-and-space-sciences/geophysics/paleomagnetic-dating-and-stratigraphy.md	how	4	0	ok
+domains/earth-and-space-sciences/geophysics/paleomagnetic-dating-and-stratigraphy.md	mis	6	0	ok
+domains/earth-and-space-sciences/geophysics/paleomagnetic-poles-and-plate-reconstruction.md	how	3	0	ok
+domains/earth-and-space-sciences/geophysics/paleomagnetic-poles-and-plate-reconstruction.md	mis	6	0	ok
+domains/earth-and-space-sciences/geophysics/paleomagnetic-poles-and-plate-reconstruction.md	old:q:0	1	1	fixed	South America-Africa divergence and South Atlantic opening placed in the Jurassic; it is Early Cretaceous. Stem, options 0-2 and explanation updated (Q1 and Explainer already say Jurassic paths converge)
+domains/earth-and-space-sciences/geophysics/paleomagnetism-and-reversals.md	how	3	0	ok	tan I = 2 tan lat: 49.1, 63.4, 73.9 deg verified
+domains/earth-and-space-sciences/geophysics/paleomagnetism-and-reversals.md	mis	6	0	ok
+domains/earth-and-space-sciences/geophysics/paleomagnetism-and-reversals.md	old:q:2:question	1	1	fixed	garbled "roughly most 200,000 years" -> "roughly every"
+domains/earth-and-space-sciences/geophysics/potential-field-methods-gravity-magnetics.md	how	3	0	ok	exp(-2pi/50)=0.88, exp(-pi)=0.043 verified
+domains/earth-and-space-sciences/geophysics/potential-field-methods-gravity-magnetics.md	mis	6	0	ok
+domains/earth-and-space-sciences/geophysics/pratt-isostasy-model.md	how	4	0	ok	2700x100/102=2647; Airy root 2x2700/600=9 km verified
+domains/earth-and-space-sciences/geophysics/pratt-isostasy-model.md	mis	6	0	ok
+domains/earth-and-space-sciences/geophysics/radioactive-heat-production.md	how	4	0	ok	10 km x 3 uW/m3 = 30 mW/m2 verified
+domains/earth-and-space-sciences/geophysics/radioactive-heat-production.md	mis	6	1	fixed	bullet 2 premise "potassium-40 gives the least heat per kilogram" is false per kg of isotope (K-40 ~ Th-232); true per kg of element; reworded belief to "per kilogram of element"
+domains/earth-and-space-sciences/geophysics/radioactive-heat-production.md	old:core	1	1	fixed	heat production "~10-50 mW/m3" wrong units/magnitude -> "roughly 0.5-5 uW/m3 in upper continental crust"
+domains/earth-and-space-sciences/geophysics/radioactive-heat-production.md	old:ex	1	1	fixed	"potassium-40 the least" -> "potassium the least" (same per-isotope vs per-element issue)
+domains/earth-and-space-sciences/geophysics/reflection-seismic-survey-design.md	how	4	0	ok	fold 240x25/100=60; moveout 154 ms and 494 ms verified
+domains/earth-and-space-sciences/geophysics/reflection-seismic-survey-design.md	mis	6	0	ok
+domains/earth-and-space-sciences/geophysics/reflection-seismic-survey-design.md	q:4:explanation	1	0	ok	over/undercorrection direction correct
+domains/earth-and-space-sciences/geophysics/rock-magnetism-hysteresis.md	how	3	0	ok	Day plot placement SD upper-left, MD lower-right correct
+domains/earth-and-space-sciences/geophysics/rock-magnetism-hysteresis.md	mis	6	0	ok
+domains/earth-and-space-sciences/geophysics/rock-rheology-elastic-plastic-deformation.md	how	4	0	ok	100 MPa/50 GPa = 0.002; 2^3=8 verified
+domains/earth-and-space-sciences/geophysics/rock-rheology-elastic-plastic-deformation.md	mis	6	0	ok
+domains/earth-and-space-sciences/geophysics/rock-rheology-elastic-plastic-deformation.md	old:core	2	2	fixed	BDT is the "upper boundary" of seismogenic zone -> lower boundary; strength "decreases with ... strain rate" -> decreases with falling strain rate
+domains/earth-and-space-sciences/geophysics/saturation-and-remanence-in-rocks.md	how	4	0	ok	0.8x50=40 uT; 1% of 480 kA/m = 4.8 kA/m; 1/4800 = 0.02% verified
+domains/earth-and-space-sciences/geophysics/saturation-and-remanence-in-rocks.md	mis	6	0	ok

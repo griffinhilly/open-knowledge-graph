@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 All materials exhibit some magnetic response to an applied field. Diamagnetism (χ < 0) is the universal tendency of orbital electron motion to oppose an applied field, present in all materials but typically weak (~10^{-5}). Paramagnetism (χ > 0) arises from alignment of permanent magnetic moments: in insulators with localized moments, the Curie law χ = C/T describes the competition between field alignment and thermal disorder. In metals, Pauli paramagnetism gives a temperature-independent χ = μ_B^2 g(E_F), reflecting that only Fermi-surface electrons contribute to the spin response. The net susceptibility of a material is the sum of all contributions.
 
+## How It's Best Learned
+For a spin-1/2 moment, M = Nμ_B tanh(μ_B B/k_BT). Expand it for small B to get the Curie law, then evaluate the argument: about 0.002 at 1 T and 300 K, but about 7 at 10 T and 1 K, deep in saturation. Next compare Pauli and Curie susceptibilities for the same electron density, using g(E_F) = 3n/(2E_F); their ratio is 3k_BT/(2E_F).
+
+## Common Misconceptions
+- A paramagnet stays magnetized after the field is removed. (Without a field its moments are randomly oriented and M returns to zero; remanent magnetization belongs to ferromagnets.)
+- Diamagnetism occurs only in special materials. (Every material has a diamagnetic contribution; it is the main response only when no paramagnetic contribution masks it.)
+- The Curie law χ = C/T holds down to the lowest temperatures. (It assumes a small μB/k_BT and independent moments; at low temperature the magnetization saturates, and interactions cause Curie-Weiss behavior or ordering.)
+- Every conduction electron in a metal contributes a Curie-like spin susceptibility. (Pauli exclusion lets only electrons near E_F respond, so the spin susceptibility is temperature-independent and much smaller.)
+
 ## Questions
 
 ```yaml

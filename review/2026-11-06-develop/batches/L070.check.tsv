@@ -1,0 +1,112 @@
+domains/mathematics/topology/baire-category-metric-spaces.md	how	3	0	ok
+domains/mathematics/topology/baire-category-metric-spaces.md	mis	8	0	ok
+domains/mathematics/topology/baire-category-metric-spaces.md	old:q:4:explanation	1	1	fixed	claimed the theorem is false for every incomplete space and completeness is necessary; (0,1) is incomplete yet Baire. Softened to "can fail, as ℚ shows"
+domains/mathematics/topology/baire-category-theorem.md	how	3	0	ok
+domains/mathematics/topology/baire-category-theorem.md	mis	6	0	ok
+domains/mathematics/topology/baire-category-theorem.md	old:q:2:question	1	1	fixed	true-false keyed true but said "some Aₙ must contain an open ball" (ℝ = ℚ ∪ irrationals refutes it; new mis says so). Changed to "the closure of some Aₙ"
+domains/mathematics/topology/baire-category-theorem.md	old:q:3:question	1	0	fixed	garbled "should be empty" -> "must be empty"
+domains/mathematics/topology/basis-for-a-topology.md	how	3	0	ok
+domains/mathematics/topology/basis-for-a-topology.md	mis	8	0	ok
+domains/mathematics/topology/basis-for-a-topology.md	old:q:3:question	1	1	fixed	garbled "nearly every open set" -> "every open set" (false key only fits "every")
+domains/mathematics/topology/basis-for-a-topology.md	old:ex	1	1	fixed	"a basis is a compact generating set" misuses "compact" in a topology page; dropped the word
+domains/mathematics/topology/basis-for-topology.md	how	3	0	ok
+domains/mathematics/topology/basis-for-topology.md	mis	8	0	ok
+domains/mathematics/topology/basis-for-topology.md	old:q:2:explanation	1	1	fixed	"countable product of countable sets" is false reasoning (countable products of countable sets are uncountable); now "indexed by ℚ × ℚ"
+domains/mathematics/topology/basis-for-topology.md	old:q:3:question	1	0	fixed	garbled "is expected to ... should" -> "must"
+domains/mathematics/topology/boundary-set-topology.md	how	3	0	ok
+domains/mathematics/topology/boundary-set-topology.md	mis	8	0	ok
+domains/mathematics/topology/boundary-set-topology.md	old:ex	1	1	fixed	Explainer said boundary points are limit points of A; false ({0} in ℝ) and contradicts new mis bullet 3. Now "lies in the closure of A"
+domains/mathematics/topology/classification-compact-surfaces.md	how	3	0	ok
+domains/mathematics/topology/classification-compact-surfaces.md	mis	8	0	ok
+domains/mathematics/topology/classification-compact-surfaces.md	old:q:3:question	1	0	fixed	garbled "is expected to be" -> "A compact surface ... must be"
+domains/mathematics/topology/closed-sets-definition-examples.md	how	4	0	ok	finite-space closed sets and the open/closed/neither sorting checked
+domains/mathematics/topology/closed-sets-definition-examples.md	mis	8	0	ok
+domains/mathematics/topology/closed-sets-definition-examples.md	old:q:3:question	1	1	fixed	garbled "Nearly every subset" -> "Every subset"
+domains/mathematics/topology/closed-sets-definition-examples.md	old:ex	1	1	fixed	said closed = contains boundary fails outside metric spaces and limit-point characterization needs nice spaces; both hold in every space. Reworded to the sequence characterization (first-countable). Note: file has Explainer before Questions (pre-existing order, not touched)
+domains/mathematics/topology/closed-sets-in-topological-spaces.md	how	4	0	ok	cofinite-on-ℤ exercise checked
+domains/mathematics/topology/closed-sets-in-topological-spaces.md	mis	6	0	ok
+domains/mathematics/topology/closed-sets-in-topological-spaces.md	old:q:2:question	1	1	fixed	garbled "typically closed" -> "always closed". Note: Explainer before Questions (pre-existing order)
+domains/mathematics/topology/closed-sets-topology.md	how	4	0	ok
+domains/mathematics/topology/closed-sets-topology.md	mis	6	0	ok
+domains/mathematics/topology/closure-interior-and-boundary.md	how	4	0	ok	punctured disk and ℚ×ℚ checked
+domains/mathematics/topology/closure-interior-and-boundary.md	mis	8	0	ok
+domains/mathematics/topology/closure-interior-and-boundary.md	old:q:4:explanation	1	1	fixed	"most topology texts define closure axiomatically" is false; now "a text can define either operation first"
+domains/mathematics/topology/closure-interior-and-boundary.md	old:q:3:question	1	0	fixed	garbled "should be" -> "must be"
+domains/mathematics/topology/closure-interior-boundary.md	how	4	0	ok	{0} ∪ (1, 2) table row checked
+domains/mathematics/topology/closure-interior-boundary.md	mis	8	0	ok
+domains/mathematics/topology/closure-interior-boundary.md	old:q:2:question	1	1	fixed	"if and mainly if" -> "if and only if"
+domains/mathematics/topology/closure-interior-boundary.md	old:ex	1	1	fixed	"∂A is closed as the difference of two closed sets" (A° is open); now "intersection of the closed sets Ā and X \ A°"
+domains/mathematics/topology/closure-operator-topology.md	how	4	0	ok	finite-space closures checked
+domains/mathematics/topology/closure-operator-topology.md	mis	8	0	ok
+domains/mathematics/topology/closure-operator-topology.md	old:ex	1	1	fixed	limit point defined as "every open set containing x intersects A" (that is an adherent point); added "in a point other than x"
+domains/mathematics/topology/compact-metric-spaces.md	how	4	0	ok
+domains/mathematics/topology/compact-metric-spaces.md	mis	8	0	ok
+domains/mathematics/topology/compact-metric-spaces.md	old:q:3:explanation	1	1	fixed	justified total boundedness of (0,1) by "fits in a ball of radius 1" (that is boundedness; contradicts new mis bullet 2)
+domains/mathematics/topology/compact-metric-spaces.md	old:ex	2	2	fixed	Explainer equated totally bounded with "fits inside a large enough ball" (same conflation); "second-countability means every cover has a countable subcover" -> "implies"
+domains/mathematics/topology/compact-sets-definition.md	how	5	2	fixed	worked exercise fails: U ⊇ [0,1/n) and (1/n,2) miss the point 1/n; changed to (1/(2n),2). "Any one set in a cover misses finitely many points" false for ∅; now "any nonempty set"
+domains/mathematics/topology/compact-sets-definition.md	mis	8	0	ok
+domains/mathematics/topology/compact-sets-definition.md	old:q:2:question	1	1	fixed	"if and mainly if" -> "if and only if"
+domains/mathematics/topology/compact-spaces-open-covers.md	how	3	0	ok	sup argument and ℚ ∩ [0,1] failure step checked
+domains/mathematics/topology/compact-spaces-open-covers.md	mis	6	0	ok
+domains/mathematics/topology/compact-spaces-open-covers.md	old:ex	1	1	fixed	"in a compact space every sequence has a convergent subsequence" false in general; now "compact metric space"
+domains/mathematics/topology/compactness-hausdorff-spaces.md	how	4	0	ok	radius |2−k|/2 intervals are disjoint; checked
+domains/mathematics/topology/compactness-hausdorff-spaces.md	mis	8	0	ok
+domains/mathematics/topology/compactness-hausdorff-spaces.md	old:q:3:explanation	1	1	fixed	counterexample {0} in topology {∅,{1},{0,1},{1,2},X} is closed (complement {1,2} open); switched to {1}
+domains/mathematics/topology/completeness-metric-spaces.md	how	4	0	ok	arctan-metric Cauchy sequence checked
+domains/mathematics/topology/completeness-metric-spaces.md	mis	6	0	ok
+domains/mathematics/topology/completeness-metric-spaces.md	old:q:3:question	1	0	fixed	garbled "should have" -> "must have"
+domains/mathematics/topology/connected-components-decomposition.md	how	3	0	ok
+domains/mathematics/topology/connected-components-decomposition.md	mis	8	0	ok
+domains/mathematics/topology/connected-spaces.md	how	4	0	ok
+domains/mathematics/topology/connected-spaces.md	mis	8	0	ok
+domains/mathematics/topology/connected-spaces.md	old:q:3:question	1	1	fixed	"if and mainly if nearly every two points" -> "if and only if every two points"
+domains/mathematics/topology/connected-spaces.md	old:q:4:answer	2	2	fixed	proof used "disjoint open sets have disjoint closures" (false: (0,1),(1,2)) and "between two open intervals there is a point in neither"; replaced with correct sup argument
+domains/mathematics/topology/continuity-topological-definition.md	how	4	0	ok	all four self-maps of the two-point space checked
+domains/mathematics/topology/continuity-topological-definition.md	mis	6	0	ok
+domains/mathematics/topology/continuity-topological-definition.md	old:q:0:explanation	1	1	fixed	"open map ... strictly stronger property" false (open maps need not be continuous)
+domains/mathematics/topology/continuity-topological-definition.md	old:q:1:explanation	1	1	fixed	sequential continuity equivalent "only in metric spaces" -> also first-countable spaces
+domains/mathematics/topology/continuity-topological-definition.md	old:q:2:question	1	1	fixed	garbled "most open set" -> "every open set"
+domains/mathematics/topology/continuity-topological-definition.md	old:q:2:explanation	1	1	fixed	"strictly stronger" open map -> "separate"
+domains/mathematics/topology/continuity-topological-definition.md	old:q:4:answer	1	1	fixed	"different and stronger condition" -> "different condition"
+domains/mathematics/topology/continuity-topological-spaces.md	how	4	0	ok	step-function checks in all three forms verified
+domains/mathematics/topology/continuity-topological-spaces.md	mis	6	0	ok	co-countable sequence example verified
+domains/mathematics/topology/continuity-topological-spaces.md	old:q:0:explanation	1	1	fixed	open map "separate and stronger" -> "separate"
+domains/mathematics/topology/continuity-topological-spaces.md	old:q:3:question	1	1	fixed	garbled "most open set" -> "every open set"
+domains/mathematics/topology/continuity-topological-spaces.md	old:ex	1	1	fixed	said continuity at x₀ means f⁻¹(V) is open; false pointwise and contradicts new mis bullet 2. Now "contains an open set around x₀"
+domains/mathematics/topology/continuous-functions-topology.md	how	4	0	ok
+domains/mathematics/topology/continuous-functions-topology.md	mis	6	0	ok
+domains/mathematics/topology/continuous-functions-topology.md	old:q:0:explanation	1	1	fixed	open maps "strictly stronger than continuity" false
+domains/mathematics/topology/continuous-functions-topology.md	old:q:2:question	1	1	fixed	garbled "usually maps" -> "always maps"
+domains/mathematics/topology/continuous-functions-topology.md	old:q:2:explanation	1	1	fixed	"strictly stronger" removed
+domains/mathematics/topology/continuous-functions-topology.md	old:q:4:answer	1	1	fixed	"strictly stronger property" -> "separate property"
+domains/mathematics/topology/continuous-functions-topology.md	old:ex	1	1	fixed	"separate, strictly stronger condition" -> neither implies the other
+domains/mathematics/topology/contraction-mapping-theorem.md	how	5	0	ok	cos iterates 0.540, 0.858, 0.654, 0.793 -> 0.739 and k = sin 1 ≈ 0.84 verified
+domains/mathematics/topology/contraction-mapping-theorem.md	mis	6	0	ok
+domains/mathematics/topology/contraction-mapping-theorem.md	old:q:3:question	1	1	fixed	"closed bounded subset of ℝ ... very likely" keyed false, but such subsets are complete so the claim is true; restated for an arbitrary metric space with "guaranteed"
+domains/mathematics/topology/contraction-mapping-theorem.md	old:q:3:explanation	1	1	fixed	"a closed subset of an incomplete space inherits the incompleteness" false; replaced with ℚ ∩ [1,2], f(x)=x/2+1/x example
+domains/mathematics/topology/contraction-mapping-theorem.md	old:q:4:explanation	0	0	fixed	banned phrase "load-bearing" replaced (style only)
+domains/mathematics/topology/contraction-mapping-topology.md	how	5	0	ok	iterates 1.5, 1.41667, 1.41422 and |f′| ≤ 1/2 on [1,2] verified
+domains/mathematics/topology/contraction-mapping-topology.md	mis	6	0	ok
+domains/mathematics/topology/contraction-mapping-topology.md	old:q:0:explanation	1	1	fixed	"Option A may be true via Brouwer" wrong: Brouwer gives existence, not the uniqueness option A claims
+domains/mathematics/topology/contraction-mapping-topology.md	old:q:3:question	1	1	fixed	garbled "for most distinct x, y ... nearly every distance" -> "all ... every"
+domains/mathematics/topology/convergence-in-topology.md	how	3	1	fixed	"every open set misses only finitely many points" false for ∅; now "every nonempty open set"
+domains/mathematics/topology/convergence-in-topology.md	mis	8	0	ok
+domains/mathematics/topology/countability-axioms-topology.md	how	4	0	ok
+domains/mathematics/topology/countability-axioms-topology.md	mis	6	0	ok
+domains/mathematics/topology/countability-axioms-topology.md	old:core	1	1	fixed	Core Idea said second-countable spaces are metrizable (false; Q1 explanation in same file says so). Now "second-countable regular Hausdorff spaces are metrizable"
+domains/mathematics/topology/countability-axioms-topology.md	old:q:3:explanation	1	1	fixed	cocountable example: "in the closure of every infinite set" false (countable sets are closed); now "every uncountable set" plus why sequences fail
+domains/mathematics/topology/covering-spaces.md	how	5	0	ok	z³ lift and index-3 image verified
+domains/mathematics/topology/covering-spaces.md	mis	6	0	ok	(0,2) -> S¹ non-covering example verified
+domains/mathematics/topology/covering-spaces.md	old:q:3:explanation	1	1	fixed	"injective only when X̃ = X and p is the identity" overstated; now one-sheeted, i.e. a homeomorphism
+domains/mathematics/topology/covering-spaces.md	old:ex	1	1	fixed	universal cover "is covered by all other covering spaces" reversed; it covers every other connected cover
+domains/mathematics/topology/dense-sets-and-nowhere-dense.md	how	4	0	ok
+domains/mathematics/topology/dense-sets-and-nowhere-dense.md	mis	8	0	ok
+domains/mathematics/topology/dense-sets-and-nowhere-dense.md	old:q:1:explanation	1	1	fixed	"positive measure ... though not in ℝ for standard examples" false (fat Cantor sets); conflicted with new mis bullet 3
+domains/mathematics/topology/dense-sets-and-nowhere-dense.md	old:q:4:explanation	1	1	fixed	gave ℚ as a non-meager measure-zero set; ℚ is meager. Dropped the example
+domains/mathematics/topology/dense-sets-and-nowhere-dense.md	old:q:2:question	1	0	fixed	garbled "should be" -> "must be"
+domains/mathematics/topology/dense-sets-topology-definition.md	how	5	0	ok	k/2ⁿ density argument checked
+domains/mathematics/topology/dense-sets-topology-definition.md	mis	8	0	ok
+domains/mathematics/topology/dense-sets-topology-definition.md	old:q:2:question	1	0	fixed	garbled "is expected to be" -> "must be"
+domains/mathematics/topology/dense-sets-topology-definition.md	old:ex	1	1	fixed	"integers-to-reals analogy" -> "rationals-to-reals example" (ℤ is not dense)
+domains/mathematics/topology/first-countability-definition.md	how	4	0	ok	cofinite failure proof checked
+domains/mathematics/topology/first-countability-definition.md	mis	6	0	ok

@@ -19,6 +19,15 @@ status: validated
 ## Core Idea
 For an implicit equation F(x, y) = 0, we can find dy/dx by differentiating with respect to x: (∂F/∂x) + (∂F/∂y)(dy/dx) = 0, so dy/dx = −(∂F/∂x)/(∂F/∂y). This extends to multiple variables and constraints.
 
+## How It's Best Learned
+Check the formula on a surface you can also solve explicitly. On the sphere x² + y² + z² = 9 at (1, 2, 2), the formula gives ∂z/∂x = −F_x/F_z = −2x/(2z) = −1/2. Solving for the upper half, z = √(9 − x² − y²), and differentiating directly also gives −1/2. Then move to a surface such as x³ + y³ + z³ − xyz = 0, where solving for z is impractical.
+
+## Common Misconceptions
+- Partials cancel like fractions, so (∂F/∂x)/(∂F/∂y) equals dy/dx. (Treating them as fractions loses the sign; the chain rule gives dy/dx = −F_x/F_y.)
+- For ∂z/∂x on F(x, y, z) = 0, y is allowed to change along with z. (y is held fixed; only z responds to the change in x.)
+- The formula can be used at any point on the curve. (It needs ∂F/∂y ≠ 0 at the point, or ∂F/∂z ≠ 0 in the three-variable case.)
+- Implicit differentiation is a separate rule from the chain rule. (It is the chain rule applied to F(x, y(x)) = 0.)
+
 ## Questions
 
 ```yaml

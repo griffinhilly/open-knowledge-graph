@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 In many developing economies, customary or insecure land tenure discourages long-term soil improvement and capital investment. Tenure titling programs increase investment in irrigation, tree crops, and soil conservation. But titling also increases transaction costs and can erode communal insurance institutions.
 
+## How It's Best Learned
+Compute an expected return under tenure risk. Planting trees costs 100 now and pays 300 in year seven, ignoring discounting. If the farmer has a 90% chance of still holding the plot then, the expected payoff is 270, so she plants. At 30%, it is 90, below the cost, so she grows annual crops instead. Then ask what a title changes and who might lose from it.
+
+## Common Misconceptions
+- Customary tenure is the same as insecure tenure. (Many customary systems give families long-lasting use rights. Insecurity is about the risk of losing the returns, which can exist under weakly enforced formal titles too.)
+- A title by itself makes tenure secure. (A title protects a farmer only if registries and courts enforce it.)
+- A title guarantees access to credit. (Banks may still refuse when loans are small or when seizing land from a defaulter is costly or politically hard.)
+- Titling benefits everyone in the community. (It can weaken communal insurance, and women whose access ran through male relatives can lose rights if titles go to individual men.)
+
 ## Questions
 
 ```yaml

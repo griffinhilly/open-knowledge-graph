@@ -28,6 +28,15 @@ status: validated
 ## Core Idea
 Randomized Controlled Trials randomly assign treatment (a development program) to some communities and not others, generating credible causal impact estimates. Banerjee and Duflo pioneered this approach in development economics, studying microfinance, education, and health programs. RCTs address selection bias and reverse causality but raise questions about generalizability and policy scalability.
 
+## How It's Best Learned
+Simulate selection bias by hand. List 20 villages, give each a hidden "motivation" score that raises outcomes, and let the motivated half opt into a program with no true effect. The naive comparison shows a large gain. Then assign the program by coin flip and compare again. The gap shrinks toward zero, apart from chance imbalance.
+
+## Common Misconceptions
+- Randomization makes treatment and control groups identical. (It makes them equal in expectation. Any one sample can be unbalanced by chance, which is why sample size matters.)
+- An effect found in one RCT will hold in other places. (Results depend on context, such as disease burden or school quality, so they may not carry over.)
+- A program that worked in a pilot will work as well at national scale. (Pilots often have closer oversight and more motivated staff than a government rollout can match.)
+- An RCT shows why a program works. (It estimates an average effect. Learning the mechanism needs extra design, such as several treatment arms.)
+
 ## Questions
 
 ```yaml

@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 For F = ⟨P, Q, R⟩, the curl is ∇ × F = ⟨∂R/∂y − ∂Q/∂z, ∂P/∂z − ∂R/∂x, ∂Q/∂x − ∂P/∂y⟩, measuring rotation. The divergence ∇ · F = ∂P/∂x + ∂Q/∂y + ∂R/∂z measures net outflow. For conservative F, curl(F) = 0.
 
+## How It's Best Learned
+Sketch three model fields and predict the curl and divergence before computing them. ⟨x, y, z⟩ is a pure source: divergence 3, curl 0. ⟨−y, x, 0⟩ is a pure rotation: divergence 0, curl ⟨0, 0, 2⟩. The shear flow ⟨y, 0, 0⟩ has straight flow lines, yet its curl is ⟨0, 0, −1⟩. The shear case breaks the idea that curl means curved arrows.
+
+## Common Misconceptions
+- If the flow lines are straight, the curl is zero. (Shear produces curl. In ⟨y, 0, 0⟩ the flow is faster higher up, so a paddle wheel spins, and the curl is ⟨0, 0, −1⟩.)
+- If the arrows circle around an axis, the curl is nonzero. (⟨−y, x, 0⟩/(x² + y²) circles the z-axis, but its curl is zero everywhere off that axis.)
+- Divergence measures how fast the fluid moves. (It measures net outflow. The constant field ⟨5, 0, 0⟩ moves fast but has divergence 0.)
+- Divergence and curl are both vectors. (Divergence is a scalar. Curl is a vector whose direction gives the axis of local rotation.)
+
 ## Questions
 
 ```yaml

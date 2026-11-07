@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 A diffusion process is a continuous-path strong Markov process, typically the solution of an SDE dX = μ(x)dt + σ(x)dW. Its behavior is characterized by the infinitesimal generator Lf = μf' + (1/2)σ²f'', the scale function s(x) = ∫exp(-2∫μ/σ² dy)dx (which determines the direction of drift), and the speed measure m(dx) = 2dx/(σ²(x)s'(x)) (which determines how long the process spends near each point). Together, scale and speed classify every one-dimensional diffusion's boundary behavior and long-run properties.
 
+## How It's Best Learned
+Compute s and m by hand for two examples before meeting the general theory. For Brownian motion with drift μ and σ = 1, s(x) = (1 - e^{-2μx})/(2μ), which gives exit probabilities from an interval. For the OU process dX = -θX dt + σ dW, s'(x) = exp(θx²/σ²), so the speed density is proportional to exp(-θx²/σ²): the Gaussian stationary law with variance σ²/(2θ).
+
+## Common Misconceptions
+- A diffusion with zero drift is Brownian motion. (With μ = 0 and nonconstant σ, X is a local martingale and a time-changed Brownian motion; it lingers where σ is small, as the speed density 2/σ² shows.)
+- Hitting probabilities depend on both the scale function and the speed measure. (The chance of reaching a before b depends on s alone; the speed measure governs how long the trip takes.)
+- An inaccessible boundary is one the process stays away from. (Brownian motion with positive drift tends to +∞ as t → ∞, yet +∞ is inaccessible because it is not reached in finite time; it is in fact a natural boundary.)
+
 ## Questions
 
 ```yaml

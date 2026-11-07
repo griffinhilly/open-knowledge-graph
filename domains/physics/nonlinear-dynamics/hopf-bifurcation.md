@@ -28,6 +28,14 @@ status: validated
 ## Core Idea
 A Hopf bifurcation occurs when a fixed point's stability changes as a pair of complex conjugate eigenvalues crosses the imaginary axis. Unlike saddle-node or pitchfork bifurcations that involve fixed points only, the Hopf bifurcation creates or destroys a limit cycle — a periodic orbit. In the supercritical case, a stable fixed point loses stability and gives birth to a small stable limit cycle. In the subcritical case, an unstable limit cycle shrinks onto a stable fixed point, destroying its stability with a potentially catastrophic jump to large-amplitude oscillation.
 
+## How It's Best Learned
+Work in polar coordinates with the normal form ρ̇ = μρ − ρ³, θ̇ = ω. The radial equation is a one-dimensional pitchfork with a stable branch at ρ = √μ, so the limit cycle and its √μ amplitude follow directly from the earlier bifurcations. Then convert to x, y, simulate for μ = −0.1 and μ = 0.1, and repeat with +ρ³ to see the subcritical case.
+
+## Common Misconceptions
+- When a complex pair of eigenvalues crosses the imaginary axis, a stable limit cycle is sure to appear. (The linearization cannot tell supercritical from subcritical; the sign of a nonlinear coefficient decides whether the new cycle is stable or unstable.)
+- A Hopf bifurcation can happen in a one-dimensional system. (It needs a complex conjugate pair of eigenvalues, so the phase space must have at least two dimensions.)
+- A newly born oscillation starts with a very long period. (Near a Hopf bifurcation the frequency is close to ω(0), the imaginary part of the eigenvalues at onset; a diverging period marks other bifurcations, such as a homoclinic one.)
+
 ## Questions
 
 ```yaml
@@ -51,7 +59,7 @@ A Hopf bifurcation occurs when a fixed point's stability changes as a pair of co
   answer: 1
   explanation: "The hallmarks of a subcritical Hopf bifurcation are: (1) sudden onset of large-amplitude oscillations (not growing continuously from zero), (2) hysteresis — reducing the parameter below the bifurcation value doesn't eliminate the oscillations because the system is now on a different branch. In the subcritical case, an unstable limit cycle coexists with the stable fixed point before the bifurcation. When the fixed point loses stability, the system jumps past the unstable cycle to a distant stable attractor (possibly a large limit cycle)."
 
-- question: "The Hopf bifurcation theorem requires the eigenvalues to cross the imaginary axis with nonzero speed (dα/dr ≠ 0 at the bifurcation). Why is this transversality condition necessary?"
+- question: "The Hopf bifurcation theorem requires the eigenvalues to cross the imaginary axis with nonzero speed (dα/dr ≠ 0 at the bifurcation), so that they genuinely cross the axis rather than touch it and turn back."
   type: true-false
   answer: true
   explanation: "The transversality condition dα/dr ≠ 0 ensures that the eigenvalues genuinely cross the imaginary axis rather than merely touching it and bouncing back. Without this condition, the eigenvalues might reach the imaginary axis and then return to the stable half-plane, producing no qualitative change. The condition guarantees a genuine exchange of stability. This is analogous to requiring ∂f/∂r ≠ 0 in the saddle-node bifurcation — it ensures the bifurcation is 'real' and not degenerate."

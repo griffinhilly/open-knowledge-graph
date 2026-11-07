@@ -30,6 +30,15 @@ status: validated
 ## Core Idea
 The going up and going down theorems describe how prime ideal chains in a ring R extend to prime ideal chains in an extension ring S. The lying-over theorem says that for an integral extension R ⊆ S, every prime of R is the contraction of some prime of S. Going up (Cohen-Seidenberg) says chains of primes in R can be lifted to chains in S preserving containment. Going down requires additional hypotheses (R integrally closed, or the extension being flat) and guarantees chains can be extended downward. These theorems are the algebraic engine behind dimension-theoretic arguments in algebraic geometry.
 
+## How It's Best Learned
+Draw Spec ℤ[i] above Spec ℤ and mark the fibers. Over (5) sit the two primes (2+i) and (2-i), over (2) sits (1+i), and (3) stays prime. Then lift the chain (0) ⊂ (5) to (0) ⊂ (2+i). Compare with ℤ ⊆ ℚ, which is not integral and where (2) has nothing above it. Study going down only after lying over, incomparability and going up are secure.
+
+## Common Misconceptions
+- Lying over holds for any ring extension. (It can fail without integrality. In ℤ ⊆ ℚ, the only prime of ℚ is (0), so no prime of ℚ lies over (2).)
+- Each prime of R has exactly one prime of S lying over it. (In ℤ ⊆ ℤ[i], both (2+i) and (2-i) lie over (5).)
+- Incomparability says that primes of S over different primes of R cannot be nested. (It concerns primes over the same prime of R. The primes (0) ⊂ (2+i) of ℤ[i] lie over (0) and (5) and are nested.)
+- Going down holds for every integral extension, just like going up. (Going down needs extra hypotheses, such as R an integrally closed domain with S a domain, or R → S flat.)
+
 ## Questions
 
 ```yaml

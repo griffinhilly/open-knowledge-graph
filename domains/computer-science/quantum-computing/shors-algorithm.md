@@ -28,6 +28,15 @@ status: validated
 ## Core Idea
 Shor's algorithm factors an n-bit integer in polynomial time O(n^3) on a quantum computer, compared to the best known classical algorithms which are sub-exponential. It works by reducing factoring to period finding: given N to factor, choose a random a coprime to N and find the period r of the function f(x) = a^x mod N using the quantum Fourier transform. From the period, factors of N can be extracted with high probability using classical number theory. Shor's algorithm threatens RSA and other cryptosystems whose security relies on the assumed classical hardness of factoring.
 
+## How It's Best Learned
+Factor N = 15 with a = 7 by hand. The powers of 7 mod 15 are 7, 4, 13, 1, so r = 4 and 7^2 = 4 (mod 15). Then gcd(3, 15) = 3 and gcd(5, 15) = 5. Next, picture a toy 16-value register (real runs use a larger one): the QFT peaks fall at 0, 4, 8 and 12. Reading 12 gives 12/16 = 3/4 and recovers r = 4. Reading 8 gives 1/2, which yields only 2, a divisor of r.
+
+## Common Misconceptions
+- Shor's algorithm tests all possible factors at once. (The quantum part finds the period of a^x mod N through interference. The factors then come from a classical gcd calculation.)
+- The quantum computer does the whole job. (Choosing a, computing gcds and running continued fractions are classical. Only order finding needs the quantum computer.)
+- Every run of the quantum part hands back the period. (If the measured fraction reduces, as 8/16 reduces to 1/2, you get a divisor of r instead. Repeating the run and combining results fixes this.)
+- Shor's algorithm breaks all encryption. (It breaks public-key schemes based on factoring and discrete logarithms, such as RSA and elliptic-curve cryptography. Symmetric ciphers face only Grover-type quadratic speedups.)
+
 ## Questions
 
 ```yaml

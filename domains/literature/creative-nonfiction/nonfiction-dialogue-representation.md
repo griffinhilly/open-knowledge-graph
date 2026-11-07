@@ -21,6 +21,14 @@ status: draft
 ## Core Idea
 Representing dialogue in nonfiction requires fidelity to what was actually said or written, distinguishing between direct quotation, paraphrase, and reconstruction from memory. Writers must preserve authenticity and distinctive voice while managing the challenges of imperfect recollection, the need for readability, and the ethical question of how to represent others' words fairly.
 
+## How It's Best Learned
+Record a short conversation with the other person's consent, and a day later write the dialogue from memory before listening back. Compare the two line by line. Sort your remembered lines into exact words you got right, substance you got right in other words, and lines you got wrong, then rewrite the scene using quotation, partial quotation and paraphrase to match what you can stand behind.
+
+## Common Misconceptions
+- If I remember the gist, I can put it in quotation marks. (Readers take quotation marks to mean the speaker's words. When only the substance is remembered, paraphrase it or signal that the dialogue is reconstructed.)
+- Cleaning up someone's grammar is harmless editing. (Changing how someone speaks can misrepresent them. Light edits for filler are common, but the speaker's rhythm and word choice should stay.)
+- Without a recording, a nonfiction writer should avoid dialogue entirely. (Writers can use paraphrase, partial quotation and openly reconstructed dialogue.)
+
 ## Questions
 
 ```yaml
@@ -56,6 +64,7 @@ Representing dialogue in nonfiction requires fidelity to what was actually said 
 
 - question: How should a nonfiction writer handle dialogue when they don't remember exact words or don't have a recording?
   type: short-answer
+  answer: "The writer can paraphrase in place of quoting, quote only the key phrases they are sure of, or reconstruct the dialogue while signaling it, as in 'as I remember it.' What matters is honesty about how the words were obtained and how certain they are."
   explanation: 'Options include: not using dialogue if uncertain. Using paraphrase instead of quotation. Reconstructing dialogue in quotation marks while being transparent about limitation (''As I remember it, she said something like...''). Using partial quotes—quoting key phrases while paraphrasing the rest. The key is honesty about how the dialogue was obtained and any uncertainty. Readers respect transparency about memory limitations more than false certainty about words you don''t actually remember.'
 ```
 

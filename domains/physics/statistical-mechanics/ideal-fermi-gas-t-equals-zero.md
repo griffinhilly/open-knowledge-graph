@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 At T=0, all states with energy E < E_F (Fermi energy) are filled, all above are empty. The Fermi energy for a 3D gas is E_F = (ℏ^2/2m)(3π^2 n)^{2/3}, where n = N/V is the number density. The ground-state energy U_0 = (3/5)NE_F and pressure P = (2/5)n E_F arise from quantum degeneracy, not thermal motion.
 
+## How It's Best Learned
+Count states in k-space. Allowed wavevectors form a grid with spacing 2π/L, so filling a sphere of radius k_F with two electrons per grid point gives k_F = (3π²n)^(1/3). Average k² over the filled ball to get ⟨ε⟩ = (3/5)E_F, then use U₀ ∝ V^(−2/3) to get P = (2/3)U₀/V. Finally put in copper's electron density, about 8.5 × 10²⁸ m⁻³, and check that E_F comes out near 7 eV.
+
+## Common Misconceptions
+- At T = 0 the fermions all crowd into the lowest state. (Pauli exclusion allows one fermion per state, so they fill every state up to E_F.)
+- At absolute zero the electrons are at rest. (Electrons at the Fermi surface move at v_F = ħk_F/m, roughly 1.6 × 10⁶ m/s in copper, even at T = 0.)
+- Degeneracy pressure comes from the electrons repelling each other electrically. (The ideal Fermi gas has no interactions. The pressure arises because squeezing the gas raises the kinetic energy of the filled states, U₀ ∝ V^(−2/3).)
+- Doubling the density doubles the Fermi energy. (E_F ∝ n^(2/3), so doubling n raises E_F by a factor of about 1.59.)
+
 ## Questions
 
 ```yaml
@@ -67,6 +76,6 @@ From Fermi-Dirac statistics, you know that the average occupancy of a single-par
 
 To find E_F, count how many states fit below it. For a 3D ideal gas in a box of volume V, the density of states is g(ε) = (V/2π²)(2m/ℏ²)^{3/2} √ε. Setting the integral ∫₀^{E_F} g(ε)dε = N (with a factor of 2 for spin) and solving gives E_F = (ℏ²/2m)(3π²n)^{2/3}. This is a purely quantum result — it depends only on the number density n = N/V and the particle mass, with no temperature anywhere. For electrons in copper, E_F ≈ 7 eV, corresponding to an equivalent temperature T_F = E_F/k_B ≈ 80,000 K. The electrons are deeply quantum degenerate at any laboratory temperature.
 
-The ground-state energy is not zero. Even at T = 0, fermions cannot all sit in the lowest state — the Pauli principle distributes them across levels from 0 up to E_F. Integrating ε × g(ε) from 0 to E_F gives U₀ = (3/5)NE_F. This is roughly 60% of the classical equipartition expectation (3/2)Nk_BT_F, reflecting the filled distribution below E_F. The resulting **degeneracy pressure** P = (2/3)(U₀/V) = (2/5)nE_F is what holds up a white dwarf star against gravity — the electrons are so densely packed that quantum pressure alone resists gravitational collapse, with no thermal contribution needed.
+The ground-state energy is not zero. Even at T = 0, fermions cannot all sit in the lowest state — the Pauli principle distributes them across levels from 0 up to E_F. Integrating ε × g(ε) from 0 to E_F gives U₀ = (3/5)NE_F. This is 40% of the classical equipartition expectation (3/2)Nk_BT_F, reflecting the filled distribution below E_F. The resulting **degeneracy pressure** P = (2/3)(U₀/V) = (2/5)nE_F is what holds up a white dwarf star against gravity — the electrons are so densely packed that quantum pressure alone resists gravitational collapse, with no thermal contribution needed.
 
 This T = 0 picture is the starting point for understanding real metals. At room temperature k_BT ≈ 0.025 eV ≪ E_F ≈ 7 eV, so only electrons within roughly k_BT of the Fermi surface can be thermally excited — the vast interior of the Fermi sea is frozen by the Pauli principle. This explains why metals have far smaller electronic heat capacities than classical theory predicts (the Drude model's failure), and why the heat capacity is linear in T at low temperatures rather than constant.

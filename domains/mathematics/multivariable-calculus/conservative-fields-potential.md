@@ -22,7 +22,15 @@ status: validated
 # Conservative Vector Fields and Potential Functions
 
 ## Core Idea
-A vector field F is conservative if F = ∇f for some potential function f. Conservative fields have zero curl (∇ × F = 0 for continuous partials) and satisfy the property that ∮_C F · dr = 0 for any closed curve C. Magnetic fields are irrotational models of conservation.
+A vector field F is conservative if F = ∇f for some potential function f. Conservative fields have zero curl (∇ × F = 0 for continuous partials) and satisfy the property that ∮_C F · dr = 0 for any closed curve C. Gravitational and electrostatic fields are physical examples.
+
+## How It's Best Learned
+Run the full routine on F = ⟨2xy + z, x², x⟩. First check all three curl components: 2x = 2x, 1 = 1, 0 = 0. Integrate P in x to get x²y + xz + g(y, z), then match Q and R to find g is constant, so f = x²y + xz. Then contrast with ⟨−y, x⟩/(x² + y²), whose circulation around the unit circle is 2π despite zero curl.
+
+## Common Misconceptions
+- In 3D, checking ∂P/∂y = ∂Q/∂x is enough. (All three curl components must vanish. F = ⟨y, x, x⟩ passes that one check, but ∂P/∂z = 0 while ∂R/∂x = 1, so it is not conservative.)
+- Zero curl means conservative, whatever the domain. (Zero curl gives a potential on a simply connected domain. On a domain with a hole, such as the plane minus the origin, a curl-free field can have nonzero circulation.)
+- A region that avoids the origin has no holes. (An annulus around the origin avoids it but still has a hole. For a curl-free field that is undefined only at the origin, what matters is whether the region encircles that point.)
 
 ## Questions
 

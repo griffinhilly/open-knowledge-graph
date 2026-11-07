@@ -20,6 +20,14 @@ status: validated
 ## Core Idea
 Luminosity is the proportionality constant between a process's cross section and its event rate: dN/dt = L * sigma. The instantaneous luminosity depends on the beam parameters (number of particles per bunch, bunch frequency, beam size), while the integrated luminosity (integral of L over time) determines the total number of events collected. Precise luminosity measurement (currently ~1-2% at the LHC) is essential because it directly scales every cross section measurement.
 
+## How It's Best Learned
+Work the pileup number from machine parameters. L·σ = 10³⁴ cm⁻²s⁻¹ × 8 × 10⁻²⁶ cm² = 8 × 10⁸ collisions per second. The bunch-crossing rate is 2,808 bunches × 11,245 Hz ≈ 3.2 × 10⁷ per second, so each crossing holds about 25 collisions. Then practice units: 140 fb⁻¹ times a 50 pb cross section (50,000 fb) gives about 7 million events.
+
+## Common Misconceptions
+- One inverse femtobarn is less data than one inverse picobarn, because a femtobarn is smaller. (The units are inverse, so 1 fb⁻¹ equals 1,000 pb⁻¹ and is the larger dataset.)
+- Luminosity is the number of collisions per second. (Luminosity is a machine property in cm⁻²s⁻¹. The collision rate for a process is luminosity times that process's cross section.)
+- Ten times more data makes a search ten times more significant. (For a background-dominated search, significance grows roughly as the square root of integrated luminosity, so ten times the data gives about three times the significance.)
+
 ## Questions
 
 ```yaml
@@ -46,7 +54,7 @@ Luminosity is the proportionality constant between a process's cross section and
     - "Because the beam energy also increases by a factor of 10"
     - "Because systematic uncertainties decrease proportionally to the luminosity"
   answer: 1
-  explanation: "For a signal of S events on a background of B events, the significance goes as S/sqrt(B) proportional to sqrt(L). So 10x more luminosity gives ~3x better significance. This is crucial for rare processes: di-Higgs production (sigma ~ 31 fb at 14 TeV) yields ~100 events in 3000 fb^{-1}, barely enough for observation. Precision measurements of Higgs couplings improve as 1/sqrt(L) (for statistically limited channels) or plateau (for systematically limited ones). The HL-LHC is designed to exploit the full statistical potential of the LHC energy frontier."
+  explanation: "For a signal of S events on a background of B events, the significance goes as S/sqrt(B) proportional to sqrt(L). So 10x more luminosity gives ~3x better significance. This is crucial for rare processes: di-Higgs production (sigma ~ 31 fb at 14 TeV) yields ~10^5 events in 3000 fb^{-1}, but after branching ratios, selection and backgrounds this is barely enough for evidence. Precision measurements of Higgs couplings improve as 1/sqrt(L) (for statistically limited channels) or plateau (for systematically limited ones). The HL-LHC is designed to exploit the full statistical potential of the LHC energy frontier."
 ```
 
 ## Explainer

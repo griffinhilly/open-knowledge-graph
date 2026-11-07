@@ -19,6 +19,14 @@ status: validated
 ## Core Idea
 Second-order linear PDEs in two variables are classified as elliptic, parabolic, or hyperbolic based on the discriminant of their principal part, analogous to how the discriminant classifies conic sections. The classification determines the qualitative behavior of solutions: elliptic equations (like Laplace's equation) describe steady-state phenomena, parabolic equations (like the heat equation) describe diffusion processes, and hyperbolic equations (like the wave equation) describe propagation phenomena. This trichotomy governs which boundary and initial conditions produce well-posed problems.
 
+## How It's Best Learned
+Classify three equations that differ only in the mixed term, and write out B each time. For u_xx + 4u_xy + u_yy, B = 2 and B² − AC = 3, so it is hyperbolic. For u_xx + 2u_xy + u_yy, B = 1 and it is parabolic. For u_xx + u_xy + u_yy, B = ½ and it is elliptic. Then change variables to ξ = x + y, η = x − y and check that u_xx − u_yy becomes 4u_ξη.
+
+## Common Misconceptions
+- B is the coefficient of u_xy. (The standard form writes the mixed term as 2Bu_xy. For u_xx + u_xy + u_yy, B is ½, and the equation is elliptic, not parabolic.)
+- Lower-order terms can change the type. (Type depends only on the second-order part. The equation u_t = u_xx + 100u_x is still parabolic.)
+- A clever change of variables can turn an elliptic equation into a hyperbolic one. (Under an invertible smooth change of variables, B² − AC is multiplied by the square of the Jacobian determinant, so its sign does not change.)
+
 ## Questions
 ```yaml
 - question: "For the PDE Au_xx + 2Bu_xy + Cu_yy + (lower order terms) = 0, how is the type determined?"

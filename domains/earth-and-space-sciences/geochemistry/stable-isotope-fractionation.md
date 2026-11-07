@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Stable isotope fractionation refers to the partitioning of isotopes between coexisting phases, molecules, or during physical/chemical processes. Heavier isotopes form slightly stronger bonds (higher vibrational frequency, lower zero-point energy), causing systematic mass-dependent differences in reaction rates and equilibrium distributions. This fractionation is expressed using delta notation: delta = [(R-sample/R-standard) - 1] x 1000, in per mil. Equilibrium fractionation is temperature-dependent (decreasing with increasing T), providing geothermometers. Kinetic fractionation accompanies incomplete or unidirectional processes (evaporation, diffusion, biological reactions) and is typically larger. These small but measurable isotopic variations are powerful tracers of processes, sources, and temperatures throughout Earth systems.
 
+## How It's Best Learned
+Convert between delta values and the fractionation factor by hand: alpha = (1000 + delta-A)/(1000 + delta-B). Calcite at +30.0 per mil and water at 0.0 give alpha = 1.0300 and 1000 ln alpha of about 29.6. Then compare that with the simple difference of 30.0. Repeat for a hydrogen pair with a difference of 100 per mil or more, where the shortcut breaks down.
+
+## Common Misconceptions
+- A positive delta value means the sample is mostly the heavy isotope. (It means the ratio is slightly higher than the standard. 18O is still only about 0.2% of the oxygen in the sample.)
+- Delta differences, alpha, and 1000 ln alpha can always be swapped for each other. (They are close only when fractionations are small. For large effects, as with hydrogen, the shortcut gives wrong numbers.)
+- Isotopes fractionate only in chemical reactions. (Physical processes such as evaporation, condensation, and diffusion also fractionate isotopes.)
+- Any two coexisting minerals give a valid isotope temperature. (The pair must have reached equilibrium and not exchanged since. In slowly cooled rocks, some minerals keep exchanging oxygen and often give temperatures that are too low.)
+
 ## Questions
 
 ```yaml

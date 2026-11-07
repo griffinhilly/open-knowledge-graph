@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 Type I superconductors (most elemental metals: Pb, Sn, Al) have kappa < 1/sqrt(2) and exhibit a single critical field H_c: below H_c, flux is completely expelled (Meissner state); above H_c, superconductivity is destroyed abruptly (first-order transition). Type II superconductors (most alloys and all high-T_c materials) have kappa > 1/sqrt(2) and exhibit two critical fields: below H_{c1}, full Meissner effect; between H_{c1} and H_{c2}, flux penetrates as quantized Abrikosov vortices in a mixed state; above H_{c2}, normal state. Type II behavior enables superconductivity to survive in much higher fields, making these materials essential for magnets, power cables, and other applications.
 
+## How It's Best Learned
+Sketch the order parameter and the field near a normal-superconducting boundary for ξ much longer than λ, then for λ much longer than ξ, and read off the sign of the surface energy. Next, draw −M against H for both types. Then put numbers into H_{c2} = Φ₀/(2πξ²): ξ = 2 nm gives about 80 T, while ξ = 100 nm gives about 0.03 T.
+
+## Common Misconceptions
+- Once flux enters a Type II superconductor, the material has resistance. (Pinned vortices let a steady current flow with almost no dissipation. Clear resistance appears when the current is large enough to make the vortices move.)
+- Type II superconductors are the ones with high critical temperatures. (The type is set by κ = λ/ξ, not by T_c. Niobium is an element and Type II, while lead and aluminum are both Type I although lead's T_c is much higher.)
+- Normal regions threading a superconductor below H_c prove that it is Type II. (A Type I sample with a large demagnetizing factor, such as a thin plate in a perpendicular field, forms an intermediate state of macroscopic normal and superconducting domains. These domains are not quantized vortices.)
+
 ## Questions
 
 ```yaml

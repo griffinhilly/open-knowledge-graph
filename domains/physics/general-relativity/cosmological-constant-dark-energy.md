@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 The cosmological constant Λ, introduced by Einstein in 1917 to allow a static universe and later "retracted" when expansion was discovered, is now understood as the simplest model of dark energy — the component driving the observed accelerating expansion of the universe. In the field equations G_μν + Λg_μν = (8πG/c⁴)T_μν, the Λg_μν term acts as a perfect fluid with equation of state p = -ρc² (w = -1) and constant energy density ρ_Λ = Λc²/(8πG). Its negative pressure produces gravitational repulsion, accelerating the expansion. Dark energy constitutes about 68% of the total energy density of the universe. The observed value Λ ~ 10⁻⁵² m⁻² is 120 orders of magnitude smaller than the naive quantum field theory prediction for vacuum energy — the "cosmological constant problem," widely considered the worst fine-tuning problem in physics.
 
+## How It's Best Learned
+From the fluid equation ρ̇ = −3H(ρ + p/c²), show that ρ ∝ a^(−3(1+w)), so matter falls as a⁻³, radiation as a⁻⁴, and Λ stays constant. Plot the three on log axes against a to see why Λ takes over late. Then put w = −1 into ρ + 3p/c² to get −2ρ, and check that Λ ≈ 10⁻⁵² m⁻² gives ρ_Λc² = Λc⁴/(8πG) of a few times 10⁻¹⁰ J/m³.
+
+## Common Misconceptions
+- Dark energy and dark matter are two names for related stuff. (Dark matter clumps and gravitates like ordinary matter with almost no pressure. Dark energy is smooth and has strongly negative pressure.)
+- Negative pressure pushes the universe apart the way gas pressure pushes on a piston. (A uniform pressure exerts no net force. The repulsion comes from pressure's own gravitational effect through the combination ρ + 3p/c².)
+- Λ makes atoms, planets and galaxies slowly expand. (Bound systems stay bound and do not grow with the cosmic expansion. Λ adds only a tiny extra term to their internal forces.)
+- Accelerating expansion means the Hubble parameter H is increasing. (Acceleration means ä > 0. In a Λ-dominated universe H = ȧ/a still decreases, approaching a constant value set by Λ.)
+
 ## Questions
 
 ```yaml

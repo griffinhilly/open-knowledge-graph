@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Separation of variables assumes u(x,t) = X(x)T(t) as a product. Substituting into a PDE yields an equation where one side depends only on x and the other only on t; both must equal a constant. This reduces the PDE into ODEs for X and T solvable separately. Superposing solutions for multiple separation constants yields the general solution.
 
+## How It's Best Learned
+Solve u_t = u_xx on [0, π] with u(0, t) = u(π, t) = 0 and u(x, 0) = 3 sin x + 5 sin 4x. The eigenfunctions are sin(nx) with λₙ = n², so the answer is u = 3e^(−t) sin x + 5e^(−16t) sin 4x with no integrals needed. Check that λ ≤ 0 gives only X = 0, then repeat with a general f(x) that requires a Fourier series.
+
+## Common Misconceptions
+- The method claims every solution of the PDE is a product X(x)T(t). (Product solutions are building blocks; the general solution is a sum of them, and that sum is usually not a single product.)
+- Choosing −λ instead of +λ for the separation constant changes the answer. (The sign is a convention; once every sign is checked, the boundary conditions decide which values give nonzero solutions.)
+- The initial condition picks out the eigenvalues. (The boundary conditions on X fix the eigenvalues; the initial condition fixes the coefficients bₙ.)
+- The method works the same way for any boundary conditions. (It needs homogeneous boundary conditions such as u = 0 at both ends; nonzero end values are usually handled first by subtracting a steady-state solution.)
+
 ## Questions
 
 ```yaml

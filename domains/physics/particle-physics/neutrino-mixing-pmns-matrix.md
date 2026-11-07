@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 The Pontecorvo-Maki-Nakagawa-Sakata (PMNS) matrix relates the neutrino flavor eigenstates (nu_e, nu_mu, nu_tau) to the mass eigenstates (nu_1, nu_2, nu_3). It is parameterized by three mixing angles (theta_12, theta_13, theta_23), one Dirac CP phase (delta_CP), and potentially two additional Majorana phases. Unlike the CKM matrix, which is nearly diagonal, the PMNS matrix has two large mixing angles -- a qualitative difference that may hint at different underlying physics governing quark and lepton masses.
 
+## How It's Best Learned
+Draw a stacked bar for each mass state showing its flavor content. Compute the electron row from θ₁₂ ≈ 34° and θ₁₃ ≈ 8.5°: |U_e1|² = cos²θ₁₂cos²θ₁₃ ≈ 0.67, |U_e2|² = sin²θ₁₂cos²θ₁₃ ≈ 0.31, and |U_e3|² = sin²θ₁₃ ≈ 0.02. Then set |U_e3| ≈ 0.15 beside |V_ub| ≈ 0.004 to see how different the two matrices are.
+
+## Common Misconceptions
+- Each mass state is basically one flavor, as in the quark sector. (Two mixing angles are large. For example, ν₁ is only about two-thirds ν_e, and ν₃ is a near-equal mix of ν_μ and ν_τ.)
+- The PMNS matrix is the CKM matrix for leptons, so it should be nearly diagonal too. (The two matrices have the same mathematical form but very different measured values, and the Standard Model does not explain either pattern.)
+- A nonzero δ_CP alone is enough for CP violation in oscillations. (The effect also needs all three mixing angles to be nonzero, which is why the 2012 measurement of θ₁₃ mattered.)
+
 ## Questions
 
 ```yaml

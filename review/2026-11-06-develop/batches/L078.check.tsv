@@ -1,0 +1,67 @@
+domains/economics/advanced-microeconomics/adverse-selection-screening.md	how	4	0	ok
+domains/economics/advanced-microeconomics/adverse-selection-screening.md	mis	8	0	ok
+domains/economics/advanced-microeconomics/adverse-selection-screening.md	old:q:3:explanation	1	1	fixed	efficiency gap between first- and second-best was mislabeled "information rent"; label removed
+domains/economics/advanced-microeconomics/adverse-selection-screening.md	old:q:4:answer	1	1	fixed	efficiency loss was "called the information rent"; removed the mislabel
+domains/economics/advanced-microeconomics/adverse-selection-screening.md	old:ex	2	2	fixed	high type "pays a premium that extracts their information rent" (wrong: high type keeps or has no rent) and gap called "information rent"; both removed
+domains/economics/advanced-microeconomics/adverse-selection-signaling.md	how	4	0	ok	Spence numbers worked: e in [0.5, 1] checks
+domains/economics/advanced-microeconomics/adverse-selection-signaling.md	mis	8	0	ok
+domains/economics/advanced-microeconomics/adverse-selection.md	how	4	0	ok	uniform 0-100 unraveling numbers (75, 87.5) check
+domains/economics/advanced-microeconomics/adverse-selection.md	mis	8	0	ok
+domains/economics/advanced-microeconomics/arrow-impossibility-theorem.md	how	3	0	ok	Condorcet cycle pairwise majorities verified
+domains/economics/advanced-microeconomics/arrow-impossibility-theorem.md	mis	8	1	fixed	dropped qualifier: single-peaked domain makes majority rule transitive only with an odd number of voters (Black); added it
+domains/economics/advanced-microeconomics/auction-formats-and-equivalence.md	how	4	0	ok	1/3 revenue in both formats checks
+domains/economics/advanced-microeconomics/auction-formats-and-equivalence.md	mis	8	0	ok
+domains/economics/advanced-microeconomics/auction-formats-and-equivalence.md	old:q:3:question	1	1	fixed	garbled "across most four standard auction formats" -> "across the four"
+domains/economics/advanced-microeconomics/auction-theory.md	how	4	0	ok	r(1-r) peak and virtual value 2v-1 check
+domains/economics/advanced-microeconomics/auction-theory.md	mis	8	0	ok
+domains/economics/advanced-microeconomics/bayesian-games.md	how	3	0	ok
+domains/economics/advanced-microeconomics/bayesian-games.md	mis	8	0	ok
+domains/economics/advanced-microeconomics/bertrand-competition.md	how	5	0	ok	"undercuts slightly" glosses over the empty best response on a continuum; acceptable sketch
+domains/economics/advanced-microeconomics/bertrand-competition.md	mis	8	0	ok
+domains/economics/advanced-microeconomics/cartel-and-collusion.md	how	5	0	ok	1/8, 1/9, 9/64 and delta >= 9/17 all verified
+domains/economics/advanced-microeconomics/cartel-and-collusion.md	mis	8	1	fixed	"a known end date lowers the effective delta" is wrong (a known end changes the game to finite horizon, covered in the next bullet); removed
+domains/economics/advanced-microeconomics/collusion-cartel-stability.md	how	5	0	ok	delta >= 1-1/n verified
+domains/economics/advanced-microeconomics/collusion-cartel-stability.md	mis	8	0	ok
+domains/economics/advanced-microeconomics/compensated-demand-curves.md	how	4	0	ok	Hicksian h_x = u(p_y/p_x)^(1/2), elasticity -1/2 verified
+domains/economics/advanced-microeconomics/compensated-demand-curves.md	mis	8	0	ok
+domains/economics/advanced-microeconomics/conditional-factor-demand.md	how	5	0	ok	c = 2y(wr)^(1/2) and Shephard check verified
+domains/economics/advanced-microeconomics/conditional-factor-demand.md	mis	8	0	ok
+domains/economics/advanced-microeconomics/consumer-duality-and-expenditure-function.md	how	5	0	ok	V, e, Roy and e(p,V)=m verified
+domains/economics/advanced-microeconomics/consumer-duality-and-expenditure-function.md	mis	8	0	ok
+domains/economics/advanced-microeconomics/contract-curve.md	how	4	0	ok	y_A = 20x_A/(10+x_A) verified, runs corner to corner
+domains/economics/advanced-microeconomics/contract-curve.md	mis	8	0	ok
+domains/economics/advanced-microeconomics/core-of-an-economy.md	how	4	0	ok	replica blocking step: feasibility and payoffs verified (weak blocking, matches file's definition)
+domains/economics/advanced-microeconomics/core-of-an-economy.md	mis	8	0	ok
+domains/economics/advanced-microeconomics/cost-function-duality.md	mis	8	0	ok
+domains/economics/advanced-microeconomics/cost-minimization-and-factor-demand.md	how	4	0	ok	(8,2) costs 16, (4,4) costs 20 verified
+domains/economics/advanced-microeconomics/cost-minimization-and-factor-demand.md	mis	8	0	ok	new MRTS bullet is correct and exposed the old Q0 key error
+domains/economics/advanced-microeconomics/cost-minimization-and-factor-demand.md	old:q:0:answer	1	1	fixed	MRTS 3 > w1/w2 2 means use more input 1; key said index 2 (more input 2), changed to 1; explanation's last line "toward input 2" -> "toward input 1"
+domains/economics/advanced-microeconomics/cost-minimization-duality.md	how	5	0	ok	C = wy^2, pi = p^2/(4w), Hotelling checks verified
+domains/economics/advanced-microeconomics/cost-minimization-duality.md	mis	8	0	ok
+domains/economics/advanced-microeconomics/cournot-competition.md	how	4	0	ok	45, 22.5, 33.75 -> 30 verified
+domains/economics/advanced-microeconomics/cournot-competition.md	mis	8	0	ok
+domains/economics/advanced-microeconomics/cournot-competition.md	old:q:2:explanation	1	1	fixed	said Bertrand prices are strategic substitutes; differentiated Bertrand prices are typically strategic complements
+domains/economics/advanced-microeconomics/dual-production-and-profit-functions.md	how	5	0	ok	0.25/2.25 avg 1.25 vs 1 verified
+domains/economics/advanced-microeconomics/dual-production-and-profit-functions.md	mis	8	0	ok
+domains/economics/advanced-microeconomics/duality-consumer-theory.md	mis	8	0	ok
+domains/economics/advanced-microeconomics/edgeworth-box-exchange.md	how	5	0	ok	price ratio 1, (5,5) each, utility 16 -> 25 verified
+domains/economics/advanced-microeconomics/edgeworth-box-exchange.md	mis	8	0	ok
+domains/economics/advanced-microeconomics/edgeworth-box-exchange.md	old:q:1:explanation	1	1	fixed	called the lens "a subset of the contract curve"; changed to "only part of which lies on the contract curve"
+domains/economics/advanced-microeconomics/edgeworth-box-exchange.md	old:q:3:question	1	1	fixed	grammar: "Most point ... is" -> "Most points ... are"
+domains/economics/advanced-microeconomics/extensive-form-games-and-subgame-perfection.md	how	4	0	ok	both NE (Out,Fight), (In,Acc) verified
+domains/economics/advanced-microeconomics/extensive-form-games-and-subgame-perfection.md	mis	8	0	ok
+domains/economics/advanced-microeconomics/extensive-form-games-and-subgame-perfection.md	old:ex	1	1	fixed	explainer called "enter, and the incumbent fights" a Nash equilibrium; the threat-sustained NE is stay out / fight if entry
+domains/economics/advanced-microeconomics/extensive-form-games.md	how	4	0	ok	4 vs 2 strategies, 2x4 and 2x2 verified
+domains/economics/advanced-microeconomics/extensive-form-games.md	mis	8	0	ok
+domains/economics/advanced-microeconomics/factor-demands-and-elasticity.md	how	5	0	ok	CES K/L and sigma = 1/(1-rho) verified, limits correct
+domains/economics/advanced-microeconomics/factor-demands-and-elasticity.md	mis	8	0	ok
+domains/economics/advanced-microeconomics/factor-demands-and-elasticity.md	old:q:3:explanation	1	1	fixed	"employment effect is small" with sigma near 0 ignored the scale effect (which the new bullet states); narrowed to substitution effect. Explainer para 4 has the same simplification, not changed
+domains/economics/advanced-microeconomics/first-price-auction.md	how	4	0	ok	b = v/2 and (N-1)v/N FOC verified
+domains/economics/advanced-microeconomics/first-price-auction.md	mis	8	0	ok
+domains/economics/advanced-microeconomics/first-price-second-price-auctions.md	how	4	0	ok	payoff table entries verified
+domains/economics/advanced-microeconomics/first-price-second-price-auctions.md	mis	8	0	ok
+domains/economics/advanced-microeconomics/first-welfare-theorem.md	how	4	0	ok
+domains/economics/advanced-microeconomics/first-welfare-theorem.md	mis	8	0	ok
+domains/economics/advanced-microeconomics/first-welfare-theorem.md	old:q:2:explanation	1	1	fixed	leftover drafting chatter ("that's a Pareto improvement — wait, no:") rewritten as one clean sentence
+domains/economics/advanced-microeconomics/general-equilibrium-existence.md	how	4	0	ok	1-D case is really the intermediate value theorem (equivalent to 1-D Brouwer); acceptable
+domains/economics/advanced-microeconomics/general-equilibrium-existence.md	mis	8	0	ok

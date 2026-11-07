@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 The Ornstein-Uhlenbeck (OU) process solves dX = -θX dt + σ dW, where θ > 0 controls the rate of mean reversion. Its explicit solution X(t) = X(0)e^{-θt} + σ∫₀ᵗ e^{-θ(t-s)} dW(s) is Gaussian with mean X(0)e^{-θt} and variance (σ²/2θ)(1 - e^{-2θt}). As t → ∞, the process converges to a stationary Gaussian distribution N(0, σ²/2θ). The OU process is the prototypical mean-reverting diffusion and the only stationary Gaussian Markov process.
 
+## How It's Best Learned
+Get the stationary variance two ways. From the explicit solution, let t → ∞ in (σ²/2θ)(1 - e^{-2θt}). From Itô's formula on X², d E[X²]/dt = -2θE[X²] + σ², so the steady state is σ²/(2θ). Then simulate the exact AR(1) step X_{n+1} = e^{-θΔ}X_n + ε, with ε ~ N(0, (σ²/2θ)(1 - e^{-2θΔ})), and compare histograms with the stationary law.
+
+## Common Misconceptions
+- Mean reversion means the process returns to its mean and stays there. (Noise keeps pushing it away; in the long run it fluctuates with variance σ²/(2θ) around the mean.)
+- θ is the half-life of a deviation. (θ is a rate; the expected deviation E[X(t)] halves after time (ln 2)/θ.)
+- The pull toward the mean makes OU paths smoother than Brownian paths. (Over short times the noise dominates, so OU paths are nowhere differentiable and have quadratic variation σ²t, like σW.)
+
 ## Questions
 
 ```yaml

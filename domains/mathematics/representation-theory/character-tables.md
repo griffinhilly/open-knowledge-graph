@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 A character table is a square matrix whose rows correspond to irreducible representations and whose columns to conjugacy classes of a finite group G, with entries χᵢ(Cⱼ). The orthogonality relations constrain these entries so tightly that the table encodes the full representation theory of G. Computing the character table is often the first concrete goal when studying a group's representations.
 
+## How It's Best Learned
+After S₃, build the table of A₄ by hand. Its classes have sizes 1, 3, 4, 4. Lift three linear characters from the quotient A₄/V₄ ≅ ℤ/3ℤ, find the last degree from 1 + 1 + 1 + d² = 12, then fill its row with column orthogonality against the first column. You should get (3, −1, 0, 0). Check the result with row orthogonality.
+
+## Common Misconceptions
+- The rows are orthogonal under the ordinary dot product. (Row orthogonality weights each column by its class size |Cⱼ| and uses complex conjugation. Without the weights the rows of S₃ fail the test.)
+- Character table entries are integers. (They are algebraic integers and can be non-real. The cyclic group of order 3 has entries ω and ω², where ω is a primitive cube root of unity.)
+- Each column of the table belongs to one group element. (Each column belongs to a conjugacy class. A character takes the same value on all elements of a class.)
+- The character table determines the group up to isomorphism. (The dihedral group of order 8 and the quaternion group Q₈ have the same table.)
+
 ## Questions
 
 ```yaml

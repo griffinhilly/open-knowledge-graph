@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 The grand partition function Ξ = Σ_{N,i} exp(-(E_{N,i} - μN)/kT) controls systems that exchange both heat and particles. The grand potential Ω = -kT ln(Ξ) determines pressure, entropy, and particle-number fluctuations via thermodynamic derivatives.
 
+## How It's Best Learned
+Write Ξ = Σ_N z^N Z_N and work the classical ideal gas: Z_N = (V/λ³)^N/N!, so Ξ = exp(zV/λ³). Then Ω = −kT zV/λ³, ⟨N⟩ = −∂Ω/∂μ = zV/λ³, and Ω = −PV gives PV = ⟨N⟩kT. Next factor Ξ over single-particle modes for free fermions and bosons, and expand ln Ξ for small z to recover the classical result.
+
+## Common Misconceptions
+- The sum over N should stop at the number of particles actually in the box. (Ξ sums over every N. μ sets ⟨N⟩, and in a large system the terms near ⟨N⟩ dominate the sum.)
+- Ξ factorizes into a product over single-particle modes for any gas. (The factorization needs non-interacting particles. Interactions couple the occupation numbers of different modes.)
+- Ω is an abstract potential with no direct physical meaning. (For a homogeneous system Ω = −PV, so kT ln Ξ = PV gives the equation of state directly.)
+
 ## Questions
 
 ```yaml

@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Income inequality is measured by Gini coefficients, Lorenz curves, and percentile shares. High inequality imposes economic costs through reduced social cohesion, political instability, and potentially reduced growth. Developing countries show substantial variation—Latin America exhibits high inequality despite moderate income levels while East Asia shows lower inequality, demonstrating that development paths and policy choices shape distributional outcomes.
 
+## How It's Best Learned
+Build a Lorenz curve by hand for five people earning 1, 2, 3, 4, and 10. The cumulative shares are 5%, 15%, 30%, 50%, and 100%. Using trapezoids, the area under the curve is 0.30. The gap to the equality line is 0.5 − 0.30 = 0.20, so the Gini is 0.20 / 0.5 = 0.40. Then move income between people and watch the Gini change.
+
+## Common Misconceptions
+- A Gini of 0.4 means the top 40% hold some fixed share of income. (The Gini is a ratio of areas on the Lorenz diagram. It is not a percentile share, and many different shares can give the same Gini.)
+- Two countries with the same Gini have the same distribution. (Lorenz curves can cross, so one country may have a poorer bottom and the other a richer top while both score the same.)
+- Rising inequality means the poor got poorer. (Inequality measures relative gaps. Incomes at the bottom can rise while the gap to the top widens.)
+- A consumption-based Gini and an income-based Gini can be compared directly. (Consumption tends to be smoother than income, so consumption-based Ginis usually come out lower.)
+
 ## Questions
 
 ```yaml

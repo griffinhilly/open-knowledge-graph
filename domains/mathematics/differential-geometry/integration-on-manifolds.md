@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Integration of differential forms on oriented manifolds generalizes multiple integrals from ℝⁿ to curved spaces. An n-form on an oriented n-manifold is integrated by pulling back to coordinate charts via a partition of unity — the transformation law for forms automatically handles the Jacobian determinant from the change of variables formula. This framework unifies line integrals, surface integrals, and volume integrals into a single coordinate-free theory.
 
+## How It's Best Learned
+Integrate ω = x dy∧dz + y dz∧dx + z dx∧dy over the unit sphere. In spherical coordinates x = sin θ cos φ, y = sin θ sin φ, z = cos θ, the pullback is sin θ dθ∧dφ, and the integral is 4π. Then reverse the order to dφ∧dθ and watch the sign flip. This shows why the chart's orientation must be fixed before integrating.
+
+## Common Misconceptions
+- Any n-form can be integrated over any n-manifold. (An orientation is needed to fix the sign. On a non-orientable manifold such as the Möbius band, one integrates densities instead of forms.)
+- Integrating a function over a manifold needs no extra structure. (A function needs a volume form or a metric to become something integrable. An n-form can be integrated directly.)
+- The value of ∫_M ω depends on the atlas and partition of unity chosen. (Given the orientation, the value is the same for every oriented atlas and subordinate partition of unity.)
+
 ## Questions
 
 ```yaml

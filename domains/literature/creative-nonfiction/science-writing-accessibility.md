@@ -19,6 +19,14 @@ status: draft
 ## Core Idea
 Science writing makes complex research, ideas, and methodologies accessible to general audiences without sacrificing accuracy or nuance. It employs narrative structure, metaphor, concrete examples, dialogue, and accessible language to create understanding across disciplinary and expertise boundaries while conveying both findings and the human stakes of scientific work.
 
+## How It's Best Learned
+Take one paragraph from a research abstract and rewrite it for a curious friend. Open with a concrete case or person, introduce one metaphor, and add a sentence stating where that metaphor breaks down. Then have someone outside the field explain it back to you. Where their retelling goes wrong shows which step needs a clearer example or which term needs defining.
+
+## Common Misconceptions
+- Making science accessible means cutting out every technical term. (Accessible writing defines the terms readers need and keeps useful vocabulary, matched to the audience.)
+- A good metaphor makes the idea exactly clear. (Metaphors are partial, and careful science writers say where a comparison stops matching the science.)
+- Science writing should report findings and leave out uncertainty, so readers aren't confused. (Conveying limits and open questions is part of accuracy and helps readers understand how science works.)
+
 ## Questions
 
 ```yaml
@@ -54,6 +62,7 @@ Science writing makes complex research, ideas, and methodologies accessible to g
 
 - question: Choose a complex scientific or technical concept you find interesting. Explain it to a general audience (assume educated readers but no specialized knowledge) using narrative structure, a metaphor, and concrete examples. What makes your explanation clear without oversimplifying?
   type: short-answer
+  answer: "A clear explanation opens with a concrete situation, uses a metaphor while naming its limits, and grounds the idea in a familiar example. It stays accurate by noting what the simplified version leaves out and says why the idea matters to readers."
   explanation: 'For example, explaining photosynthesis: You might start narratively with a plant facing a problem (needing energy but unable to eat like animals). Metaphorically: ''A plant is a solar panel that runs on light instead of electricity.'' Concretely: ''Grass in your yard captures sunlight and converts it to sugar the plant uses to grow—the same way a solar panel captures light and converts it to electricity.'' A fuller explanation would describe chlorophyll absorbing light wavelengths, the light and dark reactions, ATP production—but grounded in the concrete example. Nuance might acknowledge that this is simplified (the reality is more complex with multiple photosystems, photorespiration, etc.) but captures the core idea. Good science writing shows why the core idea matters (plants are the basis of food chains; understanding photosynthesis helps us address food security) and what the complications are.'
 ```
 

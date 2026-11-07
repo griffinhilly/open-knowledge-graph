@@ -28,6 +28,15 @@ status: validated
 ## Core Idea
 Health and nutrition are both development outcomes and inputs to development. Healthier workers are more productive; healthier children learn better. Early-life health shocks—malaria, malnutrition—have persistent effects on adulthood earnings. Water, sanitation, vaccination, and deworming are cost-effective investments that raise development.
 
+## How It's Best Learned
+Draw a life timeline from conception to working age. Place each intervention on it (maternal nutrition, vaccination, deworming, clean water) and write the adult outcome it moves: survival, height, schooling, or earnings. Then compare a nutrition shock before age two with one at age ten, and say which leaves the larger lasting mark and why.
+
+## Common Misconceptions
+- Better food later in childhood can fully undo early malnutrition. (Much of the harm from severe malnutrition before age two persists, including shorter adult height and lower cognitive ability.)
+- Child health programs pay off only through lives saved. (Children who survive in better health also attend school more, learn more, and earn more as adults.)
+- A health program can be judged by its effects within a year or two. (Many effects of early-life health show up decades later in schooling and adult earnings, which short evaluations miss.)
+- Each household will invest in sanitation if the benefit is large. (A latrine also protects neighbors from fecal-oral disease. Because that benefit spills over, private investment tends to fall short of the social optimum.)
+
 ## Questions
 
 ```yaml

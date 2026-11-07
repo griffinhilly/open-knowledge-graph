@@ -30,6 +30,14 @@ status: validated
 ## Core Idea
 A regular sequence on a module M is an ordered sequence of elements (f_1, ..., f_r) where each f_i is a non-zero-divisor on M/(f_1, ..., f_{i-1})M. The depth of M (with respect to an ideal I) is the length of a maximal regular sequence in I on M. A Noetherian local ring is Cohen-Macaulay if its depth equals its Krull dimension -- the maximum possible value. Cohen-Macaulay rings are the class where dimension theory, homological algebra, and intersection theory work optimally, forming the "good" class between arbitrary Noetherian rings and regular local rings.
 
+## How It's Best Learned
+Check each condition step by step, writing out every successive quotient. In k[x, y, z], the sequence x, y(1 - x), z(1 - x) is regular: the quotients are k[y, z], then k[z], then k. In the order y(1 - x), z(1 - x), x it fails, because y·z(1 - x) lies in (y(1 - x)) while y does not. Then find depth 0 in k[x, y]_(x,y)/(x², xy) by noticing that 𝔪 kills x.
+
+## Common Misconceptions
+- A sequence of non-zero-divisors on M is a regular sequence. (Each element must be a non-zero-divisor on the quotient by the earlier ones. In k[x, y], both x and xy are non-zero-divisors, but xy is zero in k[x, y]/(x).)
+- The order of a regular sequence never matters. (It can matter in general, as the k[x, y, z] example shows. For a finitely generated module over a Noetherian local ring, with elements in 𝔪, every permutation of a regular sequence is regular.)
+- Depth always equals Krull dimension. (Depth is at most the dimension, and equality defines Cohen-Macaulay. The ring k[x, y]_(x,y)/(x², xy) has dimension 1 but depth 0.)
+
 ## Questions
 
 ```yaml

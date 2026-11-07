@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Fault-tolerant quantum computation (FTQC) is the ultimate goal of quantum computing: reliable, large-scale computation despite noisy physical qubits. The key insight is the "threshold theorem": if physical error rates are below a threshold (typically 10^{-4} to 10^{-3}), quantum error correction can reduce logical error rates exponentially with code distance, enabling arbitrarily long computations. FTQC requires cascading error-correction codes, careful gate implementation, and syndrome measurement with minimal error. Once a threshold is crossed, each added layer of codes reduces logical errors more than it adds, breaking through the "error barrier" that plagues near-term quantum computing. Achieving FTQC is the critical engineering challenge for practical quantum computers.
 
+## How It's Best Learned
+Iterate a toy concatenation model, p_next = 100 p^2, which has threshold 1/100. Starting from p = 10^-3, three levels give 10^-4, 10^-6, then 10^-10. Starting from p = 2 × 10^-2 gives 4 × 10^-2, so errors grow. Then ask how many levels a computation with 10^9 gates needs.
+
+## Common Misconceptions
+- Once hardware is below threshold, logical errors vanish. (Logical errors are suppressed, not removed. You choose the code size so the total failure probability over the whole computation meets a target.)
+- Error correction only has to protect qubits while they sit idle. (Gates, syndrome measurements and the correction steps are faulty too. Fault-tolerant circuits are designed so one fault cannot spread into an uncorrectable pattern of errors.)
+- Every logical gate can be done by applying the same gate to each physical qubit. (Codes such as the surface code cannot apply every gate this way. T gates are usually supplied through magic state distillation.)
+- The threshold is one fixed number for all quantum computers. (It depends on the code, the noise model and the decoder.)
+
 ## Questions
 
 ```yaml

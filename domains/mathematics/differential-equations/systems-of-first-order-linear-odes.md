@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 A system of first-order linear ODEs can be written in matrix form: y' = Ay + b(t), where y is a vector, A is a matrix, and b(t) is a forcing vector. This unified framework handles coupled equations and higher-order ODEs (converted to systems) via eigenvalue analysis.
 
+## How It's Best Learned
+Begin with an uncoupled system such as y₁' = 2y₁, y₂' = −y₂, solved one line at a time. Then convert y'' + 3y' + 2y = 0 with y₁ = y, y₂ = y' to get A = [[0, 1], [−2, −3]]. Its eigenvalues −1 and −2 match the roots of r² + 3r + 2 = 0. Check by differentiating that e^(−t)(1, −1) is a solution.
+
+## Common Misconceptions
+- Each equation in the system can be solved on its own. (When A has nonzero off-diagonal entries, each rate depends on other unknowns, so the equations have to be solved together or decoupled by a change of variables.)
+- Rewriting a second-order equation as a system changes the problem. (The system y₁' = y₂, y₂' = f(t, y₁, y₂) is equivalent; y₁ is the original y, and the conditions y(t₀) and y'(t₀) become the initial vector.)
+- "Linear" means the solutions grow along straight lines in time. (It means the unknowns appear only to the first power with no products between them; the solutions can be exponentials or oscillations.)
+
 ## Questions
 
 ```yaml

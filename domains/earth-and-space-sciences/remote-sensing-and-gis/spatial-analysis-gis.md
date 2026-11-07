@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Spatial analysis encompasses the quantitative techniques for examining the locations, attributes, and relationships of geographic features. Core operations include overlay (combining layers to find areas meeting multiple criteria), buffering (creating distance zones around features), proximity analysis (measuring distances and identifying nearest neighbors), map algebra (cell-by-cell raster calculations), and spatial statistics (identifying clusters, hotspots, and spatial patterns). These operations exploit the fundamental property of geographic data -- that location matters, and nearby things tend to be more related than distant things (Tobler's First Law of Geography).
 
+## How It's Best Learned
+Do one weighted overlay by hand for a single cell: slope score 3, soil score 2 and road score 1, with weights 0.5, 0.3 and 0.2, give 1.5 + 0.6 + 0.2 = 2.3. Then compute Moran's I with rook (edge-sharing) neighbors for a checkerboard grid and for a grid with all high values on one side. The first comes out negative and the second positive.
+
+## Common Misconceptions
+- A map of where most events happen shows where risk is highest. (Raw counts often follow population, so rates or other normalization are needed before comparing places.)
+- Results stay the same whatever zones the data are summed into. (Changing the zone boundaries or their size can change the pattern and statistics, which is the modifiable areal unit problem.)
+- A cluster that looks clear on a map must be real. (Random point patterns often look clustered to the eye, which is why tests such as Gi* or Moran's I are used.)
+
 ## Questions
 
 ```yaml

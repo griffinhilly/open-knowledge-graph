@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 VCG mechanisms implement efficient allocations with dominant-strategy incentive compatibility: truthful reporting is optimal regardless of others' reports. Agents pay based on the externality they impose; the mechanism eliminates private information problems by making truth-telling dominant. VCG mechanisms are used in combinatorial auctions and spectrum allocation.
 
+## How It's Best Learned
+Compute payments in a two-item example. A values the pair at 10 and neither item alone; B values item 1 at 6; C values item 2 at 6. Giving B and C one item each (total 12) is efficient. Without B, the best the others can do is 10, and with B they get 6, so B pays 4. C also pays 4, for revenue of 8.
+
+## Common Misconceptions
+- VCG raises as much revenue as possible because everyone bids truthfully. (VCG maximizes total surplus, not revenue. In the two-item example above it collects 8, less than the 10 that losing bidder A offered.)
+- VCG payments cover the cost of the outcome the mechanism chooses. (In public-good settings the payments can fall short of the cost, and any surplus cannot in general be handed back to the agents without disturbing their incentives.)
+- Since truth-telling is dominant, no one can gain by manipulating a VCG auction. (Dominance rules out profitable misreports by one bidder acting alone. Groups of bidders who coordinate, or one bidder who enters under several identities, can still gain.)
+
 ## Questions
 
 ```yaml

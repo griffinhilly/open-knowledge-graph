@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 The de Rham cohomology Hᵏ(M) = {closed k-forms}/{exact k-forms} measures the topological complexity of a manifold using differential forms. It detects "holes" of various dimensions: H⁰ counts connected components, H¹ detects loops that are not boundaries, and Hⁿ detects orientation. The de Rham theorem proves this analytic construction equals the purely topological singular cohomology, establishing one of the deepest bridges between analysis and topology. De Rham cohomology is computable, functorial, and fundamental to modern geometry and physics.
 
+## How It's Best Learned
+Start on the punctured plane with ω = (−y dx + x dy)/(x² + y²). Check that dω = 0, then integrate over the unit circle with x = cos t, y = sin t to get 2π, so ω is not exact. Next compute H*(S¹) with Mayer-Vietoris, covering the circle by two overlapping arcs whose intersection is two arcs. Then apply the same method to S².
+
+## Common Misconceptions
+- A closed form is exact, since the Poincaré lemma says so. (The Poincaré lemma applies on contractible sets such as balls and ℝⁿ. On the punctured plane, ω = dθ is closed but not exact.)
+- de Rham cohomology depends on the smooth structure or a choice of metric. (No metric enters the definition, and the de Rham theorem identifies it with singular cohomology with real coefficients, a topological invariant.)
+- de Rham cohomology sees every feature of integer cohomology. (Real coefficients lose torsion. The real projective plane has H¹ = H² = 0 in de Rham cohomology, though its integer H² is ℤ/2.)
+
 ## Questions
 
 ```yaml

@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Probably Approximately Correct (PAC) learning, introduced by Leslie Valiant in 1984, formalizes what it means for a learning algorithm to succeed. A concept class is PAC-learnable if there exists an algorithm that, for any target concept in the class and any distribution over inputs, produces a hypothesis with error at most epsilon with probability at least 1 - delta, using a number of samples polynomial in 1/epsilon, 1/delta, and the representation size. This framework transforms the informal question "can we learn this?" into a precise mathematical statement about sample efficiency and computational feasibility.
 
+## How It's Best Learned
+Work the finite-class bound for a learner that outputs any hypothesis consistent with the data: m ≥ (1/ε)(ln|H| + ln(1/δ)). With |H| = 1000, ε = 0.05 and δ = 0.01, this gives about 231 examples. Then halve ε and see m double, while cutting δ tenfold adds only about 46 examples. Name the random event each parameter controls at every step.
+
+## Common Misconceptions
+- Epsilon and delta are two ways of measuring the same error. (Epsilon bounds the hypothesis's error on new examples from D. Delta bounds the probability, over the random draw of the training set, that this error bound fails.)
+- Distribution-free means the test data can come from a different distribution than the training data. (D can be any distribution, but the same D generates both the training examples and the future examples the error is measured on.)
+- A PAC guarantee is a statement about error on the training set. (It bounds the true error of the output hypothesis on fresh draws from D. Low training error alone does not give this.)
+- The basic PAC model already handles noisy or inconsistent labels. (The basic model assumes the labels come from some target concept in the class. The agnostic PAC model removes that assumption and compares against the best hypothesis in the class.)
+
 ## Questions
 
 ```yaml

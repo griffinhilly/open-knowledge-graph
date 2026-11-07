@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 The Exponential Time Hypothesis (ETH), proposed by Impagliazzo and Paturi, conjectures that k-SAT requires 2^(Omega(n)) time. The Strong Exponential Time Hypothesis (SETH) strengthens this: there is no sequence of algorithms (one per k) such that k-SAT is solvable in 2^((1 - epsilon_k) k n) time for all k, where epsilon_k approaches 0. Equivalently, for infinitely many k, every k-SAT solver requires 2^((1 - o(1)) k n) time. These hypotheses are widely believed but unproven, sitting between P != NP and the strong claim that exponential time is fundamentally necessary. ETH and SETH enable conditional hardness: assuming the hypothesis, one can prove lower bounds on the running time of other problems by reduction, explaining why decades of algorithmic research have not substantially improved brute-force algorithms for many classical problems (3-SUM, Longest Common Subsequence, all-pairs shortest paths).
 
+## How It's Best Learned
+Trace the standard reduction from 3-SAT to 3-coloring or vertex cover and count how the number of vertices and edges grows with the number of variables and clauses. With the sparsification lemma, ETH rules out 2^(o(n + m)) algorithms for 3-SAT with m clauses. A reduction whose output size is linear in n + m therefore rules out 2^(o(N)) algorithms for the target, where N is its size. This bookkeeping is the heart of ETH arguments. Then work through the reduction from CNF-SAT to Orthogonal Vectors, which shows how a SETH-based bound for a polynomial-time problem is built.
+
+## Common Misconceptions
+- ETH says 3-SAT needs about 2^n time. (ETH rules out only 2^(o(n)) algorithms. Algorithms running in c^n time for some constant c below 2 are known and are consistent with ETH.)
+- A lower bound under ETH or SETH is a proven lower bound. (It is conditional. It shows that a faster algorithm would refute the hypothesis, which counts as strong evidence but not proof.)
+- Under ETH, every NP-hard problem needs 2^(Omega(n)) time. (The bound transferred depends on how much the reduction enlarges the instance. Some problems on planar graphs, for example, have 2^(O(sqrt n)) algorithms, and ETH gives matching lower bounds of that form.)
+- ETH and P != NP are the same assumption. (ETH implies P != NP, but P != NP alone allows 3-SAT to run in subexponential time, such as 2^(sqrt n).)
+
 ## Questions
 
 ```yaml

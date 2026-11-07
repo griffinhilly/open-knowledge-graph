@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 A CW complex is a topological space built inductively by attaching cells (disks) of increasing dimension via continuous maps on their boundaries. Starting from a discrete set of points (0-skeleton), we attach 1-cells (intervals) along their endpoints, then 2-cells (disks) along their boundary circles, and so on. CW complexes are the natural habitat of algebraic topology: they are general enough to model all reasonable topological spaces (every manifold, every polyhedron, every simplicial complex), yet structured enough that homology, cohomology, and homotopy groups can be computed efficiently via cellular methods.
 
+## How It's Best Learned
+Build familiar spaces skeleton by skeleton and draw each stage. Give S^2 two structures: a point with one 2-cell, and then two points, two arcs forming the equator, and two hemispheres. Next build the torus from its square: one vertex, a wedge of two circles, then one 2-cell attached along aba^{-1}b^{-1}. Write down the attaching map at each step.
+
+## Common Misconceptions
+- An attaching map has to be injective, like gluing a face onto a face. (It can be any continuous map. The structure S^2 = point ∪ e^2 collapses the whole boundary circle to one point.)
+- The closure of a cell is a closed disk sitting inside X. (Each open cell is homeomorphic to an open disk, but its closure need not be a disk. In S^2 = point ∪ e^2, the closure of the 2-cell is all of S^2.)
+- A space has one correct CW structure. (A space can have many CW structures with different numbers of cells. Invariants such as homology and Euler characteristic come out the same for each.)
+
 ## Questions
 
 ```yaml
@@ -48,7 +56,7 @@ A CW complex is a topological space built inductively by attaching cells (disks)
 
 - question: "Why are CW complexes preferred over simplicial complexes in modern algebraic topology?"
   type: short-answer
-  answer: "CW complexes require far fewer cells than simplicial complexes require simplices to model the same space, because cells can be attached via arbitrary continuous maps (not just face-to-face gluings). S^2 needs 2 cells (CW) vs 14 triangles (simplicial). This economy translates directly to smaller chain complexes in cellular homology, making computations faster. Additionally, many natural constructions in homotopy theory (mapping cones, suspensions, loop spaces) produce CW complexes directly, not simplicial complexes."
+  answer: "CW complexes require far fewer cells than simplicial complexes require simplices to model the same space, because cells can be attached via arbitrary continuous maps (not just face-to-face gluings). S^2 needs 2 cells (CW) vs 14 simplices (simplicial: 4 vertices, 6 edges, 4 triangles). This economy translates directly to smaller chain complexes in cellular homology, making computations faster. Additionally, many natural constructions in homotopy theory (mapping cones, suspensions, loop spaces) produce CW complexes directly, not simplicial complexes."
   explanation: "The trade-off: simplicial complexes have more rigid combinatorial structure, which is better for computational algorithms (like persistent homology). CW complexes have more flexible attaching maps, which is better for theoretical work and hand computation. For homotopy theory specifically, CW complexes are essential: Whitehead's theorem (a weak homotopy equivalence between CW complexes is a homotopy equivalence) and the CW approximation theorem (every space is weakly equivalent to a CW complex) make CW complexes the canonical representatives of homotopy types."
 ```
 

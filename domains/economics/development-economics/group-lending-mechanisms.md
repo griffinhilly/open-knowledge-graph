@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 Group lending (e.g., Grameen Bank model) harnesses peer monitoring and social pressure to enforce repayment without formal collateral. Borrowers are mutually liable: if one defaults, all lose access. This creates incentives for screening peers and monitoring effort, substituting for formal enforcement.
 
+## How It's Best Learned
+Build a two-borrower payoff table. Each borrows 100 and owes 110. A safe project returns 200 for sure; a risky one returns 300 or 0 with equal odds. Under joint liability, a safe borrower expects to net 90 with a safe partner but only 35 with a risky one, since they cover the partner's 110 half the time. The table shows why safe borrowers group together, which is peer screening.
+
+## Common Misconceptions
+- Group lending works mainly because members shame defaulters. (Social pressure is one channel. Peer screening before the loan targets adverse selection, and peer monitoring after it targets moral hazard, which are separate problems.)
+- Joint liability costs borrowers nothing extra. (A member who repays can be forced to cover a partner's default, so creditworthy borrowers may leave or avoid the program.)
+- High repayment rates prove group lending reduces poverty. (Repayment measures whether loans come back. It says nothing direct about whether borrowers' incomes rose.)
+- Group lending requires a formal joint liability contract. (Some lenders keep group meetings for monitoring and information sharing while making each borrower individually liable.)
+
 ## Questions
 
 ```yaml

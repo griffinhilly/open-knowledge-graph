@@ -22,6 +22,14 @@ status: draft
 ## Core Idea
 Sontag synthesizes art history, philosophy, literature, and contemporary culture into argumentative essays that diagnose cultural moments. Her technique of building essays around formal analysis, historical comparison, and provocative thesis demonstrates that nonfiction can be simultaneously learned, accessible, and engaged with immediate cultural questions.
 
+## How It's Best Learned
+Read "Notes on Camp" and, for five of its numbered notes, label whether each one defines, gives an example, traces history, or makes a claim. Then pick a current trend, such as a meme format, and write five numbered notes about it in the same way. The exercise shows how her diagnosis builds from close observation toward a larger thesis.
+
+## Common Misconceptions
+- Sontag's essay on camp is an attack on bad taste. (She describes camp with a mix of attraction and distance and treats it as a sensibility worth understanding.)
+- Being learned means Sontag writes only for specialists. (She draws on philosophy and art history to address questions a general educated reader cares about.)
+- A cultural diagnosis just describes what is popular. (Sontag's essays argue for what a form reveals about its moment, which goes beyond description.)
+
 ## Questions
 
 ```yaml
@@ -57,6 +65,7 @@ Sontag synthesizes art history, philosophy, literature, and contemporary culture
 
 - question: Choose a contemporary cultural form or phenomenon (a genre, an art form, a technology, a social practice). Write a brief analysis that diagnoses its cultural significance. What patterns does it reveal about our moment? What is its relationship to earlier cultural moments? What larger claim can you make about it?
   type: short-answer
+  answer: "Analyze the form's features closely, place it in relation to earlier cultural practices it continues or changes, and then argue a larger claim about what it reveals about the present moment."
   explanation: 'For example, analyzing social media: Formally, it combines public performance (posts, photos) with personal relationship (following friends). Historically, it continues a tradition of diaries and letters made public (predecessors: blogs, early internet forums). The diagnosis: social media has transformed privacy and identity—what was private (personal reflection, intimate communication) is now performed publicly. This reveals something about contemporary culture: we''re negotiating new relationships between private and public, self and audience. The larger claim might be that social media reflects anxieties about visibility and identity in late capitalism. This combines close analysis of the form, historical perspective on its emergence, and argumentative thesis about its meaning.'
 ```
 

@@ -24,6 +24,14 @@ status: draft
 ## Core Idea
 Baldwin's essays fuse personal narrative, historical analysis, and passionate argument into a single voice of moral authority. His work shows that nonfiction can be simultaneously intimate and public, drawing on individual perspective to address systemic injustice. His individual voice becomes a source of credibility rather than a limitation.
 
+## How It's Best Learned
+Read "Notes of a Native Son" with three highlighters: one for personal narrative, one for history, one for moral argument. Mark where the essay widens from his father's death to claims about American racism, and notice how often a single sentence takes two colors. Then write a paragraph that starts from one specific memory of your own and widens to a public claim.
+
+## Common Misconceptions
+- Baldwin's personal stories are anecdotes that decorate his argument. (The personal narrative is part of the argument. His experience serves as evidence and as the entry point to the analysis.)
+- Passionate or angry prose cannot also be rigorous. (Baldwin joins emotional intensity with historical knowledge and careful reasoning, and each strengthens the other.)
+- A first-person essay about injustice speaks only for the writer. (Baldwin's "I" is individual and also representative, moving from one life to claims about shared history.)
+
 ## Questions
 
 ```yaml
@@ -59,6 +67,7 @@ Baldwin's essays fuse personal narrative, historical analysis, and passionate ar
 
 - question: How might Baldwin's approach to the essay differ from traditional argumentative essays that avoid first-person narration? What does his approach gain?
   type: short-answer
+  answer: "Traditional argumentative essays often use an impersonal voice to project neutral authority. Baldwin writes in the first person and brings in memory and emotion, gaining credibility rooted in lived knowledge and the force of moral witness, while giving up an appearance of neutrality that he treats as complicit."
   explanation: Traditional argumentative essays often use third-person or impersonal voice to create distance and authority—'Research shows...' rather than 'I experienced...' Baldwin inverts this. He uses first-person, brings in emotion and personal memory, and gains authority rather than losing it. What he gains is credibility rooted in lived knowledge, accessibility through identification with his particular perspective, and the power of moral witness. He loses the false neutrality of objectivity, but that loss is acceptable when your argument is that neutrality is itself a form of complicity with injustice. His essays show that nonfiction can be personally situated and universally significant at the same time.
 ```
 

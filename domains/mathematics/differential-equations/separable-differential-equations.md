@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 A separable differential equation has the form dy/dx = f(x)g(y), allowing you to separate variables into (1/g(y))dy = f(x)dx and integrate both sides. This is the most straightforward solution technique, converting a differential equation into two integration problems. Separable equations are common in applications and serve as a foundation for more complex methods.
 
+## How It's Best Learned
+Work dy/dx = xy², y(0) = 1 from start to finish. Separating gives −1/y = x²/2 + C, the initial condition gives C = −1, and solving gives y = 2/(2 − x²). Check it by differentiating, then notice it blows up at x = ±√2 and that dividing by y² discarded the solution y = 0.
+
+## Common Misconceptions
+- Dividing by g(y) is harmless. (Any value where g(y) = 0 gives a constant solution that the division removes; for dy/dx = 2xy, the solution y = 0 has to be added back or recovered by letting the constant be zero.)
+- From ln|y| = x² + C you get y = e^(x²) + e^C. (Exponentiating gives |y| = e^C · e^(x²), so the constant multiplies, giving y = Ae^(x²).)
+- Each side gets its own constant, and both must be kept. (Two constants C₁ and C₂ combine into one, so a single constant on one side is enough.)
+- The solution formula is valid for every x. (A solution can blow up or leave its domain at a finite x, as y = 2/(2 − x²) does at x = ±√2, so the interval containing the initial point matters.)
+
 ## Questions
 
 ```yaml

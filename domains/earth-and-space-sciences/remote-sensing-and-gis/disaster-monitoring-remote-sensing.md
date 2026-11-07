@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 Remote sensing provides critical situational awareness before, during, and after natural disasters when ground access is limited or dangerous. Pre-disaster baseline imagery enables rapid damage assessment by comparison. During events, SAR penetrates clouds and smoke to map floods and earthquake damage, while thermal sensors detect active fires. Post-disaster change detection quantifies damage extent and severity. The International Charter on Space and Major Disasters coordinates free satellite imagery for emergency response. Key applications include flood extent mapping (SAR), wildfire detection and progression (thermal/SWIR), earthquake damage assessment (InSAR, optical change detection), landslide mapping (optical/SAR), and volcanic monitoring (thermal, InSAR, SO2 from UV spectrometers).
 
+## How It's Best Learned
+Map one flood from a pre-event and a during-event Sentinel-1 pair by thresholding low backscatter, then check the result against an optical image taken after the clouds clear. For fire, compute burn severity by hand: pre-fire NIR 0.40 and SWIR 0.10 give NBR 0.6, post-fire 0.15 and 0.25 give NBR -0.25, so dNBR is 0.85.
+
+## Common Misconceptions
+- A satellite can image a disaster area at any moment. (A low-orbit satellite passes over a given place only at set times, so the first useful image may come hours or days after the event unless several satellites are combined. Geostationary satellites watch continuously, but only at coarse resolution.)
+- Every dark area in a SAR flood image is water. (Smooth surfaces such as tarmac and calm dry sand, and radar shadow behind hills, also look dark, so pre-event images and terrain data are needed to remove them.)
+- Flooding under trees or between buildings shows up as dark in SAR. (Water under vegetation or among buildings can create double-bounce returns that look brighter, so open-water thresholds miss these floods.)
+- Optical images give the most up-to-date view during a storm. (Cloud blocks optical and thermal sensors, and smoke blocks visible light, which is why radar is often the first sensor to map an active flood.)
+
 ## Questions
 
 ```yaml

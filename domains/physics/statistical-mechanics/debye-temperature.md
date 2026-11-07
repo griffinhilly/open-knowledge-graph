@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 The Debye temperature Θ_D = ℏω_D/k, where ω_D is the Debye cutoff frequency, sets the energy scale for phononic excitations. When T ≪ Θ_D, the solid is 'quantum' and C_V ∝ T^3; when T ≫ Θ_D, it is 'classical' and C_V = 3R. Measuring C_V(T) allows experimental determination of Θ_D.
 
+## How It's Best Learned
+Extract Θ_D from metal data on a plot of C_V/T against T². The low-temperature form is C_V = γT + AT³ with A = (12π⁴/5)R/Θ_D³ ≈ 1944/Θ_D³ J mol⁻¹ K⁻⁴. The intercept gives γ, and the slope gives A. A slope of 1.94 × 10⁻⁴ J mol⁻¹ K⁻⁴ gives Θ_D = (1944/A)^(1/3) ≈ 215 K. Then convert Θ_D to an energy with k_B: lead's 105 K is about 9 meV.
+
+## Common Misconceptions
+- At Θ_D the solid switches abruptly from quantum to classical behavior. (The crossover is gradual. At T = Θ_D the Debye C_V is already about 95% of 3R.)
+- The T³ law holds whenever T is below Θ_D. (It holds only well below Θ_D. At T = Θ_D/4 the extrapolated cubic law would already exceed 3R.)
+- A material has one Debye temperature that fits its heat capacity at every temperature. (Real phonon spectra are not exactly ω² up to a sharp cutoff. A Θ_D fitted at each temperature drifts, so tables usually quote the low-temperature value.)
+
 ## Questions
 
 ```yaml

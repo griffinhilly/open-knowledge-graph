@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Response functions describe how a system deviates from equilibrium when subjected to small external perturbations. Linear response theory states that observables respond linearly to weak driving forces, with the response function related to equilibrium fluctuations through the fluctuation-dissipation theorem.
 
+## How It's Best Learned
+Work the damped oscillator m ẍ + γ ẋ + mω₀² x = F(t) as the model case. Its impulse response χ(t) is zero for t < 0 and, for light damping, a decaying sine after the kick. With F ∝ e^(−iωt), χ(ω) = 1/[m(ω₀² − ω²) − iγω]. The mean absorbed power is (ω/2)χ″F₀², with χ″ = γω/[m²(ω₀² − ω²)² + γ²ω²], which peaks near ω₀.
+
+## Common Misconceptions
+- The response at time t depends only on the field at time t. (The response weights the whole past history of the field through χ(t − t′). Only a response function proportional to δ(t − t′) would be instantaneous.)
+- Linear response requires the system itself to have linear dynamics. (The linearity is in the size of the perturbation. The unperturbed system can be strongly interacting, and χ comes from its full equilibrium dynamics.)
+- The static susceptibility is the value of χ(t) at t = 0. (The static susceptibility is χ̃(0) = ∫χ(t) dt, the response to a constant field after transients die out. The value just after t = 0 describes the immediate reaction to a kick.)
+
 ## Questions
 
 ```yaml

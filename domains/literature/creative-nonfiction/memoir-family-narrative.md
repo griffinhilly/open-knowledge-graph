@@ -24,6 +24,14 @@ status: draft
 ## Core Idea
 Family memoirs navigate competing narratives, private intimacy, and public revelation while exploring how family relationships shape identity. Writers must balance individual truth-telling with loyalty to family members, negotiate multiple perspectives within shared history, and consider the ethics of representing others' private experiences.
 
+## How It's Best Learned
+Pick one family event and write a paragraph about it from your own memory. Then ask a relative who was there what they remember, and write their account separately. Draft a passage that holds both versions, marking clearly what you saw, what you were told, and what you cannot know about other people's motives.
+
+## Common Misconceptions
+- A family memoir is the writer's story, so other family members' views do not matter. (It represents real people who have their own memories of shared events, and good family memoirs acknowledge competing accounts.)
+- Honesty means putting in everything you know about your family. (Writers weigh what each private detail adds to the story against the harm it does to the person exposed.)
+- The memoirist can describe what a parent was thinking if it feels right. (The writer should mark the limits of their knowledge and avoid inventing other people's motives.)
+
 ## Questions
 
 ```yaml
@@ -59,6 +67,7 @@ Family memoirs navigate competing narratives, private intimacy, and public revel
 
 - question: How might a family memoirist approach representing a family conflict where their understanding differs from family members' understandings?
   type: short-answer
+  answer: "The writer can present their own experience clearly, acknowledge that other family members understood the events differently, and be open about what they do not know, such as why a parent made a decision. The memoir then holds several perspectives without declaring one of them the truth."
   explanation: 'The writer might: present their own perspective and experience clearly. Acknowledge how other family members understood the same events differently. Be transparent about limits of knowledge—''I didn''t know why my parents made that decision'' rather than inventing motivation. Consider why the conflict mattered, what it revealed. Possibly quote or paraphrase what family members said, without claiming to know their internal thoughts. The memoir would show the complexity of multiple perspectives existing simultaneously, rather than declaring one perspective the ''truth.'' This approach honors both the writer''s truth-telling and the complexity of family relationships.'
 ```
 

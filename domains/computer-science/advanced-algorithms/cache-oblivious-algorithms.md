@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Cache-oblivious algorithms achieve optimal I/O complexity without knowing the memory parameters M (cache size) and B (block size). They work by being simultaneously efficient for all values of M and B, relying on an ideal cache replacement policy (like LRU) to manage block transfers. The van Emde Boas layout stores a static search tree in memory so that searching costs O(log_B N) I/Os — matching B-trees — without knowing B. Funnelsort achieves the optimal sorting bound O((N/B) * log_{M/B}(N/B)) without knowing M or B. The key design principle is recursive decomposition at all scales: problems are divided into subproblems that fit in cache at some level of the recursion, regardless of the actual cache size. This yields algorithms that are portable across memory hierarchies and simultaneously optimal at every cache level.
 
+## How It's Best Learned
+Draw a complete binary tree of height 4 and number its nodes in BFS order, then in van Emde Boas order. Pick a block size, say 3 nodes, and count how many blocks one root-to-leaf search touches in each layout. Repeat with a different block size without changing the vEB layout. Analyzing recursive matrix multiplication the same way extends the idea from data structures to algorithms.
+
+## Common Misconceptions
+- A cache-oblivious algorithm ignores the cache. (It is designed so that it performs well for every cache size and block size. Only the code is free of M and B. The analysis uses both.)
+- Cache-oblivious algorithms are faster than cache-aware ones on any given machine. (They match the asymptotic I/O bounds, but a cache-aware algorithm tuned to one machine can win by constant factors.)
+- The ideal-cache assumption makes the results unrealistic. (LRU with twice the cache size is within a constant factor of the optimal offline policy. So for algorithms whose bound changes by at most a constant factor when M is halved, the bounds carry over to real LRU-like caches.)
+- Any recursive divide-and-conquer algorithm is automatically cache-oblivious optimal. (Recursion alone is not enough. Plain 2-way mergesort is recursive and scans memory in order, but it costs O((N/B) log_2(N/M)) I/Os, above the optimal sorting bound. Funnelsort reaches the bound by merging many runs at once.)
+
 ## Questions
 
 ```yaml

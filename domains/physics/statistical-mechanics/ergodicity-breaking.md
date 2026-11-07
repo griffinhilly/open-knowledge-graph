@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Ergodicity breaking occurs when a system's phase space fragments into disconnected regions separated by high barriers, preventing exploration of all microstates within experimental timescales. This commonly occurs in glasses and disordered systems, where dynamics become trapped in limited phase space regions far from true equilibrium.
 
+## How It's Best Learned
+Use the Arrhenius escape time τ = τ₀ e^(ΔF/kT) for a double well, with an assumed attempt time τ₀ = 10⁻¹² s. A barrier of 30 kT gives about 10 s, 40 kT about 3 days, and 50 kT about 160 years. Small barrier changes move a system from ergodic to trapped on lab timescales. Then compare a ferromagnet, whose barrier grows with the domain-wall area and so with system size.
+
+## Common Misconceptions
+- Ergodicity breaking needs infinite barriers. (Finite barriers are enough once the escape time exceeds the observation time. Whether a system counts as ergodic depends on the timescale of the measurement.)
+- Old cathedral windows are thicker at the bottom because glass flows slowly at room temperature. (The relaxation time of window glass at room temperature is vastly longer than the windows' age. The uneven thickness comes from how the panes were made.)
+- A trapped system has no usable thermodynamics. (Within one valley the system often reaches a restricted equilibrium. A ferromagnet below T_c is described well by an ensemble limited to one magnetization direction.)
+
 ## Questions
 
 ```yaml
@@ -51,7 +59,7 @@ Ergodicity breaking occurs when a system's phase space fragments into disconnect
   answer: true
   explanation: "This is the operational definition of ergodicity breaking. Ergodicity, in statistical mechanics, equates time averages with ensemble averages — the justification for using equilibrium ensembles to predict measurable properties. When a system is trapped in a metastable free-energy valley, it samples only that valley's portion of phase space over any realistic observation time. Its time-averaged properties reflect the local valley, not the full ensemble of all accessible microstates — which is why different samples (different valleys) exhibit different properties."
 
-- question: "Ergodicity breaking typically requires a sharp thermodynamic phase transition — systems that remain in a disordered, amorphous state as they are cooled can seldom break ergodicity."
+- question: "Ergodicity breaking typically requires a sharp thermodynamic phase transition — systems that remain in a disordered, amorphous state as they are cooled cannot break ergodicity."
   type: true-false
   answer: false
   explanation: "Glasses are the paradigm counterexample. A glass-forming liquid cooled below T_g becomes kinetically arrested in an amorphous, disordered state — no crystallization, no sharp phase transition, no obvious order parameter. The ergodicity breaking is kinetic: structural relaxation times grow faster than experimentally accessible timescales as temperature drops, eventually trapping the system. This is distinct from symmetry-breaking ergodicity breaking at equilibrium phase transitions. Glass demonstrates that ergodicity breaking can arise from dynamics alone, without any thermodynamic transition."

@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 Singular cohomology H^n(X; G) is defined by applying Hom(-, G) to the singular chain complex of X. It inherits all the computational tools of singular homology (long exact sequences, Mayer-Vietoris, excision) in dualized form, with arrows reversed. Singular cohomology is the natural home for duality theorems, multiplicative structures, and obstruction theory. Its pairing with homology via the Kronecker pairing provides a bridge between the two theories.
 
+## How It's Best Learned
+Begin with degrees where cochains are easy to picture. Show that H^0(X; G) is the group of functions from path components to G. Show that H^1(X; Z) ≅ Hom(H_1(X), Z), so the figure-eight has H^1 = Z^2. Then run the cohomology Mayer-Vietoris sequence for S^1 as two arcs, writing each arrow in its reversed direction. Finally check that H^2(RP^2; Z) = Z/2 pairs to zero with H_2(RP^2) = 0.
+
+## Common Misconceptions
+- H^0(X; G) equals G for every space. (It is the group of functions from the set of path components to G, which is a product of copies of G, one per component.)
+- Every cohomology class can be detected by evaluating it on cycles. (Torsion classes pair to zero with all of H_n. The class generating H^2(RP^2; Z) = Z/2 has nothing to evaluate on, because H_2(RP^2) = 0.)
+- Cohomology just repeats homology with arrows reversed, so it adds nothing. (The groups are determined by homology through the universal coefficient theorem, but the cup product ring carries information that homology groups do not.)
+
 ## Questions
 
 ```yaml

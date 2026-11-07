@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 VC dimension theory deepens the analysis of the VC dimension as a fundamental measure of hypothesis class capacity. Beyond the basic definition (the size of the largest shatterable set), the theory establishes precise relationships: VC dimension d implies sample complexity O(d/epsilon) for PAC learning, and vice versa. The Vapnik-Chervonenkis theorem connects VC dimension to uniform convergence rates through covering numbers and epsilon-nets. Advanced topics include the connection between VC dimension and shattering, lower bounds on VC dimension for various hypothesis classes, and the relationship to other complexity measures like fat-shattering and Rademacher complexity.
 
+## How It's Best Learned
+Prove VC dimensions in two separate halves. For intervals on a line, shatter one 2-point set, then show that any three points a < b < c cannot get the labels (+, −, +). For axis-aligned rectangles, shatter four points in a diamond. Then, for any five points, label one topmost, one bottommost, one leftmost and one rightmost point +. These are at most four points, so at least one point is left over. The bounding box of the + points contains every point, so a left-over point cannot be −.
+
+## Common Misconceptions
+- Proving VC dimension d requires shattering every set of d points. (One shattered set of size d is enough for the lower bound. The upper bound is the hard half: no set of size d + 1 can be shattered.)
+- Failing to shatter one particular set of d + 1 points proves the VC dimension is at most d. (Every set of that size must fail. Lines in the plane cannot shatter three collinear points, yet their VC dimension is 3 because other 3-point sets are shattered.)
+- VC dimension equals the number of parameters. (It matches for linear classifiers, but the one-parameter class sign(sin(ωx)) has infinite VC dimension.)
+- A class with high VC dimension will overfit. (VC dimension bounds the worst case. A high-capacity class can still generalize well when the target is simple and the algorithm finds a simple hypothesis.)
+
 ## Questions
 
 ```yaml

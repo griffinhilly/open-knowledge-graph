@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Black hole thermodynamics establishes a precise analogy — elevated to physical identity by Hawking's discovery of black hole radiation — between the laws of black hole mechanics and the laws of thermodynamics. The four laws are: (0) the surface gravity κ is constant over the event horizon (analogous to thermal equilibrium at uniform temperature); (1) dM = (κ/8πG)dA + Ω_H dJ + Φ_H dQ (analogous to dE = TdS + work terms); (2) the horizon area A never decreases in classical processes (analogous to entropy never decreasing); (3) κ cannot be reduced to zero in a finite number of steps (analogous to the unattainability of absolute zero). Bekenstein proposed that black holes carry entropy S_BH = kA/(4l_P²), proportional to the horizon area, and Hawking's calculation of black hole radiation confirmed that black holes have temperature T_H = ħκ/(2πck), validating the thermodynamic interpretation. Black hole entropy is enormous — a solar-mass black hole has S ~ 10⁷⁷k, vastly exceeding the entropy of any ordinary matter configuration of the same mass.
 
+## How It's Best Learned
+Lay the four laws of black hole mechanics beside the four laws of thermodynamics in a two-column table, pairing κ with T and A with S. Then integrate the first law for a Schwarzschild hole: with d(Mc²) = T dS and T_H = ħc³/(8πGMk), you get S = 4πGkM²/(ħc). Finish by computing T_H for one solar mass, about 6 × 10⁻⁸ K, and comparing it with the 2.7 K microwave background.
+
+## Common Misconceptions
+- A black hole's entropy grows with the volume inside its horizon, like the entropy of a gas. (The Bekenstein-Hawking entropy is proportional to the horizon area, S = kA/(4l_P²).)
+- Bigger black holes are hotter. (For a Schwarzschild hole T_H is proportional to 1/M, so larger holes are colder, and a hole that loses mass gets hotter.)
+- Hawking radiation shrinks the horizon, so black holes break the second law. (The area theorem assumes classical matter obeying the null energy condition. The generalized second law counts ordinary entropy plus black hole entropy, and that total is expected not to decrease.)
+- The surface gravity κ is the acceleration a hovering observer feels at the horizon. (That proper acceleration grows without bound near the horizon. κ is the finite value obtained after multiplying by the redshift factor, as measured from infinity.)
+
 ## Questions
 
 ```yaml

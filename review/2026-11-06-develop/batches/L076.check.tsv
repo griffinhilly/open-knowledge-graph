@@ -1,0 +1,69 @@
+domains/economics/advanced-macroeconomics/ak-growth-model-capital-accumulation.md	how	5	0	ok	AK 5% and Solow 15%/5%/0% at k=1,4,16 all check
+domains/economics/advanced-macroeconomics/ak-growth-model-capital-accumulation.md	mis	6	0	ok
+domains/economics/advanced-macroeconomics/ak-model-endogenous-growth.md	how	4	0	ok	sAK^(α−1) vs δ for α=0.9/1/1.1 behaves as stated
+domains/economics/advanced-macroeconomics/ak-model-endogenous-growth.md	mis	6	0	ok
+domains/economics/advanced-macroeconomics/asset-pricing-macro.md	how	5	0	ok	prices 0.975/1.02, returns 7.7%/2.9%, Rf 5.3% all check
+domains/economics/advanced-macroeconomics/asset-pricing-macro.md	mis	6	0	ok
+domains/economics/advanced-macroeconomics/asset-pricing-macro.md	old:q:0:explanation	1	1	fixed	said booms are when "household consumption and marginal utility are low"; consumption is high in booms
+domains/economics/advanced-macroeconomics/asset-pricing-macroeconomy.md	how	4	0	ok	2/(0.07−0.03)=50, 2/0.05=40
+domains/economics/advanced-macroeconomics/asset-pricing-macroeconomy.md	mis	6	0	ok
+domains/economics/advanced-macroeconomics/asset-pricing-macroeconomy.md	old:q:0:explanation	1	1	fixed	said countercyclical assets command "a price discount"; they command a higher price (lower return)
+domains/economics/advanced-macroeconomics/balance-of-payments-capital-flows.md	how	3	0	ok
+domains/economics/advanced-macroeconomics/balance-of-payments-capital-flows.md	mis	6	0	ok
+domains/economics/advanced-macroeconomics/bellman-equation-dynamic-programming.md	how	5	0	ok	worked: c=W/(1+β) on pass 2; b=1/(1−β), c=(1−β)W
+domains/economics/advanced-macroeconomics/bellman-equation-dynamic-programming.md	mis	6	0	ok
+domains/economics/advanced-macroeconomics/calvo-pricing-model.md	how	4	0	ok	10(1−0.75^t): 2.5, 4.375, 6.84
+domains/economics/advanced-macroeconomics/calvo-pricing-model.md	mis	6	0	ok	0.75^4=31.6% checks
+domains/economics/advanced-macroeconomics/calvo-pricing-model.md	old:q:3:question	1	1	fixed	garbled "nearly generally close" (softening artifact) -> "close"
+domains/economics/advanced-macroeconomics/calvo-pricing-sticky-prices.md	how	4	0	ok	100 + θ/(1−θ) = 101 checks
+domains/economics/advanced-macroeconomics/calvo-pricing-sticky-prices.md	mis	6	0	ok
+domains/economics/advanced-macroeconomics/consumption-smoothing-intertemporal.md	how	5	0	ok	50/50/110 -> 70; +10; +30 check
+domains/economics/advanced-macroeconomics/consumption-smoothing-intertemporal.md	mis	6	1	fixed	"a change that signals higher lifetime resources moves consumption almost one for one" overstated; only a permanent rise does -> qualified
+domains/economics/advanced-macroeconomics/consumption-smoothing-intertemporal.md	old:q:3:question	1	1	fixed	"generally consume more" keyed false is wrong (current and permanent income correlate); softening artifact restored to "always"
+domains/economics/advanced-macroeconomics/dsge-models.md	how	4	0	ok
+domains/economics/advanced-macroeconomics/dsge-models.md	mis	6	0	ok	note: old q:2 (true) states Lucas-critique immunity as settled; caveat only in q:4 explanation
+domains/economics/advanced-macroeconomics/endogenous-growth-lucas.md	how	5	0	ok	e^(0.01t)=8/7 -> t≈13.4 checks
+domains/economics/advanced-macroeconomics/endogenous-growth-lucas.md	mis	6	0	ok
+domains/economics/advanced-macroeconomics/endogenous-growth-romer.md	how	3	0	ok
+domains/economics/advanced-macroeconomics/endogenous-growth-romer.md	mis	6	0	ok
+domains/economics/advanced-macroeconomics/endogenous-growth-theory.md	how	3	0	ok	(1.025/1.02)^50 ≈ 1.277 checks
+domains/economics/advanced-macroeconomics/endogenous-growth-theory.md	mis	6	0	ok
+domains/economics/advanced-macroeconomics/euler-equation-consumption.md	how	4	0	ok	1.0176^0.5 ≈ 0.88%, 1.0176^2 ≈ 3.55%
+domains/economics/advanced-macroeconomics/euler-equation-consumption.md	mis	6	0	ok
+domains/economics/advanced-macroeconomics/euler-equation-intertemporal-choice.md	how	4	0	ok	FOC + envelope worked; gives u'(c)=β(1+r)u'(c')
+domains/economics/advanced-macroeconomics/euler-equation-intertemporal-choice.md	mis	6	0	ok
+domains/economics/advanced-macroeconomics/exchange-rate-dynamics.md	how	4	0	ok	5% + 3×2% = 11% jump, 6% slide
+domains/economics/advanced-macroeconomics/exchange-rate-dynamics.md	mis	6	0	ok
+domains/economics/advanced-macroeconomics/expectation-formation-mechanisms.md	how	4	0	ok	6 years × 2 points = 12 point-years
+domains/economics/advanced-macroeconomics/expectation-formation-mechanisms.md	mis	6	0	ok
+domains/economics/advanced-macroeconomics/financial-accelerator-mechanism.md	how	3	0	ok	NW 20->10, capacity 5×10=50
+domains/economics/advanced-macroeconomics/financial-accelerator-mechanism.md	mis	6	0	ok	style: "leveraged" kept as the finance term, not the banned verb
+domains/economics/advanced-macroeconomics/financial-accelerator-mechanism.md	old:q:1:question	1	1	fixed	statement read "symmetric — it amplifies downturns but not expansions" (self-contradictory) -> "asymmetric"
+domains/economics/advanced-macroeconomics/financial-frictions-amplification.md	how	4	0	ok	1/(1−f): 1.43, 2, 3.33. style: "leverage" kept as finance noun
+domains/economics/advanced-macroeconomics/financial-frictions-amplification.md	mis	6	0	ok	note: old q:3 keys accelerator as symmetric (true); linearized BGG is symmetric but contested
+domains/economics/advanced-macroeconomics/financial-frictions-credit-constraints.md	how	5	1	fixed	82.5 needs equal shares of the two types, which was not stated; exercise failed when worked -> added "Half the applicants are of each type"
+domains/economics/advanced-macroeconomics/financial-frictions-credit-constraints.md	mis	6	0	ok
+domains/economics/advanced-macroeconomics/fiscal-policy-sustainability.md	how	5	0	ok	60×0.99+1=60.4; d*=1/0.01=100
+domains/economics/advanced-macroeconomics/fiscal-policy-sustainability.md	mis	6	0	ok	3%/1% = 300% checks
+domains/economics/advanced-macroeconomics/fiscal-policy-sustainability.md	old:q:3:question	1	1	fixed	"must immediately run a primary surplus to prevent debt from becoming unsustainable" keyed true; solvency does not require an immediate surplus -> "to keep the debt-to-GDP ratio from rising"
+domains/economics/advanced-macroeconomics/forward-guidance-central-bank.md	how	4	0	ok	(0+1+2)/3=1%, (0+0+2)/3≈0.67%
+domains/economics/advanced-macroeconomics/forward-guidance-central-bank.md	mis	6	0	ok
+domains/economics/advanced-macroeconomics/golden-rule-capital-accumulation.md	how	5	0	ok	c = 1.077/1.121/1.087; f'(k*)=0.1 at s=0.3
+domains/economics/advanced-macroeconomics/golden-rule-capital-accumulation.md	mis	6	0	ok
+domains/economics/advanced-macroeconomics/golden-rule-capital-accumulation.md	old:q:0:answer	1	1	fixed	f'(k*)=0.06 < δ=0.10 is above the golden rule (dynamically inefficient); key was 2, now 1; explanation rewritten
+domains/economics/advanced-macroeconomics/golden-rule-capital-accumulation.md	old:core	1	1	fixed	Core Idea said most developed economies are above the golden rule; contradicts Explainer and Abel et al. (1989) -> corrected
+domains/economics/advanced-macroeconomics/government-debt-fiscal-sustainability.md	how	4	0	ok	0.9 + 4.1 = 5; 0.02/0.02 = 100%
+domains/economics/advanced-macroeconomics/government-debt-fiscal-sustainability.md	mis	6	1	fixed	"only when it is unexpected" imprecise: what matters is inflation not expected when the debt was issued -> qualified
+domains/economics/advanced-macroeconomics/government-spending-multiplier.md	how	4	0	ok
+domains/economics/advanced-macroeconomics/government-spending-multiplier.md	mis	6	0	ok	note: old q:4 explanation states larger recession/ZLB multipliers as broadly supported; contested (e.g. Ramey-Zubairy 2018)
+domains/economics/advanced-macroeconomics/household-optimization-consumption-savings.md	how	4	0	ok	110/1.21/2 ≈ 45.5
+domains/economics/advanced-macroeconomics/household-optimization-consumption-savings.md	mis	6	0	ok
+domains/economics/advanced-macroeconomics/human-capital-accumulation.md	how	4	0	ok	MRW with α=β=1/3 gives s_k·s_h/(n+g+δ)²; plain Solow √2
+domains/economics/advanced-macroeconomics/human-capital-accumulation.md	mis	6	0	ok
+domains/economics/advanced-macroeconomics/inflation-unemployment-tradeoff.md	how	4	0	ok
+domains/economics/advanced-macroeconomics/inflation-unemployment-tradeoff.md	mis	6	0	ok	note: old q:3 (true) states anticipated-policy neutrality as settled; false under sticky prices
+domains/economics/advanced-macroeconomics/intergenerational-equity-fiscal-policy.md	how	4	0	ok	PAYG return ≈ n + g ≈ 2%
+domains/economics/advanced-macroeconomics/intergenerational-equity-fiscal-policy.md	mis	6	0	ok
+domains/economics/advanced-macroeconomics/lifecycle-hypothesis-consumption.md	how	5	0	ok	2400/60=40; peak 800; 40×20 = 20×40 = 800
+domains/economics/advanced-macroeconomics/lifecycle-hypothesis-consumption.md	mis	6	0	ok
+domains/economics/advanced-macroeconomics/lifecycle-hypothesis-consumption.md	old:core	1	1	fixed	Core Idea said people save "when young (and earning less)"; contradicts Explainer -> "saving during working years"

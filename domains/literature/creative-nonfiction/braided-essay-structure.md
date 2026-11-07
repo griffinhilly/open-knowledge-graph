@@ -23,6 +23,14 @@ status: draft
 ## Core Idea
 The braided essay weaves multiple narrative strands or time periods simultaneously, creating meaning through the relationships and parallels between them. This non-linear structure mirrors how consciousness actually works—moving across time, topic, and self—while discovering connections the linear narrative essay might obscure. Braiding requires craft to maintain coherence while embracing apparent discontinuity.
 
+## How It's Best Learned
+Draft two short strands separately: a present-day scene and a childhood memory, or a personal story and a piece of researched history. Cut each into four or five sections and alternate them. Read the result aloud and mark each seam where an image or word in one strand echoes the next. Rearranging the sections once shows how order changes the connections a reader finds.
+
+## Common Misconceptions
+- A braided essay is disorganized because it keeps switching subjects. (Its order is deliberate. Coherence comes from theme, echoes, and a rhythm of returns to each strand.)
+- The writer should explain how the strands connect. (Much of the effect comes from the reader discovering the links through juxtaposition, and heavy explanation can flatten it.)
+- Any two stories placed side by side make a braid. (Each strand needs to be coherent on its own, and the strands need a real relationship for their pairing to create meaning.)
+
 ## Questions
 
 ```yaml
@@ -58,6 +66,7 @@ The braided essay weaves multiple narrative strands or time periods simultaneous
 
 - question: How might a braided essay about grief (weaving together a present-day experience with childhood memories and reflections on aging) create different meaning than a linear essay covering the same material in sequence? What does braiding gain?
   type: short-answer
+  answer: "A linear essay would move through the three periods in order and suggest steady development toward understanding. A braided essay returns to each strand in turn, so the present grief, the childhood loss, and thoughts of aging sit side by side and echo one another. Braiding gains a sense of simultaneity that fits how grief recurs rather than progresses neatly."
   explanation: 'A linear essay might trace the development of understanding grief over time—childhood experience, reflection on it now, thoughts about future aging. The structure suggests cause-and-effect, development, growing wisdom. A braided essay would return repeatedly to these three time periods, showing how the present grief echoes the childhood loss, how aging is already changing how we remember. The braiding creates simultaneity—these are not separate in time but interpenetrating. The reader feels the complexity of multiple times present at once. Braiding gains a kind of emotional truth: grief doesn''t progress neatly; it involves past and future, patterns recurring. Linear structure might suggest progress; braiding shows the actual texture of consciousness.'
 ```
 

@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 A smooth manifold is a topological manifold equipped with an atlas whose transition maps are infinitely differentiable. This additional structure lets you do calculus on the manifold, not just topology. The smoothness condition on overlapping charts ensures that the notion of "differentiable function" is well-defined regardless of which chart you use.
 
+## How It's Best Learned
+Compute a transition map by hand. On the unit circle, the stereographic charts are u = x/(1 − y) and v = x/(1 + y), and their product is x²/(1 − y²) = 1. So the transition is v = 1/u on u ≠ 0, which is smooth. Then compare two atlases on ℝ, the charts x and x³. One transition is x³, but the other is x^{1/3}, which is not smooth at 0.
+
+## Common Misconceptions
+- Incompatible atlases always give manifolds that are different as smooth manifolds. (ℝ with the chart x³ is not compatible with the standard chart, yet x ↦ x^{1/3} is a diffeomorphism between the two structures.)
+- A smooth homeomorphism is a diffeomorphism. (x ↦ x³ on ℝ is smooth and bijective, but its inverse is not differentiable at 0.)
+- A smooth manifold is by definition a subset of some ℝᴺ. (The definition uses only charts and transition maps. Embedding into ℝᴺ is a theorem of Whitney, not part of the definition.)
+
 ## Questions
 
 ```yaml

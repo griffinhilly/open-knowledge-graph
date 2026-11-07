@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 A sequence of module homomorphisms ··· → Mᵢ₋₁ →^{fᵢ₋₁} Mᵢ →^{fᵢ} Mᵢ₊₁ → ··· is exact at Mᵢ if the image of fᵢ₋₁ equals the kernel of fᵢ. A short exact sequence 0 → A → B → C → 0 encodes the idea that B is "built from" A and C, with A embedded as a submodule and C isomorphic to the quotient B/A. Exact sequences are the primary language for expressing structural relationships between modules.
 
+## How It's Best Learned
+Check exactness by computing kernel and image at every spot of small ℤ-module sequences. Compare 0 → ℤ/2ℤ → ℤ/4ℤ → ℤ/2ℤ → 0 with 0 → ℤ/2ℤ → ℤ/2ℤ ⊕ ℤ/2ℤ → ℤ/2ℤ → 0, which share both ends but have different middles. Then tensor 0 → ℤ →^{×2} ℤ → ℤ/2ℤ → 0 with ℤ/2ℤ and watch the first map become zero.
+
+## Common Misconceptions
+- The two end terms A and C determine the middle term B. (ℤ/4ℤ and ℤ/2ℤ ⊕ ℤ/2ℤ both sit between ℤ/2ℤ and ℤ/2ℤ in short exact sequences, and they are not isomorphic.)
+- A sequence is exact when each composite of consecutive maps is zero. (That only gives im ⊆ ker, which defines a complex. In 0 → ℤ →^{×2} ℤ → 0 every composite is zero, but the sequence is not exact at the second ℤ.)
+- Applying a functor to a short exact sequence gives another short exact sequence. (Tensoring 0 → ℤ →^{×2} ℤ → ℤ/2ℤ → 0 with ℤ/2ℤ turns multiplication by 2 into the zero map ℤ/2ℤ → ℤ/2ℤ, which is not injective.)
+
 ## Questions
 
 ```yaml

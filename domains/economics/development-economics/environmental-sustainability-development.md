@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Economic growth and environmental sustainability can conflict if growth depletes natural capital (forests, fisheries, groundwater) or generates unpriced externalities (pollution, greenhouse gases). Sustainable development requires internalizing environmental costs, investing in green technology, and protecting ecosystems—balancing poverty reduction with long-term viability.
 
+## How It's Best Learned
+Keep a balance sheet for one country with three capital stocks: physical, human, and natural. Record a year in which it sells $5 billion of old-growth timber and invests part of it in schools, and compute the change in each stock. Then compare that with what GDP reports. Last, take the farmer clearing forest and name who bears each cost.
+
+## Common Misconceptions
+- If GDP rises, the country is getting richer. (GDP counts resource extraction as income without subtracting the lost asset, so a country can grow while running down its wealth.)
+- A carbon tax works by making clean energy cheaper. (It raises the price of fossil fuels to reflect their climate cost. Clean energy becomes more competitive because its rivals cost more.)
+- Poor households that clear forest are acting irrationally. (Given their constraints the choice can be rational. The problem is that the forest's value to others and to future generations is unpriced.)
+- Protecting the environment and reducing poverty are always in conflict. (They often pull apart, but tools such as payments for ecosystem services can make conservation a source of income.)
+
 ## Questions
 
 ```yaml

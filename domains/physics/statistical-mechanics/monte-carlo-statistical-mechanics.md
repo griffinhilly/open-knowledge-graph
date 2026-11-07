@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Monte Carlo methods estimate thermal averages by sampling microstates according to their Boltzmann weight P(state) ∝ exp(-E/kT). Importance sampling biases random walks toward likely states, vastly reducing computation. The algorithm efficiently explores the configuration space and provides results for systems where analytical solutions are intractable, such as the 3D Ising model.
 
+## How It's Best Learned
+Begin with one variable. Estimate ⟨x²⟩ under the weight e^(−x²/2σ²) on [−1, 1] with σ = 0.05, once by uniform samples with weights and once by sampling the Gaussian directly, and compare the scatter of the two estimates. Then repeat with N independent variables and watch the uniform method's useful sample fraction fall exponentially with N. This is the same failure that makes uniform sampling hopeless for many spins.
+
+## Common Misconceptions
+- Importance sampling biases the result toward likely states. (It changes which states get sampled, not the quantity estimated. Sampling from P(s) itself gives unbiased plain averages, and sampling from another distribution needs correcting weights.)
+- A long enough run makes a Monte Carlo result exact. (Statistical error falls only as 1/√n, and a finite lattice still differs from the infinite system, so results need error bars and extrapolation in size.)
+- Equilibration is finished once the energy stops drifting. (Slower quantities, such as the magnetization or the size of large domains, can still be evolving. Check several observables and compare runs from different starting states.)
+
 ## Questions
 
 ```yaml

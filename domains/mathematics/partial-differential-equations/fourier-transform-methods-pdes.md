@@ -19,6 +19,14 @@ status: validated
 ## Core Idea
 The Fourier transform converts a PDE with constant coefficients into an algebraic equation (or ODE) by transforming spatial derivatives into multiplication by frequency variables. Applying the transform û(ξ,t) = ∫u(x,t)e^(-iξ·x)dx to a PDE like u_t = ku_xx yields û_t = -kξ²û, a simple ODE in t for each frequency ξ. Solving in frequency space and inverting the transform produces the solution. This method is particularly effective for problems on the whole real line or in ℝⁿ where Fourier series are not applicable.
 
+## How It's Best Learned
+Carry one example through all three steps with Gaussian data, where every transform has a closed form. For u_t = ku_xx with u(x, 0) = e^{−x²}, transform, multiply by e^{−kξ²t}, and invert to get u = (1 + 4kt)^{−1/2} e^{−x²/(1 + 4kt)}. Check it at t = 0. Then repeat for the backward equation u_t = −ku_xx and see the factor e^{kξ²t} amplify high frequencies.
+
+## Common Misconceptions
+- The Fourier transform works the same way on a bounded interval. (On a bounded interval the natural tool is a Fourier series or eigenfunction expansion. On a half-line, sine or cosine transforms fit the boundary condition.)
+- Every function has a Fourier transform as an ordinary integral. (The integral converges absolutely for f ∈ L¹. Functions like 1 or x² need the transform in the sense of tempered distributions.)
+- Solving in frequency space and inverting gives a solution for any constant-coefficient problem. (For the backward heat equation the multiplier e^{kξ²t} grows without bound, so for most data the inverse transform does not exist.)
+
 ## Questions
 ```yaml
 - question: "What does the Fourier transform do to the operation ∂²u/∂x²?"

@@ -20,6 +20,14 @@ status: validated
 ## Core Idea
 Stokes' theorem: ∮_C F · dr = ∬_S (∇ × F) · dS (line integral of F around a closed curve equals flux of curl through the surface). Divergence theorem: ∬_S F · dS = ∭_V ∇ · F dV (flux through a closed surface equals integral of divergence over the volume). These unify single, double, and triple integrals.
 
+## How It's Best Learned
+Verify each theorem once by computing both sides. For F = ⟨x, y, z⟩ on the unit sphere, F · n = 1, so the flux equals the area 4π; inside, ∇ · F = 3, and 3 times the volume 4π/3 is also 4π. For Stokes, F = ⟨−y, x, 0⟩ around the unit circle gives 2π, and curl F = ⟨0, 0, 2⟩ through the unit disk gives 2π too.
+
+## Common Misconceptions
+- The Divergence theorem works for any surface, such as a hemisphere. (It needs a closed surface that encloses a solid; for an open surface, close it with a cap and subtract the cap's flux.)
+- Stokes' theorem turns the flux of F through S into a line integral. (The surface side integrates the curl of F, not F itself.)
+- In Stokes' theorem, the curve's direction and the surface's normal can be chosen separately. (They must match by the right-hand rule; a mismatch flips the sign of one side.)
+
 ## Questions
 
 ```yaml

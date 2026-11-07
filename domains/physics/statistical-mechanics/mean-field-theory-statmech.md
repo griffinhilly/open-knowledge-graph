@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Mean-field theory replaces interactions between all neighboring spins with an average interaction from a self-consistent field. This drastically simplifies the calculation: each spin sees an effective field proportional to the average magnetization. The approach correctly predicts second-order transitions and provides analytic critical exponents, though it overestimates T_c and misses fluctuation effects.
 
+## How It's Best Learned
+Solve m = tanh(mT_c/T) at h = 0 by plotting the line y = m against the curve y = tanh(mT_c/T) for T/T_c = 1.2, 0.9 and 0.5, and also by simple iteration from a starting guess. Then compare the mean-field value T_c = zJ/k with accurate values: 2.269 J/k on the square lattice (z = 4), 3.641 J/k on the triangular lattice (z = 6), and about 4.51 J/k on the simple cubic lattice (z = 6).
+
+## Common Misconceptions
+- Mean-field theory says individual spins stop fluctuating. (Each spin still flips thermally in the effective field, with variance 1 − m². What the theory drops is the correlation between neighboring spins.)
+- Below T_c, m = 0 is a valid equilibrium because it still solves the self-consistency equation. (It solves the equation but sits at a maximum of the mean-field free energy. The stable states are the two nonzero solutions ±m₀.)
+- Mean-field theory is never exact. (It is exact for the Curie-Weiss model, where every spin couples equally to all others with strength J/N, and its exponents are exact above four dimensions.)
+
 ## Questions
 
 ```yaml

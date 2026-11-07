@@ -20,6 +20,15 @@ status: validated
 ## Core Idea
 The Green Revolution (1960s–1980s) introduced high-yield seed varieties, chemical fertilizers, and irrigation, vastly raising agricultural productivity in Asia and Latin America. Yields more than doubled, enabling food security and releasing labor. However, benefits concentrated where irrigation was feasible, increasing regional inequality; environmental costs (groundwater depletion, soil degradation) are now apparent.
 
+## How It's Best Learned
+Treat the Green Revolution as a package of four parts: HYV seed, irrigation, fertilizer, and credit. Give two farmers the seed, one in irrigated Punjab and one on rain-fed dryland, and remove parts of the package one at a time to see whose yields hold up. Then add a column for costs that appeared later, such as falling groundwater and pest risk from monoculture.
+
+## Common Misconceptions
+- The Green Revolution is criticized because the new seeds did not work. (The seeds raised yields sharply where conditions suited them. The criticisms concern who benefited, environmental damage, and long-run sustainability.)
+- High-yield seeds produce big gains wherever they are planted. (Their gains depend on reliable water and fertilizer. Rain-fed farmers without these saw much smaller benefits.)
+- Raising national food output helps every region equally. (Gains concentrated where irrigation and capital already existed, which widened regional inequality.)
+- The Green Revolution's yields can be sustained by repeating the same methods. (Heavy irrigation and fertilizer have depleted groundwater and degraded soils in places like Punjab.)
+
 ## Questions
 
 ```yaml

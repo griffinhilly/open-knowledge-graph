@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 The U-Pb system exploits two independent decay chains -- 238U to 206Pb (half-life 4.47 Gyr) and 235U to 207Pb (half-life 0.704 Gyr) -- providing a built-in cross-check on age reliability. Zircon (ZrSiO4) is the premier U-Pb mineral because it incorporates U but excludes Pb during crystallization, and it is physically and chemically extremely resistant. On a concordia diagram (206Pb*/238U vs 207Pb*/235U, where * denotes radiogenic), undisturbed samples plot on the concordia curve at a position corresponding to their age. Lead loss displaces analyses below concordia along discordia lines whose upper intercept gives the crystallization age and lower intercept dates the Pb-loss event. U-Pb zircon geochronology is the gold standard for determining crystallization ages from the Hadean (>4.0 Ga) to the Cenozoic (~1 Ma), with precisions reaching 0.1%.
 
+## How It's Best Learned
+Draw the concordia curve yourself from Pb*/U = e^(lambda t) - 1 for both decay chains. At 1 Ga, 206Pb*/238U is about 0.168 and 207Pb*/235U is about 1.68. Add points at 2 and 3 Ga. Then take a concordant 2.7 Ga zircon and remove part of its Pb in a 0.5 Ga event. Its point slides along the straight chord between those two ages.
+
+## Common Misconceptions
+- Discordant zircons cannot be dated. (A set of discordant analyses that fall on one line can still give the crystallization age from the upper intercept.)
+- The upper intercept of a discordia line is always the crystallization age. (Analyses that mix an old inherited core with a younger rim also fall on a line. Its intercepts then date the two growth events.)
+- A zircon age from a volcanic rock is the eruption age. (Zircon can crystallize in the magma chamber long before eruption, or be inherited from older rocks.)
+- The youngest detrital zircon gives the age the sediment was deposited. (It gives a maximum depositional age. The sediment can be younger.)
+
 ## Questions
 
 ```yaml

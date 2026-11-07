@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 A group isomorphism is a bijective homomorphism. Two groups are isomorphic if there exists an isomorphism between them, meaning they have identical algebraic structure. Isomorphic groups differ only in notation.
 
+## How It's Best Learned
+Write the Cayley tables of ℤ₄ and the rotations of a square side by side, then relabel one table to turn it into the other. Next try the same with ℤ₄ and the Klein four-group and see where it breaks. Keep a checklist of invariants to compare: order, element orders, commutativity, and number of subgroups.
+
+## Common Misconceptions
+- Two groups with the same number of elements are isomorphic. (ℤ₄ and the Klein four-group both have order 4, but only ℤ₄ has an element of order 4.)
+- Any bijection between two groups is an isomorphism. (The bijection must also satisfy φ(ab) = φ(a)φ(b). Between isomorphic groups, many bijections still fail this.)
+- If two groups agree on every invariant I checked, they are isomorphic. (Matching invariants can only rule isomorphism out. To prove two groups isomorphic you need to exhibit an isomorphism or cite a theorem that gives one.)
+
 ## Questions
 
 ```yaml

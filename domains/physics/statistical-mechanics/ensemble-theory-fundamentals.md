@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 An ensemble is a collection of all possible microstates consistent with a given set of macroscopic constraints. Rather than following a single system's trajectory, ensemble theory computes observables as weighted averages over all allowed microstates. The ergodic hypothesis connects time averages for a single system to ensemble averages.
 
+## How It's Best Learned
+Write out all 8 microstates of three spins. Impose the constraint "exactly one spin up": the ensemble is the 3 states ↑↓↓, ↓↑↓ and ↓↓↑ with equal weight, so ⟨s₁⟩ = (1 − 1 − 1)/3 = −1/3. Then run a short program that repeatedly swaps a random pair of opposite spins. The long-time average of s₁ also approaches −1/3, which is ergodicity seen directly.
+
+## Common Misconceptions
+- An ensemble is a real collection of many systems that must be prepared. (It is a probability distribution over microstates. Most experiments measure one system, and the ensemble describes what that system is likely to show.)
+- Ensemble averages work only if the system visits every microstate during a measurement. (A macroscopic system visits a negligible fraction of its microstates in any lab time. Averages still work because nearly all microstates give almost the same macroscopic values.)
+- The ensembles agree for systems of any size. (Agreement comes with large N. For a small system, such as a cluster of a few hundred atoms, the 1/√N fluctuations are visible and the ensembles differ measurably.)
+
 ## Questions
 
 ```yaml

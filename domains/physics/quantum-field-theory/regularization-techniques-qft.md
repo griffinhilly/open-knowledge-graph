@@ -19,6 +19,14 @@ status: validated
 ## Core Idea
 Regularization is a mathematical procedure that makes divergent loop integrals finite by introducing a regulator parameter. Cutoff regularization imposes a maximum momentum; dimensional regularization continues spacetime to d = 4 - epsilon dimensions where integrals converge. The regulator is removed after renormalization absorbs the divergences into physical parameters.
 
+## How It's Best Learned
+Evaluate one Euclidean integral, ∫dᵈk/(2π)ᵈ 1/(k² + Δ)², both ways. With a cutoff in d = 4 you get (1/16π²)[ln(Λ²/Δ) − 1] for large Λ. In dimensional regularization with d = 4 − ε you get (1/16π²)[2/ε − γ + ln 4π − ln Δ]. Line the two up: ln Λ² plays the role of 2/ε, and the Δ dependence matches.
+
+## Common Misconceptions
+- Regularization removes the infinities. (It only makes the integrals finite for a while; the divergences return as Λ → ∞ or ε → 0 unless renormalization absorbs them into the parameters.)
+- Dimensional regularization preserves every symmetry automatically. (It preserves Lorentz and gauge invariance, but γ₅ has no fully consistent definition in d dimensions, so chiral symmetries need extra care.)
+- Different regularization schemes give different values for the same renormalized coupling, so one of them must be wrong. (Couplings defined in different schemes can differ, but once they are related through measured quantities all observables agree.)
+
 ## Questions
 
 ```yaml

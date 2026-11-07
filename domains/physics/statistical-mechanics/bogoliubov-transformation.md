@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 The Bogoliubov transformation is a canonical transformation mixing creation and annihilation operators that diagonalizes quadratic Hamiltonians with off-diagonal terms. It reveals the quasiparticle spectrum and is essential for understanding superfluids and superconductors, where particle and hole excitations are mixed by the condensate.
 
+## How It's Best Learned
+Work one pair of modes by hand first: H = ε(a†a + b†b) + Δ(a†b† + ab), with b standing for the −k mode. Write u = cosh θ and v = sinh θ so that u² − v² = 1 holds automatically, then fix θ by requiring the a†b† terms to cancel. You get E = √(ε² − Δ²). Setting ε = ε_k + gn and Δ = gn recovers Bogoliubov's dispersion.
+
+## Common Misconceptions
+- The coefficients obey u² + v² = 1, like an ordinary rotation of the operator basis. (For bosons the condition is u² − v² = 1, a hyperbolic rotation that preserves the commutation relations. The u² + v² = 1 form belongs to the fermionic version.)
+- The quasiparticle vacuum has every atom in the k = 0 condensate. (In the Bogoliubov ground state each mode k ≠ 0 holds on average v_k² atoms. This quantum depletion is present even at zero temperature.)
+- The transformation gives the exact spectrum of any interacting Bose gas. (It diagonalizes a Hamiltonian already truncated to quadratic order around the condensate. The result is reliable for weak interactions and fails once the dropped higher-order terms matter.)
+
 ## Questions
 
 ```yaml

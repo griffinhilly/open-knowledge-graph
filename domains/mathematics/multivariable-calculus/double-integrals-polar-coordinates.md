@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 In polar coordinates (r, θ), the element dA = r dr dθ (not dr dθ). For a region in polar form, ∬_D f(x, y) dA = ∫_α^β ∫_{r₁(θ)}^{r₂(θ)} f(r cos θ, r sin θ) r dr dθ. Polar coordinates simplify integrals over disks and annuli.
 
+## How It's Best Learned
+Test the factor r on a known area first. Over a disk of radius R, ∫₀^{2π} ∫₀^R r dr dθ = πR², while dropping r gives 2πR, which has units of length rather than area. Then convert x² + y² over the disk of radius 2: the integral becomes ∫₀^{2π} ∫₀² r³ dr dθ = 8π. Draw a polar grid to see the cells widen with r.
+
+## Common Misconceptions
+- To convert, you only need to replace x² + y² with r². (You must also write the rest of the integrand in terms of r and θ, change the limits, and replace dA with r dr dθ.)
+- θ always runs from 0 to 2π. (θ covers only the angles the region occupies, such as 0 to π/2 for a quarter disk in the first quadrant.)
+- The factor r is part of the integrand and can be dropped when f = 1. (The r belongs to the area element, so it stays even when the integrand is 1; that is how ∬ r dr dθ gives area.)
+- Polar coordinates make every double integral easier. (They help when the region or integrand has circular symmetry; for a rectangle or a triangle off the origin, Cartesian limits are usually simpler.)
+
 ## Questions
 
 ```yaml

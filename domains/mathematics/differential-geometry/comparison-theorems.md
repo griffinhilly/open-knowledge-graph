@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Comparison theorems relate the geometry of a Riemannian manifold to model spaces of constant curvature by bounding curvature from above or below. The Rauch comparison theorem controls the growth of Jacobi fields (hence distances) using sectional curvature bounds. The Bishop-Gromov theorem controls volume growth using Ricci curvature bounds. Together, they convert curvature inequalities into quantitative geometric estimates and are the primary tools for proving global topological results from local curvature conditions.
 
+## How It's Best Learned
+First learn the three model Jacobi field lengths: sin(√κ t)/√κ for κ > 0, t for κ = 0, and sinh(√−κ t)/√−κ for κ < 0. Then check Bishop-Gromov by hand on the unit sphere with κ = 0: the ratio of geodesic disk area 2π(1 − cos r) to πr² starts at 1 and decreases. Prove Bonnet-Myers next, as the first theorem the method yields.
+
+## Common Misconceptions
+- A lower bound on Ricci curvature gives the same conclusions as a lower bound on sectional curvature. (Ricci curvature is an average of sectional curvatures. It controls volume and diameter, but Rauch and Toponogov need bounds on sectional curvature.)
+- Bishop-Gromov says balls in M are at least as large as balls in the model space. (With Ric ≥ (n−1)κ the inequality goes the other way: Vol(B_r(p)) ≤ V_κ(r), and the ratio of the two is non-increasing in r.)
+- The Rauch estimate for K ≤ κ holds along a geodesic of any length. (When κ > 0 it holds only up to length π/√κ, the first conjugate point in the model sphere.)
+
 ## Questions
 
 ```yaml

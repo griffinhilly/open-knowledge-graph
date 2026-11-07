@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Geometric Brownian motion (GBM) solves dS = μS dt + σS dW, where both drift and diffusion are proportional to the current value S. Applying Itô's formula to ln(S) reveals that log-returns are normally distributed: ln(S(t)/S(0)) = (μ - σ²/2)t + σW(t), so S(t) = S(0)exp((μ - σ²/2)t + σW(t)). The solution is always positive, lognormally distributed, and is the standard model for stock prices in mathematical finance — the foundation of Black-Scholes theory.
 
+## How It's Best Learned
+Derive d(ln S) with Itô's formula once by hand, then test the result by simulation. Take μ = 0.04 and σ = 0.4, so μ - σ²/2 = -0.04. Simulate many paths from S(0) = 1 to T = 10 and compare the sample mean, near e^{0.4} ≈ 1.49, with the sample median, near e^{-0.4} ≈ 0.67. The mean rises while the typical path falls.
+
+## Common Misconceptions
+- A positive drift μ means a typical path grows. (The median grows at rate μ - σ²/2, which is negative whenever σ² > 2μ, even though E[S(t)] = S(0)e^{μt} rises.)
+- The logarithm of S has drift μ. (Itô's formula gives d(ln S) = (μ - σ²/2)dt + σ dW; the -σ²/2 comes from the second-order term.)
+- Under GBM the simple return S(t)/S(0) - 1 is normally distributed. (The log-return is normal; the simple return is a shifted lognormal, skewed to the right and bounded below by -1.)
+
 ## Questions
 
 ```yaml

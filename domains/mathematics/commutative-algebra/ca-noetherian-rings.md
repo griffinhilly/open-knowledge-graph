@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 A commutative ring is Noetherian if every ideal is finitely generated, or equivalently, if every ascending chain of ideals eventually stabilizes. This finiteness condition is the single most important hypothesis in commutative algebra, ensuring that the ideal structure of a ring is tractable enough for decomposition, dimension theory, and homological methods to work.
 
+## How It's Best Learned
+Climb ascending chains by hand. In ℤ, a chain such as (12) ⊊ (6) ⊊ (3) ⊊ (1) replaces the generator with a proper divisor at each step, so it has to stop. In k[x₁, x₂, ...], the chain (x₁) ⊊ (x₁, x₂) ⊊ ··· never stops. Then write out the proof that finite generation gives ACC, using the union of the chain.
+
+## Common Misconceptions
+- A Noetherian ring has only finitely many ideals. (ℤ has infinitely many ideals (n). The condition limits chains, not the number of ideals.)
+- In a Noetherian ring, descending chains stop too. (That is the Artinian condition. In ℤ, the chain (2) ⊋ (4) ⊋ (8) ⊋ ··· never stops.)
+- Noetherian rings are integral domains. (Zero divisors are allowed. ℤ/4ℤ and k[x]/(x²) are Noetherian, and neither is a domain.)
+
 ## Questions
 
 ```yaml

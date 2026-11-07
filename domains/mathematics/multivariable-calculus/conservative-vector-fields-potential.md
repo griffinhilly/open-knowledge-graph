@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 A vector field F is conservative if F = ∇f for some scalar potential f. For conservative fields, ∫_C F · dr depends only on endpoints (path-independent). If F is conservative and curl-free (∂Q/∂x = ∂P/∂y for F = ⟨P, Q⟩), then ∫ F · dr around any closed path is zero.
 
+## How It's Best Learned
+Take F = ⟨2x + y, x + 3y²⟩, confirm ∂P/∂y = 1 = ∂Q/∂x, and build f = x² + xy + y³. Use it to get ∫ F · dr from (0,0) to (1,2) as f(1,2) − f(0,0) = 11. Then parametrize the straight line r(t) = ⟨t, 2t⟩ and integrate directly. You also get 11, which shows what the potential saves.
+
+## Common Misconceptions
+- Path independence means the line integral is zero. (Only around closed paths. Between distinct points A and B, the integral equals f(B) − f(A), which is usually nonzero.)
+- Running the path backward gives the same value. (Reversing the direction swaps the endpoints, so the integral becomes f(A) − f(B), the negative of the original.)
+- A conservative field has exactly one potential function. (Adding any constant to f gives another potential with the same gradient. The constant cancels in f(B) − f(A), so the line integral is unaffected.)
+
 ## Questions
 
 ```yaml

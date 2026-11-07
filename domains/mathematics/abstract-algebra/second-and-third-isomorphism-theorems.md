@@ -20,6 +20,14 @@ status: validated
 ## Core Idea
 The second theorem: (S ∨ N)/N ≅ S/(S ∩ N) for S ≤ G and N ◁ G. The third: (G/M)/(N/M) ≅ G/N for M ⊆ N both normal. These theorems relate subgroup and quotient structures through isomorphisms.
 
+## How It's Best Learned
+Draw the diamond for the second theorem with SN at the top, S and N in the middle, and S ∩ N at the bottom. Opposite sides give isomorphic quotients. Test it where the intersection is nontrivial: in ℤ with S = 4ℤ and N = 6ℤ, S + N = 2ℤ and S ∩ N = 12ℤ, and both 2ℤ/6ℤ and 4ℤ/12ℤ have order 3. For each theorem, write down the homomorphism the proof uses.
+
+## Common Misconceptions
+- The second theorem needs both S and N to be normal. (Only N must be normal in G. S can be any subgroup, and S ∩ N is then normal in S.)
+- SN is a subgroup for any two subgroups S and N. (In S₃, the set {e, (12)}{e, (13)} has 4 elements, and 4 does not divide 6. Normality of N is what makes SN a subgroup.)
+- The third theorem works for any subgroups M ⊆ N. (M and N must be normal in G, or G/M and G/N are not groups.)
+
 ## Questions
 
 ```yaml

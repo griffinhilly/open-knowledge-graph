@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 The double integral ∬_R f(x, y) dA extends integration to 2D: partition region R into small rectangles, form Riemann sums by approximating f as constant on each, and take the limit as partition size shrinks. The result measures the volume under the surface z = f(x, y).
 
+## How It's Best Learned
+Build a small Riemann sum by hand before using any shortcut. Take f = xy on [0, 2] × [0, 2], split into four unit squares. Upper-right corners give 1 + 2 + 2 + 4 = 9, while midpoints give 0.25 + 0.75 + 0.75 + 2.25 = 4. The exact value is 4. Sketch the boxes over the surface to see why corner sampling overshoots here.
+
+## Common Misconceptions
+- dA means dx times dy, so it only makes sense in Cartesian coordinates. (dA stands for a small piece of area; in polar coordinates the same area piece is r dr dθ.)
+- The sample point choice changes the value of the integral. (It changes each Riemann sum, but for an integrable f every choice gives the same limit.)
+- A Riemann sum with a few rectangles gives the exact answer if you are careful. (A finite sum is in general only an approximation, as the corner sum of 9 shows; the integral is the limit as the rectangles shrink. The midpoint sum matches here only because f = xy is a special case.)
+- The double integral can only be used to find volumes. (It also gives area when f = 1, and mass or total charge when f is a density.)
+
 ## Questions
 
 ```yaml

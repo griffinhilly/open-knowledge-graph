@@ -19,6 +19,15 @@ status: validated
 ## Core Idea
 The Euler characteristic chi(X) = sum(-1)^n b_n, where b_n = rank(H_n(X)) is the n-th Betti number, gives a single integer that encodes essential topological information about a space. This homological definition shows that the classical formula V - E + F for surfaces is a special case of a much deeper invariant: the alternating sum of Betti numbers equals the alternating sum of simplex counts in any triangulation, connecting combinatorics to topology in a precise and powerful way.
 
+## How It's Best Learned
+Compute χ of one space three ways and see them agree. For the torus, count cells in the Delta-complex (1 - 3 + 2), in the CW structure (1 - 2 + 1), and from Betti numbers (1 - 2 + 1). All give 0. Then do RP^2: its CW count 1 - 1 + 1 = 1 matches its Betti numbers (1, 0, 0), which shows that the Z/2 in H_1 does not count.
+
+## Common Misconceptions
+- Torsion in homology changes the Euler characteristic. (Betti numbers are ranks, so torsion is ignored. RP^2 has H_1 = Z/2 and χ = 1, the same as a point.)
+- Two spaces with the same Euler characteristic are the same space. (The torus and the Klein bottle both have χ = 0 but different homology.)
+- V - E + F = 2 for every polyhedral surface. (That value holds for surfaces homeomorphic to the sphere. A polyhedral torus gives 0.)
+- χ(U ∪ V) = χ(U) + χ(V) for any union. (Overlaps need the correction term χ(U ∩ V). Two arcs glued at both ends form a circle: 1 + 1 - 2 = 0.)
+
 ## Questions
 
 ```yaml

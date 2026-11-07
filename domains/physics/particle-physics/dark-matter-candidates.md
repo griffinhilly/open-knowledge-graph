@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Astrophysical and cosmological observations establish that approximately 27% of the universe's energy density consists of non-baryonic dark matter that interacts gravitationally but has not been detected electromagnetically. Particle physics provides several well-motivated candidates: weakly interacting massive particles (WIMPs), axions, sterile neutrinos, and others. Each candidate has distinct production mechanisms, mass ranges, and experimental signatures, driving a diverse program of direct detection, indirect detection, and collider searches.
 
+## How It's Best Learned
+Draw one logarithmic mass axis running from about 10⁻²² eV to above 1 TeV, and place fuzzy dark matter, the QCD axion, keV sterile neutrinos, and WIMPs on it. Beside each, write its production mechanism and the experiment that would see it. Then plug ⟨σv⟩ = 3 × 10⁻²⁶ cm³/s into Ωh² ≈ 0.1 × (3 × 10⁻²⁶ cm³/s)/⟨σv⟩ to see the WIMP miracle.
+
+## Common Misconceptions
+- Dark matter is ordinary matter that does not shine, such as cold gas or dim stars. (The cosmic microwave background and big bang nucleosynthesis fix the baryon density well below the total matter density, so most dark matter must be non-baryonic.)
+- Null results from WIMP searches rule out particle dark matter. (They exclude regions of WIMP mass and cross section, but axions, sterile neutrinos, and many other candidates are tested by different experiments.)
+- A particle as light as the axion must be hot dark matter. (Axions from the misalignment mechanism form a coherent field oscillating with almost no momentum, so they behave as cold dark matter.)
+
 ## Questions
 
 ```yaml

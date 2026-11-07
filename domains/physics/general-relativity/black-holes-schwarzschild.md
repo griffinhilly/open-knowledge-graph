@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 A Schwarzschild black hole forms when a spherically symmetric mass collapses within its Schwarzschild radius r_s = 2GM/c². The event horizon at r = r_s is a one-way causal boundary: particles and light can fall in but nothing can escape. Inside the horizon, the radial coordinate r becomes timelike — all future-directed paths lead inexorably to the singularity at r = 0, which is a moment in the future rather than a place in space. The singularity represents a genuine breakdown of spacetime geometry where curvature diverges. Kruskal-Szekeres coordinates reveal the maximal analytic extension of the Schwarzschild geometry, which includes a white hole and a second asymptotically flat region — though only the black hole exterior and interior are physically realized in gravitational collapse. For a distant observer, an infalling object appears to asymptotically approach the horizon due to extreme gravitational time dilation and redshift, never appearing to cross it in finite coordinate time.
 
+## How It's Best Learned
+Draw light cones at several radii in ingoing Eddington-Finkelstein coordinates, where the horizon is regular. Watch the cones tilt inward until, inside r_s, both edges point toward smaller r. Then compute the radial tidal acceleration across a body of length L at the horizon, 2GML/r_s³ = Lc⁶/(4G²M²). This shows why a supermassive hole can be crossed without harm while a stellar-mass one cannot.
+
+## Common Misconceptions
+- The event horizon is a physical surface you would hit. (It is a causal boundary. A freely falling observer finds nothing locally special there.)
+- A black hole pulls in everything around it, like a vacuum cleaner. (Outside the collapsed mass the geometry is the Schwarzschild exterior, so far from the hole gravity is the same as for any body of mass M.)
+- Since a distant observer never sees the astronaut cross the horizon, the astronaut never crosses. (The freezing is an effect of Schwarzschild coordinate time. The astronaut crosses and reaches r = 0 in finite proper time.)
+- The singularity is a point at the center that a strong enough rocket could steer around. (Inside the horizon r is timelike, so r = 0 lies in the future of every infalling worldline.)
+
 ## Questions
 
 ```yaml

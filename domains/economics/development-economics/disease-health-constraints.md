@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 High disease burden imposes dual costs: reduced productivity from illness and mortality, plus substantial public health expenditures. Malaria, tuberculosis, and HIV/AIDS disproportionately burden developing economies. Disease reduces school attendance and labor productivity, perpetuating poverty. Public health interventions exhibit high return on investment due to large positive externalities and poverty-reduction potential.
 
+## How It's Best Learned
+Draw the poverty-disease trap as a loop: low income, too little spending on water, sanitation, and vector control, high disease, lost work and schooling, low income. Then trace two separate arrows from disease: one to today's workers and one to today's children, who become tomorrow's workers. Finish by asking why a family deciding whether to vaccinate weighs only part of the benefit.
+
+## Common Misconceptions
+- Disease costs an economy only the workdays sick adults miss. (It also drains household savings into treatment and harms children's schooling and development, which lowers the next generation's productivity.)
+- Countries will get healthier on their own as they grow richer. (High disease burden can keep incomes too low to fund the public health investments needed to reduce it.)
+- If vaccination is valuable, families will pay for it. (Part of the benefit goes to others through reduced transmission, so private demand falls short of the social value.)
+- Cheap interventions have small effects. (Deworming in Kenya cost very little per child, and an influential study found large gains in school attendance, though the size of those effects is still debated.)
+
 ## Questions
 
 ```yaml

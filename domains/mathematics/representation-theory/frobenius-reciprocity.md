@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Frobenius reciprocity states that for a subgroup H ≤ G, induction and restriction are adjoint functors: ⟨Ind_H^G(σ), ρ⟩_G = ⟨σ, Res_H^G(ρ)⟩_H for any representation σ of H and ρ of G. Equivalently, Hom_G(Ind_H^G(σ), ρ) ≅ Hom_H(σ, Res_H^G(ρ)). This fundamental adjunction links the representation theories of a group and its subgroups, providing a powerful tool for computing multiplicities without explicitly constructing induced representations.
 
+## How It's Best Learned
+Use S₃ and its subgroup A₃ = ⟨(123)⟩. Let σ send (123) to ω, a primitive cube root of unity. Restrict the three irreducible characters of S₃ to A₃: the trivial and sign characters both become trivial, and the two-dimensional one becomes ω + ω². Reciprocity then shows that Ind σ is the two-dimensional irreducible. Check the dimension: [S₃ : A₃] · 1 = 2.
+
+## Common Misconceptions
+- Inducing an irreducible representation gives an irreducible representation. (Inducing the trivial representation of ⟨(12)⟩ to S₃ gives the permutation representation on three cosets, which is the trivial plus the two-dimensional irreducible.)
+- Induction and restriction are inverse operations. (They are adjoint. Restricting Ind σ back to H gives a representation of dimension [G : H] · dim σ, which contains σ but is usually larger.)
+- Both inner products in the formula are taken over the same group. (The left side averages over G with the factor 1/|G|. The right side averages over H with the factor 1/|H|.)
+
 ## Questions
 
 ```yaml

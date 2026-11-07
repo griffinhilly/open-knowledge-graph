@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 A topological insulator (TI) is a material with an insulating bulk but conducting surface (or edge) states that are protected by time-reversal symmetry. The bulk band structure is characterized by a Z_2 topological invariant: trivial (nu = 0, ordinary insulator) or nontrivial (nu = 1, topological insulator). In 2D TIs (quantum spin Hall insulators), helical edge states carry opposite spins in opposite directions. In 3D TIs (like Bi_2Se_3), the surface hosts a single Dirac cone of spin-momentum-locked electrons that cannot be gapped by any perturbation preserving time-reversal symmetry. Unlike the quantum Hall effect, no magnetic field is required — spin-orbit coupling provides the topological structure.
 
+## How It's Best Learned
+Picture the 2D case first as two quantum Hall layers, one per spin, with opposite edge directions that time reversal swaps. Then solve the 1D Dirac equation with a mass that changes sign across an interface and find the bound zero-energy state. That shows why an inverted bulk beside vacuum needs a gapless boundary. Finish by comparing ARPES images of the single Bi₂Se₃ surface cone with graphene's pair of cones.
+
+## Common Misconceptions
+- A topological insulator needs a magnetic field, like the quantum Hall effect. (Spin-orbit coupling creates the topology, and time-reversal symmetry protects it. A magnetic field breaks that symmetry and can open a gap in the surface states.)
+- Topologically protected surface states conduct with zero resistance. (On a 3D surface, non-magnetic impurities still scatter electrons through angles other than 180 degrees, so resistance is finite. Only direct backscattering is fully forbidden.)
+- The conducting surface comes from surface chemistry, such as dangling bonds or a metallic layer. (The surface states follow from the bulk Z_2 invariant. Surface details can shift their energy, but they cannot remove them while time-reversal symmetry holds and the bulk gap stays open.)
+- A crystal of a known topological insulator conducts only through its surface. (The label describes band topology. Real crystals such as Bi₂Se₃ often contain defects that dope the bulk, and the bulk current can hide the surface signal in transport.)
+
 ## Questions
 
 ```yaml

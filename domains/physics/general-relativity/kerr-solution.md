@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 The Kerr metric describes the spacetime geometry of a rotating, uncharged black hole, parameterized by mass M and angular momentum J (or the spin parameter a = J/Mc). It is the astrophysically relevant black hole solution since all real black holes form from rotating matter. Unlike Schwarzschild, the Kerr spacetime is not spherically symmetric but only axially symmetric, and it features two horizons: an outer event horizon at r₊ = GM/c² + √((GM/c²)² - a²) and an inner (Cauchy) horizon at r₋. Between the outer horizon and a larger surface called the static limit lies the ergosphere — a region where no observer can remain stationary because spacetime is dragged along by the black hole's rotation. Energy extraction from the ergosphere is possible via the Penrose process. The no-hair theorem states that the Kerr-Newman family (mass, spin, charge) completely characterizes all stationary black holes.
 
+## How It's Best Learned
+In units G = c = 1, plot the outer horizon r₊ = M + √(M² − a²) and the static limit r = M + √(M² − a²cos²θ) in the r-θ plane for several spins. The two surfaces touch at the poles and separate most at the equator, which shows the ergosphere's shape. Then compute the irreducible mass ½√(r₊² + a²) for a = M. It equals M/√2, so at most 1 − 1/√2 ≈ 29% of the mass can be extracted.
+
+## Common Misconceptions
+- Kerr is Schwarzschild with the horizon spinning, so the horizon size is still 2GM/c². (The outer horizon shrinks as spin grows, down to GM/c² in the extremal limit.)
+- The ergosphere is inside the event horizon. (It lies outside the outer horizon, so objects can enter it and still escape.)
+- The Kerr singularity is a point at the center, as in Schwarzschild. (In the Kerr solution it is a ring in the equatorial plane.)
+- Real rotating black holes contain tunnels to other universes through the inner horizon. (That structure belongs to the exact eternal solution. The inner horizon is unstable to perturbations, so the extended structure is not expected inside black holes formed by collapse.)
+
 ## Questions
 
 ```yaml

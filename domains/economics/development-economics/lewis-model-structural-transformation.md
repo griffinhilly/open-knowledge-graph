@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 The Lewis model describes the classic development transition: a traditional agricultural sector with surplus labor (low productivity, subsistence wage) supplies workers to a modern industrial sector at a fixed wage above subsistence. Capital accumulates in industry as long as agricultural surplus exists. Development ends when agricultural surplus is exhausted and wages rise.
 
+## How It's Best Learned
+Draw the Lewis diagram. The labor supply to industry is flat at a wage a little above subsistence until surplus workers run out, then it slopes up. Add an industrial labor demand curve, and shift it right each round as profits are reinvested. Track the wage and the profit area: on the flat part, profits grow while wages stay put. Past the kink, wages climb.
+
+## Common Misconceptions
+- Surplus labor means farm workers are idle or unemployed. (They work, but their marginal product is near zero, so removing one barely lowers farm output.)
+- Industrial wages rise steadily as industry expands. (During the surplus phase the wage stays roughly flat. It rises after the Lewis turning point.)
+- The subsistence wage equals a farm worker's marginal product. (In the model it reflects family sharing and social convention, so it sits above a near-zero marginal product.)
+- Moving workers into cities guarantees industrial growth. (The model assumes industry hires them productively. Many countries have urbanized without industrializing, which swells the informal sector.)
+
 ## Questions
 
 ```yaml

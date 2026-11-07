@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Brownian motion is the erratic random motion of a colloidal particle in a fluid, caused by collisions with thermal fluctuations of solvent molecules. Einstein showed that ⟨x²⟩ ∝ t, relating the diffusion coefficient to molecular properties and temperature, connecting macroscopic transport to microscopic thermal motion.
 
+## How It's Best Learned
+Put numbers into D = kT/(6πηr) for a sphere of radius 0.5 μm in water at room temperature (kT ≈ 4.1 × 10⁻²¹ J, η ≈ 1.0 × 10⁻³ Pa·s). This gives D ≈ 0.44 μm²/s. The rms displacement √(2Dt) along one axis is then about 0.9 μm after 1 s and about 9 μm after 100 s. Then simulate a coin-flip walk and check that the spread grows as √N.
+
+## Common Misconceptions
+- Each visible jiggle is one molecule hitting the particle. (A single collision moves the particle a negligible amount. The visible motion is the net imbalance of an enormous number of collisions.)
+- The motion dies out once the fluid stops swirling. (Brownian motion continues indefinitely in a fluid at rest in thermal equilibrium. It is driven by thermal energy, so it is faster in hotter fluid.)
+- Dividing displacement by elapsed time gives the particle's speed. (Because displacement grows as √Δt, this ratio grows as the interval shrinks. The result depends on how often you sample.)
+- A heavier particle diffuses more slowly because of its mass. (In D = kT/γ the mass does not appear. Long-time diffusion depends on size and fluid viscosity through the drag γ.)
+
 ## Questions
 
 ```yaml

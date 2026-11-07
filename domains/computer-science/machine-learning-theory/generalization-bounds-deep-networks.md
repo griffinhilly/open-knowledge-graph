@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Classical generalization bounds based on VC dimension or parameter counting are vacuous for modern deep networks (they predict the network should not generalize at all). Tighter bounds have been developed using different complexity measures: spectral-norm bounds control generalization through the product of layer spectral norms divided by the margin; PAC-Bayes bounds measure the KL divergence between the learned weights and a prior distribution; compression-based bounds exploit the fact that trained networks can often be compressed without loss of accuracy. While these bounds are tighter than classical ones, they remain loose by orders of magnitude in practice — closing this gap is an active research frontier.
 
+## How It's Best Learned
+First do the vacuous arithmetic: with 10^7 parameters and 50,000 examples, sqrt(10^7 / 50,000) is about 14, far above any error rate. Then train one small network twice, on true labels and on shuffled labels, and compute the product of layer spectral norms divided by the margin for each. Comparing these numbers with the observed test error shows what the bound tracks and how loose it still is.
+
+## Common Misconceptions
+- A vacuous bound shows the network does not generalize. (A bound is an upper limit. When it exceeds 100% error, it says nothing either way about the actual test error.)
+- The newer bounds now predict test error accurately. (They are tighter than parameter-counting bounds, but for large networks they usually remain far above the observed test error.)
+- A PAC-Bayes prior can be fit to the training data. (The prior must be fixed before seeing the sample the bound uses, or the guarantee no longer holds. A prior centered at the random initialization is a common valid choice.)
+
 ## Questions
 
 ```yaml

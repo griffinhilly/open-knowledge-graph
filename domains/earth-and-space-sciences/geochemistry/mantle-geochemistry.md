@@ -34,6 +34,15 @@ status: validated
 ## Core Idea
 The mantle is chemically heterogeneous, containing distinct geochemical reservoirs created by billions of years of differentiation, subduction recycling, and incomplete mixing. Mid-ocean ridge basalts (MORB) sample the shallow depleted mantle (DMM) -- residual after continental crust extraction -- characterized by low incompatible-element concentrations and depleted isotopic signatures (high epsilon-Nd, low 87Sr/86Sr). Ocean island basalts (OIB) sample deeper, more enriched mantle sources with diverse isotopic signatures defining several end-member components: HIMU (high-mu, recycled oceanic crust with high U/Pb), EM1 and EM2 (enriched mantle with recycled sediment or subcontinental lithosphere), and FOZO/C (a common deep mantle component). The isotopic variability of mantle-derived magmas is the primary evidence for large-scale chemical heterogeneity and long-term recycling within Earth's mantle.
 
+## How It's Best Learned
+Plot basalt data on 87Sr/86Sr versus epsilon-Nd and on two Pb isotope diagrams. Label DMM, HIMU, EM1, and EM2 at the ends of the arrays. For each end-member, write down which parent/daughter ratio was raised or lowered to make it. High Sm/Nd gives high epsilon-Nd, high Rb/Sr gives high 87Sr/86Sr, and high U/Pb gives radiogenic Pb.
+
+## Common Misconceptions
+- A basalt's Sr, Nd, or Pb isotope ratio records how much the mantle melted. (Melting does not measurably shift these ratios, so the basalt inherits its source's values. Trace element ratios, by contrast, do change with melting.)
+- A positive epsilon-Nd means an enriched source. (It means the source had a high Sm/Nd ratio for a long time, which is the mark of an incompatible-element-depleted mantle.)
+- HIMU, EM1, and EM2 are separate layers in the mantle. (They are end-members of isotopic arrays. Where those materials sit in the mantle is still debated.)
+- A chemically heterogeneous mantle must convect in separate layers. (Heterogeneity can survive whole-mantle convection if mixing is incomplete.)
+
 ## Questions
 
 ```yaml

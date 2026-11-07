@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 For a first-order linear ODE of the form dy/dx + P(x)y = Q(x), an integrating factor μ(x) = e^(∫P(x)dx) transforms the left side into the derivative of a product: d/dx[μ(x)y] = μ(x)Q(x). This makes the equation directly integrable, converting a challenging linear equation into a solvable form. The integrating factor is one of the most powerful techniques in differential equations.
 
+## How It's Best Learned
+Derive μ yourself once by asking which function makes μy' + μPy match the product rule; that gives μ' = μP. Then solve y' − y = e^(2x): P = −1, so μ = e^(−x), (e^(−x)y)' = eˣ, and y = e^(2x) + Ceˣ. Before integrating, expand d/dx[μy] by the product rule to confirm it equals the left side.
+
+## Common Misconceptions
+- The integrating factor is e^(∫Q dx). (It uses the coefficient of y: μ = e^(∫P dx), with P read from the standard form y' + P(x)y = Q(x), sign included.)
+- The constant C can be added at the end, after dividing by μ. (C appears when you integrate μQ, so it is divided by μ too; in the example above that gives Ceˣ, not a bare C.)
+- e^(2 ln x) is 2x. (e^(2 ln x) = e^(ln x²) = x² for x > 0.)
+
 ## Questions
 
 ```yaml

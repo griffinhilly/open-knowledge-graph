@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 A group homomorphism φ: G → H preserves the group operation: φ(ab) = φ(a)φ(b). The kernel ker(φ) = {a ∈ G : φ(a) = e} is a normal subgroup, and the image im(φ) is a subgroup of H. Homomorphisms reveal the underlying structure of groups.
 
+## How It's Best Learned
+Start with the reduction map ℤ → ℤ/6ℤ and list which integers land on each residue. The fibre over 0 is the kernel, and each other fibre is a coset of it. Then do the same for the sign map S_3 → {±1}. Prove φ(e) = e and φ(a⁻¹) = φ(a)⁻¹ yourself from φ(ab) = φ(a)φ(b) before reading about kernels.
+
+## Common Misconceptions
+- A homomorphism has to be one-to-one. (Many homomorphisms send different elements to the same image. A homomorphism is injective exactly when its kernel is {e}.)
+- A homomorphism preserves the order of each element. (The order of φ(g) divides the order of g when that order is finite, and it can be smaller. Every element of the kernel maps to an element of order 1.)
+- The kernel is a subset of the codomain H. (The kernel lives in the domain G. It is the set of elements of G that map to the identity of H.)
+- Any map that sends the identity to the identity is a homomorphism. (The defining condition is φ(ab) = φ(a)φ(b) for all a and b. Sending e to e follows from that condition but does not imply it.)
+
 ## Questions
 
 ```yaml

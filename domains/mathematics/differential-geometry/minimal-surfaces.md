@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 A minimal surface is a surface whose mean curvature vanishes everywhere — it is a critical point of the area functional. Equivalently, every point has a neighborhood that minimizes area among surfaces with the same boundary. Soap films spanning wire frames are physical realizations of minimal surfaces. The study of minimal surfaces sits at the intersection of differential geometry, partial differential equations, and the calculus of variations, and has produced some of the deepest results in geometric analysis.
 
+## How It's Best Learned
+Derive the minimal surface equation for a graph z = u(x, y) by varying the area ∫√(1 + u_x² + u_y²) dx dy. The result is (1 + u_y²)u_xx − 2u_x u_y u_xy + (1 + u_x²)u_yy = 0. Then check Scherk's surface u = ln cos y − ln cos x. Here u_xy = 0, and the other two terms are sec²x sec²y and −sec²x sec²y, which cancel.
+
+## Common Misconceptions
+- A minimal surface has the least area for its boundary. (H = 0 says only that the first variation of area vanishes. For two coaxial rings at some separations, a catenoid spanning them has more area than the two flat disks.)
+- Zero mean curvature means the surface is flat. (H = 0 forces κ₂ = −κ₁, so K = −κ₁² ≤ 0. The catenoid has K < 0 at every point.)
+- Every soap film is a minimal surface. (A closed soap bubble has higher pressure inside, which gives constant nonzero mean curvature. Films spanning a wire with equal pressure on both sides have H = 0.)
+
 ## Questions
 
 ```yaml

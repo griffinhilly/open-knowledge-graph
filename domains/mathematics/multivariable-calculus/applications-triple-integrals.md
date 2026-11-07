@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Triple integrals compute volume of solids, mass with density functions, and center of mass. The choice of coordinates (Cartesian, cylindrical, spherical) depends on the region's symmetry, dramatically affecting computational difficulty.
 
+## How It's Best Learned
+Before integrating, write the region's boundary in all three coordinate systems and pick the one where the limits become constants. Then check the result against a known formula. The cylinder x² + y² ≤ 1, 0 ≤ z ≤ 2 gives ∫₀²π∫₀¹∫₀² r dz dr dθ = 2π. The ball of radius R gives ∫₀²π∫₀^π∫₀^R ρ² sin φ dρ dφ dθ = (4/3)πR³.
+
+## Common Misconceptions
+- In spherical coordinates, dV = dρ dφ dθ. (The volume element is ρ² sin φ dρ dφ dθ. Without that factor, the "volume" of a ball of radius R comes out as 2π²R, which does not even have units of volume.)
+- The angle φ runs from 0 to 2π, like θ. (φ is measured down from the positive z-axis and runs from 0 to π. Over [0, 2π] the integral of sin φ is 0, so the ball's computed volume would be zero.)
+- The center of mass is ∭ x dV divided by the volume. (With variable density, divide ∭ xδ dV by the mass ∭ δ dV. Dividing by the volume is correct only when the density is constant.)
+
 ## Questions
 
 ```yaml

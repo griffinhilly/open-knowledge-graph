@@ -19,6 +19,14 @@ status: validated
 ## Core Idea
 Elliptic regularity theory establishes that weak solutions of elliptic PDEs are smoother than initially apparent—the equation itself forces regularity. For -Δu = f, if f ∈ H^k(Ω), then u ∈ H^{k+2}(Ω): the solution gains two orders of Sobolev regularity beyond the right-hand side. If f is smooth and the domain has a smooth boundary, u is smooth. This "regularity bootstrap" is a hallmark of elliptic equations and does not hold for hyperbolic equations. The theory extends to general elliptic operators with variable coefficients via Schauder estimates and L^p theory.
 
+## How It's Best Learned
+Pair one interior proof with one boundary counterexample. Follow the difference-quotient argument for −Δu = f once with every constant written out. Then take the L-shaped domain with its reentrant corner of angle 3π/2 and the harmonic function u = r^{2/3} sin(2θ/3), which vanishes on both edges. Compute that |∇u|² is integrable near the corner while |D²u|² is not, so u lies in H¹ but not H².
+
+## Common Misconceptions
+- If f is continuous, a solution of Δu = f is C². (Continuity of f is not enough. There are continuous f for which Δu = f has no C² solution. The Schauder theory needs Hölder continuous f.)
+- Every second-order equation smooths its solutions. (For the wave equation u_tt = u_xx, the function u = g(x − t) is a weak solution for rough g, and its singularities persist for all time.)
+- Smooth data give a solution smooth up to the boundary on any domain. (Interior smoothness is local, but boundary regularity depends on ∂Ω. Near a reentrant corner the solution can fail to be in H² even when f is smooth.)
+
 ## Questions
 ```yaml
 - question: "If u ∈ H¹₀(Ω) is a weak solution of -Δu = f with f ∈ L²(Ω), what regularity does u have?"

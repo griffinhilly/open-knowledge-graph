@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Ginzburg-Landau (GL) theory describes superconductivity through a complex order parameter psi(r) — a macroscopic wavefunction whose magnitude |psi|^2 gives the superfluid density and whose phase determines the supercurrent. The free energy functional F = integral [alpha|psi|^2 + (beta/2)|psi|^4 + (1/2m*)|(-ihbar nabla - (e*/c)A)psi|^2 + B^2/8pi] d^3r, minimized over psi and A, yields two GL equations that describe the spatial variation of the order parameter and the supercurrent. GL theory introduces two fundamental length scales: the coherence length xi (over which psi varies) and the penetration depth lambda (over which B decays). Their ratio kappa = lambda/xi determines whether the superconductor is Type I (kappa < 1/sqrt(2)) or Type II (kappa > 1/sqrt(2)).
 
+## How It's Best Learned
+Solve the first GL equation in one dimension with no field. In reduced units, ξ²ψ'' + ψ − ψ³ = 0, and the solution that vanishes at a wall is ψ = ψ_∞ tanh(x/(√2 ξ)); check it by substitution. Then solve the coupled equations numerically for a normal-superconducting boundary at several κ and watch the surface energy change sign near κ = 1/√2.
+
+## Common Misconceptions
+- ψ is the wavefunction of a single Cooper pair. (It is the order parameter of the whole condensate; |ψ|² gives the superfluid density.)
+- GL theory is accurate at any temperature. (It is an expansion valid near T_c, where ψ is small and varies slowly; far below T_c it is only qualitative.)
+- The GL coherence length is the same thing as the BCS pair size ξ₀. (The GL length ξ(T) depends on temperature and diverges at T_c, while ξ₀ is a fixed property of the material.)
+
 ## Questions
 
 ```yaml

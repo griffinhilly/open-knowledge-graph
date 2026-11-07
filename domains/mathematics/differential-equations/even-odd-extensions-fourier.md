@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 For a function defined on [0, L], reflect across the y-axis for an even extension (yielding a cosine series) or through the origin for an odd extension (yielding a sine series). Choosing the appropriate extension simplifies calculations by exploiting symmetry and selecting series representations suited to boundary conditions. This is essential for solving PDEs with specific boundary constraints.
 
+## How It's Best Learned
+Take f(x) = x on [0, π] and sketch both periodic extensions over several periods. The odd extension is a sawtooth with jumps, and its sine coefficients are bₙ = 2(−1)ⁿ⁺¹/n. The even extension is a continuous triangle wave, with a₀ = π and aₙ = −4/(πn²) for odd n (zero for even n ≥ 2). Comparing 1/n with 1/n² shows why the continuous extension converges faster.
+
+## Common Misconceptions
+- The sine series of f converges to f(0) and f(L) at the endpoints. (Every term of a sine series is zero at x = 0 and x = L, so the series sums to 0 there whatever f(0) and f(L) are.)
+- Extending f changes the function you are representing on [0, L]. (Both extensions agree with f on (0, L); they differ only in what they do on [−L, 0] and beyond.)
+- The cosine series cannot represent a function that is zero at an endpoint. (A cosine series can take any value at the endpoints; the issue is that its terms do not vanish there one by one, so it does not build in a zero-value boundary condition.)
+
 ## Questions
 
 ```yaml

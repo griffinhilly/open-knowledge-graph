@@ -17,6 +17,14 @@ status: validated
 ## Core Idea
 Viscosity solutions are a notion of weak solution for fully nonlinear PDEs F(x, u, Du, D²u) = 0 that do not have a variational or divergence structure. Unlike weak solutions defined by integration against test functions, viscosity solutions are defined using a comparison principle with smooth test functions that touch the solution from above or below. A function u is a viscosity subsolution if, whenever a smooth function φ touches u from above at a point x₀, then F(x₀, u(x₀), Dφ(x₀), D²φ(x₀)) ≤ 0. This definition requires only continuity of u and yields a powerful uniqueness and stability theory.
 
+## How It's Best Learned
+Apply the definition by hand to |u'| − 1 = 0 on (−1, 1) with u(±1) = 0. At x = 0, smooth functions touching 1 − |x| from above have slopes in [−1, 1], so the subsolution test passes. No smooth function touches it from below there. For |x| − 1, the constant −1 touches from below with slope 0 and fails the supersolution test. Then redo both checks for 1 − |u'| = 0.
+
+## Common Misconceptions
+- Writing the equation as F = 0 or as −F = 0 gives the same viscosity solutions. (The sign matters. For |u'| − 1 = 0 the solution with zero boundary values is 1 − |x|, while for 1 − |u'| = 0 it is |x| − 1.)
+- At a kink the solution must fail the test, since u has no derivative there. (The conditions involve only smooth functions that actually touch u. Where none touches from one side, that condition holds automatically.)
+- Viscosity solutions are defined as limits of solutions with added viscosity εΔu. (The definition uses touching test functions. The vanishing viscosity limit motivates the name and, for many equations, produces the viscosity solution.)
+
 ## Questions
 ```yaml
 - question: "Viscosity solutions are defined using:"

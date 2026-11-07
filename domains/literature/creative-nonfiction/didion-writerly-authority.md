@@ -25,6 +25,14 @@ status: draft
 ## Core Idea
 Didion establishes authority through precise observation, controlled syntax, and strategic distance from her subject. Her technique of combining journalistic immersion with cool analysis shows how nonfiction writers can be present in their work while making political argument through style itself. Her detachment is not objectivity but a rhetorical strategy for persuasive force.
 
+## How It's Best Learned
+Copy out one paragraph from a Didion essay by hand. Count the words in each sentence and mark where a short sentence follows a long one. Beside each concrete detail, write the judgment it implies but never states. Then rewrite the paragraph with every judgment stated outright and compare which version persuades more.
+
+## Common Misconceptions
+- Didion's cool tone means she is neutral about her subjects. (Her detachment is a rhetorical choice. Judgment comes through what she selects and how she arranges it.)
+- Style is decoration laid over the argument. (In her essays, syntax, rhythm, and choice of detail carry much of the argument.)
+- A writer needs to state a position for an essay to be political. (Didion often makes political criticism implicitly, by showing what she observed and letting the reader draw the conclusion.)
+
 ## Questions
 
 ```yaml
@@ -60,6 +68,7 @@ Didion establishes authority through precise observation, controlled syntax, and
 
 - question: How might Didion's rhetorical strategy differ from Baldwin's in a similar political argument about American culture? Why might each strategy be effective?
   type: short-answer
+  answer: "Baldwin states his moral judgment openly, with passion and personal stake. Didion enacts judgment through precise observation, arrangement of detail, and cool distance. Baldwin's approach moves readers directly; Didion's builds force cumulatively by letting readers draw the conclusion themselves."
   explanation: Baldwin uses passion, moral urgency, and personal stake—he brings emotion and moral judgment into the essay explicitly. Didion uses coolness, precise observation, and controlled distance—her moral judgment is enacted through what she chooses to observe and how she arranges details, not stated directly. Baldwin's approach says 'This is morally wrong, and I'm angry about it.' Didion's says 'Look at what's actually happening' and lets the reader be chilled by the implications. Both are argumentative, but they perform argument differently. Baldwin's approach is immediate and moving; Didion's is cumulative and devastating. Both can be powerful precisely because they use different rhetorical strategies—emotion isn't necessary for force, and detachment isn't objectivity.
 ```
 

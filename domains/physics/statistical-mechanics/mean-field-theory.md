@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Mean field theory replaces the interaction of each spin with a mean field ⟨σ⟩, decoupling the many-body problem. Each spin obeys a single-site effective Hamiltonian. It predicts critical exponents matching Landau theory and provides exact results for infinite-dimensional systems, but overestimates order-parameter fluctuations and critical exponent values.
 
+## How It's Best Learned
+Write the mean-field free energy per spin as an energy term −(zJ/2)m² plus −T times the entropy of independent spins with average m. Minimizing it gives m = tanh(βzJm). Expanding it to fourth order gives, apart from a constant, (k/2)(T − T_c)m² + (kT/12)m⁴, the Landau form with coefficients fixed by the lattice. Then set z = 2 and compare the predicted transition with the exact 1D result, which has none.
+
+## Common Misconceptions
+- Mean-field theory underestimates T_c. (It overestimates it. On the square lattice it gives 4J/k, while the exact value is about 2.269 J/k.)
+- Mean-field theory and Landau theory are separate methods that happen to agree. (Expanding the mean-field free energy in m produces the Landau expansion directly, so both share the same exponents.)
+- Mean-field theory is a method for magnets only. (The same decoupling gives the van der Waals equation for fluids, the Bragg-Williams theory of alloys and the Hartree-Fock approximation for electrons.)
+
 ## Questions
 
 ```yaml

@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 The singular homology groups H_n(X) = ker(d_n)/im(d_{n+1}) of the singular chain complex are the fundamental topological invariants of algebraic topology. They are defined for any topological space, are invariant under homotopy equivalence (not just homeomorphism), and are functorial — continuous maps induce homomorphisms on homology. For spaces admitting triangulations, singular homology agrees with simplicial homology, but singular homology's true power lies in the theoretical tools (long exact sequences, excision, Mayer-Vietoris) that make it computable without ever writing down the enormous chain groups explicitly.
 
+## How It's Best Learned
+Do the one complete singular computation available: a point. There is one singular simplex in each dimension, and the boundary maps alternate between 0 (n odd) and the identity (n even, n ≥ 2), which gives H_0 = Z and H_n = 0 otherwise. Then prove H_0 counts path components using paths as 1-chains. After that, use homotopy invariance: the Möbius band and R^2 \ {0} both have the homology of S^1.
+
+## Common Misconceptions
+- Singular chain groups are enormous, so the homology groups must be enormous too. (The chain groups are huge, but the quotient can be small. A point has H_0 = Z and nothing else.)
+- Homology can tell R^n from R^m. (Both are contractible, so both have the homology of a point. Distinguishing them takes more work, such as comparing R^n \ {0} with R^m \ {0}.)
+- H_0 counts connected components. (It counts path components. The closed topologist's sine curve is connected but has two path components, so its H_0 is Z^2.)
+
 ## Questions
 
 ```yaml

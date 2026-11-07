@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 The solution to dx/dt = Ax, x(0) = x₀ is x(t) = e^(At)x₀, where e^(At) is the matrix exponential. If A = PDP⁻¹ (diagonalizable), then e^(At) = Pe^(Dt)P⁻¹ is easy to compute. The matrix exponential encodes all solution behavior and naturally handles initial conditions. It is the matrix analog of the scalar solution x(t) = e^(at)x₀.
 
+## How It's Best Learned
+Compute two exponentials straight from the power series. For A = [[0, 1], [0, 0]], A² = 0, so e^(At) = I + At = [[1, t], [0, 1]]. For A = [[0, 1], [−1, 0]], the powers cycle with period 4 and the series sums to [[cos t, sin t], [−sin t, cos t]]. Then redo a diagonalizable example with e^(At) = Pe^(Dt)P⁻¹ and check that the derivative of e^(At) equals Ae^(At).
+
+## Common Misconceptions
+- e^(At) is found by exponentiating each entry of At. (Entrywise exponentials are wrong except for diagonal matrices; for [[0, 1], [0, 0]], entrywise gives [[1, eᵗ], [1, 1]], but the true answer is [[1, t], [0, 1]].)
+- e^((A+B)t) = e^(At)e^(Bt) for any matrices. (This holds when A and B commute, AB = BA, and can fail otherwise.)
+- The matrix exponential exists only for diagonalizable matrices. (The power series converges for every square matrix; diagonalization is one convenient way to compute it, and nilpotent or Jordan-form matrices are handled directly.)
+
 ## Questions
 
 ```yaml

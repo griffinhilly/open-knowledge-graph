@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 A submanifold is a subset of a manifold that is itself a manifold in a compatible way. Embedded submanifolds arise as level sets of smooth maps at regular values (the preimage theorem), as images of injective immersions, or as solution sets of constraint equations. The tangent space of a submanifold at a point is a subspace of the ambient tangent space, and the codimension determines how many independent constraints define the submanifold locally.
 
+## How It's Best Learned
+Show O(n) is a submanifold using F(A) = AᵀA, a map into symmetric matrices. Its derivative is dF_A(B) = AᵀB + BᵀA, and for A in O(n), B = AS/2 maps to any symmetric S. So dim O(n) = n² − n(n + 1)/2 = n(n − 1)/2, and the tangent space at I is the skew-symmetric matrices. Then decide which of these plane curves are immersions, injective immersions or embeddings: (t², t³), and t ↦ (sin 2t, sin t) on (−π, π).
+
+## Common Misconceptions
+- The image of an injective immersion is an embedded submanifold. (The figure-eight t ↦ (sin 2t, sin t) on (−π, π) is injective, but points near t = ±π approach the crossing, so its topology differs from the subspace topology.)
+- A subset that is a manifold in its own topology is a smooth submanifold. (The cusp y² = x³ is homeomorphic to a line, but it has no tangent line at the origin, so it is not a smooth embedded submanifold of ℝ².)
+- Any set defined by an equation is a submanifold. (The regular value theorem guarantees a submanifold only at a regular value. The set x² − y² = 0 is two crossing lines and fails to be a manifold at the origin.)
+
 ## Questions
 
 ```yaml

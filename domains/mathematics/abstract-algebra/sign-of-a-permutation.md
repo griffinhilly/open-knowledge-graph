@@ -19,6 +19,14 @@ status: validated
 ## Core Idea
 A permutation is even if it is a product of an even number of transpositions, odd otherwise. The sign is +1 for even and −1 for odd. Sign is well-defined and sign(στ) = sign(σ)sign(τ), making the sign function a group homomorphism from S_n to {±1}.
 
+## How It's Best Learned
+Compute the sign of one permutation in two independent ways. For (123)(45), the cycle rule gives (3 − 1) + (2 − 1) = 3 transpositions, so the sign is −1. In one-line form 2 3 1 5 4, count the pairs listed out of order: (2, 1), (3, 1), and (5, 4) give 3 inversions, again odd. Then check that one swap changes the inversion count by an odd number.
+
+## Common Misconceptions
+- A permutation has a fixed number of transpositions. (Only the parity is fixed. (12345) can be written with 4 transpositions or with 6.)
+- The sign comes from counting cycles. (It comes from cycle lengths. Each k-cycle contributes k − 1 transpositions, so (123)(45) has two cycles but is odd.)
+- A cycle of odd length is an odd permutation. (The parity is reversed. A 3-cycle is two transpositions and is even, while a 4-cycle is three and is odd.)
+
 ## Questions
 
 ```yaml
@@ -66,4 +74,4 @@ The intuition: think of a permutation as rearranging elements into positions, wh
 
 To compute the sign using cycle notation, use the rule: a **k-cycle** is equivalent to k − 1 transpositions. So a transposition (2-cycle) contributes sign −1. A 3-cycle like (123) = (12)(13) contributes sign +1 (two transpositions, even). A 4-cycle contributes sign −1 (three transpositions, odd). For a permutation written as a product of disjoint cycles, multiply the signs: sign(σ) = ∏(−1)^(k_i − 1) over all cycles of length k_i. Fixed points are 1-cycles and contribute (−1)^0 = +1, so they do not affect parity.
 
-The multiplicativity — sign(στ) = sign(σ)·sign(τ) — means the sign function is a **group homomorphism** from S_n to {+1, −1}. Its kernel is A_n, the **alternating group**, consisting of all even permutations. Since exactly half of all permutations are even, A_n has index 2 in S_n, making it the unique normal subgroup of index 2. This fact matters deeply: for n ≥ 5, A_n is simple (no proper normal subgroups), and this simplicity is the algebraic core of the proof that the general quintic polynomial cannot be solved by radicals.
+The multiplicativity — sign(στ) = sign(σ)·sign(τ) — means the sign function is a **group homomorphism** from S_n to {+1, −1}. Its kernel is A_n, the **alternating group**, consisting of all even permutations. Since exactly half of all permutations are even, A_n has index 2 in S_n, making it the unique normal subgroup of index 2. This fact matters deeply: for n ≥ 5, A_n is simple (no normal subgroups other than {e} and A_n), and this simplicity is the algebraic core of the proof that the general quintic polynomial cannot be solved by radicals.

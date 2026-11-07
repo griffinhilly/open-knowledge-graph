@@ -31,6 +31,14 @@ status: validated
 ## Core Idea
 The Maxwell-Boltzmann distribution gives the probability that a classical particle has energy E as P(E) ∝ exp(-E/kT). The velocity distribution of gas particles follows from this and explains the speed distribution, average kinetic energy, and pressure of ideal gases. It emerges as the high-temperature limit of quantum statistics.
 
+## How It's Best Learned
+Start from the Gaussian for each velocity component and switch to spherical coordinates. The shell volume 4πv² dv turns it into f(v) ∝ v² e^(−mv²/2kT). Set df/dv = 0 to get v_mp = √(2kT/m). Then plot f(v) for nitrogen at 300 K, where v_mp is about 420 m/s, and at 600 K, and compare with helium at 300 K.
+
+## Common Misconceptions
+- Since exp(−E/kT) is largest at E = 0, most molecules are nearly at rest. (The number of velocity states in a shell grows as v², so f(v) is zero at v = 0 and peaks at v_mp.)
+- The most probable, mean and rms speeds are the same. (They stand in the ratio √2 : √(8/π) : √3, so v_mp < ⟨v⟩ < v_rms.)
+- Heavier molecules at the same temperature carry less kinetic energy on average. (The average is (3/2)kT for every mass. Heavier molecules move more slowly but carry the same mean energy.)
+
 ## Questions
 
 ```yaml

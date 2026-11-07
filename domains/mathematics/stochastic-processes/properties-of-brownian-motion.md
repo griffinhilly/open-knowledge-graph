@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Brownian motion exhibits remarkable structural properties beyond its definition. It is self-similar (scaling invariance: cW(t/c²) is again a Brownian motion), has unbounded variation but finite quadratic variation equal to t, satisfies the strong Markov property, and obeys a reflection principle. The quadratic variation [W,W]_t = t is the single most consequential property for stochastic calculus — it is the reason Itô's formula has an extra term compared to the classical chain rule.
 
+## How It's Best Learned
+On one simulated path over [0, 1], compute Σ(ΔWᵢ)² and Σ|ΔWᵢ| for n = 10, 100, 1,000 and 10,000 steps. The first stays near 1 and the second grows like √n. Then draw the reflection argument: reflect each path after it first hits a. Check P(max W ≥ 1) = 2P(W(1) ≥ 1) ≈ 0.317 by simulation, noting that coarse time grids miss some crossings.
+
+## Common Misconceptions
+- Quadratic variation is just another name for the variance of W(t). (Both equal t, but quadratic variation is a limit of squared increments along a single path, while variance is an average over many paths.)
+- W(ct) has the same distribution as cW(t). (Its scale is √c: W(ct) has the same law as √c·W(t), which is why time and space scale differently.)
+- Brownian motion hits every level, so the expected time to reach a given level is finite. (It reaches any level a with probability 1, but E[T_a] = ∞.)
+- The strong Markov property lets Brownian motion restart at any random time. (It holds at stopping times; at the time of the maximum on [0, 1], for example, the path that follows is not a fresh Brownian motion, since it cannot go higher.)
+
 ## Questions
 
 ```yaml

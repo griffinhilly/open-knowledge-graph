@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 A tangent vector at a point p on a smooth manifold is a derivation — a linear map from smooth functions to real numbers satisfying the Leibniz (product) rule. The tangent space TpM is the vector space of all tangent vectors at p. This definition avoids embedding the manifold in an ambient space, making it intrinsic. In local coordinates, tangent vectors correspond to directional derivatives ∂/∂xⁱ, and TpM has the same dimension as M.
 
+## How It's Best Learned
+First derive v(1) = 0 from the Leibniz rule: v(1) = v(1·1) = 2v(1). Then convert one vector between coordinate systems. At p = (1, 1) in ℝ², the vector ∂/∂x becomes (1/√2) ∂/∂r − (1/2) ∂/∂θ. Check it by applying both forms to f = x. Each gives 1, which shows the components change while the derivation stays the same.
+
+## Common Misconceptions
+- A tangent vector is an arrow from p to a nearby point of M. (An abstract manifold has no subtraction of points. A tangent vector lives in TpM and acts on functions by differentiation.)
+- Tangent vectors at different points can be added or compared directly. (TpM and TqM are different vector spaces. Comparing vectors at different points needs extra structure, such as a connection.)
+- The tangent bundle of an n-manifold is M × ℝⁿ. (It is locally a product. Globally it can twist: the tangent bundle of S² is not S² × ℝ².)
+
 ## Questions
 
 ```yaml

@@ -22,7 +22,15 @@ status: validated
 # Curvature and Torsion of Space Curves
 
 ## Core Idea
-Curvature κ = |dT/ds| measures how sharply a curve bends; torsion τ measures how much it twists out of its oscillating plane. For a curve r(t), κ = |r'(t) × r''(t)| / |r'(t)|³. Torsion reveals how much the curve deviates from being planar.
+Curvature κ = |dT/ds| measures how sharply a curve bends; torsion τ measures how much it twists out of its osculating plane. For a curve r(t), κ = |r'(t) × r''(t)| / |r'(t)|³. Torsion reveals how much the curve deviates from being planar.
+
+## How It's Best Learned
+Compute both quantities for the general helix ⟨a cos t, a sin t, bt⟩. Here r′ × r″ = ⟨ab sin t, −ab cos t, a²⟩, which gives κ = a/(a² + b²) and τ = b/(a² + b²). Then check the limits. With b = 0 the curve is a circle, so κ = 1/a and τ = 0. Larger b stretches the coils and raises the ratio τ/κ = b/a, shifting the balance from bending toward twisting.
+
+## Common Misconceptions
+- Curvature is |r″(t)| for any parametrization. (That holds only for arc-length parametrization. The line r(t) = ⟨t², 0, 0⟩ has r″ ≠ 0 but curvature 0.)
+- Torsion, like curvature, is never negative. (Torsion has a sign that records the direction of twisting. In the helix above with b < 0, a mirror image of the b > 0 helix, τ is negative.)
+- A space curve with constant curvature must be a circle. (The helix has constant curvature a/(a² + b²) but is not a circle. Constant nonzero curvature gives a circle, or part of one, when the torsion is also zero.)
 
 ## Questions
 

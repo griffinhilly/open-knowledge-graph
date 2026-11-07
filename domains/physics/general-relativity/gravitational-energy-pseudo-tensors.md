@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Defining gravitational energy in general relativity is fundamentally problematic because the equivalence principle allows gravity to be locally eliminated — there is no local, covariant expression for gravitational energy density. Pseudo-tensors (such as the Einstein, Landau-Lifshitz, and Moller prescriptions) provide coordinate-dependent expressions for gravitational energy-momentum that, combined with the matter stress-energy tensor, yield a conserved total energy-momentum: ∂_μ(√(-g)(T^μν + t^μν_LL)) = 0 (ordinary, not covariant, divergence). These are not tensors — they transform inhomogeneously and can be made to vanish at any point by choice of coordinates. Meaningful definitions of gravitational energy exist only in special circumstances: total (ADM) mass for asymptotically flat spacetimes, Bondi mass at null infinity (accounting for energy radiated as gravitational waves), and quasi-local energy constructions for bounded regions. The non-localizability of gravitational energy is one of the deepest conceptual features of GR.
 
+## How It's Best Learned
+Begin with the Newtonian field energy density −|∇Φ|²/(8πG) and ask what it becomes at one point in a freely falling frame. Then compute a total energy that does work. With G = c = 1, take Schwarzschild in isotropic coordinates, where g_ij ≈ (1 + 2M/r)δ_ij at large r. Evaluate M_ADM = (1/16π)∮(∂_j g_ij − ∂_i g_jj)dS^i on a large sphere. The integrand is 4M/r², and the result is exactly M.
+
+## Common Misconceptions
+- Since gravitational energy cannot be localized, it has no meaning in GR. (The local density is ambiguous, but total quantities such as the ADM mass and Bondi mass are well defined for isolated systems.)
+- Some pseudo-tensor, used in the right coordinates, gives the true local gravitational energy. (No coordinate system is preferred. Different prescriptions spread the energy differently and agree only on suitable totals.)
+- ∇_μT^μν = 0 means the energy of matter alone is conserved globally. (The covariant divergence cannot in general be integrated into a global law. Matter can exchange energy with the gravitational field.)
+- Gravitational waves cannot carry real energy, because gravitational energy is not localized. (The Bondi mass decreases as waves are emitted, so the waves carry positive energy away from the source.)
+
 ## Questions
 
 ```yaml

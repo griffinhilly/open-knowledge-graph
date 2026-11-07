@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Subgame perfect equilibrium requires that strategies form a Nash equilibrium in every subgame, not just the entire game. This eliminates incredible threats: actions that would not actually be chosen if reached. Backward induction finds subgame perfect equilibrium by solving from terminal nodes backward, ensuring strategic consistency throughout the game tree.
 
+## How It's Best Learned
+Take an entry game with payoffs (entrant, incumbent): Out gives (0, 4), Enter then Fight gives (−1, −1), Enter then Accommodate gives (1, 2). Write it as a 2×2 matrix and find both pure-strategy Nash equilibria, (Out, Fight) and (Enter, Accommodate). Then solve the tree backward and see which one survives.
+
+## Common Misconceptions
+- A strategy only has to say what a player does on the path that is actually played. (A strategy is a complete plan that names an action at every one of the player's decision nodes. SPE tests those unreached choices too.)
+- Every part of the tree below a node is a subgame. (A subgame must start at a node that is alone in its information set, and it cannot split any information set. With imperfect information, many subtrees fail this test.)
+- A game has exactly one subgame perfect equilibrium. (Ties at a decision node, or subgames with several Nash equilibria, can produce more than one SPE.)
+
 ## Questions
 
 ```yaml

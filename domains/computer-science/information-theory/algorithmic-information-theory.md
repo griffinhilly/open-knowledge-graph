@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 Algorithmic information theory (AIT) studies information content through the lens of computation, building on Kolmogorov complexity to develop a complete theory of individual-sequence randomness, algorithmic probability, and the limits of mathematical reasoning. A string is algorithmically random if it is incompressible — no program significantly shorter than the string itself can produce it. Chaitin's constant Omega (the halting probability of a universal prefix-free Turing machine) is a real number that is algorithmically random, well-defined, but uncomputable. AIT provides the foundations for Solomonoff induction (a universal theory of prediction), the minimum description length principle in statistics, and connects to Godel's incompleteness theorems.
 
+## How It's Best Learned
+Start by working the counting argument by hand for small n: list how many programs exist shorter than n - c bits and compare with the 2^n strings. Then write out why Omega approximated from below never tells you when it has converged. Finally, set Chaitin's incompleteness result beside the halting problem and trace how each one connects to the impossibility of computing K(x).
+
+## Common Misconceptions
+- A random string is one that looks messy, so a string like 0101...01 could be random if it came from a coin flip. (Algorithmic randomness is a property of the individual string. A highly patterned string has a short program, so it is compressible and not algorithmically random, whatever process produced it.)
+- Since most strings are incompressible, it should be easy to prove that a particular string is incompressible. (By Chaitin's theorem, a sound formal system with computably listable axioms can prove K(x) > c for no specific x once c passes a constant set by the system, even though most strings exceed that bound.)
+- Omega is uncomputable, so it is not a well-defined number. (Omega is a definite real number. It can be approximated from below, but no algorithm can output its digits to arbitrary precision.)
+- Solomonoff induction is a practical prediction algorithm. (It is uncomputable. Its value is as a theoretical ideal that practical methods such as MDL try to approximate.)
+
 ## Questions
 
 ```yaml

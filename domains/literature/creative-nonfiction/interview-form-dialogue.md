@@ -24,6 +24,14 @@ status: draft
 ## Core Idea
 Interview-based nonfiction presents conversations between interviewer and subject as primary material. The form raises questions about editing, representation, and the interviewer's role—whether the interviewer is transparent or actively shaping the narrative. Interviews can be presented as documents or crafted as narrative.
 
+## How It's Best Learned
+Record a short conversation with someone's permission and transcribe two minutes of it exactly, with every filler word and false start. Then produce two versions of the whole: a lightly edited question-and-answer and a narrative piece with framing and selected quotes. Compare what each version kept and lost, and ask the speaker whether either changed what they meant.
+
+## Common Misconceptions
+- A published interview is a neutral record of what was said. (The interviewer's questions, presence and editing all shape what readers see.)
+- Removing filler words and false starts falsifies the interview. (Some editing for clarity is standard. The test is whether the edits keep the speaker's meaning and voice, and whether the editing approach is disclosed.)
+- An interview piece has no author beyond the speaker. (Selection, order and framing are authorial choices, so an interview can be crafted as narrative.)
+
 ## Questions
 
 ```yaml
@@ -59,6 +67,7 @@ Interview-based nonfiction presents conversations between interviewer and subjec
 
 - question: How might interview-based nonfiction work differently as a documentary form (raw transcript) versus as a crafted narrative? What does each accomplish?
   type: short-answer
+  answer: "A documentary interview keeps the transcript close to the actual exchange, so readers meet the subject's voice with its rhythms and hesitations. A crafted narrative edits, frames and arranges the material to bring out significance. The first emphasizes the subject's voice; the second emphasizes interpretation."
   explanation: A documentary interview might preserve the actual transcript, messy as it is, letting readers encounter the subject's authentic voice with all its rhythms and hesitations. This creates a particular kind of authenticity and trust. A narrative interview might edit for clarity, add framing questions and context, arrange material thematically rather than chronologically. This crafts a more literary experience. Documentary form emphasizes the subject's voice; narrative form emphasizes interpretation and significance. Both can be powerful. Documentary interviews work well when the subject's voice and perspective are compelling in themselves. Narrative interviews work well when the interviewer's contribution—the questions asked, the connection made—is valuable, or when the material needs arrangement to reveal significance.
 ```
 

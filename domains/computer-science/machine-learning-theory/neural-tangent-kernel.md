@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 The Neural Tangent Kernel (NTK) is a theoretical framework showing that infinitely wide neural networks behave like kernel methods. In the infinite-width limit, a neural network's training dynamics can be characterized entirely by a fixed kernel function — the NTK — independent of the training data. For finite but sufficiently wide networks, the NTK provides a rigorous approximation to the network's learned representation. The NTK bridges neural networks and kernel theory, explaining implicit regularization, generalization, and the surprising phenomenon that overparameterized networks can interpolate data while generalizing well.
 
+## How It's Best Learned
+Train a two-layer network and its first-order Taylor expansion around initialization side by side on a small one-dimensional regression task, using the same gradient descent and the NTK parameterization (output scaled by 1/sqrt(width)). Repeat at widths 10, 100, 1,000 and 10,000. Track the relative weight change and the gap between the two models' outputs. Both shrink as width grows, and computing the empirical NTK Gram matrix before and after training shows how little it moves.
+
+## Common Misconceptions
+- In the NTK regime only the last layer trains. (All weights move, but each moves very little. The network behaves like its first-order Taylor expansion in all parameters.)
+- Any wide enough network is in the NTK regime. (Lazy training also depends on the parameterization and learning-rate scaling. Under mean-field style scalings, wide networks keep learning features.)
+- Because the NTK is fixed during training, it is the same for every architecture. (The kernel depends on depth, activation function and initialization, so different architectures give different kernels.)
+
 ## Questions
 
 ```yaml

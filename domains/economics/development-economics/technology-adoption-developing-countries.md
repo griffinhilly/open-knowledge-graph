@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Developing countries typically adopt existing frontier technologies (cell phones, solar panels, improved crops) faster than inventing new ones. However, adoption is uneven due to credit constraints, lack of information, and weak incentives. Technology alone is insufficient; complementary skills, infrastructure, and institutions determine impact.
 
+## How It's Best Learned
+Simulate diffusion with one rule: each season, the share of people who newly adopt equals 0.8 × (share adopted) × (share not adopted). Start at 5% and run ten seasons. The share goes about 9%, 15%, 26%, 41%, 60%, 79%, then levels off near full adoption. Then sort sample adoption gaps by binding barrier (credit, information, or a missing complement) and match each to a policy.
+
+## Common Misconceptions
+- Once a technology is cheap and proven, people will adopt it. (Credit limits, missing information, and missing complements can hold adoption low for years.)
+- Slow early uptake means a technology is failing. (Diffusion often starts slowly while early adopters learn and show results, then speeds up.)
+- Every adoption gap has the same cause. (Credit, information, or a missing complement may bind, and each calls for a different policy, so the binding one has to be found from evidence.)
+- A phone is worth the same to each buyer however many others own one. (Network technologies gain value as more people join, so early buyers get less and adoption can stall below a critical mass.)
+
 ## Questions
 
 ```yaml

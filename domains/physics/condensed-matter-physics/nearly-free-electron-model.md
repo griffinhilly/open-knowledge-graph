@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 The nearly free electron model treats the crystal potential as a weak perturbation on free electrons. Free electron energy parabolas E = ħ^2k^2/2m, when folded into the first Brillouin zone, cross at zone boundaries. The periodic potential lifts these degeneracies through Bragg scattering, opening energy gaps of magnitude 2|V_G| at each zone boundary, where V_G is the Fourier component of the potential at reciprocal lattice vector G. This model explains the origin of band gaps from first principles and shows that even a weak potential qualitatively changes the electronic structure from continuous to banded.
 
+## How It's Best Learned
+Take V(x) = 2V cos(2πx/a) in one dimension and write the 2 × 2 Hamiltonian that mixes e^{ikx} with e^{i(k−G)x}. Its eigenvalues are the mean of the two free energies ± √(half their difference squared + V²), which gives a gap of 2|V| at k = π/a. Check it against a larger plane-wave diagonalization. Then draw the free-electron Fermi circle for two electrons per square-lattice cell and see it cross the zone boundary.
+
+## Common Misconceptions
+- A band gap needs a strong crystal potential. (Any nonzero Fourier component V_G opens a gap at the matching zone boundary; a weak potential gives a small gap.)
+- A gap at a zone boundary makes the material an insulator. (In two and three dimensions, bands from different directions can overlap in energy, so the Fermi level can still cross bands.)
+- Every zone boundary has a gap of the same size. (Each gap is set by its own V_G, and a structure factor from the basis can make some V_G vanish, closing that gap at first order.)
+- Away from the zone boundaries the potential has no effect. (It shifts the energies everywhere at second order, by amounts that grow as k approaches a boundary.)
+
 ## Questions
 
 ```yaml

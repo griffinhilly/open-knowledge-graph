@@ -29,6 +29,14 @@ status: validated
 ## Core Idea
 A local ring is a commutative ring with exactly one maximal ideal. The elements outside this maximal ideal are precisely the units. Local rings arise naturally from localizing any ring at a prime ideal, and they represent the algebraic analog of "zooming in on a single point" in geometry. Working locally simplifies many problems because the ideal structure collapses to a single chain above the maximal ideal.
 
+## How It's Best Learned
+Find the units by hand in two local rings. In ℤ₍₅₎, a/b is a unit exactly when 5 ∤ a. In k[x]/(x²), check that (a + bx̄)(a⁻¹ - ba⁻²x̄) = 1 when a ≠ 0. Then contrast ℤ/6ℤ, which has the two maximal ideals (2̄) and (3̄). Last, note that 1 + x is a unit in k[x]₍ₓ₎ but not in k[x].
+
+## Common Misconceptions
+- A local ring has only one prime ideal. (It has one maximal ideal. ℤ₍ₚ₎ has the two primes (0) and pℤ₍ₚ₎, and k[x, y] localized at (x, y) has infinitely many.)
+- Localizing at any multiplicative set gives a local ring. (Localizing at the complement of a prime does. Inverting only the powers of 2 in ℤ gives ℤ[1/2], which still has the maximal ideals (3), (5), (7), ....)
+- The residue field of a local ring is a subring of it. (The residue field is a quotient. ℤ₍ₚ₎ contains no copy of 𝔽_p, since it has characteristic 0.)
+
 ## Questions
 
 ```yaml

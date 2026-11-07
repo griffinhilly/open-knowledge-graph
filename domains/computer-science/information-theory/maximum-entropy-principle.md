@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 The maximum entropy principle (MaxEnt) states that given a set of constraints (known expectations of certain functions), the least presumptuous probability distribution is the one that maximizes entropy subject to those constraints. The resulting distribution belongs to the exponential family, with parameters (Lagrange multipliers) determined by the constraints. MaxEnt was formalized by Jaynes as an extension of Laplace's principle of insufficient reason: when you have incomplete information, the maximum entropy distribution makes the fewest assumptions beyond what you know. It provides the foundation for statistical mechanics (Boltzmann distribution), connects to Bayesian inference, and is widely used in natural language processing, ecology, and image reconstruction.
 
+## How It's Best Learned
+Solve the die problem numerically: for target means of 3.5, 4.5 and 5.5, find lambda in p(k) proportional to exp(lambda * k) and plot the three distributions. Then derive the general exponential-family form once with Lagrange multipliers. Finally, list which constraints give which familiar distributions: support only, a mean on the naturals, and a mean and variance on the real line.
+
+## Common Misconceptions
+- The MaxEnt distribution is the true distribution of the data. (It is the least committal distribution given the constraints you chose. If an important constraint is left out, the MaxEnt answer can be far from the truth.)
+- Adding another constraint can raise the maximum entropy. (Each added constraint shrinks the set of allowed distributions, so the maximum entropy stays the same or falls.)
+- A maximum entropy distribution exists for any set of constraints. (On the whole real line with only the mean fixed, differential entropy has no upper bound, so no MaxEnt distribution exists.)
+- For continuous variables the answer does not depend on how the variable is expressed. (Differential entropy changes under a change of variables, so MaxEnt with the same constraints can give different answers in different coordinates unless a reference measure is fixed.)
+
 ## Questions
 
 ```yaml

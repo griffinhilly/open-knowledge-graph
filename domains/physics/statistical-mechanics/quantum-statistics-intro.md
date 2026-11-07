@@ -32,6 +32,14 @@ status: validated
 ## Core Idea
 Quantum indistinguishability means identical particles cannot be labeled. Fermions (half-integer spin) obey the Pauli exclusion principle—at most one per quantum state—leading to Fermi-Dirac statistics. Bosons (integer spin) have no occupancy restriction and follow Bose-Einstein statistics. These differences profoundly affect thermodynamic behavior at low temperatures.
 
+## How It's Best Learned
+Put two particles into three single-particle states and list the microstates. Distinguishable particles give 9, bosons give 6, fermions give 3. The chance that both share a state is then 1/3, 1/2 and 0. Next, evaluate the three occupancies at (ε − μ)/kT = 0.5: Fermi-Dirac 0.38, Maxwell-Boltzmann 0.61, Bose-Einstein 1.54. At 3 they nearly agree: 0.047, 0.050, 0.052.
+
+## Common Misconceptions
+- A ⁴He atom is built from fermions, so it must be a fermion. (A composite of an even number of fermions acts as a boson at energies too low to probe its structure. ⁴He has six fermions and is a boson, while ³He has five and is a fermion.)
+- Bosons share states because they attract each other. (The enhanced occupancy appears even for non-interacting bosons. It comes from counting symmetric states, as the two-particle listing shows.)
+- Indistinguishability stops mattering at high temperature. (Classical counting still needs the 1/N! factor to give an extensive entropy. What fades at high temperature is the difference between the three occupancy formulas.)
+
 ## Questions
 
 ```yaml

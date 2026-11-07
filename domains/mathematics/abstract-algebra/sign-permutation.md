@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 A permutation is even if it is a product of an even number of transpositions, and odd if it is a product of an odd number of transpositions. The sign is well-defined: every decomposition into transpositions has the same parity. The alternating group Aₙ is the subgroup of even permutations.
 
+## How It's Best Learned
+Write each element of S₃ as a 3 × 3 permutation matrix and compute its determinant. The determinant equals the sign, because each row swap flips it. Then check sgn(στ) = sgn(σ)sgn(τ) on a few pairs. Finally count A₄: the identity, eight 3-cycles, and three products of two disjoint transpositions make 12, half of 24.
+
+## Common Misconceptions
+- A 4-cycle is even because 4 is even. (A 4-cycle is three transpositions, so it is odd. A k-cycle has sign (−1)^(k−1).)
+- An even permutation is one that moves an even number of points. (A 3-cycle moves three points and is even, while a transposition moves two and is odd.)
+- The product of two odd permutations is odd. (Signs multiply, and (−1)(−1) = +1. The product of two transpositions sharing one point is a 3-cycle, which is even.)
+
 ## Questions
 
 ```yaml

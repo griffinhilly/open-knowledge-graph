@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 Farmers often lack information about improved practices, inputs, or market prices. Extension services disseminate knowledge and reduce information barriers. Farmer-to-farmer diffusion and local demonstration plots are often more cost-effective than government extension. Mobile technology enables real-time information, bypassing weak institutional channels.
 
+## How It's Best Learned
+Take the farmer's point of view. Give the same fertilizer recommendation three ways: a pamphlet from the capital, an agent's visit, and a neighbor's plot with visible results. Ask which source the farmer can verify and which matches her own soil. Then separate the two information gaps the topic covers: how to produce, and what price to accept when selling.
+
+## Common Misconceptions
+- Farmers who ignore correct advice are behaving irrationally. (A recommendation tested elsewhere may not fit local soil, and a farmer risking her harvest has good reason to want local proof first.)
+- Extension fails mainly because there are too few agents. (More agents do not help if the advice does not fit. Top-down systems such as Training and Visit were criticized for high costs and for standardized messages that often ignored local conditions.)
+- The information farmers lack is only about farming techniques. (Price information matters too. A farmer who does not know the market price is in a weak position when a trader makes an offer.)
+- Any farmer can serve as a good demonstration farmer. (Diffusion depends on who is chosen. A lead farmer with few social ties in the village may spread a practice slowly.)
+
 ## Questions
 
 ```yaml

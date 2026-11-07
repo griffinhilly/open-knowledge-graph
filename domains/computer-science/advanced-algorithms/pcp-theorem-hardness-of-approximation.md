@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 The PCP (Probabilistically Checkable Proofs) theorem states that every language in NP has a proof system where a verifier reads only O(1) bits of the proof and uses O(log n) random bits, yet accepts valid proofs with probability 1 and rejects invalid proofs with probability at least 1/2. This seemingly technical statement has a revolutionary consequence: it is NP-hard to approximate MAX-3SAT beyond a ratio of 7/8 (and many other optimization problems beyond specific thresholds). Dinur's 2007 combinatorial proof via gap amplification on constraint graphs replaced the original algebraic proof and made the result more accessible. The PCP theorem is the theoretical engine behind all inapproximability results — without it, we would have no way to prove that certain approximation ratios cannot be beaten unless P = NP.
 
+## How It's Best Learned
+Begin with a simple verifier you can check by hand, such as linearity testing: pick random x and y and test f(x) + f(y) = f(x + y) on a small truth table. Then write out the gap version of MAX-3SAT and follow one gap-preserving reduction to another problem, tracking how the completeness and soundness values change. Study Dinur's powering and alphabet-reduction steps only after the gap idea is clear.
+
+## Common Misconceptions
+- The verifier reads O(1) bits, so the proof must be short. (The proof has polynomial length. The verifier reads only a constant number of its bits, at positions chosen with O(log n) random bits.)
+- A PCP verifier can accept a false claim only rarely because it checks the whole proof eventually. (It never reads most of the proof. The proof format is built so that any proof of a false claim fails a constant fraction of the possible spot checks.)
+- The PCP theorem alone gives the 7/8 threshold for MAX-3SAT. (The basic theorem gives some constant gap. The tight 7/8 + epsilon threshold needs Håstad's stronger PCP constructions.)
+- Results that depend on the Unique Games Conjecture are proven NP-hardness results. (They hold only if the conjecture is true, which is still open.)
+
 ## Questions
 
 ```yaml

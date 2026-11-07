@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Anderson localization is the absence of diffusion of waves in a disordered medium. In a crystal with random potential disorder, sufficiently strong disorder causes all electronic wavefunctions to become exponentially localized: |psi(r)| ~ exp(-|r - r_0|/xi_loc), where xi_loc is the localization length. In 1D and 2D, all states are localized for any amount of disorder. In 3D, a mobility edge separates localized states (in the band tails) from extended states (in the band center), and the metal-insulator transition (Anderson transition) occurs when the Fermi level crosses the mobility edge. Anderson localization is a wave interference phenomenon — it applies to light, sound, and matter waves, not just electrons.
 
+## How It's Best Learned
+Build the one-dimensional Anderson model numerically: a tight-binding chain with random on-site energies drawn from [−W/2, W/2]. Diagonalize it for several chain lengths and disorder strengths, and plot the inverse participation ratio of each eigenstate. Extended states give a ratio that shrinks as 1/N, while localized states give one that stays fixed. At weak W, watch states look extended until the chain grows longer than the localization length.
+
+## Common Misconceptions
+- An electron is localized because it is trapped in a deep potential well, as a classical particle would be. (Localization happens even when the electron's energy lies above every potential barrier; it comes from interference among scattered waves.)
+- Weak disorder in 3D localizes every state, just as it does in 1D. (In 3D, states near the band center stay extended for weak disorder, and only states beyond the mobility edge are localized.)
+- An Anderson insulator conducts no current at any temperature. (Localized states give zero DC conductivity at zero temperature, but at finite temperature phonons let electrons hop between localized states.)
+- Any short mean free path makes a material insulating. (A short mean free path can give a poor metal instead; localization also needs phase coherence, and it is lost when inelastic scattering is frequent.)
+
 ## Questions
 
 ```yaml

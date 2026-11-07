@@ -19,6 +19,14 @@ status: draft
 ## Core Idea
 Biographical narrative requires choosing thematic and chronological organization that reveals the subject's complexity and significance. Biographers make strategic decisions about what material to include and emphasize, using narrative structure to create meaning and interpretation rather than mere documentation, while remaining accountable to historical evidence.
 
+## How It's Best Learned
+Take a one-page timeline of a well-documented life and outline two biographies from it: one chronological, one organized around three themes. Write the opening paragraph of each, then compare what each opening tells the reader to expect. Finally, read the first and last chapters of a published biography and state the interpretation its frame implies.
+
+## Common Misconceptions
+- A chronological biography is neutral, while a thematic one interprets. (Chronology also involves choices about where to begin, what to include, and what to emphasize, and those choices shape meaning.)
+- Leaving material out of a biography is a form of distortion. (Every biography selects. Selection becomes a failure when it conceals evidence that would change the reader's judgment of the subject.)
+- Interpretation and accuracy pull against each other. (A biographer can stay accountable to the evidence and still arrange it to reveal significance.)
+
 ## Questions
 
 ```yaml
@@ -54,6 +62,7 @@ Biographical narrative requires choosing thematic and chronological organization
 
 - question: 'A biographer might tell the same person''s life story in two different ways: one organized chronologically from birth to death, another organized around the subject''s major intellectual or creative periods. How would these structures create different interpretations? What responsibility does the biographer have in choosing between them?'
   type: short-answer
+  answer: "The chronological version stresses cause and development, showing how each stage led to the next. The version built around creative periods stresses recurring patterns and may present the person as more continuous across time. The biographer should choose the structure that best serves the subject's complexity and be open about why it was chosen."
   explanation: The chronological structure emphasizes cause and effect—how experiences in one period led to development in the next. It might make clear how the subject's childhood shaped their adult choices. The thematic structure emphasizes patterns and ideas—it shows recurring themes across the person's life, possibly suggesting that who they were at age 20 wasn't fundamentally different from who they were at 60, just more developed. These create very different interpretations of the same person. The biographer's responsibility is to choose the structure that most honestly serves the subject's complexity while being transparent about why that structure reveals what the biographer believes is significant. Hidden choices pretend to objectivity; acknowledged choices invite readers into the interpretive act.
 ```
 

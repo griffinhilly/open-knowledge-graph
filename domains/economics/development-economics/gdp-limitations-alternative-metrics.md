@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 GDP measures market output but ignores inequality, environmental degradation, non-market production, and well-being quality. The Genuine Progress Indicator, Gross National Happiness, and satellite-based living standards measures offer alternative pictures of progress. Many countries now recognize these limitations and incorporate broader metrics into policy decisions.
 
+## How It's Best Learned
+Use this page's two 1,000-person countries: one where a single person earns $1 million, and one where everyone earns $1,000. Confirm that both have $1,000 GDP per capita, then ask what life is like for the median person in each. Next, list a year's events (a factory pollutes, a cleanup is paid for, a parent quits a job to raise a child) and mark how each moves GDP and how each moves well-being.
+
+## Common Misconceptions
+- Higher GDP per capita means the typical person is better off. (GDP per capita is an average. If gains go to a small group, most people can see little or no improvement.)
+- Anything that raises GDP is good for welfare. (Spending to repair damage, such as pollution cleanup, adds to GDP even though it only restores what was lost.)
+- GDP should be abandoned. (It is well-defined and comparable across countries. The lesson is to pair it with measures of distribution, health, education, and environment.)
+- Alternative metrics are just as objective as GDP. (Indexes such as the GPI and HDI rest on choices about what to include and how to weight it.)
+
 ## Questions
 
 ```yaml

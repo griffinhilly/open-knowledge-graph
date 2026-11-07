@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 Financial system development—reliable payments, deposit insurance, credit information—enables households to save and firms to invest. Cross-country evidence shows deeper financial systems correlate with faster growth. However, financial development also creates risks (bank runs, crises) requiring careful regulation and institutional capacity.
 
+## How It's Best Learned
+Draw a simple bank balance sheet: deposits withdrawable on demand on one side, five-year loans on the other. Ask what happens if a third of depositors withdraw on the same day, and show that the bank can fail while its loans are sound. Then add deposit insurance, then capital requirements, and note which risk each one addresses.
+
+## Common Misconceptions
+- Financial development just means more loans. (A financial system also provides payments, safe savings, risk pooling, and information about borrowers, each of which can matter apart from credit volume.)
+- A bank that fails must have made bad loans. (A solvent bank can fail in a run because its loans cannot be turned into cash as fast as depositors withdraw.)
+- Deposit insurance removes the mismatch between deposits and loans. (The mismatch remains. Insurance removes depositors' reason to run, but it does not prevent losses from bad lending.)
+- Faster financial growth is always better. (Credit that expands faster than supervisory capacity can raise the risk of a crisis that reverses earlier gains.)
+
 ## Questions
 
 ```yaml

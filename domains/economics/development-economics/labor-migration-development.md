@@ -20,6 +20,15 @@ status: validated
 ## Core Idea
 Internal rural-urban migration and international migration from poor to rich countries are central to development. Migration allows workers to access higher-wage opportunities and reallocates labor from low to high-productivity sectors. Migration also creates social disruption, urban congestion, and brain drain when highly educated workers leave. Optimal migration policy balances these effects.
 
+## How It's Best Learned
+Solve a Harris-Todaro example. The rural wage is 80 and the urban formal wage is 100. Migration stops when 100 × (chance of a job) = 80, so 20% of the urban labor force is unemployed. Now add 100 urban jobs. To keep the job chance at 80%, the labor force grows by 125, so 25 more people end up unemployed.
+
+## Common Misconceptions
+- People who move to cities with high unemployment are acting irrationally. (Migrants compare the rural wage with the expected urban wage, which is the wage times the chance of getting a job.)
+- Creating more urban jobs will lower urban unemployment. (In the Harris-Todaro model, new jobs raise the expected urban wage and draw more migrants, so the number unemployed can rise.)
+- The poorest people are the most likely to migrate. (Moving has upfront costs, so migrants tend to be younger and often better educated. The very poorest may not afford the move.)
+- Brain drain is a pure loss for the sending country. (Remittances, returning migrants with new skills, and the chance to emigrate, which can raise schooling among those who stay, can offset part of the loss.)
+
 ## Questions
 
 ```yaml
@@ -50,8 +59,8 @@ Internal rural-urban migration and international migration from poor to rich cou
 
 - question: "The Harris-Todaro model predicts that migration will slow and stop once urban unemployment rises high enough to equalize the expected urban wage with the rural wage."
   type: true-false
-  answer: false
-  explanation: "This statement misreads the Harris-Todaro equilibrium condition. The model predicts that migration continues until EXPECTED urban wages equal rural wages — meaning equilibrium includes some positive unemployment rate. The prediction is NOT that migration stops when unemployment is high; rather, migration reaches a steady state where the unemployment rate is precisely the level that equalizes expected returns. If the urban wage rises or rural wages fall, migration increases until a new equilibrium unemployment rate is established. Migration does not stop because unemployment is high — it finds an equilibrium WITH unemployment."
+  answer: true
+  explanation: "True. In the Harris-Todaro model, migrants compare the rural wage with the expected urban wage, which is the urban wage times the chance of getting a job. Migration continues until urban unemployment is high enough that the two are equal, and then it stops. So the equilibrium includes positive urban unemployment. If the urban wage rises or the rural wage falls, migration resumes until a new, higher unemployment rate restores the equality."
 
 - question: "In what sense is the decision to migrate analogous to an investment in education, and what does this imply about who is most likely to migrate?"
   type: short-answer

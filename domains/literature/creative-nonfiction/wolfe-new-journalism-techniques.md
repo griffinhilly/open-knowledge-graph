@@ -24,6 +24,14 @@ status: draft
 ## Core Idea
 Wolfe pioneered novelistic techniques—dialogue, scene construction, interior monologue—in reported nonfiction while maintaining factual accuracy. His method established that literary sophistication and factual reporting are complementary rather than contradictory. This practice shows how a reporter can achieve narrative immediacy through careful use of literary devices.
 
+## How It's Best Learned
+Take a news article about an event and a passage from The Right Stuff. In the Wolfe passage, label sentences as scene, dialogue, a character's point of view, or a detail of clothing, speech, or possessions that signals social status. Then rewrite two paragraphs of the news article using those devices, adding only details the article supports, and note where you lacked the reporting to go further.
+
+## Common Misconceptions
+- Using novelistic techniques means the writer is allowed to make things up. (Wolfe's approach depended on heavy reporting so that scenes, dialogue, and inner thoughts rested on interviews and observation.)
+- Interior monologue in journalism is the writer's guess about what someone felt. (When done responsibly it draws on what the subject told the reporter or clearly showed.)
+- New Journalism is mainly the writer giving opinions in the story. (Its distinguishing features are craft devices like scene-by-scene construction and full dialogue, used to render reported events.)
+
 ## Questions
 
 ```yaml
@@ -59,12 +67,13 @@ Wolfe pioneered novelistic techniques—dialogue, scene construction, interior m
 
 - question: Choose a factual event or situation you know well. Write it first as plain summary ('X happened, then Y happened'). Then rewrite it using scene construction, dialogue, and perhaps interior monologue—all based on what actually occurred. How does the literary technique change the reader's experience? Is it more or less truthful?
   type: short-answer
+  answer: "The scene version lets readers see and feel the event unfold through physical detail, dialogue, and inner experience, where the summary only reports it. It can be more truthful to what the experience was like, provided every detail and line of dialogue rests on accurate memory or reporting."
   explanation: 'Example: A job interview. Plain summary: ''I interviewed for a job. The interviewer asked questions. I answered. I felt nervous.'' Scene construction: You construct the moment of entering the office, the exact physical details, the actual words spoken as you remember them, the nervous gestures you made. This vivid version is not less truthful—it''s actually more truthful to what the experience was like. The reader feels the nervousness you felt; they see the interaction unfold. This requires solid reporting—you need to remember dialogue accurately or reconstruct it responsibly. But the literary form creates truthfulness that summary doesn''t.'
 ```
 
 ## Explainer
 
-Tom Wolfe (1931-2018) was a journalist and author who pioneered "new journalism" in the 1960s and 1970s. His essays and books—particularly *The Electric Kool-Aid Acid Test*, *The Right Stuff*, and *Bonfire of the Vanities*—demonstrated that reporting and literary sophistication could coexist. Wolfe spent months embedded with his subjects, conducting extensive interviews, observing directly, and then writing about what he learned using techniques borrowed from fiction.
+Tom Wolfe (1931-2018) was a journalist and author who pioneered "new journalism" in the 1960s and 1970s. His essays and books—particularly *The Electric Kool-Aid Acid Test*, *The Right Stuff*, and *The Kandy-Kolored Tangerine-Flake Streamline Baby*—demonstrated that reporting and literary sophistication could coexist. Wolfe spent months embedded with his subjects, conducting extensive interviews, observing directly, and then writing about what he learned using techniques borrowed from fiction.
 
 Wolfe's method was scrupulous reporting that supported vivid narrative. He wouldn't represent a character's interior thoughts unless he had reliable knowledge of them. He would quote dialogue accurately or note when he was reconstructing from memory. He observed scenes directly or interviewed people who had witnessed them. All this careful reporting allowed him to use literary technique without fabricating. The result was journalism that was simultaneously rigorous and immersive.
 

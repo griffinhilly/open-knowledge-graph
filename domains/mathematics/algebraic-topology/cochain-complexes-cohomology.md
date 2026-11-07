@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 A cochain complex is obtained by dualizing a chain complex: replacing each chain group C_n with the dual group Hom(C_n, G) (typically G = Z) and reversing the direction of the maps. The coboundary operator d^n goes "upward" from C^n to C^{n+1}, and cohomology H^n = ker(d^n)/im(d^{n-1}) measures the failure of cocycles to be coboundaries. While cohomology carries the same information as homology for spaces over a field, over the integers it carries strictly more information due to the universal coefficient theorem, and the cup product gives cohomology a ring structure that homology lacks.
 
+## How It's Best Learned
+Compute small cases with cochains as labels. On the boundary of a triangle, label vertices with integers and check that the coboundary gives each edge the difference of its endpoint labels. Then dualize the cellular complex of RP^2: Z --0--> Z --2--> Z gives H^0 = Z, H^1 = 0, H^2 = Z/2. Set this beside the homology (Z, Z/2, 0) to see torsion move up one degree.
+
+## Common Misconceptions
+- H^n(X; Z) is the dual group Hom(H_n(X), Z). (That holds when H_{n-1}(X) is free. Otherwise the Ext term adds torsion: for RP^2, H^2 = Z/2 while H_2 = 0.)
+- A continuous map f : X -> Y induces f^* : H^n(X) -> H^n(Y). (Cohomology is contravariant. The induced map goes the other way, f^* : H^n(Y) -> H^n(X).)
+- A cochain is another kind of chain, a formal sum of simplices. (A cochain is a homomorphism from chains to G. It assigns a value in G to each n-simplex and is extended linearly.)
+
 ## Questions
 
 ```yaml

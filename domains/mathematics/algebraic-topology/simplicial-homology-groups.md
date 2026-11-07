@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 The n-th simplicial homology group H_n(K) = ker(d_n)/im(d_{n+1}) measures the n-dimensional "holes" in a simplicial complex K. Elements of H_n are equivalence classes of n-cycles (chains with zero boundary) modulo n-boundaries (chains that bound (n+1)-dimensional regions). H_0 counts connected components, H_1 detects loops that do not bound surfaces, and H_2 detects enclosed cavities. Homology groups are computable topological invariants — different triangulations of the same space yield isomorphic groups.
 
+## How It's Best Learned
+Write out boundary matrices for tiny complexes and compute kernels and images by hand. Compare the hollow triangle, where the edge loop gives H_1 = Z, with the filled triangle, where the same loop is d_2 of the face and H_1 = 0. Then do the boundary of a tetrahedron and find the 2-cycle that gives H_2 = Z. Finally, put a small integer matrix into Smith normal form to see where torsion would come from.
+
+## Common Misconceptions
+- H_0 has one generator for each vertex. (Vertices joined by a path of edges differ by a boundary, so H_0 has one generator per connected component.)
+- Two cycles give the same homology class only if they are the same chain. (They give the same class when they differ by a boundary. In an annulus, loops of edges around the hole at different radii are homologous.)
+- Ranks of kernels and images give the whole homology group. (Ranks give the Betti numbers but miss torsion. Over Z, torsion shows up as diagonal entries greater than 1 in the Smith normal form of a boundary matrix.)
+
 ## Questions
 
 ```yaml

@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 In Newtonian gravity, a planet orbiting a single point mass traces a fixed ellipse (Kepler's first law). General relativity predicts that the ellipse slowly rotates — the perihelion (closest approach point) precesses by an additional Δφ = 6πGM/(a(1-e²)c²) radians per orbit, where M is the central mass, a is the semi-major axis, and e is the eccentricity. For Mercury, this gives 42.98 arcseconds per century — a small but precisely measurable anomaly that had been known since Le Verrier's 1859 analysis and resisted all Newtonian explanations (perturbations from other planets, solar oblateness, a hypothetical planet "Vulcan"). Einstein's correct prediction of this value in November 1915, using the nearly final form of his field equations, was the first quantitative test of GR and the moment Einstein described as giving him "heart palpitations."
 
+## How It's Best Learned
+Use the relativistic orbit equation u″ + u = GM/h² + 3GMu²/c², where u = 1/r and h is angular momentum per unit mass. Linearize about the mean value u₀ = GM/h² = 1/(a(1 − e²)) to get δ″ + (1 − 6GMu₀/c²)δ = 0. The radial oscillation then repeats every 2π(1 + 3GMu₀/c²) of angle, an advance of 6πGM/(a(1 − e²)c²) per orbit. Put in Mercury's numbers and about 415 orbits per century to reach 43 arcseconds.
+
+## Common Misconceptions
+- General relativity explains most of Mercury's observed perihelion shift. (It accounts for only about 43 arcseconds per century of the total. Newtonian pulls from other planets and the choice of reference frame account for the rest.)
+- In Newtonian gravity, orbits never precess. (A pure inverse-square force from a single point mass gives a fixed ellipse. Pulls from other planets add extra forces that make Newtonian orbits precess.)
+- Mercury's anomalous precession comes from the Sun's spin dragging spacetime. (The 43 arcseconds follow from the Schwarzschild geometry of a non-rotating mass. The Sun's rotation adds only a tiny frame-dragging correction.)
+
 ## Questions
 
 ```yaml

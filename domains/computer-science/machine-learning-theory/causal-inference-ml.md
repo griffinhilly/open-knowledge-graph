@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Causal inference in machine learning goes beyond correlation to identify cause-effect relationships: "If we intervene to change X, how will Y change?" This is formalized through causal graphs (directed acyclic graphs representing causal assumptions), do-calculus (Pearl's framework for computing interventional distributions), and randomized experiments (gold standard but often infeasible). Machine learning approaches use observational data with causal assumptions to estimate causal effects, addressing confounding (variables that influence both cause and effect), selection bias, and unobserved confounders. Applications include treatment effect estimation, policy evaluation, and counterfactual prediction.
 
+## How It's Best Learned
+Write down a three-node graph with binary variables: confounder C causes both treatment T and outcome Y, and T causes Y. Pick probabilities, then compute P(Y=1 | T=1) and the adjusted P(Y=1 | do(T=1)) = Σ_c P(Y=1 | T=1, c) P(c) and see that they differ. Simulate data from the same model and check that stratifying on C recovers the second number.
+
+## Common Misconceptions
+- Controlling for more variables can only reduce bias. (Conditioning on a collider or on a mediator can create or add bias. The backdoor criterion says which sets of variables to adjust for.)
+- With enough observational data, a flexible model will learn the causal effect. (More data sharpens the estimate of P(Y | X). P(Y | do(X)) also needs causal assumptions, and with unmeasured confounding it is often not identified at any sample size.)
+- A feature that predicts the outcome well must be one of its causes. (A feature can predict well because it shares a common cause with the outcome, or because the outcome causes it.)
+
 ## Questions
 
 ```yaml

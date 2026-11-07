@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 The Einstein model treats N atoms as 3N independent harmonic oscillators all with frequency ω_E. Heat capacity C_V = 3Nk (Θ_E/T)^2 exp(−Θ_E/T) / [exp(−Θ_E/T)−1]^2, where Θ_E = ℏω_E/k. It captures the high-temperature limit C_V = 3R but predicts C_V → 0 too steeply at low T, lacking the T^3 behavior of the Debye model.
 
+## How It's Best Learned
+Derive ⟨ε⟩ from the geometric sum over levels, then tabulate C_V/3R = x²eˣ/(eˣ − 1)² with x = Θ_E/T. At x = 0.5 the value is 0.98, at x = 1 it is 0.92, and at x = 4 it is 0.30. For diamond at 300 K with Θ_E ≈ 1320 K, x ≈ 4.4 gives about 0.24, or roughly 6 J/(mol·K). That is close to the measured room-temperature value.
+
+## Common Misconceptions
+- The zero-point energy ½ℏω adds to the heat capacity. (It is the same at every temperature, so it drops out of dU/dT. Only the thermal part ℏω/(e^(ℏω/kT) − 1) contributes.)
+- Heat capacity falls at low T because the atoms stop moving. (The atoms keep their zero-point motion. The heat capacity falls because each oscillator can absorb energy only in quanta of ℏω.)
+- Since it fails at low temperature, the Einstein model has no modern use. (A single-frequency term describes optical phonons well, because their frequencies spread over a narrow range. Fits often combine a Debye term with Einstein terms.)
+
 ## Questions
 
 ```yaml

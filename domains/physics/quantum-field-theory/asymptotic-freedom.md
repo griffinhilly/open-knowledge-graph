@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 Asymptotic freedom is the property that the QCD coupling constant decreases at high energies (short distances). Discovered by Gross, Wilczek, and Politzer in 1973, it explains why quarks behave as nearly free particles in high-energy collisions while being permanently confined at low energies. It arises because gluon self-interaction loops dominate the vacuum polarization and have the opposite sign to fermion loops.
 
+## How It's Best Learned
+Integrate the one-loop equation dα_s/d ln Q = −b₀α_s²/(2π), with b₀ = 11 − 2N_f/3, to get 1/α_s(Q) = 1/α_s(μ) + (b₀/2π) ln(Q/μ). Start from α_s ≈ 0.12 at 91 GeV with N_f = 5 and evaluate at 1 TeV; you should get about 0.09. Then run it downward and see where the formula blows up, which marks where perturbation theory stops working.
+
+## Common Misconceptions
+- At high energy quarks become truly free and can escape. (The coupling falls only logarithmically and never reaches zero at any finite energy; quarks produced in hard collisions still end up bound into hadrons.)
+- Gluons anti-screen because they are massless. (Photons are massless too and do not anti-screen; the effect comes from gluons carrying color charge and interacting with each other.)
+- The negative beta function proves that quarks are confined. (The one-loop running shows the coupling grows toward low energy until perturbation theory fails; confinement itself is a non-perturbative property, supported by lattice calculations rather than derived from the beta function.)
+
 ## Questions
 
 ```yaml

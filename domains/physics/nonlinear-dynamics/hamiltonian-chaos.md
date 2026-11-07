@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Hamiltonian (conservative) chaos differs fundamentally from dissipative chaos because phase space volumes are conserved (Liouville's theorem). There are no attractors — chaotic orbits fill regions of phase space without converging onto fractal sets. The Lyapunov exponents come in ±λ pairs, and chaotic and regular orbits coexist in the same energy surface. The Poincare section reveals the characteristic mixed phase space: islands of regular motion (KAM tori) surrounded by a chaotic sea. Hamiltonian chaos governs planetary dynamics, particle accelerators, plasma confinement, and celestial mechanics.
 
+## How It's Best Learned
+Iterate the standard map p′ = p + K sin θ, θ′ = θ + p′ (both mod 2π) from a grid of about 20 starting points. Plot all the orbits together for K = 0.5, 1 and 2. First check that the map's Jacobian determinant is exactly 1, so it preserves area. Then watch the closed curves break up and the chaotic sea spread between surviving islands as K grows.
+
+## Common Misconceptions
+- Chaotic orbits in a Hamiltonian system eventually settle onto a strange attractor. (Liouville's theorem preserves phase-space volume, so there are no attractors; a chaotic orbit keeps wandering through a region of finite volume.)
+- Because energy is conserved, the motion has to be regular and predictable. (Energy conservation only confines the orbit to an energy surface; within that surface, nearby orbits can still separate exponentially.)
+- A Hamiltonian system is either fully integrable or fully chaotic. (The typical case is a mixed phase space, with regular islands and a chaotic sea on the same energy surface.)
+- Since the exponents come in ±λ pairs, stretching and shrinking cancel and nearby orbits do not separate. (The pairing preserves volume, but the separation along the +λ direction still grows exponentially.)
+
 ## Questions
 
 ```yaml

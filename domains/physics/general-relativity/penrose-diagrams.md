@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Penrose diagrams (Carter-Penrose diagrams) are conformal spacetime diagrams that map the entire spacetime — including points at infinity — onto a finite region while preserving the causal structure (light cones at 45 degrees everywhere). They are constructed by a conformal transformation g_μν → Ω²g_μν that compresses infinite distances to finite coordinate ranges, bringing spatial infinity (i⁰), past/future null infinity (J⁻/J⁺), and past/future timelike infinity (i⁻/i⁺) to the boundary of the diagram. Light rays always travel at 45 degrees, timelike curves travel at less than 45 degrees from vertical, and spacelike curves at more than 45 degrees. Penrose diagrams make the global causal structure transparent: event horizons, the black hole interior, white holes, the causal disconnection of separate regions, and the structure of cosmological spacetimes are all immediately visible.
 
+## How It's Best Learned
+Build the Minkowski diagram by hand. Use null coordinates u = t − r and v = t + r, compress them with U = arctan u and V = arctan v, and plot T = U + V against R = V − U. Draw lines of constant t, which converge on i⁰, and lines of constant r, which run from i⁻ to i⁺. Then add a static observer and an outgoing light ray. Repeat with Kruskal coordinates for Schwarzschild.
+
+## Common Misconceptions
+- Lengths on a Penrose diagram show real distances or elapsed times. (The conformal factor distorts all scales. Only the causal structure, which events can signal which, is preserved.)
+- Every light ray appears as a 45° line. (Each point stands for a 2-sphere. Only radial null rays are 45° lines, and rays with angular motion lie inside the light cone on the diagram.)
+- In both Minkowski and Schwarzschild diagrams, r = 0 is a vertical line on the left edge. (In Minkowski space r = 0 is a timelike axis. In Schwarzschild the singularity at r = 0 is a spacelike line across the top of the black hole region.)
+
 ## Questions
 
 ```yaml

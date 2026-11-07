@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Gravitational waves are propagating ripples in the fabric of spacetime, predicted by Einstein's field equations and first directly detected by LIGO in 2015. They arise from accelerating masses with time-varying quadrupole (or higher) moments — merging black holes, neutron star binaries, supernovae. In linearized GR, they satisfy a wave equation and travel at the speed of light. They have two independent polarizations (plus and cross, h₊ and h×) that produce transverse, traceless tidal distortions: a ring of test particles is alternately stretched and squeezed in perpendicular directions as a wave passes. The leading-order energy loss rate is given by the quadrupole formula: dE/dt = -(G/5c⁵)⟨d³I_ij/dt³ d³I^ij/dt³⟩, where I_ij is the mass quadrupole moment. Gravitational waves carry energy, momentum, and angular momentum away from their source, causing orbital inspiral in binary systems.
 
+## How It's Best Learned
+Draw a ring of free test particles and apply h₊ = h cos ωt in the transverse-traceless gauge. Proper separations become x(1 + ½h cos ωt) and y(1 − ½h cos ωt). Sketch the ring every quarter cycle, then rotate the pattern 45° for h×. Next show why dipole radiation is absent: the second time derivative of the mass dipole moment is the rate of change of total momentum, which is zero.
+
+## Common Misconceptions
+- Gravitational waves are the same thing as gravity waves on water or in the atmosphere. (Those are fluid oscillations with buoyancy or gravity as the restoring force. Gravitational waves are ripples in spacetime geometry.)
+- Any accelerating mass radiates gravitational waves, the way an accelerating charge radiates light. (Emission needs a changing quadrupole or higher moment. A spherically pulsating star or a smooth spinning axisymmetric body does not radiate.)
+- If the wave stretches the arms, it stretches the laser light too, so LIGO cannot see anything. (The detector compares light travel times in the two arms, and these change as the wave passes. The laser's wavelength is set at the source.)
+
 ## Questions
 
 ```yaml

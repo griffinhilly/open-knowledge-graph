@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 The master equation dP_n/dt = Σ_m [W_{nm}P_m - W_{mn}P_n] describes time evolution of probability for discrete-state systems. Assuming Markovian dynamics (memoryless transitions), it applies broadly from molecular systems to quantum jumps, and becomes the Fokker-Planck equation in the continuum limit.
 
+## How It's Best Learned
+Solve the two-state case A ⇄ B by hand, with rate k₊ from A to B and k₋ back. P_A relaxes to k₋/(k₊ + k₋) at rate k₊ + k₋. Then take three states on a ring with rate k clockwise and k′ counterclockwise. The steady state is uniform, yet probability circulates with current (k − k′)/3, so steady state without detailed balance becomes concrete. Simulate both with random jumps and compare.
+
+## Common Misconceptions
+- A transition rate W_nm is a probability, so it cannot exceed 1. (It is a rate with units of inverse time. The probability of a jump in a short interval dt is W_nm dt.)
+- The master equation describes the jumps of one particular system. (It evolves the probability distribution over an ensemble. Single trajectories are random jump sequences, generated for example by the Gillespie algorithm.)
+- Once every P_n stops changing, the system is in equilibrium. (A steady state can carry a net probability current around a cycle, as in a driven ring. Equilibrium needs detailed balance for every pair of states.)
+
 ## Questions
 
 ```yaml

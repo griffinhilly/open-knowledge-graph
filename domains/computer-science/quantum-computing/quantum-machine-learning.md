@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Quantum machine learning (QML) explores whether quantum computers can offer advantages for machine learning tasks through quantum-enhanced feature spaces, faster linear algebra, or variational quantum models. Approaches include quantum kernel methods (using quantum circuits to compute kernels in exponentially large Hilbert spaces), parameterized quantum circuits as trainable models (quantum neural networks), and quantum-enhanced sampling. While theoretical quantum speedups exist for specific subroutines (HHL for linear systems, quantum sampling), demonstrating practical quantum advantage for real-world ML tasks remains an open challenge, with barren plateaus, data loading bottlenecks, and dequantization results as key obstacles.
 
+## How It's Best Learned
+Compute a one-qubit quantum kernel by hand. Encode x as RY(x)|0> = cos(x/2)|0> + sin(x/2)|1>; the overlap of two encoded points is cos((x - x')/2), so k(x, x') = cos^2((x - x')/2). This kernel is easy to compute classically, which raises the right question for any quantum model: what can it compute that a classical method cannot?
+
+## Common Misconceptions
+- A 2^n-dimensional feature space guarantees better learning. (A huge feature space can hurt. Kernel values can concentrate as qubits are added, and good generalization depends on the feature map matching the data.)
+- Amplitude encoding loads N numbers into log N qubits at no cost. (Preparing such a state generally takes a number of operations that grows with N, unless the data has special structure.)
+- HHL solves linear systems for ML exponentially faster and hands back the answer. (HHL outputs a quantum state encoding the solution. Reading out all N entries takes at least on the order of N repetitions, which removes the exponential gain, and the speedup also needs sparsity and a good condition number.)
+- A better classical optimizer can get past a barren plateau. (The gradients are exponentially small, so estimating them takes exponentially many measurements. Gradient-free optimizers struggle on the same flat cost surface.)
+
 ## Questions
 
 ```yaml

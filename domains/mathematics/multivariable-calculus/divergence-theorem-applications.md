@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 The divergence theorem states ∬_S F · n dS = ∭_W ∇ · F dV, where S is the closed surface bounding W with outward normal n. Total flux out of region W equals the integral of divergence throughout W. Useful for computing flux through closed surfaces without parametrization.
 
+## How It's Best Learned
+Compute one flux both ways and watch them agree. Take F = ⟨x, y, z⟩ on the unit cube [0, 1]³. Face by face, F · n equals 1 on the three faces at x = 1, y = 1, z = 1 and 0 on the three faces through the origin, so the flux is 3. The volume side gives ∭ 3 dV = 3. Then repeat on a sphere of radius R: F · n = R on the surface, so the flux is R · 4πR², which matches 3 · (4/3)πR³.
+
+## Common Misconceptions
+- The theorem applies to any surface, open or closed. (It needs a closed surface that bounds a solid region; for an open surface, such as a hemisphere without its base, you must first close it and subtract the flux through the added piece.)
+- Zero total flux means the divergence is zero everywhere inside. (Positive and negative divergence can cancel when integrated, giving zero net flux while sources and sinks are both present.)
+- The normal vector can point either way. (The theorem as stated uses the outward normal; using inward normals flips the sign of the flux.)
+- The theorem still holds if the field blows up somewhere inside the region. (F must be smooth throughout W; for a field like r/|r|³ with a singularity at the origin, the volume integral of divergence does not capture the flux.)
+
 ## Questions
 
 ```yaml

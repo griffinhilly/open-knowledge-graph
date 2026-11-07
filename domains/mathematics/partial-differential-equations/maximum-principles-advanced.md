@@ -17,6 +17,14 @@ status: validated
 ## Core Idea
 Advanced maximum principles extend the classical results to general elliptic operators, non-divergence form equations, and quantitative settings. The Hopf lemma establishes that at a boundary maximum, the outward normal derivative is strictly positive—a sharp boundary version of the strong maximum principle. The Alexandrov-Bakelman-Pucci (ABP) estimate gives quantitative L^∞ bounds on solutions in terms of the L^n norm of the right-hand side. Harnack's inequality relates the maximum and minimum of a positive solution, giving a powerful interior estimate. These tools are fundamental for regularity theory and nonlinear PDE analysis.
 
+## How It's Best Learned
+Probe each result with an explicit harmonic function. On the quadrant x, y > 0, u = −2xy has boundary maximum 0. At (1, 0) its outward normal derivative is 2, as Hopf predicts. At the corner, which has no interior sphere, its gradient is zero. For Harnack, take the Poisson kernel (1 − |x|²)/|x − e₁|² on the unit disk. On the disk of radius 1/2 its values run from 1/3 to 3.
+
+## Common Misconceptions
+- The Hopf lemma holds at every boundary point. (It needs an interior sphere condition. At the vertex of a quadrant, −2xy attains its maximum with zero gradient.)
+- Harnack's inequality applies to solutions of any sign. (It needs u ≥ 0. The harmonic function x on a ball centered at the origin takes both signs, so no bound sup u ≤ C inf u can hold.)
+- The maximum principle holds for −Δu + cu ≤ 0 with any zeroth-order coefficient c. (The standard results need c ≥ 0. On (0, 1), u = sin(πx) solves −u'' − π²u = 0 with zero boundary values but has an interior maximum of 1.)
+
 ## Questions
 ```yaml
 - question: "The Hopf lemma states that if u is a supersolution with u(x₀) = max u at a boundary point x₀, then:"

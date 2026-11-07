@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Landau's Fermi liquid theory explains why interacting electrons in a metal behave qualitatively like a free Fermi gas, despite strong Coulomb repulsion. The key insight is that there exists a one-to-one correspondence (adiabatic continuity) between the states of the interacting system and those of the non-interacting Fermi gas. The elementary excitations are not bare electrons but quasiparticles — electron-like entities with renormalized effective mass m* and finite lifetime tau proportional to 1/(E - E_F)^2. Near the Fermi surface, quasiparticles are long-lived enough to be well-defined, and the system retains a sharp Fermi surface, linear specific heat, and Pauli-like susceptibility, but with renormalized coefficients.
 
+## How It's Best Learned
+Do the phase-space count for a quasiparticle at energy ε above E_F. It must scatter a partner from within ε below E_F, and both final states must lie above E_F, so the decay rate grows as ε². Then compare the specific-heat coefficient γ of a simple metal with that of a heavy-fermion compound to read off m*/m, keeping the linear-T form in view.
+
+## Common Misconceptions
+- A quasiparticle is a bare electron that happens to have a different mass. (It is an electron dressed by particle-hole excitations of the surrounding electrons; it carries only part of the bare electron's spectral weight.)
+- Fermi liquid theory works only when interactions are weak. (It needs adiabatic continuity, not weak coupling; liquid helium-3 is strongly interacting and is a classic Fermi liquid.)
+- Quasiparticles are long-lived at every energy. (They are sharp only near the Fermi surface; their decay rate grows with energy away from E_F and with temperature.)
+
 ## Questions
 
 ```yaml

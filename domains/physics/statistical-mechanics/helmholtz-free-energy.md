@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Helmholtz free energy F = U − TS is the natural thermodynamic potential for the canonical ensemble (NVT). It equals −kT ln Z and determines equilibrium through minimum F at constant T and V. Changes in F equal the maximum useful work available from the system.
 
+## How It's Best Learned
+Derive F = −kT ln Z yourself: put p_i = e^(−E_i/kT)/Z into S = −k Σ p_i ln p_i to get S = k ln Z + U/T, then rearrange. Next, use F = −NkT[ln(V/Nλ³) + 1] for an ideal gas and check that −ΔF for an isothermal expansion equals NkT ln(V₂/V₁), the reversible work ∫P dV.
+
+## Common Misconceptions
+- A system can deliver at most −ΔU of work. (At constant T it can also draw heat from the bath. In an isothermal ideal-gas expansion ΔU = 0, yet the gas does work NkT ln(V₂/V₁) = −ΔF.)
+- −ΔF is the work you get from any isothermal process. (It is an upper bound reached only by a reversible process. An irreversible process delivers less.)
+- At minimum F the system sits in its single lowest-energy microstate. (F is minimized over macrostates. The system still visits many microstates with Boltzmann weights.)
+
 ## Questions
 
 ```yaml

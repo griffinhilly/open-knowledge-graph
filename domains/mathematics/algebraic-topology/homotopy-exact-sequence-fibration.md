@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 A fibration p : E -> B with fiber F gives rise to a long exact sequence of homotopy groups: ... -> pi_n(F) -> pi_n(E) -> pi_n(B) -> pi_{n-1}(F) -> ... -> pi_1(B) -> pi_0(F) -> pi_0(E). This sequence relates the homotopy groups of the total space, base, and fiber, and is the primary computational tool for homotopy groups. It generalizes the long exact sequence of a covering space (where the fiber is discrete) and is analogous to the long exact sequence of a pair in homology.
 
+## How It's Best Learned
+Run the sequence on three fibrations in order. For the covering R -> S^1 with fiber Z, contractibility of R gives π_n(S^1) = 0 for n ≥ 2 and a bijection π_1(S^1) -> π_0(Z) = Z. For the Hopf fibration, read off π_2(S^2) ≅ π_1(S^1) and π_3(S^2) ≅ π_3(S^3). Finish with the path-loop fibration and π_n(B) ≅ π_{n-1}(ΩB).
+
+## Common Misconceptions
+- A fibration F -> E -> B is the same as a product, so E is homotopy equivalent to B × F. (The Hopf fibration has total space S^3, which is simply connected, while S^2 × S^1 has fundamental group Z.)
+- In each degree the sequence is short exact: π_n(F) injects into π_n(E), which maps onto π_n(B). (Only the long sequence is exact. In the Hopf fibration, π_2(S^3) = 0 maps to π_2(S^2) = Z, which is not onto. The connecting map carries the information.)
+- Homology has a matching long exact sequence for every fibration. (It does not in general. For the Hopf fibration, H_3(S^3) = Z would sit between H_3(S^1) = 0 and H_3(S^2) = 0. Homology of fibrations calls for tools such as the Serre spectral sequence.)
+
 ## Questions
 
 ```yaml

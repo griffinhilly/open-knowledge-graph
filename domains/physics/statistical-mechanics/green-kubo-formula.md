@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 The Green-Kubo formula expresses transport coefficients as time integrals of equilibrium correlation functions: η = (V/kT)∫₀^∞ ⟨σ_xy(t)σ_xy(0)⟩dt. This remarkable result allows macroscopic transport properties to be computed from microscopic equilibrium fluctuations without requiring explicit non-equilibrium simulations.
 
+## How It's Best Learned
+Begin with diffusion, the simplest case: D = ∫₀^∞ ⟨v_x(t)v_x(0)⟩dt. For a Langevin particle, ⟨v_x(t)v_x(0)⟩ = (kT/m)e^(−γt/m), and the integral gives kT/γ, the Einstein relation. Show that the same result follows from ⟨x²⟩ = 2Dt at long times. Then compute the stress autocorrelation in a small equilibrium simulation and watch where the running integral for η levels off.
+
+## Common Misconceptions
+- A transport coefficient can be read off a single equilibrium snapshot. (The formula integrates a time correlation function, so it needs the dynamics, not only static averages.)
+- Viscosity is set only by how long stress correlations last. (The integral depends on both the starting value ⟨σ_xy²⟩ and the decay time, so it is the whole area under the curve that matters.)
+- In a simulation, integrating the correlation function to longer times always improves the estimate. (At long times the integrand is mostly statistical noise, so the running integral wanders. Practical estimates stop where it reaches a plateau.)
+- Green-Kubo gives the response at any driving strength. (It gives the linear, zero-field coefficient. Effects such as shear thinning at high shear rates fall outside it.)
+
 ## Questions
 
 ```yaml

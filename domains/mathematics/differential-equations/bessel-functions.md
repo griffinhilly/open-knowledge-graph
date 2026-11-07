@@ -19,6 +19,15 @@ status: validated
 ## Core Idea
 Bessel's equation x²y'' + xy' + (x² - ν²)y = 0 arises in cylindrical symmetry. Solutions are Bessel functions J_ν (first kind) and Y_ν (second kind). These functions are orthogonal with respect to a weighted inner product, enabling Fourier-Bessel expansions. Tables, recursion relations, and asymptotic approximations make Bessel functions practical for engineering and physics applications.
 
+## How It's Best Learned
+Plot J₀(x) and cos(x) on the same axes from 0 to 20 and compare: J₀ starts at 1, oscillates, and shrinks in amplitude roughly like 1/√x. Then derive Bessel's equation yourself by separating variables in the drumhead's spatial equation ∇²u + λ²u = 0 in polar coordinates and setting x = λr. Finally, check the recursion J₀'(x) = −J₁(x) term by term using the first few terms of each series.
+
+## Common Misconceptions
+- The zeros of J₀ are evenly spaced, like the zeros of cosine. (The gaps between successive zeros are uneven near the origin and approach π only for large x.)
+- Y_ν is not a real solution because it blows up. (Y_ν is a valid solution of Bessel's equation for x > 0; it is dropped only when the domain includes the origin and the solution must stay finite there.)
+- Bessel functions are orthogonal in the same way sines are, with no weight. (The orthogonality integral for Fourier-Bessel series carries a weight factor x, which comes from the area element in polar coordinates.)
+- Every J_ν equals 1 at x = 0. (J₀(0) = 1, but J_ν(0) = 0 for ν > 0.)
+
 ## Questions
 
 ```yaml

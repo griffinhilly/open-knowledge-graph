@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 The Hessian H = [[f_xx, f_xy], [f_xy, f_yy]] classifies critical points. If det(H) > 0 and f_xx > 0, it's a local minimum. If det(H) > 0 and f_xx < 0, it's a maximum. If det(H) < 0, it's a saddle point.
 
+## How It's Best Learned
+Link the determinant to the Hessian's eigenvalues on one example. For f = x² + y² − 4xy at the origin, H = [[2, −4], [−4, 2]] has eigenvalues 6 and −2, along the directions (1, −1) and (1, 1). Check the slices: on y = −x, f = 6x², and on y = x, f = −2x². The eigenvalues' product, −12, equals D, so the signs explain the saddle.
+
+## Common Misconceptions
+- If f_xx < 0 and f_yy < 0, the point is a local maximum. (D must also be positive; a large f_xy can make the point a saddle.)
+- A positive determinant tells me the point is a minimum. (D > 0 says the point is a local extremum; the sign of f_xx decides whether it is a maximum or a minimum.)
+- When D > 0, f_xx and f_yy might disagree in sign, so I must check both. (D > 0 means f_xx·f_yy > (f_xy)² ≥ 0, so f_xx and f_yy have the same sign.)
+
 ## Questions
 
 ```yaml

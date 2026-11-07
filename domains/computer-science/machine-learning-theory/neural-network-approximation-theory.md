@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 The universal approximation theorem (Cybenko, 1989; Hornik, 1991) proves that a feedforward neural network with a single hidden layer and a non-polynomial activation function can approximate any continuous function on a compact domain to arbitrary accuracy, given enough hidden units. This establishes that neural networks are universal function approximators — their approximation error can be driven to zero. However, the theorem says nothing about how many hidden units are needed (the width may need to be exponentially large) or whether gradient descent can find the approximating weights. The gap between approximation capacity and practical learnability is the central tension in neural network theory.
 
+## How It's Best Learned
+Build a one-hidden-layer ReLU network by hand. Any piecewise-linear interpolant can be written as f(x_0) + s_0·(x − x_0) + Σ (s_i − s_{i−1})·ReLU(x − x_i), where the s_i are the slopes. Use N equal pieces to approximate x² on [0, 1]; the maximum error is 1/(4N²). Then try sin(kx) for growing k and count how many units the same accuracy takes.
+
+## Common Misconceptions
+- The theorem shows a single hidden layer is enough in practice. (It allows the width to be enormous. For some functions, deeper networks need far fewer units.)
+- A network that approximates a function on its training region approximates it everywhere. (The guarantee holds on a compact set. Outside it there is no guarantee, and a ReLU network extends linearly.)
+- Any nonlinear activation gives universal approximation. (The activation must be non-polynomial. A polynomial activation of fixed degree yields only polynomials of bounded degree.)
+
 ## Questions
 
 ```yaml

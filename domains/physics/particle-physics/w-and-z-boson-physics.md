@@ -22,10 +22,18 @@ status: validated
 ## Core Idea
 The W+/- and Z bosons are the massive gauge bosons of the weak interaction, discovered at CERN's SppS collider in 1983. Their masses (~80.4 and 91.2 GeV), widths, and couplings to fermions are precisely predicted by the electroweak theory. The W boson mediates charged-current interactions (changing quark and lepton flavor) while the Z mediates neutral-current interactions, and their detailed study tests the SU(2)_L x U(1)_Y gauge structure at the quantum level.
 
+## How It's Best Learned
+Compute the Z branching fractions at tree level. Use g_V = T₃ − 2Q sin²θ_W and g_A = T₃ with sin²θ_W = 0.231, and weight each channel by N_c(g_V² + g_A²). Summing u, c, d, s, b, three neutrinos, and three charged leptons gives about 69% hadrons, 21% neutrinos, and 10% charged leptons. Then sketch the W transverse-mass distribution and its edge near M_W.
+
+## Common Misconceptions
+- The Z mediates "neutral currents," so it couples only to neutral particles. (The name means the Z carries no electric charge. It couples to charged fermions too, which is why it decays to e⁺e⁻ and μ⁺μ⁻.)
+- The Z decays mostly to hadrons because quarks couple to it much more strongly than leptons do. (The couplings are comparable. The hadronic share comes mostly from counting: five quark flavors, each in three colors.)
+- The W and Z masses are independent inputs with no link to each other. (Both come from the Higgs mechanism. At tree level M_W = M_Z cos θ_W, and precision measurements test this relation with loop corrections.)
+
 ## Questions
 
 ```yaml
-- question: "The W boson couples only to left-handed fermions and right-handed antifermions. This means W bosons produced in quark-antiquark annihilation at a hadron collider are longitudinally polarized at threshold but become increasingly longitudinally polarized at high energy. Why is the longitudinal polarization component particularly interesting?"
+- question: "The W boson couples only to left-handed fermions and right-handed antifermions. Why is the longitudinal polarization component particularly interesting?"
   type: multiple-choice
   options:
     - "Because longitudinal W bosons are easier to detect"
@@ -40,7 +48,7 @@ The W+/- and Z bosons are the massive gauge bosons of the weak interaction, disc
   answer: "The Z couples to all fermion pairs with strength proportional to their weak isospin and hypercharge quantum numbers. For each fermion, the partial width is proportional to (v_f^2 + a_f^2) * N_c, where v_f and a_f are the vector and axial-vector couplings and N_c is the color factor (3 for quarks, 1 for leptons). The Z can decay to 5 quark flavors (u, d, s, c, b -- not top, which is too heavy), each with N_c = 3, giving 15 'effective' quark channels versus 3 charged lepton channels and 3 neutrino channels. The large hadronic fraction is primarily a counting effect: more quark channels times the color factor of 3."
   explanation: "The precise branching ratios also depend on the electroweak couplings of each fermion. Up-type quarks have different v_f and a_f from down-type quarks, so the partial widths are not all equal. Measuring these ratios tests the electroweak coupling assignments of the Standard Model."
 
-- question: "At hadron colliders, W bosons are primarily produced by quark-antiquark annihilation: u dbar -> W+ and dbar u -> W+. The W+ and W- production cross sections are different at the LHC but equal at the Tevatron. Why?"
+- question: "At hadron colliders, W bosons are primarily produced by quark-antiquark annihilation: u dbar -> W+ and d ubar -> W-. The W+ and W- production cross sections are different at the LHC but equal at the Tevatron. Why?"
   type: multiple-choice
   options:
     - "Because the LHC uses different beam energies for each direction"
@@ -55,7 +63,7 @@ The W+/- and Z bosons are the massive gauge bosons of the weak interaction, disc
 
 The **W and Z bosons** were discovered at CERN in 1983 by the UA1 and UA2 experiments at the SppS proton-antiproton collider, confirming the electroweak theory of Glashow, Weinberg, and Salam (Nobel Prize 1979). The W boson (mass 80.4 GeV, width 2.1 GeV) mediates all charged-current weak processes: nuclear beta decay, muon decay, quark flavor changes. The Z boson (mass 91.2 GeV, width 2.5 GeV) mediates neutral-current processes. Their masses arise from the Higgs mechanism and are predicted by the gauge couplings and the Higgs vacuum expectation value.
 
-**W boson physics** at the LHC involves production rates of tens of nanobars (billions of events per year at high luminosity), making the W a precision tool. The charge asymmetry constrains PDFs; the transverse mass distribution measures M_W with ~10 MeV precision; the W polarization tests the V-A structure of the charged current; and W+jets production is a major background to top quark and new physics searches. The helicity structure of W decays is maximally parity-violating: W+ preferentially emits the positively charged lepton in its spin direction, and the negatively charged lepton opposite. This polarization is directly observable in the lepton angular distribution.
+**W boson physics** at the LHC involves production rates of tens of nanobarns (billions of events per year at high luminosity), making the W a precision tool. The charge asymmetry constrains PDFs; the transverse mass distribution measures M_W with ~10 MeV precision; the W polarization tests the V-A structure of the charged current; and W+jets production is a major background to top quark and new physics searches. The helicity structure of W decays is maximally parity-violating: W+ preferentially emits the positively charged lepton in its spin direction, and the negatively charged lepton opposite. This polarization is directly observable in the lepton angular distribution.
 
 The **Z boson** has been the most precisely studied particle in history, thanks to the LEP and SLD programs. At LEP, approximately 17 million Z decays were recorded across four experiments (ALEPH, DELPHI, L3, OPAL), enabling measurements of M_Z, Gamma_Z, and the Z couplings to individual fermion species with permille precision. The forward-backward asymmetries A_FB measure the product of initial- and final-state Z couplings, directly testing the electroweak mixing angle. The left-right asymmetry A_LR at SLD (using polarized electron beams) provides the single most precise determination of sin^2(theta_eff). Together, these measurements form the foundation of the electroweak precision program.
 

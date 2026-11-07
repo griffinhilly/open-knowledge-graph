@@ -28,6 +28,11 @@ In a signaling game, the informed player (agent) moves first by choosing an acti
 ## How It's Best Learned
 Analyze Spence's education signaling model. Draw payoff matrices and solve for equilibria. Identify when separating vs. pooling equilibria arise.
 
+## Common Misconceptions
+- Any costly action works as a credible signal. (The cost has to differ by type. If every type pays the same cost, low types mimic whenever the reward exceeds that cost, and the signal does not separate them.)
+- Education signals ability only because it makes workers more productive. (In Spence's pure signaling model education adds no productivity; it sorts workers because it is cheaper for high-ability types to acquire.)
+- Perfect Bayesian equilibrium tells the receiver what to believe after every signal. (Bayes' rule pins down beliefs only for signals sent on the equilibrium path. Beliefs after off-path signals are left open, which is why many pooling equilibria can be sustained.)
+
 ## Questions
 
 ```yaml

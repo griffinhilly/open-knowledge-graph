@@ -22,6 +22,14 @@ status: draft
 ## Core Idea
 Michel de Montaigne pioneered the personal essay in the 16th century, establishing the essai as a tentative exploration of ideas through digression, self-examination, and conversational intimacy. His model—the thinking aloud on a subject—fundamentally shaped how writers approach subjective inquiry in nonfiction and established the essay's flexibility and informality as structural virtues.
 
+## How It's Best Learned
+Read one short essay, such as "Of Idleness," and mark each turn of thought: where Montaigne states a view, digresses, gives an example or doubts himself. Then write a short attempt of your own on a question you cannot answer, and let yourself change your mind once on the page. Compare it with a thesis-first essay on the same question.
+
+## Common Misconceptions
+- Montaigne's essays are loose because he lacked discipline. (The digressions are a way of testing an idea from several sides, and the essays take on serious questions such as death, friendship and education.)
+- An essay in Montaigne's sense is a thesis-driven argument. (Essai means "attempt" or "trial." His essays try out ideas and admit uncertainty.)
+- Montaigne's essays are autobiography. (He examines himself as a way into general questions about human nature and judgment. Self-study is his method more than telling his life story.)
+
 ## Questions
 
 ```yaml
@@ -57,6 +65,7 @@ Michel de Montaigne pioneered the personal essay in the 16th century, establishi
 
 - question: How did Montaigne's model of 'thinking aloud' change what was possible in writing? What did he authorize?
   type: short-answer
+  answer: "Montaigne showed that prose could be tentative, letting a writer think aloud, digress, admit uncertainty and change their mind on the page. He authorized the essay as a flexible, personal, conversational form of serious inquiry that treats the reader as a companion in thought."
   explanation: 'Before Montaigne, formal prose had strict rules. It aimed for definitiveness and authority. Montaigne said: writing can be tentative. You can think aloud on the page. You can change your mind. You can digress. You can be uncertain. You can speak conversationally. This authorized a whole different relationship between writer and reader—not lecture but conversation, not certainty but exploration. He authorized the essay form as we know it—flexible, personal, digressive, intimate. Everything casual and personal about essay writing now traces back to Montaigne establishing that these qualities were valuable, not failures. He made it possible for writers to explore ideas through a personal, conversational lens rather than hiding behind formal authority.'
 ```
 

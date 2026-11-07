@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Computational-statistical tradeoffs arise when a problem is information-theoretically solvable with few samples but computationally intractable — more samples are needed if we restrict to polynomial-time algorithms. The statistical (information-theoretic) sample complexity is the number of samples needed by any algorithm (with unlimited computation); the computational sample complexity is the number needed by any efficient algorithm. When these differ, there is a gap that represents the cost of computational efficiency. Examples include sparse PCA (statistically solvable with O(k * log(d)) samples, but computationally requiring O(k^2) or more under planted clique hardness) and planted clique detection. These tradeoffs reveal a fundamental tension between computation and information in learning.
 
+## How It's Best Learned
+Use planted clique in a random graph G(n, 1/2) as the running example. For n = 10^6, compute the two thresholds: 2 log₂ n is about 40, while sqrt(n) is 1000. Then, on a graph small enough to store (say n = 2,000), code the simplest efficient detector, ranking vertices by degree, and vary k to see it fail for small cliques that exhaustive search would find in principle. Only after this, study how reductions carry the gap to sparse PCA.
+
+## Common Misconceptions
+- If no polynomial-time algorithm is known, the gap has been proved. (Most gaps are conjectured. They rest on hardness assumptions such as the planted clique conjecture, or on evidence against restricted families of algorithms; unconditional proofs remain open.)
+- These gaps follow from P ≠ NP. (The hardness involved is average-case, over random instances. Assumptions like the planted clique conjecture are not known to follow from P ≠ NP.)
+- A problem with a gap cannot be solved in practice. (In many such problems, efficient algorithms succeed once they get more data. The gap measures how many extra samples they need compared with the information-theoretic limit.)
+
 ## Questions
 
 ```yaml

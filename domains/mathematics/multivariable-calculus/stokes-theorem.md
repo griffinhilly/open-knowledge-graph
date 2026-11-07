@@ -31,6 +31,14 @@ status: validated
 ## Core Idea
 Stokes' theorem: ∮_C F · dr = ∬_S (∇×F) · dS. This relates circulation around a closed curve to the flux of curl through the surface, generalizing Green's theorem to 3D.
 
+## How It's Best Learned
+Draw a surface split into four patches, each with its boundary arrowed the same way. Each interior edge carries two opposite arrows, which cancel, leaving only the outer edge. Then check numbers with F = ⟨−y, x, 0⟩ and the unit circle: the line integral is 2π, and the constant curl ⟨0, 0, 2⟩ gives 2π through both the flat disk and the upper hemisphere.
+
+## Common Misconceptions
+- The surface in Stokes' theorem has to be flat. (Any oriented surface whose boundary is C works, such as a disk, a hemisphere or a bag shape.)
+- Different surfaces with the same boundary give the same curl flux only when F is conservative. (This holds for every smooth F, because each surface integral equals the same line integral around C.)
+- Reversing the direction of C does not matter, because the curl is the same. (Reversing C flips the sign of the line integral, and the normal must flip with it to keep the theorem true.)
+
 ## Questions
 
 ```yaml
@@ -67,6 +75,7 @@ Stokes' theorem: ∮_C F · dr = ∬_S (∇×F) · dS. This relates circulation 
 - question: "Explain in your own words how the tiling argument derives Stokes' theorem. Why does only the outer boundary survive when you sum the circulation contributions from all the tiny patches?"
   type: short-answer
   answer: "Divide the surface S into many tiny parallelogram patches. Each patch has a small boundary loop, and the circulation around that tiny loop is approximately (∇×F)·n̂ ΔA — the local curl dotted with the patch's normal times its area. Now sum all these tiny circulations. Every interior edge is shared by exactly two adjacent patches, and those patches traverse the shared edge in opposite directions (one clockwise, one counterclockwise relative to that edge). These contributions cancel exactly. The only edges that are not canceled are those on the outer boundary of the entire surface — each of those is traversed only once. The surviving sum is therefore the line integral ∮_C F·dr around the outer boundary. Making this argument rigorous gives Stokes' theorem: the global circulation equals the sum of local curl contributions."
+  explanation: "The cancellation works because a line integral changes sign when its path is reversed. When every patch is oriented to match the surface normal, two neighboring patches cross their shared edge in opposite directions, so those two contributions sum to zero. Edges on the outer boundary belong to one patch each, so nothing cancels them. Meanwhile each tiny circulation approximates the curl flux through its patch, so the sum over patches approaches the surface integral of the curl as the patches shrink."
 ```
 
 ## Explainer
@@ -77,4 +86,4 @@ To build intuition, extend the argument from Green's theorem to three dimensions
 
 The orientation conventions matter here and deserve careful attention. The boundary curve C must be oriented **consistently** with the surface normal: if the normal points according to the right-hand rule when you curl your fingers in the direction of traversal of C, then the signs in the theorem work out correctly. Reversing the orientation of C changes the sign of the left side; reversing the orientation of the surface (flipping the normal) changes the sign of the right side. Stokes' theorem holds for either consistent choice, but mixing orientations introduces a sign error.
 
-A powerful corollary: for a **conservative field** (one where ∇×F = 0 everywhere), the right side is zero, so ∮_C F · dr = 0 for any closed curve C that bounds a surface in the domain. This is stronger than just knowing the field is irrotational at a point — it says the entire circulation around any bounding loop vanishes. Stokes' theorem also explains why the specific surface spanning C doesn't matter for conservative fields: if two surfaces S₁ and S₂ share the same boundary C, then ∬_{S₁} (∇×F) · dS = ∬_{S₂} (∇×F) · dS (both equal the same boundary circulation). The theorem reveals that curl flux through a surface is a property of the boundary, not the interior surface chosen.
+A powerful corollary: for an **irrotational field** (one where ∇×F = 0 everywhere), the right side is zero, so ∮_C F · dr = 0 for any closed curve C that bounds a surface in the domain. This is stronger than just knowing the field is irrotational at a point — it says the entire circulation around any bounding loop vanishes. Stokes' theorem also explains why the specific surface spanning C doesn't matter for any smooth field: if two surfaces S₁ and S₂ share the same boundary C, then ∬_{S₁} (∇×F) · dS = ∬_{S₂} (∇×F) · dS (both equal the same boundary circulation). The theorem reveals that curl flux through a surface is a property of the boundary, not the interior surface chosen.

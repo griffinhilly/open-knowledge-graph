@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 Derandomization converts randomized algorithms into deterministic ones while preserving their efficiency guarantees. The central question is whether randomness is truly necessary for efficient computation -- equivalently, whether P = BPP. Techniques range from the elementary (the method of conditional expectations, which converts an existential probabilistic argument into a greedy deterministic construction) to the deep (Nisan-Wigderson pseudorandom generators, which fool bounded computations with short seeds under circuit lower bound assumptions). Limited independence (pairwise, k-wise) often suffices where full independence seems required, enabling derandomization by exhaustive enumeration over a polynomial-size sample space.
 
+## How It's Best Learned
+Derandomize the random-assignment algorithm for MAX-3SAT on a formula of four or five clauses. Fix variables one at a time and compute the conditional expected number of satisfied clauses at each step by hand. Then build a pairwise-independent family from a few seed bits, list its sample space, and check pairwise independence directly. Study pseudorandom generators after these concrete cases.
+
+## Common Misconceptions
+- Derandomization means replacing random bits with a fixed pseudorandom sequence such as a library generator. (A library generator has no proven guarantee against the algorithm's analysis. Derandomization needs either an exact deterministic method or a generator proven to fool the relevant class of computations.)
+- The method of conditional expectations works for any randomized algorithm. (It needs the conditional expectations to be computable efficiently at each step. For many objectives that computation is as hard as the original problem.)
+- Pairwise independence is enough for any analysis that uses full independence. (It supports Chebyshev-style arguments that use only second moments. Analyses that need Chernoff-style exponential tails generally need more independence.)
+- P = BPP has been proven. (It follows from circuit lower bound assumptions that are widely believed but unproven. Unconditionally the question is open.)
+
 ## Questions
 
 ```yaml

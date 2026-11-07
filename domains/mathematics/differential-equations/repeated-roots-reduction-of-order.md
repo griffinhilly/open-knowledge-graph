@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 When the characteristic equation has a repeated root r, one solution is e^(rx), but we need a second linearly independent solution. The reduction-of-order method yields y₂ = x·e^(rx). The general solution is y = (c₁ + c₂x)e^(rx). For higher multiplicities, additional solutions involve higher powers of x. This technique extends beyond repeated roots to finding second solutions from any known solution.
 
+## How It's Best Learned
+Do the substitution once in full for y'' − 4y' + 4y = 0 with y₂ = v e^(2x). The derivatives are y₂' = (v' + 2v)e^(2x) and y₂'' = (v'' + 4v' + 4v)e^(2x). After substituting, everything cancels except v'' = 0, so v = c₁ + c₂x. Then apply the same idea to x²y'' − 3xy' + 4y = 0 with y₁ = x², which yields x² ln x.
+
+## Common Misconceptions
+- Two equal roots give the solutions e^(rx) and e^(2rx). (e^(2rx) does not solve the equation unless r = 0; the second solution is x·e^(rx).)
+- Reduction of order only works for constant-coefficient equations. (It works for any second-order linear equation once one nonzero solution y₁ is known, including variable-coefficient ones.)
+- The second solution should keep both constants from v = c₁ + c₂x. (The c₁ part is just a multiple of y₁, so the new independent solution is x·e^(rx); the constants return in the general solution.)
+
 ## Questions
 
 ```yaml
@@ -66,7 +74,7 @@ When the characteristic equation has a repeated root r, one solution is e^(rx), 
 
 Recall from the characteristic equation method that for a second-order linear ODE y'' + py' + qy = 0, you try y = e^{rx}, substitute in, and get a quadratic equation in r. When that quadratic has two distinct roots r₁ and r₂, you get two independent solutions e^{r₁x} and e^{r₂x} and you're done. But a **repeated root** — when the discriminant is zero and r₁ = r₂ = r — gives only one solution e^{rx} from the characteristic equation, leaving you one solution short of a complete general solution.
 
-The **reduction-of-order** method finds the missing second solution. The idea: if you already know one solution y₁ = e^{rx}, try y₂ = v(x)·y₁ = v(x)·e^{rx} for some unknown function v(x). Substitute y₂ into the ODE and apply the product rule (which you know) to differentiate. The key algebraic miracle is that the terms involving v(x) itself cancel — because y₁ is already a solution — and you're left with an equation only in v' and v''. Setting w = v' reduces this to a first-order ODE for w, which you can solve. For the repeated-root case, you end up with w'' = 0 (after substitution), so w is constant and v(x) = c₁ + c₂x. This gives y₂ = (c₁ + c₂x)e^{rx}, and factoring out c₁e^{rx} (a multiple of y₁) leaves the independent part y₂ = xe^{rx}.
+The **reduction-of-order** method finds the missing second solution. The idea: if you already know one solution y₁ = e^{rx}, try y₂ = v(x)·y₁ = v(x)·e^{rx} for some unknown function v(x). Substitute y₂ into the ODE and apply the product rule (which you know) to differentiate. The key algebraic miracle is that the terms involving v(x) itself cancel — because y₁ is already a solution — and you're left with an equation only in v' and v''. Setting w = v' reduces this to a first-order ODE for w, which you can solve. For the repeated-root case, you end up with v'' = 0, that is w' = 0 (after substitution), so w is constant and v(x) = c₁ + c₂x. This gives y₂ = (c₁ + c₂x)e^{rx}, and factoring out c₁e^{rx} (a multiple of y₁) leaves the independent part y₂ = xe^{rx}.
 
 Geometrically, the two solutions e^{rx} and xe^{rx} span a two-dimensional solution space. The factor of x makes them **linearly independent** — neither is a constant multiple of the other — so their linear combination y = (c₁ + c₂x)e^{rx} provides the full family of solutions. You can verify independence using the **Wronskian** (which you'll study next): W(e^{rx}, xe^{rx}) = e^{2rx} ≠ 0, confirming the two solutions are independent.
 

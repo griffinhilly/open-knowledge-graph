@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 The CPT theorem states that any local, Lorentz-invariant quantum field theory with a Hermitian Hamiltonian is invariant under the combined operation of charge conjugation (C), parity (P), and time reversal (T). This is an exact symmetry -- not approximate -- and implies that particles and antiparticles have exactly equal masses, lifetimes, and (opposite) charges. No violation of CPT has ever been observed.
 
+## How It's Best Learned
+Take the Hermitian Dirac bilinears ψ̄ψ, iψ̄γ₅ψ, ψ̄γ^μψ and ψ̄γ^μγ₅ψ and work out how each changes under C, P and T separately, then multiply the signs. You will find that under CPT a bilinear with n Lorentz indices picks up (−1)ⁿ. A Lorentz-scalar Lagrangian has all indices contracted, so it maps to itself at the reflected point −x. Then tabulate which of C, P, CP, T and CPT each interaction respects.
+
+## Common Misconceptions
+- CPT is an observed symmetry, like parity was once thought to be, and could fail the same way. (It is a theorem that follows from locality, Lorentz invariance and a Hermitian Hamiltonian, so a violation would mean one of those assumptions fails.)
+- Since CP is violated, CPT must be violated too. (CPT can stay exact when CP is broken, as long as T is broken in the compensating way.)
+- Time reversal is represented by a unitary operator, like parity. (T and CPT are antiunitary: they complex-conjugate amplitudes, which is needed to keep energies positive.)
+- CPT guarantees that a particle and its antiparticle decay into each channel at the same rate. (CPT fixes equal total lifetimes; partial rates into CP-conjugate channels can differ when CP is violated.)
+
 ## Questions
 
 ```yaml

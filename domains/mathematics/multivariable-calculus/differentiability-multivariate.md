@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 A function f(x, y) is differentiable at (a, b) if it can be well-approximated by a linear function; equivalently, if the error in the linear approximation vanishes faster than the distance to (a, b). Existence of continuous partial derivatives guarantees differentiability.
 
+## How It's Best Learned
+Apply the limit definition step by step to two functions at the origin. For f = xy/√(x² + y²), the partials are 0, so the only candidate is L = 0. Along y = x the error ratio is (|x|/√2)/(√2|x|) = 1/2, so f is not differentiable. For f = xy, the bound |xy| ≤ (x² + y²)/2 makes the ratio at most √(x² + y²)/2, so f is differentiable.
+
+## Common Misconceptions
+- If both partial derivatives exist, f is differentiable. (xy/√(x² + y²) has both partials equal to 0 at the origin, but along y = x the error stays half the distance, so no tangent plane fits.)
+- To test differentiability you must search for constants L₁ and L₂ that make the limit zero. (If any such constants exist, they must be fₓ(a, b) and f_y(a, b). Compute the partials, then test that one candidate.)
+- A differentiable function has continuous partial derivatives. (The theorem runs one way only. (x² + y²) sin(1/√(x² + y²)), with value 0 at the origin, is differentiable there even though its partials are not continuous at the origin.)
+
 ## Questions
 
 ```yaml

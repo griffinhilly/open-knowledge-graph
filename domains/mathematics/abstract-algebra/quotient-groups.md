@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 If N is a normal subgroup of G, the set of cosets G/N forms a group under coset multiplication: (aN)(bN) = (ab)N. The quotient group G/N has order |G| / |N|.
 
+## How It's Best Learned
+Take G = ℤ₁₂ and N = {0, 4, 8}. List the four cosets, write the 4 × 4 addition table using one representative from each, then repeat with different representatives and check the table does not change. The coset 1 + N has order 4, so G/N ≅ ℤ₄. Then build S₃/A₃ and identify it as a group of order 2.
+
+## Common Misconceptions
+- G/N is a subgroup of G. (Its elements are cosets, which are subsets of G. ℤ/2ℤ is a quotient of ℤ, yet ℤ has no subgroup of order 2.)
+- The coset aN has the same order as a. (The order can drop. In ℤ₁₂/{0, 4, 8}, the element 4 has order 3, but 4 + N is the identity coset.)
+- G/N has as many elements as N. (It has one element per coset, so |G/N| = |G| / |N| when G is finite.)
+
 ## Questions
 
 ```yaml
@@ -47,7 +55,7 @@ If N is a normal subgroup of G, the set of cosets G/N forms a group under coset 
   answer: 2
   explanation: "The order formula |G/N| = |G| / |N| gives 12/3 = 4. The quotient group has 4 cosets: {0,4,8}, {1,5,9}, {2,6,10}, {3,7,11}. Since ℤ₁₂ is abelian, every subgroup is automatically normal (option D is wrong). Beginners often confuse the order of N with the order of the quotient — but G/N has |G|/|N| elements, not |N| elements."
 
-- question: "Any subgroup N of a group G can be used to form a quotient group G/N, because the cosets of any subgroup typically partition G."
+- question: "Any subgroup N of a group G can be used to form a quotient group G/N, because the cosets of any subgroup always partition G."
   type: true-false
   answer: false
   explanation: "It is true that cosets of ANY subgroup partition G — that is a general property of subgroups, not specific to normal ones. However, forming a *group* on those cosets requires the multiplication rule (aN)(bN) = (ab)N to be well-defined, independent of representative choice. This is only guaranteed when N is a normal subgroup. The partition exists for any subgroup; the valid group structure on the partition requires normality."

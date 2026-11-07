@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 QCD dominates the physics of hadron colliders: most high-p_T events are QCD jet production, and QCD effects (initial-state radiation, underlying event, pileup) complicate every measurement. Precision QCD predictions combine fixed-order perturbative calculations (NLO, NNLO) with parton shower Monte Carlo simulations and non-perturbative models for hadronization and the underlying event.
 
+## How It's Best Learned
+Do a scale-variation exercise for a 100 GeV jet at leading order, where the rate goes as α_s². Use one-loop running from α_s(M_Z) = 0.118 with b₀ = 23/(12π). This gives α_s ≈ 0.129 at μ = 50 GeV and 0.106 at μ = 200 GeV, so α_s² shifts by about 50%. Then label which parts of a generated event come from the matrix element, shower, hadronization, and MPI.
+
+## Common Misconceptions
+- The scale-variation band is a strict error bar on missing higher orders. (It is a conventional estimate. Higher-order results sometimes fall outside the lower-order band, as in Higgs production by gluon fusion.)
+- The underlying event and pileup are the same thing. (The underlying event comes from the same proton-proton collision as the hard scatter. Pileup comes from other collisions in the same or nearby bunch crossings.)
+- A parton shower describes hard, wide-angle emissions as well as a fixed-order calculation does. (The shower is accurate in the soft and collinear limits. Hard, well-separated emissions need exact matrix elements, which is why matching and merging exist.)
+
 ## Questions
 
 ```yaml

@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 The period-doubling cascade is a universal route to chaos in which a stable periodic orbit successively doubles its period (1 → 2 → 4 → 8 → ...) as a parameter increases. Each doubling occurs via a flip bifurcation where the orbit's multiplier crosses -1. The cascade accelerates geometrically, converging to a critical parameter value r_∞ beyond which chaos sets in. Within the chaotic regime, periodic windows appear where the cascade reverses. The entire structure — the bifurcation diagram of the logistic map — is one of the most iconic images in nonlinear dynamics.
 
+## How It's Best Learned
+Plot the second iterate f(f(x)) of the logistic map together with y = x for r = 2.8, 3.0 and 3.3. Since (f²)′(x*) = f′(x*)², the slope of f² at the fixed point reaches +1 exactly when f′ reaches −1. Past that point f² gains two new fixed points, which form the period-2 orbit. Repeat the picture with f⁴ near r ≈ 3.449 to see the same step one level down.
+
+## Common Misconceptions
+- At a period-doubling bifurcation the old periodic orbit disappears. (The old orbit still exists past the bifurcation but is unstable; the new orbit of twice the period takes over as the attractor.)
+- A period doubling happens when the multiplier passes through +1. (Crossing +1 gives saddle-node, transcritical or pitchfork bifurcations; the flip bifurcation that doubles the period needs the multiplier to cross −1.)
+- Period doubling is a property of one-dimensional maps only. (Continuous flows also show it, as a limit cycle that doubles its period; a Poincaré section turns this into a period-doubling cascade of a map.)
+
 ## Questions
 
 ```yaml

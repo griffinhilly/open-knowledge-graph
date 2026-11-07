@@ -23,6 +23,14 @@ status: draft
 ## Core Idea
 Nature writing is a literary tradition combining natural observation with philosophical reflection, personal response, and ecological awareness. From Thoreau and John Muir through contemporary writers like Annie Dillard, Robin Wall Kimmerer, and Barry Lopez, it explores the intersection of human consciousness and the natural world, often questioning humanity's relationship to nature.
 
+## How It's Best Learned
+Read three short passages in sequence: a chapter of Thoreau's Walden, a passage of Muir's mountain writing, and a chapter of Kimmerer's Braiding Sweetgrass. For each, note what is observed, what question about how to live it raises, and what relationship between people and nature it assumes. Then track how those questions shift from one writer to the next.
+
+## Common Misconceptions
+- Nature writing is description of scenery and wildlife. (The tradition joins observation with reflection on what nature means and how people should live in relation to it.)
+- Nature writing keeps humans out of the picture. (Human consciousness and response are central, since the form explores the relationship between people and the natural world.)
+- The tradition stopped changing with Thoreau and Muir. (Contemporary writers take up climate change, ecological crisis and Indigenous knowledge while keeping the core practices of attention and reflection.)
+
 ## Questions
 
 ```yaml
@@ -58,6 +66,7 @@ Nature writing is a literary tradition combining natural observation with philos
 
 - question: How has nature writing evolved as a tradition, from Thoreau through contemporary writers?
   type: short-answer
+  answer: "Thoreau framed nature writing as philosophical inquiry into how to live, and Muir added passionate advocacy for preservation. Contemporary writers keep the practices of observation and reflection but take up newer concerns, such as Kimmerer's Indigenous ethic of reciprocity and writing about ecological crisis."
   explanation: 'Thoreau established the form as philosophical inquiry through nature observation—asking what simple living in nature revealed about what humans needed. Muir brought passion and advocacy for preservation. Contemporary nature writers like Dillard bring scientific literacy. Kimmerer brings indigenous perspectives and ethics of reciprocity. Lopez brings narrative complexity and the question of how we tell nature''s story. The tradition continues to ask: what do we learn from paying attention to nature? But contemporary writers increasingly address urgent questions: How do we live responsibly in relation to an ecosystem we''re destroying? What can indigenous practices teach? How do we write about nature in crisis? The core practices—observation, reflection, personal engagement—remain, but the concerns evolve.'
 ```
 

@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 Quantizing the Dirac field requires anticommutation relations (not commutation relations) for the creation and annihilation operators. This produces fermions obeying the Pauli exclusion principle and naturally yields both particles (electrons) and antiparticles (positrons) with opposite charge.
 
+## How It's Best Learned
+Substitute the mode expansion into the Dirac Hamiltonian and reduce it to b's and d's. Do it twice: once assuming commutators, once assuming anticommutators. Watch the antiparticle term −d d† become +d†d (plus a constant) only in the second case. Then show that (b†)² = 0 follows from {b†, b†} = 0, which is the exclusion principle in one line.
+
+## Common Misconceptions
+- The field ψ creates electrons. (ψ annihilates electrons and creates positrons; ψ̄ creates electrons and annihilates positrons.)
+- The negative-frequency solutions describe particles with negative energy. (After quantization their coefficients become positron creation operators, and positrons carry positive energy.)
+- Modern QFT still needs a filled Dirac sea to explain positrons. (The vacuum is the state annihilated by every b and d, and positrons are created by d†, with no sea required.)
+- The Dirac field ψ(x) is an observable, like the electric field. (ψ is not Hermitian and fermion fields anticommute at spacelike separation; observables such as the charge density are built from bilinears like ψ̄γ^μψ.)
+
 ## Questions
 
 ```yaml

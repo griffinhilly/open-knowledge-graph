@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 The Gauss-Bonnet theorem states that the total Gaussian curvature of a compact oriented surface equals 2π times its Euler characteristic: ∫_S K dA = 2πχ(S). This is the first and most beautiful theorem connecting local geometry (curvature) to global topology (Euler characteristic). It implies that the total curvature is a topological invariant — unchanged by any deformation of the metric — and generalizes to higher dimensions via the Chern-Gauss-Bonnet theorem.
 
+## How It's Best Learned
+Check the boundary version first on the unit sphere's octant triangle: its three right angles sum to 3π/2, and the excess π/2 equals its area, 4π/8. Then integrate over a torus of revolution with radii R > r. With K = cos u / (r(R + r cos u)) and dA = r(R + r cos u) du dv, the integrand is cos u du dv, and the total is 0.
+
+## Common Misconceptions
+- Gauss-Bonnet fixes the curvature at each point once the topology is known. (It fixes only the integral ∫ K dA. Any sphere has total curvature 4π, but K can vary from point to point.)
+- A torus has zero curvature everywhere because its total curvature is zero. (The doughnut torus has K > 0 on the outer side and K < 0 on the inner side, and the two cancel.)
+- The formula holds for any surface. (It needs compactness, or the boundary terms. The plane has K = 0 and χ = 1, so ∫ K dA = 0 ≠ 2π.)
+
 ## Questions
 
 ```yaml

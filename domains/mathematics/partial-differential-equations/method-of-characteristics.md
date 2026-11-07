@@ -17,6 +17,14 @@ status: validated
 ## Core Idea
 The method of characteristics transforms a PDE into a system of ODEs along special curves called characteristics, reducing the problem to something solvable with ODE techniques. For a first-order PDE, characteristics are curves along which the solution is constant or satisfies a simple ODE. For second-order hyperbolic PDEs, characteristics are the curves along which information propagates. This method reveals the geometric structure underlying wave propagation and transport phenomena, and provides explicit solutions to important classes of PDEs.
 
+## How It's Best Learned
+Solve a short sequence and sketch the characteristics for each. For u_t + xu_x = 0, dx/dt = x gives x = x₀eᵗ and u = f(xe^{−t}). For u_t + cu_x = −u, the value decays along each line: u = e^{−t}f(x − ct). For Burgers' equation with u₀ = x, the lines x = x₀(1 + t) spread apart and u = x/(1 + t). Check each answer by substituting it back into the PDE.
+
+## Common Misconceptions
+- The solution is constant along characteristics for every first-order PDE. (That holds for equations of the form u_t + a(x, t, u)u_x = 0. With a nonzero right-hand side, u solves an ODE along each curve, as in u_t + cu_x = −u, where it decays like e^{−t}.)
+- The characteristic curves are fixed by the equation alone. (For quasilinear equations such as Burgers' equation, the speed depends on u, so the curves depend on the initial data.)
+- Initial data can be given on any curve. (The data curve must cross the characteristics. If data for u_t + cu_x = 0 is given on the line x = ct, there is no solution unless the data are constant, and then there are infinitely many.)
+
 ## Questions
 ```yaml
 - question: "For the transport equation u_t + cu_x = 0, what are the characteristic curves?"

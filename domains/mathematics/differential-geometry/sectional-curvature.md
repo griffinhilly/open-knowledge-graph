@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 The sectional curvature K(σ) of a 2-plane σ ⊂ TpM is the Gaussian curvature of the surface formed by geodesics tangent to σ. It is the finest pointwise curvature invariant and determines the full Riemann tensor. Spaces of constant sectional curvature — Euclidean space (K=0), spheres (K>0), and hyperbolic space (K<0) — are the model geometries of Riemannian geometry. Comparison theorems use sectional curvature bounds to control geodesic behavior, volume growth, and topology.
 
+## How It's Best Learned
+Compute every sectional curvature at one point of S² × ℝ, with unit S². Take orthonormal e₁, e₂ tangent to S² and e₃ along ℝ. The plane spanned by e₁ and cos α e₂ + sin α e₃ has K = cos²α, so K takes every value in [0, 1] at the same point. Then compute Ric and R there to see what the averages lose.
+
+## Common Misconceptions
+- Sectional curvature is one number at each point. (It is a function on the 2-planes at the point. On S² × ℝ it takes every value from 0 to 1 at each point.)
+- Positive Ricci curvature implies positive sectional curvature. (S² × S² with unit spheres has Ric = g, which is positive, but planes spanned by one vector from each factor have K = 0.)
+- Constant sectional curvature means the manifold is ℝⁿ, Sⁿ or Hⁿ. (It means locally isometric to one of them. Flat tori, real projective spaces and compact hyperbolic surfaces also have constant curvature.)
+
 ## Questions
 
 ```yaml

@@ -19,6 +19,14 @@ status: validated
 ## Core Idea
 A Green's function G(x, y) for a linear PDE operator L on a domain Ω is the response at point x to a point source at y—the solution to LG = δ(x - y) satisfying appropriate boundary conditions. Once known, the Green's function allows any solution to be written as an integral: if Lu = f, then u(x) = ∫G(x,y)f(y)dy. This converts the PDE into an integral equation and provides a powerful representation formula that encodes both the differential operator and the boundary geometry.
 
+## How It's Best Learned
+Build the one-dimensional case first. For −u'' = f on [0, 1] with u(0) = u(1) = 0, G(x, y) = x(1 − y) for x ≤ y and y(1 − x) for x ≥ y. Check that G is continuous and that ∂G/∂x drops by 1 at x = y. Then integrate G against f = 1 and recover u = x(1 − x)/2. Move next to the half-plane, where one image charge does the same job.
+
+## Common Misconceptions
+- A Green's function exists for every boundary condition. (For the Neumann problem for −Δ, the conditions −ΔG = δ and ∂G/∂n = 0 are incompatible, since the total flux would have to be both 1 and 0. One uses a modified Neumann function with −ΔG = δ − 1/|Ω|.)
+- G(x, y) = G(y, x) for every operator. (Symmetry needs a self-adjoint problem. For u' = f with u(0) = 0, the Green's function is H(x − y), which is not symmetric.)
+- The method of images gives the Green's function for any domain. (It works for special geometries such as half-spaces, wedges with suitable angles, and balls. For general domains no closed form is expected.)
+
 ## Questions
 ```yaml
 - question: "What is the Green's function for the Laplacian in three dimensions (free space)?"

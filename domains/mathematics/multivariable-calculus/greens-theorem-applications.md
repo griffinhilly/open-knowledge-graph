@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Green's theorem relates a line integral around a closed curve C to a double integral over the enclosed region D: ∮_C P dx + Q dy = ∬_D (∂Q/∂x − ∂P/∂y) dA. It connects circulation of F to its 2D curl, and flux interpretation yields ∮_C F · n ds = ∬_D div(F) dA.
 
+## How It's Best Learned
+Use the area formula on a region whose area you already know. For the ellipse x = a cos t, y = b sin t, the expression x dy − y dx simplifies to ab dt. Then ½ ∫₀^{2π} ab dt = πab, the known area. After that, take a triangle problem where the 2D curl is constant, and compare three edge integrals with one area calculation.
+
+## Common Misconceptions
+- Green's theorem works for any direction of travel around C. (The standard statement assumes C is traversed counterclockwise, with the region on the left; clockwise traversal flips the sign.)
+- Green's theorem applies to a region with a hole as long as you integrate around the outer curve. (For a region with holes, the boundary includes the inner curves too, traversed clockwise.)
+- Zero 2D curl inside C guarantees zero circulation even if F is undefined at a point inside. (Green's theorem needs F smooth on all of D; a field like (−y, x)/(x² + y²) has zero curl away from the origin but circulation 2π around the unit circle.)
+- The circulation form and flux form use the same integrand. (Circulation uses ∂Q/∂x − ∂P/∂y; flux uses ∂P/∂x + ∂Q/∂y.)
+
 ## Questions
 
 ```yaml

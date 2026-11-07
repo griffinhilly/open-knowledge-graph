@@ -22,6 +22,14 @@ status: draft
 ## Core Idea
 Notebooks and journals can be crafted as literary nonfiction, using apparent spontaneity and fragmentariness for artistic effect. Writers have shown that the notebook form—with dated entries, varied lengths, and digressions—can be formally sophisticated while maintaining the appearance of immediacy and unfiltered thought.
 
+## How It's Best Learned
+Keep dated entries for two weeks, then select eight to ten that share an image or worry. Cut, reorder, and trim them into a short piece, keeping the dates. Comparing the raw notebook with the shaped version shows exactly where selection and arrangement created the effect of spontaneity.
+
+## Common Misconceptions
+- A published notebook is just someone's private diary printed as it was written. (Most literary notebooks have been selected, arranged, and edited, even when they still read as immediate.)
+- Fragmentary entries mean the writing has no structure. (Recurring images, themes, and the order of entries give a notebook its shape, even without linear argument.)
+- The dates on entries must run in strict order. (Some writers arrange entries out of sequence to build a thematic or emotional arc.)
+
 ## Questions
 
 ```yaml
@@ -57,6 +65,7 @@ Notebooks and journals can be crafted as literary nonfiction, using apparent spo
 
 - question: How might a writer use notebook form deliberately as a literary technique?
   type: short-answer
+  answer: "The writer selects entries that cohere around a theme, arranges them to build an arc, and edits lightly. Dates and fragments of varied length are kept so the piece feels immediate while being deliberately shaped."
   explanation: 'A writer might: select entries from a longer journal that thematically cohere. Arrange entries not chronologically but to create emotional or intellectual arcs. Edit minimally to preserve voice while improving clarity. Use dated entries to create temporal layering. Mix fragments of different lengths and polish levels. This creates a form that feels intimate and immediate while actually being crafted for literary effect.'
 ```
 

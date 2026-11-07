@@ -27,6 +27,14 @@ status: validated
 ## Core Idea
 A subgroup N is normal if gNg⁻¹ = N for all g ∈ G, equivalently gN = Ng for all g. Normal subgroups are precisely the kernels of homomorphisms. Only for normal subgroups does the set of cosets form a group.
 
+## How It's Best Learned
+In S₃, list the left and right cosets of H = {e, (12)} in two columns, then do the same for A₃. For H the columns disagree. For A₃ they match. Then pick two representatives from each of two left cosets of H and multiply them. For some choices the products land in different cosets, which shows directly why coset multiplication needs normality.
+
+## Common Misconceptions
+- gN = Ng means g commutes with every element of N. (Only the two sets must be equal. A₃ is normal in S₃, yet (12) does not commute with (123).)
+- A normal subgroup of a normal subgroup is normal in the whole group. (Normality is not transitive. In A₄, a subgroup of order 2 inside V₄ is normal in V₄, and V₄ is normal in A₄, but the order-2 subgroup is not normal in A₄.)
+- Some quotient G/H can still be formed when H is not normal, as long as G is finite. (Finiteness does not help. If H is not normal, the rule (aH)(bH) = (ab)H depends on the representatives chosen.)
+
 ## Questions
 
 ```yaml

@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 For F = (P, Q, R), curl is ∇×F = (R_y - Q_z, P_z - R_x, Q_x - P_y) (rotation), and divergence is ∇·F = P_x + Q_y + R_z (outflow). Conservative fields have curl = 0.
 
+## How It's Best Learned
+Fill a 2×2 table with rows for zero and nonzero curl and columns for zero and nonzero divergence. Place one field in each cell by computing both operators. ⟨1, 2, 3⟩ has neither. ⟨x, y, 0⟩ has divergence 2 and zero curl. ⟨−y, x, 0⟩ has zero divergence and curl ⟨0, 0, 2⟩. ⟨x − y, x + y, 0⟩ has both. The full table shows that the two operators are independent.
+
+## Common Misconceptions
+- A field with zero divergence is conservative. (Zero divergence rules out sources and sinks, not rotation. ⟨−y, x, 0⟩ has divergence 0 but curl ⟨0, 0, 2⟩, so it is not conservative.)
+- Zero curl forces zero divergence. (⟨x, y, 0⟩ has zero curl and divergence 2. It is the gradient of (x² + y²)/2 and spreads outward.)
+- Since ∇·(∇×F) = 0, you can also take the curl of a divergence. (The divergence is a scalar, so it has no curl. The companion identity is ∇×(∇f) = 0, the curl of a gradient.)
+
 ## Questions
 
 ```yaml

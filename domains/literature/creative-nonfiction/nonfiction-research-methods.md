@@ -24,6 +24,14 @@ status: draft
 ## Core Idea
 Research in creative nonfiction employs diverse methods—archival research, interviews, participant observation, field work, library research—to build factual foundation and sensory detail. Writers develop strategies for gathering and assessing material while remaining alert to bias, gaps in knowledge, and how research itself shapes narrative perspective and selection.
 
+## How It's Best Learned
+Pick one small local subject, such as a closed shop or a neighborhood landmark, and research it three ways: one interview, one archival or library source, and one hour of on-site observation. Write a paragraph from each method alone. Comparing the three paragraphs shows what each method can and cannot supply, and where the sources disagree.
+
+## Common Misconceptions
+- Research is the boring fact-checking step that happens after the real writing. (Research often generates the story itself, supplying scenes, voices, and details the writer could not have imagined.)
+- If I gather enough sources, my account will be objective. (Every choice of whom to interview and which archive to search shapes the result, so the writer should stay aware of that influence.)
+- When the record has a gap, I can fill it with what probably happened. (Gaps should be acknowledged or clearly marked as speculation, since nonfiction readers trust that stated facts are real.)
+
 ## Questions
 
 ```yaml
@@ -59,6 +67,7 @@ Research in creative nonfiction employs diverse methods—archival research, int
 
 - question: How might a nonfiction writer approach gathering material for a project about a historical event or community?
   type: short-answer
+  answer: "Combine methods: interview people with experience, search archives, observe the location, and read secondary sources. Then note what each method reveals, what biases each carries, and what gaps remain that no source can fill."
   explanation: 'They might: interview people with knowledge or experience. Research archival materials—letters, documents, photographs. Observe the physical location. Read secondary sources for context. Note how each method reveals different things—interviews reveal personal experience, archives reveal historical documentation, observation reveals current reality, reading reveals interpretations others have made. Recognize biases in each—which people are willing to be interviewed? What documents survived? What locations are accessible? What secondary sources exist? Recognize gaps—what can''t you learn from available sources? This layered research builds comprehensive understanding while acknowledging what you don''t and can''t know.'
 ```
 

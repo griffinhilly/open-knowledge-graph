@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Expander graphs are sparse graphs with strong connectivity properties: every subset of vertices has a large boundary (many edges leaving the subset). Formally, a d-regular graph is a (d, lambda)-expander if the second-largest eigenvalue of its adjacency matrix has absolute value at most lambda, where a large spectral gap (d - lambda) indicates strong expansion. Random walks on expanders mix rapidly — reaching near-uniform distribution in O(log n) steps — making them powerful pseudorandom objects. Expanders are used for error-correcting codes, derandomization (replacing truly random bits with pseudorandom walks on expanders), communication networks, and the PCP theorem. Explicit constructions (Ramanujan graphs achieving lambda = 2*sqrt(d-1)) exist via number theory and algebraic geometry.
 
+## How It's Best Learned
+Compare three graphs of degree 3 or 4 on about twelve vertices: a cycle with each vertex also joined to its neighbor two steps away, two dense clusters joined by one edge, and a random 3-regular graph. For each, find the worst subset's boundary by inspection and compute the second eigenvalue with software. Then simulate a random walk on each and plot distance from uniform against step count, linking spectral gap to mixing speed.
+
+## Common Misconceptions
+- A graph with many edges is a good expander. (Expansion is about the ratio of boundary edges to set size for every small set. Two dense cliques joined by one edge have many edges but expand poorly.)
+- Expanders must be dense to mix fast. (Good expanders can have constant degree, so the number of edges grows linearly in n, yet random walks still mix in O(log n) steps.)
+- Since random regular graphs are good expanders, explicit expanders are easy to build. (A random graph has to be generated and stored, which defeats the purpose in derandomization, where the graph has exponentially many vertices. Explicit families give each vertex's neighbors by a fast formula, and building them took deep algebraic or combinatorial work.)
+- The spectral gap and edge expansion are the same number. (Cheeger's inequality ties them together only up to a square-root factor, so a graph can have a modest spectral gap and somewhat better edge expansion.)
+
 ## Questions
 
 ```yaml

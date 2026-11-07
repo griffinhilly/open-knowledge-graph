@@ -30,6 +30,14 @@ status: validated
 ## Core Idea
 An R-module M is flat if tensoring with M preserves exact sequences -- that is, M ⊗_R - is an exact functor. Flatness is weaker than freeness or projectivity but is the "right" condition for many purposes: flat base change preserves kernels, localizations are always flat, and flat morphisms in algebraic geometry correspond to families with continuously varying fibers. Faithful flatness (flat plus tensoring detects zero) is even more powerful, enabling descent arguments and guaranteeing the going down property for the associated ring map.
 
+## How It's Best Learned
+Test one injective map, multiplication by 2 on ℤ, against several ℤ-modules. Tensoring with ℤ/2ℤ gives the zero map, so ℤ/2ℤ is not flat. Tensoring with ℚ or ℤⁿ keeps it injective. This leads to the PID criterion that flat means torsion-free. Then compute ℚ ⊗ ℤ/2ℤ = 0 to see flat without faithfully flat.
+
+## Common Misconceptions
+- Flat modules are free, or at least projective. (ℚ is flat over ℤ because it is torsion-free, but it is not free, and over a PID projective modules are free.)
+- Quotient rings are flat, like localizations. (ℤ/2ℤ is not flat over ℤ. Tensoring the injection ℤ →^{×2} ℤ with it gives the zero map ℤ/2ℤ → ℤ/2ℤ.)
+- A flat module detects whether other modules are zero. (That is the extra condition in faithful flatness. ℚ is flat over ℤ, yet ℚ ⊗_ℤ ℤ/2ℤ = 0.)
+
 ## Questions
 
 ```yaml

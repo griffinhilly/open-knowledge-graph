@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Spontaneous symmetry breaking occurs when the Lagrangian of a field theory has a symmetry that is not shared by the ground state (vacuum). The classic example is the Mexican hat potential, where the Lagrangian has rotational symmetry but the vacuum state picks a definite direction. This mechanism generates massless Goldstone bosons and, when combined with gauge invariance, gives mass to gauge bosons via the Higgs mechanism.
 
+## How It's Best Learned
+Expand the real Z₂ model around its minimum. With V = −μ²φ²/2 + λφ⁴/4 and φ = φ₀ + h, where φ₀ = μ/√λ, you get (1/2)(2μ²)h² + λφ₀h³ + (λ/4)h⁴ plus a constant. The new cubic term looks like explicit breaking, but its coefficient is fixed by the mass and the quartic coupling. Then redo the expansion for the complex field in polar coordinates to find the massless angular mode.
+
+## Common Misconceptions
+- After the symmetry breaks, it no longer constrains the theory. (The Lagrangian keeps the symmetry, so it still fixes relations among couplings, such as the cubic coupling λφ₀ in terms of the mass and λ.)
+- The true vacuum is a symmetric superposition of all the minima, as in a quantum double well. (In infinite volume, tunneling between vacua is suppressed completely, so the theory sits in one vacuum and the symmetry stays broken.)
+- Spontaneous symmetry breaking needs an elementary scalar field with a negative mass-squared term. (Symmetries can also be broken dynamically, as by the quark condensate in QCD or the electron pairs in a superconductor.)
+
 ## Questions
 
 ```yaml

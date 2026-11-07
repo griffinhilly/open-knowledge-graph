@@ -21,6 +21,14 @@ status: draft
 ## Core Idea
 Flash nonfiction compresses lived experience, observation, or reflection into very brief forms (typically under 1,500 words, often much shorter). This extreme compression demands economy of language, precision of detail, and clarity of focus, often achieving resonance and depth through what is implied or withheld rather than explicitly stated.
 
+## How It's Best Learned
+Take a longer draft about one moment from your life and cut it to 500 words, then to 250. At each cut, keep the most charged image or line of dialogue and drop explanation and backstory first. Compare the versions to see which sentences survived and what the shortest one implies without saying. Reading several pieces in a journal of brief nonfiction such as Brevity gives models of where pieces begin and end.
+
+## Common Misconceptions
+- Flash nonfiction is a long essay summarized. (A summary keeps the outline and loses texture. Flash usually narrows to a single moment or image and renders it precisely.)
+- Shorter means easier to write. (The constraint demands hard choices about what to cut, and each sentence has to do more work.)
+- Leaving the meaning unstated means the writer failed to explain. (Flash often relies on implication, trusting the reader to complete the significance.)
+
 ## Questions
 
 ```yaml
@@ -56,12 +64,13 @@ Flash nonfiction compresses lived experience, observation, or reflection into ve
 
 - question: Imagine you're writing a flash nonfiction piece about a significant moment in your life. How would your approach differ from writing a traditional personal essay about the same moment? What would you prioritize?
   type: short-answer
+  answer: "In flash, you would center a single, precisely rendered moment and its sharpest sensory details, leaving out backstory and explicit reflection. A traditional personal essay would develop context, causes, and implications. Flash prioritizes imagery, precision, and implication over explanation."
   explanation: In flash nonfiction, you would prioritize a single, crystalline moment rather than a full narrative arc. You might capture the exact sensory detail (a smell, a visual image, a phrase overheard) rather than explaining the backstory. In a traditional essay, you'd develop context, reflect on causes, explore implications—showing how the moment fits into a larger life pattern. In flash nonfiction, you'd trust that a precise, evocative moment would communicate significance without explicit reflection. You'd prioritize imagery and precision over explanation and development.
 ```
 
 ## Explainer
 
-Flash nonfiction emerged as a distinct form in the late 20th century, enabled partly by literary journals and anthologies that had space for shorter pieces but wanted the depth and resonance of full nonfiction essays. Writers like Robert Olen Butler, Diane Williams, and Dinty W. Moore helped establish flash nonfiction as its own art form rather than just a truncated essay.
+Flash nonfiction emerged as a distinct form in the late 20th century, enabled partly by literary journals and anthologies that had space for shorter pieces but wanted the depth and resonance of full nonfiction essays. Writers and editors such as Dinty W. Moore, who founded the journal Brevity, helped establish flash nonfiction as its own art form rather than just a truncated essay.
 
 The form works through radical selectivity. Instead of a full narrative arc with exposition, rising action, climax, and denouement, flash nonfiction often presents a single moment, image, or observation with maximum precision. A flash piece might be a single paragraph that captures a childhood memory in one vivid scene, without explaining how that scene shaped the narrator's life. The work is in finding the exact words and details that will resonate without support from surrounding narrative.
 

@@ -29,6 +29,14 @@ status: validated
 ## Core Idea
 A semimartingale is a càdlàg adapted process X that decomposes as X = M + A, where M is a local martingale and A is an adapted process of finite variation. This is the most general class of "good integrators" — by the Bichteler-Dellacherie theorem, semimartingales are exactly the processes for which a reasonable stochastic integral ∫H dX can be defined. The Itô integral extends from Brownian motion to this full generality: the stochastic integral ∫₀ᵗ H(s) dX(s) is well-defined for predictable H, and the Burkholder-Davis-Gundy (BDG) inequality E[sup_{s≤t} |∫₀ˢ H dM|^p] ≤ C_p E[[∫H dM, ∫H dM]_t^{p/2}] controls the integral's moments through the quadratic variation.
 
+## How It's Best Learned
+Run the general Itô formula on the compensated Poisson process M(t) = N(t) - λt with f(x) = x². The continuous part of [M, M] is zero, and each jump adds (x + 1)² - x² - 2x = 1, so M(t)² = 2∫M(s-) dM(s) + N(t). Compare with W(t)² = 2∫W dW + t. Here [M, M]_t = N(t) is random, while the compensator λt plays the role of t.
+
+## Common Misconceptions
+- The quadratic variation [M, M] and the predictable quadratic variation ⟨M, M⟩ are the same process. (For compensated Poisson, [M, M]_t = N(t) while ⟨M, M⟩_t = λt; the two agree for continuous local martingales.)
+- Every local martingale is a true martingale. (Some are strict local martingales; 1/|B(t)| for three-dimensional Brownian motion started away from 0 is a standard example.)
+- With jumps, any adapted integrand works as well as a predictable one. (∫N(s) dM(s) equals ∫N(s-) dM(s) + N(t), which has drift λt and is not a martingale; using the left limit N(s-) gives a local martingale.)
+
 ## Questions
 
 ```yaml

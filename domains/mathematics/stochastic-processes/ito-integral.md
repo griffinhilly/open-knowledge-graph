@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 The Itô integral ∫₀ᵀ H(t) dW(t) extends integration to allow Brownian motion as the integrator. Because Brownian paths have infinite variation, Riemann-Stieltjes integration fails, and the integral must be constructed as an L² limit of integrals of simple (step) processes. The key choice is evaluating the integrand at the left endpoint of each subinterval, which produces an integral that is a martingale with zero expectation and the Itô isometry E[(∫H dW)²] = E[∫H² dt].
 
+## How It's Best Learned
+On one simulated Brownian path, compute three sums for ∫₀ᵀ W dW using left endpoints, right endpoints, and the average of the two. They land near (1/2)W(T)² - T/2, (1/2)W(T)² + T/2 and (1/2)W(T)², and the right sum minus the left sum is Σ(ΔWᵢ)² ≈ T. Then check the isometry: both sides give T²/2 for this integrand.
+
+## Common Misconceptions
+- The evaluation point inside each subinterval stops mattering as the mesh shrinks. (For ∫W dW the left-endpoint and right-endpoint sums differ by Σ(ΔWᵢ)², which converges to T, not to 0.)
+- The Itô integral is computed path by path, like a Riemann-Stieltjes integral. (It is a limit in L² of integrals of simple processes; for a general adapted integrand there is no pathwise formula on a single fixed path.)
+- Any adapted integrand gives a martingale. (A true martingale needs E[∫₀ᵀ H² dt] < ∞; if only ∫₀ᵀ H² dt < ∞ almost surely, the integral is in general just a local martingale.)
+
 ## Questions
 
 ```yaml

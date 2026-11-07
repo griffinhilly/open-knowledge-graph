@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Quantum supremacy (or quantum advantage) refers to a quantum computer performing a computational task that no classical computer can perform in a feasible amount of time. Google's 2019 Sycamore experiment claimed supremacy via random circuit sampling — a 53-qubit processor completed a sampling task in 200 seconds that was estimated to take 10,000 years classically. The demonstration is significant because it provides experimental evidence that quantum computational power exceeds classical, but the sampled task has no practical application. The distinction between supremacy (any task, even artificial) and practical advantage (useful tasks) remains an active frontier.
 
+## How It's Best Learned
+Do the memory arithmetic for brute-force simulation. At 8 bytes per amplitude, 30 qubits need 2^30 × 8 bytes, about 8.6 GB, which fits on a laptop. 53 qubits need about 72 petabytes. Then read the original claim and IBM's rebuttal side by side, and list which assumption about classical resources each estimate makes.
+
+## Common Misconceptions
+- Quantum supremacy means quantum computers now beat classical ones at useful work. (The demonstrated task, random circuit sampling, has no practical use. Practical advantage is a separate and still unmet goal.)
+- Supremacy shows a quantum computer did something no classical computer could ever do. (A classical computer can simulate any quantum computation given enough time and memory. The claim is about what is feasible in practice.)
+- Once supremacy is claimed, the result is settled for good. (Better classical algorithms have repeatedly cut the estimated classical cost, so the boundary keeps moving.)
+- The samples can be checked as easily as a factoring answer. (Checking full-size samples needs costly classical computation. Cross-entropy benchmarking relies on smaller or simplified circuits whose ideal probabilities can be computed, then extrapolates.)
+
 ## Questions
 
 ```yaml

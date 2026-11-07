@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 A renewal process N(t) counts occurrences of events where inter-arrival times X₁, X₂, ... are i.i.d. positive random variables (not necessarily exponential). The elementary renewal theorem states N(t)/t → 1/μ almost surely as t → ∞, where μ = E[X₁]. The renewal-reward theorem extends this to cumulative rewards: total reward/time → E[reward]/E[cycle length]. Renewal theory provides the limit theorems for counting processes and is the foundation for analyzing replacement policies, queuing systems, and regenerative processes.
 
+## How It's Best Learned
+Work one replacement policy with renewal-reward, taking bulb lifetimes Uniform(0, 2), a failure cost of 3 and a planned-swap cost of 1. Replacing only on failure costs 3 per unit time, while replacing at age 1 or on failure gives cycle length E[min(X, 1)] = 3/4 and cycle cost 3·(1/2) + 1·(1/2) = 2, so the rate is 8/3. Then compute the inspection-paradox interval mean, E[X²]/E[X] = 4/3.
+
+## Common Misconceptions
+- The long-run reward rate is the average of R/X over cycles. (It is E[R]/E[X], a ratio of expectations, which differs from E[R/X] in general.)
+- The interval in progress at a random time is a typical interval. (It is size-biased, with mean E[X²]/E[X], which exceeds E[X] unless the intervals are constant.)
+- The expected number of renewals by time t is exactly t/μ. (That holds for the Poisson process; for non-lattice X with finite variance, m(t) ≈ t/μ + (σ² - μ²)/(2μ²) for large t, with a different shape at small t.)
+
 ## Questions
 
 ```yaml

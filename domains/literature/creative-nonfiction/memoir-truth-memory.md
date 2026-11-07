@@ -24,6 +24,15 @@ status: draft
 ## Core Idea
 Memoir grapples with the fallibility and reconstructive nature of memory as its source material. Writers must navigate between fidelity to how events are remembered (felt truth, emotional authenticity) versus how they factually occurred, acknowledging that memory is fundamentally shaped by interpretation, emotion, and meaning-making rather than documentary recording.
 
+## How It's Best Learned
+Write a vivid childhood memory in detail, including any dialogue. Check it against a relative, a photo or a record, and mark each detail as confirmed, contradicted or uncheckable. Revise the passage so it signals uncertainty where it exists ("I remember it as..."), and turn any dialogue you cannot stand behind into paraphrase.
+
+## Common Misconceptions
+- A memoir is true only if every detail would match a recording of events. (Memory is reconstructive, so memoir aims for honesty about what was experienced and remembered, with openness about uncertainty.)
+- Emotional truth gives the memoirist license to invent events. (Felt truth concerns how events were experienced. Inventing events or details to fill gaps is fabrication.)
+- Admitting memory gaps weakens a memoir. (Readers know memory is fallible, and openness about uncertainty can strengthen their trust.)
+- A memory that has changed over time must be false. (Understanding of an event shifts as a person learns more, and a memoir can track that change honestly.)
+
 ## Questions
 
 ```yaml
@@ -59,6 +68,7 @@ Memoir grapples with the fallibility and reconstructive nature of memory as its 
 
 - question: How might a memoirist approach a situation where their memory of an event differs from another person's account? What does honesty require?
   type: short-answer
+  answer: "Honesty requires the writer to say that the memories differ, present their own memory as theirs, and where useful include the other person's version. The writer should mark what they remember versus what they reconstruct, and not invent details to settle the difference."
   explanation: 'The writer might: acknowledge that memory differs (''My mother remembers this differently than I do''). Represent their own memory and understanding (''This is how I remember experiencing it''). Possibly include the other person''s version (''She says...''). Explain what shaped the difference (''Perhaps her perspective was different because...''). Be transparent about what they actually remember versus what they''re reconstructing (''I don''t remember her exact words, but...''). This approach is more honest than claiming single truth or inventing details to fill memory gaps. It shows the complexity of memory while remaining truthful to what the writer actually remembers and experienced.'
 ```
 

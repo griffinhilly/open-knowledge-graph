@@ -17,7 +17,16 @@ status: validated
 # Running Coupling Constants
 
 ## Core Idea
-Coupling constants in quantum field theory are not fixed numbers but depend on the energy scale at which they are measured. The beta function governs this energy dependence. In QED, the coupling increases at higher energies (charge is anti-screened at short distances); in QCD, it decreases (asymptotic freedom). This scale dependence has profound physical consequences.
+Coupling constants in quantum field theory are not fixed numbers but depend on the energy scale at which they are measured. The beta function governs this energy dependence. In QED, the coupling increases at higher energies (vacuum polarization screens the charge at long distances); in QCD, it decreases (asymptotic freedom). This scale dependence has profound physical consequences.
+
+## How It's Best Learned
+Integrate the one-loop QED equation species by species: 1/α(μ) = 1/α(μ₀) − (2/3π) Σ_f N_c Q_f² ln(μ/μ₀). A fermion enters the sum only above its mass. Work out first how far the electron alone moves 1/α between m_e and the Z mass. Then add the muon, the tau and the quarks, each with its charge squared and color factor, to see how each species contributes. Plot 1/α against ln μ, where one-loop running is a set of straight segments.
+
+## Common Misconceptions
+- A coupling has one true value, and the different values at different energies are measurement errors. (The effective coupling depends on the scale of the process, and quoting it requires stating that scale.)
+- Couplings change quickly with energy. (At one loop they change logarithmically, so large changes need many orders of magnitude in energy.)
+- The sign of the beta function depends on whether the force is attractive or repulsive. (It is set by the field content: charged matter loops push it positive, and the self-interacting gauge bosons of non-abelian theories push it negative.)
+- The convergence of the three Standard Model couplings proves grand unification. (The couplings come close at very high energies but do not meet exactly in the Standard Model; this is a suggestive extrapolation, not a confirmed result.)
 
 ## Questions
 

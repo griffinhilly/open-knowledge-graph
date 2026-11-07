@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Network analysis applies graph theory to geographic linear features (roads, rivers, pipelines, utilities) to solve routing, allocation, and connectivity problems. Unlike Euclidean spatial analysis that measures straight-line distances, network analysis respects the constraints of the network: travel occurs along edges (road segments) between nodes (intersections), and costs (distance, time, impedance) accumulate along the path. Core operations include shortest path routing (finding the least-cost route between two points), service area delineation (finding all locations reachable within a time or distance threshold), closest facility analysis, and location-allocation (optimally placing facilities to serve demand).
 
+## How It's Best Learned
+Run Dijkstra's algorithm by hand on four nodes with edges A-B 4, A-C 2, C-B 1, B-D 5 and C-D 8. Settle C at 2, which lowers B to 3 and sets D to 10. Settling B then lowers D to 8, so the best path is A-C-B-D. Then draw a 5-minute service area for a real fire station and lay a 5-minute straight-line buffer beside it.
+
+## Common Misconceptions
+- The shortest route is also the fastest route. (Shortest path minimizes whichever cost the edges carry. Distance and travel time give different routes when road speeds differ.)
+- A service area is a circle around the facility. (It follows the network, so its shape stretches along fast roads and stops at rivers or barriers with no crossing.)
+- Any road line file can be used for routing as it is. (A routable network needs correct topology, such as connected nodes at real intersections, and no false junctions where an overpass crosses a road.)
+
 ## Questions
 
 ```yaml

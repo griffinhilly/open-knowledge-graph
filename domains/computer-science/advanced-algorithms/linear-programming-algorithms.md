@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Linear programming (LP) optimizes a linear objective function subject to linear inequality constraints. The simplex method, developed by Dantzig (1947), traverses vertices of the feasible polytope along improving edges — it is exponential in worst case but extraordinarily fast in practice. Interior point methods, introduced by Karmarkar (1984), traverse the interior of the polytope using barrier functions and achieve polynomial worst-case complexity O(n^3.5 L) for n variables and L input bits. The ellipsoid method (Khachiyan, 1979) proved LP is in P but is impractical. Modern LP solvers combine these approaches: simplex for warm-starting and sensitivity analysis, interior point for large-scale instances. LP is the backbone of combinatorial optimization — it underpins network flow, matching, approximation algorithms, and scheduling.
 
+## How It's Best Learned
+Graph a two-variable LP with four or five constraints whose feasible region contains the origin, shade the feasible region and slide the objective line until it last touches the region. Then run simplex on the same LP from the origin, marking each pivot as a move to an adjacent corner. Write the dual next and check that its optimum matches the primal. A drawing of the interior-point central path on the same picture completes the comparison.
+
+## Common Misconceptions
+- The optimum of an LP lies inside the feasible region. (A non-constant linear objective has no interior maximum. When a bounded optimum exists and the region has a vertex, some vertex is optimal.)
+- Since simplex is exponential in the worst case, it is slow on real problems. (Worst-case examples such as the Klee-Minty cube are contrived. On practical inputs simplex usually needs a modest number of pivots, which smoothed analysis helps explain.)
+- Polynomial-time LP algorithms make integer programming easy. (Requiring integer solutions makes the problem NP-hard in general. LP solves only the relaxation, unless the constraint matrix has special structure such as total unimodularity.)
+- Every LP has an optimal solution. (An LP can be infeasible, or unbounded so the objective improves forever. An optimum exists only when it is feasible and bounded.)
+
 ## Questions
 
 ```yaml

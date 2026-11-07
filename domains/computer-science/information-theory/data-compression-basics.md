@@ -28,6 +28,15 @@ status: validated
 ## Core Idea
 Data compression reduces the number of bits needed to represent information by exploiting redundancy. Lossless compression (Huffman, arithmetic, LZ77, LZ78) allows perfect reconstruction and is bounded by the source entropy. Lossy compression (JPEG, MP3, H.264) sacrifices some fidelity for much higher compression ratios, governed by rate-distortion theory. Practical compressors combine a model (which identifies redundancy and predicts symbols) with a coder (which converts predictions into a compact bitstream). The model captures statistical structure; the coder approaches the entropy of the model's predictions.
 
+## How It's Best Learned
+Take a short repetitive string and compress it by hand two ways: first with LZ77 back-references, then by Huffman-coding the result. Count the bits at each stage. Then try the same on a string of uniformly random bytes and watch the savings vanish. Labeling each step as "model" or "coder" makes the split between the two concrete.
+
+## Common Misconceptions
+- A good enough compressor can shrink any file. (A counting argument shows no lossless compressor can shorten every input. If some files get shorter, others must get longer, and random data on average cannot be compressed.)
+- Compressing a file twice makes it smaller again. (The first pass removes most of the redundancy the method can find. A second pass usually gains little and can add overhead.)
+- Entropy is a fixed property of the file. (Entropy belongs to a probability model of the source. A compressor with a better model of the data's structure can reach fewer bits than one with a cruder model.)
+- Lossy compression breaks the entropy limit. (The entropy limit applies to exact reconstruction. Lossy methods accept distortion, and their limit is the rate-distortion function instead.)
+
 ## Questions
 
 ```yaml

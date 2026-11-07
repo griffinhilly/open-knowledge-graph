@@ -20,6 +20,15 @@ status: validated
 ## Core Idea
 Farmers in developing countries face severe credit constraints for improved seeds, fertilizer, and equipment purchase. Without inputs, productivity remains low, revenues stay insufficient, and savings for investment remain impossible. Formal banks avoid agricultural lending due to weak collateral and seasonal risk. Innovative credit schemes linking credit to inputs and buyback guarantees have shown promise in overcoming these constraints.
 
+## How It's Best Learned
+Build a three-column table: collateral failure, covariant seasonal risk, and moral hazard. For each innovation (input-linked credit, warehouse receipts, bundled crop insurance, group lending), mark which column it closes and which it leaves open. Then take one farmer's season, borrowing at planting and repaying at harvest, and trace where each failure could break the loan.
+
+## Common Misconceptions
+- If an investment is profitable, a bank will lend for it. (Profit does not help the bank if it cannot enforce repayment. Weak collateral, regional crop failures, and unmonitored loan use can make a profitable loan unattractive to lend.)
+- Lowering interest rates will bring banks into farm lending. (A cheaper rate does not fix weak collateral, covariant risk, or diversion of funds, so banks still face the same expected losses.)
+- High moneylender rates are pure exploitation. (They may include some market power, but studies of informal lenders also find high costs of screening, monitoring, and default risk on unsecured, seasonal loans.)
+- One well-designed credit product can solve the whole problem. (Each innovation targets a specific failure. Input-linked credit limits diversion but does not protect the lender when the whole region's harvest fails.)
+
 ## Questions
 
 ```yaml

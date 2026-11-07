@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Correlation functions G(r) = ⟨σ(0)σ(r)⟩ measure how order at one location influences order at distance r. In ordered phases, G(r) → m² as r → ∞. Near criticality, G(r) ~ exp(-r/ξ), where the correlation length ξ → ∞ at T_c. Spatial correlations are probed experimentally via scattering experiments and encode collective behavior.
 
+## How It's Best Learned
+Compute one correlation function exactly: the zero-field 1D Ising chain, where ⟨σ₀σ_r⟩ = (tanh βJ)^r. This is a pure exponential with ξ = −1/ln(tanh βJ) lattice spacings. At βJ = 1, tanh 1 ≈ 0.762 and ξ ≈ 3.7. Then note that ξ grows without bound only as T → 0, which is why the 1D chain has no finite-temperature transition.
+
+## Common Misconceptions
+- The correlation length is set by the range of the interaction. (Nearest-neighbor couplings alone can make ξ many lattice spacings long. Near T_c, ξ grows far beyond the interaction range.)
+- At T_c distant spins are strongly correlated. (G(r) − m² still falls to zero at large r, but as a power law. What disappears at T_c is any characteristic length, not the decay itself.)
+- In the ordered phase the large-r value of G(r) measures fluctuations. (G(r) → m² comes from the average order. Fluctuations are described by the connected function G(r) − m², which still decays below T_c.)
+
 ## Questions
 
 ```yaml

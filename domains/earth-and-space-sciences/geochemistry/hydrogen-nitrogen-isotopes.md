@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Hydrogen (H, D with mass ratio 2:1) and nitrogen (14N, 15N with mass ratio 15:14) isotopes are powerful tracers of water sources and biological processes respectively. Hydrogen isotopes (delta-D, measured relative to VSMOW) co-vary with delta-18O in precipitation along the Global Meteoric Water Line (delta-D = 8 * delta-18O + 10), making them complementary hydrological tracers. The large mass difference (100%) produces the largest fractionation effects of any stable isotope system. Nitrogen isotopes (delta-15N, relative to atmospheric N2) trace biological nitrogen cycling: nitrogen fixation, nitrification, denitrification, and trophic-level enrichment each produce diagnostic fractionation patterns. Together, delta-D and delta-15N address questions from paleoclimate reconstruction to pollution source tracking.
 
+## How It's Best Learned
+Plot paired water samples on a delta-D versus delta-18O diagram and compute deuterium excess, d = delta-D - 8 x delta-18O. A sample with delta-18O of -10 and delta-D of -70 per mil gives d = 10, on the GMWL. An evaporated lake with delta-18O of -2 and delta-D of -30 gives d = -14, below it. For nitrogen, build a food-web ladder from a measured baseline, adding about 3.4 per mil per trophic step.
+
+## Common Misconceptions
+- High delta-15N in river nitrate proves a sewage or manure source. (Denitrification enriches the remaining nitrate in 15N, so partly denitrified fertilizer nitrate can look similar. Measuring delta-18O of nitrate as well helps separate the two.)
+- A water that plots off the GMWL has a measurement problem. (Local meteoric water lines differ in slope and intercept, and departures record evaporation, mixing, or water-rock exchange.)
+- Delta-D and delta-18O carry the same information, so one is enough. (They usually co-vary, but deuterium excess records conditions of evaporation at the moisture source and needs both.)
+- A consumer's delta-15N alone gives its trophic level. (Baseline delta-15N differs among ecosystems, so trophic level must be measured against the primary producers of that system.)
+
 ## Questions
 
 ```yaml

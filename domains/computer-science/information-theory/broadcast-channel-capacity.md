@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 The capacity region of a broadcast channel (one sender, multiple receivers) is defined by the union of achievable rate tuples (R_1, R_2, ..., R_K) for reconstructing messages at each receiver. For **degraded broadcast channels** — where receivers can be ordered such that each receiver's signal is a degraded version of the prior — the capacity region is fully characterized by superposition coding: the sender transmits a superposition of independent messages at different power levels, strong receivers decode all layers (like successive interference cancellation at the transmitter side), and weak receivers decode only their own layer. For **non-degraded** broadcast channels, the capacity region is not fully known in general. Marton's coding scheme (which encodes using correlated auxiliary variables) provides the best known inner bound, tight for several important cases. The Gaussian broadcast channel's capacity region is known by a duality with the Gaussian MAC, and the region exhibits a tradeoff where increasing one user's rate decreases others' achievable rates.
 
+## How It's Best Learned
+Take a two-user degraded Gaussian broadcast channel with fixed P, N_1 and N_2. Compute (R_1, R_2) from the superposition formulas for several values of alpha and plot the curve. On the same plot, draw the straight line from time-sharing between the two single-user corner points. The gap between them shows what superposition coding gains. Then read Marton's scheme as the answer to what breaks when no receiver ordering exists.
+
+## Common Misconceptions
+- The best a sender can do for two users is split time or bandwidth between them. (For the degraded Gaussian broadcast channel, superposition coding reaches rate pairs outside the time-sharing line between the two single-user points.)
+- The weak receiver must decode the strong user's message to remove it. (In superposition coding the weak receiver decodes only its own layer and treats the strong user's signal as added noise. The strong receiver decodes both layers.)
+- The capacity region of every broadcast channel is known. (It is known for degraded channels and some other classes. For general non-degraded broadcast channels it is still open, and Marton's scheme gives an inner bound.)
+- "Degraded" means the weak user is farther away. (It is a statement about channel statistics: the weak output can be modeled as a noisier version of the strong output. In the Gaussian case this holds when N_1 < N_2, whatever causes the extra noise.)
+
 ## Questions
 
 ```yaml

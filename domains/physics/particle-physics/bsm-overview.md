@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Despite its extraordinary success, the Standard Model leaves fundamental questions unanswered: the origin of neutrino masses, the nature of dark matter, the matter-antimatter asymmetry, the hierarchy problem (why the Higgs mass is so much lighter than the Planck scale), the strong CP problem, the pattern of fermion masses and mixing angles, and the absence of quantum gravity. BSM physics encompasses the theoretical frameworks and experimental searches aimed at addressing these shortcomings.
 
+## How It's Best Learned
+Build a table of the open problems with three columns: is it an observation or a naturalness argument, what energy scale does it point to, and what kind of experiment tests it. Then check the hierarchy estimate yourself: (Λ/m_H)² is about 6,400 for Λ = 10 TeV but about 10³⁴ for Λ at the Planck scale.
+
+## Common Misconceptions
+- If the LHC finds nothing new, the Standard Model must be complete. (Neutrino masses, dark matter, and the baryon asymmetry are observed facts the Standard Model does not explain. Null LHC results rule out specific models and mass ranges, not new physics in general.)
+- The hierarchy problem is a mathematical inconsistency in the Standard Model. (The Standard Model is consistent as an effective field theory. The problem is that the Higgs mass needs an extreme cancellation if the theory holds up to very high scales.)
+- Every reason for new physics points to new particles at the TeV scale. (The naturalness argument points toward the TeV scale, but neutrino masses could come from very heavy states in a seesaw, and axions would be extremely light.)
+
 ## Questions
 
 ```yaml

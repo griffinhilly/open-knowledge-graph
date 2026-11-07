@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 The virial expansion expresses the equation of state as PV/NkT = 1 + B₂(T)ρ + B₃(T)ρ² + ... where B_n(T) are temperature-dependent virial coefficients. This systematic density expansion accounts for interactions and reduces to the ideal gas law when density vanishes.
 
+## How It's Best Learned
+Write the configuration integral with each Boltzmann factor as 1 + f_ij and keep only terms linear in f. This gives ln Q ≈ N ln V + (N²/2V)∫f d³r, and P = kT ∂ln Q/∂V yields B₂ = −½∫f d³r. Then do hard spheres: B₂ = 2πσ³/3, so B₂ρ equals four times the packing fraction.
+
+## Common Misconceptions
+- The virial coefficients change with density. (Each B_n depends only on temperature and the interaction potential. All the density dependence sits in the powers of ρ.)
+- Every virial coefficient varies with temperature. (For hard spheres the Boltzmann factor is either 0 or 1, so every B_n is a constant. Temperature dependence comes from the attractive or soft parts of the potential.)
+- Adding enough terms lets the virial series describe a gas at any density, including the liquid. (It is an expansion about zero density. Truncated forms lose accuracy as density grows, and the series cannot be trusted at liquid densities.)
+
 ## Questions
 
 ```yaml
@@ -46,7 +54,7 @@ The virial expansion expresses the equation of state as PV/NkT = 1 + B₂(T)ρ +
     - "The attractive and repulsive contributions to pairwise interactions exactly cancel, producing approximately ideal behavior"
     - "The density-dependent corrections diverge, making the virial expansion invalid"
   answer: 2
-  explanation: "B₂(T) is the integral of the Mayer f-function over all pair separations, combining contributions from attractive regions (f < 0) and repulsive regions (f = −1 inside hard core, giving positive contribution). At the Boyle temperature these cancel, so the leading correction to ideal behavior vanishes. Critically, the gas still has interactions — it is not a 'true' ideal gas; at higher densities, B₃ and higher coefficients still contribute."
+  explanation: "B₂(T) is the integral of the Mayer f-function over all pair separations, combining contributions from attractive regions (f > 0, giving a negative contribution) and repulsive regions (f = −1 inside hard core, giving positive contribution). At the Boyle temperature these cancel, so the leading correction to ideal behavior vanishes. Critically, the gas still has interactions — it is not a 'true' ideal gas; at higher densities, B₃ and higher coefficients still contribute."
 
 - question: "The virial expansion reduces to the ideal gas law in the limit of zero density."
   type: true-false
@@ -70,6 +78,6 @@ From your work with the partition function and the canonical ensemble, you know 
 
 The key mathematical tool is the **Mayer f-function**: f_{ij} = e^{−βu(r_{ij})} − 1, where u(r) is the pair interaction potential. For non-interacting molecules, u = 0 everywhere, so f_{ij} = 0 and the ideal gas result is recovered. For interacting molecules, the cluster expansion groups contributions to the partition function by the number of correlated molecules. At low density, the dominant correction comes from pairs: the probability of three molecules being simultaneously close together is much smaller than the probability of a single pair. The **second virial coefficient** B₂(T) = −½ ∫ f(r) 4πr² dr is the integral of the Mayer f-function over all pair separations — a single number capturing the net effect of pairwise interactions.
 
-The physical content of B₂(T) is transparent. For an attractive potential (the van der Waals well at intermediate range), f(r) < 0 at those distances, giving B₂ < 0. A negative B₂ means Z = PV/NkT < 1: the gas exerts less pressure than the ideal prediction because molecules attract each other and spend extra time near the walls, but more importantly because the attractive clustering reduces the effective number of independently-acting particles. For hard-sphere repulsion at short range, f(r) = −1 inside the hard core, giving a positive contribution: B₂ > 0 and Z > 1 — the gas is harder to compress than ideal because molecules exclude volume. The **Boyle temperature** where B₂ = 0 is where attractive and repulsive effects exactly cancel, producing approximately ideal behavior.
+The physical content of B₂(T) is transparent. For an attractive potential (the van der Waals well at intermediate range), f(r) > 0 at those distances, giving B₂ < 0. A negative B₂ means Z = PV/NkT < 1: the gas exerts less pressure than the ideal prediction because molecules attract each other and spend extra time near one another, but more importantly because the attractive clustering reduces the effective number of independently-acting particles. For hard-sphere repulsion at short range, f(r) = −1 inside the hard core, giving a positive contribution: B₂ > 0 and Z > 1 — the gas is harder to compress than ideal because molecules exclude volume. The **Boyle temperature** where B₂ = 0 is where attractive and repulsive effects exactly cancel, producing approximately ideal behavior.
 
-Higher virial coefficients B₃, B₄, ... account for three-body, four-body correlations and become significant at higher densities. The full power of the expansion appears in the connection to the **van der Waals equation**: expanding (P + aN²/V²)(V − Nb) = NkT in powers of density and comparing with the virial series reveals that the van der Waals constants a and b correspond directly to contributions from the Mayer f-function. The phenomenological parameters Verhulst introduced empirically to fit gas behavior are thus derived from the microscopic pair potential, completing the statistical-mechanical justification of a model that was purely empirical for decades.
+Higher virial coefficients B₃, B₄, ... account for three-body, four-body correlations and become significant at higher densities. The full power of the expansion appears in the connection to the **van der Waals equation**: expanding (P + aN²/V²)(V − Nb) = NkT in powers of density and comparing with the virial series reveals that the van der Waals constants a and b correspond directly to contributions from the Mayer f-function. The phenomenological parameters van der Waals introduced empirically to fit gas behavior are thus derived from the microscopic pair potential, completing the statistical-mechanical justification of a model that was purely empirical for decades.

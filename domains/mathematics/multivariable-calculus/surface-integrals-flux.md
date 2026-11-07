@@ -30,6 +30,14 @@ status: validated
 ## Core Idea
 The surface integral ∬_S F · dS computes flux (net flow of F through S). Using parametrization r(u, v), dS = (r_u × r_v) du dv, and the integral becomes ∬_D F(r(u,v)) · (r_u × r_v) du dv. Orientation (choice of normal direction) affects the sign.
 
+## How It's Best Learned
+After the flat constant-field check, work a graph surface. For z = g(x, y) with upward normal, r_x × r_y = ⟨−g_x, −g_y, 1⟩. For F = ⟨x, y, z⟩ through z = 1 − x² − y² over the unit disk, the integrand simplifies to 1 + x² + y². Polar coordinates then give 2π(1/2 + 1/4) = 3π/2.
+
+## Common Misconceptions
+- In a flux integral, dS is the scalar area element. (Here dS is the vector (r_u × r_v) du dv; the scalar element |r_u × r_v| du dv belongs to scalar surface integrals.)
+- I must turn r_u × r_v into a unit vector before dotting with F. (In the parametric formula the normalization cancels with the area factor; normalizing and then integrating du dv alone gives the wrong value.)
+- The normal from my parametrization is automatically the outward one. (r_u × r_v points whichever way the parametrization makes it; check it at one point and negate the integral if it faces the wrong way.)
+
 ## Questions
 
 ```yaml

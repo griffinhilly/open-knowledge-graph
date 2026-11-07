@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 The Berry phase is a geometric phase acquired by a quantum state when the parameters of its Hamiltonian are varied adiabatically around a closed loop: gamma = oint <n(R)|nabla_R|n(R)> · dR. In condensed matter, the "parameter" is the crystal momentum k, and the Berry phase of Bloch states underlies the anomalous velocity of electrons, the integer quantum Hall effect, electric polarization, and the classification of topological phases. The Berry curvature Omega(k) = nabla_k × <u_k|nabla_k|u_k> acts as an effective magnetic field in k-space, and its integral over the Brillouin zone — the Chern number C = (1/2pi) integral Omega d^2k — is a topological invariant that classifies band structures.
 
+## How It's Best Learned
+Begin with a spin-1/2 in a magnetic field whose direction traces a closed loop, and show that the Berry phase is half the solid angle the loop encloses. Then study a two-band model H = d(k)·σ on a square lattice, such as d = (sin k_x, sin k_y, m + cos k_x + cos k_y). Compute its Chern number numerically on a discretized Brillouin zone for several m. It changes only where the gap closes.
+
+## Common Misconceptions
+- The Berry phase along any path, open or closed, is a physical quantity. (Along an open path it changes with the choice of phase for the eigenstates; only the phase around a closed loop is gauge-invariant, modulo 2π.)
+- The Berry connection A(k) is directly measurable. (A(k) depends on the gauge choice; the Berry curvature and its integrals are the observable quantities.)
+- Nonzero Berry curvature means the band is topological. (Curvature can be large locally while its integral is zero, as in a gapped honeycomb lattice with broken inversion symmetry, where the two valleys contribute opposite signs.)
+- A small change to the Hamiltonian can shift the Chern number by a fraction. (The Chern number is an integer, so it can change only by an integer jump, and only when the gap closes.)
+
 ## Questions
 
 ```yaml

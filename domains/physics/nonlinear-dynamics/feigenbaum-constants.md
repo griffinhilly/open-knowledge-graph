@@ -20,6 +20,15 @@ status: validated
 ## Core Idea
 The Feigenbaum constants δ ≈ 4.6692 and α ≈ 2.5029 are universal numbers that govern the period-doubling route to chaos in all smooth unimodal maps. δ measures the geometric convergence rate of bifurcation parameter values; α measures the scaling of the orbit's spatial structure at each doubling. Their universality — independence from the specific map — was discovered by Mitchell Feigenbaum in 1975 and explained through renormalization group theory borrowed from statistical physics. It means that the detailed microscopic rules of a system are irrelevant to how it transitions to chaos.
 
+## How It's Best Learned
+Start from the first period-doubling values of the logistic map: r₁ = 3, r₂ = 1 + √6 ≈ 3.4495, r₃ ≈ 3.5441, r₄ ≈ 3.5644. Compute the ratios of successive gaps by hand. They come out near 4.75 and then 4.66, already close to δ. Then find the same values numerically for the sine map and watch the ratios approach the same limit from a different formula.
+
+## Common Misconceptions
+- δ ≈ 4.669 is a special property of the logistic map. (The same value appears for any smooth one-humped map with a quadratic maximum, which is what makes it universal.)
+- Every route to chaos is governed by the Feigenbaum constants. (They describe period-doubling cascades in the quadratic-maximum class; maps with a flatter maximum give different constants, and other routes such as intermittency are not described by δ.)
+- Since bifurcations keep coming, the cascade continues forever as the parameter increases. (The gaps shrink geometrically, so infinitely many doublings fit in a finite range and accumulate at a finite value, about r ≈ 3.5699 for the logistic map.)
+- One or two measured bifurcations give δ accurately. (The early ratios differ noticeably from the limit and converge only as n grows, which is why experiments with a few doublings report approximate values.)
+
 ## Questions
 
 ```yaml

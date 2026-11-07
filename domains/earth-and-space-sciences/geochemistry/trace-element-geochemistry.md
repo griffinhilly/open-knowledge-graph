@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Trace elements (concentrations <0.1 wt%) obey Henry's Law in dilute solutions within minerals and melts, meaning their behavior is governed by partition coefficients rather than stoichiometric constraints. Elements are classified as compatible (preferentially entering the solid phase during melting, e.g., Ni, Cr, Co) or incompatible (preferentially entering the melt, e.g., Rb, Ba, Th, U, Nb, La). During partial melting, incompatible elements are strongly concentrated in small melt fractions, while compatible elements remain in the residue. This partitioning creates systematic abundance patterns in igneous rocks that encode information about the degree of melting, source composition, crystal fractionation history, and tectonic setting. Normalized multi-element diagrams (spider diagrams) and REE plots are the standard visualization tools.
 
+## How It's Best Learned
+Compare a compatible and an incompatible element through the same process. For Rayleigh fractional crystallization, C_L/C_0 = F^(D - 1), where F is the melt fraction left. After 20% olivine crystallizes (F = 0.8), Ni with D = 10 falls to 0.8^9, about 0.13 of its start. An element with D near 0 rises only to 1.25 times. Plot both on log axes.
+
+## Common Misconceptions
+- The concentration of an incompatible element tells you how much the mantle melted. (It also depends on how much the source held. Ratios of elements with different D values help separate source composition from degree of melting.)
+- Fractional crystallization enriches the remaining melt in all trace elements. (Incompatible elements rise, but compatible elements such as Ni and Cr fall sharply as olivine, pyroxene, and spinel are removed.)
+- A negative Nb-Ta anomaly proves the magma formed at a subduction zone. (Continental crust carries the same anomaly, so mantle magmas contaminated by crust can show it too.)
+
 ## Questions
 
 ```yaml

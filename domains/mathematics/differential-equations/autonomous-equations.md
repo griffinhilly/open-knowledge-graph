@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 An autonomous ODE has the form dy/dx = f(y), depending only on y, not on x. Equilibrium solutions occur where f(y) = 0. Autonomous equations are time-independent, making them ideal for studying long-term behavior and stability without explicitly solving.
 
+## How It's Best Learned
+Start by graphing f(y) against y for dy/dt = y(1 − y). Mark the zeros, then shade where the graph is above or below the axis and turn that into up and down arrows on a vertical y-line. Next sketch a slope field for the same equation and notice that every column of slopes looks identical, because the slopes do not depend on t.
+
+## Common Misconceptions
+- Every equilibrium attracts nearby solutions. (An equilibrium can be stable, unstable or semi-stable; for dy/dt = y(1 − y), y = 0 repels and y = 1 attracts.)
+- A solution can pass through an equilibrium on its way somewhere else. (When f is smooth enough for uniqueness, as with a polynomial f, a non-constant solution cannot reach or cross an equilibrium value in finite time; it can only approach it.)
+- Autonomous means the equation has a simple formula solution. (Autonomous equations are separable, but the integral of 1/f(y) can be hard or impossible in closed form; the point of autonomy is that the sign of f(y) alone describes the qualitative behavior.)
+- If f(y) is large, the solution is large. (f(y) gives the rate of change of y, so a large f(y) means y is changing quickly, not that y itself is large.)
+
 ## Questions
 
 ```yaml

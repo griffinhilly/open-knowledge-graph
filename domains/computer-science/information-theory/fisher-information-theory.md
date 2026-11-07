@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 The Fisher information I(theta) = E[(d/d_theta log f(X;theta))^2] = -E[d^2/d_theta^2 log f(X;theta)] measures how much a sample from the distribution f(X;theta) tells you about the parameter theta. It quantifies the curvature of the log-likelihood around the true parameter value — sharp peaks (high Fisher information) mean the data is highly informative. The Cramer-Rao bound states that any unbiased estimator of theta has variance at least 1/I(theta), establishing Fisher information as the fundamental limit of parameter estimation. Fisher information connects to KL divergence (it is the second derivative of D_KL) and forms the metric tensor in information geometry.
 
+## How It's Best Learned
+Work the Bernoulli case fully: write log f(x; theta), take the score, and compute its variance to get 1/(theta(1-theta)). Then plot the log-likelihood for 100 flips at theta = 0.5 and at theta = 0.05 and compare how sharp the peaks are. Simulate the sample proportion many times and check its variance against the Cramer-Rao bound.
+
+## Common Misconceptions
+- Fisher information and Shannon entropy measure the same thing. (Entropy measures uncertainty in the outcome X. Fisher information measures how sensitive the distribution is to the parameter theta, which is a different question.)
+- The Cramer-Rao bound limits every estimator. (It applies to unbiased estimators under regularity conditions. A biased estimator can have lower variance, and sometimes lower mean squared error.)
+- Fisher information is a single number for a model. (It depends on the parameter value. For a coin it is 4 at theta = 0.5 and much larger near theta = 0 or 1.)
+- Maximum likelihood reaches the Cramer-Rao bound for any sample size. (It does so asymptotically under regularity conditions. At small n the MLE can be biased and its variance can differ from 1/(nI(theta)).)
+
 ## Questions
 
 ```yaml

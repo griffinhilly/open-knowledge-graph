@@ -19,6 +19,14 @@ status: validated
 ## Core Idea
 For transformation (u, v) = T(x, y), the Jacobian J = ∂(x, y)/∂(u, v) = det([∂x/∂u, ∂x/∂v; ∂y/∂u, ∂y/∂v]) scales area. Thus ∬_D f(x, y) dA = ∬_S f(x(u, v), y(u, v)) |J| du dv. Cylindrical and spherical coordinates are special cases.
 
+## How It's Best Learned
+Work a tilted region where the substitution is forced. Let D be bounded by x + y = 0, x + y = 1, x − y = 0 and x − y = 2. Set u = x + y and v = x − y, so x = (u + v)/2, y = (u − v)/2 and |J| = 1/2. Then ∬_D (x + y) dA = ∫₀²∫₀¹ u · (1/2) du dv = 1/2. Check: area(D) = (1/2) · 2 = 1.
+
+## Common Misconceptions
+- The Jacobian to use is ∂(u, v)/∂(x, y), since u and v are defined in terms of x and y. (The formula needs ∂(x, y)/∂(u, v). If you computed the other one, take its reciprocal. Above, ∂(u, v)/∂(x, y) = −2, so |J| = 1/2.)
+- Once the integrand is rewritten in u and v, the old limits still apply. (The region must be redescribed in the uv-plane as well. In the example, the tilted region D becomes the rectangle 0 ≤ u ≤ 1, 0 ≤ v ≤ 2.)
+- The Jacobian is a single constant for the whole transformation. (That holds for linear maps. For polar coordinates J = r, so the scaling factor changes from point to point.)
+
 ## Questions
 
 ```yaml

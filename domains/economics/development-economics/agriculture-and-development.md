@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Agriculture's role in development is dual: source of calories, employment, and savings for capital accumulation; and bottleneck if productivity is low. Agricultural extension, input markets, land tenure, and credit access drive productivity. As development proceeds, agriculture's share of employment falls sharply but remains crucial for nutrition and rural income.
 
+## How It's Best Learned
+Keep two measures side by side: agriculture's share of employment and total food output per worker. Sketch both over a country's development and show the share falling while output per worker rises. Then trace one productivity gain through the three surplus channels (cheaper food, released labor, farm income) and ask which policy, such as food price controls or insecure tenure, blocks each one.
+
+## Common Misconceptions
+- A shrinking farm sector means the country is producing less food. (The fall is in agriculture's share. Output per worker rises, so fewer farmers can feed more people.)
+- Cheap food prices are good for development in every case. (Low prices help urban consumers but cut farm profits, which can discourage the investment that raises productivity.)
+- Once industry takes off, agriculture can be neglected. (Stagnant farming raises food costs for urban workers and limits rural demand for manufactured goods.)
+- Moving workers out of farming is development by itself. (If agricultural productivity does not rise, migrants can outpace urban job creation and food supply can fall short.)
+
 ## Questions
 
 ```yaml

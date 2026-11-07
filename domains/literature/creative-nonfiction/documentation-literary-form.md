@@ -22,6 +22,14 @@ status: draft
 ## Core Idea
 Documentation—the accumulation of facts, records, photographs, and artifacts—can itself become literary form. Using photographs, lists, and historical records as integral parts of nonfiction argues that raw documentation has aesthetic and emotional power. Gathering and presenting documents becomes a form of witnessing.
 
+## How It's Best Learned
+Collect eight to ten real records on one subject you can document, such as family papers, receipts, or public notices. Arrange them three ways: by date, by theme, and with one chosen item placed last. Add no commentary, and ask a reader what each arrangement seems to argue. Then add a single framing sentence and notice how much it changes the reading.
+
+## Common Misconceptions
+- Documents speak for themselves. (Selection, order, and context shape what a record means, so presented documents are still mediated.)
+- A work built from records involves no authorship. (Deciding what to gather, what to leave out, and how to arrange it are authorial and often argumentative acts.)
+- Documentation-based nonfiction is a less creative kind of writing. (Curation and arrangement can be as deliberate an artistic practice as composing sentences.)
+
 ## Questions
 
 ```yaml
@@ -57,6 +65,7 @@ Documentation—the accumulation of facts, records, photographs, and artifacts�
 
 - question: How might a documentation-based nonfiction work about a historical event (using primary documents, photographs, lists, records) differ from a traditional narrative history of the same event? What does each approach offer?
   type: short-answer
+  answer: "A narrative history explains the event, supplying context and cause and effect. A documentation-based work places primary materials before the reader and builds meaning through selection, juxtaposition, and accumulation. The first offers clarity and explanation; the second offers a more direct encounter with evidence, at the cost of more interpretive work for the reader."
   explanation: A traditional narrative history interprets events, provides context, explains causes and effects, tells the story chronologically or thematically. A documentation-based work presents primary materials—letters, photographs, certificates, lists—allowing readers to encounter the materials directly. The narrative history explains what happened; documentation lets readers see evidence and make some interpretations themselves. Documentation can be more immediate and visceral—a photograph of a place speaks differently than a description of it. But documentation can also be fragmented and require work from the reader. Documentation often creates meaning through juxtaposition and accumulation rather than through authorial explanation. Both approaches have power. Documentation can create a different kind of witness—to actually see the things, to hold the records—than reading an account of them.
 ```
 

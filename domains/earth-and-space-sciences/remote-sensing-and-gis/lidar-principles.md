@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 LiDAR (Light Detection and Ranging) transmits laser pulses (typically near-infrared, ~1064 nm) and measures the round-trip time to derive precise distances to reflecting surfaces. When mounted on aircraft with GPS and inertial navigation, LiDAR generates dense three-dimensional point clouds with centimeter-level vertical accuracy. Unlike passive imagery (2D), LiDAR directly measures elevation and can record multiple returns per pulse -- first return from tree canopy, intermediate returns from branches, last return from the ground -- enabling separation of vegetation from terrain.
 
+## How It's Best Learned
+Start with range = c x t / 2. A round trip of 6.67 microseconds gives 3 x 10^8 x 6.67 x 10^-6 / 2, about 1000 m. A canopy return 133 nanoseconds before the ground return puts the canopy top about 20 m above the ground. Then load a public point cloud, color it by return number, and view a cross-section through a forest.
+
+## Common Misconceptions
+- Laser pulses pass through leaves to reach the ground. (Light reaches the ground only through gaps in the canopy, so ground point density falls in dense forest.)
+- The distance is the speed of light times the travel time. (The pulse goes out and back, so the one-way distance is half of c times the round-trip time.)
+- LiDAR works through cloud the way radar does. (Near-infrared and green laser light is blocked by cloud and thick fog, so surveys need clear air below the aircraft.)
+- Every last return is a ground point. (A last return can come from a branch, roof or dense shrub, so ground classification algorithms are still needed.)
+
 ## Questions
 
 ```yaml

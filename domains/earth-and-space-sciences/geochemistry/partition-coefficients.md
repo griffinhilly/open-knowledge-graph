@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 The partition coefficient (D or Kd) quantifies how a trace element distributes between a mineral and a coexisting melt or fluid: D = C_mineral / C_melt. D depends on the element's ionic radius and charge (compatibility with the crystal site), the mineral's crystal structure, melt composition, temperature, and pressure. Elements whose ionic radius and charge match an available crystal site have high D (compatible); mismatches produce low D (incompatible). The bulk partition coefficient for a rock (D-bulk) is the weighted average of mineral D values, weighted by the modal abundance of each mineral. D-bulk controls whether an element is enriched or depleted during partial melting and fractional crystallization, making it the key parameter linking mantle mineralogy to magma composition.
 
+## How It's Best Learned
+Compute a bulk D, then put it into the batch melting equation, C_L/C_0 = 1/(D + F(1 - D)). Take a source of 80% olivine (D = 0.01) and 20% clinopyroxene (D = 0.1), so D-bulk = 0.028. At 10% melting the melt holds about 8 times the source concentration. Repeat with D = 5 and the melt holds about 0.22 times.
+
+## Common Misconceptions
+- An element is either compatible or incompatible. (Compatibility depends on the mineral. Yb is compatible in garnet but incompatible in olivine, and Sr is compatible in plagioclase.)
+- More melting always raises the concentration of an incompatible element in the melt. (For a highly incompatible element, the melt concentration is highest at small melt fractions. More melting dilutes it, roughly as C_0/F.)
+- Ions with the same charge partition the same way into a mineral. (Ionic radius matters too. D falls off on both sides of the site's ideal radius, which is why the REE behave differently in garnet.)
+- Bulk D is the plain average of the mineral D values. (Each mineral's D is weighted by its proportion in the rock, so a rare mineral contributes little unless its D is very large.)
+
 ## Questions
 
 ```yaml

@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Function f(x, y) is continuous at (a, b) if lim_{(x,y)→(a,b)} f(x, y) = f(a, b). In multiple variables, the limit must be the same approaching from all directions, making the concept richer than in one dimension.
 
+## How It's Best Learned
+Test two similar functions at the origin side by side. For x²y/(x² + y²), lines and parabolas all give 0, and the bound |f| ≤ |y| proves the limit is 0. For x²y/(x⁴ + y²), every line y = mx also gives 0, but the parabola y = x² gives 1/2. The pair teaches that paths can only disprove a limit, while a bound proves it.
+
+## Common Misconceptions
+- If the limit is the same along every straight line, the function is continuous. (Curved paths count too. For x²y/(x⁴ + y²), every line through the origin gives 0, but y = x² gives 1/2.)
+- In polar form, getting the same limit as r → 0 for each fixed θ proves the limit exists. (The approach must be controlled for all θ at once. The function x²y/(x⁴ + y²) gives 0 along every fixed θ, yet its limit does not exist.)
+- If both partial derivatives exist at a point, f is continuous there. (The partials only test the two axis directions. xy/(x² + y²) with f(0,0) = 0 has both partials equal to 0 at the origin but is discontinuous there.)
+
 ## Questions
 
 ```yaml

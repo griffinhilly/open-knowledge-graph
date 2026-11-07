@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Online learning is a sequential prediction framework where a learner makes decisions one at a time, observes a loss after each decision, and aims to minimize cumulative regret — the difference between the learner's total loss and the total loss of the best fixed strategy in hindsight. Unlike PAC learning, online learning makes no distributional assumptions: the sequence of examples can be adversarially chosen. The fundamental result is that O(sqrt(T)) regret is achievable and optimal for many problems, meaning the learner's average loss converges to the best fixed strategy's loss at rate 1/sqrt(T). This framework unifies prediction, optimization, and game theory.
 
+## How It's Best Learned
+Play the adversary against a deterministic learner: each round it predicts a bit, and you reveal the opposite bit. After T rounds it has T mistakes, while one of the two constant experts (always 0, always 1) has at most T/2, so regret is at least T/2. Then let randomized Hedge play, with the adversary fixing each bit before Hedge's random draw, and run online gradient descent on a one-dimensional convex loss, to see sublinear regret.
+
+## Common Misconceptions
+- Regret compares the learner with the best sequence of actions. (The comparator is the best single fixed action in hindsight. A learner can have low regret while a strategy that switches actions would have done much better.)
+- A deterministic learner can get sublinear regret in prediction with expert advice. (An adversary who knows the prediction can always reveal the opposite label, forcing regret of at least T/2. Randomizing over experts, or using convex losses on a convex decision set, avoids this.)
+- sqrt(T) is the best rate for every online problem. (For strongly convex losses, online gradient descent with step sizes proportional to 1/t achieves O(log T) regret.)
+
 ## Questions
 
 ```yaml

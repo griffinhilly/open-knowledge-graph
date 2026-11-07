@@ -22,7 +22,15 @@ status: draft
 # Capote: Narrative Structure in True Crime Nonfiction
 
 ## Core Idea
-In Cold Blood demonstrates how true-crime reporting can achieve novelistic suspense and emotional depth while maintaining journalistic integrity. Capote's approach structures factual events to create narrative propulsion, character complexity, and moral ambiguity without falsifying the record.
+In Cold Blood demonstrates how true-crime reporting can achieve novelistic suspense and emotional depth while maintaining journalistic integrity. Capote's approach structures factual events to create narrative propulsion, character complexity, and moral ambiguity while staying grounded in reporting.
+
+## How It's Best Learned
+Map the opening part of In Cold Blood in two columns: sections that follow the Clutter family and sections that follow the two killers. Note where each cut falls and what detail comes just before it. Then summarize the same events as a linear police report and compare where the tension sits in each version.
+
+## Common Misconceptions
+- Suspense needs a reader who does not know the ending. (In Cold Blood builds dread from a known outcome, using intercutting and pacing to create dramatic irony.)
+- Showing the killers' histories and psychology excuses them. (Depicting their backgrounds adds moral complexity. Understanding a person differs from approving of what they did.)
+- In true crime, structure is the order in which events happened. (Choices about whose perspective to follow, where to cut, and what to delay shape the meaning readers take from the same facts.)
 
 ## Questions
 
@@ -47,10 +55,10 @@ In Cold Blood demonstrates how true-crime reporting can achieve novelistic suspe
   answer: 1
   explanation: Capote spends time with the murderers, learns their backgrounds, motivations, and psychology. This creates complexity—they're not cardboard villains—while remaining grounded in facts. He shows their humanity without excusing their crime. This is possible through deep reporting, not fabrication.
 
-- question: 'True: In Cold Blood proved that true-crime reporting can achieve the emotional and narrative power of fiction without fabricating facts.'
+- question: 'True: In Cold Blood showed that true-crime reporting built on factual research can achieve the emotional and narrative power of fiction.'
   type: true-false
   answer: true
-  explanation: This is the book's revolutionary achievement. Before Capote, many assumed that truth was incompatible with narrative power and emotional depth. Capote showed that structure, perspective, and literary technique can create compelling narrative from factual events. The book doesn't invent; it selects, structures, and presents.
+  explanation: This is the book's revolutionary achievement. Before Capote, many assumed that truth was incompatible with narrative power and emotional depth. Capote showed that structure, perspective, and literary technique can create compelling narrative from factual events. Its method is to select, structure, and present, though critics later found a few scenes, such as the ending, that Capote invented.
 
 - question: 'False: Capote''s technique of creating suspense in true-crime narrative requires moral judgment about the criminals, approving of their actions or disapproving.'
   type: true-false
@@ -59,6 +67,7 @@ In Cold Blood demonstrates how true-crime reporting can achieve novelistic suspe
 
 - question: How might a true-crime narrative structured as a linear investigation (facts revealed chronologically as detectives discover them) differ from Capote's structure of intercutting between criminals' preparation and victims' daily lives? Which creates more meaning?
   type: short-answer
+  answer: "A linear investigation builds suspense about how the crime will be solved and frames the story as a puzzle. Capote's intercutting sets the killers' preparation beside the family's ordinary day, creating dramatic irony and drawing attention to human cost and moral complexity. Neither is superior in itself; each produces different effects and raises different questions."
   explanation: A linear investigation structure builds toward revelation—readers know a crime happened and follow the detective work to understand it. This creates suspense about 'whodunit.' Capote's intercutting creates a different kind of suspense and meaning—it puts preparation and normalcy side by side, creating tragic irony (the family going about their day, unaware they're about to be killed). It also humanizes the criminals and creates moral complexity by showing them before the crime. Neither structure is inherently superior, but they create different effects and raise different questions. Capote's structure emphasizes the human cost and moral ambiguity. The detective-investigation structure emphasizes the puzzle of solving crime. Meaning isn't just in facts but in how facts are structured.
 ```
 
@@ -70,6 +79,6 @@ The genius of Capote's approach is architectural. He doesn't hide the ending (re
 
 Capote also commits to deep character development. He spends time with the murderers, learns their histories, represents their perspectives. This creates moral complexity—they're not simply evil, though what they do is evil. They're human beings with comprehensible motivations and psychological damage. This doesn't excuse the crime; it makes the tragedy and moral wrongness more profound. Readers are forced to think, not just judge.
 
-Throughout, Capote maintains journalistic integrity. He reports what he learned through interviews, documents, investigation. He doesn't invent dialogue that wasn't said or attribute motivations without evidence. But he shapes all this factual material through narrative art. He chooses what to show, how to pace it, whose perspective to inhabit at which moments. This is craft applied to truth, not compromise of truth.
+Capote presented the book as strictly factual. He built it from interviews, documents, and investigation. Later reporters and critics showed that some scenes were altered or invented, most famously the closing cemetery scene, so the book's accuracy is still debated. He shapes all this factual material through narrative art. He chooses what to show, how to pace it, whose perspective to inhabit at which moments. This is craft applied to truth, not compromise of truth.
 
 The book demonstrated that nonfiction didn't have to choose between accuracy and literary power. It changed what was possible in true-crime writing and showed that real events, real people, real crime could generate the complexity, tension, and emotional resonance usually associated with fiction. This insight—that truthfulness and literary art are compatible—has influenced decades of creative nonfiction.

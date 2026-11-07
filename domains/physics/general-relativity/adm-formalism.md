@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 The ADM (Arnowitt-Deser-Misner) formalism recasts general relativity as an initial-value (Cauchy) problem by decomposing four-dimensional spacetime into a foliation of three-dimensional spatial hypersurfaces evolving in time. The spacetime metric is decomposed into the spatial 3-metric γ_ij (geometry of each slice), the lapse function N (rate of proper time flow between slices), and the shift vector N^i (how spatial coordinates slide between slices). The Einstein equations split into constraint equations (Hamiltonian and momentum constraints, which the initial data must satisfy) and evolution equations (which propagate the data forward). The canonical variables are (γ_ij, π^{ij}), where π^{ij} is the conjugate momentum related to the extrinsic curvature K_ij. The ADM formalism is the foundation of numerical relativity (computational solution of Einstein's equations) and the starting point for canonical quantization of gravity.
 
+## How It's Best Learned
+Match two known metrics to the form ds² = −N²c²dt² + γ_ij(dx^i + N^i c dt)(dx^j + N^j c dt) and read off N, N^i and γ_ij: first Minkowski space, then Schwarzschild on t = const slices. On the Schwarzschild slice K_ij = 0, so in vacuum the Hamiltonian constraint reduces to ³R = 0. Keep electromagnetism alongside as a guide: Gauss's law is a constraint, and the scalar potential is gauge, like the lapse.
+
+## Common Misconceptions
+- The lapse and shift are physical fields that the Einstein equations determine. (They are gauge choices. Different choices give different slicings and coordinates of the same spacetime.)
+- The ADM time coordinate t is a preferred, physical time. (The foliation is chosen by the user, and many different slicings of one spacetime are equally valid.)
+- Because evolution preserves the constraints, they can be ignored. (The initial data must be constructed to satisfy them, and in numerical work small violations can grow, so codes monitor them.)
+- Extrinsic curvature is the curvature of the 3-metric itself. (K_ij measures how the slice bends inside spacetime. The Painlevé-Gullstrand slices of Schwarzschild are intrinsically flat yet have nonzero K_ij.)
+
 ## Questions
 
 ```yaml

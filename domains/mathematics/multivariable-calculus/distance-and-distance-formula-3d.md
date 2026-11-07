@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 The distance between two points in 3D space (x₁, y₁, z₁) and (x₂, y₂, z₂) is √[(x₂−x₁)² + (y₂−y₁)² + (z₂−z₁)²]. This formula extends the 2D distance formula by including the z-component and defines the Euclidean metric in ℝ³.
 
+## How It's Best Learned
+Picture a box with edges parallel to the axes and opposite corners at the two points. Find the diagonal of the floor first, then use it and the box's height as the legs of a second right triangle. Try it with (0, 0, 0) and (2, 3, 6): the floor diagonal is √13, and √(13 + 36) = 7. Then compare the result with the formula's single sum of three squares.
+
+## Common Misconceptions
+- The 3D formula needs a new kind of argument beyond the 2D one. (It is the Pythagorean theorem applied twice, once in the xy-plane and once with the vertical leg.)
+- The order of subtraction matters, so (x₁ − x₂) gives a different answer from (x₂ − x₁). (Each difference is squared, so the sign drops out and either order gives the same distance.)
+- Distance can be found by adding the coordinate differences. (Adding |Δx| + |Δy| + |Δz| gives the length of a path along the axes, which is longer than the straight line unless at most one difference is nonzero.)
+- The equation (x − a)² + (y − b)² + (z − c)² = r² describes a circle. (In 3D it describes a sphere, the surface of all points at distance r from the center.)
+
 ## Questions
 
 ```yaml

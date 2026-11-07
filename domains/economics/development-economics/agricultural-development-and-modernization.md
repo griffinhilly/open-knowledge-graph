@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Agriculture dominates employment in poor countries but remains low-productivity. The Green Revolution (1960s-80s) raised yields through improved seed varieties, irrigation, and fertilizer, lifting millions from poverty. Current challenges include soil depletion, water scarcity, and climate change. Future growth requires climate-smart agriculture and secure land tenure.
 
+## How It's Best Learned
+Draw two production curves for one farm: output against fertilizer for a traditional seed and for a high-yield seed. Show that the new seed's advantage appears mainly when fertilizer and water are present. Then list the complements the curve assumes (irrigation, input markets, roads, credit, tenure) and ask what happens to the gain as each one is removed.
+
+## Common Misconceptions
+- Better seeds raise yields wherever they are planted. (High-yield varieties gain most when fertilizer, water, and markets are available. Without these complements the gains can be small.)
+- Agricultural modernization matters mainly for food supply. (It also frees labor and creates a surplus that industry and services need, which is why many economists see it as a precondition for structural transformation in agrarian economies.)
+- The gains from the Green Revolution are permanent once achieved. (Soil depletion, falling water tables, and climate change can erode past yield gains.)
+- Farmers who do not adopt new technology are resistant to change. (Missing credit, insecure land rights, or no route to market can make adoption unprofitable for them.)
+
 ## Questions
 
 ```yaml

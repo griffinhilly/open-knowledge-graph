@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 The second virial coefficient B₂(T) represents the leading correction to ideal behavior and reflects two-body interactions. It changes sign at the Boyle temperature where it vanishes, and its temperature dependence reveals the balance between repulsive and attractive forces in intermolecular interactions.
 
+## How It's Best Learned
+Compute B₂ for a square well: hard core of diameter σ, depth ε out to λσ. The integral splits into two pieces and gives B₂ = (2πσ³/3)[1 − (λ³ − 1)(e^(ε/kT) − 1)]. Set it to zero to find kT_B = ε / ln[λ³/(λ³ − 1)], about 2.85ε for λ = 1.5. Expanding at high T gives the van der Waals form b − a/kT.
+
+## Common Misconceptions
+- B₂ is the volume of one molecule. (For hard spheres B₂ = 2πσ³/3, four times the volume of a sphere of diameter σ. With attractions it also depends on temperature and can be negative.)
+- A negative B₂ means the gas is about to condense. (B₂ is negative across the whole range below the Boyle temperature, including temperatures well above the critical point, where no condensation occurs.)
+- Above the Boyle temperature B₂ keeps rising with T. (For a hard core it levels off at the excluded-volume value. For a soft core such as Lennard-Jones, B₂ passes through a maximum at very high T and then falls slowly as fast collisions push molecules deeper into the soft core.)
+
 ## Questions
 
 ```yaml

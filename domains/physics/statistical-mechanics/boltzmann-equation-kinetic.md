@@ -27,6 +27,14 @@ status: validated
 ## Core Idea
 The Boltzmann equation describes the evolution of single-particle distribution f(r,p,t) in phase space, accounting for both free streaming and collisions: ∂f/∂t + (p/m)·∇_r f + F·∇_p f = (∂f/∂t)_collision. Its solutions yield transport properties and show how systems relax toward equilibrium through irreversible processes.
 
+## How It's Best Learned
+Start with the relaxation-time form and a uniform gas with no force. Then ∂f/∂t = −(f − f_eq)/τ, so f(t) = f_eq + (f₀ − f_eq)e^(−t/τ). Next add a small constant force and solve the steady state to first order: f ≈ f_eq − τF·∇_p f_eq. Taking the velocity moment of that shift gives a current proportional to F, which is Ohm's law in kinetic form.
+
+## Common Misconceptions
+- At equilibrium the collisions stop. (Collisions continue at full rate. For the Maxwell-Boltzmann distribution each collision process is balanced by its reverse, so the collision integral is zero.)
+- The H-theorem derives the second law from Newton's laws alone. (It needs the molecular chaos assumption that colliding particles are uncorrelated beforehand. That statistical assumption supplies the arrow of time.)
+- The Boltzmann equation describes any fluid, including dense liquids. (It assumes a dilute gas with brief binary collisions and no correlations between partners. Dense fluids need corrections or other methods.)
+
 ## Questions
 
 ```yaml

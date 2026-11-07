@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 The (left) regular representation of a finite group G acts on the vector space ℂ[G] with basis {eᵍ : g ∈ G} by left multiplication: ρ(g)(eₕ) = e_{gh}. It has dimension |G| and contains every irreducible representation Vᵢ with multiplicity equal to dim(Vᵢ). The regular representation is the "universal" representation from which all others can be extracted, and its decomposition yields the fundamental formula |G| = Σ dᵢ².
 
+## How It's Best Learned
+Decompose the regular representation of ℤ/3ℤ by hand. The generator acts on ℂ³ as the cyclic shift e₀ → e₁ → e₂ → e₀. With ω a primitive cube root of unity, check that vₖ = e₀ + ωᵏe₁ + ω²ᵏe₂ satisfies g·vₖ = ω⁻ᵏvₖ for k = 0, 1, 2. So each one-dimensional representation appears once. Then move to S₃ and verify that 6 = 1 + 1 + 2 · 2.
+
+## Common Misconceptions
+- The regular representation contains each irreducible exactly once. (Each irreducible Vᵢ appears dim(Vᵢ) times. In ℂ[S₃], the two-dimensional irreducible appears twice.)
+- The left and right regular representations are inequivalent. (The map eₕ ↦ e_{h⁻¹} intertwines left multiplication by g with right multiplication by g⁻¹, so the two are equivalent.)
+- The dᵢ copies of Vᵢ in ℂ[G] are canonically determined subspaces. (Only their sum, the isotypic component, is canonical. When dᵢ ≥ 2, the splitting into separate copies can be chosen in many ways.)
+
 ## Questions
 
 ```yaml

@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 An orientation on a smooth manifold is a consistent choice of "handedness" at every point — a continuous selection of one of two equivalence classes of ordered bases for the tangent space. Equivalently, it is a nowhere-vanishing top-degree differential form (a volume form). Not every manifold is orientable: the Mobius band and the Klein bottle are classic non-orientable examples. Orientation is necessary for integration of differential forms to yield a well-defined signed quantity.
 
+## How It's Best Learned
+Model the Möbius band as [0, 1] × (−1, 1) with (0, t) glued to (1, −t). Carry the frame (∂s, ∂t) along the center line. It comes back as (∂s, −∂t), with determinant −1, so no consistent orientation exists. Then contrast S², where x dy∧dz + y dz∧dx + z dx∧dy restricts to a 2-form that is nowhere zero.
+
+## Common Misconceptions
+- Orientable means two-sided. (Two-sidedness depends on how a manifold sits in a larger space. The center circle of a Möbius band is orientable, yet it is one-sided inside the band.)
+- A non-orientable manifold has no nonzero top-degree forms. (Such forms exist, for example ones supported in a single chart. Each one must vanish somewhere.)
+- Every orientable manifold has one natural orientation. (A connected orientable manifold has exactly two, and neither is preferred. The standard orientation of ℝⁿ is a convention.)
+
 ## Questions
 
 ```yaml

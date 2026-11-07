@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 Building on parameterized complexity fundamentals, advanced FPT addresses the full toolkit: tree decompositions and Courcelle's theorem (every MSO-definable property on bounded-treewidth graphs is FPT), iterative compression (design FPT algorithms by repeatedly compressing solutions), algebraic techniques (rank-based arguments for kernel lower bounds), probabilistic methods in FPT (e.g., randomized divide-and-conquer over random linear orderings), and the meta-algorithms emerging from decomposition-based DP. The W-hierarchy provides a fine-grained classification of parameterized hardness; hardness-of-kernelization results show that some problems admit no polynomial-kernel (kernel of size poly(k)) under complexity assumptions. These advanced results reveal that fixed-parameter tractability, while rich, has internal structure and limits.
 
+## How It's Best Learned
+Take a graph of eight to ten vertices with treewidth 2, such as a cycle with a few non-crossing chords, build a tree decomposition with bags of size three by hand, and run the maximum independent set DP bag by bag. Writing the table at each introduce, forget and join step shows why the work is exponential only in bag size. Then run iterative compression for vertex cover on a small graph, enumerating which vertices of the old solution to keep.
+
+## Common Misconceptions
+- Any sparse graph has small treewidth. (Treewidth measures how tree-like the graph is, not its edge count. A k-by-k grid has fewer than 2 edges per vertex but treewidth k, while a tree of any size has treewidth 1.)
+- Courcelle's theorem gives the algorithm you would run in practice. (Its dependence on treewidth and formula size can be a tower of exponentials. In practice, a problem-specific DP over the decomposition is written instead.)
+- Once you know a graph has small treewidth, the decomposition comes for free. (Computing treewidth exactly is NP-hard. For fixed width there are FPT algorithms, and heuristics or approximations are used in practice.)
+- W[1]-hardness proves a problem has no FPT algorithm. (It shows that an FPT algorithm would imply FPT = W[1], which is believed false but unproven.)
+
 ## Questions
 
 ```yaml

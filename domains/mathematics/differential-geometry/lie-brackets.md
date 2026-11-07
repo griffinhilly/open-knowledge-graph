@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 The Lie bracket [X, Y] of two vector fields measures their failure to commute — both as derivations (XY - YX applied to functions) and as flows (the infinitesimal obstruction to their flows commuting). It produces a new vector field that is bilinear, antisymmetric, and satisfies the Jacobi identity. The Lie bracket turns the space of vector fields into an infinite-dimensional Lie algebra and is the foundational algebraic operation in differential geometry.
 
+## How It's Best Learned
+Trace the four-step loop by hand for X = ∂/∂x and Y = x ∂/∂y from the origin. Flowing by ε along X, Y, −X, −Y visits (ε, 0), (ε, ε²), (0, ε²), (0, ε²), a gap of ε² in the y-direction. That matches [X, Y] = ∂/∂y from the component formula. Then check that rotation −y∂x + x∂y and dilation x∂x + y∂y have bracket zero.
+
+## Common Misconceptions
+- [X, Y] at p depends only on X_p and Y_p. (It depends on first derivatives of the coefficients. For example [X, fY] = f[X, Y] + X(f)Y changes when f changes away from its value at p.)
+- The composition XY of two vector fields is again a vector field. (XY is a second-order operator. Only the commutator XY − YX loses the second-order terms.)
+- Two vector fields that are linearly independent at every point can serve as coordinate fields. (They also need [X, Y] = 0. On ℝ², ∂x and x∂x + ∂y are independent everywhere, but their bracket is ∂x.)
+
 ## Questions
 
 ```yaml

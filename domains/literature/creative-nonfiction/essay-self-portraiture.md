@@ -26,6 +26,14 @@ status: draft
 ## Core Idea
 The personal essay as self-portraiture presents the writer as the subject under examination, exploring contradictions, limitations, and complexity. The essay's power comes not from confessional revelation alone but from intellectual honesty—the willingness to think in public, to follow ideas to uncomfortable conclusions, and to revise self-understanding through writing.
 
+## How It's Best Learned
+Read Montaigne's short preface "To the Reader," where he names himself as the matter of his book. Then list three habits of yours that contradict how you see yourself. Pick one and write a page asking where it comes from and what it serves, without resolving it. End with a sentence on what you understand now that you did not at the start.
+
+## Common Misconceptions
+- A self-portrait essay gets its power from revealing secrets. (Its force comes mainly from honest thinking about the self; a dramatic confession left unexamined tends to carry less weight.)
+- The writer should know who they are before writing. (The form treats writing as a way to discover and revise self-understanding.)
+- A good self-portrait presents a consistent, unified self. (These essays often explore contradiction and limitation and may leave tensions unresolved.)
+
 ## Questions
 
 ```yaml
@@ -61,6 +69,7 @@ The personal essay as self-portraiture presents the writer as the subject under 
 
 - question: How might self-portraiture in an essay work differently than a personal memoir about the same period of your life? What does each form accomplish?
   type: short-answer
+  answer: "A memoir narrates what happened during the period and how it changed the writer. A self-portrait essay takes one trait, question, or contradiction from that time and examines it analytically. Memoir offers narrative understanding of a life; self-portraiture offers reflective analysis of the self."
   explanation: A memoir tells the story of a period—what happened, how you experienced it, how it changed you. The form is narrative. Self-portraiture in an essay might focus on a single contradiction or question about yourself—say, your habit of people-pleasing, or your ambivalence about ambition—and examine it intellectually. Rather than telling the story of how you developed the trait, you analyze it, explore its implications, think about it. Memoir is narrative and emotional; self-portraiture is analytical and intellectual. Memoir says 'Here's what happened to me.' Self-portraiture says 'Here's what I think about this aspect of myself.' Both can be powerful, but they accomplish different things. Memoir offers narrative understanding; self-portraiture offers analytical understanding.
 ```
 

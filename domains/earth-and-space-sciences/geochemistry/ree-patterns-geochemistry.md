@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 The rare earth elements (La through Lu, plus Y) form a coherent geochemical group with smoothly varying ionic radii, making their chondrite-normalized abundance patterns powerful diagnostic tools. Because all REE are trivalent (except Eu2+ and Ce4+ under specific conditions), their relative behavior during geological processes reflects systematic size-dependent partitioning rather than dramatic chemical differences. The slope of the REE pattern (LREE/HREE ratio) indicates the depth and degree of melting (garnet retains HREE). Anomalies at Eu (controlled by plagioclase fractionation in the crust) and Ce (controlled by redox in marine environments) provide additional process-specific information. REE patterns are among the most widely used geochemical fingerprints in igneous, sedimentary, and environmental geochemistry.
 
+## How It's Best Learned
+Normalize one rock analysis to chondrite by hand and plot it on a log scale against atomic number. Then compute the Eu anomaly as Eu/Eu* = Eu_N / sqrt(Sm_N x Gd_N). With Sm_N = 40, Gd_N = 25, and Eu_N = 9.5, Eu/Eu* is about 0.30. Plot a basalt, a granite, and an anorthosite together to see the anomaly and its mirror image.
+
+## Common Misconceptions
+- A raw, unnormalized REE plot shows the geological pattern. (Raw abundances zigzag because even-numbered elements are more abundant. Chondrite normalization removes that zigzag so the geological signal shows.)
+- A steep LREE-enriched pattern proves there was garnet in the source. (An enriched source or a very small melt fraction can also raise LREE/HREE. A depletion in the HREE themselves is the clearer sign of residual garnet.)
+- A negative Eu anomaly in a granite means Eu was lost from the rock after it formed. (It usually records plagioclase that crystallized and was removed from the melt, or plagioclase left in the melting source.)
+
 ## Questions
 
 ```yaml

@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 Wick's theorem expresses a time-ordered product of field operators as a sum of normal-ordered products with all possible contractions. Each contraction equals a Feynman propagator. This theorem is the bridge between the abstract operator formalism and the practical Feynman diagram rules.
 
+## How It's Best Learned
+Prove the two-field case first: split φ into positive- and negative-frequency parts and show that T{φ(x)φ(y)} − :φ(x)φ(y): is the c-number D_F(x − y). Then expand ⟨0|T{φ(x)φ(y)∫φ(z)⁴}|0⟩ in φ⁴ theory. Its 15 pairings split into 12 connected ones, giving the symmetry factor 12/4! = 1/2, and 3 with a vacuum bubble, giving 3/4! = 1/8.
+
+## Common Misconceptions
+- A contraction is an operator, like the fields it replaces. (For free fields a contraction is a c-number, the propagator D_F, so it can be pulled out of the normal-ordered product.)
+- Only the fully contracted terms ever matter. (They are the only survivors in vacuum expectation values. In matrix elements between particle states, terms with uncontracted fields acting on the external particles also contribute.)
+- Wick's theorem applies directly to fully interacting Heisenberg-picture fields. (It holds for free fields, such as interaction-picture fields. The interactions enter through the extra vertex fields in the time-ordered exponential.)
+- For fermion fields every term enters with a plus sign, as for scalars. (Each term carries the sign of the permutation needed to bring the contracted fermion fields next to each other.)
+
 ## Questions
 
 ```yaml

@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 A strange attractor is a bounded set in phase space that attracts nearby trajectories, has a fractal (non-integer) dimension, and exhibits sensitive dependence on initial conditions. It is "strange" because of its fractal geometry — it has zero volume but infinite detail, with self-similar structure at all scales. Strange attractors are the geometric signature of dissipative chaos: the stretching that produces sensitivity and the folding that maintains boundedness create an infinitely layered, Cantor-set-like structure.
 
+## How It's Best Learned
+Iterate the Hénon map x′ = 1 − 1.4x² + y, y′ = 0.3x from (0, 0). Drop the first 100 points and plot the next 10,000. Then zoom repeatedly into a small box across one of the curved bands: each band splits into finer parallel bands. Check that the Jacobian determinant is −0.3, so areas shrink by a factor of 0.3 every step even as the picture keeps its detail.
+
+## Common Misconceptions
+- A strange attractor is a very long periodic orbit that eventually repeats. (A typical orbit on it never closes; the motion is aperiodic, though unstable periodic orbits are embedded in the attractor.)
+- Different starting points trace out different strange attractors. (Trajectories from anywhere in the basin approach the same attractor; their individual paths differ, but the set they fill is the same.)
+- The layered structure is only theoretical, since a plot of the Lorenz attractor looks like smooth sheets. (The layers are spaced too finely to see at ordinary plot resolution; zooming in on a thinner attractor such as the Hénon map's shows the layering directly.)
+- A fractal attractor needs complicated equations. (The Hénon map has a single quadratic term; the fractal structure comes from repeated stretching and folding.)
+
 ## Questions
 
 ```yaml

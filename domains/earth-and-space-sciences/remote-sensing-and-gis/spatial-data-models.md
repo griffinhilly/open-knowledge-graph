@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Spatial data represents geographic features using two fundamental models. The vector model represents discrete features as points, lines, and polygons defined by coordinate pairs, with associated attribute tables -- ideal for boundaries, networks, and discrete objects (buildings, roads, parcels). The raster model represents continuous phenomena as regular grids of cells (pixels), each storing a value -- ideal for elevation, temperature, satellite imagery, and any field that varies continuously across space. Choosing between vector and raster (or combining both) depends on the nature of the phenomenon, the analysis to be performed, and the required precision of boundary representation.
 
+## How It's Best Learned
+Draw one lake as a polygon on grid paper, then rasterize it at two cell sizes. Count the cells, compare the area to the polygon's area, and look at the stair-stepped shoreline. Then convert the coarse raster back to a polygon. Note what was lost and which questions, like adjacency or slope, each form answers more easily.
+
+## Common Misconceptions
+- Converting vector data to raster and back gives the original features. (Rasterizing fixes boundaries to the cell grid, so the returned polygons are stair-stepped and lose detail finer than one cell.)
+- Smaller raster cells are always the better choice. (Halving the cell size makes four times as many cells, which raises storage and processing cost and can add detail the data cannot support.)
+- Rasters are only for satellite images. (Rasters also store elevation, land cover, distance surfaces and model outputs, wherever a value is wanted for every location.)
+
 ## Questions
 
 ```yaml

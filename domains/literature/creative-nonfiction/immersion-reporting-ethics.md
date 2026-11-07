@@ -21,6 +21,14 @@ status: draft
 ## Core Idea
 Immersion journalism raises significant ethical questions about representation, consent, and the writer's responsibility to subjects. Writers must navigate between narrative advantage and fair portrayal, between the subject's self-understanding and the writer's interpretation, considering how their presence affects the situation and how vulnerable communities are depicted.
 
+## How It's Best Learned
+Take a published immersion piece and mark each detail that could embarrass or harm a subject. For each one, ask three questions: is the detail needed for the truth of the story, did the subject know they were being reported on, and who held more power in the relationship? Then run the same questions on your own reporting notes before choosing what to include.
+
+## Common Misconceptions
+- Once a subject agrees to be reported on, anything observed is fair to publish. (Consent to reporting does not settle every choice. The writer still weighs whether each detail is necessary and fair, especially with vulnerable subjects.)
+- Being fair to subjects means writing flattering portraits. (Fairness means honest and accurate portrayal that accounts for the relationship and the power involved, which can include unflattering truths.)
+- A reporter who stays long enough becomes an invisible observer. (Long presence builds relationships and can change how people act, so the writer's presence becomes part of the ethical picture.)
+
 ## Questions
 
 ```yaml
@@ -49,13 +57,14 @@ Immersion journalism raises significant ethical questions about representation, 
   answer: true
   explanation: This is the core ethical challenge. You care about the people you're reporting on. You want them to be fairly represented. But you also want to write honestly about what you observed, which might not be entirely flattering. Balancing loyalty and honesty is genuinely difficult.
 
-- question: 'False: Immersion journalists should disclose their role and intentions clearly to subjects, who should then consent to being reported on.'
+- question: 'Immersion journalists should disclose their role and intentions clearly to subjects, who should then consent to being reported on.'
   type: true-false
-  answer: false
-  explanation: This statement is actually true, not false. Subjects have the right to know they're being reported on and to understand how they'll be represented. Transparency about intentions and consent are ethical basics in immersion journalism. (Though in some journalism contexts, the reporter's role is understood; in others, more explicit permission is needed.)
+  answer: true
+  explanation: This statement is true. Subjects have the right to know they're being reported on and to understand how they'll be represented. Transparency about intentions and consent are ethical basics in immersion journalism. (Though in some journalism contexts, the reporter's role is understood; in others, more explicit permission is needed.)
 
 - question: What additional ethical complications arise when immersion journalists report on vulnerable communities or people in difficult situations?
   type: short-answer
+  answer: "The way a vulnerable community is portrayed can affect it politically, economically and socially, and the power gap between writer and subjects is often larger. The writer must weigh subjects' expectations, avoid exploiting their suffering for narrative gain, and sometimes let their needs outweigh what makes the best story."
   explanation: 'When you''re embedded in a community facing hardship, injustice, or danger, the stakes are higher. How you represent that community affects them—politically, economically, socially. People might share stories of trauma or suffering expecting the reporting will help their cause; the writer must consider those expectations. There''s also risk of exploitation—using people''s suffering to create compelling narrative for the writer''s benefit. Power imbalances matter: often the immersion journalist has more power and privilege than the subjects. Good immersion journalism in these contexts requires careful consideration of how representation affects vulnerable people, explicit discussion of intentions and representations with subjects, and willingness to let subjects'' needs sometimes override narrative advantage.'
 ```
 

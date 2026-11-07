@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 Quantum error correction (QEC) protects quantum information from decoherence and gate errors by encoding a single logical qubit into multiple physical qubits. Unlike classical error correction, QEC must handle continuous errors (arbitrary rotations, not just bit flips), cannot clone the state to create redundancy, and must detect errors without measuring (and thus collapsing) the encoded data. The key insight is that syndrome measurements can project continuous errors onto a discrete set (bit-flip, phase-flip, or both) without revealing the encoded information, enabling correction by applying the appropriate Pauli operator.
 
+## How It's Best Learned
+Build the syndrome table for the 3-qubit bit-flip code: four parity outcomes, each mapped to "no error" or a flip on qubit 1, 2 or 3. Then apply a small rotation cos(e)I - i sin(e)X to qubit 1 of alpha|000> + beta|111>. Measuring the parities projects onto "no error" with probability cos^2(e) or "flip on qubit 1" with probability sin^2(e). Either way, the correction restores the state exactly.
+
+## Common Misconceptions
+- Encoding alpha|0> + beta|1> as alpha|000> + beta|111> makes three copies of the qubit. (The encoded state is entangled and differs from three copies of the original. This is why encoding does not break no-cloning.)
+- Syndrome measurement reads the data qubits and so collapses the logical state. (It measures parities, which take the same value on |000> and |111>, so it reveals the error without revealing alpha or beta.)
+- Continuous errors need a continuous range of corrections. (Syndrome measurement projects the error onto a discrete Pauli error, which one Pauli gate undoes.)
+- The 3-qubit code protects against any single-qubit error. (A Z error on any one qubit turns alpha|000> + beta|111> into alpha|000> - beta|111>, a logical phase error the code cannot detect.)
+
 ## Questions
 
 ```yaml

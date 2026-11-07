@@ -26,6 +26,14 @@ status: draft
 ## Core Idea
 The personal essay is a flexible literary form that explores a subject through the lens of personal reflection and experience. It privileges the writer's voice, subjective perspective, and associative thinking while using concrete detail, research, and argumentation to develop insight and meaning beyond memoir or mere personal anecdote.
 
+## How It's Best Learned
+Start from a short anecdote you already tell, such as losing a job or learning to swim. Write it as a story, then ask what larger question it raises and add two paragraphs of reflection and one researched fact that answer it. Comparing the anecdote to the expanded version shows the move from personal story to essay.
+
+## Common Misconceptions
+- A personal essay is a story about something that happened to me. (The experience is the entry point; the essay uses it to explore a larger subject or question.)
+- Personal essays should stay with feelings and skip research or argument. (Many personal essays draw on research, references, and reasoning, with the personal perspective serving as the lens.)
+- Following associations means the essay can wander without control. (Associative movement in a strong essay is shaped so that each turn develops the central question.)
+
 ## Questions
 
 ```yaml
@@ -61,6 +69,7 @@ The personal essay is a flexible literary form that explores a subject through t
 
 - question: How might a personal essay explore a non-personal subject (like economics, science, history) differently than academic writing about the same subject?
   type: short-answer
+  answer: "The personal essay would enter the subject through a moment from the writer's life, then develop it through research and argument. The writer's perspective stays visible as the lens, where academic writing aims for detached analysis."
   explanation: An academic essay would provide comprehensive, objective analysis. A personal essay might use a personal encounter with the subject as entry point (a conversation, an observation, a question that arose from the writer's life), then develop understanding through research and argumentation. The personal isn't the subject but the lens. This creates immediacy and engagement while allowing the essay to develop real insight. The writer's specific perspective becomes part of how the subject is explored.
 ```
 

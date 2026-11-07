@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 FDI brings capital, technology, and market access but also creates foreign ownership of productive assets and potential profit repatriation. Host countries benefit if regulations ensure spillovers, local employment, and competitive markets. Volatility of FDI flows creates macroeconomic risk; sudden stops can trigger crises.
 
+## How It's Best Learned
+Follow one foreign garment plant in two host countries. In the first, it buys local fabric, promotes local managers, and competes with domestic firms; in the second, it imports inputs and staffs the top with expatriates. Trace where the technology and profits go in each case. Then compare how fast the owner could exit this plant with how fast a bondholder could sell.
+
+## Common Misconceptions
+- Any foreign investor who owns shares in a local company is doing FDI. (FDI involves a stake large enough to give managerial influence, conventionally at least 10%. Smaller passive holdings count as portfolio investment.)
+- Because poor countries lack capital, FDI will raise productivity across the economy. (Capital scarcity predicts high returns for the investor. Spillovers depend on skilled workers, capable suppliers, and good institutions in the host country.)
+- FDI carries no macroeconomic risk because factories cannot be moved. (Existing plants are hard to move, but new inflows can stop suddenly and profits flow out continuously.)
+- A large FDI inflow means the host country gains technology. (Without absorptive capacity, foreign firms may operate as enclaves with few links to local firms.)
+
 ## Questions
 
 ```yaml

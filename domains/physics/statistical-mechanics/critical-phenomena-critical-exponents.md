@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Near a critical point, physical quantities diverge as power laws: correlation length ξ ∝ |T−T_c|^{−ν}, order parameter m ∝ |T−T_c|^β, susceptibility χ ∝ |T−T_c|^{−γ}. Remarkably, these critical exponents are universal—they depend only on dimension and symmetry, not microscopic details. This universality is explained by the renormalization group.
 
+## How It's Best Learned
+Extract an exponent from data the way experimenters do. Plot ln m against ln|t| for points close to T_c and read β from the slope. Then shift the assumed T_c slightly and watch the line bend near t = 0. This shows why T_c and β are fitted together. Finish by minimizing the Landau free energy f = a·t·m² + b·m⁴ to see where the mean-field β = 1/2 comes from.
+
+## Common Misconceptions
+- The power law m ∝ |t|^β holds everywhere below T_c. (It is the leading behavior as t → 0. Farther from T_c, correction terms matter, so exponents must be fitted close to the transition.)
+- Universality means every critical point has the same exponents. (Each universality class has its own values. Ising, XY and Heisenberg systems in three dimensions have different exponents.)
+- An exponent such as γ takes different values above and below T_c. (Scaling theory gives the same exponent on both sides of the transition. The prefactors, called amplitudes, differ.)
+
 ## Questions
 
 ```yaml
@@ -35,7 +43,7 @@ Near a critical point, physical quantities diverge as power laws: correlation le
   answer: 1
   explanation: "Universality is the profound result that all systems in the same universality class — defined by spatial dimension and the symmetry of the order parameter — share identical critical exponents regardless of microscopic details. The 3D Ising universality class includes both uniaxial ferromagnets and liquid-gas systems, yielding β ≈ 0.326 for both. The critical temperature T_c depends on microscopic details; the exponents do not."
 
-- question: "A physicist measures β ≈ 0.326 for iron and is told that a completely different liquid-gas system also has β ≈ 0.326. She initially suspects measurement error. Why is this actually expected from theory?"
+- question: "A physicist measures β ≈ 0.326 for a uniaxial ferromagnet and is told that a completely different liquid-gas system also has β ≈ 0.326. She initially suspects measurement error. Why is this actually expected from theory?"
   type: multiple-choice
   options:
     - "Both systems must be described by the same microscopic Hamiltonian, so identical exponents follow from identical equations of motion"
@@ -43,7 +51,7 @@ Near a critical point, physical quantities diverge as power laws: correlation le
     - "Near T_c the correlation length diverges, so microscopic details become irrelevant; both systems flow to the same renormalization group fixed point under coarse-graining because they share the same dimension and symmetry"
     - "Both systems were prepared under identical laboratory conditions, so their behavior near T_c must match"
   answer: 2
-  explanation: "When ξ → ∞ near T_c, correlated regions span millions of atoms and long-wavelength fluctuations dominate — the specific atomic-scale interactions are washed out. The renormalization group formalizes this: successive coarse-graining causes all systems with the same dimension and symmetry to flow toward the same fixed point. The critical exponents are properties of that fixed point, not of the microscopic starting point. This is why iron and water can have identical β."
+  explanation: "When ξ → ∞ near T_c, correlated regions span millions of atoms and long-wavelength fluctuations dominate — the specific atomic-scale interactions are washed out. The renormalization group formalizes this: successive coarse-graining causes all systems with the same dimension and symmetry to flow toward the same fixed point. The critical exponents are properties of that fixed point, not of the microscopic starting point. This is why a uniaxial magnet and water can have identical β."
 
 - question: "Near a critical point, the divergence of the correlation length means fluctuations occur on all length scales simultaneously, making the system scale-invariant."
   type: true-false
@@ -69,4 +77,4 @@ Each observable quantity near T_c has its own critical exponent. The **correlati
 
 **Universality** is the profound result that all systems with the same spatial dimension d and the same symmetry of the order parameter share identical critical exponents, regardless of their microscopic details. The 3D Ising universality class (discrete up/down symmetry, three dimensions) includes both uniaxial ferromagnets and the liquid-gas critical point — β ≈ 0.326 for both, measured to three decimal places. The 3D XY class (complex order parameter, like a superfluid) has a different β ≈ 0.346. This is extraordinary: the atomic structure of helium versus a magnetic material is entirely different, yet their critical fluctuations are mathematically identical. Universality means that T_c depends on microscopic details but the exponents do not — they are determined purely by dimension and symmetry.
 
-The key intuition for why universality holds is that near T_c the diverging correlation length ξ → ∞ means microscopic details are irrelevant. When correlated patches span millions of atoms, the behavior is governed by long-wavelength, low-frequency fluctuations, not by the specific interactions at the atomic scale. The renormalization group formalizes this by showing that under successive coarse-graining (averaging over shorter-length-scale degrees of freedom), all systems with the same symmetry flow toward the same **fixed point** in the space of Hamiltonians. The critical exponents are determined by the linearized flow near this fixed point — they are properties of the fixed point, not of the microscopic starting Hamiltonian. This is why two systems as different as water and iron can have the same β: they flow to the same fixed point under coarse-graining.
+The key intuition for why universality holds is that near T_c the diverging correlation length ξ → ∞ means microscopic details are irrelevant. When correlated patches span millions of atoms, the behavior is governed by long-wavelength, low-frequency fluctuations, not by the specific interactions at the atomic scale. The renormalization group formalizes this by showing that under successive coarse-graining (averaging over shorter-length-scale degrees of freedom), all systems with the same symmetry flow toward the same **fixed point** in the space of Hamiltonians. The critical exponents are determined by the linearized flow near this fixed point — they are properties of the fixed point, not of the microscopic starting Hamiltonian. This is why two systems as different as water and a uniaxial magnet can have the same β: they flow to the same fixed point under coarse-graining.

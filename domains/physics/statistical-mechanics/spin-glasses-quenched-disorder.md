@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 Spin glasses are disordered magnetic systems where competing interactions create frustration, leading to a complex energy landscape with many local minima. They exhibit ergodicity breaking, slow relaxation, memory effects, and remain disordered even at zero temperature with only short-range correlations.
 
+## How It's Best Learned
+List all 8 states of an antiferromagnetic triangle with E = s₁s₂ + s₂s₃ + s₃s₁. The two aligned states have E = 3, and the other six all have E = −1, so the ground state is sixfold degenerate. Then test square plaquettes: a plaquette is frustrated when the product of its bond signs is negative. Signs (+, +, +, −) are frustrated; (+, −, +, −) are not.
+
+## Common Misconceptions
+- Random coupling signs are enough to make a spin glass. (The disorder must also produce frustration. In the Mattis model J_ij = ξ_iξ_j the signs look random, but flipping the spins where ξ_i = −1 turns it into a plain ferromagnet.)
+- Cooling a spin glass slowly enough finds its true ground state. (Slow cooling usually leaves it in one of many low-lying states. Finding the exact ground state of a 3D spin glass is a computationally hard problem.)
+- For quenched disorder you average the partition function over the couplings. (Averaging Z describes annealed disorder. Quenched disorder needs the average of ln Z, the free energy, which is why methods such as the replica trick exist.)
+
 ## Questions
 
 ```yaml
@@ -56,7 +64,7 @@ Spin glasses are disordered magnetic systems where competing interactions create
 
 - question: "Explain why a spin glass cannot be described as simply a paramagnet or ferromagnet, using the concept of the Edwards-Anderson order parameter."
   type: short-answer
-  answer: "A paramagnet has ⟨σᵢ⟩ = 0 at every site, is fully ergodic, and thermalizes rapidly — the Edwards-Anderson parameter qEA = [⟨σᵢ⟩²]_disorder = 0. A ferromagnet has all spins aligned: both the net magnetization ⟨σᵢ⟩ (averaged over sites) and qEA are non-zero. A spin glass occupies a distinct third phase: each spin freezes into a definite direction (⟨σᵢ⟩ ≠ 0 per site), so qEA = [⟨σᵢ⟩²]_disorder > 0, signaling local freezing. But the frozen directions are random across sites, so the site-averaged magnetization is zero — no conventional long-range order. The system is non-ergodic: it cannot explore all low-energy configurations, so time averages differ from ensemble averages. qEA is non-zero in the spin glass phase and zero in both the paramagnetic and (trivially, in the opposite sense) ferromagnetic descriptions, making it the correct order parameter to distinguish the spin glass from both."
+  answer: "A paramagnet has ⟨σᵢ⟩ = 0 at every site, is fully ergodic, and thermalizes rapidly — the Edwards-Anderson parameter qEA = [⟨σᵢ⟩²]_disorder = 0. A ferromagnet has all spins aligned: both the net magnetization ⟨σᵢ⟩ (averaged over sites) and qEA are non-zero. A spin glass occupies a distinct third phase: each spin freezes into a definite direction (⟨σᵢ⟩ ≠ 0 per site), so qEA = [⟨σᵢ⟩²]_disorder > 0, signaling local freezing. But the frozen directions are random across sites, so the site-averaged magnetization is zero — no conventional long-range order. The system is non-ergodic: it cannot explore all low-energy configurations, so time averages differ from ensemble averages. qEA is non-zero in the spin glass phase and zero in the paramagnet, while the magnetization is zero in the spin glass and non-zero in the ferromagnet. Together, qEA > 0 with zero magnetization distinguishes the spin glass from both."
   explanation: "The Edwards-Anderson parameter is the key conceptual advance: it measures frozen local order without requiring global order. This decoupling — local freezing with global disorder — is what makes spin glasses a distinct thermodynamic phase and a paradigm for systems with complex rugged energy landscapes."
 ```
 

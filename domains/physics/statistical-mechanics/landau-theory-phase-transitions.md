@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Landau theory expands the free energy F as a power series in the order parameter m near criticality: F = f₀ + αm² + βm⁴ + .... The coefficients α(T) and β determine the phase diagram and critical exponents. Though it neglects fluctuations (failing near T_c), Landau theory is remarkably predictive and provides a unified framework for diverse transitions.
 
+## How It's Best Learned
+Plot F(m) with α = a(T − T_c) above, at and below T_c, and locate the minima. Put m₀² = −α/2β back into F to get F_min = f₀ − α²/4β, then take −T ∂²F/∂T² to find the specific heat jump a²T_c/2β. Add a field term −hm and show that the susceptibility above T_c is twice its value below T_c at the same |T − T_c|.
+
+## Common Misconceptions
+- Landau theory can describe only continuous transitions. (If symmetry allows an m³ term, or if the m⁴ coefficient is negative and an m⁶ term keeps F bounded, the same expansion gives a first-order transition.)
+- The coefficients α and β come out of the microscopic Hamiltonian. (Landau treats them as phenomenological parameters whose form is set by symmetry and smoothness. Their values come from experiment or from a separate microscopic calculation.)
+- Since fluctuations spoil it near T_c, Landau theory fails for every real system. (Its exponents are exact above four dimensions. For conventional superconductors the fluctuation region is so narrow that Landau behavior holds until very close to T_c.)
+
 ## Questions
 
 ```yaml
@@ -71,4 +79,4 @@ The free energy takes the form F(m) = f₀ + α(T)m² + βm⁴ + ... where odd p
 
 This is the power of the approach: a single framework with two parameters (α and β in F) predicts not just that a transition happens, but the precise temperature dependence of all thermodynamic quantities near T_c. The specific heat shows a discontinuous jump at T_c, the susceptibility diverges as χ ∝ |T − T_c|^{−1}, and the equation of state takes a universal form at criticality. Different physical systems — magnets, superfluids, binary alloys — share these same exponents within Landau theory, a first glimpse of **universality**: the idea that systems with the same symmetry breaking pattern have the same critical behavior regardless of microscopic details.
 
-Landau theory fails very close to T_c because it ignores fluctuations — spatial variations in m that become large and correlated near the critical point. This is quantified by the **Ginzburg criterion**: fluctuations are negligible when the correlation length is small compared to atomic scales, which holds away from T_c. Right at T_c, fluctuations dominate and the mean-field Landau exponents (β = 1/2, γ = 1) are replaced by non-classical values. Correcting this failure is what drives the renormalization group (your next topic), which can be understood as a systematic method for integrating out fluctuations on successively longer length scales and tracking how the effective Landau parameters evolve as you zoom out.
+Landau theory fails very close to T_c because it ignores fluctuations — spatial variations in m that become large and correlated near the critical point. This is quantified by the **Ginzburg criterion**: fluctuations are negligible when the mean-square fluctuation of m within a correlation volume is small compared to m² itself, which holds away from T_c. Right at T_c, fluctuations dominate and the mean-field Landau exponents (β = 1/2, γ = 1) are replaced by non-classical values. Correcting this failure is what drives the renormalization group (your next topic), which can be understood as a systematic method for integrating out fluctuations on successively longer length scales and tracking how the effective Landau parameters evolve as you zoom out.

@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 The Fermi surface is the surface in k-space separating filled from empty states at T=0, defined by |k| = k_F = (3π^2 n)^{1/3}. The Fermi energy E_F = ℏ^2 k_F^2/(2m) depends on number density. Most low-temperature properties of metals (specific heat, magnetic susceptibility, transport) are dominated by states near the Fermi surface.
 
+## How It's Best Learned
+Put copper's numbers through the formulas in order. With n ≈ 8.5 × 10²⁸ m⁻³, k_F = (3π²n)^(1/3) ≈ 1.36 × 10¹⁰ m⁻¹. Then E_F = ℏ²k_F²/(2m) ≈ 1.13 × 10⁻¹⁸ J ≈ 7.0 eV, and v_F = ℏk_F/m ≈ 1.6 × 10⁶ m/s. Compare v_F with the classical thermal speed √(3k_BT/m) ≈ 1.2 × 10⁵ m/s at room temperature.
+
+## Common Misconceptions
+- The Fermi surface is a surface in the metal's real space. (It lives in k-space. It separates occupied from empty momentum states.)
+- Electrons in a cold metal move slowly. (Electrons at the Fermi surface of copper move at about 1.6 × 10⁶ m/s even near absolute zero. That is over ten times the classical thermal speed at room temperature.)
+- Doubling the electron density doubles the Fermi energy. (E_F ∝ n^(2/3), so doubling n raises E_F by a factor of about 1.59.)
+
 ## Questions
 
 ```yaml

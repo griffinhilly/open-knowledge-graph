@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 Goldstone's theorem states that when a continuous global symmetry is spontaneously broken, one massless scalar boson (Goldstone boson) appears for each broken symmetry generator. These bosons correspond to excitations along the flat directions of the potential. The theorem is exact in relativistic field theory but is evaded when the broken symmetry is gauged (Higgs mechanism).
 
+## How It's Best Learned
+Work the O(N) linear sigma model with V = −(μ²/2)φ·φ + (λ/4)(φ·φ)². Pick the vacuum φ = (0, …, 0, v) with v² = μ²/λ and expand V to second order. The radial direction gets mass² = 2μ², and the N − 1 other directions get zero. Then check the count against the generators: O(N) has N(N − 1)/2 and O(N − 1) has (N − 1)(N − 2)/2, a difference of N − 1.
+
+## Common Misconceptions
+- Every generator of the symmetry group produces a Goldstone boson. (Only the broken generators do; the unbroken subgroup produces none.)
+- Goldstone bosons must be elementary scalar fields. (The theorem concerns any massless spin-0 state; the pions are composite quark-antiquark states.)
+- The Higgs boson is the Goldstone boson of electroweak symmetry breaking. (The Higgs boson is the massive radial mode; the three would-be Goldstone modes become the longitudinal W and Z polarizations.)
+- Pion masses grow in proportion to the quark masses. (It is the square of the pion mass that is proportional to the light quark masses, so m_π grows like √m_q.)
+
 ## Questions
 
 ```yaml

@@ -19,6 +19,14 @@ status: draft
 ## Core Idea
 Travel writing's central preoccupation is the meeting between self and other, tourist and place. Writers must negotiate between wonder and critique, avoiding both romantic idealization of exotic locales and condescending exoticization, while recognizing how travel writing itself has historically served colonial and imperialist narratives of cultural possession.
 
+## How It's Best Learned
+Find a passage from an older travel book or brochure describing local people, and underline every adjective applied to them. Ask what each word assumes about the observer. Then rewrite one scene from your own travels twice: once as wonder alone, and once adding your own position as a visitor and one fact about local history. Comparing the versions shows how wonder and critique can share a page.
+
+## Common Misconceptions
+- Good travel writing is about how the trip changed me. (The encounter between writer and place is the subject, so the place and its people need their own reality on the page.)
+- To avoid exoticizing, I should leave out what amazed me. (Writers can express wonder while also noting their position and the place's complexity.)
+- Spending a week somewhere lets me explain what the local culture is really like. (A short visit gives a limited view, and honest travel writing acknowledges what the writer cannot know.)
+
 ## Questions
 
 ```yaml
@@ -54,6 +62,7 @@ Travel writing's central preoccupation is the meeting between self and other, to
 
 - question: Describe a place you visited (real or imagined) in travel writing, being careful to navigate between idealization and critique. What did you encounter? What challenged your assumptions? What did you wonder at? What problems or complications did you notice? How did the place change your perspective?
   type: short-answer
+  answer: "A balanced account describes what moved the writer while naming their position as a visitor, the assumptions the place challenged, and the complications they noticed, such as tourism's effects or a history of inequality. It holds wonder and critique together."
   explanation: 'A responsible travel narrative might acknowledge: ''The market was visually stunning—colors, sounds, activity—and also I was obviously a wealthy foreigner and my presence was generating attention and profit.'' Or: ''I loved the generosity of the people I met, and I also recognize that my brief visit occurred against a history of exploitation and ongoing inequality.'' Or: ''The landscape was beautiful and I wanted to appreciate it without the kind of aesthetic tourism that ignores the environmental damage occurring there.'' This kind of writing holds multiple truths in tension—it''s more honest and more interesting than either pure idealization or pure critique.'
 ```
 

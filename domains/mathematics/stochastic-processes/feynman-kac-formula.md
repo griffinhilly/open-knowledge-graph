@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 The Feynman-Kac formula connects solutions of parabolic PDEs to expectations of stochastic processes. If u(x,t) solves ∂u/∂t + μ(x)∂u/∂x + (1/2)σ²(x)∂²u/∂x² - r(x)u = 0 with terminal condition u(x,T) = g(x), then u(x,t) = E[exp(-∫ₜᵀ r(X(s))ds) · g(X(T)) | X(t) = x], where dX = μ dt + σ dW. This provides a probabilistic representation of PDE solutions and a PDE representation of stochastic expectations — a deep bridge between analysis and probability.
 
+## How It's Best Learned
+Verify a case you can solve on paper. With μ = 0, σ = 1, r = 0 and g(x) = x², the formula gives u(x,t) = E[(x + W_{T-t})²] = x² + (T - t), and ∂u/∂t + (1/2)∂²u/∂x² = -1 + 1 = 0. Add a constant rate r and check that e^{-r(T-t)}(x² + T - t) solves the discounted PDE. Then estimate u(0, 0) by Monte Carlo and compare.
+
+## Common Misconceptions
+- The PDE is solved forward in time from an initial condition. (In this form it is a terminal-value problem: the data g sits at time T, and u at earlier times is an expectation looking forward from (x, t).)
+- The process in the expectation uses the real-world drift of the underlying. (Its drift is whatever first-order coefficient the PDE has; for Black-Scholes that is rS, the risk-neutral drift.)
+- The term -r(x)u changes the dynamics of X. (It leaves the paths alone and enters as the weight exp(-∫r(X(s))ds), which acts as discounting or killing along each path.)
+
 ## Questions
 
 ```yaml

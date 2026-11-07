@@ -19,7 +19,15 @@ status: validated
 # The Five Lemma
 
 ## Core Idea
-The five lemma states: given a commutative diagram with two exact rows of five terms each, if four of the five vertical maps are isomorphisms, then the fifth is also an isomorphism. More precisely, if the first and third vertical maps are surjective and the second and fourth are injective, then the middle map is injective; the dual statement gives surjectivity. The five lemma is the standard tool for proving that a map between homology groups is an isomorphism, by embedding it in a map of long exact sequences where the surrounding terms are known.
+The five lemma states: given a commutative diagram with two exact rows of five terms each, if the four outer vertical maps are isomorphisms, then the middle one is also an isomorphism. More precisely, if the first vertical map is surjective and the second and fourth are injective, then the middle map is injective; dually, if the second and fourth are surjective and the fifth is injective, then the middle map is surjective. The five lemma is the standard tool for proving that a map between homology groups is an isomorphism, by embedding it in a map of long exact sequences where the surrounding terms are known.
+
+## How It's Best Learned
+Prove the short five lemma yourself with the diagram drawn large, naming each element as you chase it. Then prove the full five lemma, with vertical maps α, β, γ, δ, ε, and write down which hypothesis each step of the injectivity chase for γ used: β and δ injective, α surjective. Do the same for surjectivity. Finally, apply it to the map of long exact sequences of pairs for a map (X, A) -> (Y, B) that is a homology isomorphism on X and on A.
+
+## Common Misconceptions
+- If A ≅ A' and C ≅ C', then any B and B' in short exact sequences with them are isomorphic. (The lemma needs a map β making the diagram commute. Z/4 and Z/2 ⊕ Z/2 both sit between Z/2 and Z/2.)
+- All four outer maps must be isomorphisms. (Less is enough: β and δ isomorphisms, α surjective and ε injective.)
+- Four isomorphisms in any positions force the fifth map to be an isomorphism. (The conclusion is about the middle map. With top row Z -> 0 -> 0 -> 0 -> 0 and bottom row all zeros, the last four maps are isomorphisms but Z -> 0 is not.)
 
 ## Questions
 
@@ -32,17 +40,17 @@ The five lemma states: given a commutative diagram with two exact rows of five t
     - "All vertical maps are surjective"
     - "The rows are split exact"
   answer: 1
-  explanation: "The five lemma has two halves. Injectivity of γ requires: β injective and α surjective (these are used in the diagram chase to show γ(x) = 0 implies x = 0). Surjectivity of γ requires: δ surjective and ε injective. If all four outer maps are isomorphisms, both conditions hold and γ is an isomorphism. The weaker conditions (B) are sufficient and are sometimes needed in practice when the outer maps are not full isomorphisms."
+  explanation: "The five lemma has two halves. Injectivity of γ requires: β and δ injective and α surjective (these are used in the diagram chase to show γ(x) = 0 implies x = 0). Surjectivity of γ requires: β and δ surjective and ε injective. If all four outer maps are isomorphisms, both conditions hold and γ is an isomorphism. The weaker conditions (B) are sufficient and are sometimes needed in practice when the outer maps are not full isomorphisms."
 
-- question: "The five lemma is often used as follows: two long exact sequences are connected by a map, and isomorphisms at four terms force an isomorphism at the fifth. Give an example from algebraic topology."
+- question: "The five lemma is often used as follows: two long exact sequences are connected by a map, and isomorphisms at the four surrounding terms force an isomorphism at the middle term. Give an example from algebraic topology."
   type: short-answer
   answer: "Example: proving that a homotopy equivalence f: X → Y induces isomorphisms on relative homology H_n(X, A) → H_n(Y, B) when f maps A to B. The induced map of long exact sequences of pairs gives a commutative diagram where f_*: H_n(A) → H_n(B) and f_*: H_n(X) → H_n(Y) are isomorphisms (by homotopy invariance). The five lemma then forces f_*: H_n(X, A) → H_n(Y, B) to be an isomorphism at each term."
   explanation: "Another standard application: proving that simplicial homology equals singular homology. One constructs a map from the simplicial chain complex to the singular chain complex, shows it is a chain map, and uses the five lemma on the resulting maps of long exact sequences (after establishing the result for simplices and cones). The five lemma reduces the problem from all spaces to elementary building blocks."
 
 - question: "The five lemma works only for abelian groups (or more generally, abelian categories)."
   type: true-false
-  answer: true
-  explanation: "The proof of the five lemma uses diagram chasing, which relies on the ability to add, subtract, and manipulate elements through homomorphisms — operations that require the abelian group structure. In non-abelian settings (e.g., groups that are not abelian), the five lemma can fail. There is a version for groups (using normal subgroups and quotients), but it requires additional hypotheses. For algebraic topology, where homology and cohomology are abelian groups, the standard abelian five lemma is sufficient."
+  answer: false
+  explanation: "The five lemma also holds for groups that are not abelian. The same diagram chase works in multiplicative notation, because it uses only kernels, images, exactness and the group operation. It also holds in any abelian category. It can fail for pointed sets, which matters at the low end of the long exact sequence of homotopy groups, where π_0 terms are only pointed sets. For homology and cohomology, which are abelian groups, the standard version is all that is needed."
 
 - question: "State and prove the 'short five lemma': if 0 → A → B → C → 0 and 0 → A' → B' → C' → 0 are exact with α: A → A' and γ: C → C' isomorphisms, then β: B → B' is an isomorphism."
   type: short-answer

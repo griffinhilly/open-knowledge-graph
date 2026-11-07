@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 The Kolmogorov-Arnold-Moser (KAM) theorem addresses a fundamental question: what happens to the regular (integrable) motion of a Hamiltonian system when it is slightly perturbed? For integrable systems, orbits lie on invariant tori in phase space. KAM proves that most tori survive small perturbations — those with sufficiently irrational frequency ratios persist, merely deforming slightly. Tori with rational or near-rational frequency ratios are destroyed, creating gaps where chaos can develop. The result is a mixed phase space: islands of regular motion coexisting with chaotic seas.
 
+## How It's Best Learned
+Use the standard map p′ = p + K sin θ, θ′ = θ + p′ as a perturbed twist map. At K = 0 each line p = const is an invariant circle with rotation number p/2π. Set K = 0.3. Then iterate one orbit started at p = π (rotation number 1/2) and one at p = 2π × 0.618 (near the golden mean). The first breaks into an island chain, while the second stays a slightly wavy closed curve.
+
+## Common Misconceptions
+- KAM shows that a small enough perturbation keeps all the motion regular. (Resonant tori break under arbitrarily small perturbations; KAM says most tori survive, with thin chaotic layers and island chains in the gaps.)
+- Every torus with an irrational frequency ratio survives. (A torus survives only if its ratio is far enough from rationals for the given perturbation size; tori close to low-order resonances can be destroyed even if their ratio is irrational.)
+- The surviving tori are the original tori, unchanged. (They persist in deformed form, close to the unperturbed tori for a small perturbation.)
+- KAM tori confine chaotic orbits in any number of degrees of freedom. (The barrier argument works for two degrees of freedom; with three or more, tori do not divide the energy surface and Arnold diffusion becomes possible.)
+
 ## Questions
 
 ```yaml

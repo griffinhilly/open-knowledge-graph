@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 ∂f/∂x represents how fast f increases per unit change in x when y is held fixed. Geometrically, it is the slope of the curve obtained by intersecting the surface z = f(x,y) with a plane of constant y. Understanding partial derivatives as directional rates prepares for the gradient vector.
 
+## How It's Best Learned
+Attach units and test a prediction. Let T(x, y) = 100 − x² − 2y² be a temperature in °C at position (x, y) in meters. At (3, 1), T_x = −6 °C per meter, so a 0.1 m step east should change T by about −0.6. The actual change is 88.39 − 89 = −0.61. Then sketch the slice y = 1 and mark the tangent slope at x = 3.
+
+## Common Misconceptions
+- ∂f/∂x is the exact change in f when x increases by 1. (It is an instantaneous rate; the change over a step Δx is approximately (∂f/∂x)·Δx, and the approximation is better for small steps.)
+- A partial derivative has the same units as f. (It has units of f per unit of x, such as °C per meter.)
+- A negative ∂f/∂x means the value of f is small or negative there. (The sign tells which way f is changing in the x-direction; in the example T = 89 while T_x = −6.)
+- ∂f/∂x = 0 means f is not changing at that point. (f can still change in other directions, such as the y-direction.)
+
 ## Questions
 
 ```yaml

@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Deep learning theory seeks to explain three mysteries of modern neural networks: why depth helps (depth-separation results show deep networks can represent functions exponentially more efficiently than shallow ones), why optimization succeeds (over-parameterized networks have benign loss landscapes where SGD finds global minima), and why generalization occurs despite over-parameterization (implicit regularization, where SGD's dynamics bias toward simple solutions). The neural tangent kernel (NTK) theory connects infinitely wide networks to kernel methods, providing one tractable theoretical framework, though it does not fully capture the feature-learning capabilities of finite-width networks.
 
+## How It's Best Learned
+Take the questions one at a time, using a small experiment where one helps. For depth, compose the tent map on [0, 1] k times: a ReLU network with k layers of two units computes it, it has 2^k linear pieces, and a one-hidden-layer ReLU network needs at least 2^k − 1 units to match it. For generalization, train one small network on true labels and on shuffled labels, and compare training and test error.
+
+## Common Misconceptions
+- Depth-separation results show that deep networks beat shallow ones on real tasks. (They build specific functions, often highly oscillatory, that need far more units at low depth. They do not show that practical targets have this structure.)
+- NTK theory explains how networks learn features. (In the NTK limit the kernel stays fixed at its initial value, so the features do not change. This lazy regime leaves feature learning out.)
+- Since over-parameterized networks generalize, capacity does not matter. (The same networks can fit random labels, so the architecture alone cannot explain generalization. Any explanation has to involve the training algorithm and the data.)
+
 ## Questions
 
 ```yaml

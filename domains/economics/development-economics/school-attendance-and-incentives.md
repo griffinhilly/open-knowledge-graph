@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 Reducing school costs (eliminating user fees, providing transport, meals) increases enrollment. CCTs tied to attendance or health checkups further boost attendance. However, attendance ≠ learning; quality of instruction, teacher effort, and curriculum matter. Some interventions increase attendance without improving test scores, suggesting quality constraints are binding in many countries.
 
+## How It's Best Learned
+Set up one family's yearly choice. The child could earn 60 working, and fees and uniforms cost 20, so school costs the family 80. Removing fees and uniform costs drops the cost to 60, and a transfer of 60 tied to attendance drops it to zero. Then add a learning column: if teachers are absent a third of school days, ask what the extra attendance buys.
+
+## Common Misconceptions
+- Free schooling costs a poor family nothing. (The child's time has value in farm work, childcare, or fetching water, and that opportunity cost can exceed any fee.)
+- Higher attendance means more learning. (Attendance is necessary but not enough. Many children who attend for years still cannot read a simple paragraph.)
+- If children attend but do not learn, the children or parents are to blame. (Teacher absence, curricula pitched above students' level, and very large classes can block learning for children who show up.)
+- Cash transfers are the only way to raise attendance. (Removing fees, providing meals, and deworming also raise attendance, sometimes at lower cost.)
+
 ## Questions
 
 ```yaml

@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Green's theorem: ∮_C (P dx + Q dy) = ∬_D (Q_x - P_y) dA. This relates line integrals around a closed curve to a double integral of curl over the region, converting circulation to an area integral.
 
+## How It's Best Learned
+Check the theorem by hand on the unit square [0, 1]² with F = (−y, x). Going counterclockwise, the four edges contribute 0, 1, 1, 0, so the circulation is 2. The 2D curl is Q_x − P_y = 1 − (−1) = 2, and its integral over the unit area is 2. Then draw two adjacent squares and mark the shared edge's opposite arrows.
+
+## Common Misconceptions
+- Q_x − P_y can be written as P_x − Q_y or Q_y − P_x. (The order matters: differentiate Q by x and P by y, then subtract in that order.)
+- The curve C can be any curve, open or closed. (Green's theorem needs a closed curve bounding the region D.)
+- Zero 2D curl everywhere in a region means every closed loop there has zero circulation. (That needs a region with no holes; around a hole where F is undefined, the circulation can be nonzero.)
+- The theorem does not care which way you go around C. (The standard form uses counterclockwise travel; reversing direction changes the sign of the line integral.)
+
 ## Questions
 
 ```yaml
@@ -70,6 +79,6 @@ From line integrals over vector fields and double integrals, you have two seemin
 
 To see why, think of the region D partitioned into many tiny squares. Around each tiny square, the line integral of the field measures the local circulation. When you tile adjacent squares together, the shared interior edges cancel — the contribution along an edge from one square runs in the opposite direction from the neighboring square. What survives is only the outer boundary: the entire interior cancels, leaving the circulation around the full perimeter C. So summing local circulation over all tiny cells gives exactly the boundary circulation. The double integral captures this summation, and the quantity being summed is the **2D curl** Q_x − P_y — the local rotation rate of the vector field at each point.
 
-The quantity Q_x − P_y has a concrete meaning. If F = (P, Q) is a vector field representing fluid velocity, then Q_x − P_y measures how much the field rotates (curls) at a given point: Q_x measures how Q increases in the x-direction, and P_y measures how P increases in the y-direction. Their difference captures net rotation. A field with Q_x − P_y = 0 everywhere has no local rotation; it is called **irrotational** or **conservative**, and the line integral around any closed loop in the region is zero. Green's theorem makes this precise: ∮_C F·dr = ∬_D (curl F) dA, and if curl F = 0 everywhere, the right side is 0.
+The quantity Q_x − P_y has a concrete meaning. If F = (P, Q) is a vector field representing fluid velocity, then Q_x − P_y measures how much the field rotates (curls) at a given point: Q_x measures how Q increases in the x-direction, and P_y measures how P increases in the y-direction. Their difference captures net rotation. A field with Q_x − P_y = 0 everywhere has no local rotation; it is called **irrotational**. If the region also has no holes, the field is **conservative**, and the line integral around any closed loop in the region is zero. Green's theorem makes this precise: ∮_C F·dr = ∬_D (curl F) dA, and if curl F = 0 everywhere, the right side is 0.
 
 Green's theorem is a 2D special case of a family of theorems — all sharing the same deep structure: an integral over a region equals an integral over its boundary. The 3D versions are Stokes' theorem (relating surface integrals of curl to boundary line integrals) and the Divergence theorem (relating volume integrals of divergence to surface integrals). Learning to recognize this structure — "integrate something over the interior ↔ integrate something related on the boundary" — is the key to all the major theorems of vector calculus.

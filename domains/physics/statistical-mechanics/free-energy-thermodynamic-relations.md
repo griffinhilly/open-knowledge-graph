@@ -28,6 +28,15 @@ status: validated
 ## Core Idea
 Helmholtz (F) and Gibbs (G) free energies are natural thermodynamic potentials for the canonical and constant-pressure ensembles. They connect statistical mechanics to measurable thermodynamic quantities through Maxwell relations and are minimized at equilibrium, making them central to understanding phase transitions and stability.
 
+## How It's Best Learned
+Take a two-level system with energies 0 and ε, write Z = 1 + e^(−ε/k_BT), and get F = −k_BT ln Z. Differentiate to find S, ⟨E⟩ and C_V, and check that S goes to 0 at low T and to k_B ln 2 at high T. Then write F for an ideal gas and confirm (∂S/∂V)_T = (∂P/∂T)_V = Nk_B/V by differentiating both sides directly.
+
+## Common Misconceptions
+- A system settles into its lowest-energy state. (At fixed T and V it minimizes F = E − TS, so a higher-energy state with more entropy can win at high temperature.)
+- F and G are two names for the same thing. (G = F + PV. F is minimized at fixed T and V, G at fixed T and P, so the right potential depends on what is held fixed.)
+- Maxwell relations are separate empirical laws that need their own experimental tests. (They follow from the equality of mixed second derivatives of a thermodynamic potential, so they hold wherever that potential is smooth.)
+- The "free" energy is the part of the internal energy that can come out as heat. (At constant temperature, −ΔF is the maximum work the system can do. The name refers to energy available as work.)
+
 ## Questions
 
 ```yaml

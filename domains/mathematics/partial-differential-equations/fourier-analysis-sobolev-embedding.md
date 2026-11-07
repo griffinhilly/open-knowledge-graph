@@ -17,6 +17,14 @@ status: validated
 ## Core Idea
 The Fourier transform provides a frequency-space characterization of Sobolev spaces: u ∈ H^s(ℝⁿ) if and only if (1+|ξ|²)^{s/2}û(ξ) ∈ L²(ℝⁿ). This characterization defines fractional Sobolev spaces H^s for any real s, extends the Sobolev embedding theorems to this general setting, and connects PDE regularity to the decay of Fourier coefficients. The theory of pseudodifferential operators and Fourier multipliers grows from this foundation, providing a systematic calculus for studying variable-coefficient and nonlinear PDEs through their behavior in frequency space.
 
+## How It's Best Learned
+Test the threshold s > n/2 on functions whose transforms you can compute. In one dimension the indicator of [−1, 1] has û proportional to sin ξ / ξ, so ∫(1 + ξ²)^s |û|² dξ is finite exactly when s < 1/2. A jump therefore sits just below the embedding threshold. Then check that log log(1 + 1/|x|), cut off away from the origin, lies in H¹(ℝ²) yet is unbounded.
+
+## Common Misconceptions
+- H^s embeds in continuous functions once s reaches n/2. (The inequality must be strict. In two dimensions, H¹ contains unbounded functions such as the cut-off log log example.)
+- Decay of û describes how fast u decays at infinity. (Roughly, decay of û reflects smoothness of u, while decay of u reflects smoothness of û.)
+- A multiplier that is bounded on L² is bounded on every L^p. (Boundedness on L² needs only m ∈ L^∞, but L^p bounds need more. In dimension two and higher, the indicator of a ball is bounded on L² but not on L^p for p ≠ 2.)
+
 ## Questions
 ```yaml
 - question: "The Sobolev space H^s(ℝⁿ) is characterized via the Fourier transform as:"

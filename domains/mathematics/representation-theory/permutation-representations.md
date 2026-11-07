@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 A permutation representation arises from a group action on a finite set X: each element g ∈ G permutes the elements of X, giving a homomorphism G → S_X. Linearizing this action over a field k produces a representation on k^X (the free vector space with basis X), where g acts by permuting basis vectors. The character of a permutation representation evaluated at g counts the number of fixed points of g on X. Permutation representations are the most concrete class of representations and provide a bridge between combinatorial group actions and linear algebra.
 
+## How It's Best Learned
+Take S₄ acting on the six 2-element subsets of {1, 2, 3, 4}. Count fixed points on each class: 6, 2, 2, 0, 0 for e, transpositions, double transpositions, 3-cycles and 4-cycles, with class sizes 1, 6, 3, 8, 6. Then ⟨χ, 1⟩ = 1 for one orbit, and ⟨χ, χ⟩ = 72/24 = 3. So the representation has three distinct irreducible summands, of dimensions 1, 3 and 2.
+
+## Common Misconceptions
+- A transitive action gives an irreducible representation. (When |X| ≥ 2, the line spanned by Σ eₓ is a proper invariant subspace. Transitivity means the trivial representation appears exactly once.)
+- The complement of the trivial line is always irreducible. (For S₄ on 2-element subsets, the five-dimensional complement splits into pieces of dimensions 3 and 2.)
+- Every representation becomes a permutation representation in a suitable basis. (A permutation character counts fixed points, so its values are nonnegative integers. The sign character of S₃ takes the value −1.)
+
 ## Questions
 
 ```yaml

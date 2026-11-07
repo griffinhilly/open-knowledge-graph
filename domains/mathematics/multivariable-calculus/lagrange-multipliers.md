@@ -28,6 +28,15 @@ status: validated
 ## Core Idea
 To optimize f(x, y) subject to g(x, y) = 0, solve ∇f = λ∇g along with the constraint. The Lagrange multiplier λ represents the sensitivity of the optimum to relaxing the constraint.
 
+## How It's Best Learned
+Draw the level lines x + y = k over the circle x² + y² = 2 and find where one just touches. The equations 1 = 2λx, 1 = 2λy force x = y, so the candidates are (1, 1) with f = 2 and (−1, −1) with f = −2. At the maximum λ = 1/2. Check this: on x² + y² = c the maximum is √(2c), whose rate of change at c = 2 is 1/2.
+
+## Common Misconceptions
+- Solving ∇f = λ∇g is enough without the constraint equation. (The gradient equations give a family of points; g = 0 picks out the ones on the constraint.)
+- Every solution of the Lagrange system is a maximum or a minimum. (The solutions are candidates; you must compare f values or use other reasoning to classify them.)
+- λ must be positive. (λ can be positive, negative, or zero; its sign depends on whether ∇f and ∇g point the same way or opposite ways.)
+- The method finds every constrained extremum. (It can miss points where ∇g = 0 on the constraint, so those points must be checked separately.)
+
 ## Questions
 
 ```yaml

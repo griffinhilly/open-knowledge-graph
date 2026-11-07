@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 The Standard Model is the quantum field theory of all known fundamental interactions except gravity. It is based on the gauge group SU(3)_C x SU(2)_L x U(1)_Y, with matter content consisting of three generations of quarks and leptons, and the Higgs doublet. Its 19 free parameters are determined by experiment. Every prediction has been confirmed, including the Higgs boson discovery in 2012.
 
+## How It's Best Learned
+Build a table for one generation that lists each left-handed doublet and right-handed singlet with its SU(3), SU(2) and hypercharge labels. Check Q = T₃ + Y for every entry; for example, d_L gives −1/2 + 1/6 = −1/3. Then count the 19 parameters by walking through the Lagrangian sector by sector: gauge kinetic terms, Yukawa terms, Higgs potential and the θ term.
+
+## Common Misconceptions
+- The Higgs field gives every particle its mass, including most of the mass of the proton. (The Higgs gives mass to the W, the Z and the charged fermions. Most of the proton's mass comes from the QCD energy of its quarks and gluons.)
+- The photon is the gauge boson of U(1)_Y. (The photon and the Z are mixtures of the W³ and B fields. The unbroken U(1)_EM is a combination of hypercharge and T₃, not U(1)_Y itself.)
+- The three generations feel the gauge forces differently, which is why they are distinct. (They carry identical gauge quantum numbers and differ in their Yukawa couplings, so in their masses and mixings.)
+- Because its predictions agree with experiment, the Standard Model is a final theory. (It is best read as an effective field theory. Neutrino masses, dark matter and gravity lie outside the minimal model.)
+
 ## Questions
 
 ```yaml

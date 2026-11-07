@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 Shannon entropy S = −k Σ p_i ln p_i quantifies the information content of a probability distribution {p_i}. It is maximized when the distribution is uniform. Statistical mechanical entropy is the Shannon entropy of the microstate distribution; the second law reflects the tendency toward maximum entropy (maximum ignorance consistent with constraints). This connection unifies thermodynamic and information-theoretic entropy.
 
+## How It's Best Learned
+Compute H in bits for a few small cases: a fair coin gives 1 bit, a 0.9/0.1 coin about 0.47 bits, a fair die log₂6 ≈ 2.58 bits. Then maximize H for a three-level system with a fixed mean energy using Lagrange multipliers and watch p_i ∝ e^(−βE_i) appear. Finish by converting units: one bit of missing information corresponds to k ln 2 of thermodynamic entropy.
+
+## Common Misconceptions
+- Maximum entropy always means a uniform distribution. (That holds when normalization is the only constraint. Fixing the mean energy gives the Boltzmann distribution, which favors lower energies.)
+- Shannon entropy and thermodynamic entropy are the same number with no conversion. (Shannon entropy is counted in bits or nats. Thermodynamic entropy multiplies the natural-log form by k, so it carries units of J/K.)
+- The Shannon entropy of the exact phase-space distribution grows as an isolated system evolves. (Liouville's theorem keeps that fine-grained entropy constant under Hamiltonian dynamics. The increase appears in a coarse-grained or reduced description.)
+
 ## Questions
 
 ```yaml

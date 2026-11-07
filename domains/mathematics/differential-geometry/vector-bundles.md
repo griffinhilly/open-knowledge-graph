@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 A vector bundle is a fiber bundle whose fibers are vector spaces and whose transition functions are linear maps (elements of GL(n)). The tangent bundle, cotangent bundle, and their tensor products are the fundamental vector bundles in differential geometry. Sections of vector bundles generalize vector fields and differential forms. Connections on vector bundles extend covariant differentiation beyond the tangent bundle, enabling the study of curvature for any geometric vector bundle.
 
+## How It's Best Learned
+Compute the transition function of TS² from the two stereographic charts. With a suitable orientation convention for the second chart, the change of coordinates is z ↦ 1/z, and its derivative, multiplication by −1/z², is the GL(2, ℝ)-valued transition function. Then derive the cotangent bundle's transition functions as the inverse transposes of these, and the pattern for other tensor bundles follows.
+
+## Common Misconceptions
+- Every fiber is ℝᵏ, so a vector bundle is the product M × ℝᵏ. (That holds locally, but the gluing can twist globally. TS² is not trivial, because a trivialization would give a nowhere-zero vector field on S².)
+- A bundle with a nowhere-zero section is trivial. (A nowhere-zero section splits off a trivial line bundle. Triviality of a rank-k bundle needs k sections that are linearly independent at every point. The Möbius line bundle plus a trivial line bundle over S¹ has a nowhere-zero section but is not trivial, since it is not orientable.)
+- Vectors in different fibers can be compared directly. (There is no canonical identification between fibers. Differentiating a section or transporting a vector needs a connection, which is extra structure, and a bundle admits many connections.)
+
 ## Questions
 
 ```yaml

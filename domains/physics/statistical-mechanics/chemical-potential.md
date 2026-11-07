@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 Chemical potential μ = (∂F/∂N)_{T,V} measures the energy cost to add one particle to the system at constant T and V. At equilibrium between phases or with a particle reservoir, chemical potentials are equal. It plays the role of 'potential' driving particle flow, analogous to how temperature drives heat flow.
 
+## How It's Best Learned
+Compute μ for a classical ideal gas directly. Start from F = −kT ln(Z₁^N/N!) with Z₁ = V/λ³, apply Stirling's formula, and differentiate in N to get μ = kT ln(nλ³). For nitrogen at room conditions nλ³ is of order 10⁻⁷, so the translational μ is about −16 kT. Then ask why adding a particle with positive kinetic energy lowers F.
+
+## Common Misconceptions
+- μ is the energy the added particle carries. (It is the change in free energy, so it includes the entropy gained by adding the particle. That entropy term is why a classical ideal gas has negative μ.)
+- Particles always flow from high density to low density. (They flow down gradients of μ. In an isothermal atmosphere the denser air near the ground is in equilibrium because kT ln(nλ³) + mgh is the same at every height.)
+- Each thermodynamic potential defines a different chemical potential. (The derivatives (∂F/∂N)_{T,V}, (∂G/∂N)_{T,P} and (∂U/∂N)_{S,V} are the same quantity, written with different variables held fixed.)
+
 ## Questions
 
 ```yaml

@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Non-abelian (Yang-Mills) gauge theories generalize electromagnetism from the abelian group U(1) to non-abelian groups like SU(2) and SU(3). The crucial difference is that the gauge bosons themselves carry charge and interact with each other. This self-interaction is responsible for asymptotic freedom in QCD and for the rich structure of the Standard Model.
 
+## How It's Best Learned
+Compute the commutator [D_μ, D_ν] with D_μ = ∂_μ − igA^a_μT^a and [T^b, T^c] = if^{bca}T^a. The result is −igF^a_μνT^a, and the f^{abc} term in F appears on its own. Then take SU(2), where f^{abc} = ε^{abc}, and expand −(1/4)F^a_μνF^{aμν}. Sort the terms by powers of A: quadratic (propagation), cubic with one g, quartic with g².
+
+## Common Misconceptions
+- There are nine gluons, one for each color-anticolor pair. (SU(3) has eight generators, so there are eight gluons; the color-singlet combination is not part of the theory.)
+- The non-abelian field strength F^a_μν is gauge invariant, like F_μν in QED. (It rotates under gauge transformations in the adjoint representation; only combinations such as F^a_μνF^{aμν} are invariant.)
+- Faddeev-Popov ghosts are particles that could show up in a detector. (They appear only as internal lines in loops, where they cancel unphysical gauge-boson polarizations, and never as external states.)
+
 ## Questions
 
 ```yaml

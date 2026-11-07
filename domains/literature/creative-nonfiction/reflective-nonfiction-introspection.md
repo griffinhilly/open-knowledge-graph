@@ -20,6 +20,14 @@ status: draft
 ## Core Idea
 Reflective nonfiction focuses on internal psychological experience—thoughts, feelings, contradictions, and self-deceptions. Drawing on psychological realism while maintaining truthfulness, this form explores how people actually think, with all the circularity and contradiction of actual consciousness.
 
+## How It's Best Learned
+Choose a small moment when you changed your mind or acted against your own stated values. Write one paragraph giving the tidy explanation you would tell a friend. Then write a second paragraph that tracks every competing thought, excuse, and doubt you remember having. Reading the two together shows what introspection adds and which parts of your past thinking you can no longer recover.
+
+## Common Misconceptions
+- Reflective writing should end with a clear lesson the writer learned. (The form often stays with unresolved contradiction, because forcing resolution can misrepresent how thinking happened.)
+- Admitting self-deception makes the writer untrustworthy. (Showing how one fooled oneself is part of the form's commitment to truthfulness.)
+- Introspection gives the writer full access to their own motives. (Self-knowledge has limits, and honest reflective essays mark where the writer is unsure of their own reasons.)
+
 ## Questions
 
 ```yaml
@@ -55,6 +63,7 @@ Reflective nonfiction focuses on internal psychological experience—thoughts, f
 
 - question: How would you capture the actual texture of your own thinking about a complex experience—a time you contradicted yourself, rationalized behavior, or gradually changed your mind? What makes this difficult to write truthfully?
   type: short-answer
+  answer: "Show the conflicting thoughts held at once, the rationalizations only partly believed, and the repetitive loops, rather than a clean line toward clarity. It is difficult because admitting these is embarrassing, and because past thinking is hard to recover accurately."
   explanation: You might need to show multiple conflicting thoughts you had simultaneously ('I was angry at them, but also guilty, but also trying to convince myself it was their fault'). You'd need to show rationalizations you were partly aware of—the way you convinced yourself of something you partially doubted. You'd need to capture repetitive thought patterns, not clean linear progression. The difficulty is that showing your own thinking clearly can be embarrassing; it means admitting contradictions and deceptions that reflective avoidance usually protects. Another difficulty is that past consciousness is hard to recover accurately—you might remember what you concluded but not the messy thinking that led there. Truthfulness requires acknowledging these limits too.
 ```
 

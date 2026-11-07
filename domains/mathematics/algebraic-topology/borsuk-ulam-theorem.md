@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 The Borsuk-Ulam theorem states that for every continuous map f : S^n -> R^n, there exists a point x in S^n such that f(x) = f(-x): some pair of antipodal points must map to the same value. Equivalently, there is no continuous map S^n -> S^{n-1} that commutes with the antipodal map. This theorem has striking consequences: it implies the ham sandwich theorem (any n measurable sets in R^n can be simultaneously bisected by a single hyperplane) and that at any moment, there exist two antipodal points on Earth with identical temperature and pressure.
 
+## How It's Best Learned
+Prove the case n = 1 by hand first: set g(x) = f(x) - f(-x), check that g(-x) = -g(x), and apply the intermediate value theorem along a half-circle from x to -x. Then restate the theorem as "no odd map S^n -> S^{n-1}" and see why the half-circle argument stops working for n = 2. Finish by tracing the ham sandwich proof for two regions in the plane, where the cut is a line.
+
+## Common Misconceptions
+- The theorem lets me pick which antipodal pair has equal values, for example the two poles. (It says only that some pair exists. Which pair depends on f, and for a given pair the values can differ.)
+- The same result holds for maps S^n -> R^m with m larger than n. (It fails for m = n + 1: the inclusion of S^n into R^{n+1} is injective, so no antipodal pair collides. The dimension condition m ≤ n is needed.)
+- The map has to be smooth or differentiable for the theorem to apply. (Continuity is enough. The proof uses only homology or degree arguments, which work for any continuous map.)
+
 ## Questions
 
 ```yaml

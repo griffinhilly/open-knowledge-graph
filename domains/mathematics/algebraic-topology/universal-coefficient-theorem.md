@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 The universal coefficient theorem relates cohomology with coefficients in G to homology with integer coefficients, via a short exact sequence: 0 -> Ext^1(H_{n-1}(X; Z), G) -> H^n(X; G) -> Hom(H_n(X; Z), G) -> 0. This sequence always splits (non-naturally), so H^n(X; G) = Hom(H_n(X), G) + Ext(H_{n-1}(X), G) as abelian groups. The theorem says cohomology is "almost" dual to homology — the Hom term gives the expected duality, while the Ext term is a correction for torsion that shifts information from dimension n-1 to dimension n.
 
+## How It's Best Learned
+Make a table for RP^2 with rows n = 0, 1, 2 and columns for the Hom and Ext terms, using H_0 = Z, H_1 = Z/2, H_2 = 0. Fill it once with G = Z, getting Z, 0, Z/2, and once with G = Z/2, getting Z/2 in every degree. Then dualize the cellular chain complex Z →2 Z →0 Z and confirm the integer answers directly.
+
+## Common Misconceptions
+- Cohomology is the dual of homology, so torsion in homology disappears in cohomology. (Torsion in H_{n-1} returns in H^n through the Ext term. For RP^2, H^2(RP^2; Z) = Z/2 even though H_2(RP^2) = 0.)
+- Ext^1(Z/n, G) is Z/n whatever G is. (Ext^1(Z/n, G) = G/nG. This is Z/n when G = Z, but Ext^1(Z/n, Q) = 0 because Q/nQ = 0.)
+- Because the sequence splits, a map f: X → Y carries the Hom summand to the Hom summand. (The short exact sequence is natural, but no choice of splittings works for every map, so f* need not respect the two summands.)
+
 ## Questions
 
 ```yaml

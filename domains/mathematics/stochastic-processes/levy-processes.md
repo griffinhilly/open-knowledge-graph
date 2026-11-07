@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 A Lévy process is a stochastic process with stationary and independent increments and càdlàg (right-continuous with left limits) sample paths. The Lévy-Khintchine formula characterizes its distribution through three components: a deterministic drift b, a Gaussian (Brownian) part with variance σ², and a jump part described by a Lévy measure ν. Every Lévy process decomposes as X(t) = bt + σW(t) + J(t), where J captures all jumps. This unifies Brownian motion (ν = 0), Poisson processes (σ = 0, ν atomic), and their combinations.
 
+## How It's Best Learned
+Start from a compound Poisson process and compute its exponent λ(E[e^{iuY}] - 1) directly. Then take ν(dx) = |x|^{-1-α} dx restricted to |x| > ε with 0 < α < 2. The total mass grows like ε^{-α} as ε → 0, while ∫min(1, x²)ν(dx) stays finite. Simulating paths for shrinking ε shows jumps piling up into infinite activity.
+
+## Common Misconceptions
+- The Lévy measure is a probability distribution of jump sizes. (It is a rate measure: ν(A) is the expected number of jumps per unit time with size in A, and its total mass can be infinite.)
+- A process with jumps has only finitely many jumps in a bounded time interval. (When ν(ℝ\{0}) = ∞, there are infinitely many small jumps in every interval of positive length.)
+- Small jumps can be summed directly without centering. (When ∫_{|x|<1}|x|ν(dx) = ∞ the raw sum of small jumps diverges; subtracting the compensator makes it converge.)
+- Every Lévy process has a finite mean. (E|X(1)| is finite exactly when ∫_{|x|≥1}|x|ν(dx) < ∞; the Cauchy process fails this.)
+
 ## Questions
 
 ```yaml

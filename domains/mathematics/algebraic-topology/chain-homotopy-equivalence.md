@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 A chain homotopy between two chain maps f, g : C_* -> D_* is a sequence of homomorphisms P_n : C_n -> D_{n+1} satisfying f_n - g_n = d_{n+1} compose P_n + P_{n-1} compose d_n. Chain homotopic maps induce identical homomorphisms on homology: f_* = g_*. This algebraic notion mirrors topological homotopy — when two continuous maps are homotopic, the induced chain maps are chain homotopic. Chain homotopy equivalence is the correct notion of "sameness" for chain complexes, just as homotopy equivalence is for topological spaces.
 
+## How It's Best Learned
+Begin with the smallest example. Take the complex Z --id--> Z in degrees 1 and 0, and check that P_0 = id : C_0 -> C_1 is a chain homotopy from the identity to the zero map, so the complex is chain homotopy equivalent to 0. Then draw the prism Δ^1 × [0,1] as a square cut into two triangles. Label its boundary edges to see dP + Pd = f_# - g_# appear.
+
+## Common Misconceptions
+- Chain homotopic maps are equal as chain maps. (They can differ at the chain level. They agree only after passing to homology, because their difference on a cycle is a boundary.)
+- A chain homotopy is a chain map C_* -> D_*. (P raises degree by one, P_n : C_n -> D_{n+1}, and it need not commute with the boundary maps.)
+- If two spaces are not homotopy equivalent, their singular chain complexes cannot be chain homotopy equivalent. (Over Z, complexes of free abelian groups with isomorphic homology are chain homotopy equivalent. So S^2 ∨ S^4 and CP^2 have chain homotopy equivalent singular complexes, although the spaces are not homotopy equivalent.)
+
 ## Questions
 
 ```yaml
@@ -60,4 +68,4 @@ Two chain complexes C_* and D_* are **chain homotopy equivalent** if there exist
 
 The **prism operator** construction is worth understanding in detail. Given a homotopy H : X x [0,1] -> Y between f = H(-, 0) and g = H(-, 1), define P_n : C_n(X) -> C_{n+1}(Y) as follows. For a singular n-simplex sigma : Delta^n -> X, consider the prism Delta^n x [0,1]. Triangulate this prism into (n+1)-simplices (there is a standard triangulation using n+1 simplices, corresponding to the n+1 orderings of "when each vertex moves from the bottom to the top"). Compose with sigma x id : Delta^n x [0,1] -> X x [0,1] and then with H to get (n+1)-chains in Y. The alternating sum of these gives P_n(sigma). The boundary of the prism equals the top face minus the bottom face minus the lateral faces, which translates algebraically to dP + Pd = f_# - g_#.
 
-Chain homotopy equivalence is strictly weaker than isomorphism of chain complexes but strictly stronger than isomorphism of homology. Two non-isomorphic chain complexes can be chain homotopy equivalent (just as non-homeomorphic spaces can be homotopy equivalent), and two chain complexes with isomorphic homology need not be chain homotopy equivalent (just as spaces with the same homology need not be homotopy equivalent — e.g., the lens spaces L(7,1) and L(7,2) have isomorphic homology but are not homotopy equivalent). Chain homotopy equivalence occupies the "Goldilocks zone" for algebraic topology: it is fine enough to capture meaningful topological distinctions but coarse enough to identify spaces and complexes that are "the same" from the perspective of homological invariants.
+Chain homotopy equivalence is strictly weaker than isomorphism of chain complexes but strictly stronger than isomorphism of homology. Two non-isomorphic chain complexes can be chain homotopy equivalent (just as non-homeomorphic spaces can be homotopy equivalent), and two chain complexes with isomorphic homology need not be chain homotopy equivalent (just as spaces with the same homology need not be homotopy equivalent — e.g., the lens spaces L(5,1) and L(5,2) have isomorphic homology but are not homotopy equivalent). Chain homotopy equivalence occupies the "Goldilocks zone" for algebraic topology: it is fine enough to capture meaningful topological distinctions but coarse enough to identify spaces and complexes that are "the same" from the perspective of homological invariants.

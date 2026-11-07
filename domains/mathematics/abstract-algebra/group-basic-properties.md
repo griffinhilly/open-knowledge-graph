@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Every group has a unique identity element and every element has a unique inverse. The cancellation law holds: if ab = ac then b = c. These properties, derived from the group axioms, establish fundamental facts about group structure and behavior.
 
+## How It's Best Learned
+Write each proof as a two-column table: one column for the equation, one for the axiom that justifies the step. Do this for uniqueness of the identity, uniqueness of inverses, and left-cancellation. Then prove (ab)⁻¹ = b⁻¹a⁻¹ the same way, and check the result with two non-commuting permutations in S_3.
+
+## Common Misconceptions
+- The axioms already say there is exactly one identity, so there is nothing to prove. (The axioms only say an identity exists. Uniqueness is a theorem that follows from them.)
+- The inverse of a product is the product of the inverses in the same order, (ab)⁻¹ = a⁻¹b⁻¹. (The correct rule is (ab)⁻¹ = b⁻¹a⁻¹. The two agree when a and b commute.)
+- If ab = ca, cancellation gives b = c. (Cancellation needs a on the same side of both products. From ab = ca you only get b = a⁻¹ca, which can differ from c in a non-abelian group.)
+
 ## Questions
 
 ```yaml
@@ -47,7 +55,7 @@ Every group has a unique identity element and every element has a unique inverse
   answer: 0
   explanation: "From a² = a, apply left-cancellation (which holds in any group): a·a = a·e (since a = a·e by the identity axiom). By left-cancellation (cancel the leading a from both sides), we get a = e. Alternatively: multiply both sides on the left by a⁻¹ to get a⁻¹(aa) = a⁻¹a, giving (a⁻¹a)a = e (by associativity and inverse), so ea = e, so a = e. The element satisfying a² = a in a group is uniquely the identity. This result holds in any group, abelian or not — it follows from the axioms alone."
 
-- question: "The group axioms explicitly state that nearly every group contains exactly one identity element."
+- question: "The group axioms explicitly state that every group contains exactly one identity element."
   type: true-false
   answer: false
   explanation: "The group axioms assert only that AN identity EXISTS — that there is some element e such that ae = ea = a for all a. The axioms do not say it is unique. Uniqueness is a theorem that must be proved. The proof is: suppose e and e' are both identities. Then e = e·e' (applying e' as identity) = e' (applying e as identity). So e = e'. The distinction matters because it is a model for rigorous mathematics: you are allowed to use only what the axioms give you, not what feels obvious. A structure could conceivably satisfy 'an identity exists' without it being unique — the proof rules that out."

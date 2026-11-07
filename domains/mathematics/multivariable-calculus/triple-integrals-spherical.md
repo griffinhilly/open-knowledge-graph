@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 In spherical coordinates (ρ, φ, θ), the volume element is dV = ρ² sin φ dρ dφ dθ. Spherical is ideal for ball-shaped regions or functions depending on distance from the origin.
 
+## How It's Best Learned
+Integrate f = 1/(x² + y² + z²) over the unit ball. In Cartesian form the integrand blows up at the origin, but in spherical form (1/ρ²) · ρ² sin φ = sin φ, and the integral is 2π · 2 · 1 = 4π. Then integrate f = 1 with the φ-bound changed to π/2 and confirm that the upper half-ball has volume 2π/3.
+
+## Common Misconceptions
+- φ is measured up from the xy-plane, like latitude. (In this convention φ is measured down from the positive z-axis, so the xy-plane is φ = π/2 and the upper half-space is 0 ≤ φ ≤ π/2.)
+- The sin φ factor goes with whichever angle is called φ in any book. (Some texts, especially in physics, swap the letters φ and θ; the sine belongs to the angle measured from the z-axis.)
+- Spherical coordinates only help for a whole ball. (Spherical shells a ≤ ρ ≤ b, cones φ = constant, and wedges in θ also get constant bounds.)
+
 ## Questions
 
 ```yaml

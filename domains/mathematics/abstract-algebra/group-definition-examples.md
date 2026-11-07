@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 A group is a set G with a binary operation satisfying four axioms: closure, associativity, existence of an identity element, and existence of inverses for every element. Groups appear throughout mathematics and physics as the formalization of symmetry.
 
+## How It's Best Learned
+Take a list of set-and-operation pairs and test each one against the four axioms in order, stopping at the first failure. Good pairs to start with: (ℤ, +), (ℤ, ×), the odd integers under addition, (ℚ \ {0}, ×), and the six symmetries of an equilateral triangle. Writing the Cayley table for the triangle symmetries makes identity and inverses visible as entries.
+
+## Common Misconceptions
+- A set either is or is not a group. (A group is a set together with an operation. ℤ is a group under addition and not under multiplication.)
+- Closure is automatic once the operation is familiar. (Closure depends on the set. Adding two odd integers gives an even integer, so the odd integers are not closed under addition.)
+- Every group is commutative, like ordinary addition. (Commutativity is not a group axiom. The six symmetries of an equilateral triangle form a group where the order of two moves can change the result.)
+
 ## Questions
 
 ```yaml
@@ -36,7 +44,7 @@ A group is a set G with a binary operation satisfying four axioms: closure, asso
     - "Identity — there is no odd integer that acts as the additive identity"
     - "Inverses — the additive inverse of an odd integer is not odd"
   answer: 1
-  explanation: "The sum of any two odd integers is always even (e.g., 3 + 5 = 8), so the set of odd integers is not closed under addition. The result leaves the set, violating closure immediately. Note that options C and D are also technically true (0 is not odd; −3 is odd so inverses exist... wait, −3 is odd), but closure fails first and most directly. Closure is the axiom students most often overlook because it seems obvious — but it must be verified for the specific set, not just the operation."
+  explanation: "The sum of any two odd integers is always even (e.g., 3 + 5 = 8), so the set of odd integers is not closed under addition. The result leaves the set, violating closure immediately. Option C is also true (0 is not odd, so there is no identity), but option D is false: the additive inverse of an odd integer is odd. Closure fails first and most directly. Closure is the axiom students most often overlook because it seems obvious — but it must be verified for the specific set, not just the operation."
 
 - question: "Which of the following is a group under its given operation?"
   type: multiple-choice
@@ -70,6 +78,6 @@ The concept of a group captures what it means for an operation to be "fully reve
 
 Consider integer addition as your first example: you can add any two integers and stay in ℤ (closure); grouping doesn't change the result — (3 + 4) + 5 = 3 + (4 + 5) (associativity); 0 leaves everything unchanged (identity); and every n has −n (inverse). So (ℤ, +) is a group. Now contrast with integer multiplication: 2 has no multiplicative inverse inside ℤ (since 1/2 ∉ ℤ), so (ℤ, ×) is not a group. But (ℚ \ {0}, ×) is. Whether something forms a group depends on both the *set* and the *operation* together.
 
-The power of the group definition is its breadth. The six rotations of an equilateral triangle form a group. The set of all permutations of {1, 2, 3} forms a group under composition. The nonzero real numbers form a group under multiplication. These look completely different, yet they all satisfy the same four axioms. A theorem proved for abstract groups — say, that the identity is unique, or that inverses are unique — automatically applies to all of these at once. This is the abstraction payoff: you prove something once and it lands everywhere.
+The power of the group definition is its breadth. The six symmetries of an equilateral triangle (three rotations and three reflections) form a group. The set of all permutations of {1, 2, 3} forms a group under composition. The nonzero real numbers form a group under multiplication. These look completely different, yet they all satisfy the same four axioms. A theorem proved for abstract groups — say, that the identity is unique, or that inverses are unique — automatically applies to all of these at once. This is the abstraction payoff: you prove something once and it lands everywhere.
 
 When working with groups, always verify all four axioms explicitly until intuition develops. Closure is the one most often overlooked: even if the operation is familiar, the *set* might not be closed under it. The even integers under addition are closed; the odd integers are not (odd + odd = even). Groups build toward subgroups, homomorphisms, quotient groups, and ultimately to classifying all possible symmetric structures in mathematics — but the four axioms are the foundation everything rests on.

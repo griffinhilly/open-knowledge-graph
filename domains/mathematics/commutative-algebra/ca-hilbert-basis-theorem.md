@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 The Hilbert basis theorem states that if R is a Noetherian ring, then the polynomial ring R[x] is also Noetherian. By induction, R[x₁, ..., xₙ] is Noetherian for any finite number of variables. This theorem guarantees that every ideal in a polynomial ring over a Noetherian ring (such as a field or ℤ) is finitely generated — the foundational finiteness result that makes computational algebra and algebraic geometry possible.
 
+## How It's Best Learned
+Trace the leading-coefficient proof on a small ideal of ℤ[x]. Take I = (2x, 3). It contains x = 3x - 2x, so I = (x, 3). The degree-0 coefficient ideal is (3), and every higher degree gives all of ℤ, so the chain stops at once. Then watch the proof fail in k[x₁, x₂, ...], where (x₁) ⊂ (x₁, x₂) ⊂ ... never stops.
+
+## Common Misconceptions
+- Finitely generated means there is a fixed bound on the number of generators. (Each ideal needs finitely many, but the count can grow. In k[x, y], the ideal (x, y)ⁿ needs n + 1 generators.)
+- A subring of a Noetherian ring is Noetherian. (The subring k[x, xy, xy², xy³, ...] of k[x, y] is not Noetherian.)
+- The theorem covers polynomial rings in any number of variables. (It covers finitely many. In k[x₁, x₂, ...], the ideal (x₁, x₂, ...) is not finitely generated.)
+
 ## Questions
 
 ```yaml

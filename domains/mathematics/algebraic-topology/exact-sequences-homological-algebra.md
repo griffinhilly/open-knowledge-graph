@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 A sequence of abelian group homomorphisms ... -> A -> B -> C -> ... is exact at B if the image of the incoming map equals the kernel of the outgoing map: im(A -> B) = ker(B -> C). Exact sequences encode relationships between groups with perfect precision — no information is lost or created at any stage. Short exact sequences 0 -> A -> B -> C -> 0 express B as an "extension" of C by A, and long exact sequences are the workhorses of homological computation, connecting the homology of related spaces through an infinite chain of exactness conditions.
 
+## How It's Best Learned
+Check exactness by hand on small finite groups, element by element. Compare 0 -> Z/2 -> Z/4 -> Z/2 -> 0, which does not split, with 0 -> Z/2 -> Z/2 ⊕ Z/2 -> Z/2 -> 0, which does. Then practice reading off consequences: from 0 -> A -> B -> 0 conclude A ≅ B, and from 0 -> Z --×n--> Z -> G -> 0 conclude G ≅ Z/n.
+
+## Common Misconceptions
+- A short exact sequence 0 -> A -> B -> C -> 0 determines B from A and C. (It does not. Both Z/4 and Z/2 ⊕ Z/2 fit between Z/2 and Z/2.)
+- Exactness at B means the composite A -> B -> C is zero. (A zero composite gives only im ⊆ ker, which is the chain complex condition. Exactness also requires every element of the kernel to come from A.)
+- In a long exact sequence, knowing two of every three groups pins down the rest. (The maps matter too. In 0 -> Z -> G -> Z/2 -> 0, G can be Z or Z ⊕ Z/2, depending on the maps.)
+
 ## Questions
 
 ```yaml

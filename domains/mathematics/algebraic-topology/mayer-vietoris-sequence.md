@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 The Mayer-Vietoris sequence is the homological analogue of the inclusion-exclusion principle: it computes the homology of a union X = A union B from the homology groups of A, B, and their intersection A intersect B. The long exact sequence ... -> H_n(A intersect B) -> H_n(A) + H_n(B) -> H_n(X) -> H_{n-1}(A intersect B) -> ... systematically relates these groups, and the connecting homomorphism captures how the topology of the intersection constrains the topology of the whole. It is the primary computational tool for singular homology.
 
+## How It's Best Learned
+Do three computations with the maps written as matrices. First, S^1 as two arcs meeting in two points: H_1(S^1) comes entirely from the connecting map into H_0 of the intersection. Next, the torus as two cylinders. Then the Klein bottle as two Möbius bands glued along an annulus. The annulus core maps to (2, -2), so H_1 = Z^2/(2, -2) ≅ Z ⊕ Z/2.
+
+## Common Misconceptions
+- H_n(A ∪ B) is found by adding H_n(A) and H_n(B) and subtracting H_n(A ∩ B). (Only the Euler characteristic obeys inclusion-exclusion. Two arcs have no H_1, yet their union S^1 does, through the connecting map.)
+- Any two closed pieces covering X give a Mayer-Vietoris sequence. (The standard hypothesis is that the interiors of A and B cover X. Closed pieces work when they are deformation retracts of open neighborhoods U and V such that U ∩ V deformation retracts onto A ∩ B, as for subcomplexes of a CW complex.)
+- The minus sign in (i_*, -j_*) is cosmetic. (With both signs positive and the next map a sum, a class c from A ∩ B goes to 2c in X instead of 0, and exactness fails.)
+
 ## Questions
 
 ```yaml
@@ -33,7 +41,7 @@ The Mayer-Vietoris sequence is the homological analogue of the inclusion-exclusi
     - "A ∩ B is a deformation retract of A"
     - "H_n(X) ≅ H_n(A) ⊕ H_n(B)"
   answer: 1
-  explanation: "Injectivity of the map (i_*, -j_*) means: if a cycle c in A ∩ B becomes a boundary both in A and in B, then c was already a boundary in A ∩ B. Equivalently: no nontrivial cycle of A ∩ B is 'killed' by passing to A and B simultaneously. By exactness, injectivity of this map forces the connecting homomorphism H_n(X) → H_{n-1}(A ∩ B) to be zero, which means the sequence splits into short exact sequences 0 → coker → H_n(X) → ker → 0, simplifying the computation."
+  explanation: "Injectivity of the map (i_*, -j_*) means: if a cycle c in A ∩ B becomes a boundary both in A and in B, then c was already a boundary in A ∩ B. Equivalently: no nontrivial cycle of A ∩ B is 'killed' by passing to A and B simultaneously. By exactness, injectivity of this map forces the connecting homomorphism H_{n+1}(X) → H_n(A ∩ B) to be zero, which means the sequence splits into short exact sequences 0 → coker → H_n(X) → ker → 0, simplifying the computation."
 
 - question: "Using Mayer-Vietoris with A and B as open hemispheres of S^n, the connecting homomorphism H_n(S^n) → H_{n-1}(S^{n-1}) is an isomorphism for n ≥ 2."
   type: true-false

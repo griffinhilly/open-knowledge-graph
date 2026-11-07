@@ -28,6 +28,15 @@ status: validated
 ## Core Idea
 The Minimum Description Length (MDL) principle is a practical formalization of Occam's razor: choose the model that minimizes the total description length of the model plus the data encoded relative to that model. MDL = L(M) + L(D|M), where L(M) is the length of the model description and L(D|M) is the length of the data description given the model. This provides a principled model selection criterion that automatically trades off fit and complexity — more complex models can explain data in fewer bits (lower L(D|M)), but require longer descriptions themselves (higher L(M)). MDL is motivated by Kolmogorov complexity and Solomonoff induction (the universal prior 2^(-K(x)) assigns exponentially higher weight to simpler explanations), and is related to the Bayesian information criterion (BIC) and information-theoretic measures like AIC. Unlike likelihood-based approaches, MDL is not asymptotic — it applies to finite samples — and avoids overfitting by penalizing model complexity directly.
 
+## How It's Best Learned
+Fit polynomials of degree 0 through 8 to 30 noisy points from a quadratic. For each degree, write L(D|M) as -log2 of the likelihood of the residuals and add a cost for the coefficients. Plot the two parts and their sum against degree, and find where the total bottoms out. Then encode the same data with a lookup table to see why perfect fit does not win.
+
+## Common Misconceptions
+- MDL picks the model with the fewest parameters. (It picks the smallest total L(M) + L(D|M). A richer model wins when the bits it saves on the data exceed the bits it costs to describe.)
+- L(M) is just a count of parameters. (Each parameter must be stated to some precision, and the precision worth paying for depends on how much data there is. The model's structure also costs bits.)
+- Description length and probability are separate ideas. (By the Kraft inequality, a code length of L bits corresponds to a probability of about 2^(-L). So L(D|M) plays the role of -log2 P(D|M).)
+- Using MDL requires computing Kolmogorov complexity. (Practical MDL uses computable codes chosen in advance. Kolmogorov complexity is the idealized version behind it.)
+
 ## Questions
 
 ```yaml

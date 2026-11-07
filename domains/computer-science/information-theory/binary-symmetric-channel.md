@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 The binary symmetric channel (BSC) is the simplest model of a noisy digital communication channel. It transmits binary symbols (0 or 1), and each bit is independently flipped with crossover probability p. Its capacity is C = 1 - H(p) bits per use, where H(p) = -p log p - (1-p) log(1-p) is the binary entropy function. The BSC is symmetric in that both symbols suffer the same error probability, making the capacity-achieving input distribution uniform. It serves as the fundamental testbed for channel coding theory and illustrates how noise reduces capacity from the ideal of 1 bit per use.
 
+## How It's Best Learned
+Plot H(p) and 1 - H(p) for p from 0 to 1 on the same axes, marking p = 0, 0.1, 0.5 and 0.9. Then derive C = H(Y) - H(Y|X) step by step for a uniform input. Finally, compare the capacity at p = 0.1 with a 3-fold repetition code, computing its rate and its error probability.
+
+## Common Misconceptions
+- A BSC with p = 0.1 delivers 0.9 bits per use, since 90% of bits get through. (The receiver does not know which bits were flipped. The capacity is 1 - H(0.1), about 0.531 bits per use.)
+- The worst BSC is the one with p = 1. (At p = 1 every bit is inverted, so the receiver flips them back and gets capacity 1. The useless case is p = 0.5.)
+- Capacity falls in a straight line as p grows from 0 to 0.5. (It falls as 1 - H(p), which drops steeply near p = 0. A small error rate removes much more capacity than its size suggests.)
+- Sending at a rate below capacity removes all errors from every block. (Below capacity, good codes make the error probability as small as desired as block length grows. Some small error probability remains at any finite length.)
+
 ## Questions
 
 ```yaml

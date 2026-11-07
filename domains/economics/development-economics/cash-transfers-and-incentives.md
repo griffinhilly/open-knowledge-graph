@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 Conditional cash transfers (CCTs) tie payments to actions like school attendance or health checkups, incentivizing human capital investment. Evidence shows CCTs increase school enrollment and health visits; earnings gains are modest and take years. Unconditional cash transfers also improve welfare and school attendance (possibly through income effects) with lower administrative costs but face political resistance.
 
+## How It's Best Learned
+Start from one family whose child is out of school, and list two possible reasons: the family cannot afford school, or the parents underrate its payoff. Predict what an unconditional transfer does in each case, then what a conditional one adds. Then compare the cost of monitoring attendance with the extra enrollment the condition is expected to buy.
+
+## Common Misconceptions
+- Poor households will waste unconditional cash on alcohol and tobacco. (Experimental evidence from GiveDirectly in Kenya found no increase in spending on these goods. Recipients spent on consumption and assets instead.)
+- Conditions make a transfer more effective in every setting. (When the barrier is purely financial, the income alone can produce similar gains, and monitoring adds cost.)
+- Higher school enrollment means the program raised welfare more. (The targeted behavior is one outcome. Unconditional cash can address other needs, and conditions cost money to monitor.)
+- Rising enrollment means children are learning more. (Effects on learning and adult earnings are smaller than enrollment effects and take years to appear.)
+
 ## Questions
 
 ```yaml

@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Monte Carlo methods sample phase space according to the Boltzmann distribution exp(−E/kT) to compute thermal averages without evaluating the partition function. The Metropolis algorithm uses a random walk with acceptance probability min(1, exp(−ΔE/kT)) to generate a Markov chain sampling the canonical distribution. Other variants include Gibbs sampling and parallel tempering for escaping local minima.
 
+## How It's Best Learned
+Estimate ⟨E⟩ for a small 2D Ising lattice at low temperature two ways: uniform random configurations reweighted by e^(−E/kT), and Metropolis sampling. The uniform method fails because almost none of its samples land in the states that matter. Then compute the heat capacity from (⟨E²⟩ − ⟨E⟩²)/kT² and get honest error bars by blocking the data into bins longer than the correlation time.
+
+## Common Misconceptions
+- Drawing configurations uniformly and weighting them by e^(−E/kT) works as well as importance sampling. (At low temperature the important states are a tiny fraction of all states, so uniform samples rarely reach them and a few samples dominate the weights.)
+- The error bar on a Monte Carlo average is σ/√M for M recorded samples. (Successive samples are correlated, so the true error is larger, roughly σ√(2τ/M) for an integrated autocorrelation time τ measured in samples.)
+- Each Metropolis step corresponds to a fixed interval of physical time. (The steps are a sampling device. Their sequence does not in general follow the system's real dynamics.)
+
 ## Questions
 
 ```yaml

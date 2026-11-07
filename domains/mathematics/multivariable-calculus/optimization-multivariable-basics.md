@@ -28,6 +28,15 @@ status: validated
 ## Core Idea
 To optimize f(x, y) on a region: find critical points, classify them, evaluate f at critical points and on the boundary, then compare. Global extrema on closed bounded sets are guaranteed to exist.
 
+## How It's Best Learned
+Run the full procedure on one small problem and keep a table of candidates. Take f(x, y) = x² + y² − x on the closed unit disk. The interior critical point (1/2, 0) gives −1/4. On the boundary, substitute x = cos t, y = sin t to get 1 − cos t, with values from 0 to 2. So the minimum is interior and the maximum, 2 at (−1, 0), is on the boundary.
+
+## Common Misconceptions
+- The global maximum must be at a point where ∇f = 0. (On a closed bounded region it can sit on the boundary, where ∇f need not be zero.)
+- If the second partials test says local minimum, I have found the global minimum. (The test is local; a boundary point or another critical point may give a smaller value.)
+- Checking the corners of the region is enough for the boundary. (An extreme value can occur partway along an edge; optimize f along each edge as a one-variable problem and include the corners as endpoints.)
+- Every continuous function has a global maximum on any region. (The guarantee needs a closed and bounded region; f(x, y) = x + y on the whole plane has no maximum.)
+
 ## Questions
 
 ```yaml

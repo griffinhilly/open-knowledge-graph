@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 In a two-dimensional electron gas subjected to a strong perpendicular magnetic field, the energy spectrum splits into discrete Landau levels E_n = hbar omega_c (n + 1/2), where omega_c = eB/mc is the cyclotron frequency. When the Fermi level lies between Landau levels, the Hall conductance is exactly quantized: sigma_{xy} = nu e^2/h, where nu is an integer equal to the number of filled Landau levels. This quantization is extraordinarily precise (~1 part in 10^9) and is independent of material details, disorder, or sample geometry — it is topological in origin. The integer quantum Hall effect provides the primary resistance standard and was the first example of a topological phase of matter.
 
+## How It's Best Learned
+Put in numbers for a GaAs 2DEG. With n = 3 × 10¹⁵ m⁻², the filling ν = nh/(eB) reaches 1 near 12.4 T and 2 near 6.2 T, counting spin-split levels separately. With m* = 0.067 mₑ, ħω_c is about 17 meV at 10 T, far above k_BT at 1 K. Then follow Laughlin's flux-threading argument on a cylinder to see why the plateau value is an integer.
+
+## Common Misconceptions
+- Zero longitudinal resistance on a plateau means the sample is a perfect conductor. (On a plateau both ρ_xx and σ_xx vanish, because the conductivity tensor is purely off-diagonal; the bulk is insulating.)
+- Landau levels are bands produced by the crystal lattice. (They come from the magnetic field acting on free 2D electrons; no lattice is needed, though a lattice can split them further.)
+- The plateau value depends on the sample's purity and shape. (It equals h/(νe²) for any sample in the quantized regime; purity and shape change the plateau widths but not their values.)
+
 ## Questions
 
 ```yaml

@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 A process X(t) is strictly stationary if its finite-dimensional distributions are invariant under time shifts: (X(t₁+h), ..., X(tₙ+h)) has the same joint distribution as (X(t₁), ..., X(tₙ)) for all h. Wide-sense (weak) stationarity requires only constant mean and a covariance function R(τ) = Cov(X(t), X(t+τ)) that depends only on the lag τ. The spectral representation theorem connects stationary processes to their power spectral density via the Fourier transform of the autocovariance.
 
+## How It's Best Learned
+Compute one autocovariance and its spectrum end to end. For X(t) = W(t+1) - W(t), the covariance at lag τ is the overlap of two unit intervals, R(τ) = (1 - |τ|)⁺. Its Fourier transform is (sin(ω/2)/(ω/2))², which is nonnegative as the theory requires. Then build a sequence that alternates independent N(0, 1) and ±1 coin values, which is wide-sense but not strictly stationary.
+
+## Common Misconceptions
+- A process with stationary increments is stationary. (Brownian motion has stationary increments, but Var(W(t)) = t changes with t.)
+- Wide-sense stationarity implies strict stationarity. (Mean and covariance can be time-invariant while the marginal laws change, as in the alternating normal and coin sequence; the two notions agree for Gaussian processes.)
+- Any even function that peaks at 0 can serve as an autocovariance. (It must also be positive semidefinite; R(τ) = 1 for |τ| ≤ 1 and 0 otherwise fails, since its covariance matrix at times 0, 1, 2 has determinant -1.)
+
 ## Questions
 
 ```yaml

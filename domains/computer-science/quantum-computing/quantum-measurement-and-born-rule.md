@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Measurement in quantum computing extracts classical information from a quantum state, collapsing it probabilistically according to the Born rule: measuring a qubit in state alpha|0> + beta|1> yields outcome 0 with probability |alpha|^2 and outcome 1 with probability |beta|^2, with the post-measurement state being the corresponding basis state. Measurements can be performed in any orthonormal basis by applying a change-of-basis gate before measuring in the computational basis. Understanding measurement is essential because it is the only way to extract results from a quantum computation, and its probabilistic, destructive nature is the central constraint that quantum algorithm design must navigate.
 
+## How It's Best Learned
+Practice partial measurement on (|00> + |01> + |10>)/sqrt(3). Measuring the first qubit gives 0 with probability 2/3, and the state becomes |0>(|0> + |1>)/sqrt(2) after renormalizing. Outcome 1 has probability 1/3 and leaves |10>. Then compare measuring |+> directly with measuring it after a Hadamard, to see that the basis choice decides what you learn.
+
+## Common Misconceptions
+- A qubit in |+> is secretly 0 or 1 already, and measurement just reveals which. (A 50/50 mixture of |0> and |1> would give random results in the X basis too. A qubit in |+> gives outcome + with certainty in that basis.)
+- Measuring one qubit leaves the other qubits as they were. (If the qubits are entangled, the outcome changes the state of the rest. In a Bell state, measuring the first qubit fixes the second.)
+- After a partial measurement, the remaining amplitudes stay the same numbers. (The surviving amplitudes must be divided by the square root of the outcome's probability, so the new state is normalized.)
+
 ## Questions
 
 ```yaml

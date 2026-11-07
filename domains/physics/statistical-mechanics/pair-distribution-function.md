@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 The pair distribution function g(r) describes the probability of finding two particles at separation r relative to random distribution: g(r) = 1 for uncorrelated particles and deviates at short range where interactions dominate. It encodes all two-body spatial correlations and can be measured experimentally via X-ray or neutron scattering.
 
+## How It's Best Learned
+Compute g(r) by hand from a simulation snapshot. For each particle, count neighbors in a shell from r to r + dr, average over particles, and divide by the ideal-gas count ρ·4πr²dr. Run the same code on randomly placed points and check that it returns g ≈ 1. Then compare the dense-liquid result with the dilute-gas estimate g(r) ≈ exp(−u(r)/k_BT).
+
+## Common Misconceptions
+- g(r) is the probability of finding a particle at distance r, so it stays below 1. (It is a ratio to the uncorrelated density. The mean number of neighbors in a thin shell is ρg(r)·4πr²dr, and g(r) exceeds 1 at preferred separations.)
+- Peaks in g(r) mean the liquid is partly crystalline. (Packing alone creates neighbor shells in a liquid, but the oscillations die out within a few diameters. A crystal's peaks persist to long range.)
+- Knowing g(r) is enough to get the pressure and energy of any fluid. (The standard g(r) formulas assume the potential energy is a sum of pair terms. With three-body forces, higher correlation functions are also needed.)
+
 ## Questions
 
 ```yaml
@@ -72,4 +80,4 @@ You already know two-point correlation functions from your prerequisite study: t
 
 The shape of g(r) encodes the physical character of the material. For a hard-sphere fluid, g(r) = 0 for r < σ (two hard spheres simply cannot overlap), then rises sharply from zero at r = σ as the excluded volume ends. The first peak at r ≈ σ tells you that nearest-neighbor shells are densely packed. Subsequent oscillating peaks at r ≈ 2σ, 3σ, … correspond to second, third, and further neighbor shells. These oscillations decay away over a few particle diameters in a liquid; in a crystal they persist to infinite range. A gas shows no structure beyond r ≈ σ because particles are too dilute to maintain neighbor shells.
 
-The great practical value of g(r) is its connection to experiment and to thermodynamic quantities. The **static structure factor** S(k), measured directly by X-ray and neutron scattering, is related to g(r) by a Fourier transform: S(k) = 1 + ρ∫[g(r) − 1]e^{ik·r}d³r. Scattering experiments thus give you g(r) directly from the diffraction pattern. Conversely, once you have g(r), you can compute the equation of state, the pressure, and the internal energy through the **virial expansion** and related formulas — making g(r) the central structural quantity linking microscopic pair interactions to macroscopic thermodynamic properties.
+The great practical value of g(r) is its connection to experiment and to thermodynamic quantities. The **static structure factor** S(k), measured directly by X-ray and neutron scattering, is related to g(r) by a Fourier transform: S(k) = 1 + ρ∫[g(r) − 1]e^{ik·r}d³r. Scattering experiments thus give you g(r) directly from the diffraction pattern. Conversely, once you have g(r), you can compute the equation of state, the pressure, and the internal energy through the **virial (pressure) equation** and related formulas — making g(r) the central structural quantity linking microscopic pair interactions to macroscopic thermodynamic properties.

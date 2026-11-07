@@ -22,6 +22,14 @@ status: draft
 ## Core Idea
 New Journalism emerged in the 1960s-70s as a deliberate movement applying literary fiction techniques to nonfiction reporting and journalism. Exemplified by writers like Tom Wolfe, Joan Didion, Gay Talese, and Truman Capote, it explicitly rejected objective journalistic distance in favor of subjectively inflected, stylistically ambitious nonfiction narrative grounded in reported facts.
 
+## How It's Best Learned
+Read Gay Talese's "Frank Sinatra Has a Cold" beside a conventional news profile of a celebrity. In the Talese piece, mark the devices Tom Wolfe named in his introduction to The New Journalism: scene-by-scene construction, full dialogue, third-person point of view, and telling details of everyday status. Then find the closest equivalent, if any, in the news profile.
+
+## Common Misconceptions
+- New Journalists made things up to get better stories. (The movement's premise was applying fiction's techniques to reported facts, so invention breaks the form's own rules. Some works have faced accuracy disputes, and they are judged by that standard.)
+- New Journalism means writing in the first person. (Many pieces use scene and third-person point of view, with the writer's presence felt through style more than through "I.")
+- The New Journalists shared one style. (Wolfe's exuberant prose, Didion's spare analysis and Talese's patient observation differ widely. What they shared was literary technique applied to reporting.)
+
 ## Questions
 
 ```yaml
@@ -57,6 +65,7 @@ New Journalism emerged in the 1960s-70s as a deliberate movement applying litera
 
 - question: What impact did New Journalism have on how nonfiction writing is understood and practiced?
   type: short-answer
+  answer: "New Journalism showed that rigorous reporting and literary technique could coexist, so a distinctive voice and style became acceptable, even expected, in nonfiction. Contemporary creative nonfiction, long-form journalism and literary essays build on that example."
   explanation: New Journalism changed what was possible in nonfiction. It showed that rigorous reporting and literary technique could coexist. After the New Journalists, it became acceptable—even expected—for nonfiction to have a distinctive voice and style. Contemporary creative nonfiction, long-form journalism, and literary essays all inherit from New Journalism's breakthrough. The movement showed that the best nonfiction could be both factually rigorous and beautifully written, that the writer's perspective and style could strengthen rather than compromise journalism. This fundamentally changed the landscape of nonfiction writing.
 ```
 

@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Gravitational lensing is the deflection of light by massive objects, a direct consequence of photons following null geodesics in curved spacetime. For a photon passing a mass M with impact parameter b, GR predicts a deflection angle α = 4GM/(bc²), which is twice the naive Newtonian prediction. Strong lensing near galaxies and galaxy clusters produces multiple images, arcs, and Einstein rings; weak lensing produces subtle statistical distortions of background galaxy shapes used to map dark matter. Microlensing (temporary brightening) is used to detect compact objects and exoplanets. The 1919 solar eclipse observation of starlight deflection by the Sun, confirming the factor-of-two GR prediction over the Newtonian value, was the first experimental validation of general relativity.
 
+## How It's Best Learned
+Draw the thin-lens geometry for a point mass and derive the lens equation β = θ − θ_E²/θ, with β the true source angle and θ the image angle. Solve the quadratic to get two images, θ = [β ± √(β² + 4θ_E²)]/2, one on each side of the lens. Set β = 0 to recover the Einstein ring. Then put the Sun's mass and radius into α = 4GM/(bc²) to get 1.75 arcseconds.
+
+## Common Misconceptions
+- Light bends near the Sun because photons have a small mass. (Photons are massless and follow null geodesics. Treating light as a massive Newtonian particle gives only half the measured deflection.)
+- A gravitational lens works like a glass lens with one focal point. (The deflection falls off as 1/b, so outer rays bend less. A point mass therefore has no single focus.)
+- Lensing happens only when the source, lens and observer line up exactly. (Exact alignment gives a full ring. Weak lensing distorts the shapes of background galaxies at many alignments.)
+- Lensing makes a galaxy brighter per unit area of sky. (Lensing conserves surface brightness. A source gets brighter overall because its image covers a larger area.)
+
 ## Questions
 
 ```yaml

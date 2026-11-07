@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 For a nonlinear system y' = f(y), linearize near an equilibrium y* by computing the Jacobian matrix J = ∇f(y*). The linearized system y' ≈ J(y - y*) reveals local stability; if J has eigenvalues with Re(λ) ≠ 0, the nonlinear equilibrium inherits the stability of the linearized system.
 
+## How It's Best Learned
+Linearize the pendulum x' = y, y' = −sin x. The Jacobian is [[0, 1], [−cos x, 0]]. At (π, 0) it is [[0, 1], [1, 0]] with eigenvalues ±1, a saddle that carries over. At (0, 0) it is [[0, 1], [−1, 0]] with eigenvalues ±i, the inconclusive case. Then sketch the phase portrait with software and compare each equilibrium with its linear prediction.
+
+## Common Misconceptions
+- One Jacobian describes the whole system. (The Jacobian has to be evaluated separately at each equilibrium, and different equilibria of the same system can have different types.)
+- The linear system u' = Ju is written in the original variables. (u = y − y* is the displacement from the equilibrium, so the linear picture is centered at y*, not at the origin of the original coordinates.)
+- A stable linearization means every solution of the nonlinear system goes to that equilibrium. (The conclusion is local: it holds for starting points close enough to y*, and solutions starting farther away can do something else.)
+
 ## Questions
 
 ```yaml

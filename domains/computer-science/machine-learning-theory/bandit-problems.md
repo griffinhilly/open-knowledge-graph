@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 The multi-armed bandit problem is an online learning setting with partial feedback: after choosing an action (pulling an arm), the learner observes only the reward of the chosen arm, not the rewards of the other arms. This creates the exploration-exploitation dilemma — the learner must try different arms to estimate their rewards (explore) while also pulling the arm it believes is best to accumulate reward (exploit). The UCB (Upper Confidence Bound) algorithm achieves O(sqrt(KT * ln T)) regret over T rounds with K arms by choosing the arm with the highest upper confidence bound on its mean reward. The minimax optimal regret for K-armed bandits is Theta(sqrt(KT)), showing that partial feedback costs a sqrt(K) factor compared to the full-information expert setting.
 
+## How It's Best Learned
+Simulate a three-arm Bernoulli bandit for a few thousand rounds and run two policies side by side: greedy (always pull the best empirical mean) and UCB1. Repeat over many random seeds and plot cumulative regret. Some greedy runs lock onto a worse arm after unlucky early draws and grow regret linearly, while UCB1 stays sublinear. Then derive the UCB bonus from Hoeffding's inequality.
+
+## Common Misconceptions
+- A good bandit algorithm should stop exploring as soon as it has a favorite arm. (If exploration stops, an unlucky early estimate can leave the learner on a worse arm for good, and regret grows linearly. Good algorithms explore less over time but keep a shrinking amount of it.)
+- The UCB bonus is random noise added to encourage exploration. (The bonus is deterministic. It is a confidence width from Hoeffding's inequality that shrinks as an arm is pulled more. Methods such as Thompson sampling and epsilon-greedy are the ones that explore through randomness.)
+- Low regret means the learner collected a lot of reward. (Regret compares the learner to always pulling the best arm. If every arm pays little, total reward is small even when regret is low.)
+
 ## Questions
 
 ```yaml

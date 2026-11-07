@@ -22,6 +22,14 @@ status: draft
 ## Core Idea
 When nonfiction writers represent real people, they face ethical responsibilities. Questions about detail-sharing, name-changing, and fair representation vary depending on whether the writer is a family member, journalist, or biographer, but they are central to ethical nonfiction practice.
 
+## How It's Best Learned
+Take a scene from your own drafts that includes another real person. List every detail that could identify or embarrass them, and mark which details the scene needs to work. Rewrite the scene keeping only those. Then reread it from the other person's position and ask what they would say was unfair or missing.
+
+## Common Misconceptions
+- If it really happened, I have the right to publish it. (Truth is one requirement; writers also weigh privacy, possible harm, and fairness to the people depicted.)
+- Changing a name fully protects the person. (Other details such as place, job, or relationship can still identify someone to readers who know them.)
+- The same rules apply whether I am writing about my mother or a senator. (Obligations shift with the relationship and with how public the person is.)
+
 ## Questions
 
 ```yaml
@@ -57,6 +65,7 @@ When nonfiction writers represent real people, they face ethical responsibilitie
 
 - question: Imagine writing a memoir that includes scenes with family members who may not want to be portrayed in a published book. How would you navigate the ethical questions? What would you need to consider?
   type: short-answer
+  answer: "Consider which details identify each relative, whether the scene still works without them, what harm publication could cause, and whether to ask for consent. Options include changing identifying details, seeking permission, or leaving out material whose harm outweighs its value to the story."
   explanation: 'You would need to consider: What details identify the family member? Could removing certain details still make the scene work narratively? What harm might publication cause them (embarrassment, breach of privacy, damaged relationships)? Do you have their consent or should you ask? If they object, does your story depend on including them, or could you omit or reimagine that material? Is there public interest in the story that overrides privacy? These tensions rarely resolve neatly. You might change identifying details while preserving the emotional truth. You might ask for permission. You might decide that some stories you could tell are not worth the harm. Ethical practice means making these decisions consciously and with genuine attention to other people''s stakes, not just your own literary ambitions.'
 ```
 

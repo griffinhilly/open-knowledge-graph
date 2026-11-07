@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Cosmogenic nuclides (10Be, 26Al, 36Cl, 3He, 21Ne) are produced in surface rocks and the atmosphere by cosmic ray bombardment. In rocks, cosmic ray neutrons and muons interact with target atoms (O, Si, Ca, K, Fe) to produce these rare isotopes at known rates that decrease exponentially with depth below the surface. The concentration of a cosmogenic nuclide in a surface sample reflects the duration of exposure to cosmic rays -- providing exposure ages for glacial moraines, lava flows, fault scarps, and archaeological surfaces. In a steady-state eroding landscape, cosmogenic concentrations reflect erosion rates. The paired 26Al/10Be ratio exploits different half-lives to detect periods of burial and shielding. This method has revolutionized geomorphology by providing a direct means of quantifying surface exposure time and erosion rates over 10^3 to 10^6 year timescales.
 
+## How It's Best Learned
+Start with the simplest case: no erosion and an age much shorter than the half-life, so concentration = production rate x time. With an assumed rate of 4 atoms/g/yr and 72,000 atoms/g, the age is 18,000 years. Then add erosion and see that concentration levels off. Read that plateau as an erosion rate instead of an age.
+
+## Common Misconceptions
+- An exposure age tells you how old the rock is. (It tells you how long the rock has been near the surface. The rock itself can be far older.)
+- A higher concentration always means an older surface. (On eroding surfaces, and over times long compared to the half-life, concentrations approach a steady state. Past that point, extra time adds little and the value records erosion rate.)
+- Scatter in boulder ages on one moraine is only measurement error. (Earlier exposure makes some boulders too old. Erosion, late exhumation, or toppling makes others too young.)
+- Production happens only at the exposed face of the rock. (It falls off exponentially with depth over tens of centimeters, so sample thickness and shielding must be corrected for.)
+
 ## Questions
 
 ```yaml

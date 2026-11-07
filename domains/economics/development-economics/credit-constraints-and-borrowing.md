@@ -30,6 +30,15 @@ status: validated
 ## Core Idea
 Formal credit markets fail in developing economies due to high adverse selection (lenders cannot distinguish borrowers by risk) and moral hazard (borrowers may not repay if stakes are low or enforcement is weak). Lack of collateral and contract enforcement means traditional banking ignores the poor. Credit absence prevents productive investment even for high-return projects.
 
+## How It's Best Learned
+Build a small borrower pool by hand: a safe farmer whose project returns 20% for certain, and a risky borrower who may win big or fail and repay nothing. Raise the interest rate from 10% to 30% and record who still applies. Then separate the problem in time: adverse selection before the loan, moral hazard after it, and list which tool (collateral, credit history, courts) addresses each.
+
+## Common Misconceptions
+- A bank can always fix default risk by charging a higher rate. (Higher rates can drive out safe borrowers first, leaving a riskier pool, so banks may ration credit instead of raising rates.)
+- If a project is profitable, the borrower will get a loan. (Profit does not help if the bank cannot verify the project or enforce repayment.)
+- Adverse selection and moral hazard are the same problem. (Adverse selection is about hidden borrower type before the loan. Moral hazard is about hidden actions after it.)
+- Poor people stay poor because they lack good investment ideas. (Many have high-return opportunities but cannot borrow or save enough to act on them.)
+
 ## Questions
 
 ```yaml

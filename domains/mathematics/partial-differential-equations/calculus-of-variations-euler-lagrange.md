@@ -17,6 +17,14 @@ status: validated
 ## Core Idea
 The calculus of variations studies the optimization of functionals—mappings from function spaces to real numbers. Given a functional J[u] = ∫L(x, u, ∇u)dx (the Lagrangian or action), a critical point satisfies the Euler-Lagrange equation: -div(∂L/∂(∇u)) + ∂L/∂u = 0. This transforms the optimization problem into a PDE. Many fundamental PDEs arise this way: Laplace's equation from the Dirichlet energy, minimal surface equations from area functionals, and the equations of elasticity from strain energy. The framework connects PDE theory to physics (principle of least action) and geometry (geodesics, minimal surfaces).
 
+## How It's Best Learned
+Derive one Euler-Lagrange equation by hand before using the general formula. For J[u] = ∫₀¹ (½u'² − fu) dx, expand J[u + εφ], differentiate at ε = 0 to get ∫(u'φ' − fφ) dx = 0, and integrate by parts to reach −u'' = f. Then study the Bolza example ∫₀¹ ((u'² − 1)² + u²) dx with u(0) = u(1) = 0. Sawtooth functions drive it to 0, yet no function attains 0.
+
+## Common Misconceptions
+- Any solution of the Euler-Lagrange equation is a minimizer. (It is only a critical point. A great-circle arc longer than half the circle solves the geodesic equation but does not minimize length.)
+- A functional that is bounded below attains its minimum. (The Bolza example has infimum 0 and no minimizer. Existence needs hypotheses such as coercivity and weak lower semicontinuity.)
+- If the boundary values are left free, the variational problem imposes no boundary condition. (The boundary term from integration by parts must vanish for every variation, which yields the natural condition ∂L/∂(∇u) · n = 0 on the free part.)
+
 ## Questions
 ```yaml
 - question: "The Euler-Lagrange equation for the functional J[u] = ∫(½|∇u|² - fu)dx is:"

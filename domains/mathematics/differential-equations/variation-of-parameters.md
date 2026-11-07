@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Variation of parameters is a universal method for finding a particular solution to y'' + p(x)y' + q(x)y = f(x). Assume y_p = u₁(x)y₁ + u₂(x)y₂ where y₁, y₂ solve the homogeneous equation, and solve for u₁, u₂ using the Wronskian. Though more computational than undetermined coefficients, this method works for any continuous f(x), making it the universal tool when other methods fail.
 
+## How It's Best Learned
+Work y'' + y = sec x with y₁ = cos x, y₂ = sin x, so W = 1. Then u₁' = −tan x gives u₁ = ln|cos x|, and u₂' = 1 gives u₂ = x. The result y_p = cos x ln|cos x| + x sin x can be checked by differentiating twice, which takes a few lines and confirms the formulas.
+
+## Common Misconceptions
+- The formulas can be used directly on ay'' + by' + cy = g(x) with a ≠ 1. (The formulas u₁' = −y₂f/W and u₂' = y₁f/W assume a leading coefficient of 1, so divide through by a first and use f = g/a.)
+- The constants of integration in u₁ and u₂ must be carried, or the answer is incomplete. (Those constants only add c₁y₁ + c₂y₂, which is already in y_h, so they can be dropped from y_p.)
+- The constraint u₁'y₁ + u₂'y₂ = 0 has to be derived from the equation. (It is an extra condition we choose; two unknown functions and one equation leave room for one more condition.)
+
 ## Questions
 
 ```yaml

@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 A unique factorization domain (UFD) is an integral domain in which every nonzero, non-unit element can be factored uniquely (up to order and units) into irreducible elements.
 
+## How It's Best Learned
+Work the ℤ[√−5] example with the norm N(a + b√−5) = a² + 5b². Check that the norm is multiplicative and that no element has norm 2 or 3. That makes 2, 3 and 1 ± √−5 irreducible, so 6 has two factorizations. Then show 2 divides (1 + √−5)(1 − √−5) but neither factor, so 2 is irreducible but not prime. Compare with ℤ[i], where factorizations agree up to units.
+
+## Common Misconceptions
+- Irreducible and prime mean the same thing in any integral domain. (Every prime is irreducible in an integral domain, but in ℤ[√−5] the element 2 is irreducible and not prime; the two notions coincide in a UFD.)
+- Unique factorization means the list of factors comes out literally identical every time. (Factors may differ by order and units; in ℤ[i], 5 = (2 + i)(2 − i) = (1 + 2i)(1 − 2i), and these agree because 1 + 2i = i(2 − i) and 1 − 2i = −i(2 + i).)
+- Every UFD is a PID. (ℤ[x] is a UFD, but its ideal (2, x) is not principal.)
+- Adjoining a square root to ℤ keeps unique factorization, since ℤ has it. (ℤ[i] is a UFD, but ℤ[√−5] is not.)
+
 ## Questions
 
 ```yaml
@@ -50,7 +59,7 @@ A unique factorization domain (UFD) is an integral domain in which every nonzero
 - question: "Every principal ideal domain (PID) is a unique factorization domain."
   type: true-false
   answer: true
-  explanation: "This is a fundamental theorem in ring theory. The ideal structure of a PID — specifically the ascending chain condition on ideals and the fact that every prime ideal is maximal — forces the two conditions of a UFD: every nonzero non-unit factors into irreducibles (existence), and the factorization is unique up to order and units. The proof uses the fact that in a PID, irreducible elements and prime elements coincide, which is the key property that guarantees uniqueness."
+  explanation: "This is a fundamental theorem in ring theory. The ideal structure of a PID — specifically the ascending chain condition on ideals and the fact that every nonzero prime ideal is maximal — forces the two conditions of a UFD: every nonzero non-unit factors into irreducibles (existence), and the factorization is unique up to order and units. The proof uses the fact that in a PID, irreducible elements and prime elements coincide, which is the key property that guarantees uniqueness."
 
 - question: "Nearly every UFD is also a PID."
   type: true-false
@@ -67,7 +76,7 @@ A unique factorization domain (UFD) is an integral domain in which every nonzero
 
 The Fundamental Theorem of Arithmetic says every positive integer factors uniquely into primes: 60 = 2² × 3 × 5, and no other prime factorization exists. This seems obvious in ℤ, but it is a special property that many integral domains do *not* share. Understanding when unique factorization holds — and when it fails — is the central question UFDs answer.
 
-Consider the ring ℤ[√-5] = {a + b√-5 : a, b ∈ ℤ}. This is an integral domain, but 6 = 2 × 3 = (1 + √-5)(1 − √-5) are two genuinely different factorizations into irreducible elements. Neither 2 nor 3 divides (1 ± √-5), and neither (1 ± √-5) divides 2 or 3. Unique factorization has failed completely. This example, studied by Kummer in the 1840s in connection with Fermat's Last Theorem, motivated the entire theory of ideals and the ring hierarchy.
+Consider the ring ℤ[√-5] = {a + b√-5 : a, b ∈ ℤ}. This is an integral domain, but 6 = 2 × 3 = (1 + √-5)(1 − √-5) are two genuinely different factorizations into irreducible elements. Neither 2 nor 3 divides (1 ± √-5), and neither (1 ± √-5) divides 2 or 3. Unique factorization has failed completely. Failures of this kind, which Kummer met in the 1840s in rings of cyclotomic integers while working on Fermat's Last Theorem, motivated the theory of ideals and the ring hierarchy.
 
 A **unique factorization domain** avoids this pathology. The definition has two parts: every nonzero non-**unit** (an element with a multiplicative inverse, like ±1 in ℤ) must factor into **irreducible elements** (existence), and any two such factorizations must agree up to reordering and multiplication by units (uniqueness). In ℤ, the units ±1 account for why 12 = 2² × 3 and −12 = (−1)(2²)(3) are considered the same factorization.
 

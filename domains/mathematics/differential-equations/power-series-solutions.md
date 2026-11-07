@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 When an ODE cannot be solved by standard methods, assume a power series solution y = Σ aₙx^n, substitute into the equation, and match coefficients to find aₙ. This approach works when the equation has an analytic solution around a point. Recurrence relations for the coefficients determine the solution, usually yielding two linearly independent series from different initial conditions.
 
+## How It's Best Learned
+First run the method on y'' + y = 0, where the recurrence aₙ₊₂ = −aₙ/((n + 2)(n + 1)) rebuilds cos x and sin x, so you can check every step. Then try y'' − xy = 0. Shifting indices so each sum shows xᵏ gives 2a₂ = 0 and aₖ₊₂ = aₖ₋₁/((k + 2)(k + 1)) for k ≥ 1. From there, a₃ = a₀/6, a₄ = a₁/12 and a₅ = 0.
+
+## Common Misconceptions
+- You can match coefficients as soon as you substitute. (The sums usually start with different powers, such as xⁿ⁻² and xⁿ⁺¹, so shift indices until every sum is written in the same power xᵏ before matching.)
+- a₂ is a third free constant. (For a second-order equation, a₀ and a₁ are free and a₂ is fixed by the equation; in y'' − xy = 0 the constant term forces a₂ = 0.)
+- The series you find converges for every x. (At an ordinary point the radius of convergence is at least the distance to the nearest singular point, real or complex; it can be infinite, but that has to be checked.)
+
 ## Questions
 
 ```yaml
@@ -38,7 +46,7 @@ When an ODE cannot be solved by standard methods, assume a power series solution
   answer: 1
   explanation: "A second-order ODE has a two-dimensional solution space, which corresponds to two free parameters. The recurrence aₙ₊₂ = −aₙ/[(n+2)(n+1)] links even-indexed coefficients (a₀, a₂, a₄, …) and odd-indexed coefficients (a₁, a₃, a₅, …) independently — so a₀ freely determines all even terms, and a₁ freely determines all odd terms. Setting (a₀,a₁) = (1,0) gives one solution; (0,1) gives a second. These are linearly independent (neither is a multiple of the other) and their span is the general solution. Option D is the most common error: forgetting that a₁ is also free."
 
-- question: "A student applies the power series method to an ODE and obtains a recurrence relation. After computing 20 terms, they cannot recognize the resulting series as any standard function (e₊, cos, etc.). They conclude the method has failed. What is wrong with this reasoning?"
+- question: "A student applies the power series method to an ODE and obtains a recurrence relation. After computing 20 terms, they cannot recognize the resulting series as any standard function (eˣ, cos, etc.). They conclude the method has failed. What is wrong with this reasoning?"
   type: multiple-choice
   options:
     - "The method only works if the solution is a polynomial; an unrecognized series means a singular point was encountered"
@@ -66,7 +74,7 @@ When an ODE cannot be solved by standard methods, assume a power series solution
 
 ## Explainer
 
-You have already solved second-order linear ODEs when the coefficients are constants: you guess y = eʳˣ, plug in, find the characteristic equation, and recover the solution. But many important ODEs — Bessel's equation, Legendre's equation, the simple harmonic oscillator with non-constant forcing — have **variable coefficients** that invalidate the exponential guess. The **power series method** replaces the exponential ansatz with a more flexible one: assume y = a₀ + a₁x + a₂x² + ⋯ = Σₙ₌₀^∞ aₙxⁿ, then determine what the coefficients aₙ must be for y to satisfy the ODE.
+You have already solved second-order linear ODEs when the coefficients are constants: you guess y = eʳˣ, plug in, find the characteristic equation, and recover the solution. But many important ODEs — Bessel's equation, Legendre's equation, Airy's equation y'' − xy = 0 — have **variable coefficients** that invalidate the exponential guess. The **power series method** replaces the exponential ansatz with a more flexible one: assume y = a₀ + a₁x + a₂x² + ⋯ = Σₙ₌₀^∞ aₙxⁿ, then determine what the coefficients aₙ must be for y to satisfy the ODE.
 
 The mechanics of the method rely on your knowledge of Taylor series. If y is a power series, its derivative is also a power series: y' = Σ n·aₙxⁿ⁻¹, y'' = Σ n(n−1)aₙxⁿ⁻², and so on. Substitute y, y', y'' into the ODE, multiply out any variable-coefficient terms, and collect all powers of x together. For the result to equal zero (since the ODE is set to zero), the coefficient of each power xᵏ must independently equal zero. This gives you infinitely many equations — one for each power — but they are linked by a **recurrence relation**: aₙ₊₂ in terms of aₙ, or aₙ₊₁ in terms of aₙ, depending on the ODE. Once you find the recurrence, you can compute as many coefficients as you need from two free parameters (typically a₀ and a₁).
 

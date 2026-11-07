@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 The group algebra k[G] of a finite group G over a field k is the vector space with basis {eᵍ : g ∈ G} equipped with multiplication extending the group operation linearly: (Σ aᵍeᵍ)(Σ bₕeₕ) = Σ aᵍbₕe_{gh}. This construction translates group representation theory into module theory: a representation of G over k is precisely the same thing as a left k[G]-module. This equivalence is not merely a convenience — it unlocks the full machinery of ring theory (ideals, radicals, semisimplicity) for studying representations.
 
+## How It's Best Learned
+Compute in ℂ[ℤ/2ℤ] with generator g. Check that e₊ = (1 + g)/2 and e₋ = (1 − g)/2 satisfy e₊² = e₊, e₋² = e₋, e₊e₋ = 0 and e₊ + e₋ = 1, so the algebra splits as ℂ ⊕ ℂ. Then repeat over a field of characteristic 2. There 1/2 does not exist and (1 + g)² = 0, a nonzero nilpotent element, so the algebra does not split.
+
+## Common Misconceptions
+- Multiplication in k[G] multiplies coefficients entry by entry. (It extends the group law, so it is convolution: the coefficient of g in ab is the sum of aₕb_{h⁻¹g} over h in G.)
+- Since every group element is invertible, every nonzero element of k[G] is invertible. (For G nontrivial, k[G] has zero divisors. In ℂ[ℤ/2ℤ], (1 + g)(1 − g) = 1 − g² = 0.)
+- The complex group algebra determines the group. (ℂ[ℤ/4ℤ] and ℂ[ℤ/2ℤ × ℤ/2ℤ] are both isomorphic to ℂ ⊕ ℂ ⊕ ℂ ⊕ ℂ, though the groups differ.)
+
 ## Questions
 
 ```yaml

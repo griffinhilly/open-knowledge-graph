@@ -19,6 +19,14 @@ status: validated
 ## Core Idea
 Many PDEs arise as the Euler-Lagrange equations of variational problems: they characterize critical points of energy functionals. The Dirichlet problem -Δu = f is equivalent to minimizing J(v) = ½∫|∇v|²dx - ∫fv dx over H¹₀(Ω). The direct method of the calculus of variations proves existence by showing that minimizing sequences converge (using weak compactness in Sobolev spaces and lower semicontinuity of the functional). Beyond simple minimization, variational methods include mountain pass theorems and minimax principles for finding saddle-point solutions of nonlinear PDEs.
 
+## How It's Best Learned
+Run the direct method on a case that works and a case that fails. For J(u) = ∫₀¹ (½u'² − u) dx on H¹₀(0, 1), the minimizer is u = x(1 − x)/2 with J = −1/24. Then take ∫₋₁¹ x²u'² dx with u(±1) = ±1. The sequence arctan(nx)/arctan(n) drives it to 0, but no admissible u gives 0. Identify which step of the method breaks.
+
+## Common Misconceptions
+- A bounded minimizing sequence converges strongly. (Only a weakly convergent subsequence is guaranteed. In H¹₀(0, 1), sin(nπx)/(nπ) converges weakly to 0, while its derivatives keep L² norm 1/√2.)
+- A functional that is bounded below has a minimizer. (The weighted example above has infimum 0 and no minimizer, because the weight x² destroys coercivity near 0.)
+- Mountain pass geometry alone guarantees a second critical point. (A compactness condition such as Palais-Smale is also needed. In ℝ², F(x, y) = x² + (1 − x)³y² has a strict local minimum at the origin and F(4, 1) = −11, yet the origin is its only critical point.)
+
 ## Questions
 ```yaml
 - question: "The direct method of the calculus of variations proves existence by:"

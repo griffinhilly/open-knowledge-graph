@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Web GIS extends geographic information systems to the web, enabling spatial data sharing, visualization, and analysis through browsers without requiring desktop GIS software. The architecture typically follows a client-server model: spatial data servers (GeoServer, ArcGIS Server, MapServer) host and process geospatial data, exposing it through standardized web services (WMS, WFS, WMTS, OGC API). Web clients (Leaflet, OpenLayers, Mapbox GL, ArcGIS JS API) render interactive maps in browsers. Cloud-native geospatial formats (Cloud-Optimized GeoTIFF, GeoParquet, PMTiles) enable direct access to large datasets without server-side processing. Web GIS has democratized access to geospatial information, enabling non-specialists to interact with spatial data.
 
+## How It's Best Learned
+Build a small Leaflet page with an OpenStreetMap base layer and one GeoJSON layer. Open the browser's network tab while you pan and zoom, and watch the tile requests. Then add a WMS layer and compare its image responses with the GeoJSON features. Work the tile count: zoom level z holds 4^z tiles, so zoom 10 has about a million.
+
+## Common Misconceptions
+- Areas and distances on a web map are true to scale. (Most tiled web maps use Web Mercator, which stretches areas more and more toward the poles, so measurements need a geodesic or equal-area method.)
+- A tile server can pre-render every zoom level for the whole world at little cost. (Each zoom level has four times as many tiles as the one before, so deep zoom levels are often rendered on demand or only for areas with data.)
+- Cloud-native formats remove the need for any server. (The files still sit on a storage server reached over HTTP. What goes away is the separate map server that processes requests.)
+
 ## Questions
 
 ```yaml

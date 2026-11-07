@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 The renormalization group (RG) describes how the parameters of a quantum field theory change with the energy scale. The Callan-Symanzik equation governs the scale dependence of Green's functions. Fixed points of the RG flow correspond to scale-invariant theories. The RG explains universality in critical phenomena and determines the domain structure of quantum field theories.
 
+## How It's Best Learned
+Take λφ⁴ theory with the one-loop β(λ) = 3λ²/(16π²) and solve it. You get 1/λ(Q) = 1/λ(μ) − (3/16π²) ln(Q/μ). Expand the solution in powers of λ(μ) and see that it reproduces the one-loop logarithm and then sums the higher leading logs as a geometric series. Then find the scale where the denominator vanishes, the Landau pole. Finally sort φ², φ⁴ and φ⁶ in d = 4 into relevant, marginal and irrelevant by their mass dimension.
+
+## Common Misconceptions
+- A running coupling means the constants of nature change over time. (They change with the energy or distance scale of the process, not with time.)
+- Changing the renormalization scale μ changes physical predictions. (Exact predictions do not depend on μ; in a truncated calculation the leftover μ dependence is a rough gauge of the missing higher orders.)
+- A relevant operator matters most at high energies. (Relevant couplings grow toward low energies, so they dominate the infrared, while irrelevant ones fade there.)
+- A fixed point is always a free theory with zero coupling. (Fixed points can be interacting, such as the Wilson-Fisher fixed point that describes many critical phenomena.)
+
 ## Questions
 
 ```yaml

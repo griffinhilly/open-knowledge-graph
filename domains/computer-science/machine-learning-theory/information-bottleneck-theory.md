@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Information bottleneck (IB) theory, introduced by Tishby et al. (2000), characterizes optimal representations by balancing two competing information-theoretic objectives: (1) maximizing information about the target Y that the representation T preserves (I(T; Y)), and (2) minimizing information about the input X that the representation retains (I(T; X)). The IB principle states that the optimal representation is the one that compresses the input (low I(T; X)) while maintaining predictive power (high I(T; Y)). This provides a unified framework for understanding generalization, dimensionality reduction, and representation learning in neural networks, revealing deep learning as implicit information compression.
 
+## How It's Best Learned
+Work a discrete example. Let X be uniform on {1, 2, 3, 4} and let Y = 1 when X is 1 or 2. Compare three representations: T = X (I(T;X) = 2 bits, I(T;Y) = 1 bit), T = Y (1 bit and 1 bit), and a constant T (0 and 0). Plug them into I(T;Y) − beta·I(T;X): T = Y beats T = X for every beta > 0, and the constant wins once beta > 1.
+
+## Common Misconceptions
+- More compression always means better generalization. (A large beta also discards information about Y. Taken far enough, the optimal representation becomes nearly constant and predicts nothing.)
+- A small I(T;X) means T has few dimensions. (Mutual information measures how much T reveals about X, not how many coordinates it has. A high-dimensional T with heavy noise can carry little information, and one real number can carry a lot.)
+- The IB objective can be computed directly on a batch of data. (Mutual information between high-dimensional variables is hard to estimate. Practical methods such as VIB optimize variational bounds instead.)
+
 ## Questions
 
 ```yaml

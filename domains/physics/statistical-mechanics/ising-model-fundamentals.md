@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 The Ising model describes N spins {σ_i = ±1} on a lattice with energy H = −J Σ σ_i σ_j − h Σ σ_i, where J is coupling strength and h is external field. Despite apparent simplicity, it exhibits a ferromagnetic phase transition in 2D and higher. It is the paradigm model for studying phase transitions and critical phenomena.
 
+## How It's Best Learned
+Solve the 1D chain at h = 0 first with the 2×2 transfer matrix. Its eigenvalues are 2cosh(βJ) and 2sinh(βJ), and their ratio gives ⟨σ₀σ_r⟩ = tanh^r(βJ), which decays for every T > 0. Then compare the 1D domain-wall count with the Peierls argument in 2D. Finish by viewing simulated 2D snapshots just below and above T_c ≈ 2.269 J/k.
+
+## Common Misconceptions
+- Ising spins are small quantum magnets that can point in any direction. (Each σ_i is a classical variable that takes only +1 or −1 along one axis.)
+- Mean-field theory gets the existence and location of the transition right. (It predicts T_c = 2J/k for the 1D chain, which has no transition, and 4J/k for the square lattice, where the exact value is about 2.269 J/k.)
+- A finite lattice below T_c has nonzero ⟨m⟩ at h = 0. (By up-down symmetry ⟨m⟩ is exactly zero for any finite system at h = 0. Spontaneous magnetization appears when the limit N → ∞ is taken before h → 0, and simulations track ⟨|m|⟩ instead.)
+
 ## Questions
 
 ```yaml

@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 For a multivariable function, lim_(x,y)→(a,b) f(x,y) = L if for every ε > 0 there exists δ > 0 such that |f(x,y) − L| < ε whenever 0 < √[(x−a)² + (y−b)²] < δ. Continuity requires the limit to exist and equal f(a, b). Multiple paths to a point complicate convergence analysis.
 
+## How It's Best Learned
+Study two similar-looking functions side by side at the origin. For f = x²y/(x² + y²), the bound |f| ≤ |y| proves the limit is 0. For g = x²y/(x⁴ + y²), every line y = mx gives 0, but the parabola y = x² gives 1/2, so no limit exists. Ask what in f's formula made a bound possible.
+
+## Common Misconceptions
+- If the limit is 0 along every straight line through the point, the limit is 0. (Curved paths can give a different value, as y = x² does for x²y/(x⁴ + y²).)
+- In polar form, getting L for each fixed θ proves the limit. (The bound must shrink to zero as r → 0 uniformly in θ; x²y/(x⁴ + y²) gives 0 for each fixed θ yet has no limit.)
+- A function defined at the point is continuous there. (It also needs the limit to exist and equal the function's value.)
+- If both one-variable slices f(x, b) and f(a, y) are continuous, f is continuous at (a, b). (xy/(x² + y²) with value 0 at the origin has continuous slices along both axes but no limit at the origin.)
+
 ## Questions
 
 ```yaml

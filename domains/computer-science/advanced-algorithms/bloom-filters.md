@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 A Bloom filter is a space-efficient probabilistic data structure for approximate set membership queries. It uses a bit array of m bits and k independent hash functions: inserting an element sets k bit positions; querying checks whether all k positions are set. False negatives are impossible (inserted elements always test positive), but false positives occur when unrelated elements happen to set the same bit positions. The false positive rate for n elements is approximately (1 - e^(-kn/m))^k, minimized when k = (m/n) ln 2. With optimal parameters, a Bloom filter uses about 1.44 log_2(1/epsilon) bits per element for false positive rate epsilon — far less than storing the elements themselves. Variants include counting Bloom filters (supporting deletion), cuckoo filters (better space for low epsilon), and Bloom filter cascades.
 
+## How It's Best Learned
+Derive the false positive formula yourself: start from the chance one hash leaves a given bit at 0, raise it to kn, subtract from 1 to get the chance the bit is set, then take the k-th power for a query. Next, tabulate the rate for a fixed m/n, such as 10, with k from 1 to 14. The table makes the optimum near k = (m/n) ln 2 visible and shows that about half the bits are set there.
+
+## Common Misconceptions
+- More hash functions always lower the false positive rate. (Past the optimum, extra hash functions fill the array faster than they add checks, so the rate goes up.)
+- A Bloom filter can answer "definitely present." (A positive answer means "possibly present." Only a negative answer is certain, since false negatives cannot occur in a standard filter.)
+- Clearing an element's bits is a safe way to delete it. (Other elements may share those bits, so clearing them can create false negatives. Deletion needs a variant such as a counting Bloom filter or a cuckoo filter.)
+- The false positive rate depends on the size of the universe of possible keys. (For well-behaved hash functions it depends on m, n and k. The key universe affects only how the hashes are computed.)
+
 ## Questions
 
 ```yaml

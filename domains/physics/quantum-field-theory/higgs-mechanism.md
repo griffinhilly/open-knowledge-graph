@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 The Higgs mechanism generates masses for gauge bosons through spontaneous breaking of a gauge symmetry. The would-be Goldstone bosons are "eaten" by the gauge bosons, becoming their longitudinal polarization components. The gauge bosons acquire mass while the theory remains renormalizable. The physical Higgs boson is the remaining massive scalar excitation.
 
+## How It's Best Learned
+Work the abelian Higgs model by hand. Write φ = (v + h)e^{iθ/v}/√2 and expand |D_μφ|². You get a mass term e²v²A²/2, a kinetic term for θ, and a mixing term proportional to ev A^μ∂_μθ. Remove θ with the gauge shift A_μ → A_μ + (1/ev)∂_μθ to reach unitary gauge. Then count degrees of freedom: 2 + 2 before, 3 + 1 after.
+
+## Common Misconceptions
+- The gauge bosons eat the Higgs boson. (They absorb the would-be Goldstone modes; the Higgs boson is the leftover radial mode and remains a physical particle.)
+- The Higgs mechanism works by adding a mass term that breaks gauge invariance. (The Lagrangian stays gauge invariant; the mass terms come from |D_μφ|² once φ has a vacuum expectation value.)
+- The Higgs field is the source of nearly all the mass of ordinary matter. (It gives mass to the W, Z, quarks and charged leptons, but most of a proton's mass comes from QCD binding energy.)
+
 ## Questions
 
 ```yaml

@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 The ergodic hypothesis asserts that a system in equilibrium, over sufficiently long times, explores all accessible microstates with equal probability. This postulate justifies the use of ensemble averages to describe measurable quantities, since time-averaged observables converge to ensemble averages for ergodic systems.
 
+## How It's Best Learned
+Test the hypothesis on two uncoupled oscillators with total energy E. The microcanonical ensemble spreads E₁ uniformly over 0 to E, so ⟨E₁⟩ = E/2. But E₁ is separately conserved, so its time average equals its starting value, whatever the frequency ratio. Then add a nonlinear coupling, simulate, and watch E₁ wander. This shows an extra conserved quantity blocking ergodicity.
+
+## Common Misconceptions
+- An ergodic system visits every microstate during a measurement. (The time to come near every region of a macroscopic energy surface is astronomically long. Measured averages converge much sooner because most of the surface gives the same macroscopic values.)
+- Chaotic dynamics guarantees ergodicity. (Many systems are mixed: a chaotic region coexists with regular islands that trajectories from outside cannot enter. Ergodicity can then hold only within each region.)
+- Ergodic and mixing mean the same thing. (Mixing is stronger. A rotation of a circle by an irrational angle is ergodic, since time averages equal space averages, but it is not mixing, because a patch of points is carried around without spreading.)
+
 ## Questions
 
 ```yaml
@@ -42,13 +50,13 @@ The ergodic hypothesis asserts that a system in equilibrium, over sufficiently l
   type: multiple-choice
   options:
     - "The system is ergodic — rational frequencies ensure the trajectory is periodic, periodically visiting all microstates"
-    - "The system is non-ergodic — a rational frequency ratio produces a closed orbit that explores only a 1D curve on the 2D energy surface, not the full surface"
+    - "The system is non-ergodic — a rational frequency ratio produces a closed orbit that explores only a 1D curve, not the full energy surface"
     - "Ergodicity depends on initial conditions, not frequency ratio — some initial states will be ergodic and others not"
     - "The system is maximally ergodic — a periodic orbit samples all phases of both oscillators"
   answer: 1
-  explanation: "A harmonic oscillator with rational frequency ratio has a trajectory that closes on itself after a finite time, tracing a Lissajous curve on the energy surface. This 1D curve covers only a measure-zero subset of the 2D energy surface — the time average over this trajectory samples only states along the closed orbit, not the full ensemble. For an irrational ratio, the trajectory densely fills the torus (quasi-periodic, not closed), which is closer to ergodic — but even dense filling is not the same as uniform sampling with the correct measure."
+  explanation: "A harmonic oscillator with rational frequency ratio has a trajectory that closes on itself after a finite time, tracing a Lissajous curve on the energy surface. This 1D curve covers only a measure-zero subset of the 3D energy surface — the time average over this trajectory samples only states along the closed orbit, not the full ensemble. For an irrational ratio, the trajectory densely fills a 2D torus (quasi-periodic, not closed), but the system is still not ergodic on the energy surface: the two oscillator energies E₁ and E₂ are separately conserved, so the trajectory never leaves that torus."
 
-- question: "The ergodic hypothesis follows as a theorem from Liouville's theorem combined with energy conservation, so it is rigorously highly probable for any Hamiltonian system."
+- question: "The ergodic hypothesis follows as a theorem from Liouville's theorem combined with energy conservation, so it is rigorously true for any Hamiltonian system."
   type: true-false
   answer: false
   explanation: "Liouville's theorem proves that phase-space volume is conserved — the probability density evolves like an incompressible fluid. Energy conservation confines the trajectory to the energy surface. Neither implies that the trajectory uniformly explores the entire energy surface. The ergodic hypothesis is an additional postulate that must be verified or assumed case-by-case. It fails for integrable systems (too many conserved quantities), glassy systems (stuck in metastable states), and KAM-theorem islands. It is not a consequence of Hamiltonian mechanics in general."
@@ -70,6 +78,6 @@ From your study of ensemble theory you know that statistical mechanics replaces 
 
 The hypothesis can be stated precisely: a system is ergodic if a single long trajectory in phase space visits every region of the **energy surface** (the hypersurface where the total energy equals the measured value) with a frequency proportional to that region's phase-space volume. In other words, *time average = ensemble average*. Formally: (1/T)∫₀ᵀ A(q(t),p(t)) dt → ⟨A⟩_{ensemble} as T → ∞. If this holds, then the single trajectory your real physical system traces through phase space produces the same observable statistics as the microcanonical ensemble that assigns equal weight to all accessible microstates.
 
-The hypothesis is not automatically true for all systems — it is a postulate that must be justified or verified case by case. Some systems are definitively non-ergodic: a harmonic oscillator on a 2D torus with an irrational frequency ratio has trajectories that fill the surface densely, while one with a rational ratio produces closed loops that only sample a 1D subset. More physically interesting violations occur in **integrable systems** (too many conserved quantities to explore phase space freely) and in **glasses** or **spin glasses** (where the system gets stuck in metastable regions for astronomically long times). The KAM theorem from classical mechanics shows that even weakly perturbed integrable systems retain islands of non-ergodic behavior.
+The hypothesis is not automatically true for all systems — it is a postulate that must be justified or verified case by case. Some systems are definitively non-ergodic: a harmonic oscillator on a 2D torus with an irrational frequency ratio has trajectories that fill the surface densely, while one with a rational ratio produces closed loops that only sample a 1D subset. In both cases the separately conserved oscillator energies keep the trajectory on one torus, so neither is ergodic on the energy surface. More physically interesting violations occur in **integrable systems** (too many conserved quantities to explore phase space freely) and in **glasses** or **spin glasses** (where the system gets stuck in metastable regions for astronomically long times). The KAM theorem from classical mechanics shows that even weakly perturbed integrable systems retain islands of non-ergodic behavior.
 
 For practical statistical mechanics — gases, simple liquids, weakly interacting solids — ergodicity is a reliable working assumption because the number of degrees of freedom is enormous (∼10²³) and interactions are strong enough to scramble trajectories rapidly. The deeper justification comes from the modern theory of **mixing**: if the dynamics act chaotically on phase space, nearby trajectories diverge exponentially, and the time average converges to the ensemble average on practical timescales. The ergodic hypothesis, then, is not a rigorous theorem but a physically motivated bridge that makes the ensemble formalism predictively useful for real materials.

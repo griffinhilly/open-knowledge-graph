@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 The leader chooses quantity first; the follower observes and responds optimally. Using backward induction, the leader anticipates the follower's response and optimizes, achieving higher profit than in simultaneous Cournot. The leader's commitment advantage comes from moving first and constraining the follower's profitable response. The follower is worse off than in Cournot competition.
 
+## How It's Best Learned
+Solve Cournot and Stackelberg side by side with P = 120 − Q and zero costs. The follower's reaction is q₂ = (120 − q₁)/2. Substituting gives the leader profit q₁(60 − q₁/2), so q₁ = 60, q₂ = 30 and P = 30. Profits are 1800 and 900, against 1600 each in Cournot. Plot both points on the reaction-function diagram.
+
+## Common Misconceptions
+- The follower uses a different reaction function than in Cournot. (The follower's best response is the same function. Only the leader's problem changes, because it now takes that function into account.)
+- The Stackelberg outcome sits on the leader's Cournot reaction function. (The leader picks the point on the follower's reaction function that maximizes its own profit. Its quantity is not its static best response to the follower's output.)
+- Stackelberg leadership pushes the market toward monopoly. (Total output is higher and price is lower than in Cournot, so consumers are better off than under simultaneous quantity choice.)
+- Moving first is an advantage in any sequential game. (It helps in quantity competition. In sequential price competition with differentiated products, the follower can earn more than the leader by pricing after it sees the leader's price.)
+
 ## Questions
 
 ```yaml

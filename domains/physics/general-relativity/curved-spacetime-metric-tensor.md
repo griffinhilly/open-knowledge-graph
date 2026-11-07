@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 In general relativity, spacetime is a four-dimensional pseudo-Riemannian manifold whose geometry is encoded in the metric tensor g_μν. The metric generalizes the flat Minkowski metric η_μν of special relativity to allow curvature: the infinitesimal spacetime interval ds² = g_μν dx^μ dx^ν determines proper time along timelike paths, proper distance along spacelike separations, and the causal structure (timelike, null, spacelike) at every event. The metric is the fundamental dynamical variable of GR — it is determined by the distribution of matter and energy through Einstein's field equations, and it in turn dictates how matter and light move through spacetime.
 
+## How It's Best Learned
+Begin with a twin-paradox calculation: integrate dτ along two worldlines in Minkowski space and see the metric act as a clock. Then write flat space in polar coordinates to show that position-dependent components alone do not mean curvature. Finally use the weak-field metric g_00 ≈ −(1 + 2Φ/c²) to find that a clock 1 km above Earth's surface runs fast by gh/c² ≈ 10⁻¹³.
+
+## Common Misconceptions
+- If the metric components change from place to place, spacetime must be curved. (Polar coordinates on flat space have r-dependent components. Curvature is shown by the Riemann tensor, not by the coordinates.)
+- ds² is a squared length, so it cannot be negative. (The metric is Lorentzian. In the (−,+,+,+) convention, ds² is negative for timelike separations.)
+- The speed of light changes in curved spacetime because light's coordinate speed changes. (A local observer always measures light at c. Coordinate speeds differ only because of the coordinates chosen.)
+- Gravity near Earth comes mainly from curved space, like a ball rolling on a rubber sheet. (For slow objects the Newtonian pull comes mostly from g_00, the warping of time, and not from the spatial part.)
+
 ## Questions
 
 ```yaml

@@ -28,6 +28,14 @@ status: validated
 ## Core Idea
 The curl ∇ × F measures rotation and circulation of F; for F = ⟨P, Q, R⟩, curl F = ⟨(∂R/∂y − ∂Q/∂z), (∂P/∂z − ∂R/∂x), (∂Q/∂x − ∂P/∂y)⟩. The divergence ∇ · F = ∂P/∂x + ∂Q/∂y + ∂R/∂z measures net outflow. Both are fundamental to Green's, Stokes', and divergence theorems.
 
+## How It's Best Learned
+Write the curl as a 3×3 determinant with rows i, j, k, then ∂/∂x, ∂/∂y, ∂/∂z, then P, Q, R. Practice on F = ⟨xy, yz, zx⟩: the divergence is x + y + z and the curl is ⟨−y, −z, −x⟩. Then take the divergence of that curl and get 0. Repeat with ∇(x²y) = ⟨2xy, x², 0⟩, whose curl is 0, to see both identities appear.
+
+## Common Misconceptions
+- The 2D curl is ∂P/∂y − ∂Q/∂x. (It is ∂Q/∂x − ∂P/∂y. Check with ⟨−y, x⟩, which turns counterclockwise and should give +2.)
+- The middle component of the curl is ∂R/∂x − ∂P/∂z. (Expanding the determinant puts a minus sign on the j term, so the middle component is ∂P/∂z − ∂R/∂x.)
+- The divergence is the vector ⟨∂P/∂x, ∂Q/∂y, ∂R/∂z⟩. (Those three derivatives are added. The divergence is a single number at each point.)
+
 ## Questions
 
 ```yaml

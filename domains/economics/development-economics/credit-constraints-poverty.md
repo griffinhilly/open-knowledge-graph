@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Credit constraints prevent poor households from investing in education, business startup, or farm improvements despite positive expected returns. Lenders face adverse selection (inability to distinguish good from bad borrowers) and moral hazard (incentive problems), driving up interest rates and rationing credit, leaving poor households unable to self-finance escape from poverty.
 
+## How It's Best Learned
+Follow two farmers with the same skills and the same fertilizer project; one owns titled land and one does not. At each step (applying, getting a rate, using the loan, a bad harvest), ask what the lender knows and what it can recover. Then project both farmers forward a few seasons and show how starting wealth alone separates their incomes.
+
+## Common Misconceptions
+- Poor households are shut out of credit because their projects earn less. (Credit constraints can bind even when a poor household's project matches or beats a wealthy neighbor's. The gap can come from lacking collateral alone.)
+- Higher interest rates let lenders price any risk. (Raising rates can drive out safer borrowers and worsen the pool, so lenders may ration credit instead.)
+- If someone is poor, credit is the reason. (Credit is one possible binding constraint. Poor infrastructure, missing skills, or disease can also limit returns, and then credit alone will not help.)
+- Collateral matters only because the lender can seize it. (Pledging assets also signals the borrower's confidence and gives her a stake in avoiding default.)
+
 ## Questions
 
 ```yaml

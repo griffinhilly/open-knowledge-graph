@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 An anomaly occurs when a symmetry of the classical Lagrangian is broken by quantum effects (loop corrections). The chiral anomaly breaks the classical conservation of the axial current and explains neutral pion decay. Gauge anomalies would destroy the consistency of a gauge theory; their cancellation constrains the particle content of the Standard Model.
 
+## How It's Best Learned
+Start from the triangle diagram with one axial and two vector vertices in massless QED. Shift the loop momentum and watch a finite surface term appear, so the result depends on how the loop momentum is routed. Show that no routing keeps both currents conserved. Then check anomaly cancellation by hand for one Standard Model generation, writing every fermion as a left-handed Weyl field and summing the cubes of the hypercharges, counting colors and isospin components.
+
+## Common Misconceptions
+- An anomaly means the calculation has a mistake or a regularization artifact that a better scheme would remove. (No regulator preserves both the vector and axial symmetries of the triangle diagram, so the breaking is a real feature of the quantum theory with measurable effects such as π⁰ → γγ.)
+- Every anomaly makes a theory inconsistent. (Anomalies in global symmetries are allowed and physically useful; only anomalies in gauged symmetries spoil unitarity and must cancel.)
+- The anomaly arises at every loop order and needs a full perturbative series. (The Adler-Bardeen theorem says the axial anomaly coefficient is fixed by the one-loop triangle and receives no higher-order corrections.)
+
 ## Questions
 
 ```yaml

@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 The infant industry argument holds that new industries in developing countries need temporary protection from cheaper foreign competition to survive learning and scale. South Korea, Taiwan, and China used this approach; however, protected industries often remained uncompetitive. The debate centers on whether protection accelerates learning or simply transfers rents to incumbents.
 
+## How It's Best Learned
+Trace an 80% learning curve. Unit cost starts at 100 and falls to 80, 64, and 51.2 as cumulative output reaches 2, 4, and 8 units. With a world price of 60, the firm loses money on early units and profits once cost drops below 60. Then ask why the firm could not borrow to cover the early losses, and what market failure would justify protection.
+
+## Common Misconceptions
+- If a firm will become profitable after learning, it needs protection to survive. (With working credit markets, the firm could borrow against future profits. The case for protection rests on a market failure, such as credit constraints or learning that spills over to other firms.)
+- The main problem with infant industry policy is that learning by doing does not happen. (Learning curves are well documented. The main problem is that protection, once granted, is hard to withdraw.)
+- Protection itself causes the learning. (Learning comes from production experience. Protection buys time but can weaken the pressure to cut costs.)
+- Infant industry protection means tariffs. (Quotas and production subsidies serve the same aim. A subsidy shows its cost in the budget, while a tariff hides it in higher prices for consumers and downstream firms.)
+
 ## Questions
 
 ```yaml

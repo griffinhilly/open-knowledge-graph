@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 The representer theorem states that the solution to any regularized empirical risk minimization problem over an RKHS — minimizing a loss plus a monotonically increasing function of the RKHS norm — lies in the span of the kernel functions evaluated at the training points: f*(x) = sum_{i=1}^{n} alpha_i * k(x_i, x). Even though the RKHS may be infinite-dimensional, the optimal function is determined by just n coefficients. This reduces an infinite-dimensional optimization problem to a finite-dimensional one, making kernel methods computationally tractable and explaining why the kernel matrix (Gram matrix) is the central object in kernel algorithms.
 
+## How It's Best Learned
+Run the projection proof on a small case. Use the kernel k(x, x') = (1 + xx')² on the real line, with feature map (1, √2x, x²), and one training point x = 1. Take f(x) = x², which has f(1) = 1 and squared norm 1. Projecting onto the span of k(1, ·) gives (1 + x)²/4. The training value stays 1 while the squared norm drops to 1/4.
+
+## Common Misconceptions
+- The theorem shows that the RKHS itself is only n-dimensional. (The RKHS can be infinite-dimensional. Only the minimizer is guaranteed to lie in the n-dimensional subspace spanned by the kernel functions at the training inputs.)
+- The representer theorem makes the solution sparse, with only a few nonzero coefficients. (It allows a coefficient for every training point. Sparsity in SVMs comes from the hinge loss, while kernel ridge regression generally has nonzero coefficients on every point.)
+- Any kernel-based objective satisfies the theorem. (The loss must depend on f only through its values at the training points, and the penalty must be an increasing function of the RKHS norm. Objectives outside that form need a separate argument.)
+
 ## Questions
 
 ```yaml

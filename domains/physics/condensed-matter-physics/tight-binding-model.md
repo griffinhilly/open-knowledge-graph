@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 The tight-binding model constructs crystal electronic states by starting from isolated atomic orbitals and introducing hopping between neighboring atoms. An electron in atomic orbital phi(r - R_i) at site R_i can tunnel to a neighboring site R_j with amplitude t (the hopping or transfer integral). The resulting Bloch states have energies E(k) = epsilon_0 - t sum_delta e^{ik·delta}, where the sum runs over nearest-neighbor vectors delta. For a simple cubic lattice with one orbital per site, this gives E(k) = epsilon_0 - 2t(cos k_x a + cos k_y a + cos k_z a) — a cosine band whose width is 12t. The tight-binding approach naturally produces narrow bands from localized orbitals and is the complement of the nearly free electron model.
 
+## How It's Best Learned
+Diagonalize an N-site ring numerically and check the eigenvalues against ε₀ − 2t cos(2πm/N). Then give the chain two sites per cell with alternating hoppings t₁ and t₂; the bands become ±|t₁ + t₂e^{ika}|, with a gap of 2|t₁ − t₂| at ka = π. Finally, set up the two-sublattice honeycomb model for graphene and find where its two bands touch.
+
+## Common Misconceptions
+- The bandwidth is set by how deep the atomic level is. (It is set by the hopping and the number of neighbors; in the simple lattices above it equals 2zt, as with 4t in 1D and 12t in simple cubic.)
+- Tight-binding works only for tightly bound inner orbitals. (Tight-binding models with fitted hoppings describe sp-bonded materials such as silicon and graphene well.)
+- Atomic orbitals on neighboring sites are orthogonal. (Real atomic orbitals overlap; the simplest models either neglect this overlap or use orthogonalized orbitals built from them.)
+
 ## Questions
 
 ```yaml

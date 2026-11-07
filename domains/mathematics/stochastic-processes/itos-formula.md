@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Itô's formula is the chain rule of stochastic calculus: for a C² function f and a process X(t) = X(0) + ∫μ ds + ∫σ dW, we have df(X) = f'(X)dX + (1/2)f''(X)σ²dt. The extra second-order term (1/2)f''σ²dt arises because (dW)² = dt — the non-zero quadratic variation of Brownian motion prevents the second-order Taylor term from vanishing as it does in classical calculus. This formula is the single most used tool in stochastic calculus.
 
+## How It's Best Learned
+Write the multiplication table dt·dt = 0, dt·dW = 0, dW·dW = dt on a card and expand every example to second order with it. A good first case is f(t, x) = exp(θx - θ²t/2) with X = W. The terms -(θ²/2)f dt from ∂f/∂t and +(θ²/2)f dt from the Itô correction cancel, leaving df = θf dW, so the process is a martingale.
+
+## Common Misconceptions
+- The rule (dW)² = dt says each squared increment equals the time step. (Each (ΔW)² is random with mean Δt; the rule describes the sum Σ(ΔWᵢ)², which converges to the elapsed time.)
+- The drift μ also enters the correction term. (Since dt·dt = 0 and dt·dW = 0, only σ² survives in (dX)², so the correction is (1/2)f''(X)σ² dt.)
+- If f depends on time, a second-order time term is needed too. (Only ∂f/∂t appears; ∂²f/∂t² multiplies (dt)², which is 0.)
+
 ## Questions
 
 ```yaml

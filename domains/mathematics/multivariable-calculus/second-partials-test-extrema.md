@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 At critical point (a, b), compute the Hessian matrix H = [[f_xx, f_xy], [f_xy, f_yy]]. If det(H) > 0 and f_xx > 0, it's a local min; if f_xx < 0, local max. If det(H) < 0, it's a saddle point. If det(H) = 0, test is inconclusive.
 
+## How It's Best Learned
+Compare two functions that differ only in the cross term. For f = x² + xy + y² at the origin, D = 4 − 1 = 3 > 0, a local minimum. For g = x² + 3xy + y², D = 4 − 9 = −5 < 0, a saddle. Check g along y = −x, where it equals −x², to see the downward direction the axes hide.
+
+## Common Misconceptions
+- If f_xx > 0 and f_yy > 0, the critical point is a local minimum. (A large f_xy can make D negative, giving a saddle, as with x² + 3xy + y².)
+- D = 0 means the point is a saddle. (D = 0 leaves the type open: x⁴ + y⁴, −x⁴ − y⁴ and x⁴ − y⁴ all have D = 0 at the origin, which is a minimum, a maximum and a saddle in turn.)
+- The test can classify any point where I compute D. (It applies at critical points; a point where ∇f ≠ 0 is not a local extremum of a differentiable function, whatever D is.)
+
 ## Questions
 
 ```yaml

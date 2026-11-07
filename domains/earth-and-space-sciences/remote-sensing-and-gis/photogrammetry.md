@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Photogrammetry extracts three-dimensional measurements from two-dimensional photographs by exploiting parallax -- the apparent shift of objects when viewed from different positions. When the same scene is captured from two or more viewpoints with known geometry, corresponding points in the overlapping images can be matched and their 3D coordinates computed through triangulation. Traditional photogrammetry uses precisely calibrated aerial cameras with controlled flight geometry, while modern Structure-from-Motion (SfM) photogrammetry works with unordered photographs from consumer cameras or drones, automatically solving for camera positions and scene geometry simultaneously.
 
+## How It's Best Learned
+Walk around a statue taking 30 or more overlapping phone photos and build a model in free SfM software. Then photograph a plain white wall and watch matching fail. For classic stereo, work the parallax height formula: with flying height 1000 m, base parallax 90 mm and parallax difference 2 mm, height is 1000 x 2 / (90 + 2), about 21.7 m.
+
+## Common Misconceptions
+- An SfM model comes out at true scale and in map coordinates. (Without ground control points or accurate camera positions, the model has arbitrary scale, position and orientation.)
+- Any surface can be reconstructed if enough photos are taken. (Matching needs visible texture, so water, fresh snow, glass and blank walls often leave holes or errors.)
+- Taking more photos always makes the model more accurate. (Accuracy depends more on viewing geometry, overlap, image sharpness and control. Many photos from one angle add little.)
+
 ## Questions
 
 ```yaml

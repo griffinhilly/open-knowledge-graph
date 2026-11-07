@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 The Glashow-Weinberg-Salam model unifies electromagnetism and the weak interaction as different aspects of a single SU(2)_L x U(1)_Y gauge theory. Spontaneous symmetry breaking via the Higgs mechanism gives mass to the W+, W-, and Z bosons while leaving the photon massless. The weak and electromagnetic interactions appear different only because the symmetry is broken at the electroweak scale (approximately 246 GeV).
 
+## How It's Best Learned
+Expand the Higgs kinetic term |D_μφ|² with ⟨φ⟩ = (0, v/√2) and read off the mass terms. The W₃-B part forms a 2 × 2 mass matrix proportional to [[g², −gg′], [−gg′, g′²]]. Find its eigenvalues: one is zero (the photon), the other gives m_Z = (v/2)√(g² + g′²). Then show that m_W/m_Z = cos θ_W and compare with the measured masses.
+
+## Common Misconceptions
+- Unification means the weak and electromagnetic forces share a single coupling constant. (The group SU(2)_L × U(1)_Y has two independent couplings, g and g′; the theory ties them to e through the mixing angle but does not make them equal.)
+- The photon is the B boson of hypercharge, and hypercharge is electric charge. (The photon is a mixture of W₃ and B, and electric charge is Q = T₃ + Y/2.)
+- The weak force is weak because its coupling is small. (The SU(2) coupling g is larger than e; weak processes are feeble at low energy because the heavy W and Z suppress the propagator.)
+- The Z couples only to left-handed fermions, like the W. (The Z couples to both chiralities with different strengths; right-handed charged fermions couple through the hypercharge part of the Z.)
+
 ## Questions
 
 ```yaml

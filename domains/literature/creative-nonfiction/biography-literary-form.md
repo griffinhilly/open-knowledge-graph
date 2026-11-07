@@ -21,6 +21,14 @@ status: draft
 ## Core Idea
 Biography as a literary form moves far beyond factual chronology to construct a compelling portrait of a life. Literary biography employs narrative techniques, stylistic craft, and interpretive judgment to create psychological depth, cultural significance, and engaging narrative while remaining grounded in research and evidence.
 
+## How It's Best Learned
+Start with a short packet of documents about one moment in a real life, such as two letters and a diary entry. Write the moment twice: once as a plain factual summary, once as a scene with setting and inner life. Then annotate every sentence of the scene as documented, inferred, or speculative, and cut or flag anything the documents cannot support.
+
+## Common Misconceptions
+- Literary biography is less accurate than scholarly biography. (It uses narrative craft to present research, and it is held to the same evidence.)
+- Describing a subject's inner life means the biographer has switched to fiction. (Psychological insight can be drawn from letters, diaries, and recorded behavior, provided the biographer separates inference from documented fact.)
+- A biography written in plain prose is a lesser biography. (Careful research and fair interpretation make a biography sound. Literary craft adds engagement and depth to that base.)
+
 ## Questions
 
 ```yaml
@@ -56,6 +64,7 @@ Biography as a literary form moves far beyond factual chronology to construct a 
 
 - question: How might a literary biographer use scene construction, dialogue, and psychological insight to reveal character while remaining true to historical evidence? What is the balance between craft and accuracy?
   type: short-answer
+  answer: "The biographer can build a scene from words recorded in letters or diaries, add setting from documented sources, and infer motives from patterns in the evidence. The balance holds when the writer keeps clear what is documented, what is inferred, and what is interpretation, and invents nothing the record cannot support."
   explanation: A literary biographer might reconstruct a conversation from letters or diary entries, using the words people actually wrote but constructing them as a scene—with setting, body language, emotional subtext. This is different from inventing dialogue that was never recorded. The biographer researches thoroughly, makes inferences grounded in evidence, but presents the material with narrative power. Psychological insight comes from close reading of diaries, letters, behavior patterns in historical documents—the biographer is interpreting evidence, not fabricating. The balance is maintained by being clear about what is documented, what is inferred, and what is imaginative interpretation in service of understanding. Good literary biography is both rigorously researched and beautifully written—accuracy and craft reinforce rather than contradict each other.
 ```
 

@@ -21,6 +21,14 @@ status: draft
 ## Core Idea
 Travel writing as a literary form combines reportage, personal essay, and adventure narrative. It explores the encounter between traveler and place, balancing sensory immersion and cultural observation with personal reflection and self-discovery, while inherently navigating questions of tourism, representation, and the politics of how travelers depict other places and peoples.
 
+## How It's Best Learned
+Take a short trip somewhere unfamiliar, even a neighborhood across town, and keep three columns of notes: what you saw and heard, what you felt or assumed, and what happened in order. Draft one page that alternates between the columns. Highlighting each sentence by column shows whether reportage, reflection, or narrative is crowding out the others.
+
+## Common Misconceptions
+- Travel writing needs a far-off, exotic destination. (The form depends on the encounter with the unfamiliar, which can happen close to home.)
+- A travel piece is a vivid description of a place. (Description needs to be joined by reflection and a sense of movement through the journey.)
+- Travel writing is a guidebook with more personality. (Guidebooks advise visitors, while travel writing as literature explores the encounter and what it means.)
+
 ## Questions
 
 ```yaml
@@ -56,6 +64,7 @@ Travel writing as a literary form combines reportage, personal essay, and advent
 
 - question: Describe a journey (real or imagined) combining reportage, personal reflection, and narrative structure. What did you observe? How did it change your understanding? What happened that created dramatic movement through the piece?
   type: short-answer
+  answer: "Combine specific observed details of the place, reflection on how the encounter challenged the writer's assumptions or revealed their own position, and a narrative that moves from first impression through tension to changed understanding."
   explanation: 'Example: You travel to an unfamiliar neighborhood. Reportage: specific details of streets, buildings, what you see and hear. Observation: you notice this is a thriving business district but also site of gentrification, with tension between longtime residents and newcomers. Personal reflection: this challenges your assumptions about urban decline; you realize how your own neighborhood was transformed this way; you recognize your own position as potential gentrifier. Narrative: the journey moves from initial observation to discomfort to understanding. By piece''s end, your perspective has shifted. You''ve balanced immersion in place, observation of what''s actually there, and honest reflection on what it means.'
 ```
 

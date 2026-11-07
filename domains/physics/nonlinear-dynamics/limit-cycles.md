@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 A limit cycle is an isolated closed orbit in phase space — trajectories near it either spiral toward it (stable limit cycle) or away from it (unstable limit cycle). Unlike the closed orbits of conservative systems (like the harmonic oscillator), which form continuous families, limit cycles are structurally stable and isolated: perturbing the system slightly changes the limit cycle slightly but does not destroy it. They represent self-sustained oscillations that persist without external periodic driving.
 
+## How It's Best Learned
+Simulate the van der Pol oscillator with μ = 1 from (x, ẋ) = (0.1, 0) and (4, 0) and plot both in the phase plane. Both settle onto the same closed curve, with x swinging out to about ±2. Repeat with μ = 0 and the two runs stay on different circles. Then show from E = (x² + ẋ²)/2 that dE/dt = −μ(x² − 1)ẋ², which explains the energy balance.
+
+## Common Misconceptions
+- Any closed orbit in phase space is a limit cycle. (A limit cycle has to be isolated; the closed orbits of the harmonic oscillator form a continuous family, so none of them is a limit cycle.)
+- The amplitude of a limit-cycle oscillation depends on how the system was started. (The system sets the amplitude; every trajectory in the basin of attraction approaches the same orbit.)
+- Self-sustained oscillation needs a periodic driving force. (A limit cycle arises in an autonomous system from the balance of energy input and dissipation, with no external clock.)
+- Limit cycles are always attracting. (Unstable limit cycles repel nearby trajectories, such as the one that shrinks onto the fixed point in a subcritical Hopf bifurcation.)
+
 ## Questions
 
 ```yaml
@@ -45,7 +54,7 @@ A limit cycle is an isolated closed orbit in phase space — trajectories near i
 
 - question: "A stable limit cycle has a well-defined basin of attraction. What happens to trajectories that start inside the limit cycle versus outside it?"
   type: short-answer
-  answer: "Trajectories starting outside the limit cycle spiral inward toward it; trajectories starting inside (but not at the fixed point enclosed by the cycle) spiral outward toward it. Both approach the limit cycle asymptotically, converging to the same periodic orbit regardless of initial conditions within the basin of attraction. The fixed point enclosed by a stable limit cycle must be unstable — if it were stable, nearby trajectories would approach it rather than the cycle."
+  answer: "Trajectories starting outside the limit cycle spiral inward toward it; trajectories starting inside (but not at the fixed point enclosed by the cycle) spiral outward toward it. Both approach the limit cycle asymptotically, converging to the same periodic orbit regardless of initial conditions within the basin of attraction. In the simplest case, where the cycle encloses a single fixed point and no other closed orbit, that fixed point must be unstable — if it were stable, nearby trajectories would approach it rather than the cycle."
   explanation: "This bidirectional approach is what makes limit cycles structurally stable self-sustained oscillators. A heartbeat, a neural firing rhythm, a predator-prey oscillation — all are modeled by stable limit cycles because the system returns to the same periodic behavior regardless of perturbations (within the basin of attraction). The key physics: energy input at small amplitudes and energy dissipation at large amplitudes create a unique amplitude where the two balance."
 
 - question: "Why are limit cycles impossible in gradient systems (systems of the form ẋ = -∇V for some potential V)?"

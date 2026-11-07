@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 A convex optimization problem minimizes a convex function over a convex set. Convexity guarantees that every local minimum is a global minimum — there are no suboptimal traps. This structural property makes convex problems fundamentally tractable: gradient descent and its variants are guaranteed to find the global optimum, and strong duality often holds, providing both an alternative solution method and optimality certificates. Most classical ML loss functions (linear regression, logistic regression, SVMs) are convex, and understanding convexity is essential for knowing when optimization is "easy" and when the non-convexity of deep learning is a genuine theoretical challenge.
 
+## How It's Best Learned
+Test a few one-variable functions three ways: the chord test, the sign of the second derivative, and whether each tangent line stays below the graph. Good cases are x², |x|, e^x, log(1 + e^x) and x⁴ − 2x² + 1. Then run gradient descent on a two-variable quadratic bowl, first round and then stretched, and watch progress slow along the flat direction as the ratio L/mu grows.
+
+## Common Misconceptions
+- A convex function has exactly one minimizer. (A convex function can have a flat set of minimizers, and some, like e^x, have none. Strict convexity rules out more than one minimizer.)
+- Strong duality comes free with convexity. (Weak duality holds for any problem, but strong duality can fail for a convex problem. A constraint qualification such as Slater's condition guarantees it.)
+- If the loss is convex in the model's output, training is a convex problem. (Convexity must hold in the parameters. Cross-entropy is convex in a network's logits, but composing it with a neural network makes the objective non-convex in the weights.)
+
 ## Questions
 
 ```yaml

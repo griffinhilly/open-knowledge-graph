@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 The radial distribution function gives the density of particles at distance r from a reference particle, averaged over all orientations. It quantifies local packing around each particle and directly relates to thermodynamic properties through the pressure and energy.
 
+## How It's Best Learned
+Take a simulated or measured g(r) and integrate ρg(r)·4πr² from zero to the first minimum to get the coordination number; compare it with 12 for a close-packed crystal. Then test the energy equation on the crude model g = 0 below σ and g = 1 above, with a Lennard-Jones u(r). The excess energy per particle comes out as −16περσ³/9, a van der Waals-like attraction term.
+
+## Common Misconceptions
+- The height of the first peak is the number of nearest neighbors. (The height is a density ratio. The neighbor count comes from integrating ρg(r)·4πr² over the first peak.)
+- A tall first peak means the particles attract each other strongly. (In a dense liquid much of the first peak comes from repulsive packing. Hard spheres, which have no attraction, show a tall first peak at high density.)
+- Since g(r) depends only on distance, the liquid has no orientational structure. (g(r) averages over directions. Angular order, such as water's tetrahedral hydrogen bonding, lives in orientation-resolved and three-body correlations that g(r) captures only indirectly.)
+
 ## Questions
 
 ```yaml
@@ -68,4 +76,4 @@ Reading a g(r) plot tells you the liquid's anatomy. Start from r = 0: g(r) = 0 a
 
 The power of g(r) lies in connecting structure to thermodynamics. The internal energy of a fluid with pairwise interactions u(r) is U = N⟨KE⟩ + (N²/2V) ∫ u(r) g(r) 4πr² dr. This **energy equation** says you can compute the potential energy just by knowing how atoms are distributed (g(r)) and how they interact (u(r)). Similarly, the **pressure equation** P = ρkT − (ρ²/6) ∫ r (du/dr) g(r) 4πr² dr relates the equation of state to g(r). Both integrals have the same structure: sum u(r) or −r du/dr weighted by the local density ρ g(r) 4πr² dr. This is the central bridge: a structural measurement (g(r), accessible by X-ray or neutron scattering) gives you thermodynamic properties without having to track individual particle trajectories.
 
-In practice, g(r) is measured by **X-ray or neutron diffraction**, because the scattered intensity is related to the Fourier transform of g(r), known as the **static structure factor** S(q). Measuring S(q) and inverting gives g(r). For liquid water, g(r) reveals the characteristic double-peak structure from hydrogen bonding; for liquid metals, a simple single-peak structure like noble-gas liquids. Molecular dynamics simulations compute g(r) by averaging histograms of interparticle distances over time, and the result can be directly compared to experiment. The fact that both routes give the same g(r) is one of the key validations that classical pairwise force fields correctly describe liquid structure, even for systems as complex as water.
+In practice, g(r) is measured by **X-ray or neutron diffraction**, because the scattered intensity is related to the Fourier transform of g(r), known as the **static structure factor** S(q). Measuring S(q) and inverting gives g(r). For liquid water, g(r) reveals the characteristic double-peak structure from hydrogen bonding; for liquid metals, a simple packing-dominated structure like that of noble-gas liquids. Molecular dynamics simulations compute g(r) by averaging histograms of interparticle distances over time, and the result can be directly compared to experiment. The fact that both routes give the same g(r) is one of the key validations that classical pairwise force fields correctly describe liquid structure, even for systems as complex as water.

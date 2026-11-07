@@ -1,0 +1,57 @@
+domains/economics/advanced-macroeconomics/monetary-neutrality-long-run.md	how	4	0	ok
+domains/economics/advanced-macroeconomics/monetary-neutrality-long-run.md	mis	6	0	ok
+domains/economics/advanced-macroeconomics/monetary-policy-transmission.md	how	3	0	ok
+domains/economics/advanced-macroeconomics/monetary-policy-transmission.md	mis	8	0	ok
+domains/economics/advanced-macroeconomics/mundell-fleming-open-economy.md	how	4	0	ok
+domains/economics/advanced-macroeconomics/mundell-fleming-open-economy.md	mis	6	0	ok
+domains/economics/advanced-macroeconomics/natural-rate-hypothesis.md	how	4	0	ok	iteration 2 -> 2.5 -> 3 -> 3.5 checked
+domains/economics/advanced-macroeconomics/natural-rate-hypothesis.md	mis	6	0	ok
+domains/economics/advanced-macroeconomics/neoclassical-growth-steady-state.md	how	5	0	ok	k*=16,y*=4; s=0.3 gives 36,6 checked
+domains/economics/advanced-macroeconomics/neoclassical-growth-steady-state.md	mis	6	1	fixed	bullet 1 said "only capital per effective worker is constant"; output per effective worker is constant too; dropped "only" and named k and y
+domains/economics/advanced-macroeconomics/neoclassical-growth-steady-state.md	old:questions	0	0	fixed	file had two ## Questions blocks (duplication); merged into one YAML block with all 10 items kept; items 5-9 near-duplicate items 0-4 in content
+domains/economics/advanced-macroeconomics/neoclassical-growth-steady-state.md	old:q:9:explanation	1	1	fixed	"capital-augmenting efficiency growth" -> "labor-augmenting"; Solow balanced growth needs labor-augmenting (Harrod-neutral) technology
+domains/economics/advanced-macroeconomics/new-keynesian-framework.md	how	4	0	ok
+domains/economics/advanced-macroeconomics/new-keynesian-framework.md	mis	6	1	fixed	bullet 2 correction "money is neutral in the long run" overstated against a permanent-tradeoff belief: baseline NKPC with beta<1 has a small long-run slope; restated as shock-level claim plus "long-run Phillips curve close to vertical"
+domains/economics/advanced-macroeconomics/new-keynesian-model-baseline.md	how	5	0	ok	eigenvalues worked: phi=1.5 complex pair modulus 1.078; phi=0.5 gives 1.287 and 0.824
+domains/economics/advanced-macroeconomics/new-keynesian-model-baseline.md	mis	6	1	fixed	bullet 3: sub-one inflation response gives indeterminacy only absent a strong output-gap response (condition kappa(phi_pi-1)+(1-beta)phi_x>0); qualifier added
+domains/economics/advanced-macroeconomics/nominal-rigidities-sticky-prices.md	how	4	0	ok	0.32 and 0.72 losses checked
+domains/economics/advanced-macroeconomics/nominal-rigidities-sticky-prices.md	mis	6	0	ok
+domains/economics/advanced-macroeconomics/overlapping-generations-models.md	how	5	0	ok	law of motion and R/(1+n)=alpha(1+beta)/[beta(1-alpha)] derived; 0.67 and 1.33 checked
+domains/economics/advanced-macroeconomics/overlapping-generations-models.md	mis	6	0	ok
+domains/economics/advanced-macroeconomics/phillips-curve-dynamics.md	how	4	0	ok	0.1 and ~0.39 checked
+domains/economics/advanced-macroeconomics/phillips-curve-dynamics.md	mis	6	0	ok
+domains/economics/advanced-macroeconomics/phillips-curve-new-keynesian.md	how	4	0	ok	slope 0.0858 checked; note (not fixed): old Q1 explanation and Explainer say a supply shock raises inflation "through the kappa*x_t term" while output is below potential, which is internally inconsistent (needs a cost-push term)
+domains/economics/advanced-macroeconomics/phillips-curve-new-keynesian.md	mis	6	0	ok
+domains/economics/advanced-macroeconomics/quantitative-easing-unconventional-policy.md	how	4	0	ok
+domains/economics/advanced-macroeconomics/quantitative-easing-unconventional-policy.md	mis	6	0	ok
+domains/economics/advanced-macroeconomics/ramsey-cass-koopmans-model.md	how	5	0	ok	fall in rho: c jumps down then c and k rise, checked
+domains/economics/advanced-macroeconomics/ramsey-cass-koopmans-model.md	mis	6	0	ok
+domains/economics/advanced-macroeconomics/ramsey-cass-koopmans-model.md	old:q:2:explanation	1	1	fixed	said permanent G lowers long-run capital; in RCK with lump-sum taxes c falls one-for-one and k* is unchanged (f'(k*)=rho+delta); answer key (false) unchanged
+domains/economics/advanced-macroeconomics/ramsey-cass-koopmans-model.md	old:explainer	2	2	fixed	"temporary tax increase draws down savings" contradicts Ricardian equivalence in RCK -> temporary rise in government purchases; "permanent G crowds out capital" -> c falls one-for-one, k* unchanged
+domains/economics/advanced-macroeconomics/real-business-cycle-theory.md	how	4	0	ok
+domains/economics/advanced-macroeconomics/real-business-cycle-theory.md	mis	6	0	ok
+domains/economics/advanced-macroeconomics/ricardian-equivalence.md	how	3	0	ok	1050/1.05=1000 checked
+domains/economics/advanced-macroeconomics/ricardian-equivalence.md	mis	6	0	ok
+domains/economics/advanced-macroeconomics/romer-growth-model-research.md	how	4	0	ok
+domains/economics/advanced-macroeconomics/romer-growth-model-research.md	mis	6	0	ok
+domains/economics/advanced-macroeconomics/romer-growth-model.md	how	4	0	ok	L^(1-a)A^(1-a)X^a derived
+domains/economics/advanced-macroeconomics/romer-growth-model.md	mis	6	0	ok
+domains/economics/advanced-macroeconomics/romer-growth-model.md	old:q:0:explanation	1	1	fixed	said doubling rival inputs with knowledge fixed "more than doubles output"; it exactly doubles (replication), doubling knowledge too more than doubles
+domains/economics/advanced-macroeconomics/search-matching-unemployment.md	how	4	0	ok	6.25%, 9.09%, 9.09% checked
+domains/economics/advanced-macroeconomics/search-matching-unemployment.md	mis	6	0	ok
+domains/economics/advanced-macroeconomics/solow-growth-model.md	how	4	0	ok	k*=4; 10% and 3.3% checked
+domains/economics/advanced-macroeconomics/solow-growth-model.md	mis	6	0	ok
+domains/economics/advanced-macroeconomics/steady-state-analysis-growth.md	how	4	0	ok	-0.04 and ~17-year half-life checked
+domains/economics/advanced-macroeconomics/steady-state-analysis-growth.md	mis	6	0	ok
+domains/economics/advanced-macroeconomics/taylor-rule-monetary-policy.md	how	3	0	ok	6.5% and 5.0% checked
+domains/economics/advanced-macroeconomics/taylor-rule-monetary-policy.md	mis	6	0	ok
+domains/economics/advanced-macroeconomics/technology-shocks-rbc.md	how	4	0	ok	half-lives 13.5 and 1 quarter checked
+domains/economics/advanced-macroeconomics/technology-shocks-rbc.md	mis	6	0	ok
+domains/economics/advanced-macroeconomics/wage-dynamics-labor-frictions.md	how	3	0	ok	0.9 and 0.85 checked
+domains/economics/advanced-macroeconomics/wage-dynamics-labor-frictions.md	mis	6	0	ok	bullet 2 belief borderline strawman but kept
+domains/economics/advanced-macroeconomics/wage-setting-equilibrium.md	how	3	0	ok
+domains/economics/advanced-macroeconomics/wage-setting-equilibrium.md	mis	6	1	fixed	bullet 3: tightness rises with productivity only if unemployment income b is held fixed (with b proportional to p tightness is unchanged); qualifier added. Note (not fixed): old Q1 option/Core Idea "productivity minus vacancy-posting cost" does not match the standard w=(1-beta)b+beta(p+c*theta)
+domains/economics/advanced-macroeconomics/zero-lower-bound-constraint.md	how	3	0	ok	Fisher table checked
+domains/economics/advanced-macroeconomics/zero-lower-bound-constraint.md	mis	6	1	fixed	bullet 3 belief "the bound limits real rates as well" is true (floor is minus expected inflation) and conflicts with Core Idea; restated belief as "real rates cannot fall below zero" and correction names the -pi^e floor
+domains/economics/advanced-macroeconomics/zero-lower-bound-monetary-policy.md	how	4	0	ok
+domains/economics/advanced-macroeconomics/zero-lower-bound-monetary-policy.md	mis	6	0	ok

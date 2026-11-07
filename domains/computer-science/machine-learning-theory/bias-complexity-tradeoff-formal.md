@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 The bias-complexity tradeoff formalizes the bias-variance tradeoff in the language of learning theory. The true risk of an ERM hypothesis decomposes into approximation error (how close the best hypothesis in the class is to the true target — the "bias") and estimation error (how much the learned hypothesis deviates from the class's best due to finite samples — the "complexity" penalty). Approximation error decreases with richer hypothesis classes; estimation error increases because richer classes require more data for uniform convergence. The optimal class minimizes their sum, and this decomposition drives structural risk minimization.
 
+## How It's Best Learned
+Pick a known target, such as a noisy sine curve, and fit polynomials of degree 0 through 10 under squared loss. For each degree, estimate the best-in-class risk by fitting on a very large sample, and the estimation error as the extra risk of the fit on a small sample. Plot both curves and their sum for two sample sizes, and watch the best degree move up as n grows.
+
+## Common Misconceptions
+- Approximation error is the same as training error. (Approximation error is how far the lowest true risk any hypothesis in the class can reach sits above the Bayes risk, a property of the class and the distribution. Training error is measured on the sample and can be zero while approximation error is large.)
+- A bigger class gives a better ERM result because it contains the smaller class. (Containment can only lower approximation error, but estimation error grows with class complexity. With limited data the bigger class can have higher total risk.)
+- Estimation error comes from noise in the labels. (Label noise raises the Bayes error, which no hypothesis class removes. Estimation error is the gap caused by learning from a finite sample, and it shrinks as n grows.)
+
 ## Questions
 
 ```yaml

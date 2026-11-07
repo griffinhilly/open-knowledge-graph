@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 The canonical partition function Z = Σ_i exp(-E_i/kT) encodes the thermal properties of a system in contact with a heat bath. Helmholtz free energy F = -kT ln(Z) contains all thermodynamics: pressure via ∂F/∂V, entropy via ∂F/∂T, and energy via internal expectation values.
 
+## How It's Best Learned
+Derive the ideal gas law from Z in three lines. For N classical particles in a box, Z = Z₁^N/N! with Z₁ = V/λ³, where λ depends on T but not V. Then ln Z = N ln V plus terms without V. P = −(∂F/∂V)_T = kT ∂(ln Z)/∂V = NkT/V. Repeat with −(∂F/∂T)_V to see where entropy comes from.
+
+## Common Misconceptions
+- Z is the number of microstates. (It is a weighted count. Each state contributes e^(−E_i/kT), so states far above kT add almost nothing.)
+- For N identical particles, Z is the one-particle Z₁ raised to the power N. (For indistinguishable particles in the classical limit, Z = Z₁^N/N!. Without the N! the entropy is not extensive, which is the Gibbs paradox.)
+- The value of Z has absolute meaning. (Shifting every energy by E₀ multiplies Z by e^(−E₀/kT) and shifts F by E₀. Probabilities, entropy and pressure are unchanged.)
+
 ## Questions
 
 ```yaml
@@ -48,7 +56,7 @@ The canonical partition function Z = Σ_i exp(-E_i/kT) encodes the thermal prope
   answer: 1
   explanation: "Independent subsystems factorize: Z = Z_A × Z_B. This follows because the microstates of the combined system are all pairs (i, j) of microstates from A and B, with energies E_i + E_j. Summing e^(−(E_i+E_j)/kT) = e^(−E_i/kT) × e^(−E_j/kT) factors into independent sums. The consequence is that free energies (F = −kT ln Z) are additive: F = F_A + F_B — exactly what classical thermodynamics requires for non-interacting components."
 
-- question: "To calculate the mean internal energy ⟨E⟩ of a system, you is expected to sum Eᵢ × pᵢ explicitly over most microstates — there is no shortcut involving the partition function."
+- question: "To calculate the mean internal energy ⟨E⟩ of a system, you must sum Eᵢ × pᵢ explicitly over all microstates — there is no shortcut involving the partition function."
   type: true-false
   answer: false
   explanation: "This is false. The mean energy can be obtained by differentiation: ⟨E⟩ = −∂(ln Z)/∂β, where β = 1/kT. This is one of the key generating-function properties of Z — instead of explicitly summing over all microstates, thermodynamic quantities are obtained by taking derivatives of ln Z with respect to β, V, or other parameters. This shortcut works because differentiating the sum Σ e^(−βEᵢ) with respect to β brings down −Eᵢ as a factor, reproducing the expectation value."
@@ -70,6 +78,6 @@ From your study of the canonical ensemble, you know that a system in thermal con
 
 The magic of the partition function is that every thermodynamic quantity can be extracted from Z by differentiation. The mean internal energy is ⟨E⟩ = −∂(ln Z)/∂β where β = 1/kT. The **Helmholtz free energy** is defined as F = −kT ln Z, and from F all other thermodynamic properties follow mechanically: pressure P = −(∂F/∂V)_T, entropy S = −(∂F/∂T)_V, and the chemical potential if particle number varies. This is not a series of separate formulas — it is one generating function. Once you have Z, you have all the thermodynamics. The reason is that F is the thermodynamic potential appropriate for systems at fixed T and V, and ln Z is its statistical mechanical representative.
 
-To build intuition, consider an N-state system with equally spaced energy levels 0, ε, 2ε, .... At temperature T, the partition function is a geometric series: Z = 1 + e^(−βε) + e^(−2βε) + ... = 1/(1 − e^(−βε)). At low T (βε ≫ 1), Z ≈ 1 — the system is frozen in the ground state, entropy is low, and ⟨E⟩ ≈ 0. At high T (βε ≪ 1), Z ≈ kT/ε — many states are populated, entropy is high, and ⟨E⟩ saturates. This single function Z encodes the entire thermal story of the system through temperature.
+To build intuition, consider a system with an unbounded ladder of equally spaced energy levels 0, ε, 2ε, .... At temperature T, the partition function is a geometric series: Z = 1 + e^(−βε) + e^(−2βε) + ... = 1/(1 − e^(−βε)). At low T (βε ≫ 1), Z ≈ 1 — the system is frozen in the ground state, entropy is low, and ⟨E⟩ ≈ 0. At high T (βε ≪ 1), Z ≈ kT/ε — many states are populated, entropy is high, and ⟨E⟩ ≈ kT grows linearly with temperature. This single function Z encodes the entire thermal story of the system through temperature.
 
 The deeper significance is that the partition function factorizes over independent subsystems: if a system can be separated into non-interacting parts A and B, then Z = Z_A × Z_B, and ln Z = ln Z_A + ln Z_B. This means free energies are additive for independent subsystems — a result you would expect from thermodynamics but which now has a clear statistical origin. For interacting systems, factorization fails and the cross-terms in ln Z encode the effects of interactions, which is where much of the interesting physics of phase transitions and correlations lives.

@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Electron-positron annihilation into hadrons provides the cleanest probe of QCD because the initial state is purely leptonic (no PDFs). The ratio R = sigma(e+e- -> hadrons)/sigma(e+e- -> mu+mu-) directly counts quark colors and flavors, providing evidence for three colors. Multi-jet events in e+e- collisions provided the first direct evidence for the gluon and precision measurements of the strong coupling alpha_s.
 
+## How It's Best Learned
+Compute R in steps and plot it against measured data. With u, d, s active, R = 3 × 6/9 = 2. Adding charm gives 3 × 10/9 = 10/3, and adding bottom gives 11/3. Then compare the data between thresholds, where the steps show, with the regions near the J/ψ and Υ, where resonances dominate. Finish by drawing the qq̄g diagram behind a three-jet event.
+
+## Common Misconceptions
+- R jumps to its new parton-model value right at each quark-pair threshold. (Near a threshold, bound-state resonances such as the J/ψ and Υ dominate. The parton-model step describes energies well above the threshold.)
+- A jet is a quark that reached the detector. (Quarks are confined. A jet is a collimated spray of hadrons formed as the quark or gluon hadronizes.)
+- Because the initial state is leptonic, e⁺e⁻ → hadrons has no QCD uncertainty. (The initial state is clean, but the final state carries α_s corrections and hadronization effects, as the (1 + α_s/π + …) factor in R shows.)
+
 ## Questions
 
 ```yaml

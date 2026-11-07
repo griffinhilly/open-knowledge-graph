@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 The wave equation ∂²u/∂t² = c²∂²u/∂x² models vibrating string displacement u(x,t) with wave speed c. It is hyperbolic, with solutions exhibiting finite propagation speed (revealed by d'Alembert's formula). Initial conditions specify u and ∂u/∂t at t = 0; boundary conditions model fixed or free ends. Solutions consist of rightward and leftward traveling waves that reflect at boundaries.
 
+## How It's Best Learned
+Start with an infinite string released from rest (g = 0) with a triangular bump f(x). Solving φ + ψ = f and φ' − ψ' = 0 gives u = ½f(x − ct) + ½f(x + ct). Sketch it at a few times to watch the bump split into two half-height copies. Then verify that sin(πx/L)cos(πct/L) satisfies the equation and both fixed-end conditions.
+
+## Common Misconceptions
+- The wave speed c is how fast each point of the string moves. (c is how fast the shape travels along the string; the velocity of a point on the string is ∂u/∂t, which changes with x and t.)
+- Giving the initial shape is enough to fix the motion. (The equation is second order in time, so the initial velocity ∂u/∂t(x, 0) is also needed; a string released from rest and a flat string that is struck move differently.)
+- A bump released from rest moves off in one direction. (With zero initial velocity it splits into two half-height bumps moving in opposite directions.)
+- Higher modes are faster waves. (In this equation every mode travels at the same speed c; higher modes have higher frequency because their wavelength is shorter.)
+
 ## Questions
 
 ```yaml

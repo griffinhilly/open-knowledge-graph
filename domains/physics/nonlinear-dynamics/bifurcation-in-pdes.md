@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Bifurcation theory extends from ODEs to PDEs, where the infinite-dimensional state space produces qualitatively new phenomena: spatial symmetry breaking, pattern selection, and the interaction between spatial and temporal instabilities. Near a bifurcation point, the infinite-dimensional PDE can be reduced to a finite-dimensional amplitude equation (like the Ginzburg-Landau equation) that governs the slow modulation of the emerging pattern. Rayleigh-Benard convection — the onset of fluid convection when heated from below — is the paradigmatic example: the uniform conducting state undergoes a pitchfork-like bifurcation to spatially periodic convection rolls.
 
+## How It's Best Learned
+Start with a model simpler than convection, the one-dimensional Swift-Hohenberg equation ∂u/∂t = ru − (1 + ∂²/∂x²)²u − u³. Linearize about u = 0 with u ∝ e^(σt + ikx) to get σ(k) = r − (1 − k²)², and plot σ against k for r slightly below and above zero. Watching a band of unstable wavenumbers open around k = 1 shows wavelength selection directly, before any amplitude-equation reduction.
+
+## Common Misconceptions
+- To analyze a PDE near onset you have to keep track of infinitely many modes. (Near threshold only the modes close to the critical wavenumber grow slowly; the rest decay quickly and can be eliminated, which leaves a low-dimensional amplitude equation.)
+- Above threshold, only the single critical wavelength can grow. (Just above R_c a band of wavenumbers around k_c is linearly unstable, and nonlinear stability conditions such as the Eckhaus criterion decide which of those patterns persist.)
+- The roll width is set by the size of the container or by the initial disturbance. (At onset the preferred wavenumber comes from the linear stability of the uniform state, which depends on the physics and the layer depth; boundaries and history can shift the observed wavelength within the stable band.)
+- The Ginzburg-Landau equation is a model of one particular fluid system. (Its form follows from the symmetry and type of the instability, so the same equation describes onset in many unrelated systems.)
+
 ## Questions
 
 ```yaml

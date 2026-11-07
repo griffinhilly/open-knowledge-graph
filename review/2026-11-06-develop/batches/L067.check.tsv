@@ -1,0 +1,72 @@
+domains/mathematics/abstract-algebra/algebraic-and-transcendental-elements.md	how	4	1	fixed	Exercise step gap: [Q(√2,√3):Q]=4 alone does not prove x⁴−10x²+1 irreducible; added that Q(α)=Q(√2,√3). Squaring steps and the Q(√2) minimal polynomial x²−2√2x−1 check out.
+domains/mathematics/abstract-algebra/algebraic-and-transcendental-elements.md	mis	6	0	ok
+domains/mathematics/abstract-algebra/algebraic-transcendental-elements.md	how	3	0	ok	(1+∛2)(1−∛2+∛4)=3 verified.
+domains/mathematics/abstract-algebra/algebraic-transcendental-elements.md	mis	6	0	ok
+domains/mathematics/abstract-algebra/applications-of-sylow-theorems.md	how	5	0	ok	Order-30 counts verified (24+20>30).
+domains/mathematics/abstract-algebra/applications-of-sylow-theorems.md	mis	6	0	ok
+domains/mathematics/abstract-algebra/applications-sylow-theorems.md	how	5	0	ok	Order-56 count verified.
+domains/mathematics/abstract-algebra/applications-sylow-theorems.md	mis	6	0	ok	A₅ counts n₅=6, n₃=10, n₂=5 verified.
+domains/mathematics/abstract-algebra/basic-group-properties.md	how	5	0	ok	S₃ products verified right-to-left.
+domains/mathematics/abstract-algebra/basic-group-properties.md	mis	6	0	ok
+domains/mathematics/abstract-algebra/binary-operations-algebraic-structures.md	how	6	0	ok	|a−b| table and a★b=a verified.
+domains/mathematics/abstract-algebra/binary-operations-algebraic-structures.md	mis	6	0	ok
+domains/mathematics/abstract-algebra/binary-operations-and-algebraic-structures.md	how	5	0	ok
+domains/mathematics/abstract-algebra/binary-operations-and-algebraic-structures.md	mis	6	0	ok
+domains/mathematics/abstract-algebra/cayley-theorem.md	how	5	0	ok	Z₄ regular permutations verified.
+domains/mathematics/abstract-algebra/cayley-theorem.md	mis	6	1	fixed	Right-multiplication bullet had the composition order backwards: ρ_gh is ρ_g followed by ρ_h (= ρ_h∘ρ_g), not ρ_h followed by ρ_g.
+domains/mathematics/abstract-algebra/cayley-theorem.md	old:q:2:explanation	1	1	fixed	Claimed Z₃ could be represented more compactly than in S₃; false (Z₃ needs 3 points). Replaced with S₃ into S₆.
+domains/mathematics/abstract-algebra/cayley-theorem.md	old:ex	1	1	fixed	Same Z₃-in-S₃ "larger than necessary" example in the last paragraph; replaced with S₃ into S₆.
+domains/mathematics/abstract-algebra/class-equation.md	how	4	0	ok	D₄ classes and 8=2+2+2+2 verified.
+domains/mathematics/abstract-algebra/class-equation.md	mis	6	0	ok
+domains/mathematics/abstract-algebra/classification-finite-abelian-groups.md	how	3	0	ok	Order 72 count and Z/6×Z/12 conversion verified.
+domains/mathematics/abstract-algebra/classification-finite-abelian-groups.md	mis	6	0	ok
+domains/mathematics/abstract-algebra/classification-of-finite-abelian-groups.md	how	4	0	ok	Units mod 20 squares verified: 9, 11, 19 have order 2.
+domains/mathematics/abstract-algebra/classification-of-finite-abelian-groups.md	mis	6	0	ok
+domains/mathematics/abstract-algebra/cosets-and-lagrange-theorem.md	how	4	0	ok	(1 3)H and H(1 3) verified right-to-left.
+domains/mathematics/abstract-algebra/cosets-and-lagrange-theorem.md	mis	6	0	ok
+domains/mathematics/abstract-algebra/cosets-lagrange-theorem.md	how	4	0	ok
+domains/mathematics/abstract-algebra/cosets-lagrange-theorem.md	mis	6	0	ok
+domains/mathematics/abstract-algebra/cycle-notation-decomposition.md	how	5	0	ok	στ=(1 2)(3 4), τσ=(1 3)(2 4) verified. New text uses right-to-left; older text (formula, Q0, Q1) uses left-to-right. Each states or implies its convention.
+domains/mathematics/abstract-algebra/cycle-notation-decomposition.md	mis	6	0	ok
+domains/mathematics/abstract-algebra/cycle-notation-decomposition.md	q:4:explanation	1	0	ok	Odd count 1+2(j−i−1) of reversed factors verified.
+domains/mathematics/abstract-algebra/cycle-notation-decomposition.md	old:q:0:question	1	1	fixed	Answer key wrong: Student B's (1 4)(2 4)(3 4)(1 4)(2 4) is not (1 2 3 4) in either composition order. Replaced with (1 2)(1 3)(2 4)(1 2)(2 4) (verified) and stated the left-to-right convention Student A's product needs.
+domains/mathematics/abstract-algebra/cycle-notation-decomposition.md	old:q:4:answer	1	1	fixed	"Each transposition flips exactly one pair" is false for non-adjacent transpositions; changed to an odd number of factors.
+domains/mathematics/abstract-algebra/cyclic-groups.md	how	4	0	ok	Powers of 3 mod 7 verified.
+domains/mathematics/abstract-algebra/cyclic-groups.md	mis	6	0	ok
+domains/mathematics/abstract-algebra/dihedral-groups.md	how	5	0	ok	rs=(1 2)(3 4), sr=(1 4)(2 3)=r⁻¹s verified.
+domains/mathematics/abstract-algebra/dihedral-groups.md	mis	6	0	ok
+domains/mathematics/abstract-algebra/dihedral-groups.md	old:ex	1	1	fixed	Explainer said all rotations are even and all reflections odd for every n; false (in D₄, r=(1 2 3 4) is odd and (1 2)(3 4) is an even reflection). Restricted the claim to D₃.
+domains/mathematics/abstract-algebra/direct-products-groups.md	how	5	0	ok	Order counts for Z₂×Z₄, Z₈, Z₂³ verified.
+domains/mathematics/abstract-algebra/direct-products-groups.md	mis	6	0	ok
+domains/mathematics/abstract-algebra/direct-products.md	how	3	0	ok
+domains/mathematics/abstract-algebra/direct-products.md	mis	6	1	fixed	"Most elements have two non-identity components" is false for the cited Z₂×Z₃ (2 of 6) and for any G×Z₂; changed to "Many".
+domains/mathematics/abstract-algebra/field-definition-and-examples.md	how	3	0	ok	(1+√2)⁻¹=√2−1 verified.
+domains/mathematics/abstract-algebra/field-definition-and-examples.md	mis	6	0	ok
+domains/mathematics/abstract-algebra/field-definition-examples.md	how	4	0	ok	F₄ arithmetic verified.
+domains/mathematics/abstract-algebra/field-definition-examples.md	mis	6	0	ok
+domains/mathematics/abstract-algebra/field-extensions.md	how	3	0	ok
+domains/mathematics/abstract-algebra/field-extensions.md	mis	6	0	ok
+domains/mathematics/abstract-algebra/finite-fields.md	how	3	0	ok	α¹…α⁷ in F₂[x]/(x³+x+1) verified, α⁷=1.
+domains/mathematics/abstract-algebra/finite-fields.md	mis	6	0	ok
+domains/mathematics/abstract-algebra/first-isomorphism-theorem-for-groups.md	how	4	0	ok
+domains/mathematics/abstract-algebra/first-isomorphism-theorem-for-groups.md	mis	6	0	ok
+domains/mathematics/abstract-algebra/first-isomorphism-theorem-for-rings.md	how	3	0	ok
+domains/mathematics/abstract-algebra/first-isomorphism-theorem-for-rings.md	mis	6	0	ok
+domains/mathematics/abstract-algebra/first-isomorphism-theorem-for-rings.md	old:ex	1	1	fixed	Kernel of evaluation at √2 on ℝ[x] is (x−√2), not (x²−2); ℝ[x]/(x²−2) ≅ ℝ×ℝ, not ℝ. Corrected.
+domains/mathematics/abstract-algebra/first-isomorphism-theorem-groups.md	how	3	0	ok	x↦3x on Z₁₂ verified.
+domains/mathematics/abstract-algebra/first-isomorphism-theorem-groups.md	mis	6	0	ok
+domains/mathematics/abstract-algebra/first-isomorphism-theorem-groups.md	q:4:explanation	1	0	ok
+domains/mathematics/abstract-algebra/first-isomorphism-theorem-groups.md	old:q:4:answer	1	1	fixed	"A coset has infinitely many representatives" is false for finite groups. The answer also stated the converse direction as well-definedness, which contradicts the new explanation. Both corrected.
+domains/mathematics/abstract-algebra/first-isomorphism-theorem-rings.md	how	3	0	ok	CRT map and kernel (2, x) verified.
+domains/mathematics/abstract-algebra/first-isomorphism-theorem-rings.md	mis	6	0	ok
+domains/mathematics/abstract-algebra/first-isomorphism-theorem-rings.md	old:q:3:explanation	1	1	fixed	Example used multiplication by 2 on Z, which is not a ring homomorphism (and Z is not ring-isomorphic to 2Z). Replaced with the inclusion Z→Q.
+domains/mathematics/abstract-algebra/fundamental-theorem-galois-theory.md	how	4	0	ok
+domains/mathematics/abstract-algebra/fundamental-theorem-galois-theory.md	mis	6	0	ok
+domains/mathematics/abstract-algebra/fundamental-theorem-of-galois-theory.md	how	4	0	ok
+domains/mathematics/abstract-algebra/fundamental-theorem-of-galois-theory.md	mis	6	0	ok
+domains/mathematics/abstract-algebra/galois-groups.md	how	4	0	ok
+domains/mathematics/abstract-algebra/galois-groups.md	mis	6	0	ok
+domains/mathematics/abstract-algebra/galois-groups.md	old:core	1	1	fixed	Core Idea said |Gal|=degree for separable extensions; false (Q(∛2)/Q is separable with |Gal|=1, as the file's own Q0 says). Changed to Galois.
+domains/mathematics/abstract-algebra/galois-groups.md	old:q:3:explanation	1	1	fixed	Same "separable (and hence Galois)" error, plus the claim that only repeated roots cause a shortfall. Corrected to name normality.
+domains/mathematics/abstract-algebra/group-actions.md	how	4	0	ok	Kernel of D₄ acting on the diagonals = {e, r², two diagonal reflections} verified.
+domains/mathematics/abstract-algebra/group-actions.md	mis	6	0	ok

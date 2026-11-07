@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Reflected Brownian motion (RBM) is a process constrained to stay non-negative by an instantaneous reflection at the origin. It is constructed as |W(t)| (for a standard Brownian motion W) or equivalently as the solution to the Skorokhod reflection problem: X(t) = W(t) + L(t) ≥ 0, where L(t) is the local time at zero — a continuous, non-decreasing process that increases only when X(t) = 0. The local time measures the "time spent at the boundary" in a generalized sense and is central to the study of stochastic processes with reflecting barriers, queueing theory, and free-boundary problems.
 
+## How It's Best Learned
+Apply the Skorokhod map by hand to a piecewise-linear path. Let w fall from 0 to -1 on [0, 1], rise to 1 by t = 3, then fall to -2 by t = 6. Then l(t) = max_{s≤t}(-w(s))⁺ is 1 from t = 1 until t = 5, and climbs to 2 at t = 6. The path x = w + l stays at 0 on [0, 1] and again on [5, 6], exactly where l is increasing.
+
+## Common Misconceptions
+- Reflecting at 0 is the same as clipping, max(W, 0). (Clipping holds the process at 0 through whole negative excursions, so it spends positive time there; reflected Brownian motion spends a set of times of Lebesgue measure zero at 0.)
+- Local time at 0 is the amount of clock time spent at 0. (That clock time is zero; local time is the density of occupation time with respect to level, as in the occupation times formula.)
+- The regulator L acts like a steady upward drift. (L increases only at times when X = 0; away from the boundary, X moves like ordinary Brownian motion.)
+
 ## Questions
 
 ```yaml

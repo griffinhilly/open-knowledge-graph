@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Linear response theory gives the response ⟨δA⟩ = χ_{AB} δB of an observable A to a small external perturbation δB as ⟨δA(t)⟩ = ∫ χ_{AB}(t−t') δB(t') dt'. The response function χ is given by the Kubo formula involving the equilibrium correlation of fluctuations, directly connecting the fluctuation-dissipation theorem to dynamics.
 
+## How It's Best Learned
+Derive the Kubo formula once, by first-order perturbation theory in the interaction picture. Then apply it to a spin-1/2 in a static field with splitting ħω₀, driven along x. The commutator ⟨[σ_x(t), σ_x(0)]⟩ gives a response proportional to θ(t) sin(ω₀t) tanh(ħω₀/2kT). Absorption sits at ω₀ and its strength tracks the population difference, which shrinks at high temperature.
+
+## Common Misconceptions
+- The response function changes with the strength of the applied field. (χ is a property of the unperturbed equilibrium system. In the linear regime the response scales with the field while χ stays fixed.)
+- Im χ(ω) equals the equilibrium fluctuation spectrum S(ω). (They are related by a frequency-dependent factor. Classically Im χ(ω) = (ω/2kT)S(ω), and the quantum version uses (1 − e^(−ħω/kT))/2ħ in place of ω/2kT.)
+- Linear response always means the field must be switched on slowly. (The condition is a small field. A weak field switched on suddenly is still described by the same response function.)
+
 ## Questions
 
 ```yaml

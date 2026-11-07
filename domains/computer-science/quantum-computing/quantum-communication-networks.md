@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Quantum communication networks extend quantum key distribution and quantum teleportation to build a distributed quantum internet where quantum information can be transmitted and processed across multiple nodes. Key components include quantum repeaters (extending communication distance beyond direct fiber), quantum memory (storing quantum states), and quantum-secured networks (distributed quantum computing, blind quantum computing). The vision is a "quantum internet" that complements classical networks, enabling unhackable communication, distributed quantum computing, and sensing applications. Practical challenges include maintaining quantum coherence over distance, constructing reliable quantum repeaters, and integrating with classical infrastructure.
 
+## How It's Best Learned
+Work entanglement swapping on paper. Start with |Phi+> shared by A and B and another |Phi+> shared by C and D. Rewrite the four-qubit state in the Bell basis of the middle qubits B and C. Each of the four Bell outcomes leaves A and D in a matching Bell state, with probability 1/4 each. Then draw a chain of segments and mark where memories wait and where classical messages travel.
+
+## Common Misconceptions
+- Entanglement swapping lets the end nodes signal each other faster than light. (The end nodes cannot use their new entanglement until they receive the middle node's measurement result over a classical channel.)
+- A quantum repeater boosts a fading signal the way a classical amplifier does. (No-cloning rules out copying the state. Most repeater designs instead build entanglement over short links and join it by swapping, often with purification.)
+- A QKD network is unhackable once deployed. (Security proofs assume the devices behave as modeled, and hardware flaws have been exploited. Networks built on trusted relay nodes also require trusting every relay.)
+- A quantum internet would replace the classical internet. (Teleportation and swapping both need classical messages, so a quantum network runs alongside classical links.)
+
 ## Questions
 
 ```yaml

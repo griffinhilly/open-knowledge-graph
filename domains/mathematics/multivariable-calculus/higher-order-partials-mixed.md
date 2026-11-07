@@ -20,6 +20,15 @@ status: validated
 ## Core Idea
 Mixed partial derivatives ∂²f/∂x∂y and ∂²f/∂y∂x measure rate of change in two different variables. Clairaut's theorem states that if mixed partials are continuous, then ∂²f/∂x∂y = ∂²f/∂y∂x (they commute).
 
+## How It's Best Learned
+Graph x-slices of f = xy at y = 0, 1, 2. They are lines through the origin with slopes 0, 1, 2, so the x-slope grows by 1 per unit of y, which is ∂²f/∂y∂x = 1. Repeat for f = x² + y²: its x-slices are the same parabola shifted up, so the x-slope does not depend on y and the mixed partial is 0.
+
+## Common Misconceptions
+- A mixed partial is the product of ∂f/∂x and ∂f/∂y. (It is a derivative of a derivative: differentiate f in one variable, then differentiate that result in the other.)
+- ∂²f/∂y∂x is the same as f_yx. (Leibniz notation is read right to left, while subscripts are read left to right; both ∂²f/∂y∂x and f_xy mean x first, then y.)
+- If the mixed partials come out different, the function breaks Clairaut's theorem. (Clairaut's theorem assumes the mixed partials are continuous; unequal mixed partials show that this hypothesis fails at that point.)
+- A zero mixed partial means f does not depend on both variables. (f = x² + y² depends on both but has f_xy = 0, because neither variable changes the other's slope.)
+
 ## Questions
 
 ```yaml

@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 The Fermi-Dirac distribution n_F(E) = 1/(exp((E-μ)/kT) + 1) gives the average occupation number of a quantum state with energy E. At T=0, it is a step function: filled states below the Fermi energy E_F and empty states above. The Fermi energy is the chemical potential at absolute zero and determines the ground-state properties of degenerate fermion gases.
 
+## How It's Best Learned
+Derive the distribution from a single state that holds 0 or 1 fermion. Its grand partition function is 1 + e^(−(E−μ)/kT), and the mean occupation follows in one line. Then tabulate n_F at E − μ = −2kT, −kT, 0, kT and 2kT: 0.88, 0.73, 0.50, 0.27 and 0.12. Each pair sums to 1, which shows the particle-hole symmetry around μ.
+
+## Common Misconceptions
+- The occupation is 1/2 at the Fermi energy at every temperature. (n_F = 1/2 at E = μ(T). This equals E_F only at T = 0, since μ drifts as temperature rises.)
+- The Fermi temperature E_F/k is the actual temperature of the electrons. (It labels an energy scale, tens of thousands of kelvin for metals. The electrons share the temperature of the lattice.)
+- Since each state holds 0 or 1 fermion, n_F can only be 0 or 1. (A given state is either filled or empty at any moment, but n_F is the average occupation. At finite temperature it takes every value between 0 and 1.)
+
 ## Questions
 
 ```yaml

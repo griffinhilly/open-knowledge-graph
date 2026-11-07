@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Health is both outcome of development and input to growth. Disease burden (malaria, tuberculosis, diarrhea) reduces productivity, increases health spending, and reduces savings. Malaria-endemic regions have lower incomes; a 1% increase in life expectancy correlates with 0.3–0.4% long-run growth. Health improvements (vaccination, bed nets, antibiotics) have high returns but access remains limited in poorest countries.
 
+## How It's Best Learned
+Draw two arrows between income and health, and label each with a concrete mechanism for malaria. Then run a rough return on a bed net: a worker earning 2 a day who loses 5 days a year to malaria loses 10. A net costing 3 that halves those episodes saves about 5 a year. Finally, ask why uptake stays low anyway.
+
+## Common Misconceptions
+- Health will improve on its own once incomes rise, so health spending can wait. (Health is also an input to production. Illness cuts workdays and children's learning, which slows the income growth being waited for.)
+- If a cheap health product has a high return, households will buy it on their own. (Distribution gaps, missing information, and present bias can keep uptake low even when the payoff is far above the cost.)
+- The link between life expectancy and income across countries shows that health causes growth. (Richer countries can also buy better health, so the correlation runs both ways. Separating the effect of health needs variation in health that income did not cause.)
+- High fertility where child mortality is high is irrational. (When many children die young, extra births act as insurance. Fertility tends to fall after child mortality falls.)
+
 ## Questions
 
 ```yaml

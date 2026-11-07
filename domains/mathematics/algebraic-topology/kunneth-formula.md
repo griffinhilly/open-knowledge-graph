@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 The Kunneth formula computes the homology of a product space X x Y from the homology groups of the factors. Over a field k, it simplifies to H_n(X x Y; k) = direct sum_{p+q=n} H_p(X; k) tensor H_q(Y; k). Over the integers, there is a correction term involving Tor: 0 -> direct sum H_p(X) tensor H_q(Y) -> H_n(X x Y) -> direct sum Tor(H_p(X), H_{q-1}(Y)) -> 0. The Kunneth formula is the product theorem for homology, reducing the computation of H_*(X x Y) to the known homology of X and Y.
 
+## How It's Best Learned
+Lay out the homology of each factor as a row and compute products as a grid, reading degree n along anti-diagonals. Start with T^2 and S^2 × S^2, where everything is free. Then do RP^2 × RP^2 over Z. H_2 = Z/2 comes from the tensor term H_1 ⊗ H_1. H_3 = Z/2 comes from the Tor term Tor(H_1, H_1), with no tensor contribution.
+
+## Common Misconceptions
+- Over Z, H_n(X × Y) is the sum of H_p(X) ⊗ H_q(Y) with p + q = n. (Torsion adds a Tor term. For RP^2 × RP^2, H_3 = Z/2 comes entirely from Tor(H_1, H_1).)
+- Betti numbers multiply degree by degree: b_n(X × Y) = b_n(X) b_n(Y). (They convolve: b_n(X × Y) = Σ_{p+q=n} b_p(X) b_q(Y) over a field. The torus has b_1 = 1·1 + 1·1 = 2.)
+- The Tor term in degree n pairs H_p and H_q with p + q = n. (It uses p + q = n - 1, so torsion interactions show up one degree higher.)
+
 ## Questions
 
 ```yaml
@@ -46,11 +54,11 @@ The Kunneth formula computes the homology of a product space X x Y from the homo
   type: multiple-choice
   options:
     - "No — H_2 is free abelian"
-    - "Yes — the Tor term Tor(H_1(RP^2), H_0(RP^2)) = Tor(Z/2Z, Z) = 0 contributes nothing, but Tor(H_0, H_1) also vanishes, so H_2 is the tensor sum only"
+    - "Yes — the Tor terms with p + q = 1 vanish, but the tensor term H_1 ⊗ H_1 = Z/2Z ⊗ Z/2Z = Z/2Z is torsion"
     - "Yes — Tor(Z/2Z, Z/2Z) = Z/2Z contributes a torsion summand"
     - "Cannot be determined without the full Kunneth computation"
-  answer: 2
-  explanation: "H_2(RP^2 × RP^2; Z): the tensor terms with p + q = 2 are H_0 ⊗ H_2 = 0, H_1 ⊗ H_1 = Z/2Z ⊗ Z/2Z = Z/2Z, H_2 ⊗ H_0 = 0. The Tor terms with p + (q-1) = 2, i.e., p + q = 2 in the Tor sum (shifted): Tor(H_1, H_0) = Tor(Z/2Z, Z) = 0, Tor(H_0, H_1) = Tor(Z, Z/2Z) = 0. Actually, the Tor contribution is ⊕_{p+q=n-1} Tor(H_p, H_q), so for n=2: Tor(H_0, H_0) + Tor(H_1, ...) — let me recompute. The Kunneth exact sequence is 0 → ⊕_{p+q=n} H_p ⊗ H_q → H_n → ⊕_{p+q=n-1} Tor(H_p, H_q) → 0. For n=2: tensor part = Z/2Z, Tor part (p+q=1): Tor(H_0, H_1) + Tor(H_1, H_0) = Tor(Z, Z/2Z) + Tor(Z/2Z, Z) = 0 + 0 = 0. So H_2 = Z/2Z, which IS torsion, but from the tensor term."
+  answer: 1
+  explanation: "The Kunneth exact sequence is 0 → ⊕_{p+q=n} H_p ⊗ H_q → H_n → ⊕_{p+q=n-1} Tor(H_p, H_q) → 0. For n = 2, the tensor terms are H_0 ⊗ H_2 = 0, H_1 ⊗ H_1 = Z/2Z ⊗ Z/2Z = Z/2Z and H_2 ⊗ H_0 = 0. The Tor terms (p + q = 1) are Tor(H_0, H_1) = Tor(Z, Z/2Z) = 0 and Tor(H_1, H_0) = 0. So H_2 = Z/2Z, which is torsion coming from the tensor term. The term Tor(H_1, H_1) = Tor(Z/2Z, Z/2Z) = Z/2Z contributes to H_3, not H_2."
 
 - question: "Explain why the Kunneth formula is 'multiplicative' for Euler characteristics: χ(X × Y) = χ(X) · χ(Y)."
   type: short-answer

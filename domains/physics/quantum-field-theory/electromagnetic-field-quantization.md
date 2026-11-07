@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Quantizing the electromagnetic field promotes the vector potential A^mu to an operator. Gauge invariance introduces complications: unphysical degrees of freedom must be removed or constrained. The result is a theory of photons -- massless spin-1 particles with two physical polarization states.
 
+## How It's Best Learned
+Quantize first in Coulomb gauge, where each transverse mode is a harmonic oscillator, and count two polarizations per wave vector. Then switch to Feynman gauge with [a_μ, a_ν†] = −g_μν δ³(k − k′). Compute the norm of a one-photon state with timelike polarization and find it negative. Finally, replace a photon's ε^μ with k^μ in a simple QED amplitude and check that the result vanishes.
+
+## Common Misconceptions
+- A spin-1 photon has three polarization states, like any spin-1 particle. (A massive spin-1 particle has three, but the photon has two transverse polarizations; the longitudinal and timelike components are unphysical.)
+- The potential A^μ is a directly measurable field, like E and B. (A^μ changes under gauge transformations; E, B and gauge-invariant quantities such as the phase around a closed loop are what can be measured.)
+- Different gauge choices give different physical predictions. (Gauges change the intermediate steps, but physical amplitudes are the same in every gauge.)
+- With no photons present, the vacuum field is zero and has no effects. (The average field is zero, but ⟨E²⟩ and ⟨B²⟩ are not, and these fluctuations contribute to effects such as the Lamb shift and the Casimir force.)
+
 ## Questions
 
 ```yaml

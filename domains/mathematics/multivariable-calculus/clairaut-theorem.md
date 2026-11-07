@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 If ∂²f/∂x∂y and ∂²f/∂y∂x are continuous at a point, then ∂²f/∂x∂y = ∂²f/∂y∂x. This 'equality of mixed partials' shows that (for most practical functions) the order of differentiation does not matter.
 
+## How It's Best Learned
+Verify the theorem by hand on f = x³y² + sin(xy), taking the mixed partial in both orders. Both routes give 6x²y + cos(xy) − xy sin(xy). Then study the counterexample xy(x² − y²)/(x² + y²) at the origin, where the two orders give 1 and −1. Seeing one success and one failure shows what the continuity hypothesis buys.
+
+## Common Misconceptions
+- The order of differentiation never matters. (It can matter when the mixed partials are not continuous. The counterexample above has both mixed partials at the origin, and they differ.)
+- f_xy and ∂²f/∂x∂y always mean the same order. (In a common convention, f_xy differentiates by x first, while ∂²f/∂x∂y differentiates by y first. Under Clairaut's hypotheses the results agree, but the notation differs.)
+- Clairaut's theorem says f_xx = f_yy. (It concerns only the mixed partials. For f = x², f_xx = 2 while f_yy = 0.)
+
 ## Questions
 
 ```yaml

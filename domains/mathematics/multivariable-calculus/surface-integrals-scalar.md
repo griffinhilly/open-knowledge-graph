@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 The surface integral ∬_S f dS integrates f over surface S. If S is parametrized as r(u,v), then dS = ||r_u × r_v|| du dv, and ∬_S f dS = ∬_D f(r(u,v)) ||r_u × r_v|| du dv.
 
+## How It's Best Learned
+Start with a cylinder, where the area factor is constant. For r(θ, z) = ⟨2 cos θ, 2 sin θ, z⟩ with 0 ≤ z ≤ 3, ||r_θ × r_z|| = 2, so ∬_S z dS = ∫_0^{2π} ∫_0^3 2z dz dθ = 18π. The area is 12π, so the average height is 3/2, the midpoint, as symmetry predicts. Then move to the hemisphere, where the factor varies from point to point.
+
+## Common Misconceptions
+- On a flat surface, ||r_u × r_v|| equals 1. (The factor depends on the parametrization; describing a flat disk in polar coordinates gives ||r_r × r_θ|| = r.)
+- I can integrate f(x, y, z) over D without rewriting it. (f must first be written in terms of u and v by substituting r(u, v).)
+- Writing r_v × r_u instead of r_u × r_v changes the scalar integral. (The two cross products are negatives of each other with the same magnitude, so the scalar integral is unchanged.)
+
 ## Questions
 
 ```yaml

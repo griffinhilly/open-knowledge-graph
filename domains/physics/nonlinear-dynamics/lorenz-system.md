@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 The Lorenz system ẋ = σ(y - x), ẏ = rx - y - xz, ż = xy - bz is a three-dimensional ODE derived from a simplified model of atmospheric convection. For certain parameter values (classically σ = 10, b = 8/3, r = 28), it produces chaotic behavior: trajectories loop around two unstable fixed points in a butterfly-shaped pattern, never repeating and sensitive to initial conditions. It was the first widely-studied example of deterministic chaos and the origin of the "butterfly effect" metaphor.
 
+## How It's Best Learned
+First compute the fixed points C± = (±√72, ±√72, 27) ≈ (±8.49, ±8.49, 27) for the classical parameters. Then integrate from (1, 1, 1) and from (1, 1, 1.000001), plotting x(t) for both runs and the natural log of their separation. The separation grows along a line of slope near 0.9 and then saturates. Finally, plot each maximum of z against the previous one to reveal the simple curve hidden in the chaos.
+
+## Common Misconceptions
+- The butterfly picture shows that Lorenz trajectories cross themselves. (In three dimensions the solutions are unique and cannot cross; the apparent crossings come from projecting the attractor onto a plane.)
+- The butterfly effect means a small cause reliably produces a particular large effect. (It means small uncertainties in the initial state grow until the outcome cannot be predicted, which is a statement about forecasting, not about one disturbance causing one event.)
+- The Lorenz equations are a realistic weather model. (They come from a heavily truncated model of convection; their value is as a minimal example of chaos, not as a forecast tool.)
+- The Lorenz system is chaotic for every parameter value. (For r < 1 trajectories go to the origin, and for moderate r above 1 they settle onto the steady convection states C±; the chaos appears at larger r, such as the classical r = 28.)
+
 ## Questions
 
 ```yaml
@@ -46,7 +55,7 @@ The Lorenz system ẋ = σ(y - x), ẏ = rx - y - xz, ż = xy - bz is a three-di
     - "Sensitive dependence on initial conditions — the hallmark of chaos, where exponential divergence means even tiny differences in initial conditions lead to completely different outcomes after sufficient time"
     - "Numerical instability in his integration scheme, not a property of the underlying equations"
   answer: 2
-  explanation: "Lorenz's 1963 discovery is the founding moment of chaos theory. His system was deterministic — the same initial conditions always produce the same trajectory. But his rounding (a change of about 0.01%) grew exponentially until the two trajectories were completely unrelated. This is not numerical error (it persists as the integration step shrinks to zero) but a genuine property of the equations: the largest Lyapunov exponent is positive (≈ 0.9), meaning perturbations grow by a factor of e ≈ 2.7 per unit time. After about 30 time units, a difference of 10⁻³ has grown to order 1."
+  explanation: "Lorenz's 1963 discovery is the founding moment of chaos theory. His system was deterministic — the same initial conditions always produce the same trajectory. But his rounding (a change of about 0.01%) grew exponentially until the two trajectories were completely unrelated. This is not numerical error (it persists as the integration step shrinks to zero) but a genuine property of the equations: the largest Lyapunov exponent is positive (≈ 0.9), meaning perturbations grow by a factor of e ≈ 2.7 per unit time. After about 8 time units, a difference of 10⁻³ has grown to order 1."
 
 - question: "The Lorenz system is symmetric under (x, y, z) → (-x, -y, z). This means that if (x(t), y(t), z(t)) is a solution, then (-x(t), -y(t), z(t)) is also a solution."
   type: true-false
@@ -55,7 +64,7 @@ The Lorenz system ẋ = σ(y - x), ẏ = rx - y - xz, ż = xy - bz is a three-di
 
 - question: "Describe the bifurcation sequence of the Lorenz system as r increases from 0, with σ = 10 and b = 8/3."
   type: short-answer
-  answer: "At r = 0, the origin is the only fixed point (globally stable). At r = 1, a pitchfork bifurcation creates C+ and C- while the origin becomes unstable. For 1 < r < r_H ≈ 24.74, C± are stable spirals. At r_H, a subcritical Hopf bifurcation makes C± unstable — but the unstable limit cycles created exist for r < r_H, not r > r_H. For r slightly above r_H, the system exhibits transient chaos before settling to C±. At r ≈ 24.06, a homoclinic bifurcation creates the strange attractor, which coexists with stable C± until r_H. For r > r_H ≈ 24.74, the strange attractor is the only attractor. The classic chaotic regime at r = 28 is well beyond this transition."
+  answer: "At r = 0, the origin is the only fixed point (globally stable). At r = 1, a pitchfork bifurcation creates C+ and C- while the origin becomes unstable. For 1 < r < r_H ≈ 24.74, C± are stable spirals. At r_H, a subcritical Hopf bifurcation makes C± unstable — but the unstable limit cycles involved exist for r < r_H, not r > r_H. Earlier, a homoclinic bifurcation at r ≈ 13.93 creates a chaotic set, so for 13.93 < r < 24.06 trajectories show transient chaos before settling to C±. At r ≈ 24.06 this chaotic set becomes a strange attractor, which coexists with stable C± until r_H. For r > r_H ≈ 24.74, the strange attractor is the only attractor. The classic chaotic regime at r = 28 is well beyond this transition."
   explanation: "The Lorenz system's route to chaos is complex and involves several bifurcation types interacting. The subcritical Hopf bifurcation at C± is crucial — it means the transition to chaos is sudden (subcritical), not gradual. The coexistence of the strange attractor with stable fixed points between r ≈ 24.06 and r_H ≈ 24.74 creates a hysteretic region where the system's long-term behavior depends on initial conditions."
 ```
 

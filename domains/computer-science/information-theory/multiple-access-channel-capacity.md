@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 The capacity region of a discrete memoryless multiple access channel (MAC) with K users is the set of rate tuples (R_1, ..., R_K) simultaneously achievable with error probability approaching zero. For general MACs, the region is characterized by the union of inner and outer bounds. The achievable region (inner bound) is defined by the rate constraints: sum_{i in S} R_i <= I(X_S; Y | X_{S^c}) for every non-empty subset S of users, where X_S is the input vector for users in S and X_{S^c} is the complement. The region is a polymatroid — a convex set with special combinatorial structure. The converse (outer bound) matches the inner bound for discrete memoryless MACs, fully characterizing capacity. For Gaussian MACs, the sum-capacity is log2(1 + (sum_i P_i)/N) and is achieved by the orthogonal multiple access of users alone or by non-orthogonal access combined with successive interference cancellation (SIC).
 
+## How It's Best Learned
+Draw the two-user Gaussian region for P_1 = 10, P_2 = 1 and N = 1. Mark the two single-user limits, the sum-rate line, and the two SIC corner points, computing each rate. Then add the FDMA curve, where each user puts its full power into its share of the band, and check where it touches the sum-rate line. Only after the picture is clear, extend to three users and list all seven subset constraints.
+
+## Common Misconceptions
+- Each user can send at its single-user capacity at the same time. (The sum-rate constraint cuts off that corner. The region is a pentagon for two users, not a rectangle.)
+- The user decoded first in SIC gets the best rate. (The first user is decoded while the others are still present as noise, so it gets the lower rate. The last user decoded sees a channel cleared of the others.)
+- Changing the SIC decoding order changes the total throughput. (Each order gives a different corner point, but all corner points lie on the same sum-rate line.)
+- Orthogonal access such as FDMA can never reach the Gaussian sum capacity. (With bandwidth shares in proportion to the users' powers, FDMA reaches one point on the sum-rate line. It cannot reach the rest of that line, which needs non-orthogonal access or time-sharing between SIC orders.)
+
 ## Questions
 
 ```yaml

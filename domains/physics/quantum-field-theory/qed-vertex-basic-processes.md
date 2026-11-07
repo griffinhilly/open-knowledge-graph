@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 The QED interaction vertex couples an electron, a positron, and a photon with vertex factor -ie gamma^mu. All electromagnetic processes -- Compton scattering, pair annihilation, Bhabha scattering, Moller scattering -- are built from combinations of this single vertex. The coupling strength is alpha = e^2/(4pi) approximately 1/137.
 
+## How It's Best Learned
+Compute one process fully with trace methods and get the others by crossing. In the massless limit, the spin-averaged result for e⁺e⁻ → μ⁺μ⁻ is 2e⁴(t² + u²)/s². Exchange s and t to get electron-muon scattering, 2e⁴(s² + u²)/t². Then draw the two tree diagrams for Compton scattering and the two for Bhabha scattering, and say which channel each one is.
+
+## Common Misconceptions
+- A single vertex is itself a real process, such as a free electron emitting a real photon. (Energy-momentum conservation forbids the vertex with all three particles on-shell; it occurs only inside larger diagrams with at least one internal line.)
+- The two Compton diagrams are separate processes whose probabilities add. (Their amplitudes add first and then the sum is squared, so the interference term matters.)
+- Light cannot scatter off light in QED because photons do not couple to each other. (There is no direct photon-photon vertex, but photon-photon scattering occurs through a fermion loop.)
+
 ## Questions
 
 ```yaml

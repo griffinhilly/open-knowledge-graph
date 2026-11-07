@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Two-point correlation functions G(r,r') = ⟨A(r)B(r')⟩ quantify spatial or temporal correlations between observables at different locations or times. They characterize the structure of thermal fluctuations, measure how perturbations propagate through a system, and provide direct connection to experimental scattering measurements.
 
+## How It's Best Learned
+Work the zero-field one-dimensional Ising chain first. Its spin correlation is ⟨s₀s_r⟩ = (tanh βJ)^r, so the correlation length is ξ = −1/ln(tanh βJ). Check that ξ grows without bound as T → 0. Then sketch G(r) at two temperatures beside its Fourier transform, and see how a longer ξ makes the peak in S(q) narrower.
+
+## Common Misconceptions
+- Two sites can be correlated only if they interact directly. (In the Ising chain only neighbours interact, yet correlations reach over a distance ξ that can span many sites. Correlation passes along chains of neighbouring interactions.)
+- A zero connected correlator means the two observables are statistically independent. (G = 0 means they are uncorrelated. Independence is a stronger condition, and higher-order correlations can still link the two observables.)
+- The correlation length marks a cutoff, with no correlation beyond it. (In the exponential regime G(r) keeps falling smoothly past ξ. The correlation length sets the scale of the decay. The factor exp(−r/ξ) has dropped to about 5% at r = 3ξ, which is small but not zero.)
+
 ## Questions
 
 ```yaml
@@ -51,7 +59,7 @@ Two-point correlation functions G(r,r') = ⟨A(r)B(r')⟩ quantify spatial or te
 - question: "The full correlator ⟨A(r)B(r')⟩ being large means A(r) and B(r') are strongly correlated."
   type: true-false
   answer: false
-  explanation: "The full correlator ⟨A(r)B(r')⟩ being large only means both observables have large average values — it may simply equal ⟨A(r)⟩⟨B(r')⟩. The **connected** correlator G(r,r') = ⟨A(r)B(r')⟩ − ⟨A(r)⟩⟨B(r')⟩ measures the actual statistical correlation. If G = 0, the two observables fluctuate independently regardless of how large their means are. The connected correlator subtracts out the trivial contribution from the mean values, leaving only the covariance — the true measure of whether fluctuations at r and r' are linked."
+  explanation: "The full correlator ⟨A(r)B(r')⟩ being large only means both observables have large average values — it may simply equal ⟨A(r)⟩⟨B(r')⟩. The **connected** correlator G(r,r') = ⟨A(r)B(r')⟩ − ⟨A(r)⟩⟨B(r')⟩ measures the actual statistical correlation. If G = 0, the two observables are uncorrelated regardless of how large their means are. The connected correlator subtracts out the trivial contribution from the mean values, leaving only the covariance — the true measure of whether fluctuations at r and r' are linked."
 
 - question: "Near a critical point, the correlation length ξ diverges and the connected correlation function G(r) decays as a power law rather than exponentially."
   type: true-false
@@ -60,7 +68,7 @@ Two-point correlation functions G(r,r') = ⟨A(r)B(r')⟩ quantify spatial or te
 
 - question: "Why is the connected correlation function G(r,r') = ⟨A(r)B(r')⟩ − ⟨A⟩⟨B⟩ the natural measure of spatial correlations, rather than the full correlator ⟨A(r)B(r')⟩?"
   type: short-answer
-  answer: "The connected correlator isolates the genuine statistical dependence between fluctuations. The full correlator ⟨A(r)B(r')⟩ includes a contribution ⟨A⟩⟨B⟩ that would be present even if the two locations fluctuated completely independently. By subtracting this 'trivial' product of means, the connected correlator is zero exactly when the fluctuations at r and r' are independent, and nonzero only when knowing A(r) actually gives information about B(r'). It is the covariance of the fields, directly analogous to the covariance of random variables in probability theory."
+  answer: "The connected correlator isolates the genuine statistical dependence between fluctuations. The full correlator ⟨A(r)B(r')⟩ includes a contribution ⟨A⟩⟨B⟩ that would be present even if the two locations fluctuated completely independently. By subtracting this 'trivial' product of means, the connected correlator is zero whenever the fluctuations at r and r' are independent, and nonzero only when knowing A(r) actually gives information about B(r'). It is the covariance of the fields, directly analogous to the covariance of random variables in probability theory."
   explanation: "The connection to partition function derivatives makes this precise: G(r,r') = δ²ln(Z)/δh(r)δh(r') — the second cumulant, not the second moment. In statistics, cumulants (connected correlators) encode genuine dependencies, while raw moments mix dependencies with mean effects. The same principle applies in field theory: only connected correlators give you the correlation length and the physics of fluctuations."
 ```
 

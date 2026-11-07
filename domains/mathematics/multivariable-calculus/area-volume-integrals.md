@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Area of region R: A = ∬_R 1 dA. Volume under z = f(x,y): V = ∬_R f(x,y) dA. Double integrals generalize single-variable formulas for area and volume.
 
+## How It's Best Learned
+Sketch the region between y = x² and y = x, then find its area in both orders. As x-simple: ∫₀¹∫_(x²)^x dy dx = 1/2 − 1/3 = 1/6. As y-simple: ∫₀¹∫_y^(√y) dx dy = 2/3 − 1/2 = 1/6. Matching answers confirm both setups. Redescribing the same region two ways builds the skill of reading limits off a sketch.
+
+## Common Misconceptions
+- To reverse the order of integration, keep the same limits and swap dx and dy. (That works only on rectangles. For other regions you must redescribe the region from the sketch, as when ∫₀¹∫_(x²)^x dy dx becomes ∫₀¹∫_y^(√y) dx dy.)
+- The outer limits can depend on the inner variable. (The outer limits must be constants. Only the inner limits may be functions, and only of the outer variable.)
+- ∬_R f dA gives the volume between the surface and the plane even where f is negative. (Where f < 0 the integral subtracts, so it gives a signed volume. For the geometric volume, integrate |f| or split the region.)
+
 ## Questions
 
 ```yaml

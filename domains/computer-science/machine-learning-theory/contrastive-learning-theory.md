@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Contrastive learning is a self-supervised framework that learns representations by bringing similar examples close in embedding space while pushing dissimilar examples apart. The theory is grounded in mutual information maximization: the learned representation should maximize mutual information with similar examples (positive pairs) while minimizing it with dissimilar ones (negative pairs). Applications include SimCLR, MoCo, and BYOL, which achieve strong performance on downstream tasks by learning from unlabeled data. Contrastive learning theory provides a principled approach to representation learning without labels, with connections to information theory, metric learning, and noise-contrastive estimation.
 
+## How It's Best Learned
+Compute the NT-Xent loss by hand for one anchor, one positive and three negatives, using made-up cosine similarities and a temperature, and read it as a softmax classification over four candidates. Then set every similarity equal, as happens when the encoder collapses to a constant output: the loss becomes log 4, and the InfoNCE bound log N − loss drops to zero. This shows why collapse has to be prevented.
+
+## Common Misconceptions
+- Minimizing the contrastive loss maximizes mutual information itself. (The loss gives a lower bound on mutual information, log N minus the loss, which cannot exceed log N for N candidates. A tighter bound does not guarantee better downstream features.)
+- Negatives are examples from other classes. (Without labels, negatives are other examples in the batch, and some share the anchor's class. These false negatives get pushed away anyway.)
+- Without negative pairs, a model has no way to avoid collapse. (BYOL and SimSiam use no explicit negatives and still avoid collapse, using a predictor head and a stop-gradient, plus a momentum target network in BYOL.)
+
 ## Questions
 
 ```yaml

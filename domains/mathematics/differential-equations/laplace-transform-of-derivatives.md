@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 The key property L{f'(t)} = sF(s) - f(0) (and generalizations for higher derivatives) converts ODE initial value problems into algebraic problems. Similarly, L{∫₀ᵗ f(τ) dτ} = F(s)/s, converting integro-differential equations to algebraic form.
 
+## How It's Best Learned
+Test each rule on a function whose transform you know. For f = e^(at), ℒ{f′} = a/(s − a), and sF(s) − f(0) = s/(s − a) − 1 = a/(s − a). For the integral rule, ∫₀ᵗ cos τ dτ = sin t, and 1/(s² + 1) equals (s/(s² + 1))/s. Then derive the f″ formula by applying the f′ rule twice.
+
+## Common Misconceptions
+- ℒ{f″} = s²F(s) − f(0) − sf′(0). (The powers of s pair the other way: ℒ{f″} = s²F(s) − sf(0) − f′(0), as applying the f′ rule twice shows.)
+- The integral rule also subtracts an initial value. (ℒ{∫₀ᵗ f(τ) dτ} = F(s)/s has no extra term, because the integral from 0 to t is zero at t = 0.)
+- The derivative rule works the same when the initial data are given at t = 1. (The formulas use f(0) and f′(0); with data at another point, those values become unknowns to solve for afterward.)
+
 ## Questions
 
 ```yaml
@@ -68,6 +76,6 @@ From your study of the Laplace transform definition, you know that L{f(t)} = ∫
 
 Apply integration by parts to L{f'(t)} = ∫₀^∞ f'(t)e^{−st} dt, with u = e^{−st} and dv = f'(t) dt. Then du = −se^{−st} dt and v = f(t), giving: [f(t)e^{−st}]₀^∞ + s∫₀^∞ f(t)e^{−st} dt. The boundary term evaluates to 0 − f(0) (assuming f(t) doesn't grow too fast), and the integral is exactly F(s). Result: **L{f'(t)} = sF(s) − f(0)**. Differentiation in the time domain becomes multiplication by s in the s-domain, with an initial condition subtracted. Applying this formula a second time to f''(t) = (f')'(t) gives **L{f''(t)} = s²F(s) − sf(0) − f'(0)**, and the pattern continues: each differentiation adds a factor of s and "peels off" one more initial condition.
 
-This is the core reason Laplace transforms are powerful for initial value problems. An ODE like y'' + 3y' + 2y = eˡ with y(0) = 0, y'(0) = 1 transforms into (s²Y − s·0 − 1) + 3(sY − 0) + 2Y = 1/(s−1). The left side, after collecting terms, is (s² + 3s + 2)Y − 1. Solving for Y(s) is now purely **algebra**: Y(s) = (1 + 1/(s−1)) / (s² + 3s + 2). Partial fraction decomposition followed by inverse transform gives the solution. The differential equation — previously requiring the method of undetermined coefficients or variation of parameters — reduces to polynomial arithmetic.
+This is the core reason Laplace transforms are powerful for initial value problems. An ODE like y'' + 3y' + 2y = eᵗ with y(0) = 0, y'(0) = 1 transforms into (s²Y − s·0 − 1) + 3(sY − 0) + 2Y = 1/(s−1). The left side, after collecting terms, is (s² + 3s + 2)Y − 1. Solving for Y(s) is now purely **algebra**: Y(s) = (1 + 1/(s−1)) / (s² + 3s + 2). Partial fraction decomposition followed by inverse transform gives the solution. The differential equation — previously requiring the method of undetermined coefficients or variation of parameters — reduces to polynomial arithmetic.
 
 The integration formula L{∫₀ᵗ f(τ) dτ} = F(s)/s is the symmetric partner. Just as differentiation multiplies by s, integration divides by s. This duality (s ↔ multiplication, 1/s ↔ integration) is a formal parallel to the derivative/integral relationship from calculus, but now entirely algebraic in the s-domain. Together these formulas make the Laplace transform a full **operational calculus**: the operations of differentiation and integration on functions become multiplication and division on their transforms, letting you manipulate ODEs as if they were ordinary equations.

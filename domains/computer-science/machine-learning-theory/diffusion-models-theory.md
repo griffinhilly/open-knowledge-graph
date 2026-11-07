@@ -20,6 +20,14 @@ status: validated
 ## Core Idea
 Diffusion models are generative models that learn to reverse a stochastic corruption process (diffusion). Starting with clean data, noise is gradually added via a forward diffusion process until the data becomes pure noise. The model learns to reverse this process by predicting the noise or score (gradient of log probability) at each step. Despite their simplicity, diffusion models achieve state-of-the-art generation quality (images, video, audio, molecules) and provide a theoretically principled framework connecting to score-based models, variational inference, and the reverse Kolmogorov equations from stochastic calculus. Diffusion models unify several prior generative modeling approaches under a common framework.
 
+## How It's Best Learned
+Work in one dimension with data that is +1 or −1 with equal probability. The noisy marginal at each step is then a mixture of two Gaussians, so its score can be written exactly. Plot that score for several noise levels, check that it equals minus the expected noise divided by sqrt(1 − ᾱ_t), and run the reverse sampler with it to watch samples settle near ±1.
+
+## Common Misconceptions
+- The model learns the forward noising process. (In standard diffusion models the forward process is fixed by the noise schedule and has no learned parameters. Only the reverse process is learned.)
+- Predicting the noise and estimating the score are two different tasks. (For Gaussian corruption they match up to scale: the score of the noisy distribution is minus the expected noise divided by sqrt(1 − ᾱ_t).)
+- Sampling has to use as many steps as training did. (Samplers such as DDIM and probability flow ODE solvers can generate with far fewer steps than the training schedule, trading some quality for speed.)
+
 ## Questions
 
 ```yaml

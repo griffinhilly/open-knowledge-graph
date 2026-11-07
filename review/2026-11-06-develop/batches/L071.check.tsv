@@ -1,0 +1,101 @@
+domains/mathematics/topology/fundamental-group-circle.md	how	4	0	ok	worked lift of e^{4πis} (ends at 2) and 2-1 loop (ends at 1); correct
+domains/mathematics/topology/fundamental-group-circle.md	mis	8	0	ok
+domains/mathematics/topology/fundamental-group-circle.md	old:q:3:question	1	1	fixed	"trivial (i.e., nearly every loop is contractible)" misdefined trivial pi1; now "every loop"
+domains/mathematics/topology/fundamental-group-definition.md	how	3	0	ok	straight-line homotopy fixes basepoint; checked
+domains/mathematics/topology/fundamental-group-definition.md	mis	8	0	ok
+domains/mathematics/topology/fundamental-group-definition.md	old:ex	1	1	fixed	"a solid torus and S¹ × D²" offered as non-homeomorphic pair; they are the same space. Now S¹ vs solid torus. Note: Explainer sits before Questions (old order), not moved
+domains/mathematics/topology/fundamental-group-definition.md	old:q:3:explanation	1	1	fixed	same solid torus vs S¹ × D² error; also "is expected to be homeomorphic" -> "must be"
+domains/mathematics/topology/hausdorff-spaces.md	how	4	0	ok
+domains/mathematics/topology/hausdorff-spaces.md	mis	8	0	ok	cocountable and two-origins examples checked
+domains/mathematics/topology/hausdorff-spaces.md	old:q:3:question	1	1	fixed	T₁ defined as "nearly every singleton closed"; now "every"
+domains/mathematics/topology/heine-borel-compact-sets.md	how	4	0	ok	bisection argument worked; discrete ℕ closed, bounded, not compact
+domains/mathematics/topology/heine-borel-compact-sets.md	mis	6	0	ok
+domains/mathematics/topology/heine-borel-compact-sets.md	old:core	1	1	fixed	"[0,∞) is closed but not compact" given as a metric-space failure of Heine-Borel; it is unbounded, so not a counterexample. Replaced with discrete ℕ
+domains/mathematics/topology/heine-borel-compact-sets.md	old:q:1:explanation	1	1	fixed	"every open cover {(n−0.1, n+0.1)} has no finite subcover" -> "the open cover"
+domains/mathematics/topology/heine-borel-compact-sets.md	old:q:2:question	1	1	fixed	"Nearly every closed and bounded subset" -> "Every"
+domains/mathematics/topology/homeomorphisms-definition-properties.md	how	3	0	ok	tan map and image of [0,1/4) checked
+domains/mathematics/topology/homeomorphisms-definition-properties.md	mis	8	0	ok
+domains/mathematics/topology/homeomorphisms-definition-properties.md	old:q:0:options	1	1	fixed	keyed option and explanation said the arc's (open) preimage under f is the problem; the real failure is that f([0,1/4)) is not open. Rewrote option 2 and explanation
+domains/mathematics/topology/homeomorphisms-definition-properties.md	old:ex	1	1	fixed	same wrong reason for f⁻¹ discontinuity in paragraph 2
+domains/mathematics/topology/homeomorphisms-definition-properties.md	old:q:2:question	1	1	fixed	"is generally a homeomorphism" -> "is always"
+domains/mathematics/topology/homeomorphisms-topological-equivalence.md	how	3	1	fixed	table column "whether removing some point disconnects it" gives yes for both [0,1) and (0,1), so it does not separate the pair in the worked example; changed to "removing each single point"
+domains/mathematics/topology/homeomorphisms-topological-equivalence.md	mis	6	0	ok	full-twist band vs annulus checked (boundary linking number)
+domains/mathematics/topology/homeomorphisms-topological-equivalence.md	old:q:0:options	1	1	fixed	keyed option and explanation claimed the preimage of an arc at (1,0) is not open in [0,1); it is open ([0,ε)∪(1−ε,1)). Rewrote to f([0,1/4)) not open in S¹
+domains/mathematics/topology/homeomorphisms-topological-equivalence.md	old:ex	1	1	fixed	same false claim in paragraph 1
+domains/mathematics/topology/homotopy-definition.md	how	3	1	fixed	"the identity S¹ → ℝ² ∖ {0}" is the inclusion, not an identity map
+domains/mathematics/topology/homotopy-definition.md	mis	6	0	ok	2xt/(x²+t²) example checked: slices continuous, equals 1 on x=t
+domains/mathematics/topology/homotopy-of-paths.md	how	3	0	ok	reparametrization homotopy checked at s=0,1 and t=0,1
+domains/mathematics/topology/homotopy-of-paths.md	mis	6	0	ok
+domains/mathematics/topology/homotopy-paths.md	how	3	0	ok	stacked L agrees at t=1/2 (σ); checked
+domains/mathematics/topology/homotopy-paths.md	mis	6	1	fixed	bullet 2 belief "stacking is automatically continuous" is true when pieces match, so not a misconception; reframed as stacking two homotopies whose edges do not match
+domains/mathematics/topology/homotopy-paths.md	old:q:3:question	1	1	fixed	"is expected to satisfy ... for most s" -> "must satisfy ... for all s"
+domains/mathematics/topology/interior-closure-operators.md	how	5	0	ok	all four sets computed and match
+domains/mathematics/topology/interior-closure-operators.md	mis	8	1	fixed	convex hull is a closure operator in the order-theoretic sense (extensive, monotone, idempotent); qualified the belief as "Kuratowski closure operator"
+domains/mathematics/topology/interior-operator-topology.md	how	4	0	ok	[0,1) open in [0,∞) and in lower-limit topology; checked. Note: Explainer before Questions (old order)
+domains/mathematics/topology/interior-operator-topology.md	mis	8	1	fixed	bullet 1 implied "interior = set minus its edge" is false, but int(A) = A ∖ ∂A holds; specified "visible" edge and added that ∂ℚ = ℝ
+domains/mathematics/topology/interior-operator-topology.md	old:q:3:question	1	1	fixed	"for most sets A and B" -> "for all sets"
+domains/mathematics/topology/limit-points-and-accumulation.md	how	4	0	ok	bins worked: isolated 0 and 3+1/n; limit points [1,2] and 3
+domains/mathematics/topology/limit-points-and-accumulation.md	mis	6	0	ok
+domains/mathematics/topology/limit-points-and-accumulation.md	old:q:2:question	1	1	fixed	"Most point in a set A" -> "Every point"
+domains/mathematics/topology/limit-points-convergence-topology.md	how	4	0	ok	1/n in usual, cofinite, discrete topologies checked
+domains/mathematics/topology/limit-points-convergence-topology.md	mis	6	0	ok
+domains/mathematics/topology/limit-points-topology-definition.md	how	5	0	ok	ℤ′, ℚ′, {1/n}′, {a}′={b} in indiscrete {a,b} checked. Note: Explainer before Questions (old order)
+domains/mathematics/topology/limit-points-topology-definition.md	mis	6	0	ok
+domains/mathematics/topology/limit-points-topology-definition.md	old:ex	1	1	fixed	"distinct points" sequence test claimed for all first-countable spaces; fails without T₁ (indiscrete {a,b}). Added T₁
+domains/mathematics/topology/limit-points-topology-definition.md	old:q:2:question	1	1	fixed	"should be an element" -> "must be"
+domains/mathematics/topology/local-compactness.md	how	5	0	ok	worked Y at origin: compact nbhd closed in ℝ² forces points (x,0), x≠0
+domains/mathematics/topology/local-compactness.md	mis	8	0	ok
+domains/mathematics/topology/local-compactness.md	old:ex	1	1	fixed	"local compactness is part of the definition [of manifolds]: it ensures every point has a neighborhood homeomorphic to a ball" is backwards; manifolds are locally Euclidean, hence locally compact
+domains/mathematics/topology/locally-connected-spaces.md	how	4	0	ok
+domains/mathematics/topology/locally-connected-spaces.md	mis	6	0	ok	comb space checked
+domains/mathematics/topology/locally-connected-spaces.md	old:core	1	1	fixed	"Connected + locally connected implies path-connected" is false (uncountable cocountable space; extended long line); needs locally path-connected. Also dropped "(universal covers exist)"
+domains/mathematics/topology/locally-connected-spaces.md	old:ex	1	1	fixed	"ensures that universal covers exist" overclaim removed
+domains/mathematics/topology/locally-connected-spaces.md	old:q:0:explanation	1	1	fixed	"no connected open neighborhood of the origin exists" is false (the whole space is one); added "small"
+domains/mathematics/topology/locally-connected-spaces.md	old:q:2:question	1	1	fixed	"Most connected topological space" -> "Every"
+domains/mathematics/topology/locally-connected-spaces.md	old:q:4:explanation	1	1	fixed	removed "path-lifting arguments work, and universal covers exist" overclaim
+domains/mathematics/topology/metric-spaces-definition-examples.md	how	5	0	ok	(x−y)² at 0,1,2; |x²−y²| at ±1; t/(1+t) subadditive; ball shapes checked
+domains/mathematics/topology/metric-spaces-definition-examples.md	mis	8	1	fixed	"in a discrete space, a ball is a single point or the whole space" false for e.g. ℤ with |m−n|; now "under the discrete metric"
+domains/mathematics/topology/metric-spaces-definition.md	how	3	0	ok	Hamming and sup triangle-inequality steps checked
+domains/mathematics/topology/metric-spaces-definition.md	mis	6	0	ok
+domains/mathematics/topology/metric-topology-from-metric.md	how	4	0	ok	B₂ ⊆ B∞ and B∞(r/√2) ⊆ B₂(r) checked
+domains/mathematics/topology/metric-topology-from-metric.md	mis	6	0	ok
+domains/mathematics/topology/metric-topology-from-metric.md	old:q:2	1	1	fixed	"Most topology" -> "Every topology"; explanation said second-countability is "required" for metrizability (false); now "sufficient"
+domains/mathematics/topology/metric-topology-from-metric.md	old:ex	1	1	fixed	"second-countability and regularity characterize" metrizable spaces; Urysohn is only sufficient
+domains/mathematics/topology/metric-topology.md	how	5	0	ok
+domains/mathematics/topology/metric-topology.md	mis	6	0	ok
+domains/mathematics/topology/metric-topology.md	old:q:2:question	1	1	fixed	"should assign the same distance to most pair" -> "must ... every pair"
+domains/mathematics/topology/metrization-theorems.md	how	5	0	ok	Sorgenfrey line separable-not-second-countable argument checked
+domains/mathematics/topology/metrization-theorems.md	mis	6	0	ok	K-topology second-countable, Hausdorff, not regular: checked
+domains/mathematics/topology/neighborhood-basis-topology.md	how	4	0	ok	cofinite no-countable-base argument worked
+domains/mathematics/topology/neighborhood-basis-topology.md	mis	6	0	ok
+domains/mathematics/topology/neighborhood-basis-topology.md	old:q:3:question	1	1	fixed	"In nearly every ... if and mainly if" -> "In every ... if and only if"
+domains/mathematics/topology/neighborhood-basis-topology.md	old:ex	1	1	fixed	long line named as lacking countable local bases; it is first-countable. Now [0, ω₁] at ω₁
+domains/mathematics/topology/neighborhoods-and-open-sets.md	how	4	0	ok	3-point space neighborhoods and constant-sequence limits checked
+domains/mathematics/topology/neighborhoods-and-open-sets.md	mis	6	0	ok
+domains/mathematics/topology/neighborhoods-and-open-sets.md	old:q:3:question	1	1	fixed	"same neighborhoods to nearly every point" made the false key wrong (topologies can agree at all but one point); now "every point". Not fixed: Q1 explanation and Explainer use superset-closed neighborhoods, but Core Idea defines neighborhood as an open set
+domains/mathematics/topology/neighborhoods-in-topology.md	how	5	0	ok
+domains/mathematics/topology/neighborhoods-in-topology.md	mis	6	0	ok
+domains/mathematics/topology/neighborhoods-in-topology.md	old:q:3:question	1	1	fixed	"is expected to itself be open" -> "must itself be open"
+domains/mathematics/topology/neighborhoods-topology-definition.md	how	4	0	ok	δ = min(1, ε/7) for x² at 3 worked
+domains/mathematics/topology/neighborhoods-topology-definition.md	mis	6	0	ok
+domains/mathematics/topology/neighborhoods-topology-definition.md	old:q:2:question	1	1	fixed	"should itself be open" -> "must"
+domains/mathematics/topology/normal-spaces.md	how	4	0	ok
+domains/mathematics/topology/normal-spaces.md	mis	8	0	ok	deleted Tychonoff plank checked
+domains/mathematics/topology/normal-spaces.md	old:q:2:question	1	1	fixed	"Nearly every Hausdorff" -> "Every"
+domains/mathematics/topology/normal-spaces.md	old:ex	1	1	fixed	long line given as non-normal; it is a linearly ordered space, hence normal. Replaced with Sorgenfrey plane
+domains/mathematics/topology/normality-t4-axiom.md	how	5	0	ok	worked: cl(U_r) ⊆ U_s; f = 0, x, 1 on the three ranges
+domains/mathematics/topology/normality-t4-axiom.md	mis	6	0	ok
+domains/mathematics/topology/normality-t4-axiom.md	old:q:3:question	1	1	fixed	"Most regular (T₃) space" -> "Every"
+domains/mathematics/topology/normality-t4-axiom.md	old:q:2:question	1	1	fixed	Tietze stated for "any continuous function"; false for e.g. S¹-valued maps. Added "real-valued"
+domains/mathematics/topology/normality-t4-axiom.md	old:core	1	1	fixed	same missing "real-valued" in Tietze statement
+domains/mathematics/topology/open-covers-finite-subcovers.md	how	3	0	ok
+domains/mathematics/topology/open-covers-finite-subcovers.md	mis	6	0	ok	cofinite: ℕ compact and not closed, checked
+domains/mathematics/topology/open-covers-finite-subcovers.md	old:core	1	1	fixed	"compact spaces cannot be covered by infinitely many small open sets" is false; restated as finite-subcover property
+domains/mathematics/topology/open-covers-finite-subcovers.md	old:q:0:options	1	1	fixed	option C ("not closed, and only closed sets can be compact") is a valid argument in ℝ, giving two correct answers; replaced with a false distractor and fixed explanation
+domains/mathematics/topology/open-covers-finite-subcovers.md	old:q:1:question	1	1	fixed	"every continuous f attains max ⇒ K compact" fails in general spaces (pseudocompact [0,ω₁)); restricted to nonempty K ⊆ ℝ
+domains/mathematics/topology/open-sets-definition-examples.md	how	3	0	ok	both candidate topologies checked. Note: Explainer before Questions (old order)
+domains/mathematics/topology/open-sets-definition-examples.md	mis	6	0	ok
+domains/mathematics/topology/open-sets-definition-examples.md	old:q:3:question	1	1	fixed	"is expected to be closed" -> "must be closed"
+domains/mathematics/topology/open-sets-in-topological-spaces.md	how	3	0	ok	Note: Explainer before Questions (old order)
+domains/mathematics/topology/open-sets-in-topological-spaces.md	mis	6	0	ok
+domains/mathematics/topology/open-sets-in-topological-spaces.md	old:q:2:question	1	1	fixed	"is generally open" -> "is always open"

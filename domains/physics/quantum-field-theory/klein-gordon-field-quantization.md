@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Canonical quantization promotes the classical Klein-Gordon field and its conjugate momentum to operators satisfying equal-time commutation relations. The field decomposes into a sum over momentum modes, each a quantum harmonic oscillator, with creation and annihilation operators that create and destroy particles.
 
+## How It's Best Learned
+Put the field in a box of side L with periodic boundary conditions, so the momenta are discrete. Write the Hamiltonian as a sum over modes, each of the form (1/2)(π_k² + ω_k²φ_k²), and define a_k and a_k† as for a single oscillator. Check that [φ(x), π(y)] = iδ³(x − y) gives [a_k, a_k†] = 1. Only then take L → ∞ and convert sums into momentum integrals.
+
+## Common Misconceptions
+- The field φ(x) is a one-particle wavefunction, like ψ in the Schrödinger equation. (After quantization φ(x) is an operator that creates and destroys quanta; the Klein-Gordon equation read as a single-particle wave equation runs into negative probability densities.)
+- The negative-frequency part of the field describes particles with negative energy. (Its coefficient is a creation operator a†, and every quantum it creates carries positive energy E_p.)
+- φ(x)|0⟩ is a particle sitting exactly at the point x. (The state is spread over roughly a Compton wavelength, and relativistic particles cannot be perfectly localized.)
+
 ## Questions
 
 ```yaml

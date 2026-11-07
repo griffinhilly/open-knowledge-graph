@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Double integrals compute area (∬_R 1 dA), volume under a surface (∬_R f dA for f ≥ 0), and mass of a lamina with density ρ (∬_R ρ(x,y) dA). These applications anchor multivariable integration to geometry and physics.
 
+## How It's Best Learned
+Fix one region, the unit disk, and change only the integrand. In polar coordinates, ∬ 1 dA = ∫₀²π∫₀¹ r dr dθ = π gives the area. Then ∬ (x² + y²) dA = ∫₀²π∫₀¹ r³ dr dθ = π/2 gives the volume under the paraboloid. Finally, read that same integral as the mass of a disk with density ρ = x² + y². One setup, three meanings.
+
+## Common Misconceptions
+- A double integral ∬_R f dA is a volume, so it cannot be negative. (It equals the volume under the surface only where f ≥ 0. Where f is negative, the contributions subtract, so the integral is a signed volume.)
+- The mass of a plate is its density times its area. (That holds only for constant density. For a variable density ρ(x,y), you must integrate ρ over the region.)
+- In polar coordinates, the area element is dr dθ. (The area element is r dr dθ. Without the factor r, the "area" of the unit disk comes out as 2π instead of π.)
+
 ## Questions
 
 ```yaml

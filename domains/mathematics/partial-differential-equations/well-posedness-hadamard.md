@@ -17,6 +17,15 @@ status: validated
 ## Core Idea
 Hadamard defined a PDE problem as well-posed if it satisfies three conditions: existence (a solution exists for given data), uniqueness (the solution is the only one), and continuous dependence on data (small changes in the data produce small changes in the solution). A problem failing any condition is ill-posed. Well-posedness determines whether a mathematical model is physically meaningful and computationally tractable. The classification of PDEs is intimately linked to well-posedness: each PDE type has specific data requirements (boundary conditions, initial conditions) that make the problem well-posed.
 
+## How It's Best Learned
+Work Hadamard's example by hand. Check that u = sin(nx) sinh(ny)/n² solves Laplace's equation with u = 0 and u_y = sin(nx)/n on y = 0. Then evaluate its size at y = 1 for n = 1, 5 and 10, and watch the data shrink while the solution grows. Finally, run the same test on the heat equation by comparing Fourier modes e^(−kn²t) forward in time with e^(kn²t) backward.
+
+## Common Misconceptions
+- If a problem has a unique solution, it is well-posed. (Existence and uniqueness are not enough. The Cauchy problem for Laplace's equation has at most one solution for given data, yet it fails continuous dependence.)
+- Ill-posed means the problem has no solution. (A problem is ill-posed if it fails any one of the three conditions. The backward heat equation can have a unique solution for suitable data and still be ill-posed, because the solution does not depend continuously on the data.)
+- Well-posedness is a property of the PDE by itself. (It depends on the PDE together with its domain, its auxiliary conditions, and the norms used to measure small changes. Laplace's equation is well-posed with Dirichlet data on a bounded domain with smooth boundary but ill-posed as a Cauchy problem.)
+- Ill-posed problems have no practical use and should be avoided. (Many inverse problems and data-assimilation problems are ill-posed yet important in practice. Regularization methods extract stable approximate solutions from them.)
+
 ## Questions
 ```yaml
 - question: "Which of Hadamard's three conditions for well-posedness addresses numerical stability?"

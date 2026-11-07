@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 The dot product a·b = |a||b|cos(θ) measures how aligned two vectors are. Geometrically, it computes the projection of one vector onto another: proj_a(b) = (a·b/|a|²)a. When a·b = 0, vectors are orthogonal.
 
+## How It's Best Learned
+Draw one projection on graph paper and check it with arithmetic. Take a = (3, 4) and b = (2, 1). Then a·b = 10 and |a|² = 25, so proj_a(b) = (6/5, 8/5). The leftover piece b − proj_a(b) = (4/5, −3/5) has dot product 0 with a. The drawing shows it as the perpendicular drop from b to the line through a.
+
+## Common Misconceptions
+- proj_a(b) and proj_b(a) are the same vector. (proj_a(b) lies along a and proj_b(a) lies along b; they are equal only when a = b, or when a and b are perpendicular and both projections are zero.)
+- The vector projection formula divides by |a|. (Dividing by |a| gives the scalar projection; the vector projection divides by |a|² so that multiplying by a gives the right length.)
+- A projection's length is at most the length of the vector you project onto. (The scalar projection of b onto a has absolute value |b||cos θ|, which is at most |b| and can exceed |a|.)
+- A negative dot product means a calculation error. (It means the angle is greater than 90°, and the projection points opposite to a.)
+
 ## Questions
 
 ```yaml

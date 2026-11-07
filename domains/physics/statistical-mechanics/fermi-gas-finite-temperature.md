@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 For kT ≪ E_F, the Fermi-Dirac distribution n(E) ≈ 1 for E < μ(T), ≈ 0 for E > μ(T), smoothing over a width ~kT. Chemical potential μ(T) ≈ E_F [1 − π^2(kT/E_F)^2/12 + ...]. Heat capacity C_V ≈ (π^2 k_B^2 T / 3) g(E_F) is linear in T, a signature of Fermi liquid behavior.
 
+## How It's Best Learned
+Put copper at 300 K (E_F ≈ 7 eV, kT ≈ 0.026 eV) through the Sommerfeld results. The shift of μ is (π²/12)(kT)²/E_F ≈ 8 × 10⁻⁵ eV. With g(E_F) = 3N/(2E_F), the heat capacity is C_V = (π²/2)Nk(kT/E_F) ≈ 0.018 Nk. That is about 1/80 of the classical 1.5 Nk.
+
+## Common Misconceptions
+- Heating always pushes μ below E_F. (The shift follows the slope of g(E) at E_F. For a free 2D gas, g is constant and the shift is exponentially small. Where g falls with energy, μ rises.)
+- Heating lifts electrons from deep in the Fermi sea to above E_F. (Excitations move electrons from within about kT below E_F to within about kT above it. Deeper electrons stay where they are.)
+- The electronic heat capacity is too small to measure next to the lattice. (At a few kelvin the phonon T³ term falls below the linear electronic term. A plot of C/T against T² separates the two.)
+
 ## Questions
 
 ```yaml
@@ -61,7 +69,7 @@ For kT ≪ E_F, the Fermi-Dirac distribution n(E) ≈ 1 for E < μ(T), ≈ 0 for
 - question: "Why does the chemical potential μ(T) shift downward from E_F as temperature increases, rather than remaining fixed at E_F?"
   type: short-answer
   answer: "The downward shift of μ arises from the asymmetric density of states around E_F. In three dimensions, the density of states g(E) ∝ √E, meaning there are more available states just above E_F than just below it. When temperature smears the Fermi-Dirac step, electrons are promoted from just below E_F to just above it. Because g(E) is larger just above E_F, more electrons are added to the region above E_F than are removed from the region below. To maintain the total electron count fixed (charge neutrality), the chemical potential must shift downward — lowering μ slightly reduces the occupation of high-energy states and increases occupation of low-energy states until the total count is restored. The leading correction is μ(T) ≈ E_F[1 − (π²/12)(kT/E_F)²]."
-  explanation: "If the density of states were perfectly symmetric around E_F (equal numbers of states just above and just below), the symmetric smearing of the Fermi function would not change the total electron count and μ would remain at E_F. The downward shift is a consequence of the asymmetry: g(E) increases with E, so the asymmetric promotion of electrons requires a compensating downward shift in μ. This effect is tiny in metals at room temperature (the correction is of order (kT/E_F)² ~ 0.003) but becomes important near absolute zero and in systems with sharp features in g(E)."
+  explanation: "If the density of states were perfectly symmetric around E_F (equal numbers of states just above and just below), the symmetric smearing of the Fermi function would not change the total electron count and μ would remain at E_F. The downward shift is a consequence of the asymmetry: g(E) increases with E, so the asymmetric promotion of electrons requires a compensating downward shift in μ. This effect is tiny in metals at room temperature (the correction is of order (kT/E_F)² ~ 10⁻⁵) but grows as kT approaches E_F and matters in systems with sharp features in g(E)."
 ```
 
 ## Explainer

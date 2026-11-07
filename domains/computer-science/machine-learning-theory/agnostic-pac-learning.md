@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Agnostic PAC learning generalizes the PAC framework by dropping the assumption that the target function belongs to the hypothesis class. In the realizable PAC setting, there exists a hypothesis with zero error; in the agnostic setting, the best hypothesis in the class may have nonzero error, and the learner must compete with this best-in-class benchmark. The goal becomes finding a hypothesis whose risk is within epsilon of the minimum achievable risk in the class. This is far more realistic — in practice, no model class perfectly captures the true data-generating process — and requires stronger uniform convergence guarantees.
 
+## How It's Best Learned
+Start with one fixed hypothesis and Hoeffding's inequality: estimating its error to within epsilon takes on the order of 1/epsilon² samples. Next, apply a union bound over a finite class to get uniform convergence, and only then replace the log|H| term with VC dimension. Put this next to the realizable argument, where one training mistake rules a hypothesis out, to see where the extra 1/epsilon comes from.
+
+## Common Misconceptions
+- Agnostic PAC learning promises error close to the best possible classifier. (The benchmark is the best hypothesis in the class H. The gap between that hypothesis and the Bayes-optimal classifier is approximation error, and more data does not remove it.)
+- Dropping realizability means ERM stops working and a new algorithm is needed. (ERM still works. Uniform convergence keeps the training-error minimizer close to the best in class; what changes is the number of samples required.)
+- "Agnostic" means the learner assumes nothing about the data. (Samples are still assumed to be drawn i.i.d. from a fixed distribution, and the guarantee needs the class to have finite VC dimension.)
+
 ## Questions
 
 ```yaml

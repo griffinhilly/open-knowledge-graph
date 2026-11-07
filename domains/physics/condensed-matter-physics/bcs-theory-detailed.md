@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 BCS theory (Bardeen, Cooper, Schrieffer, 1957) explains superconductivity microscopically. Phonon-mediated attraction between electrons near the Fermi surface allows the formation of Cooper pairs — bound states of electrons with opposite momentum and spin (k↑, -k↓). The BCS ground state is a coherent superposition of pair-occupied and pair-empty states, described by the wavefunction |BCS> = product_k (u_k + v_k c†_{k↑} c†_{-k↓})|0>. The energy gap Delta(T) opens at E_F, with 2Delta(0) = 3.53 k_B T_c in weak coupling. The gap suppresses low-energy scattering and is responsible for zero resistance, the Meissner effect, and the exponential specific heat at low temperatures.
 
+## How It's Best Learned
+Derive the theory once in the mean-field route. Start from the reduced pairing Hamiltonian, apply the Bogoliubov transformation, and get E_k = √(ξ_k² + Δ²) with v_k² = ½(1 − ξ_k/E_k). Plot v_k² against ξ_k to see the smeared Fermi edge. Then solve the gap equation numerically at several temperatures and check that Δ(0)/k_BT_c comes out near 1.76.
+
+## Common Misconceptions
+- A Cooper pair is a small, tightly bound molecule of two electrons. (In conventional superconductors the pair size, set by the coherence length, is much larger than the spacing between electrons, so pairs overlap heavily.)
+- Each electron pairs with one particular partner electron in real space. (Pairing is between momentum states k↑ and −k↓, and the BCS ground state is one coherent many-body state built from all of them.)
+- The ratio 2Δ(0) = 3.53 k_BT_c holds for every superconductor. (It is the weak-coupling result; strong-coupling materials such as lead have larger ratios.)
+- BCS theory needs a strong attraction between electrons. (Any net attraction near the Fermi surface, however weak, makes the normal state unstable; weak coupling gives an exponentially small gap.)
+
 ## Questions
 
 ```yaml

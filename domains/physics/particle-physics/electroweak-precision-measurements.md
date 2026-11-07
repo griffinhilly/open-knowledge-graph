@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Electroweak precision measurements test the Standard Model at the quantum loop level. Quantities like the W mass, the effective weak mixing angle sin^2(theta_eff), and the Z decay widths are measured with permille-level precision and compared to predictions that include radiative corrections sensitive to virtual top quarks and the Higgs boson. These measurements predicted the top quark mass before its discovery and constrain possible new physics beyond the Standard Model.
 
+## How It's Best Learned
+Count neutrinos from LEP numbers yourself. Take Γ_Z = 2.4952 GeV, Γ_had = 1.7444 GeV, and Γ_ℓ = 0.0840 GeV per charged lepton. The invisible width is 2.4952 − 1.7444 − 3(0.0840) ≈ 0.499 GeV. Divide by the predicted 0.167 GeV per neutrino to get about 2.99. Then compare how δρ depends on m_t² but on ln m_H.
+
+## Common Misconceptions
+- Precision data pinned down the Higgs mass as tightly as the top mass. (The Higgs enters the loop corrections only logarithmically, so the pre-discovery constraint on m_H was much looser than the one on m_t.)
+- Agreement with the Standard Model rules out new physics. (It limits the combinations of mass and coupling that new particles can have. Heavy particles with weak couplings give shifts too small to see.)
+- N_ν = 3 proves there are exactly three kinds of neutrino. (The Z width counts light neutrinos that couple to the Z with Standard Model strength. Sterile neutrinos or neutrinos heavier than M_Z/2 would not appear.)
+
 ## Questions
 
 ```yaml

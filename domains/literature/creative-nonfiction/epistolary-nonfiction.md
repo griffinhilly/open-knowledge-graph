@@ -19,6 +19,14 @@ status: draft
 ## Core Idea
 Epistolary nonfiction employs the letter form to convey experience, reflection, argument, or relationship. Letters create intimacy through direct address, allow multiple voices and perspectives, compress time through selective correspondence, and provide formal constraints that paradoxically enable literary depth while maintaining the appearance of spontaneity and immediacy.
 
+## How It's Best Learned
+Read the letter to his nephew that opens Baldwin's The Fire Next Time and note what addressing one person lets him say that a general essay might not. Then write a short reflection twice: once as an essay for any reader, once as a letter to a specific person. Compare tone, candor, and what each version stops to explain.
+
+## Common Misconceptions
+- Published letters are spontaneous and unedited. (Their immediacy is often crafted, and a letter-essay can be revised as carefully as any other essay.)
+- Epistolary nonfiction consists only of real letters that were sent. (The form includes collections of actual correspondence and also letter-essays written for publication and addressed to a particular person.)
+- The named recipient is the only audience. (A published letter is written to be overheard; the addressee shapes the voice while a wider readership reads along.)
+
 ## Questions
 
 ```yaml
@@ -54,6 +62,7 @@ Epistolary nonfiction employs the letter form to convey experience, reflection, 
 
 - question: How might an epistolary nonfiction work about a significant life relationship work differently than a memoir or personal essay about the same relationship?
   type: short-answer
+  answer: "A memoir narrates the relationship in hindsight from the writer's single perspective. An epistolary work presents letters written while the relationship was unfolding, before outcomes were known, and can include the other person's voice. It trades the memoir's interpretive distance for immediacy, uncertainty, and dialogue."
   explanation: A memoir or essay would narrate the relationship from the writer's perspective, reflecting back on it. An epistolary work would present actual (or literarily crafted) letters—communication happening in real time, before the outcome is known. This creates immediacy and uncertainty. You're in the moment of the relationship as it's being lived, not reflecting on it afterward. The letter form also allows the other person's voice, their perspective, their words. An epistolary work about a significant relationship might include letters from both people, showing how they understood situations differently. The epistolary form can create more nuance, complexity, and authentic-feeling engagement with relationship than retrospective narrative. It trades the interpretive depth of memoir for the immediacy and dialogue of correspondence.
 ```
 

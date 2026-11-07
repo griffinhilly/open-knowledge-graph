@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 Classical field theory replaces discrete particle coordinates with continuous fields phi(x,t) as dynamical variables. The Lagrangian becomes a Lagrangian density L integrated over space, and the Euler-Lagrange equations generalize to field equations governing how fields evolve in spacetime.
 
+## How It's Best Learned
+Start with a line of N masses joined by springs, write its ordinary Lagrangian, and let the spacing go to zero. The sum over masses becomes an integral, the displacement q_i becomes a field φ(x, t), and you land on the density (1/2)μ(∂ₜφ)² − (1/2)T(∂ₓφ)², which gives the wave equation. Then apply the field Euler-Lagrange equation to the Klein-Gordon density and to −(1/4)F_μνF^μν.
+
+## Common Misconceptions
+- The position x is a dynamical variable, like q in particle mechanics. (In field theory x is a label that says which degree of freedom you mean; the dynamical variable is the field value φ at each point.)
+- Each physical system has exactly one Lagrangian density. (Adding a total derivative ∂_μK^μ changes L but leaves the action's variation and the field equations unchanged, so many densities describe the same physics.)
+- The term (1/2)∂_μφ∂^μφ is pure kinetic energy. (It contains the time-derivative term and the spatial-gradient term with opposite signs; the gradient part acts as a potential energy cost for the field varying in space.)
+
 ## Questions
 
 ```yaml

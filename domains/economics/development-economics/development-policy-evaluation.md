@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Evaluating development policies requires isolating causal effects through RCTs, regression discontinuity, instrumental variables, or difference-in-differences. Each has strengths and limitations. Evidence-based development now requires rigorous evaluation, shifting policy from intuition toward empirical demonstration of what works, for whom, and at what cost.
 
+## How It's Best Learned
+Take one program, such as a cash transfer for households scoring below 50 on a poverty index, and design four evaluations of it: an RCT, a regression discontinuity at the cutoff, a difference-in-differences against a district that started later, and an instrumental variable. For each, write the comparison group and the one assumption that must hold. Then ask what each design can say about a different country.
+
+## Common Misconceptions
+- Comparing participants before and after a program shows its effect. (Outcomes can change for other reasons over time. A credible estimate needs a comparison group that stands in for the missing counterfactual.)
+- A strong RCT result will hold wherever the program is scaled. (An RCT estimates the effect in one population and setting. Generalizing it is a separate question of external validity.)
+- The method's name settles how credible an estimate is. (Credibility depends on how well the design is carried out and whether its assumptions hold. Attrition or contamination can weaken an RCT.)
+- A statistically significant effect is enough to justify scaling. (Policymakers also need the effect size, cost, who benefited, and whether implementation can be replicated.)
+
 ## Questions
 
 ```yaml

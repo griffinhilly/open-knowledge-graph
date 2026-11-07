@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 The Kolmogorov equations describe how the transition density p(x,t; y,T) of a diffusion dX = μ(X)dt + σ(X)dW evolves. The backward equation ∂p/∂t + μ(x)∂p/∂x + (1/2)σ²(x)∂²p/∂x² = 0 acts on the initial variables (x,t). The forward equation (Fokker-Planck) ∂p/∂T = -(∂/∂y)[μ(y)p] + (1/2)(∂²/∂y²)[σ²(y)p] acts on the final variables (y,T). Together they characterize the full probabilistic evolution of diffusion processes.
 
+## How It's Best Learned
+Take Brownian motion with constant drift μ, whose transition density is Gaussian in y - x - μ(T - t) with variance T - t. Check by direct differentiation that it satisfies the backward equation in (x, t) and the forward equation in (y, T), and note where the sign of the drift term flips. Then find the OU stationary density by setting the probability flux μπ - (1/2)(σ²π)' to zero.
+
+## Common Misconceptions
+- The forward and backward equations are the same PDE run in opposite time directions. (The backward equation applies the generator L in x; the forward equation applies its adjoint L* in y, with the coefficients inside the derivatives.)
+- The drift enters the forward equation as +μ ∂p/∂y, as in the generator. (It enters as -(∂/∂y)[μp], with the opposite sign and with μ differentiated too when it depends on y.)
+- Any solution of the stationary forward equation is a stationary distribution. (It must also be nonnegative and integrate to 1; for Brownian motion the solutions are linear functions, none of which normalize, so no stationary distribution exists.)
+
 ## Questions
 
 ```yaml

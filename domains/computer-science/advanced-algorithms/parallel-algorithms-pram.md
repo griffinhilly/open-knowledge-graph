@@ -28,6 +28,15 @@ status: validated
 ## Core Idea
 The PRAM (Parallel Random Access Machine) is the standard theoretical model for shared-memory parallel computation: p processors operate synchronously on a shared memory, executing one instruction per step. The key complexity measures are work (total operations across all processors) and depth (longest chain of sequential dependencies, also called span or parallel time). Brent's theorem connects these: any algorithm with work W and depth D can be executed on p processors in time O(W/p + D). The complexity class NC (Nick's Class) captures problems solvable in polylogarithmic depth with polynomial work -- the parallel analog of P. Classic results include O(log n)-depth parallel prefix sums, O(log^2 n)-depth sorting networks, and the striking fact that some problems in P appear to be inherently sequential (P-complete problems), admitting no significant parallel speedup.
 
+## How It's Best Learned
+Draw the computation DAG for summing eight numbers as a balanced tree and count its work and depth. Then draw the up-sweep and down-sweep of parallel prefix on the same eight inputs, labeling each node with its partial sum. With both pictures, apply Brent's theorem for p = 2 and p = 8 and check the predicted times by scheduling the DAG by hand.
+
+## Common Misconceptions
+- More processors always make a parallel algorithm faster. (Time is O(W/p + D), so once p is larger than about W/D, depth dominates and extra processors add nothing.)
+- Low depth is the main goal, even if work grows. (An algorithm with more work than the best sequential one wastes processors, and with modest p it can run slower than a work-efficient algorithm with somewhat larger depth.)
+- Parallel prefix only works for addition. (It works for any associative operator, such as max, min, Boolean AND, or composition of linear functions, which is why it appears in so many algorithms.)
+- A problem in P that has no known fast parallel algorithm has been proven inherently sequential. (P-completeness shows that an algorithm with polylogarithmic depth and polynomial work would give NC = P. That equality is believed false but unproven.)
+
 ## Questions
 
 ```yaml

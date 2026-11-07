@@ -27,6 +27,14 @@ status: validated
 ## Core Idea
 The irreducible characters of a finite group G are orthonormal with respect to the inner product ⟨χ, ψ⟩ = (1/|G|) Σ_{g∈G} χ(g) conjugate(ψ(g)). This means ⟨χᵢ, χⱼ⟩ = δᵢⱼ — different irreducible characters are orthogonal, and each has norm 1. These relations, derived from Schur's lemma, are the primary computational tool for decomposing representations and constructing character tables.
 
+## How It's Best Learned
+Test the relations on S₃ before proving them. The permutation character on ℂ³ is (3, 1, 0) on classes of sizes 1, 3, 2, so ⟨χ, χ⟩ = (9 + 3 + 0)/6 = 2. That means two distinct irreducible summands, each once. Then check the columns of the S₃ table: the transposition column (1, −1, 0) has squared length 2, and the 3-cycle column (1, 1, −1) has 3. These match the centralizer orders.
+
+## Common Misconceptions
+- ⟨χ, χ⟩ counts the number of irreducible summands. (It equals the sum of the squared multiplicities. A value of 4 can mean four distinct irreducibles or one irreducible appearing twice.)
+- Orthogonal characters mean the two representation spaces sit at right angles inside some common space. (The orthogonality is between functions on G, in the space of class functions with the averaged inner product.)
+- Column orthogonality is the row relation restated. (It is a separate relation that sums over irreducible characters at fixed classes. It follows from the row relation once you know the table is square.)
+
 ## Questions
 
 ```yaml

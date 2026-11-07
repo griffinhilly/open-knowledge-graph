@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Overparameterization theory studies the phenomenon that neural networks with vastly more parameters than training samples can achieve both zero training error and good test performance. Classical learning theory predicts overparameterized models should overfit catastrophically. Overparameterization theory reveals that this failure of classical intuition is resolved by implicit regularization, interpolation regimes, and the structure of high-dimensional loss surfaces. When models are sufficiently overparameterized, implicit regularization from optimization algorithms (SGD, gradient descent) and architecture choices ensures that fitting training data does not prevent generalization.
 
+## How It's Best Learned
+Fit noisy samples of a smooth 1-D function (say n = 20 points) with p random features, using the minimum-norm least-squares solution. Sweep p from 5 to 200 and plot training and test error; look for the error peak near p = n. Then, at a large p, add a null-space vector to the solution. Training error stays at zero while test error changes, so the choice among interpolators matters.
+
+## Common Misconceptions
+- Once a model is overparameterized, any solution that fits the training data will generalize. (Overparameterized models have many interpolating solutions, and some generalize badly. The same networks can fit randomly assigned labels, which gives chance-level test accuracy.)
+- Adding parameters past the interpolation threshold is guaranteed to lower test error. (Test error falls again in many settings, but this depends on the data, the noise level and the implicit bias of the training algorithm.)
+- Overparameterized models show that classical generalization bounds are false. (Bounds based on parameter count stay mathematically valid; they become too loose to say anything. Newer analyses use measures such as norms or margins of the solution actually found.)
+- The infinite-width kernel limit explains why practical networks work. (In that limit the features stay fixed during training. Practical networks change their features as they train, and they often outperform the corresponding fixed kernel.)
+
 ## Questions
 
 ```yaml

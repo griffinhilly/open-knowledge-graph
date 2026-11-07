@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Planck's law describes the spectral energy density of blackbody radiation: u_ν(ν,T) dν = (8πhν^3/c^3) dν / [exp(hν/kT)−1]. Integrating over all frequencies recovers the Stefan-Boltzmann law u(T) ∝ T^4. The Planck distribution arises from counting the partition function of a gas of photons in thermal equilibrium.
 
+## How It's Best Learned
+Count the modes yourself. In a cube of side L, standing waves have ν = cn/2L, so modes below ν fill one octant of a sphere of radius n = 2Lν/c. With two polarizations that gives (8π/3)Vν³/c³ modes, and differentiating gives 8πν²/c³ per unit volume. Then plot x³/(eˣ − 1) beside the Rayleigh-Jeans curve x² and see them agree at small x.
+
+## Common Misconceptions
+- A hotter blackbody shifts its emission toward the blue and so emits less at long wavelengths. (Planck curves for different temperatures do not cross. A hotter body emits more at every frequency, and its peak also moves higher.)
+- The peak of the spectrum per unit frequency and the peak per unit wavelength describe the same photons. (The two distributions differ by the factor |dν/dλ|, so converting ν_max with λ = c/ν does not give λ_max. The per-wavelength peak falls at a shorter wavelength.)
+- A blackbody has to look black. (The name means a perfect absorber. A hot blackbody glows brightly, and the Sun's spectrum is close to a blackbody curve.)
+
 ## Questions
 
 ```yaml
@@ -54,7 +62,7 @@ Planck's law describes the spectral energy density of blackbody radiation: u_ν(
 - question: "Hotter blackbodies emit radiation that peaks at longer wavelengths (lower frequencies) than cooler blackbodies."
   type: true-false
   answer: false
-  explanation: "This is backwards. Wien's displacement law states that the peak frequency of the Planck spectrum is proportional to temperature: ν_max ∝ T. Hotter objects peak at higher frequency (shorter wavelength). This is why a piece of iron glows red at lower temperatures (peak in the infrared, with a visible red tail), then orange, then white (all visible wavelengths), then blue-white as it gets hotter. The confusion likely arises from conflating 'higher temperature = more energy at all frequencies' with 'the peak shifts to lower frequency.'"
+  explanation: "This is backwards. Wien's displacement law states that the peak frequency of the Planck spectrum is proportional to temperature: ν_max ∝ T. Hotter objects peak at higher frequency (shorter wavelength). This is why a piece of iron glows red at lower temperatures (peak in the infrared, with a visible red tail), then orange, then yellow-white as it gets hotter; much hotter stars look blue-white. The confusion likely arises from conflating 'higher temperature = more energy at all frequencies' with 'the peak shifts to lower frequency.'"
 
 - question: "Why does the Planck distribution exponentially suppress high-frequency modes, and how does this resolve the ultraviolet catastrophe?"
   type: short-answer
@@ -68,7 +76,7 @@ From the blackbody radiation problem you know the historical puzzle: classical p
 
 A photon mode at frequency ν is a quantum harmonic oscillator that can be excited with 0, 1, 2, … photons. The key difference from classical particles: photons are bosons with no conservation law (you can have any number, and photons can be created and absorbed by the walls). The chemical potential μ = 0 for a photon gas. The mean number of photons in a mode at frequency ν is then the **Bose-Einstein distribution** with μ = 0: ⟨n⟩ = 1/(exp(hν/kT) − 1). Multiplying by hν gives the mean energy per mode: ⟨E⟩ = hν / [exp(hν/kT) − 1]. This replaces the classical kT: at high temperatures (kT ≫ hν), ⟨E⟩ → kT recovering the classical limit; at low temperatures (kT ≪ hν), ⟨E⟩ → hν exp(−hν/kT) → 0, exponentially suppressing high-frequency modes.
 
-To get the full spectral density, multiply ⟨E⟩ by the number of modes per unit volume per unit frequency. In a 3D cavity, the mode density is 8πν²/c³ (accounting for two polarizations). This gives Planck's law: u_ν = (8πhν³/c³) / [exp(hν/kT) − 1]. The spectrum has a peak at ν_max ∝ T (**Wien's displacement law** — hotter objects peak at higher frequency, which is why iron glows red then white then blue as it heats). Integrating over all frequencies using the standard integral ∫₀^∞ x³/(eˣ−1)dx = π⁴/15 gives the total energy density u ∝ T⁴ — the **Stefan-Boltzmann law**, which you can now derive from first principles rather than treating as empirical.
+To get the full spectral density, multiply ⟨E⟩ by the number of modes per unit volume per unit frequency. In a 3D cavity, the mode density is 8πν²/c³ (accounting for two polarizations). This gives Planck's law: u_ν = (8πhν³/c³) / [exp(hν/kT) − 1]. The spectrum has a peak at ν_max ∝ T (**Wien's displacement law** — hotter objects peak at higher frequency, which is why heated iron glows red then yellow-white, and the hottest stars look blue-white). Integrating over all frequencies using the standard integral ∫₀^∞ x³/(eˣ−1)dx = π⁴/15 gives the total energy density u ∝ T⁴ — the **Stefan-Boltzmann law**, which you can now derive from first principles rather than treating as empirical.
 
 The Planck distribution is the prototype for a broader class of results. The same Bose-Einstein factor with μ = 0 governs phonons (quantized lattice vibrations), which gives the Debye model of heat capacities. The factor 1/(exp(βε) − 1) for bosons versus 1/(exp(βε) + 1) for fermions (which you will encounter in the Fermi-Dirac distribution) are the two fundamental quantum statistics, replacing the classical Maxwell-Boltzmann e^{−βε}. Planck's original insight — that energy comes in discrete quanta — thus has consequences far beyond radiation, anchoring the entire framework of quantum statistical mechanics.
 

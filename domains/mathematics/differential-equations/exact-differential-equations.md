@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 An exact differential equation M(x,y)dx + N(x,y)dy = 0 satisfies ∂M/∂y = ∂N/∂x, indicating it comes from a potential function F(x,y) where dF = M dx + N dy. The solution is implicitly F(x,y) = C, found by integrating M with respect to x. For non-exact equations, an integrating factor can restore exactness.
 
+## How It's Best Learned
+Work (2xy + 3)dx + (x² + 4y)dy = 0 in full. Check ∂M/∂y = 2x = ∂N/∂x, integrate M to get F = x²y + 3x + g(y), then match ∂F/∂y = x² + g'(y) to N, so g(y) = 2y². The solution is x²y + 3x + 2y² = C. Finish by differentiating F to confirm you recover M and N.
+
+## Common Misconceptions
+- The exactness test is ∂M/∂x = ∂N/∂y. (The test crosses the variables: differentiate M with respect to y and N with respect to x.)
+- The solution is F(x, y), so the answer is a function. (The solution is the family of level curves F(x, y) = C; F itself is the potential, not the solution.)
+- After integrating M in x and N in y, add the two results to get F. (Adding them counts shared terms twice; terms that appear in both should be written once.)
+
 ## Questions
 
 ```yaml

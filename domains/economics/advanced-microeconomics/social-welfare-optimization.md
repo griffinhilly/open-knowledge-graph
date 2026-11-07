@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 The planner maximizes a social welfare function (e.g., utilitarian sum of utilities, Rawlsian lexicographic) subject to resource constraints. Optimal allocation equates weighted marginal utilities (weights from the welfare function). Optimal taxation problem: using taxes and transfers to achieve a desired allocation while minimizing distortions. Ramsey's principle: taxes should be higher on goods with lower price elasticity to minimize deadweight loss.
 
+## How It's Best Learned
+Solve a two-person planner problem with u = ln c and 10 units to divide. Equal weights give 1/c₁ = 1/c₂, so each gets 5. Weights of 2 and 1 give 2/c₁ = 1/c₂, so person 1 gets 20/3 and person 2 gets 10/3. Then give person 1 all 10 units, use equal weights, and let half of each unit transferred to person 2 be lost in transit. Maximizing ln(10 − t) + ln(t/2) gives t = 5, so person 1 keeps 5 and person 2 gets 2.5: the optimum stops short of equality.
+
+## Common Misconceptions
+- A utilitarian planner chooses equal consumption because it values equality for its own sake. (It weights everyone equally and cares only about the sum. Equality follows from identical, diminishing marginal utilities, not from a taste for equality.)
+- Ramsey's rule tells you which goods are fairest to tax. (It answers an efficiency question only: how to raise a given revenue with the least deadweight loss. It ignores who bears the tax.)
+- A Rawlsian planner always redistributes until incomes are equal. (If taxes shrink output enough, more redistribution can lower the worst-off person's income, and the Rawlsian optimum stops before equality.)
+- The second welfare theorem means a government can reach any efficient allocation at no cost. (The theorem assumes lump-sum transfers of endowments. Real taxes depend on behavior, so they distort choices and create deadweight loss.)
+
 ## Questions
 
 ```yaml

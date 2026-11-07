@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Optimization theory for machine learning analyzes the convergence rates and computational complexity of training algorithms. Gradient descent on smooth convex functions converges at rate O(1/T), where T is the number of iterations. Stochastic gradient descent (SGD) — which uses a single random sample's gradient rather than the full gradient — converges at rate O(1/sqrt(T)) for convex problems, trading per-iteration cost for slower convergence. For strongly convex functions, both rates improve to O(exp(-T)) and O(1/T) respectively. The gap between GD and SGD rates reflects the fundamental tradeoff between computation per iteration and convergence speed, and the analysis of SGD noise explains why it often generalizes better than full-batch GD despite converging more slowly.
 
+## How It's Best Learned
+Start with the quadratic f(x, y) = (x² + 10y²)/2, where L = 10, μ = 1 and κ = 10. Run GD with step 1/L by hand: y reaches 0 in one step, while x shrinks by a factor of 0.9 per step. This shows why the condition number sets the rate. Then add noise to each gradient and plot log error against gradient evaluations, not iterations, to compare GD and SGD fairly.
+
+## Common Misconceptions
+- SGD has a worse convergence rate, so GD is the better choice. (The rates count iterations. An SGD step costs one gradient evaluation instead of n, so on large datasets SGD often reaches a useful accuracy with far less computation.)
+- With a fixed step size, SGD settles on the exact minimizer the way GD does. (When the per-example gradients do not all vanish at the minimizer, gradient noise keeps it moving in a region around the minimizer whose size grows with the step size. Exact convergence then needs a decaying step size or variance reduction.)
+- Exponential convergence on strongly convex problems means training will be fast. (The per-step contraction depends on κ = L/μ. When κ is large, each step removes only a small fraction of the error.)
+- The convex convergence rates tell you how fast a deep network will train. (Neural network losses are nonconvex. Nonconvex analyses usually guarantee only that the gradient norm becomes small, which says nothing about reaching a global minimum.)
+
 ## Questions
 
 ```yaml

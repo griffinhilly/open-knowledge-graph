@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 A stochastic process is ergodic if time averages converge to ensemble averages: (1/T)∫₀ᵀ f(X(t))dt → E_π[f(X)] almost surely as T → ∞, where π is the stationary distribution. Ergodicity means a single long trajectory explores the entire state space representatively — you don't need many independent samples, just one long run. For diffusions, ergodicity follows from the existence of a unique stationary distribution and appropriate recurrence conditions.
 
+## How It's Best Learned
+Simulate the OU process dX = -X dt + √2 dW, whose stationary law is N(0, 1), from several starting points and plot the running time average of X². Every path's average drifts toward 1. Then simulate the mixture: flip a coin to fix a mean of +1 or -1, run OU around it, and watch each path's average of X settle at its own mean instead of the ensemble mean 0.
+
+## Common Misconceptions
+- Any stationary process is ergodic. (A random mixture of two OU processes with different means, each started from its stationary law, is stationary, but each path's time average converges to its own component's mean.)
+- If a process returns to every region again and again, its time averages converge to a stationary expectation. (One-dimensional Brownian motion is recurrent but has no stationary probability distribution, and the fraction of time it spends in [-1, 1] tends to 0.)
+- Ergodicity tells you how long to run a simulation. (The ergodic theorem guarantees convergence of time averages; the rate depends on mixing and must be studied separately.)
+
 ## Questions
 
 ```yaml

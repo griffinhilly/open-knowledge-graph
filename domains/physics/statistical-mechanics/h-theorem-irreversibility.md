@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Boltzmann's H-theorem states that H = ∫ d³r d³v f ln f monotonically decreases (dH/dt ≤ 0) until equilibrium is reached, where dH/dt = 0. This 'explains' the second law of thermodynamics and irreversibility from time-reversible microscopic dynamics via the assumption that collisions are uncorrelated (molecular chaos). The resolution of Loschmidt's paradox requires that initial conditions are non-generic.
 
+## How It's Best Learned
+Derive dH/dt yourself by symmetrizing the collision integral over the four velocities. The result is minus an integral of (x − y) ln(x/y), with x = f′f′₁ and y = ff₁, and that product is never negative. Then mark the exact step where molecular chaos entered: replacing the two-particle distribution by the product ff₁. Finally, run the Kac ring model, a deterministic reversible toy, and compare its exact recurrence with the decay the chaos assumption predicts.
+
+## Common Misconceptions
+- The H-theorem derives the second law from Newton's laws alone. (It needs the molecular chaos assumption, a statistical statement about pre-collision velocities that the reversible dynamics does not supply.)
+- Molecular chaos means the particles move randomly. (The dynamics stays deterministic. The assumption concerns only the absence of correlations between velocities of particles about to collide.)
+- In a real gas, H decreases at every instant without exception. (The theorem applies to the Boltzmann-equation distribution. A coarse-grained H for a finite gas fluctuates and can rise briefly, though large rises are extremely improbable.)
+
 ## Questions
 
 ```yaml

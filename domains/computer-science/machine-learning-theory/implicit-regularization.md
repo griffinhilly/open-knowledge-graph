@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Implicit regularization describes how optimization algorithms (especially gradient descent) automatically induce regularization without explicit penalty terms. When training unregularized neural networks, gradient descent converges to solutions with special structure — small norms, low-rank factorizations, sparse patterns, or large margins — that generalize well despite perfect training-set fitting. This implicit bias emerges from the geometry of the loss surface, the parameterization, and the optimization trajectory, providing a unified explanation for why deep learning generalizes and why "bigger models" can work better than classical learning theory predicts.
 
+## How It's Best Learned
+Start with one equation in two unknowns, w1 + w2 = 2, and run gradient descent on the squared error. Every gradient points along (1, 1), so w1 − w2 never changes. From (0, 0) the iterates stop at the minimum-norm solution (1, 1), but from (3, 0) they stop at (2.5, −0.5), so the bias depends on the starting point as well as the algorithm.
+
+## Common Misconceptions
+- Gradient descent finds the minimum-norm solution from any starting point. (In linear least squares it never changes the part of w outside the row space of X. It reaches the minimum-norm interpolant only from zero or another start in that row space.)
+- Implicit regularization is a property of the model alone. (The same architecture and loss can reach different solutions under different optimizers, step sizes, initializations or parameterizations.)
+- On separable data, gradient descent on logistic loss settles on a fixed weight vector. (The weights grow without bound. What converges is their direction, which approaches the maximum-margin separator.)
+
 ## Questions
 
 ```yaml

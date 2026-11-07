@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 A spring-mass system with mass m, spring constant k, and damping c is governed by m(d²x/dt²) + c(dx/dt) + kx = F(t). Solutions are underdamped (oscillatory decay), critically damped (limiting case), or overdamped (non-oscillatory decay). The natural frequency ω₀ = √(k/m) characterizes unforced motion. This model is foundational across engineering and physics.
 
+## How It's Best Learned
+Fix m = 1 and k = 5, start from x(0) = 1, x'(0) = 0, and sketch or plot the motion for c = 0, 2, 2√5 and 10. At c = 2 the roots are −1 ± 2i, so the mass oscillates with decaying amplitude. At c = 2√5 the root is repeated, and at c = 10 both roots are negative and real. Seeing the four curves together ties each root case to a motion.
+
+## Common Misconceptions
+- A vertical spring needs an extra mg term in the equation. (If x is measured from the equilibrium position, where the spring force already balances gravity, the mg term cancels and the equation keeps the same form.)
+- A damped mass still oscillates at ω₀. (An underdamped mass oscillates at ω_d = √(k/m − c²/(4m²)), which is smaller than ω₀.)
+- Pulling the mass farther makes it oscillate faster. (In this linear model the frequency depends only on k, m and c; the initial conditions set the amplitude and phase.)
+
 ## Questions
 
 ```yaml
@@ -59,7 +67,7 @@ A spring-mass system with mass m, spring constant k, and damping c is governed b
 - question: "What determines which of the three damping regimes a spring-mass system is in, and why does this distinction matter for engineering applications?"
   type: short-answer
   answer: "The discriminant c² − 4mk determines the regime: negative gives underdamping (oscillatory decay), zero gives critical damping (fastest non-oscillatory return), positive gives overdamping (slow non-oscillatory return). For engineering, the regime determines qualitative behavior: a pendulum clock needs underdamping to keep oscillating; a car shock absorber wants near-critical damping to suppress bouncing; an aircraft control surface must not overshoot its target position."
-  explanation: "The three regimes correspond directly to the three cases of characteristic roots (complex, repeated real, distinct real). Understanding which regime you're in tells you the qualitative shape of the solution before computing anything. Engineers tune the ratio c²/(4mk) — the damping ratio — to achieve the desired response for each application."
+  explanation: "The three regimes correspond directly to the three cases of characteristic roots (complex, repeated real, distinct real). Understanding which regime you're in tells you the qualitative shape of the solution before computing anything. Engineers tune the damping ratio ζ = c/(2√(mk)), whose square is c²/(4mk), to achieve the desired response for each application."
 ```
 
 ## Explainer

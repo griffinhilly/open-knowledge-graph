@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 A Lie group is a smooth manifold that is also a group, with smooth multiplication and inversion. Its Lie algebra — the tangent space at the identity equipped with the Lie bracket — captures the infinitesimal structure of the group. The exponential map connects the Lie algebra to the group, converting algebra problems to geometry and vice versa. Lie groups are the mathematical language of continuous symmetry, appearing as isometry groups of Riemannian manifolds, structure groups of bundles, and gauge groups in physics.
 
+## How It's Best Learned
+Start with SO(2): differentiate the rotation matrix R(t) at t = 0 to get J = [[0, −1], [1, 0]], then sum the series to find exp(tJ) = cos t I + sin t J. Next differentiate RᵀR = I to show the tangent space of SO(3) is the skew-symmetric matrices. Multiply out the basis rotations to check [L_x, L_y] = L_z.
+
+## Common Misconceptions
+- The Lie algebra determines the Lie group. (SO(3) and SU(2) have isomorphic Lie algebras but are different groups. The Lie algebra determines the simply connected group, and other connected groups with that algebra are its quotients.)
+- exp(X) exp(Y) = exp(X + Y), as for numbers. (This holds when X and Y commute. Otherwise the Baker-Campbell-Hausdorff formula adds bracket terms, starting with ½[X, Y].)
+- Every Lie group is a group of matrices. (Many are, but the universal cover of SL(2, ℝ) has no faithful finite-dimensional representation, so it is not a matrix group.)
+
 ## Questions
 
 ```yaml

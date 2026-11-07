@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 The Penrose (1965) and Hawking-Penrose (1970) singularity theorems prove that singularities — defined as geodesic incompleteness (the existence of geodesics that cannot be extended to arbitrary parameter values) — are generic features of general relativity under physically reasonable conditions, not artifacts of special symmetry. Penrose's theorem requires: (1) the existence of a trapped surface (a closed surface from which all outgoing light rays converge), (2) a reasonable energy condition (null energy condition: T_μν k^μ k^ν ≥ 0 for all null vectors k^μ), and (3) global hyperbolicity. Under these conditions, at least one geodesic must be incomplete — a singularity exists. Hawking extended this to cosmological singularities, proving that an expanding universe satisfying the strong energy condition must have begun from a singularity (the Big Bang). These theorems do not describe the nature of the singularity — they only prove its existence.
 
+## How It's Best Learned
+Work the focusing argument with the Raychaudhuri equation for a null congruence. With zero twist and the null energy condition, dθ/dλ ≤ −½θ². Integrating gives 1/θ(λ) ≥ 1/θ₀ + λ/2, so a congruence that starts with θ₀ < 0 reaches θ → −∞ by λ = 2/|θ₀|. Then check that every r = const sphere inside the Schwarzschild horizon is trapped, because r decreases along both future null directions.
+
+## Common Misconceptions
+- The theorems prove that curvature becomes infinite. (They prove that some geodesic is incomplete. Divergent curvature is common in known examples but is not part of the conclusion.)
+- Singularities form only because exact solutions are perfectly symmetric. (The theorems need no symmetry. A trapped surface plus an energy condition and causality assumptions is enough.)
+- A trapped surface is the same thing as an event horizon. (Whether a surface is trapped can be checked locally. The event horizon is a global boundary, and in standard settings trapped surfaces lie inside it.)
+- Hawking's theorem proves that our universe began in a singularity. (It assumes the strong energy condition, which inflation and dark energy violate. Claims about our own past rest on other arguments.)
+
 ## Questions
 
 ```yaml

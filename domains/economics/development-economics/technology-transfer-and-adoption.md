@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Technology adoption in developing economies is not automatic. Constraints include lack of absorptive capacity (skills, infrastructure), high costs of complementary inputs, credit constraints, and weak institutions. Learning-by-doing, local adaptation, and gradual diffusion are slower than technology discovery but are how most countries close the technology gap.
 
+## How It's Best Learned
+Work a spillover example. A pioneer firm spends 100 adapting a foreign technique and gains 60. Four local firms then copy it for free and gain 30 each. The private return (60) is below cost, so no one goes first, though the social return is 180. A subsidy of at least 40 makes pioneering pay. Then list what each channel (FDI, licensing, machine imports) can and cannot carry.
+
+## Common Misconceptions
+- Transferring technology means shipping machines or blueprints. (Much of the know-how is tacit and must be rebuilt by local workers through practice.)
+- Markets invest too much in being the first adopter. (Because copiers benefit without paying, pioneers capture only part of the social return, so markets tend to invest too little.)
+- Adapting a technology locally is wasted effort. (Changing it to fit local input costs and conditions is often what makes it viable.)
+- Foreign direct investment spreads technology to local firms on its own. (Spillovers depend on local firms' absorptive capacity and on links such as supplier relationships.)
+
 ## Questions
 
 ```yaml

@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 The heat equation ∂u/∂t = k∂²u/∂x² models temperature diffusion in a rod. It is parabolic (time derivative is first-order, space derivative second-order), causing solutions to smoothly approach a steady state. The diffusion coefficient k controls the equilibration speed. Boundary and initial conditions fully determine the problem. Solutions decay exponentially in time, approaching their boundary values.
 
+## How It's Best Learned
+Take a rod on [0, 1] with k = 1, zero-temperature ends and u(x, 0) = sin(πx) + 0.5 sin(3πx). The solution is e^(−π²t) sin(πx) + 0.5 e^(−9π²t) sin(3πx). At t = 0.1 the first factor is about 0.37 and the second about 0.0001, so plotting u at t = 0, 0.02 and 0.1 shows the wiggle vanishing long before the main hump.
+
+## Common Misconceptions
+- With ends held at fixed nonzero temperatures, you can still expand u directly in a sine series. (Sine terms vanish at both ends, so first subtract the straight-line steady state that meets the end temperatures, then expand the remainder.)
+- All parts of the initial profile fade at the same rate. (Each mode decays at rate k(nπ/L)², so a mode with n = 3 decays nine times as fast as the n = 1 mode.)
+- Insulated ends mean the temperature at the ends stays fixed. (Insulated ends mean zero heat flux, ∂u/∂x = 0; the end temperatures can still change over time.)
+
 ## Questions
 
 ```yaml

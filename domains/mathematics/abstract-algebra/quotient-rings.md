@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 For an ideal I of a ring R, the quotient ring R/I consists of cosets a + I with addition and multiplication defined component-wise. The natural map R → R/I is a homomorphism with kernel I.
 
+## How It's Best Learned
+Compute in ℝ[x]/(x² + 1) by multiplying and then replacing x² with −1. For example, (2 + 3x)(1 − x) = 2 + x − 3x², which reduces to 5 + x. Compare (2 + 3i)(1 − i) = 5 + i in ℂ to see the isomorphism at work. Then try ℝ[x]/(x²), where x is nonzero but x · x = 0.
+
+## Common Misconceptions
+- In ℝ[x]/(x² + 1), x² becomes 0 because the ideal is collapsed. (Only elements of the ideal become 0. x² + 1 is in the ideal, so x² equals −1, not 0.)
+- A quotient of an integral domain is again an integral domain. (ℤ is a domain, but ℤ/(6) has 2 · 3 = 0. The quotient is a domain exactly when the ideal is prime.)
+- R/I is a subset of R with the elements of I removed. (Its elements are cosets a + I, and it is a new ring. Many different elements of R name the same coset.)
+
 ## Questions
 
 ```yaml
@@ -37,7 +45,7 @@ For an ideal I of a ring R, the quotient ring R/I consists of cosets a + I with 
     - "x² = −1, because x² + 1 = 0 in the quotient ring"
     - "x² = 1, because the polynomial has two roots"
   answer: 2
-  explanation: "In R/I, the ideal I is 'set to zero.' Here I = (x² + 1), so x² + 1 = 0 in the quotient, giving x² = −1. Option B is the key misconception: only the *generator* x² + 1 becomes zero, not x² by itself. This construction is precisely what gives ℝ[x]/(x² + 1) ≅ ℂ — we have adjoined a square root of −1."
+  explanation: "In R/I, the ideal I is 'set to zero.' Here I = (x² + 1), so x² + 1 = 0 in the quotient, giving x² = −1. Option B is the key misconception: only elements of the ideal (multiples of x² + 1) become zero, and x² is not one of them. This construction is precisely what gives ℝ[x]/(x² + 1) ≅ ℂ — we have adjoined a square root of −1."
 
 - question: "Why is multiplication of cosets (a + I)(b + I) = ab + I well-defined in a quotient ring?"
   type: multiple-choice

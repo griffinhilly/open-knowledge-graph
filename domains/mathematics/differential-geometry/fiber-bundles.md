@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 A fiber bundle is a space E that locally looks like a product B × F (base × fiber) but may be globally twisted. The projection π : E → B maps each fiber π⁻¹(b) homeomorphically to the standard fiber F, but the fibers may be "glued together" nontrivially across the base. Transition functions encode this twisting and take values in the structure group G ⊂ Aut(F). Fiber bundles unify tangent bundles, vector bundles, principal bundles, and covering spaces into a single framework, and their topology (measured by characteristic classes) is central to differential geometry and physics.
 
+## How It's Best Learned
+Build the cylinder and the Möbius band from the same pieces: two arcs covering S¹, each times [−1, 1], glued on the two overlap components by id and id, or by id and x ↦ −x. Then use fiber ℝ in place of [−1, 1] and prove this Möbius line bundle is not trivial: a nowhere-zero section would have to change sign going once around, so by the intermediate value theorem it vanishes somewhere.
+
+## Common Misconceptions
+- If every fiber is a copy of F, the bundle is the product B × F. (Local triviality allows global twisting. Every fiber of the Möbius band is an interval, but the band is not a cylinder.)
+- The fiber determines the structure group. (The structure group is part of the data. A bundle with fiber ℝⁿ may have structure group GL(n), O(n) or smaller, and reducing it corresponds to adding structure such as a metric.)
+- A vector bundle can twist over an interval or a disk. (Over a contractible base such as an interval or a disk, every vector bundle is trivial. Twisting needs topology in the base, such as the loop in S¹.)
+
 ## Questions
 
 ```yaml

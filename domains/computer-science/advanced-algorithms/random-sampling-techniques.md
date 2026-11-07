@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Random sampling is a foundational technique in algorithm design where selecting elements randomly from a dataset enables efficient estimation, selection, and optimization. Reservoir sampling solves the problem of uniformly sampling k items from a stream of unknown length in O(k) space. Importance sampling reweights samples to reduce variance when estimating expectations, enabling efficient simulation of rare events. Random sampling underpins randomized selection (expected O(n) median finding), random projections (Johnson-Lindenstrauss dimensionality reduction), and the design of sublinear-time algorithms that make decisions by examining only a small fraction of the input.
 
+## How It's Best Learned
+Run reservoir sampling with k = 1 on a stream of four items by hand, writing each item's probability of being held after every step. Seeing each column settle at 1/4 makes the telescoping product concrete before the general k case. For importance sampling, estimate the probability that a fair die rolled ten times shows at least eight sixes, once by plain sampling and once with a die biased toward six, and compare the spread of the two estimates.
+
+## Common Misconceptions
+- Reservoir sampling favors early items because they enter the reservoir first. (Early items are more likely to be replaced later. The replacement probability k/i is chosen so that every item ends with inclusion probability exactly k/n.)
+- Importance sampling works with any proposal distribution. (The proposal must be positive wherever p(x) f(x) is nonzero, or the estimator is biased. Even then, a poorly matched proposal can make the variance much larger than plain sampling.)
+- Sampling more of a larger dataset is needed to get the same accuracy. (For estimating a fraction to within epsilon, the sample size depends on epsilon and the confidence level, not on the dataset size.)
+- A uniform random sample gives a good estimate for any quantity. (Rare items or heavy-tailed values can be missed entirely. Estimating such quantities needs larger samples or a weighted scheme such as importance sampling.)
+
 ## Questions
 
 ```yaml

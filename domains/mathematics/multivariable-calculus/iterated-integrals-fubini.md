@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Fubini's theorem states that for continuous f on a rectangular region, ∬_R f(x, y) dA = ∫∫ f(x, y) dy dx (inner integral with respect to y, outer with respect to x). The two orders of integration give the same answer, providing flexibility in computation.
 
+## How It's Best Learned
+Before computing, ask which inner integral is easier. For ∬ x e^{xy} over [0, 1] × [0, 2], integrating in x first needs integration by parts. Integrating in y first gives ∫₀² x e^{xy} dy = e^{2x} − 1 at once, and ∫₀¹ (e^{2x} − 1) dx = (e² − 3)/2. Fubini's theorem says both orders give this value, so pick the easy one.
+
+## Common Misconceptions
+- Fubini's theorem says an iterated integral is the definition of a double integral. (The double integral is a limit of Riemann sums; Fubini's theorem is a result that says the iterated integrals equal it under suitable conditions.)
+- Switching the order on a rectangle means changing the limits. (On a rectangle, each variable keeps its constant limits; only the nesting changes.)
+- If one order gives an integral with no elementary antiderivative, the double integral has no exact value. (The other order may be easy, as with e^(y²) over a triangle, which gives (e − 1)/2.)
+- Fubini's theorem applies to any function you can integrate in both orders. (Its basic form needs f continuous on the rectangle, and the two iterated integrals can differ for functions outside its hypotheses.)
+
 ## Questions
 
 ```yaml

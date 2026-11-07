@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 For a region D described as {(x, y) : a ≤ x ≤ b, g₁(x) ≤ y ≤ g₂(x)}, the double integral ∬_D f(x, y) dA = ∫_a^b ∫_{g₁(x)}^{g₂(x)} f(x, y) dy dx. Describing regions correctly (both as Type I and Type II) allows choosing the easier integration order.
 
+## How It's Best Learned
+Describe one region both ways and compare the work. The region between y = x and y = 2 − x² meets at x = −2 and x = 1. As Type I it is one integral, ∫ from −2 to 1 of (2 − x² − x) dx = 9/2. As Type II it must split at y = 1, because the right boundary changes from the line to the parabola there. Both pieces still total 9/2.
+
+## Common Misconceptions
+- The outer limits come from the ends of the axis in the sketch. (The outer limits come from where the boundary curves meet or from the region's extreme points, often found by solving the curves' equations together.)
+- Every region can be written as a single Type I or Type II description. (Some regions need to be split into pieces, since one boundary changes partway along.)
+- A Type I region must have straight sides at x = a and x = b. (The vertical lines can shrink to single points, as when the two boundary curves meet there.)
+- The inner integral of a Type I setup gives a number. (It gives a function of x, which the outer integral then integrates.)
+
 ## Questions
 
 ```yaml

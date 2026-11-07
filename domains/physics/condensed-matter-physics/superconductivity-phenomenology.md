@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Superconductors exhibit two defining properties: zero DC resistance below a critical temperature T_c, and the Meissner effect — complete expulsion of magnetic flux from the interior (B = 0, not just dB/dt = 0). The London equations, curl(J_s) = -(n_s e^2/mc)B and partial J_s/partial t = (n_s e^2/m)E, describe these phenomena phenomenologically. They predict that magnetic fields penetrate only a distance lambda_L = sqrt(mc^2/(4pi n_s e^2)) ~ 10-100 nm into the superconductor, decaying exponentially. The Meissner effect proves that superconductivity is a thermodynamic state (not merely perfect conduction), characterized by a macroscopic quantum wavefunction.
 
+## How It's Best Learned
+Compare a perfect conductor and a superconductor in the same field-cooling sequence, step by step, before writing any equations. Then solve ∇²B = B/λ_L² for a slab of thickness d in a parallel field: B(x) = B₀ cosh(x/λ_L)/cosh(d/2λ_L), with x measured from the center. Plot it for d = λ_L and d = 10λ_L. In SI units, n_s = 10²⁸ m⁻³ gives λ_L ≈ 53 nm.
+
+## Common Misconceptions
+- The field drops to zero exactly at the surface. (It decays over the penetration depth, and the screening currents flow in that surface layer.)
+- Zero resistance means a superconductor can carry any current. (Above a critical current, or a critical field at the surface, superconductivity breaks down.)
+- A superconductor has no losses at any frequency. (At finite frequency the oscillating electric field inside the penetration layer drives the normal electrons, which dissipate energy; the loss grows with frequency.)
+
 ## Questions
 
 ```yaml

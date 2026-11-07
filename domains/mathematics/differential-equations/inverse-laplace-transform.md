@@ -23,6 +23,13 @@ status: validated
 ## Core Idea
 To recover f(t) from F(s), decompose F(s) = P(s)/Q(s) using partial fractions, then apply the inverse Laplace transform to each term via tables. This converts a challenging inversion problem into algebra and table lookup. The partial fraction decomposition handles poles (roots of the denominator), with simple poles giving exponential terms and complex conjugate poles giving oscillatory terms.
 
+## How It's Best Learned
+After the real-root case, practice the step that trips people up: an irreducible quadratic. For F(s) = (s + 3)/(s² + 2s + 5), complete the square to (s + 1)² + 4, split the numerator as (s + 1) + 2, and read off f(t) = e^(−t)cos 2t + e^(−t)sin 2t. Check one term by transforming it forward with the shift rule.
+
+## Common Misconceptions
+- (As + B)/((s − α)² + β²) inverts directly to A cos βt + B sin βt times e^(αt). (First rewrite the numerator as A(s − α) + (B + Aα), and divide the second part by β to match the sine entry.)
+- 1/(s − a)² inverts to e^(2at). (It inverts to t·e^(at); repeated poles bring in powers of t.)
+
 ## Questions
 
 ```yaml

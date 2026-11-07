@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Color confinement is the phenomenon that quarks and gluons cannot exist as free particles -- they are always bound into color-neutral hadrons (mesons, baryons). The quark-antiquark potential grows linearly at large distances, making separation impossible. Confinement is a non-perturbative effect that has been confirmed numerically by lattice QCD but lacks a rigorous analytical proof.
 
+## How It's Best Learned
+Plot the two terms of V(r) = −4α_s/(3r) + σr separately, using α_s ≈ 0.3, σ ≈ 1 GeV/fm and ħc ≈ 0.197 GeV·fm, and find the distance where the linear term takes over. Then draw the string-breaking sequence as a picture: a stretched flux tube, a new quark-antiquark pair, two mesons. Finally write out the color-singlet combinations for a meson and a baryon explicitly.
+
+## Common Misconceptions
+- With enough energy you could pull a single quark out of a proton. (The extra energy goes into the flux tube, which breaks by creating a new quark-antiquark pair, so you get more hadrons instead of a free quark.)
+- Color neutrality allows only quark-antiquark mesons and three-quark baryons. (Any color-singlet combination is allowed, including tetraquarks and pentaquarks.)
+- Most of the proton's mass is the mass of its three quarks. (The up and down quark masses add up to about 1% of the proton mass; the rest comes from quark kinetic energy and gluon field energy.)
+- Confinement has been proven mathematically from the QCD Lagrangian. (Lattice QCD calculations support it strongly, but no rigorous analytical proof exists.)
+
 ## Questions
 
 ```yaml

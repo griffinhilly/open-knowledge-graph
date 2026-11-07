@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 The minimax rate is the best worst-case error achievable by any estimator for a given statistical problem. For a function class F and sample size n, the minimax rate R*(n, F) = inf_estimator sup_{f in F} E[loss(estimator, f)] — the smallest error that the best estimator can guarantee against the hardest instance. An estimator that achieves this rate is minimax optimal. For d-dimensional parametric estimation, the minimax rate is typically Theta(d/n). For nonparametric regression over s-smooth functions in d dimensions, the rate is Theta(n^{-2s/(2s+d)}), revealing the curse of dimensionality: high-dimensional, non-smooth functions require exponentially more data.
 
+## How It's Best Learned
+Start with the one-dimensional Gaussian mean: the sample mean has risk sigma²/n at every parameter value, and a two-point Le Cam argument with means about sigma/sqrt(n) apart gives a matching lower bound up to a constant. Then solve n^{-2s/(2s+d)} = 0.01 with s = 1. At d = 1 you need about 1,000 samples; at d = 10 you need about 10^12. Those two numbers make the curse of dimensionality concrete.
+
+## Common Misconceptions
+- A minimax optimal estimator beats every other estimator on every instance. (Minimax is about worst-case risk. The estimator that always outputs a fixed value theta_0 is perfect when the truth is theta_0, though its worst case is terrible.)
+- "Minimax optimal" means the estimator attains the exact minimax risk. (It usually means matching the rate up to constant factors. The exact minimax risk is known only in special cases, such as Gaussian mean estimation.)
+- The nonparametric rate shows that learning in high dimensions is hopeless. (That rate is the worst case over a full smoothness class. Extra structure, such as sparsity or a low intrinsic dimension, gives much faster rates.)
+
 ## Questions
 
 ```yaml

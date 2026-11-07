@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 Geography influences development through specific economic channels: market proximity affects trade costs, tropical climates increase disease burden, soil quality constrains agricultural yields, and landlocked locations reduce sea access. Geography is not destiny—these constraints operate through surmountable economic mechanisms (technology can reduce trade costs, public health addresses disease) but remain significant barriers.
 
+## How It's Best Learned
+Make a channel table with three rows (market access, climate and disease, resource endowment). For each row, write how geography raises costs and one policy that can lower them. Then test it on two cases: trace a container from a landlocked country through two neighbors to the sea, and compare it with Singapore, where the same table shows constraints turned into advantages.
+
+## Common Misconceptions
+- A country's geography fixes how rich it can become. (Geography works through channels such as trade costs and disease, and policy, technology, and institutions can change each one.)
+- A coastline guarantees growth through trade. (Coastal access is an opportunity. Singapore had to build its port, public health system, and institutions to use it.)
+- Tropical disease is a fixed feature of latitude. (Malaria was once common in parts of southern Europe and the United States, and sustained public health investment can reduce disease burdens.)
+- More natural resources always help a country develop. (Resource wealth can cause Dutch disease and rent-seeking, though countries such as Botswana and Norway have managed it well.)
+
 ## Questions
 
 ```yaml

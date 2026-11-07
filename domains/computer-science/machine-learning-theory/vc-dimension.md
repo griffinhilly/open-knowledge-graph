@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 The Vapnik-Chervonenkis (VC) dimension measures the expressive capacity of a hypothesis class by finding the largest set of points the class can shatter — that is, classify in all 2^n possible ways. A hypothesis class with VC dimension d can shatter some set of d points but no set of d+1 points. The VC dimension is the key quantity in the fundamental theorem of statistical learning: a class is PAC-learnable if and only if its VC dimension is finite, and the sample complexity for learning scales linearly with the VC dimension.
 
+## How It's Best Learned
+Draw it. Warm up with thresholds on a line, which shatter one point but not two. Then sketch three non-collinear points with all 8 labelings and a separating line for each. Next try four points both ways: in convex position, the labeling that splits the two diagonals fails. With one point inside the triangle of the others, giving that point the opposite label fails.
+
+## Common Misconceptions
+- Shattering a set means one hypothesis classifies all its points correctly. (Shattering means that for each of the 2^n labelings there is some hypothesis that produces it. Different labelings can use different hypotheses.)
+- VC dimension d means every set of d points can be shattered. (Only one set of d points has to be shattered. Lines in the plane have VC dimension 3, yet they cannot shatter three collinear points.)
+- VC dimension depends on the data distribution. (It is a property of the hypothesis class alone, based on the best possible arrangement of points. That is why VC bounds hold for every distribution.)
+- A class with finite VC dimension must contain finitely many hypotheses. (Half-planes in R^2 form an infinite class with VC dimension 3. VC dimension depends on the labelings a class can produce, not on how many members it has.)
+
 ## Questions
 
 ```yaml

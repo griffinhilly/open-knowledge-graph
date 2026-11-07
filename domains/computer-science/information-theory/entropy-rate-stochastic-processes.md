@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 The entropy rate H' = lim_{n->inf} H(X_n | X_{n-1}, ..., X_1) measures the average information per symbol in a stochastic process, accounting for all dependencies between symbols. For i.i.d. processes, H' = H(X). For stationary Markov chains, H' = sum_i pi_i * H(X_n | X_{n-1} = i), where pi is the stationary distribution — the entropy rate depends only on the transition probabilities weighted by the stationary distribution. The entropy rate is the true compression limit for the process: any lossless compressor must use at least H' bits per symbol, and this can be approached by compressors that model the dependencies.
 
+## How It's Best Learned
+Start from a two-state Markov chain with a skewed transition matrix. Find its stationary distribution, start the chain there, then compute H(X_1), H(X_2|X_1) and H(X_3|X_2,X_1) and see the sequence settle at the entropy rate after one step. Compare that rate with the marginal entropy H(pi). Then move to text and estimate conditional entropy from letter, pair and triple counts.
+
+## Common Misconceptions
+- The entropy rate of a Markov chain is the entropy of its stationary distribution. (H(pi) is the marginal entropy. The entropy rate is the pi-weighted average of the row entropies of the transition matrix, and it is no larger than H(pi).)
+- Every row of a Markov chain counts equally in the entropy rate. (Each row's entropy is weighted by how often the chain visits that state, so a rarely visited random state adds little.)
+- The block average (1/n)H(X_1, ..., X_n) and the conditional entropy H(X_n | X_{n-1}, ..., X_1) are equal for every n. (For a stationary process they share the same limit. At finite n the block average is at least as large as the conditional entropy.)
+- An i.i.d. compressor that matches symbol frequencies reaches the entropy rate. (It reaches the marginal entropy. Reaching the entropy rate needs a model of the dependencies between symbols.)
+
 ## Questions
 
 ```yaml

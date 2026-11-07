@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Cross section measurements at colliders translate observed event counts into fundamental quantities that can be compared with theoretical predictions. The measured cross section sigma = (N_signal - N_background) / (efficiency * luminosity) must be corrected for detector acceptance, efficiency, and resolution effects. Fiducial and differential cross sections, corrected through unfolding, provide the most model-independent comparisons with theory.
 
+## How It's Best Learned
+Compute one cross section by hand: 1,200 observed events, 200 expected background, efficiency 0.5, and 10 fb⁻¹ give σ = 1,000 / (0.5 × 10) = 200 fb. Then unfold a two-bin toy. With response [[0.8, 0.2], [0.2, 0.8]], true counts (150, 50) become measured (130, 70). Invert the matrix to recover (150, 50), then perturb the data and watch the result move.
+
+## Common Misconceptions
+- Collecting more luminosity increases the cross section. (The cross section is a property of the process at a given collision energy. More luminosity gives more events and a smaller statistical uncertainty on the same σ.)
+- Unfolding recovers the true distribution without adding uncertainty. (Inverting the response amplifies fluctuations, and the regularization that tames this introduces bias and correlations between bins.)
+- A fiducial cross section is less useful than a total one because it covers only part of phase space. (The fiducial result avoids a model-dependent extrapolation, and theorists can compute their prediction in the same region.)
+
 ## Questions
 
 ```yaml

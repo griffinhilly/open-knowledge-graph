@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Hawking radiation is the thermal radiation emitted by black holes due to quantum effects near the event horizon, discovered by Stephen Hawking in 1974. A Schwarzschild black hole of mass M radiates as a perfect blackbody with temperature T_H = ħc³/(8πGMk), inversely proportional to the mass — smaller black holes are hotter. The radiation arises because the vacuum state defined by an observer falling freely through the horizon differs from the vacuum state defined by a distant stationary observer: what the infalling observer sees as empty space, the distant observer sees as a thermal bath of particles. The radiated power is P = ħc⁶/(15360π G²M²), causing the black hole to lose mass and eventually evaporate completely in a time t_evap ~ 5120πG²M³/(ħc⁴). For astrophysical black holes, T_H is negligibly small (~60 nanokelvin for a solar-mass black hole), but the conceptual implications are profound: black hole evaporation raises the information paradox, one of the deepest unsolved problems in theoretical physics.
 
+## How It's Best Learned
+Work the numbers before the field theory. Show that the Schwarzschild surface gravity κ = c⁴/(4GM), placed in the Unruh-form T = ħκ/(2πck), gives T_H = ħc³/(8πGMk). Then compute T_H for one solar mass, solve for the mass whose T_H equals 2.7 K, and use t_evap ∝ M³ to see why only very small holes could evaporate within the age of the universe.
+
+## Common Misconceptions
+- Hawking radiation is literally pairs of particles popping up at the horizon, with one falling in. (That picture is a heuristic. The calculation compares vacuum states through a Bogoliubov transformation and does not track local pairs.)
+- Every black hole is losing mass to Hawking radiation right now. (A stellar-mass hole is far colder than the 2.7 K microwave background, so it currently absorbs more energy than it emits.)
+- Bigger black holes have more horizon area, so they radiate more power. (The power scales as 1/M², so larger holes radiate much less.)
+- Hawking radiation has been detected from black holes in space. (No astrophysical black hole has been observed to emit it. The predicted signal is far too weak for known holes.)
+
 ## Questions
 
 ```yaml

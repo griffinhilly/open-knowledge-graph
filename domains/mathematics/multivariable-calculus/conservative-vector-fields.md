@@ -21,7 +21,15 @@ status: validated
 # Conservative Vector Fields
 
 ## Core Idea
-A vector field F is conservative if F = ∇f for some potential f. Line integrals are path-independent: ∫_C F · dr = f(endpoint) - f(startpoint). In 2D, F = (P, Q) is conservative iff P_y = Q_x.
+A vector field F is conservative if F = ∇f for some potential f. Line integrals are path-independent: ∫_C F · dr = f(endpoint) - f(startpoint). In 2D, on a simply connected domain, F = (P, Q) is conservative iff P_y = Q_x.
+
+## How It's Best Learned
+Compare two fields that look alike: ⟨y, x⟩ and ⟨−y, x⟩. Sketch the arrows, then integrate each around the unit circle r(t) = ⟨cos t, sin t⟩. The first gives ∫₀²π cos 2t dt = 0, and it has potential f = xy. The second gives ∫₀²π 1 dt = 2π, matching its failed test: P_y = −1 while Q_x = 1.
+
+## Common Misconceptions
+- A longer path through a conservative field does more work. (The work equals f(endpoint) − f(startpoint), so path length and shape do not affect it.)
+- If P_y = Q_x wherever F is defined, F is conservative. (This holds on a simply connected domain. On the punctured plane, ⟨−y, x⟩/(x² + y²) passes the test but has circulation 2π around the origin.)
+- When you integrate P with respect to x, the constant of integration is a number. (It is an unknown function g(y). You find it by differentiating with respect to y and matching Q.)
 
 ## Questions
 

@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 A connection (or covariant derivative) ∇ provides a way to differentiate vector fields along curves on a manifold — something that requires additional structure beyond the smooth structure because there is no canonical way to compare tangent vectors at different points. The covariant derivative ∇_X Y measures how Y changes as you move along X, and it is determined in coordinates by the Christoffel symbols Γᵏᵢⱼ. Unlike the Lie bracket, the covariant derivative is tensorial in its first argument, making it the right tool for defining parallel transport and curvature.
 
+## How It's Best Learned
+Work out the flat connection of the plane in polar coordinates. Differentiating ∂r = (cos θ, sin θ) and ∂θ = (−r sin θ, r cos θ) gives Γ^θ_rθ = Γ^θ_θr = 1/r and Γ^r_θθ = −r. Then check that the constant field e_x = cos θ ∂r − (sin θ / r) ∂θ has covariant derivative zero, while its component derivatives alone do not vanish.
+
+## Common Misconceptions
+- Nonzero Christoffel symbols mean the space is curved. (Polar coordinates on the flat plane have nonzero Christoffel symbols. Curvature is a tensor built from the symbols and their derivatives, and it vanishes for the plane.)
+- (∇_X Y)_p depends only on the vectors X_p and Y_p. (It depends on X_p and on the values of Y along a curve through p in the direction X_p, since it differentiates Y.)
+- A smooth manifold has one natural connection. (A manifold admits many connections, and the difference of two is a tensor field. A Riemannian metric singles out one, the Levi-Civita connection.)
+
 ## Questions
 
 ```yaml

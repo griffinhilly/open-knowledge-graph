@@ -20,6 +20,15 @@ status: validated
 ## Core Idea
 Counterintuitively, countries with abundant natural resources often grow slower than resource-scarce countries. The resource curse operates through rent-seeking incentives (elites compete to control resource rents rather than build productive capacity), reduced institutional development incentives, and neglect of human capital. Botswana's success contrasts sharply with resource-cursed economies, revealing how governance determines resource outcomes.
 
+## How It's Best Learned
+Trace an oil boom through three separate chains. Rent-seeking: who now competes for the oil ministry? Dutch disease: what happens to the exchange rate, then to a local textile exporter? Institutional atrophy: what does the government stop needing from taxpayers? Then run Botswana through the same three chains and mark which chains its institutions blocked and which they did not (its exports still depend heavily on diamonds).
+
+## Common Misconceptions
+- Resource wealth dooms a country to slow growth. (Many economists argue the curse is conditional on weak institutions. Botswana used diamond revenue to invest in education, infrastructure, and savings.)
+- Dutch disease means the resource sector itself suffers. (The main damage falls on other tradeable sectors, such as manufacturing and agriculture, as the currency appreciates and their exports become more expensive abroad.)
+- A government that does not tax its citizens is better for them. (A government funded by resource rents depends less on taxpayers, which weakens their power to demand services and accountability.)
+- One counterexample like Botswana disproves the resource curse. (Most current versions of the thesis are conditional. Botswana is usually read as showing that institutional quality is the condition that matters.)
+
 ## Questions
 
 ```yaml

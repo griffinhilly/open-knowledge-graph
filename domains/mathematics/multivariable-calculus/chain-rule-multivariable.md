@@ -30,6 +30,14 @@ status: validated
 ## Core Idea
 If f(x, y) has continuous partials and x = x(t), y = y(t), then df/dt = (∂f/∂x)(dx/dt) + (∂f/∂y)(dy/dt). For compositions like f(g(x, y), h(x, y)), the chain rule tracks how changes propagate through each layer.
 
+## How It's Best Learned
+Pick a case where you can also substitute first. For f(x, y) = xy on the path x = cos t, y = sin t, the chain rule gives y(−sin t) + x(cos t) = cos²t − sin²t = cos 2t. Substituting first gives f = (1/2) sin 2t, with the same derivative. Then rewrite the sum as ∇f · r′(t) to see the gradient form.
+
+## Common Misconceptions
+- The contributions from x and y should be multiplied. (They are added. The paths t → x → f and t → y → f act side by side, and side-by-side effects on f sum.)
+- df/dt is the same as ∂f/∂t. (Here f has no direct t input. df/dt is the total rate of change of f as the point moves along the path through x and y.)
+- The chain rule works whenever the partial derivatives exist. (It needs f to be differentiable, which continuous partials guarantee. For f = xy/(x² + y²) with f(0,0) = 0, both partials at the origin are 0, yet f(t, t) jumps from 0 to 1/2.)
+
 ## Questions
 
 ```yaml

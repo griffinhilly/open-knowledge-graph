@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Structural risk minimization (SRM), introduced by Vapnik, provides a principled algorithm for model selection by balancing approximation and estimation error. Given a nested sequence of hypothesis classes H_1 subset H_2 subset ... with increasing VC dimensions d_1 < d_2 < ..., SRM selects the class that minimizes the sum of empirical risk and a complexity penalty proportional to sqrt(d_k/n). This automates the bias-complexity tradeoff: it avoids underfitting (too simple a class) and overfitting (too complex a class) by penalizing complexity exactly as learning theory prescribes.
 
+## How It's Best Learned
+Fill in a small table. Take classes with VC dimensions 3, 6 and 12, training errors 0.20, 0.08 and 0.06, and penalty sqrt(d/n). At n = 300 the totals are 0.30, 0.22 and 0.26, so SRM picks the middle class. At n = 3000, with the same training errors, the largest class wins narrowly (0.123 vs 0.125). This shows the choice shifting with data size.
+
+## Common Misconceptions
+- The SRM bound for the chosen class is a good estimate of its test error. (The bound is an upper bound with loose constants and can sit far above the actual test error. SRM uses it to compare classes.)
+- Each class's penalty can be computed as if it were the only class considered. (SRM looks at many classes, so the guarantee must hold for all of them at once. Standard versions split the confidence budget across classes, which adds a term that grows with the class index.)
+- SRM always prefers the simplest class. (The penalty shrinks as n grows, so with enough data SRM selects larger classes when they reduce training error enough.)
+- SRM is the same as choosing a model by cross-validation. (SRM uses a penalty computed from the training data and the class capacity. Cross-validation estimates risk on held-out data, and the two can select different classes.)
+
 ## Questions
 
 ```yaml

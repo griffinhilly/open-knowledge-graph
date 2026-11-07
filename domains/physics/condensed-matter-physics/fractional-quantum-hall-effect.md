@@ -20,6 +20,15 @@ status: validated
 ## Core Idea
 The fractional quantum Hall effect (FQHE) occurs at fractional Landau level fillings nu = p/q (most prominently nu = 1/3, 2/5, 3/7, ...) where electron-electron interactions in a partially filled Landau level create incompressible quantum liquid states. The Laughlin wavefunction Psi = product_{i<j} (z_i - z_j)^m exp(-sum|z_k|^2/4l_B^2) for nu = 1/m describes a state with no single-particle analog — it is an intrinsically many-body phenomenon. The quasiparticle excitations carry fractional charge e/m and obey fractional (anyonic) statistics, neither bosonic nor fermionic. The FQHE was the first example of topological order and remains the most dramatic manifestation of strong correlations in condensed matter.
 
+## How It's Best Learned
+Read the filling fraction directly off the Laughlin wavefunction. The highest power of any one z_i is m(N − 1), which counts the lowest-Landau-level orbitals the droplet occupies, so N electrons in about mN orbitals gives ν = 1/m. Then follow Laughlin's flux-insertion argument: threading one flux quantum through a point pushes out charge e/m and leaves a quasihole.
+
+## Common Misconceptions
+- Fractional charge means electrons break into pieces. (Electrons stay whole; an e/3 quasiparticle is a collective rearrangement of the liquid with a local charge deficit spread over a few magnetic lengths.)
+- A Hall plateau appears at every fraction p/q. (Only particular fractions appear, mostly with odd denominators in the lowest Landau level; the even-denominator state at ν = 5/2 lies in a higher Landau level.)
+- The Laughlin state is the exact ground state of the Coulomb interaction. (It is exact for a short-range model interaction and very close to, but not identical with, the Coulomb ground state.)
+- Disorder spoils fractional quantization. (Some disorder is needed for wide plateaus, because it localizes the quasiparticles added as the field moves away from the exact filling.)
+
 ## Questions
 
 ```yaml

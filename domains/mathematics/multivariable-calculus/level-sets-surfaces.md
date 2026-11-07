@@ -28,6 +28,15 @@ status: validated
 ## Core Idea
 A level set is the set of all points where f(x, y, z) = k for a fixed constant k. For a function f: ℝ² → ℝ, level sets are curves; for f: ℝ³ → ℝ, level sets are surfaces. These visualize how a scalar field varies through space.
 
+## How It's Best Learned
+Watch one family of level surfaces change as k changes, using horizontal traces. For f = x² + y² − z², setting z = c gives circles x² + y² = k + c². At k = 1 every height has a circle, giving one connected surface. At k = 0 the circles shrink to a point at z = 0, giving a cone. At k = −1 there are no points with |z| < 1, so the surface splits into two pieces.
+
+## Common Misconceptions
+- A level surface of f(x, y, z) is the graph of f. (The graph of a function of three variables would live in four dimensions; a level surface is a set in the domain, ℝ³.)
+- The constant k is the radius or size of the level set. (For x² + y² + z² = k the radius is √k, and other functions relate k to shape in other ways.)
+- Every level set is a curve or a surface. (A level set can be empty, a single point, or a degenerate shape; x² + y² + z² = −1 has no points.)
+- Level curves for two different values of k can cross each other. (Each point has one value of f, so two different level sets cannot share a point.)
+
 ## Questions
 
 ```yaml

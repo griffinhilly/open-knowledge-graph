@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 The electron-phonon interaction describes the coupling between conduction electrons and lattice vibrations (phonons). When an ion vibrates from its equilibrium position, the local potential seen by electrons changes, scattering electrons from one Bloch state to another. This interaction is responsible for the T-linear electrical resistivity of metals above the Debye temperature, for the effective attractive interaction between electrons that drives BCS superconductivity (Cooper pairing), and for polaron formation in polar semiconductors. The coupling strength is characterized by the Eliashberg function alpha^2 F(omega) and the dimensionless coupling constant lambda.
 
+## How It's Best Learned
+Evaluate the Bloch-Grüneisen formula ρ(T) ∝ (T/Θ_D)⁵ ∫₀^{Θ_D/T} x⁵ / [(eˣ − 1)(1 − e⁻ˣ)] dx numerically. Check its limits by hand: at high T the integrand is close to x³, which makes ρ linear in T, while at low T the integral tends to a constant, which leaves T⁵. Then fit measured resistivity data for a simple metal to find Θ_D.
+
+## Common Misconceptions
+- The phonon-mediated attraction acts between any two electrons at any energy. (It is retarded and works only for energy transfers below roughly the Debye energy; at higher energies the Coulomb repulsion dominates.)
+- The best conductors at room temperature should make the best superconductors. (Good conductors such as copper have weak electron-phonon coupling, which gives low resistivity and also weak pairing; metals with stronger coupling, such as lead and niobium, superconduct.)
+- Metallic resistivity is linear in temperature at all temperatures. (It is linear only at high temperature; well below Θ_D it falls as T⁵, and at the lowest temperatures impurity scattering leaves a constant residual resistivity.)
+
 ## Questions
 
 ```yaml

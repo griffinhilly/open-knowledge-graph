@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 The implicit function theorem on manifolds states that if F : M → N is a smooth map and c ∈ N is a regular value (dFp surjective for all p ∈ F⁻¹(c)), then F⁻¹(c) is a smooth submanifold of M with codimension equal to dim(N). This globalizes the classical implicit function theorem from ℝⁿ, providing the primary method for constructing manifolds as solution sets of smooth equations. The related concepts of submersions and transversality extend this to more general intersection problems.
 
+## How It's Best Learned
+Prove Sⁿ is a manifold from F(x) = |x|²: dF_x(v) = 2x·v is onto ℝ whenever x ≠ 0. Then do SL(2, ℝ) = det⁻¹(1) in the 4-dimensional space of 2×2 matrices. Since det is homogeneous of degree 2, d(det)_A(A) = 2 det A = 2, so 1 is a regular value and SL(2, ℝ) is a 3-manifold. Contrast x² − y² = c for c ≠ 0 and c = 0.
+
+## Common Misconceptions
+- If c is a critical value, F⁻¹(c) is not a manifold. (The theorem gives a sufficient condition. For F(x, y) = x² + y², the critical level F⁻¹(0) is a single point, which is a 0-manifold.)
+- A regular value has to lie in the image of F. (The condition is checked only on F⁻¹(c). A value outside the image is regular, and its preimage is the empty manifold.)
+- The level set F⁻¹(c) has dimension dim N. (Its codimension is dim N, so its dimension is dim M − dim N.)
+
 ## Questions
 
 ```yaml

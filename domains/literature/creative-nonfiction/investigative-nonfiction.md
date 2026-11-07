@@ -24,6 +24,14 @@ status: draft
 ## Core Idea
 Investigative nonfiction pursues hidden stories through systematic research, interviews, and analysis. This form often involves uncovering wrongdoing or exposing overlooked aspects of public life. The genre combines rigorous journalism with narrative craft to make complex, layered stories accessible to readers.
 
+## How It's Best Learned
+Pick a small, checkable local question, such as why a building has stood empty for years, and trace it through at least two kinds of evidence, such as public records and interviews. Keep a source log that lists every claim and where it came from. Then outline the story twice, once in the order you found things and once in the order a reader needs, and compare the two.
+
+## Common Misconceptions
+- Investigative nonfiction is about exposing scandal. (Much of it exposes wrongdoing, but it can also explain overlooked systems or misunderstood subjects without accusing anyone.)
+- Narrative craft in investigative writing means dramatizing beyond the facts. (Structure, pacing and voice organize verified material. They do not license invention.)
+- One striking source is enough to publish a revelation. (Investigative work usually pieces findings together from documents, interviews, data and observation, and verifies allegations with care before publishing.)
+
 ## Questions
 
 ```yaml
@@ -59,6 +67,7 @@ Investigative nonfiction pursues hidden stories through systematic research, int
 
 - question: How might investigative nonfiction differ from straight reporting? What does investigation add?
   type: short-answer
+  answer: "Straight reporting covers a story as it breaks, recording what happened and what people say. Investigation takes time to ask what lies behind the story, using documents, interviews and analysis to reveal hidden patterns or systems, and uses narrative craft so readers can follow the complexity."
   explanation: 'Straight reporting might cover a story as it breaks—here''s what happened, here''s what people are saying. Investigative nonfiction goes deeper. It asks: what''s behind this story? What don''t we know? What patterns or systems does this reveal? It requires time, sustained attention, often multiple angles of approach. Straight reporting can be done quickly; investigation takes time. Straight reporting responds to news; investigation creates it. Good investigative nonfiction doesn''t just report facts; it reveals significance, shows how systems work, makes visible what''s hidden. This requires both rigorous journalism (doing the reporting, checking facts, sourcing claims) and narrative craft (structuring the material so readers can follow the complex story, making it compelling not just informative).'
 ```
 

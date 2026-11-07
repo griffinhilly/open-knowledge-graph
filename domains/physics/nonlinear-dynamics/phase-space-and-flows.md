@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Phase space is the space of all possible states of a dynamical system, with each axis representing one state variable (position, velocity, concentration, etc.). A system of first-order ODEs defines a vector field on phase space, and the evolution of the system traces out trajectories called orbits. The collection of all orbits constitutes the flow — a continuous map that advances every initial condition forward (or backward) in time, giving a global portrait of all possible behaviors.
 
+## How It's Best Learned
+Take the damped pendulum ẋ = y, ẏ = −sin x − 0.2y. On graph paper, draw its velocity arrow at a dozen grid points. For example, at (0, 1) the arrow is (1, −0.2), and at (π/2, 0) it is (0, −1). Sketch trajectories that run tangent to the arrows. Then compare your sketch with a computer plot, and with x(t) for a single run, to see what the phase picture shows that the time series hides.
+
+## Common Misconceptions
+- Phase space is the physical space the system moves in. (Its axes are the state variables, so a pendulum swinging in a plane has a phase space of angle and angular velocity.)
+- A single pendulum has a one-dimensional phase space because it has one coordinate. (Its equation is second order, so the state needs both the angle and the angular velocity, which makes the phase space two-dimensional.)
+- Each arrow in a vector field points to where the system will end up. (An arrow gives the instantaneous velocity at that state; the trajectory runs tangent to the arrows and can curve away from where any one arrow points.)
+- Trajectories of an autonomous system can cross if the dynamics are complicated enough. (Uniqueness of solutions forbids crossings; apparent crossings come from projecting a higher-dimensional flow or from a time-dependent system.)
+
 ## Questions
 
 ```yaml
@@ -62,7 +71,7 @@ Phase space is the space of all possible states of a dynamical system, with each
 
 In your earlier work on autonomous equations and phase portraits for linear systems, you learned to visualize how solutions evolve by plotting trajectories in the plane of state variables rather than against time. Nonlinear dynamics takes this idea and makes it the central organizing principle: the phase space is the arena where all dynamics play out, and understanding the geometry of trajectories in this space is the primary goal.
 
-The formal setup is straightforward. Given a system ẋ = f(x) where x is a vector of n state variables, the function f defines a vector field — at every point in n-dimensional phase space, there is an arrow telling you the direction and speed the system moves. A trajectory starting from initial condition x₀ follows the vector field forward in time, tracing out an orbit. The existence and uniqueness theorem (assuming f is smooth enough) guarantees that exactly one trajectory passes through each point, which means orbits can never cross. This no-crossing property is profoundly constraining: in two dimensions, it implies that trajectories can only approach fixed points, closed orbits, or infinity — there are no other options.
+The formal setup is straightforward. Given a system ẋ = f(x) where x is a vector of n state variables, the function f defines a vector field — at every point in n-dimensional phase space, there is an arrow telling you the direction and speed the system moves. A trajectory starting from initial condition x₀ follows the vector field forward in time, tracing out an orbit. The existence and uniqueness theorem (assuming f is smooth enough) guarantees that exactly one trajectory passes through each point, which means orbits can never cross. This no-crossing property is profoundly constraining: in two dimensions, it implies that trajectories can only approach fixed points, closed orbits, chains of fixed points joined by trajectories, or infinity — there are no other options.
 
 The **flow** φ_t is the function that maps every initial condition to where it ends up after time t. It satisfies φ_0(x) = x (do nothing at time zero) and the group property φ_{s+t} = φ_s ∘ φ_t (evolving for time s + t is the same as evolving for t then for s). This group structure is a consequence of the system being autonomous — the rules don't change with time. The flow provides a complete description of the dynamics: if you know φ_t for all t and all initial conditions, you know everything the system can do.
 

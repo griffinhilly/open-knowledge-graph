@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Communication complexity, introduced by Yao (1979), studies the minimum number of bits two parties (Alice and Bob) must exchange to compute a function f(x, y) when Alice holds x and Bob holds y. The equality function (is x = y?) requires Omega(n) deterministic bits but only O(1) randomized bits (with error). The set disjointness function requires Omega(n) bits even with randomization — a foundational result that implies streaming space lower bounds for frequency moments, distinct counting, and many other problems. Communication complexity provides the primary tool for proving lower bounds in data streams, distributed computing, and circuit complexity, making it one of the most broadly applicable areas of computational complexity.
 
+## How It's Best Learned
+Draw the communication matrix for equality on 2-bit or 3-bit inputs, with rows for Alice's x and columns for Bob's y. Show that a c-bit deterministic protocol splits the matrix into at most 2^c monochromatic rectangles, and that the diagonal of 1s forces many rectangles. Then work one streaming reduction in full: turn a small-space stream algorithm into a protocol where Alice sends the memory state.
+
+## Common Misconceptions
+- Communication complexity counts the computation Alice and Bob do. (Each party has unlimited local computation. Only the bits exchanged are counted.)
+- Randomization helps every communication problem by a large factor. (Equality drops from linear to logarithmic or constant cost, but set disjointness needs Omega(n) bits even with randomness.)
+- Private and shared randomness give the same cost. (For equality, shared randomness allows O(1) bits, while private randomness needs Theta(log n). Newman's theorem bounds the gap between the two models by an additive O(log n).)
+- The disjointness reduction shows that any estimate of the distinct-element count needs Omega(n) space. (The reduction must tell apart counts that differ by one, so it applies to exact counting. A randomized constant-factor estimate of distinct elements can be computed in far less space.)
+
 ## Questions
 
 ```yaml

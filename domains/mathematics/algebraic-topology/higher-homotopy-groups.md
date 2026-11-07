@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 The higher homotopy groups pi_n(X, x_0) for n >= 2 generalize the fundamental group by replacing loops (maps from S^1) with maps from higher-dimensional spheres S^n. The n-th homotopy group consists of homotopy classes of based maps S^n -> X, with group operation given by "stacking" spheres. Unlike the fundamental group, all higher homotopy groups are abelian. They detect n-dimensional "holes" in a space and are the most fundamental topological invariants — but they are notoriously difficult to compute, even for simple spaces like spheres.
 
+## How It's Best Learned
+Work in the cube model, where an element of π_2 is a map of the square I^2 sending the boundary to the basepoint. Draw f and g side by side, shrink each to a small box, and slide the boxes around each other to see f·g ≃ g·f. Then compute easy cases from universal covers: R is contractible, so π_n(S^1) = 0 for n ≥ 2. Finally set π_3(S^2) = Z beside H_3(S^2) = 0.
+
+## Common Misconceptions
+- If H_n(X) = 0, then π_n(X) = 0. (Homotopy groups can be nonzero where homology vanishes. π_3(S^2) = Z while H_3(S^2) = 0.)
+- Because π_n is abelian for n ≥ 2, the fundamental group acts trivially on it. (π_1 can act nontrivially. For RP^2, the nontrivial loop acts on π_2(RP^2) = Z by negation.)
+- The group operation on π_n is composition of maps. (It is concatenation along one coordinate of the cube I^n, or pinching the sphere along its equator. Two maps S^n -> X cannot in general be composed with each other.)
+
 ## Questions
 
 ```yaml
@@ -50,12 +58,12 @@ The higher homotopy groups pi_n(X, x_0) for n >= 2 generalize the fundamental gr
 - question: "A space X with π_n(X) = 0 for all n ≥ 1 must be contractible (assuming X is a CW complex)."
   type: true-false
   answer: true
-  explanation: "This is Whitehead's theorem applied to the constant map X → point. If all homotopy groups vanish, the constant map induces isomorphisms on all π_n, and by Whitehead's theorem (for CW complexes), this map is a homotopy equivalence. So X is homotopy equivalent to a point, i.e., contractible. This shows that the homotopy groups collectively form a complete invariant for CW complexes up to homotopy equivalence — a space is completely determined (up to homotopy) by its homotopy groups and their relationships."
+  explanation: "This is Whitehead's theorem applied to the constant map X → point. If all homotopy groups vanish, the constant map induces isomorphisms on all π_n, and by Whitehead's theorem (for CW complexes), this map is a homotopy equivalence. So X is homotopy equivalent to a point, i.e., contractible. Whitehead's theorem needs a map that induces the isomorphisms: CW complexes with isomorphic homotopy groups need not be homotopy equivalent, for example S^2 × RP^3 and RP^2 × S^3."
 
 - question: "Explain the relationship between π_n(X) and H_n(X) — in what ways do they agree and disagree?"
   type: short-answer
   answer: "For n = 1: π_1 maps onto H_1 via abelianization (the Hurewicz homomorphism), so H_1 = π_1/[π_1, π_1]. For the first nontrivial dimension: if π_k(X) = 0 for k < n and X is connected, then the Hurewicz theorem says π_n(X) ≅ H_n(X). Beyond that, the two invariants diverge. Homology is always computable and satisfies excision; homotopy groups do not satisfy excision and are very hard to compute. Homology of S^n is concentrated in dimensions 0 and n, but homotopy groups of S^n are highly nontrivial in infinitely many dimensions above n."
-  explanation: "The Hurewicz homomorphism h: π_n(X) → H_n(X), sending [f: S^n → X] to f_*[S^n], is always defined. It connects the two invariants but is generally neither injective nor surjective beyond the first nontrivial dimension. The fundamental tension: homotopy groups are 'complete' (they determine the homotopy type) but uncomputable; homology is computable but 'incomplete' (it does not determine the homotopy type)."
+  explanation: "The Hurewicz homomorphism h: π_n(X) → H_n(X), sending [f: S^n → X] to f_*[S^n], is always defined. It connects the two invariants but is generally neither injective nor surjective beyond the first nontrivial dimension. The fundamental tension: homotopy groups are fine invariants (through Whitehead's theorem, a map inducing isomorphisms on all of them is a homotopy equivalence of CW complexes) but very hard to compute; homology is computable but coarser."
 ```
 
 ## Explainer
@@ -68,4 +76,4 @@ The homotopy groups of spheres illustrate both the power and the difficulty of h
 
 The **Hurewicz homomorphism** h : pi_n(X) -> H_n(X) connects homotopy groups to homology. It sends the homotopy class of a map f : S^n -> X to the homology class f_*([S^n]) in H_n(X) — the image of the fundamental class of S^n under the induced map on homology. The Hurewicz theorem (studied in detail in the next topic) states that in the "first nontrivial dimension," this homomorphism is an isomorphism. This provides the main bridge between the computable world of homology and the powerful but hard-to-compute world of homotopy groups.
 
-Despite their theoretical importance, higher homotopy groups are notoriously hard to compute. They do not satisfy excision (the Freudenthal suspension theorem gives only a limited version), they have no Mayer-Vietoris sequence, and the homotopy groups of even simple spaces like S^2 contain intricate patterns that are only partially understood after decades of research. The tools for computing them — spectral sequences, fibrations, obstruction theory — are among the most sophisticated in all of mathematics. This computational difficulty, combined with their theoretical centrality (they determine the homotopy type of CW complexes), makes higher homotopy groups one of the great frontiers of algebraic topology.
+Despite their theoretical importance, higher homotopy groups are notoriously hard to compute. They do not satisfy excision (the Freudenthal suspension theorem gives only a limited version), they have no Mayer-Vietoris sequence, and the homotopy groups of even simple spaces like S^2 contain intricate patterns that are only partially understood after decades of research. The tools for computing them — spectral sequences, fibrations, obstruction theory — are among the most sophisticated in all of mathematics. This computational difficulty, combined with their theoretical centrality (by Whitehead's theorem, they detect homotopy equivalences between CW complexes), makes higher homotopy groups one of the great frontiers of algebraic topology.

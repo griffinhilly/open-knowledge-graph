@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Maschke's theorem guarantees that every representation of a finite group G over a field whose characteristic does not divide |G| is completely reducible — it decomposes as a direct sum of irreducible subrepresentations. The proof works by averaging an arbitrary inner product over the group to produce a G-invariant one, then taking orthogonal complements. This theorem is the foundation that makes the entire decomposition theory of finite group representations possible.
 
+## How It's Best Learned
+Run the averaging proof on a tiny case. Let ℤ/2ℤ swap the coordinates of ℂ², and let W be the line spanned by (1, 1). Take the projection π(x, y) = (y, y) onto W, which is not equivariant. Averaging gives π̃(x, y) = ((x + y)/2, (x + y)/2), whose kernel is the invariant line spanned by (1, −1). Then repeat over 𝔽₂: the division by 2 is impossible, and the line spanned by (1, 1) has no invariant complement.
+
+## Common Misconceptions
+- Maschke's theorem says every representation is irreducible. (It says every representation splits as a direct sum of irreducible ones. The permutation representation of S₃ on ℂ³ splits into a trivial line and a two-dimensional piece.)
+- A reducible representation always splits as a direct sum. (Over 𝔽_p, the representation of ℤ/pℤ by [[1, 1], [0, 1]] has an invariant line with no invariant complement.)
+- The irreducible subspaces in the decomposition are unique. (The multiplicities are unique, but the subspaces need not be. The trivial representation of a group on ℂ² splits along any two distinct lines.)
+- The theorem holds for infinite groups too. (The proof needs a finite sum. The group ℤ acting on ℂ² by powers of [[1, 1], [0, 1]] is reducible but not completely reducible.)
+
 ## Questions
 
 ```yaml

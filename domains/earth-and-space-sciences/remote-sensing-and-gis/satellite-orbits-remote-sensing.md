@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 The orbit of a remote sensing satellite determines when, where, and how often it observes any point on Earth. Two orbit families dominate: sun-synchronous orbits (SSO) cross every latitude at the same local solar time, providing consistent illumination for comparative studies, with typical altitudes of 600-900 km and revisit periods of days to weeks. Geostationary orbits (GEO) sit at ~35,786 km above the equator, rotating with Earth to continuously monitor the same hemisphere at coarser spatial resolution. Orbit parameters directly control spatial resolution, swath width, temporal revisit, and illumination geometry.
 
+## How It's Best Learned
+Compute the period of a 700 km orbit with T = 2π√(a³/μ). With a = 7078 km and μ = 398,600 km³/s², T is about 5926 s, or 99 minutes, so about 14.6 orbits per day. Then watch a day of Landsat ground tracks on a satellite tracking site and see each track shift west. Place this beside a geostationary full-disk image.
+
+## Common Misconceptions
+- A polar-orbiting satellite images the whole Earth every day. (Its swath covers a strip on each pass, so a narrow-swath sensor takes days to cover the globe. Landsat needs 16 days to repeat its track, while wide-swath MODIS covers nearly all of Earth every one to two days.)
+- A sun-synchronous satellite is always in sunlight. (It crosses each latitude at the same local time, but most such satellites spend part of each orbit over the night side.)
+- A geostationary satellite hovers in one place. (It orbits at about 3 km/s. Its period matches Earth's rotation, so it stays above the same point on the equator.)
+- A geostationary satellite can watch the poles. (The poles are beyond its view, and high latitudes are seen at angles so low that the data are poor.)
+
 ## Questions
 
 ```yaml

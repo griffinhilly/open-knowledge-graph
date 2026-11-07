@@ -20,6 +20,15 @@ status: validated
 ## Core Idea
 The line integral ∫_C f ds integrates a scalar function along a curve, weighted by arc length. Parametrically: ∫_C f ds = ∫_a^b f(r(t)) ||r'(t)|| dt. This generalizes single-variable integration to curves.
 
+## How It's Best Learned
+Compute one integral with two parametrizations, with and without the speed factor. Take f = x + y on the segment from (0, 0) to (1, 1). With r(t) = (t, t) on [0, 1], ∫ 2t · √2 dt = √2. With r(t) = (2t, 2t) on [0, 1/2], ∫ 4t · 2√2 dt = √2 again. Dropping ||r'(t)|| gives 1 and 1/2, which disagree.
+
+## Common Misconceptions
+- ∫_C f ds is the area under f graphed against x. (It accumulates f per unit of arc length along C; for f ≥ 0 in the plane, it is the area of a curtain standing over C with height f.)
+- ds is the same as dt. (ds = ||r'(t)|| dt, so they agree only when the curve is traced at unit speed.)
+- Any parametrization gives the same value, even one that traces part of C twice. (Independence holds for parametrizations that trace C once; tracing a piece twice counts it twice.)
+- The t-limits can be any convenient interval once r(t) is written down. (The interval must trace exactly the piece of C you want; for the quarter circle r(t) = (cos t, sin t) in the first quadrant, t runs from 0 to π/2, not 0 to 1.)
+
 ## Questions
 
 ```yaml

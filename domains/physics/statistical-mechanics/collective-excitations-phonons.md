@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Collective excitations are coherent modes in which many particles move in coordinated fashion. Phonons are quantized lattice vibrations in solids; magnons are spin waves. These elementary excitations emerge above an ordered ground state, can be treated as quasiparticles, and provide the dominant contribution to thermodynamic properties at low temperatures.
 
+## How It's Best Learned
+Solve the 1D chain of masses m joined by springs K before anything else. Substitute u_n = A e^(i(kna − ωt)) into m ü_n = K(u_(n+1) + u_(n−1) − 2u_n) to get ω = 2√(K/m)|sin(ka/2)|. At small k this is ω ≈ a√(K/m)|k|, a sound wave. Then repeat with two masses per cell and watch the optical branch appear.
+
+## Common Misconceptions
+- Phonons never interact, because they are independent oscillators. (They are independent only in the harmonic approximation. Anharmonic terms let phonons scatter, which limits thermal conductivity and causes thermal expansion.)
+- A phonon's ħk is ordinary momentum, conserved exactly in collisions. (ħk is crystal momentum. In phonon collisions it is conserved only up to a reciprocal lattice vector, and these Umklapp processes create thermal resistance.)
+- Lattice waves can have any wavelength, however short. (Distinct modes exist only for k in the first Brillouin zone. A wave shorter than two lattice spacings moves the atoms exactly as some longer wave does.)
+
 ## Questions
 
 ```yaml

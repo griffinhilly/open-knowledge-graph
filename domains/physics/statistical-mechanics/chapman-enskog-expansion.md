@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Chapman-Enskog theory provides a systematic perturbative solution to the Boltzmann equation by expanding the distribution function around local equilibrium. This derivation yields transport coefficients and their temperature dependence from first principles, recovering the results of kinetic theory without phenomenological assumptions.
 
+## How It's Best Learned
+Run the expansion first with the relaxation-time collision model, where first order gives f ≈ f^(0) − τ(∂_t + v·∇)f^(0). Take a steady shear flow u_x(y) at uniform density and temperature. The correction is proportional to c_x c_y du_x/dy, and the stress integral gives P_xy = −nkTτ du_x/dy, so η = pτ. Then compare with the hard-sphere result, which needs the full collision integral.
+
+## Common Misconceptions
+- A denser gas is more viscous. (In the dilute regime the first-order viscosity does not depend on density. More molecules carry momentum, but each travels a proportionally shorter free path.)
+- Going to second order (the Burnett equations) always gives a better fluid model. (The expansion is asymptotic. The Burnett equations can show unphysical instabilities, and gases at moderate Knudsen number often need direct kinetic methods instead.)
+- The expansion solves the Boltzmann equation for any starting distribution. (It finds solutions whose time dependence runs only through the local density, flow velocity and temperature. The fast initial relaxation over a few collision times is not described.)
+
 ## Questions
 
 ```yaml

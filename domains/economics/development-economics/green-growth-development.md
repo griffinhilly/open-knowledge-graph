@@ -20,6 +20,15 @@ status: validated
 ## Core Idea
 Development creates environmental pressures: deforestation, soil degradation, and pollution. Green growth seeks to decouple growth from environmental damage through renewable energy, sustainable agriculture, and resource efficiency. Green technologies face high upfront costs while developing countries prioritize immediate poverty reduction. Balancing short-run poverty reduction with long-run environmental sustainability is a central development policy dilemma.
 
+## How It's Best Learned
+Sort environmental harms into two bins: ones a richer country can later reverse, such as local air pollution, and ones it cannot easily reverse, such as extinction and accumulated CO₂. Test the Environmental Kuznets Curve against each bin. Then cost out a household's choice between a solar home system and a kerosene lamp, separating the upfront price from the running cost, and ask what financing would change the choice.
+
+## Common Misconceptions
+- Countries can pollute while poor and clean up once rich. (That pattern appears for some local pollutants, but extinction cannot be undone, and aquifer depletion and accumulated CO₂ are slow and costly to reverse.)
+- Poor households that choose dirty options do not value the environment. (They face urgent needs and high upfront costs for green options, so the choice can be rational under their constraints.)
+- Green technology is always more expensive for developing countries. (Falling solar costs have made off-grid solar competitive in areas that never had grid power.)
+- Banning destructive practices will deliver green growth. (Without affordable alternatives, bans leave poor households worse off. Policy has to make sustainable options cheaper.)
+
 ## Questions
 
 ```yaml

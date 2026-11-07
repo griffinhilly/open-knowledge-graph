@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 The exterior derivative d is a linear operator that takes k-forms to (k+1)-forms, generalizing the gradient, curl, and divergence of vector calculus into a single unified operation. It satisfies d² = 0 (applying it twice always gives zero) and the Leibniz rule d(α ∧ β) = dα ∧ β + (-1)^k α ∧ dβ. The condition d² = 0 is the geometric foundation for de Rham cohomology, connecting differential geometry to topology.
 
+## How It's Best Learned
+Compute d of a general 1-form P dx + Q dy + R dz on ℝ³. The result, (R_y − Q_z) dy∧dz + (P_z − R_x) dz∧dx + (Q_x − P_y) dx∧dy, has the curl as its coefficients. Then check d² = 0 on f = x²y: df = 2xy dx + x² dy, and d(df) = 2x dy∧dx + 2x dx∧dy = 0.
+
+## Common Misconceptions
+- d of a 1-form differentiates each coefficient separately. (d combines the partial derivatives antisymmetrically. For P dx + Q dy in the plane, dω = (Q_x − P_y) dx∧dy.)
+- The exterior derivative needs a metric, as gradient, curl and divergence do. (d is defined on any smooth manifold with no metric. The match with grad, curl and div in ℝ³ uses the Euclidean metric and an orientation.)
+- If dω = 0, then ω = dα for some α. (That holds on contractible sets. On the punctured plane, (−y dx + x dy)/(x² + y²) is closed but not exact.)
+
 ## Questions
 
 ```yaml

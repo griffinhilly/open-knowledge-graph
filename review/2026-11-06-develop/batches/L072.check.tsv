@@ -1,0 +1,88 @@
+domains/mathematics/topology/open-sets-topology.md	how	3	0	ok
+domains/mathematics/topology/open-sets-topology.md	mis	6	0	ok
+domains/mathematics/topology/path-connected-spaces.md	how	3	0	ok
+domains/mathematics/topology/path-connected-spaces.md	mis	6	0	ok
+domains/mathematics/topology/path-connected-spaces.md	old:q:3:question	1	1	fixed	stem "Nearly every connected space is path-connected" (key false) made the key wrong; restored "Every"
+domains/mathematics/topology/path-connectedness.md	how	4	0	ok
+domains/mathematics/topology/path-connectedness.md	mis	6	0	ok
+domains/mathematics/topology/path-connectedness.md	old:q:3:question	1	1	fixed	garbled "Most connected topological space" (key false); restored "Every"
+domains/mathematics/topology/product-topology-construction.md	how	4	0	ok
+domains/mathematics/topology/product-topology-construction.md	mis	6	0	ok
+domains/mathematics/topology/product-topology-construction.md	old:q:3:explanation	1	1	fixed	final sentence said the box topology is "strictly coarser"; it is finer
+domains/mathematics/topology/product-topology.md	how	3	0	ok
+domains/mathematics/topology/product-topology.md	mis	6	0	ok
+domains/mathematics/topology/quotient-maps-and-identification.md	how	3	0	ok
+domains/mathematics/topology/quotient-maps-and-identification.md	mis	6	0	ok
+domains/mathematics/topology/quotient-maps-and-identification.md	old:q:2	2	2	fixed	stem "Most surjective continuous map" restored to "Every"; explanation said circle topology is "finer" and that open sets of S¹ have non-open preimages (impossible for continuous f); now coarser / non-open sets with open preimages
+domains/mathematics/topology/quotient-maps-definition.md	how	3	0	ok
+domains/mathematics/topology/quotient-maps-definition.md	mis	6	0	ok
+domains/mathematics/topology/quotient-maps-definition.md	old:q:4	2	2	fixed	answer said a finer topology "would require q to be an open map" (it would make q discontinuous); explanation said coarser topology declares U "closed" (should be "not open")
+domains/mathematics/topology/quotient-maps-definition.md	old:explainer	1	1	fixed	same "declare some set U closed" error; now "not open"
+domains/mathematics/topology/quotient-topology.md	how	3	0	ok
+domains/mathematics/topology/quotient-topology.md	mis	6	0	ok
+domains/mathematics/topology/regular-spaces.md	how	3	0	ok
+domains/mathematics/topology/regular-spaces.md	mis	6	0	ok
+domains/mathematics/topology/regular-spaces.md	old:q:2:explanation	1	1	fixed	"T1 ⊂ T2 ⊂ T3 ⊂ T4" states class inclusion backwards; now T4 ⟹ T3 ⟹ T2 ⟹ T1
+domains/mathematics/topology/regularity-t3-axiom.md	how	3	0	ok
+domains/mathematics/topology/regularity-t3-axiom.md	mis	6	0	ok
+domains/mathematics/topology/regularity-t3-axiom.md	old:core	1	1	fixed	"regularity is preserved under continuous images (unlike T₂)" is false (any space is a continuous image of a discrete space); replaced with products and subspaces. Note: file has Explainer before Questions (old order, not moved)
+domains/mathematics/topology/regularity-t3-axiom.md	old:explainer+q:4:explanation	2	2	fixed	"T₂ ⊂ T₃ ⊂ T₄" and "T₀ ⊂ … ⊂ T₄" reversed class inclusion; now implication arrows
+domains/mathematics/topology/second-countable-spaces.md	how	4	0	ok
+domains/mathematics/topology/second-countable-spaces.md	mis	6	0	ok
+domains/mathematics/topology/second-countable-spaces.md	q:4:explanation	1	0	ok
+domains/mathematics/topology/second-countable-spaces.md	old:q:3:question	1	1	fixed	garbled "if and mainly if most point"; restored "if and only if every point"
+domains/mathematics/topology/separability-topology.md	how	4	0	ok
+domains/mathematics/topology/separability-topology.md	mis	6	0	ok
+domains/mathematics/topology/separation-axioms-t0-t1-t2.md	q:4:explanation	1	0	ok
+domains/mathematics/topology/separation-axioms-t0-t1-t2.md	old:q:2:question	1	1	fixed	garbled "Most T₁ space is Hausdorff" (key false); restored "Every". Note: old How/Misconceptions are prose (not bullets) and Explainer precedes Questions; left as is
+domains/mathematics/topology/separation-axioms-t3-regular.md	how	3	0	ok
+domains/mathematics/topology/separation-axioms-t3-regular.md	mis	6	0	ok
+domains/mathematics/topology/separation-axioms-t3-regular.md	old:q:2-3:explanation	2	2	fixed	"all spaces that arise in analysis and geometry are metric spaces" overstated (now "many"); "T₁ ⊂ T₂ ⊂ T₃ ⊂ T₄" reversed (now implication chain)
+domains/mathematics/topology/separation-axioms-t3-regular.md	old:explainer	1	1	fixed	Urysohn nesting stated as U_r ⊆ closure(U_s); correct condition is closure(U_r) ⊆ U_s
+domains/mathematics/topology/separation-axioms.md	how	4	0	ok
+domains/mathematics/topology/separation-axioms.md	mis	6	0	ok
+domains/mathematics/topology/separation-axioms.md	old:q:0:question	1	1	fixed	"sufficient (and necessary)": T₂ is not necessary for unique sequential limits (cocountable topology on an uncountable set); removed "(and necessary)"
+domains/mathematics/topology/separation-axioms.md	old:q:3	2	2	fixed	stem "Nearly every Hausdorff space" restored to "Every"; explanation called the two axes of the Sorgenfrey plane disjoint closed sets (they meet at the origin); now rational vs irrational points of y = −x
+domains/mathematics/topology/separation-axioms.md	old:explainer	1	1	fixed	complement of {x} described as an "intersection" of open sets; it is a union
+domains/mathematics/topology/sequential-compactness-metric-spaces.md	how	3	0	ok
+domains/mathematics/topology/sequential-compactness-metric-spaces.md	mis	6	1	fixed	"closed and bounded ⟹ compact is special to ℝⁿ" overstated (other proper metric spaces have it); now "holds in ℝⁿ but fails in general". Note: old Explainer calls uncountable products "Tychonoff spaces" (misnomer), left
+domains/mathematics/topology/sequential-compactness.md	how	3	0	ok
+domains/mathematics/topology/sequential-compactness.md	mis	6	0	ok
+domains/mathematics/topology/sequential-compactness.md	old:q:2:explanation	1	1	fixed	cited uncountable products as sequentially compact but not compact (it is the reverse); now [0, ω₁) for that direction, products for the other
+domains/mathematics/topology/simply-connected-spaces.md	how	3	0	ok
+domains/mathematics/topology/simply-connected-spaces.md	mis	8	0	ok
+domains/mathematics/topology/simply-connected-spaces.md	old:q:2:question	1	1	fixed	garbled "should have trivial πₙ for most n"; restored "must … for all n ≥ 1"
+domains/mathematics/topology/subbasis-topology.md	how	3	0	ok
+domains/mathematics/topology/subbasis-topology.md	mis	6	0	ok
+domains/mathematics/topology/subbasis-topology.md	old:q:3:question	1	1	fixed	garbled "exactly of most finite intersections"; now "the finite intersections"
+domains/mathematics/topology/subspace-topology.md	how	4	0	ok
+domains/mathematics/topology/subspace-topology.md	mis	6	0	ok
+domains/mathematics/topology/subspace-topology.md	q:4:explanation	1	0	ok
+domains/mathematics/topology/subspace-topology.md	old:q:3:question	1	1	fixed	garbled "is expected to also be open"; restored "must also be open"
+domains/mathematics/topology/tietze-extension-theorem.md	how	4	0	ok
+domains/mathematics/topology/tietze-extension-theorem.md	mis	6	0	ok	bullet 2 (extensions stay in [−1,1]) is a weak but plausible misconception; kept. Note: old q:0 has two true options (A and B)
+domains/mathematics/topology/tietze-extension-theorem.md	old:q:3:question	1	1	fixed	garbled "on most of X"; restored "on all of X"
+domains/mathematics/topology/tietze-extension-theorem.md	old:explainer	1	1	fixed	"one characterization of metrizable spaces is that they are normal" is false; now "every metrizable space is normal"
+domains/mathematics/topology/topological-invariants.md	how	5	0	ok
+domains/mathematics/topology/topological-invariants.md	mis	6	0	ok
+domains/mathematics/topology/topological-invariants.md	old:q:2:question	1	1	fixed	garbled "they is expected to be homeomorphic"; restored "must be"
+domains/mathematics/topology/topological-manifolds-introduction.md	how	4	0	ok
+domains/mathematics/topology/topological-manifolds-introduction.md	mis	6	0	ok
+domains/mathematics/topology/topological-manifolds-introduction.md	old:q:3:question	1	1	fixed	"global topology can typically be determined by examining the charts in its atlas" is arguably true (atlas with overlaps determines it), so key false did not fit; now "any single chart", matching the explanation
+domains/mathematics/topology/topological-spaces-definition-examples.md	how	3	0	ok
+domains/mathematics/topology/topological-spaces-definition-examples.md	mis	6	0	ok
+domains/mathematics/topology/topological-spaces-definition.md	how	4	0	ok
+domains/mathematics/topology/topological-spaces-definition.md	mis	6	0	ok
+domains/mathematics/topology/topological-spaces-definition.md	old:q:2	2	2	fixed	stem "Nearly every set X has exactly one topology" restored to "Every"; explanation "any set carries at least two topologies" false for sets with ≤1 point; now "with at least two points … distinct". Note: Explainer precedes Questions (old order)
+domains/mathematics/topology/tychonoffs-theorem.md	how	3	0	ok
+domains/mathematics/topology/tychonoffs-theorem.md	mis	6	0	ok
+domains/mathematics/topology/urysohn-metrization-theorem.md	how	2	0	ok
+domains/mathematics/topology/urysohn-metrization-theorem.md	mis	6	0	ok	new bullet 2 is right and exposed an old error below. Note: Core Idea omits the T₁ requirement (indiscrete 2-point space is second-countable, normal, not metrizable); left
+domains/mathematics/topology/urysohn-metrization-theorem.md	old:q:3:question	1	1	fixed	garbled "Most second-countable space"; restored "Every"
+domains/mathematics/topology/urysohn-metrization-theorem.md	old:q:4:answer+explainer	2	2	fixed	both claimed the unscaled map x ↦ (fₙ(x)) lands in ℓ²; added the 1/n scaling
+domains/mathematics/topology/urysohns-lemma.md	how	4	0	ok
+domains/mathematics/topology/urysohns-lemma.md	mis	6	0	ok
+domains/mathematics/topology/urysohns-lemma.md	old:q:2:question	1	1	fixed	garbled "applies to most Hausdorff spaces"; restored "all"
+domains/mathematics/topology/van-kampen-theorem.md	how	4	0	ok
+domains/mathematics/topology/van-kampen-theorem.md	mis	6	0	ok
+domains/mathematics/topology/van-kampen-theorem.md	old:explainer	1	1	fixed	torus paragraph called U ∩ V a circle and "simply connected"; it is an annulus with π₁ = ℤ whose core loop is aba⁻¹b⁻¹ in U

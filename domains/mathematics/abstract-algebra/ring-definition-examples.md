@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 A ring R is an abelian group under addition with a second binary operation (multiplication) that is associative and distributive over addition. A commutative ring has commutative multiplication; a ring with unity has a multiplicative identity. Rings generalize the arithmetic of integers and polynomials.
 
+## How It's Best Learned
+Expand (a + b)² using only the two distributive laws to get a² + ab + ba + b². Then take 2 × 2 matrices A with a 1 in the top-right corner and B with a 1 in the bottom-left. AB + BA is the identity matrix, while 2AB is not, so the school formula needs commutativity. Finish by checking 2ℤ, ℤ/4ℤ, and ℤ/5ℤ for unity and inverses.
+
+## Common Misconceptions
+- A ring needs multiplicative inverses, so ℤ is not a ring. (Inverses for multiplication are a field condition. ℤ is a ring in which only 1 and −1 have them.)
+- (a + b)² = a² + 2ab + b² holds in every ring. (In general (a + b)² = a² + ab + ba + b². The familiar form needs ab = ba.)
+- A commutative ring with unity is a field. (ℤ and ℤ/4ℤ are commutative with unity, yet 2 has no inverse in either.)
+
 ## Questions
 
 ```yaml
@@ -46,12 +54,12 @@ A ring R is an abelian group under addition with a second binary operation (mult
   answer: 2
   explanation: "Matrix multiplication is not commutative for n×n matrices when n ≥ 2: in general AB ≠ BA. The other options (Z, R[x], Z/6Z) all have commutative multiplication. The matrix ring example is the canonical demonstration that the ring definition deliberately omits commutativity — and it matters, because commutativity cannot be taken for granted in the general theory."
 
-- question: "Most ring is expected to have a multiplicative identity element."
+- question: "Every ring has a multiplicative identity element."
   type: true-false
   answer: false
-  explanation: "A 'ring with unity' or 'unital ring' has a multiplicative identity, but the basic ring definition does not require one. The even integers 2Z (under ordinary addition and multiplication) form a ring — closed, associative, distributive — but there is no element e in 2Z such that 2e = 2 for all elements. Many authors do require unity in their definition, so this is context-dependent, but the minimal ring definition does not demand it."
+  explanation: "A 'ring with unity' or 'unital ring' has a multiplicative identity, but the basic ring definition does not require one. The even integers 2Z (under ordinary addition and multiplication) form a ring — closed, associative, distributive — but there is no element e in 2Z such that ea = a for every a in 2Z. Many authors do require unity in their definition, so this is context-dependent, but the minimal ring definition does not demand it."
 
-- question: "If ab = ba for most elements a and b in a ring R, then R is expected to be a field."
+- question: "If ab = ba for all elements a and b in a ring R, then R must be a field."
   type: true-false
   answer: false
   explanation: "Commutativity of multiplication alone is not sufficient for a field. The integers Z are a commutative ring with unity, yet most elements lack multiplicative inverses (2 · x = 1 has no integer solution). A field additionally requires that every nonzero element has a multiplicative inverse. So Z/7Z is a field (7 is prime, so every nonzero class has an inverse), while Z/6Z and Z are commutative rings that fall short of being fields."
@@ -70,4 +78,4 @@ The integers Z are the canonical example. They form an abelian group under addit
 
 Not all rings are commutative. The set of n×n matrices with real entries under matrix addition and multiplication is a ring, but multiplication is not commutative once n ≥ 2. Matrix rings are important examples of **noncommutative rings** and explain why the definition does not require commutativity. Another family: the integers modulo n, written Z/nZ, are commutative rings with unity. When n is prime, Z/nZ is actually a field — every nonzero element has an inverse. When n is composite, some nonzero elements lack inverses (for example, 2 has no inverse mod 4), so Z/4Z is a ring but not a field.
 
-The **distributive law** is the structural spine of a ring — it is what makes the two operations talk to each other. Without distributivity, you just have two unrelated groups. With it, you get an algebra where familiar rules like (a + b)² = a² + 2ab + b² hold, ring homomorphisms preserve both operations simultaneously, and concepts like ideals (the analogue of normal subgroups) become well-defined. Every field is a ring, but most rings are not fields. The ring framework is broad enough to encompass integers, polynomials, matrices, and modular arithmetic all under a single set of axioms.
+The **distributive law** is the structural spine of a ring — it is what makes the two operations talk to each other. Without distributivity, you just have two unrelated groups. With it, you get an algebra where expansions like (a + b)² = a² + ab + ba + b² hold, ring homomorphisms preserve both operations simultaneously, and concepts like ideals (the analogue of normal subgroups) become well-defined. Every field is a ring, but most rings are not fields. The ring framework is broad enough to encompass integers, polynomials, matrices, and modular arithmetic all under a single set of axioms.

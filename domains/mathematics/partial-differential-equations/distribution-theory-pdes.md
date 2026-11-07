@@ -19,6 +19,14 @@ status: validated
 ## Core Idea
 Distribution theory, developed by Laurent Schwartz, provides a rigorous framework for objects like the Dirac delta function that are not ordinary functions. A distribution is a continuous linear functional on a space of smooth test functions. Every locally integrable function defines a distribution, but distributions also include singular objects (delta functions, their derivatives) that arise naturally as fundamental solutions and weak limits. Within distribution theory, every distribution has derivatives of all orders, every constant-coefficient PDE has a fundamental solution, and operations like convolution and Fourier transform extend naturally.
 
+## How It's Best Learned
+Work in one dimension and compute every derivative by pairing with a test function φ. Show that the distributional derivative of |x| is sign(x) and that of sign(x) is 2δ. Then verify that ½|x| is a fundamental solution of d²/dx²: split ½∫|x|φ''dx at 0, integrate by parts on each half, and watch both halves contribute ½φ(0).
+
+## Common Misconceptions
+- Distributions can be multiplied together like functions. (A smooth function times a distribution is defined, but there is no consistent product of two arbitrary distributions. The square of δ has no meaning.)
+- A distribution has a value at each point. (It is defined by its action on test functions. One can speak of its restriction to an open set and of its support, but not of its value at a single point in general.)
+- Every distribution is tempered, so every distribution has a Fourier transform. (The function eˣ defines a distribution on ℝ but not a tempered one, because it grows faster than any polynomial.)
+
 ## Questions
 ```yaml
 - question: "In distribution theory, the derivative of a distribution T is defined by:"

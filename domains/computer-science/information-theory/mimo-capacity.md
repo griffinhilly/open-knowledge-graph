@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Multiple-input multiple-output (MIMO) channels use multiple transmit and receive antennas, modeled as Y = HX + Z where H is the channel matrix, X is the input vector, and Z is Gaussian noise. With n_T transmit and n_R receive antennas and known channel matrix H, the capacity is C = max_{tr(K_X)<=P} log2 det(I + (1/N) H K_X H^*), where K_X is the input covariance. This decomposes via SVD into min(n_T, n_R) parallel Gaussian channels (eigenmodes), with optimal power allocation via water-filling. MIMO capacity scales linearly with min(n_T, n_R) in rich scattering — a breakthrough that powers modern wireless systems (4G, 5G, Wi-Fi).
 
+## How It's Best Learned
+Generate a random 4 x 4 channel matrix with independent complex Gaussian entries and take its SVD. Water-fill a fixed total power over the squared singular values by hand. Repeat for a rank-1 matrix with identical rows, as in pure line of sight, and compare. Then plot capacity against SNR in dB for 1 x 1, 2 x 2 and 4 x 4 systems and compare the slopes at high SNR.
+
+## Common Misconceptions
+- MIMO capacity grows with the product n_T * n_R. (The number of parallel spatial streams is at most min(n_T, n_R), so the high-SNR slope grows with the smaller count. Extra antennas beyond that add array and diversity gain, not more streams.)
+- MIMO gains come from sending more power. (The total transmit power is held fixed and split across antennas. The gain comes from several spatial channels sharing that power.)
+- Adding antennas always multiplies capacity. (The gain needs a channel matrix with several strong singular values. In pure line of sight H can be close to rank 1, leaving only beamforming gain.)
+- The transmitter must know H to get any multiplexing gain. (With H known only at the receiver, equal power across transmit antennas still gives capacity growing with min(n_T, n_R) at high SNR in rich scattering. Knowing H at the transmitter adds the water-filling gain.)
+
 ## Questions
 
 ```yaml

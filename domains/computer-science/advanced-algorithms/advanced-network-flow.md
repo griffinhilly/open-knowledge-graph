@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Network flow algorithms extend beyond basic Ford-Fulkerson to achieve faster runtimes and solve richer problems. The push-relabel algorithm (Goldberg-Tarjan) achieves O(V^2 * E) time for max-flow by maintaining a preflow (allowing excess at vertices) and using height labels to guide flow toward the sink — avoiding the repeated BFS of augmenting-path methods. Dinic's algorithm achieves O(V^2 * E) using blocking flows in layered graphs, with O(E * sqrt(V)) for unit-capacity networks. Minimum-cost flow generalizes max-flow by adding edge costs and finding the cheapest way to route a given flow value, solvable via successive shortest paths or cost-scaling in O(V * E * log V * log(VC)). These algorithms reduce to LP but exploit network structure for dramatically faster specialized solutions. Applications span bipartite matching, project selection, image segmentation, and airline scheduling.
 
+## How It's Best Learned
+Run Dinic's algorithm by hand on a graph of six or seven vertices: draw the BFS layers, find a blocking flow, and redraw the residual graph each phase. Then run push-relabel on the same graph, tracking each vertex's height and excess in a table. Comparing the two traces shows how a global path search differs from local pushes.
+
+## Common Misconceptions
+- A blocking flow is a maximum flow in the layered graph. (A blocking flow only saturates at least one edge on every source-to-sink path of the layered graph. A larger flow in the same layered graph can exist. Blocking is enough for Dinic's algorithm because it makes the shortest augmenting path longer in the next phase.)
+- During push-relabel, every intermediate state is a valid flow. (The algorithm keeps a preflow, so vertices can hold excess. The result is a valid flow only at the end, when no active vertex is left.)
+- Height labels in push-relabel are arbitrary priorities. (The labels are lower bounds on residual distance to the sink, and pushes go only along edges that drop the height by exactly one. This rule is what the correctness and running-time proofs depend on.)
+- Minimum-cost flow is max-flow with a tie-breaking rule. (Min-cost flow fixes a flow value and minimizes total edge cost. It needs shortest-path or potential-based methods that plain max-flow algorithms do not use.)
+
 ## Questions
 
 ```yaml

@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Parameterized complexity refines the NP-hardness classification by asking: is a problem solvable in time f(k) * n^O(1), where k is a parameter of the input (not the input size)? Problems solvable in this form are Fixed-Parameter Tractable (FPT). Vertex cover parameterized by solution size k is FPT: solvable in O(2^k * n) time via bounded search trees. Treewidth is a structural parameter that measures how "tree-like" a graph is — many NP-hard problems (independent set, coloring, Hamiltonian cycle) become FPT when parameterized by treewidth, solvable in time f(tw) * n via dynamic programming on tree decompositions. Kernelization provides a complementary approach: reducing the instance to an equivalent instance of size bounded by g(k), independent of n. The W-hierarchy (W[1], W[2], ...) classifies parameterized problems believed not to be FPT, analogous to the polynomial hierarchy for classical complexity.
 
+## How It's Best Learned
+Run the bounded search tree for vertex cover with k = 3 on a graph of about eight vertices, drawing the full branching tree with its at most 2^3 leaves. Then apply the simple kernel rules to the same graph: delete isolated vertices and force any vertex of degree greater than k into the cover. Finally, set vertex cover beside k-clique and compare what each branching attempt would cost.
+
+## Common Misconceptions
+- FPT means polynomial time when k is fixed. (Many problems are polynomial for each fixed k, such as k-clique in n^k time. FPT is stronger: the exponent of n must not depend on k, so the form is f(k) * n^c.)
+- The parameter has to be the solution size. (Any measurable quantity can be a parameter, such as treewidth, maximum degree or the number of distinct values. A problem can be FPT under one parameter and W[1]-hard under another.)
+- A kernel solves the problem. (A kernel shrinks the instance to size bounded by a function of k in polynomial time. The small instance still has to be solved, often by an exponential search.)
+- All NP-hard problems behave alike once parameterized by solution size. (Vertex cover is FPT, while clique and independent set are W[1]-hard, even though all three are NP-hard.)
+
 ## Questions
 
 ```yaml

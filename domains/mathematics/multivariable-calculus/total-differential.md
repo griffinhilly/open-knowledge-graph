@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 The total differential df = (∂f/∂x)dx + (∂f/∂y)dy represents the change in a differentiable function f when x and y change by small amounts dx and dy. It defines the best linear approximation to f near a point.
 
+## How It's Best Learned
+Draw a rectangle with sides x and y, so f = xy is its area. Lengthen the sides by dx and dy: the new area adds two strips, y dx and x dy, plus a small corner dx dy. The strips are df, and the corner is the second-order error. With x = 3, y = 2, dx = 0.1 and dy = 0.2, df = 0.8 while Δf = 6.82 − 6 = 0.82.
+
+## Common Misconceptions
+- The term for the variable that changes less can be dropped. (A small change can carry a large partial derivative; with f = xy² at (3, 2), changes of 0.02 in x and −0.01 in y contribute 0.08 and −0.12, so the smaller change gives the larger term.)
+- The product term dx dy belongs in df. (df is linear in dx and dy; the dx dy piece is part of the error Δf − df.)
+- If both partial derivatives exist, df is a good approximation to Δf. (That needs f to be differentiable at the point, which is stronger than having partial derivatives.)
+
 ## Questions
 
 ```yaml
@@ -65,7 +73,7 @@ The total differential df = (∂f/∂x)dx + (∂f/∂y)dy represents the change 
 
 ## Explainer
 
-From single-variable calculus, you know that the derivative f'(a) gives the slope of the tangent line, and the linear approximation f(a + Δx) ≈ f(a) + f'(a)Δx tells you how much f changes when x changes by a small amount Δx. The **total differential** is the precise multivariable generalization. For a function f(x, y), your prerequisite knowledge of partial derivatives gives you ∂f/∂x (rate of change with x fixed y) and ∂f/∂y (rate of change with x fixed). The total differential df = (∂f/∂x)dx + (∂f/∂y)dy combines both into a single expression that accounts for simultaneous changes in both variables.
+From single-variable calculus, you know that the derivative f'(a) gives the slope of the tangent line, and the linear approximation f(a + Δx) ≈ f(a) + f'(a)Δx tells you how much f changes when x changes by a small amount Δx. The **total differential** is the precise multivariable generalization. For a function f(x, y), your prerequisite knowledge of partial derivatives gives you ∂f/∂x (rate of change with y fixed) and ∂f/∂y (rate of change with x fixed). The total differential df = (∂f/∂x)dx + (∂f/∂y)dy combines both into a single expression that accounts for simultaneous changes in both variables.
 
 The key insight is that **dx and dy are independent variables** in the differential — they represent arbitrary (small) changes in x and y, not specific increments. Given a specific displacement (Δx, Δy), the approximation becomes Δf ≈ (∂f/∂x)Δx + (∂f/∂y)Δy. This is the **best linear approximation** to the change in f: it is exact to first order, meaning the error |Δf − df| shrinks faster than the magnitude of the displacement |(Δx, Δy)| as the displacement goes to zero. This is precisely what differentiability means in the multivariate setting — your other prerequisite — and distinguishes it from merely having partial derivatives.
 

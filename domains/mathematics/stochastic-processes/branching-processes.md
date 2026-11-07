@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 A Galton-Watson branching process models population dynamics: each individual in generation n independently produces a random number of offspring according to a fixed distribution {p_k}, forming generation n+1. The process is classified by the mean offspring number μ = E[X]: subcritical (μ < 1), critical (μ = 1), or supercritical (μ > 1). The extinction probability q — the probability the population eventually dies out — satisfies q = G(q) where G is the probability generating function of the offspring distribution. Extinction is certain (q = 1) if and only if μ ≤ 1; when μ > 1, the population survives with positive probability 1 - q, and the normalized process W_n = Z_n/μ^n is a non-negative martingale whose convergence determines the growth rate.
 
+## How It's Best Learned
+Start with the offspring law P(X=0) = 1/4, P(X=2) = 3/4, so G(s) = 1/4 + (3/4)s² and μ = 3/2. Solve q = G(q), which gives 3q² - 4q + 1 = 0 with roots 1/3 and 1, and argue why the smaller root is the answer. Then plot G against the diagonal and iterate q_n = G(q_{n-1}) from q_0 = 0, since P(Z_n = 0) = G applied n times to 0.
+
+## Common Misconceptions
+- If each individual has one child on average, the population hovers around its starting size. (A critical process with Var(X) > 0 dies out with probability 1; E[Z_n] = 1 is kept up by rare surviving lines that are large.)
+- The extinction probability is just P(X = 0), the chance the founder has no children. (Extinction can also happen after the founder reproduces, once every descendant line dies; q is at least p_0 and is usually larger.)
+- A supercritical population grows forever. (When μ > 1 and p_0 > 0, the population still dies out with probability q > 0; it grows like μⁿ only on the survival event.)
+- Since s = 1 always solves s = G(s), extinction is certain. (s = 1 is a fixed point for every offspring law; the extinction probability is the smallest fixed point in [0, 1].)
+
 ## Questions
 
 ```yaml

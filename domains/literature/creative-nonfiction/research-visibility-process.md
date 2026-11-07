@@ -20,6 +20,14 @@ status: draft
 ## Core Idea
 Some nonfiction writers make their research process visible through footnotes, parenthetical asides, or explicit acknowledgment of knowledge gaps. This approach acknowledges that all nonfiction is constructed from evidence and interpretation, enhancing credibility and intellectual transparency.
 
+## How It's Best Learned
+Take a paragraph from your own research-based draft that states facts with no sources. Rewrite it twice: once with a sentence inside the prose naming where a key fact came from and what stayed uncertain, and once with an endnote doing the same job. Comparing the three versions shows how each strategy changes the reader's trust and the paragraph's rhythm.
+
+## Common Misconceptions
+- Showing my sources makes the essay read like a school paper. (Literary writers make research visible through asides, narrative acknowledgments, and author's notes, which can add voice and texture.)
+- Admitting I could not find something makes me look like a weak researcher. (Naming a gap shows readers the limits of the evidence and tends to build trust.)
+- Footnotes only list sources. (In literary nonfiction, notes can also extend an argument, raise tensions, or show the writer's reasoning.)
+
 ## Questions
 
 ```yaml
@@ -55,6 +63,7 @@ Some nonfiction writers make their research process visible through footnotes, p
 
 - question: Write a brief passage about something you researched, making your research process visible. What sources did you use? Where did information come from? What remained uncertain? How does this visibility change the passage?
   type: short-answer
+  answer: "A strong passage names where each key fact came from, notes where sources conflicted or ran out, and says what remains uncertain. This visibility lets readers judge the claims for themselves, so the passage becomes more transparent and more trustworthy."
   explanation: For example, rather than simply stating that a company was founded in 1987, you might write about finding conflicting dates in different sources and having no way to verify which was accurate. This makes visible the research process — showing where information came from, what sources say, where uncertainty remains. Readers see that you checked multiple sources and honestly acknowledge contradiction. The transparency makes thinking visible rather than hidden.
 ```
 

@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Effective field theory (EFT) provides a systematic framework for parameterizing the effects of unknown high-energy physics on low-energy observables. The Standard Model Effective Field Theory (SMEFT) extends the SM Lagrangian by adding higher-dimensional operators suppressed by powers of a new physics scale Lambda. This approach is model-independent: any UV-complete BSM theory can be matched onto the SMEFT at low energies, making it the lingua franca for interpreting precision measurements in terms of new physics constraints.
 
+## How It's Best Learned
+Start with the Fermi theory as the first worked match. Integrate out the W in muon decay to get G_F/√2 = g²/(8M_W²). With g ≈ 0.65 and M_W ≈ 80.4 GeV, this gives G_F ≈ 1.16 × 10⁻⁵ GeV⁻², close to the measured value. Then use mass dimensions (scalar 1, fermion 3/2) to see why a four-fermion operator carries 1/Λ².
+
+## Common Misconceptions
+- A bound Λ > 5 TeV means no new particle exists below 5 TeV. (Fits constrain the ratio C/Λ². A weakly coupled particle with a small coefficient can be much lighter than the quoted Λ.)
+- Non-renormalizable operators make the theory unpredictive. (At a fixed order in E/Λ only a finite number of operators appear, so a finite set of measured coefficients fixes all predictions to that order.)
+- Higher-dimension operators matter less because their Wilson coefficients are small. (The suppression comes from powers of E/Λ. The coefficients themselves can be of order one.)
+
 ## Questions
 
 ```yaml
@@ -33,7 +41,7 @@ Effective field theory (EFT) provides a systematic framework for parameterizing 
     - "Because dimension-6 operators are renormalizable"
     - "Because only dimension-6 operators conserve gauge symmetry"
   answer: 1
-  explanation: "The dimension-5 Weinberg operator L = (C_5/Lambda) * (LH)(LH) (where L is the lepton doublet and H is the Higgs) generates neutrino masses m_nu ~ C_5 * v^2/Lambda after electroweak symmetry breaking. For Lambda ~ 10^{14} GeV and C_5 ~ 1, this gives m_nu ~ 0.05 eV, consistent with oscillation data. Aside from this unique operator, the leading BSM effects are from dimension-6 operators, which modify Higgs couplings, gauge boson self-interactions, fermion couplings, and produce new 4-fermion interactions. Each operator has a Wilson coefficient C_i that encodes the strength and sign of the new physics contribution."
+  explanation: "The dimension-5 Weinberg operator L = (C_5/Lambda) * (LH)(LH) (where L is the lepton doublet and H is the Higgs) generates neutrino masses m_nu ~ C_5 * v^2/Lambda after electroweak symmetry breaking. For Lambda ~ 10^{15} GeV and C_5 ~ 1, this gives m_nu ~ 0.05 eV, consistent with oscillation data. Aside from this unique operator, the leading BSM effects are from dimension-6 operators, which modify Higgs couplings, gauge boson self-interactions, fermion couplings, and produce new 4-fermion interactions. Each operator has a Wilson coefficient C_i that encodes the strength and sign of the new physics contribution."
 
 - question: "A specific BSM model (e.g., a heavy Z' boson) can be 'matched' onto the SMEFT by integrating out the heavy particle and expressing the resulting effects as Wilson coefficients of SMEFT operators. Why is this matching useful?"
   type: short-answer

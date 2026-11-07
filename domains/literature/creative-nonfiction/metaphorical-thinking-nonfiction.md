@@ -22,6 +22,14 @@ status: draft
 ## Core Idea
 Nonfiction writers use metaphor and analogy as thinking tools, not just ornament. A sustained metaphor can structure an entire essay, allowing abstract ideas to become tangible. Metaphorical thinking honors how consciousness actually works while remaining grounded in factual observation.
 
+## How It's Best Learned
+Take an abstract subject, list three candidate metaphors for it, and for each write five ways the comparison maps onto the subject: anger as fire ignites, spreads, needs fuel. Mark where each mapping breaks or misleads. Choose the metaphor that produces the most true observations, and outline an essay with one section per mapping.
+
+## Common Misconceptions
+- Metaphor in nonfiction is decoration added after the thinking is done. (Working out where a comparison holds can reveal features of the subject, so the metaphor takes part in the thinking.)
+- Using metaphor makes a nonfiction claim less factual. (A metaphor can make a factual claim clearer. The underlying claims still have to be true, and a poor metaphor can carry false implications.)
+- Once chosen, a metaphor should be pushed as far as it will go. (Every comparison breaks somewhere, and the writer should notice where the metaphor stops fitting the facts.)
+
 ## Questions
 
 ```yaml
@@ -57,6 +65,7 @@ Nonfiction writers use metaphor and analogy as thinking tools, not just ornament
 
 - question: How might an essay about an abstract concept use sustained metaphor as a thinking tool? Give an example.
   type: short-answer
+  answer: "An essay about grief might use a sustained metaphor of seasons, with each section exploring one aspect of grief through one part of the comparison. The metaphor organizes the essay and makes the abstract concept tangible, so writer and reader think through grief by way of it."
   explanation: An essay about identity might use sustained metaphor of a journey, a mirror, a conversation, or building. The writer explores identity through the lens of the chosen metaphor. Each paragraph develops a different aspect of identity while also developing the metaphor. The metaphor isn't just decoration—it's the structure that helps both writer and reader think through a complex concept. Readers encounter not just ideas about identity but these ideas made tangible through the metaphor. The metaphor becomes a thinking device that makes abstract concept concrete and apprehensible.
 ```
 

@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Cylindrical coordinates (r, θ, z) have dV = r dr dθ dz. Spherical coordinates (ρ, φ, θ) have dV = ρ² sin φ dρ dφ dθ. Choose coordinates based on the region's symmetry: cylindrical for objects with axis symmetry, spherical for radial symmetry from a point.
 
+## How It's Best Learned
+Compute one solid in both systems: the region inside x² + y² + z² ≤ 4 and above the cone z = √(x² + y²). In spherical coordinates the bounds are constants, ρ ≤ 2 and φ ≤ π/4, and the volume is (16π/3)(1 − √2/2). In cylindrical coordinates z runs from r to √(4 − r²) with r ≤ √2, and the same answer appears after more algebra.
+
+## Common Misconceptions
+- The angle φ runs from 0 to 2π, like θ. (φ runs from 0 to π; going to 2π covers points twice, and since sin φ < 0 on (π, 2π), the ball's volume would come out as 0.)
+- The cylindrical r and the spherical ρ are the same distance. (r is the distance from the z-axis and ρ is the distance from the origin; they are related by r = ρ sin φ.)
+- Only the bounds need converting, not the integrand. (The integrand must be rewritten too: x² + y² becomes r² in cylindrical coordinates and ρ² sin² φ in spherical.)
+
 ## Questions
 
 ```yaml

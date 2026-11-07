@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 The convolution of f and g is (f * g)(t) = ∫₀^t f(τ)g(t-τ)dτ. The convolution theorem states L[f * g] = F(s)G(s), so L^(-1)[F(s)G(s)] = (f * g)(t). This theorem is invaluable for solving non-homogeneous equations where the forcing function's transform is a product of simpler transforms, allowing you to decompose complex solutions into manageable parts.
 
+## How It's Best Learned
+Check the theorem on a case you can do two ways: t * t = ∫₀ᵗ τ(t − τ) dτ = t³/6, and ℒ⁻¹[(1/s²)(1/s²)] = ℒ⁻¹[1/s⁴] = t³/6. Then sketch f(τ) and the flipped, shifted g(t − τ) on the same τ-axis for a few values of t, so the moving window of the integral becomes something you can see.
+
+## Common Misconceptions
+- ℒ⁻¹[F(s)G(s)] = f(t)g(t). (The inverse of a product of transforms is the convolution integral, not the pointwise product; for example, 1 · 1 = 1 but 1 * 1 = t.)
+- In the integral, both functions are evaluated at τ. (One function is evaluated at τ and the other at t − τ; dropping the t − τ gives a different, wrong integral.)
+- The limits of the convolution integral run from 0 to infinity. (For the Laplace convolution the limits are 0 to t, because both functions are taken to be zero for negative arguments.)
+
 ## Questions
 
 ```yaml

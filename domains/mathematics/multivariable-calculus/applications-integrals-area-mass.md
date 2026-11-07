@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Double integrals compute: area as ∬_D dA, mass as ∬_D ρ(x, y) dA (with density ρ), moments M_x = ∬_D y ρ(x, y) dA and M_y = ∬_D x ρ(x, y) dA, and center of mass (x̄, ȳ) = (M_y/M, M_x/M).
 
+## How It's Best Learned
+Work one triangle twice: vertices (0,0), (1,0), (0,1). With ρ = 1, M = 1/2 and M_y = ∫₀¹∫₀^(1−x) x dy dx = 1/6, so x̄ = 1/3, the familiar centroid. Then set ρ = x. Now M = 1/6 and M_y = 1/12, so x̄ = 1/2. Watching the balance point slide toward the denser side makes the formulas mean something.
+
+## Common Misconceptions
+- M_x is the integral of xρ, since the subscript is x. (M_x = ∬ yρ dA is the moment about the x-axis, so it weights each piece by its distance y from that axis. That is why x̄ = M_y/M.)
+- The center of mass sits where the density is highest. (It is a weighted average of position over the whole plate. A uniform ring has its center of mass in the hole, where there is no material at all.)
+- Doubling a constant density moves the center of mass. (A constant ρ scales M, M_x and M_y by the same factor, so the ratios do not change. For uniform density, the center of mass is the centroid of the shape.)
+
 ## Questions
 
 ```yaml

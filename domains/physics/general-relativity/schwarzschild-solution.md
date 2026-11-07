@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 The Schwarzschild metric ds² = -(1 - 2GM/rc²)c²dt² + (1 - 2GM/rc²)⁻¹dr² + r²dΩ² is the unique spherically symmetric vacuum solution to Einstein's field equations (Birkhoff's theorem). It describes the spacetime geometry outside any non-rotating, uncharged, spherically symmetric mass M. The metric has a coordinate singularity at the Schwarzschild radius r_s = 2GM/c² (the event horizon for a black hole) and a true curvature singularity at r = 0. In the weak-field limit (r >> r_s), it reduces to Newtonian gravity, but near r_s it predicts qualitatively new phenomena: extreme gravitational time dilation, the bending of light, the precession of orbits, and the existence of event horizons. The Schwarzschild solution is the foundation for understanding black holes, gravitational redshift, and the classic tests of GR.
 
+## How It's Best Learned
+Derive the metric yourself. Start from ds² = −e^(2α(r))c²dt² + e^(2β(r))dr² + r²dΩ², set R_μν = 0, and find α = −β and e^(2α) = 1 − r_s/r, fixing r_s from the Newtonian limit. Then compute r_s for the Sun (about 3 km) and Earth (about 9 mm). Finally integrate the proper radial distance ∫dr/√(1 − r_s/r) from r_s outward and see that it stays finite.
+
+## Common Misconceptions
+- The coordinate r is the distance from the center. (r is defined so that a sphere at r has area 4πr². Proper radial distance between two spheres is larger than the difference in their r values.)
+- The divergence of g_rr at r = r_s is a physical singularity. (Curvature invariants are finite there, and coordinates such as Eddington-Finkelstein are regular. Only r = 0 is a curvature singularity.)
+- The Schwarzschild metric describes only black holes. (It describes the vacuum exterior of any spherical, non-rotating body, such as the Sun. Inside the body a different interior solution applies.)
+
 ## Questions
 
 ```yaml

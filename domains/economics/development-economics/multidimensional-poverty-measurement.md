@@ -25,10 +25,19 @@ status: validated
 ## Core Idea
 Poverty is not one-dimensional. The Alkire-Foster index captures multiple deprivations—malnutrition, lack of education, no electricity, insecure housing—simultaneously. A person is poor if deprived in enough dimensions, even if income is above a line. This reveals different policy priorities than income-based measures.
 
+## How It's Best Learned
+Score households with the global MPI weights: each health and education indicator weighs 1/6, each living-standards indicator 1/18. A household lacking clean water, clean cooking fuel, and adult schooling scores 5/18, below the 1/3 cutoff. One deprived in nutrition and school attendance scores 1/3 and counts as poor. Then compute the MPI as headcount times average intensity.
+
+## Common Misconceptions
+- A person above the income poverty line is not poor. (Income can fail to buy clean water, schooling, or nutrition where services are missing, so a person can be deprived in many dimensions despite their income.)
+- Being deprived in any one indicator makes a person multidimensionally poor. (The Alkire-Foster method requires deprivation in at least one-third of the weighted indicators.)
+- All indicators count equally. (In the global MPI, each dimension weighs one-third, so nutrition counts three times as much as electricity.)
+- The poverty headcount tells the whole story. (The MPI multiplies the headcount by the average intensity of deprivation among the poor, so two places with the same headcount can differ.)
+
 ## Questions
 
 ```yaml
-- question: "A household earns $3.50 per person per day (above the World Bank's $2.15/day income line) but lacks clean water, uses solid cooking fuel, and has no household member who has completed six years of schooling. Under the Alkire-Foster MPI with a one-third breadth cutoff, how is this household classified?"
+- question: "A household earns $3.50 per person per day (above the World Bank's $2.15/day income line) but lacks clean water, uses solid cooking fuel, has no household member who has completed six years of schooling, and has a school-age child who is not attending school. Under the Alkire-Foster MPI with a one-third breadth cutoff, how is this household classified?"
   type: multiple-choice
   options:
     - "Not poor — income above the poverty line is the primary criterion and overrides other deprivations"
@@ -36,7 +45,7 @@ Poverty is not one-dimensional. The Alkire-Foster index captures multiple depriv
     - "Multidimensionally poor — deprived in enough indicators simultaneously to meet the breadth cutoff, regardless of income"
     - "Cannot be determined without knowing whether these deprivations are in the same or different dimensions"
   answer: 2
-  explanation: "The Alkire-Foster method is explicitly designed to identify poverty that income measures miss. The dual cutoff applies two tests: first, whether the household falls below the threshold on each indicator (deprivation cutoff); second, whether the household is deprived in enough indicators simultaneously to meet the breadth cutoff (typically one-third of weighted indicators). This household's deprivations in water, cooking fuel, and education likely clear the breadth threshold. Income is not part of the MPI at all — the method measures well-being directly."
+  explanation: "The Alkire-Foster method is explicitly designed to identify poverty that income measures miss. The dual cutoff applies two tests: first, whether the household falls below the threshold on each indicator (deprivation cutoff); second, whether the household is deprived in enough indicators simultaneously to meet the breadth cutoff (typically one-third of weighted indicators). With global MPI weights, water and cooking fuel count 1/18 each and the two schooling indicators 1/6 each, for a score of 8/18, which clears the one-third threshold. Income is not part of the MPI at all — the method measures well-being directly."
 
 - question: "Two countries each have income poverty rates of 25%. Country A's multidimensional poverty is concentrated in malnutrition and sanitation; Country B's is concentrated in school non-attendance and lack of electricity. What does this reveal?"
   type: multiple-choice

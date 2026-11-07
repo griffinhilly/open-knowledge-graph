@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 The flux of F through surface S: ∬_S F · dS = ∬_S F · n dS, where n is the unit normal. If S is parametrized, ∬_S F · dS = ∬_D F · (r_u × r_v) du dv. Flux measures flow rate through the surface.
 
+## How It's Best Learned
+Start with cases where F · n is constant, so no parametrization is needed. The field ⟨0, 0, 3⟩ gives flux 3 through the unit square in the xy-plane (normal up) and 0 through the unit square in the xz-plane. For F = ⟨x, y, z⟩ on the upper hemisphere of radius a with outward normal, F · n = a at every point, so the flux is a · 2πa² = 2πa³. Then redo the hemisphere with r_u × r_v to check the parametrized formula.
+
+## Common Misconceptions
+- dS in a flux integral means the same thing as dS in a scalar surface integral. (For flux, the vector element is (r_u × r_v) du dv; the scalar element is ‖r_u × r_v‖ du dv.)
+- r_u × r_v must be normalized before it goes into the flux integral. (Using the unnormalized cross product is correct, because its length supplies the area factor.)
+- The parametrization's cross product automatically points the requested way. (It can point to either side; you must check it against the stated orientation and negate it if needed.)
+- Flux is defined for any surface. (It requires an orientable surface, one with a consistent choice of normal; a Möbius strip has none.)
+
 ## Questions
 
 ```yaml

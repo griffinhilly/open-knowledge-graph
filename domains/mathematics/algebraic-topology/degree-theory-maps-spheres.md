@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 The degree of a continuous map f : S^n -> S^n is the integer d such that the induced map f_* : H_n(S^n) -> H_n(S^n) sends the generator [S^n] to d[S^n]. Since H_n(S^n) = Z, f_* is determined by this single integer. The degree classifies maps of spheres up to homotopy (two maps are homotopic if and only if they have the same degree), satisfies deg(g compose f) = deg(g) * deg(f), and has powerful consequences: the antipodal map has degree (-1)^{n+1}, reflections have degree -1, and maps with nonzero degree are surjective.
 
+## How It's Best Learned
+Start on S^1, where degree is winding number. Compute the degree of z -> z^3 and z -> z̄ by counting preimages of a point with orientation signs. Then show a reflection of S^n has degree -1 by viewing S^n as two n-cells (hemispheres) that the reflection swaps. Multiply n+1 reflections to get the antipodal degree, and use it to prove the hairy ball theorem.
+
+## Common Misconceptions
+- The degree is the number of preimages of a point. (It is a signed count at a regular value. A loop that wraps once forward and then once backward around S^1 hits most points twice but has degree 0.)
+- A surjective map has nonzero degree. (Only the converse holds: nonzero degree forces surjectivity. The forward-then-backward loop is surjective with degree 0.)
+- The antipodal map reverses orientation in every dimension, so its degree is -1. (Its degree is (-1)^{n+1}. On S^1 it is rotation by π, which has degree 1.)
+
 ## Questions
 
 ```yaml
@@ -34,7 +42,7 @@ The degree of a continuous map f : S^n -> S^n is the integer d such that the ind
     - "(-1)^n"
     - "(-1)^{n+1}"
   answer: 3
-  explanation: "The antipodal map is the composition of (n+1) reflections, each reflecting one coordinate of R^{n+1}. Each reflection has degree -1 (it reverses the orientation of one axis). Therefore deg(a) = (-1)^{n+1}. For S^1 (n=1): deg = (-1)^2 = 1, which is correct since rotation by π is homotopic to the identity on S^1 (you can continuously rotate). Wait — actually the antipodal map on S^1 sends (cos θ, sin θ) → (-cos θ, -sin θ) = rotation by π, which has degree 1. For S^2 (n=2): deg = (-1)^3 = -1, which is correct since the antipodal map reverses orientation of S^2."
+  explanation: "The antipodal map is the composition of (n+1) reflections, each reflecting one coordinate of R^{n+1}. Each reflection has degree -1 (it reverses the orientation of one axis). Therefore deg(a) = (-1)^{n+1}. For S^1 (n=1): deg = (-1)^2 = 1. This checks out, because the antipodal map on S^1 sends (cos θ, sin θ) to (-cos θ, -sin θ), which is rotation by π and is homotopic to the identity. For S^2 (n=2): deg = (-1)^3 = -1, which is correct since the antipodal map reverses orientation of S^2."
 
 - question: "If f: S^n → S^n has degree 0, then f is homotopic to a constant map."
   type: true-false
@@ -49,7 +57,7 @@ The degree of a continuous map f : S^n -> S^n is the integer d such that the ind
     - "deg(f) = (-1)^{n+1} (same as the antipodal map)"
     - "deg(f) = -1"
   answer: 2
-  explanation: "If f has no fixed points, then f(x) ≠ x for all x, so the line segment from f(x) to -x never passes through the origin (since f(x) and x are distinct unit vectors, f(x) ≠ x implies f(x) and -x are not antipodal in a way that creates the origin issue — actually the correct statement is: t·f(x) + (1-t)·(-x) ≠ 0 because if it were zero, f(x) = x). Therefore H(x,t) = (tf(x) + (1-t)(-x))/|tf(x) + (1-t)(-x)| is a valid homotopy from -x to f(x), so f is homotopic to the antipodal map a(x) = -x, giving deg(f) = (-1)^{n+1}."
+  explanation: "If f has no fixed points, then the line segment from -x to f(x) never passes through the origin: if t·f(x) + (1-t)·(-x) = 0 for unit vectors f(x) and x, then taking lengths gives t = 1/2, and then f(x) = x. Therefore H(x,t) = (tf(x) + (1-t)(-x))/|tf(x) + (1-t)(-x)| is a valid homotopy from -x to f(x), so f is homotopic to the antipodal map a(x) = -x, giving deg(f) = (-1)^{n+1}."
 
 - question: "Explain why deg(g ∘ f) = deg(g) · deg(f) for maps f, g: S^n → S^n."
   type: short-answer

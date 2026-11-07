@@ -17,6 +17,14 @@ status: validated
 ## Core Idea
 Harmonic functions—solutions of Laplace's equation Δu = 0—are among the most studied and best-behaved functions in mathematics. They satisfy the mean value property (the value at any point equals the average over any surrounding sphere), are real-analytic (infinitely differentiable and equal to their Taylor series), obey the maximum principle, and are uniquely determined by their boundary values. These properties make harmonic functions the foundation of potential theory and a model for the regularity theory of elliptic PDEs.
 
+## How It's Best Learned
+Test the mean value property on explicit functions. On the circle of radius r around the origin, x² − y² equals r² cos 2θ, which averages to 0 = u(0). Compare x² + y², whose circle average r² exceeds its center value, so it is subharmonic rather than harmonic. Then take real parts of zⁿ and e^z to produce more harmonic functions and check each one directly.
+
+## Common Misconceptions
+- Harmonic functions on the whole plane are bounded. (x² − y² and eˣ cos y are harmonic on ℝ² and unbounded. Liouville's theorem says the bounded ones are constant.)
+- A harmonic function that vanishes on the boundary is zero on any domain. (Uniqueness needs a bounded domain or a growth condition. On the upper half-plane, u = y is harmonic, vanishes on the boundary, and is not zero.)
+- The product of two harmonic functions is harmonic. (Δ(uv) = uΔv + vΔu + 2∇u·∇v, and the last term is usually nonzero. For example, x is harmonic but x² is not.)
+
 ## Questions
 ```yaml
 - question: "The mean value property states that for a harmonic function u, u(x₀) equals:"

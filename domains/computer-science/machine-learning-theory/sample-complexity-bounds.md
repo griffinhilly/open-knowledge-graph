@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Sample complexity bounds answer the most practical question in learning theory: how many training examples are necessary and sufficient to learn a concept class to a desired accuracy? Upper bounds show that m(epsilon, delta) samples suffice for any algorithm (typically ERM); lower bounds show that no algorithm can learn with fewer. For realizable PAC learning with VC dimension d, the sample complexity is Theta((d/epsilon) * log(1/epsilon) + (1/epsilon) * log(1/delta)). For agnostic learning, it is Theta(d/epsilon^2 + log(1/delta)/epsilon^2). These bounds bridge theory and practice by converting abstract complexity measures (VC dimension) into concrete data requirements.
 
+## How It's Best Learned
+Derive both regimes for a finite class with |H| = 1000, ε = 0.05 and δ = 0.05. The realizable argument, (1/ε)(ln|H| + ln(1/δ)), gives about 200 examples. Hoeffding plus a union bound, ln(2|H|/δ)/(2ε²), gives about 2,120 for the agnostic case. Then halve ε in each formula and compare the growth. The gap comes from 1/ε versus 1/ε².
+
+## Common Misconceptions
+- The bound tells you how many examples your particular problem needs. (It is a worst case over all distributions in the class's setting, usually with loose constants. A benign problem can need far fewer examples.)
+- Sample complexity grows with the number of parameters. (It grows with the VC dimension or another capacity measure, which can differ from the parameter count. The one-parameter class sign(sin(ωx)) has infinite VC dimension.)
+- Lower bounds describe the weakness of ERM specifically. (A lower bound holds for every learning algorithm. Upper bounds are the ones usually proved for a specific algorithm such as ERM.)
+- Asking for higher confidence costs as much data as asking for higher accuracy. (Delta enters through log(1/δ), so cutting the failure probability tenfold adds relatively few examples.)
+
 ## Questions
 
 ```yaml

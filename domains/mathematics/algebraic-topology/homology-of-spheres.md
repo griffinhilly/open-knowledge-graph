@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 The n-sphere S^n has singular homology H_k(S^n) = Z for k = 0 and k = n, and H_k(S^n) = 0 otherwise. This computation, established via the Mayer-Vietoris sequence or the long exact sequence of the pair (D^n, S^{n-1}), is one of the most important results in algebraic topology. It provides the foundation for degree theory, the Brouwer fixed point theorem, and the classification of maps between spheres, and it reveals that each sphere has exactly one nontrivial "hole" in its own dimension.
 
+## How It's Best Learned
+Run the Mayer-Vietoris induction in reduced homology, where it reads H̃_k(S^n) ≅ H̃_{k-1}(S^{n-1}) for every k, starting from H̃_0(S^0) = Z. Then redo the step from S^0 to S^1 in unreduced homology to see the special case at k = 1 that reduction removes. Finally, check the answer with the CW structure of one 0-cell and one n-cell, whose chain complex has Z in degrees 0 and n only.
+
+## Common Misconceptions
+- H_n(S^n) counts the solid inside of the sphere. (S^n is the boundary surface only. The solid ball D^{n+1} is contractible and has trivial reduced homology. The class comes from the sphere enclosing a cavity it does not fill.)
+- S^0 fits the pattern with H_0 = Z. (S^0 is two points, so H_0(S^0) = Z^2. The reduced group H̃_0(S^0) = Z is the one that fits the pattern.)
+- A space with H_1 = 0 must be simply connected. (H_1 is the abelianization of π_1, so H_1 = 0 says only that π_1 equals its commutator subgroup. The Poincaré homology sphere has the homology of S^3 but a nontrivial fundamental group.)
+
 ## Questions
 
 ```yaml
@@ -33,7 +41,7 @@ The n-sphere S^n has singular homology H_k(S^n) = Z for k = 0 and k = n, and H_k
     - "H_0 = Z, H_1 = Z^3, all others zero"
     - "H_k = Z for all k ≥ 0"
   answer: 1
-  explanation: "The homology of S^n is concentrated in dimensions 0 and n: H_0(S^n) ≅ Z (connected), H_n(S^n) ≅ Z (fundamental class detecting the n-dimensional 'hole'), and H_k(S^n) = 0 for all other k. For S^3: H_0 = Z, H_3 = Z, and H_1 = H_2 = 0. The vanishing of H_1 means S^3 is simply connected (which also follows from the fundamental group being trivial), and the vanishing of H_2 means there are no 2-dimensional holes."
+  explanation: "The homology of S^n is concentrated in dimensions 0 and n: H_0(S^n) ≅ Z (connected), H_n(S^n) ≅ Z (fundamental class detecting the n-dimensional 'hole'), and H_k(S^n) = 0 for all other k. For S^3: H_0 = Z, H_3 = Z, and H_1 = H_2 = 0. The vanishing of H_1 is consistent with S^3 being simply connected, though H_1 = 0 alone would not prove it, and the vanishing of H_2 means there are no 2-dimensional holes."
 
 - question: "The homology of S^n can be computed inductively using the Mayer-Vietoris sequence by decomposing S^n into two hemispheres whose intersection is S^{n-1}."
   type: true-false

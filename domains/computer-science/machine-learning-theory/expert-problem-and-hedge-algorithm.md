@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 The expert problem is the canonical online learning setting: at each round, a learner must choose among N experts' advice, then suffers the loss of the chosen expert. The goal is to achieve cumulative loss close to the best expert in hindsight. The Hedge algorithm (also called the exponential weights algorithm) solves this by maintaining a probability distribution over experts, updated multiplicatively: p_i^{(t+1)} proportional to p_i^{(t)} * exp(-eta * loss_i^{(t)}). Hedge achieves regret O(sqrt(T * ln N)), which is optimal — no algorithm can do better against an adversary. The expert problem serves as the theoretical foundation for ensemble methods, model selection, and boosting.
 
+## How It's Best Learned
+Run Hedge by hand for a few rounds with three experts, 0/1 losses and eta = 1, writing out the weights and probabilities each round. Then build a loss sequence for two experts in which whichever expert is currently ahead loses the next round. Follow-the-leader loses almost every round, while Hedge keeps its regret sublinear. Finally, derive the bound ln N / eta + eta T and minimize it over eta.
+
+## Common Misconceptions
+- Hedge follows the expert with the lowest loss so far. (That strategy is follow-the-leader, which an adversary can force into linear regret. Hedge spreads probability across experts using exponential weights.)
+- A larger learning rate is better because it adapts faster. (A large eta reacts quickly but overreacts to adversarial losses. The bound ln N / eta + eta T shows the two terms trade off.)
+- A huge expert pool makes the regret too large to be useful. (Regret grows with sqrt(ln N), so going from 10 to 1,000,000 experts multiplies the bound by about 2.4.)
+
 ## Questions
 
 ```yaml

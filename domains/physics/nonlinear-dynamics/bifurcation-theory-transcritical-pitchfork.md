@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 The transcritical bifurcation (normal form ẋ = rx - x²) occurs when two fixed points exchange stability as a parameter crosses a critical value — neither is created nor destroyed. The pitchfork bifurcation (normal form ẋ = rx - x³ for supercritical, ẋ = rx + x³ for subcritical) occurs in systems with symmetry: a symmetric fixed point loses stability and two new symmetric fixed points emerge (or vice versa). Both require structural conditions that the saddle-node does not — the transcritical requires a fixed point to exist for all parameter values, and the pitchfork requires x → -x symmetry.
 
+## How It's Best Learned
+Draw the bifurcation diagrams (x* against r) for the saddle-node, transcritical and both pitchfork normal forms side by side, solid for stable and dashed for unstable. Get each stability label from f′(x*): for example f′(r) = −r for the transcritical branch and f′(±√r) = −2r for the supercritical pitchfork. Then add a small constant h to ẋ = h + rx − x³ and redraw to see the branches disconnect.
+
+## Common Misconceptions
+- In a transcritical bifurcation a new fixed point is born at r = 0. (Both fixed points, x = 0 and x = r, exist on both sides of r = 0; they pass through each other and exchange stability.)
+- "Subcritical" means the bifurcation happens at a negative parameter value. (In ẋ = rx + x³ the origin still loses stability at r = 0; "subcritical" refers to the new branches being unstable and lying on the side where the origin is still stable.)
+- The equation decides which side a symmetric system buckles or orders toward. (With perfect symmetry, tiny perturbations or noise make the choice; a small bias term turns the pitchfork into an imperfect bifurcation that favors one side.)
+- Any system with a cubic nonlinearity can show a pitchfork. (A pitchfork also needs the quadratic term to vanish at the bifurcation point, which in practice is usually enforced by an x → −x symmetry.)
+
 ## Questions
 
 ```yaml

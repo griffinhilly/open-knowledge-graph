@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 The exponential map exp_p : TpM → M sends a tangent vector v to the point reached by following the geodesic from p with initial velocity v for unit time. It is a local diffeomorphism near the origin of TpM, providing "normal coordinates" centered at p in which geodesics through p are straight lines and the metric is Euclidean to first order. The exponential map connects the linear algebra of the tangent space to the nonlinear geometry of the manifold and is the fundamental tool for local geometric analysis.
 
+## How It's Best Learned
+Write the exponential map of the unit sphere S² ⊂ ℝ³ at the north pole N explicitly: exp_N(v) = cos|v| N + sin|v| (v/|v|). See that it maps the open disk |v| < π onto the sphere minus the south pole, and sends the whole circle |v| = π to the south pole. Then compare the geodesic circle's length 2π sin r with the flat value 2πr.
+
+## Common Misconceptions
+- exp_p is defined on all of TpM for every manifold. (It is defined everywhere when geodesics from p extend for all time. On the punctured plane, the geodesic from p aimed at the puncture stops, so exp_p is not defined on the whole tangent plane.)
+- A map that is a local diffeomorphism at every point is injective. (On a flat torus, exp_p is a local diffeomorphism on all of TpM but wraps the plane around the torus infinitely many times.)
+- In normal coordinates the metric is Euclidean throughout a neighborhood of p. (What normal coordinates guarantee is g_ij(p) = δ_ij and vanishing first derivatives at p. The second-order terms carry the curvature.)
+
 ## Questions
 
 ```yaml

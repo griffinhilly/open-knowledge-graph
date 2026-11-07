@@ -33,6 +33,14 @@ status: validated
 ## Core Idea
 The partial derivative ∂f/∂x is the ordinary derivative with respect to x while holding all other variables constant. Partial derivatives measure instantaneous rates of change along coordinate axes and are computed using single-variable differentiation rules.
 
+## How It's Best Learned
+Compute each partial two ways at one point: by the hold-constant rule, and by substituting the fixed value first. For f(x, y) = x²y + 3y² at (1, 2), f(x, 2) = 2x² + 12 has slope 4 at x = 1, matching f_x = 2xy = 4. Likewise f(1, y) = y + 3y² has slope 13 at y = 2, matching f_y = x² + 6y.
+
+## Common Misconceptions
+- Holding y constant means dropping every term that contains y. (y stays as a constant coefficient, so ∂/∂x of x²y is 2xy; only terms with no x become zero.)
+- ∂f/∂x gives the slope of the surface in every direction. (It gives the slope only along the x-direction; other directions need directional derivatives.)
+- If both partial derivatives exist at a point, f is continuous there. (f = xy/(x² + y²) with f(0, 0) = 0 has both partials equal to 0 at the origin, yet it equals 1/2 along the line y = x, so it is not continuous there.)
+
 ## Questions
 
 ```yaml

@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 Information theory provides quantitative tools for understanding neural coding: how neurons encode sensory information, process it, and transmit it to downstream structures. The **mutual information** I(S; R) between stimulus S and neural response R quantifies how much information about the stimulus is available in spike patterns. The **information rate** (bits per spike or bits per second) measures the efficiency of the neural code. **Fisher information** quantifies the precision with which neurons can encode stimulus parameters — related to but distinct from mutual information. The **channel capacity** of a single neuron (the maximum information that can be reliably transmitted given its biophysical constraints) explains why neurons use high rates: limited bandwidth requires high firing rates or complex temporal patterns. Population coding amplifies information through redundancy and synergy. Information-theoretic frameworks reveal that neural systems operate near information-theoretic limits, often optimizing for coding efficiency under metabolic constraints. These concepts illuminate sensory transduction, neural computation, learning, and brain function.
 
+## How It's Best Learned
+Simulate a model neuron with Poisson spike counts and a tuning curve over a few stimulus values. Estimate I(S;R) from count histograms using 20, 200 and 2000 trials, and watch the estimate shrink toward its true value as trials grow. Then shuffle the stimulus labels and see that the small-sample estimate stays above zero. Finally, compare Fisher information at the steep and flat parts of the tuning curve.
+
+## Common Misconceptions
+- An estimate of I(S;R) from a modest number of trials can be taken at face value. (The plug-in estimate from response histograms is biased upward when trials are few. Bias corrections or shuffled-label controls are needed.)
+- A neuron that fires a lot carries a lot of information about the stimulus. (Information depends on how the response changes with the stimulus compared with its trial-to-trial noise. A neuron that fires at a high rate whatever the stimulus carries none.)
+- Correlations between neurons always reduce the information in a population. (Depending on how noise correlations line up with the neurons' tuning, they can lower the population information, leave it unchanged or raise it.)
+- If the information is in the spikes, the brain must be using it. (Mutual information measures what an ideal observer could extract. Downstream circuits may read out only part of it.)
+
 ## Questions
 
 ```yaml

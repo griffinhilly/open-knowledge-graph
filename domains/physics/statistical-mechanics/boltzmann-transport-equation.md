@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 The Boltzmann equation ∂f/∂t + v·∇f + F/m·∇_v f = (∂f/∂t)_{coll} describes the evolution of the single-particle distribution f(r,v,t) under external forces F and collisions. The collision term (∂f/∂t)_{coll} is typically approximated as −(f − f^eq)/τ (relaxation-time approximation). It governs viscosity, thermal conductivity, and electrical conductivity in gases and weakly-coupled plasmas.
 
+## How It's Best Learned
+Derive the Drude conductivity from the relaxation-time equation. Take a uniform gas of charge q in a steady field E, so (qE/m)·∇_v f = −(f − f^eq)/τ. To first order, f = f^eq + (qτ/kT)(E·v)f^eq. The current j = q∫v f d³v then uses ⟨v_x²⟩ = kT/m and gives σ = nq²τ/m.
+
+## Common Misconceptions
+- A steady current means the distribution is far from equilibrium. (For weak fields f differs from f^eq by a small shift of first order in E. Linear transport coefficients come from that small deviation.)
+- The relaxation-time term conserves momentum and energy just as real collisions do. (With a fixed f^eq it generally does not. The f^eq in the term must use the gas's own local density, flow velocity and temperature for those conservation laws to hold.)
+- τ is the exact time between collisions, so the relaxation-time model is exact once τ is measured. (τ is an effective relaxation time, not a literal interval between collisions. Momentum, energy and other quantities can relax at different rates, so a single τ is an approximation.)
+
 ## Questions
 
 ```yaml
@@ -51,7 +59,7 @@ The Boltzmann equation ∂f/∂t + v·∇f + F/m·∇_v f = (∂f/∂t)_{coll} d
   answer: true
   explanation: "The equilibrium distribution f^eq ∝ exp(−mv²/2kT) is the steady-state solution when the left side (streaming) is zero and the collision term drives f to f^eq. The BTE's purpose is precisely to describe how f evolves when there are density gradients, temperature gradients, or external forces — all non-equilibrium conditions. This makes the BTE the foundational equation of non-equilibrium statistical mechanics, bridging microscopic particle dynamics to macroscopic transport phenomena."
 
-- question: "The Boltzmann transport equation provides a complete microscopic description of most particle's individual trajectory in the gas."
+- question: "The Boltzmann transport equation provides a complete microscopic description of each particle's individual trajectory in the gas."
   type: true-false
   answer: false
   explanation: "The BTE is a mesoscopic, statistical equation: f(r,v,t) is the phase-space density, not the position or velocity of any individual particle. It describes the collective statistical evolution of an ensemble of particles — averaging over microscopic fluctuations. The actual trajectory of a given particle is not tracked. This is why the BTE is an intermediate-level description, more coarse-grained than molecular dynamics (which tracks individual particles) but more detailed than macroscopic fluid equations (which have already averaged over velocity space)."

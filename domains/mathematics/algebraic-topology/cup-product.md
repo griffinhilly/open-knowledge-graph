@@ -19,6 +19,14 @@ status: validated
 ## Core Idea
 The cup product is a bilinear operation H^p(X; R) x H^q(X; R) -> H^{p+q}(X; R) that gives the cohomology groups the structure of a graded ring. Defined at the cochain level by (f cup g)(sigma) = f(front p-face of sigma) * g(back q-face of sigma), the cup product is associative, has an identity (the class in H^0), and satisfies graded commutativity: alpha cup beta = (-1)^{pq} beta cup alpha. The resulting cohomology ring H^*(X; R) is a strictly finer topological invariant than the individual cohomology groups and distinguishes spaces that homology alone cannot.
 
+## How It's Best Learned
+Compute one cup product by hand on a small Δ-complex. On the torus built from two triangles, take the 1-cocycles dual to the two edge loops and evaluate their cup product on both triangles using the front-face/back-face rule. On the fundamental cycle the result is ±1, so the product generates H^2. Then use naturality to see why the ring difference rules out a homotopy equivalence between CP^2 and S^2 ∨ S^4.
+
+## Common Misconceptions
+- The cup product is commutative like ordinary multiplication. (It is graded commutative: α ∪ β = (-1)^{pq} β ∪ α, so two odd-degree classes anticommute.)
+- The square of an odd-degree class is zero. (Graded commutativity gives only 2α^2 = 0. With Z/2 coefficients this says nothing, and the generator of H^1(RP^2; Z/2) has nonzero square.)
+- Homology carries a matching product for every space. (The cup product comes from the diagonal map X -> X × X, which gives cohomology a ring structure. Ordinary homology of a general space has no such product.)
+
 ## Questions
 
 ```yaml
@@ -50,7 +58,7 @@ The cup product is a bilinear operation H^p(X; R) x H^q(X; R) -> H^{p+q}(X; R) t
 - question: "Explain why the cup product makes cohomology a strictly finer invariant than homology for distinguishing topological spaces."
   type: short-answer
   answer: "Cohomology groups, as abelian groups, carry the same information as homology groups (related by the universal coefficient theorem). But the cup product introduces multiplicative relationships between classes in different degrees that have no homological analogue. Two spaces can have isomorphic cohomology groups in every degree but non-isomorphic cohomology rings, because the cup product structure detects how cohomology classes 'interact.' This multiplicative structure encodes topological features like the linking and intersection of submanifolds, the non-decomposability of spaces, and the complexity of fiber bundle structures."
-  explanation: "The classic example — CP^2 vs S^2 ∨ S^4 — shows this concretely. Both have the same graded group Z ⊕ 0 ⊕ Z ⊕ 0 ⊕ Z, but the ring structures differ. There is no ring homomorphism between Z[α]/(α^3) and Z[β, γ]/(β^2, βγ, γ^2) that preserves degree, so the spaces are distinguishable. No amount of information about individual homology/cohomology groups can capture this difference."
+  explanation: "The classic example — CP^2 vs S^2 ∨ S^4 — shows this concretely. Both have the same graded group Z ⊕ 0 ⊕ Z ⊕ 0 ⊕ Z, but the ring structures differ. There is no degree-preserving ring isomorphism between Z[α]/(α^3) and Z[β, γ]/(β^2, βγ, γ^2), so the spaces are distinguishable. No amount of information about individual homology/cohomology groups can capture this difference."
 ```
 
 ## Explainer

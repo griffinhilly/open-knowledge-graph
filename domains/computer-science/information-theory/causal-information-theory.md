@@ -27,6 +27,15 @@ status: validated
 ## Core Idea
 Causal information theory extends Shannon's information theory to directed, causal systems where we care not just about dependence but about causality — who influences whom, and how. While mutual information I(X;Y) quantifies dependence between X and Y, it does not distinguish whether X causes Y, Y causes X, or both are caused by a common confounder. **Graphical causal models** (directed acyclic graphs) encode causal assumptions. **d-separation** in a causal graph determines conditional independence: variables that are d-separated given other variables are informationally independent in causal systems respecting the graph. **Transfer entropy** measures information flow from X to Y in time-series data, accounting for Y's own history. **Causal information flow** quantifies how much information about cause X is necessary to explain effect Y, beyond what Y's history provides. Interventions (setting a variable to a specific value) are informationally different from observations: an intervention on X breaks X's dependence on its causal parents. Causal information theory provides tools for discovering causal structures from observational data, quantifying causal effects informationally, and understanding limits of causal identification.
 
+## How It's Best Learned
+Work with three small graphs side by side: a chain X → Z → Y, a fork X ← Z → Y, and a collider X → Z ← Y. For each, write down whether I(X;Y) and I(X;Y|Z) are zero. Then simulate a confounded pair and compare P(Y|X=x) with P(Y|do(X=x)). Finally, compute transfer entropy on a two-variable autoregressive example where X drives Y.
+
+## Common Misconceptions
+- A positive transfer entropy from X to Y proves that X causes Y. (Transfer entropy measures predictive information, much like Granger causality. A hidden common driver of both series can make it positive without any causal link from X to Y.)
+- Conditioning on more variables always removes more bias. (Conditioning on a collider, or on a descendant of one, opens a path and can create a dependence that was not there.)
+- P(Y | X = x) and P(Y | do(X = x)) are the same thing written two ways. (The first describes cases where X happened to equal x. The second describes setting X to x, which cuts X off from its causes. They can differ, for example when X and Y share a confounder.)
+- If two variables are not d-separated, they must be dependent in the data. (d-separation guarantees independence, but the converse needs an extra assumption called faithfulness. Effects along different paths can cancel and leave the variables independent.)
+
 ## Questions
 
 ```yaml

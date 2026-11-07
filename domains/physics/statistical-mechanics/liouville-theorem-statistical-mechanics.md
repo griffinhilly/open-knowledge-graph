@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Liouville's theorem states that the density of microstates in phase space is conserved under Hamiltonian evolution: ∂ρ/∂t + {ρ,H} = 0. This shows that the 'volume' occupied by an ensemble in phase space remains invariant as the system evolves, establishing a connection between deterministic dynamics and statistical ensembles.
 
+## How It's Best Learned
+Follow a small square of initial conditions numerically. For a harmonic oscillator the square rotates and keeps its area. For a pendulum it shears into a long thin filament, still with the same area. Then add friction, q̇ = p, ṗ = −kq − γp, and compute the divergence −γ: the area now shrinks as e^(−γt), showing what the Hamiltonian structure was protecting.
+
+## Common Misconceptions
+- The density stays constant at each fixed point of phase space. (It stays constant along each moving trajectory. At a fixed location the density changes as the cloud flows past, unless the ensemble is stationary.)
+- Liouville's theorem holds for any equations of motion. (It needs a flow with zero divergence, such as Hamilton's equations. Friction makes the divergence negative and phase-space volumes contract.)
+- If phase-space volume is conserved, an ensemble can never look like it has reached equilibrium. (The cloud keeps its volume but stretches into fine filaments spread over the energy surface. A coarse-grained density can then become nearly uniform.)
+
 ## Questions
 
 ```yaml

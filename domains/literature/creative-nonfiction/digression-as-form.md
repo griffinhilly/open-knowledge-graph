@@ -22,6 +22,14 @@ status: draft
 ## Core Idea
 Digression—following a thought tangentially rather than pursuing direct argument—is a formal principle rather than a flaw. Essayistic digression models thinking in process, honoring unexpected connections as legitimate paths to understanding. The form assumes readers will follow the associative logic.
 
+## How It's Best Learned
+Map the turns in one Montaigne essay as a chain of boxes. In each box write the topic, and on each arrow write what triggered the turn: a word, an image, a memory, an example. Mark where the essay returns to its opening question. Then draft a page of your own that starts from one question, allows three tangents, and makes each one bear on the question by the end.
+
+## Common Misconceptions
+- A digression is a lapse in focus. (In the essay, a digression can be a deliberate route of inquiry that comes back to bear on the main question.)
+- Associative writing has no logic. (Each turn follows a link, such as an image, word, or memory, even when the link is left unstated.)
+- Any tangent counts as essayistic digression. (A digression that adds nothing to the understanding the essay reaches is just a detour; effective ones change how the reader sees the original subject.)
+
 ## Questions
 
 ```yaml
@@ -57,6 +65,7 @@ Digression—following a thought tangentially rather than pursuing direct argume
 
 - question: How might an essay structured around digression make its argument differently than a linear argumentative essay? What does the digressive structure reveal?
   type: short-answer
+  answer: "A linear essay states a thesis and supports it in logical order. A digressive essay starts from a question, follows associated thoughts and memories, and reaches understanding by approaching the question from several angles. The structure reveals the path of thinking itself and shows that the understanding was not obvious."
   explanation: 'A linear essay would state a thesis and support it with evidence in logical sequence. A digressive essay might start with one question, follow associated thoughts and memories, move through unexpected territory, and arrive somewhere unexpected—having explored the question from multiple angles. The digression reveals that the answer isn''t simple, that understanding requires following multiple threads. It also enacts the actual process of thinking, making the reader complicit in discovery. What''s revealed isn''t just the conclusion but the path of thinking that leads there. A digressive structure says: this understanding was not obvious; it required following this particular associative chain. Linear structure says: here''s the truth, here''s the evidence. Digression says: here''s how I came to understand this.'
 ```
 

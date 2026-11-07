@@ -27,6 +27,14 @@ status: validated
 ## Core Idea
 The van der Waals equation (P + aN²/V²)(V - Nb) = NkT accounts for excluded-volume repulsion (b) and attractive interactions (a) in a mean-field approximation. Its statistical derivation reveals when mean-field theory applies and predicts a critical point where the distinction between liquid and gas vanishes.
 
+## How It's Best Learned
+Write the mean-field partition function Z = (V − Nb)^N e^{βaN²/V} / (N! λ^{3N}) and take P = kT ∂ln Z/∂V to recover the equation. Expand at low density to get B₂ = b − a/kT and compare with the second virial coefficient. Then solve ∂P/∂V = ∂²P/∂V² = 0 for the critical point and check that P_cV_c/(NkT_c) = 3/8.
+
+## Common Misconceptions
+- The constant b is the volume of one molecule. (It is the excluded volume per molecule. For hard spheres of diameter σ, b = 2πσ³/3, four times the volume of one sphere.)
+- Every point on the S-shaped loop is a possible equilibrium state. (The part with positive slope is mechanically unstable. The parts between the coexistence line and the spinodal describe metastable states such as superheated liquid and supercooled vapour.)
+- Fitting a and b to a real fluid makes van der Waals quantitative near the critical point. (The equation fixes P_cV_c/(NkT_c) = 3/8 for every fluid, while real fluids typically have lower values. It also gives mean-field exponents such as β = 1/2.)
+
 ## Questions
 
 ```yaml

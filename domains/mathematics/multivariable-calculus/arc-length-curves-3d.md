@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 For a parametric curve r(t) from t=a to t=b, the arc length is L = ∫[a,b] |r'(t)| dt. This integrates the speed along the path. Arc length is independent of the parametrization chosen.
 
+## How It's Best Learned
+Compute one turn of the helix ⟨a cos t, a sin t, bt⟩. The speed is the constant √(a² + b²), so the length is 2π√(a² + b²). Then check it without calculus: unroll the cylinder into a flat rectangle of width 2πa and height 2πb. The helix becomes the rectangle's diagonal, whose length is the same number.
+
+## Common Misconceptions
+- Arc length is the integral of |r(t)|. (The integrand is the speed |r′(t)|. The quantity |r(t)| is the distance from the origin, which has nothing to do with how far you travel.)
+- You can find a helix's length by adding the circle's length and the height it climbs. (The components combine as √(x′² + y′² + z′²), not as a sum. One turn of ⟨cos t, sin t, t⟩ has length 2π√2, not 4π.)
+- Arc length equals |r(b) − r(a)|. (That is the straight-line distance between the endpoints. It is never more than the arc length and matches it only when the path runs straight from start to end without doubling back.)
+- The arc length integral measures the curve as a set of points, even if the parametrization retraces it. (The integral counts every pass. ⟨cos t, sin t, 0⟩ on [0, 4π] gives 4π, twice the circle's length.)
+
 ## Questions
 
 ```yaml

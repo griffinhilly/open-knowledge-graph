@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 Poor individuals and firms struggle to borrow because they lack collateral and credit history, making it hard for lenders to assess repayment capacity. This prevents profitable investments in education, equipment, and business startup, locking households in low-income equilibria. Relaxing constraints through mobile money, group lending, or collateral substitutes can unlock growth.
 
+## How It's Best Learned
+Draw the loop as a cycle diagram: no assets, so no collateral; no collateral, so no loan; no loan, so no investment; no investment, so income stays low. Then place each intervention (group lending, mobile payment histories, savings devices) on the arrow it is meant to cut. Ask for each one whether it supplies information, enforcement, or capital.
+
+## Common Misconceptions
+- A bank that refuses a loan must think the project is bad. (The bank may lack the collateral or credit history it needs to screen the borrower and enforce repayment, whatever the project's quality.)
+- Poor households cannot borrow because they are bad credit risks. (Poverty removes the tools lenders use to screen and discipline borrowers, so creditworthy people can be excluded too.)
+- Group lending works by making loans cheaper. (It replaces physical collateral with joint liability and peer monitoring, which addresses screening and enforcement.)
+- Microfinance has solved credit constraints. (Average effects on income are modest, and no single intervention removes the barriers.)
+
 ## Questions
 
 ```yaml

@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 A simplicial complex is a combinatorial structure built from vertices, edges, triangles, tetrahedra, and their higher-dimensional analogues (simplices), glued together along faces in a compatible way. Simplicial complexes provide a rigid, combinatorial model for topological spaces that makes homology computable: instead of dealing with arbitrary continuous maps, we work with finite collections of simplices governed by purely combinatorial rules.
 
+## How It's Best Learned
+Test the two defining rules on attempts to triangulate the torus. The square cut into two triangles fails: after gluing, all corners are one vertex, so the triangles' vertices are not distinct. Subdivide the square into a 3-by-3 grid with diagonals and check that the result is a simplicial complex with 9 vertices, 27 edges and 18 triangles. Its Euler characteristic, 9 - 27 + 18 = 0, matches the torus.
+
+## Common Misconceptions
+- Any gluing of triangles along edges gives a simplicial complex. (Two simplices may meet only in a single common face. Two triangles glued along two of their edges break this rule, as does the two-triangle torus.)
+- The lengths and angles of the simplices matter. (Only the combinatorial data, which vertex sets span simplices, determine the realization |K| up to homeomorphism.)
+- All the top simplices must have the same dimension. (Mixed dimensions are allowed. A triangle with an extra edge hanging from one vertex is a valid simplicial complex.)
+
 ## Questions
 
 ```yaml
@@ -47,7 +55,7 @@ A simplicial complex is a combinatorial structure built from vertices, edges, tr
 - question: "Every topological space can be given the structure of a simplicial complex."
   type: true-false
   answer: false
-  explanation: "Not every topological space is triangulable. A simplicial complex has a very rigid combinatorial structure, and its geometric realization is always a nice space (a polyhedron). Spaces that are not locally Euclidean, or certain exotic manifolds, cannot be triangulated. Even among manifolds, there exist topological manifolds in dimension 4 and higher that admit no triangulation (Manolescu, 2013). However, for the purposes of algebraic topology, many important spaces — surfaces, CW complexes, smooth manifolds — can be triangulated or approximated by simplicial complexes."
+  explanation: "Not every topological space is triangulable. A simplicial complex has a very rigid combinatorial structure, and its geometric realization is always a nice space (a polyhedron). Spaces that are not locally contractible, such as the Hawaiian earring, cannot be triangulated. Even among manifolds, there exist topological manifolds in dimension 4 and higher that admit no triangulation (Manolescu, 2013). However, for the purposes of algebraic topology, many important spaces — surfaces, CW complexes, smooth manifolds — can be triangulated or approximated by simplicial complexes."
 
 - question: "An abstract simplicial complex on vertex set {a, b, c, d} contains the 2-simplices {a,b,c} and {a,b,d}. What other simplices must it contain?"
   type: short-answer

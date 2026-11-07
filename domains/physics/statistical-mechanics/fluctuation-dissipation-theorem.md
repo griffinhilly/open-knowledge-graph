@@ -28,6 +28,15 @@ status: validated
 ## Core Idea
 The fluctuation-dissipation theorem (FDT) relates equilibrium fluctuations in an observable to the dissipative response of that observable to an external perturbation. For a system in thermal equilibrium, the autocorrelation function ⟨ΔA(t) ΔA(0)⟩ equals the time-integral of the linear response function, connecting intrinsic noise to damping.
 
+## How It's Best Learned
+Start with the Langevin equation m dv/dt = −γv + ξ(t) and demand that the stationary velocity variance equal k_BT/m. This fixes the noise strength at 2γk_BT and then gives D = k_BT/γ. Once that small case is clear, check the general relation χ''(ω) = (ω/2k_BT) C(ω) on a damped harmonic oscillator, then read Johnson noise as the same result for a resistor.
+
+## Common Misconceptions
+- Friction and thermal noise come from separate sources, so you could raise the damping without changing the noise. (Both come from the same coupling to the environment. In the Langevin model, equilibrium requires the noise strength to be 2γk_BT, so it scales with the friction coefficient.)
+- A more viscous fluid kicks a particle harder, so the particle should diffuse faster. (The random force does grow with viscosity, but the drag grows too, and the net result is D = k_BT/γ, which decreases.)
+- The theorem applies to any system, including one driven far from equilibrium. (It holds for small perturbations of a system in thermal equilibrium. Glasses, active matter and strongly driven systems can violate it.)
+- The classical form with k_BT holds at every frequency and temperature. (When ħω is comparable to k_BT, quantum corrections enter and k_BT is replaced by (ħω/2) coth(ħω/2k_BT).)
+
 ## Questions
 
 ```yaml

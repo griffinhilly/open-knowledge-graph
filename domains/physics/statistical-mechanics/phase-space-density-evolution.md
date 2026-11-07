@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 The Liouville equation describes temporal evolution of probability density in phase space under Hamiltonian dynamics. As a fundamental equation of motion for statistical ensembles, it serves as the parent equation from which the Boltzmann equation (for gases with collisions) and Fokker-Planck equation (for stochastic processes) can be derived.
 
+## How It's Best Learned
+Work the harmonic oscillator first. Place a small Gaussian blob of points off-center in the (q, p) plane and evolve each point with Hamilton's equations. The blob moves around constant-energy ellipses, distorting but keeping its area and density. Check that any ρ = f(H) is unchanged by this flow. Then add friction and watch the blob shrink, which shows what Hamiltonian structure was providing.
+
+## Common Misconceptions
+- The Liouville equation says the density at each fixed point of phase space stays constant. (It says ρ is constant along each moving trajectory. At a fixed location ρ changes as the flow carries probability in and out.)
+- Because the Liouville equation is exact and reversible, an ensemble can never appear to reach equilibrium. (The fine-grained Gibbs entropy stays constant, but the distribution stretches into fine filaments. Averages of smooth observables and reduced distributions can still settle to equilibrium values.)
+- Density is conserved along trajectories for any equations of motion. (That requires a divergence-free phase-space flow, as Hamiltonian dynamics gives. With friction, phase-space volume contracts and the density along a trajectory grows.)
+
 ## Questions
 
 ```yaml
@@ -61,7 +69,7 @@ The Liouville equation describes temporal evolution of probability density in ph
 - question: "What physical analogy does the Liouville equation share with the fluid continuity equation, and what does this analogy reveal about how probability density evolves under Hamiltonian dynamics?"
   type: short-answer
   answer: "Both equations express conservation of a density under a flow. The fluid continuity equation ∂ρ/∂t + ∇·(ρv) = 0 says that mass density is conserved as fluid flows through space: any change in local density is due to net flux in or out. The Liouville equation ∂ρ/∂t + {ρ, H} = 0 says probability density is conserved as ensemble members flow through phase space under Hamilton's equations. The Poisson bracket plays the role of the divergence term. What makes Hamiltonian flow special is that it is incompressible — the divergence of the phase-space velocity field is zero — so phase-space flow is like an ideal fluid with no sources or sinks. Density is conserved not just globally but locally, along every trajectory."
-  explanation: "This analogy has a deep implication: you cannot compress probability into a smaller phase-space volume under Hamiltonian evolution. This is Liouville's theorem, and it is why Maxwell's demon cannot work without dissipating entropy in the measurement process — any attempt to sort particles into smaller phase-space regions must violate the incompressibility of Hamiltonian flow. The analogy also makes clear why equilibrium statistical mechanics works: the incompressibility ensures that long-time averages and ensemble averages are connected (the basis of ergodicity arguments), and that stationary distributions like the microcanonical and canonical ensembles are self-consistent solutions."
+  explanation: "This analogy has a deep implication: you cannot compress probability into a smaller phase-space volume under Hamiltonian evolution. This is Liouville's theorem, and it is why Maxwell's demon cannot work without producing entropy elsewhere (in the modern analysis, when it erases its memory) — any attempt to sort particles into smaller phase-space regions must violate the incompressibility of Hamiltonian flow. The analogy also makes clear why equilibrium statistical mechanics works: the incompressibility ensures that long-time averages and ensemble averages are connected (the basis of ergodicity arguments), and that stationary distributions like the microcanonical and canonical ensembles are self-consistent solutions."
 ```
 
 ## Explainer

@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 Standard Laplace transforms include: L[1] = 1/s, L[t^n] = n!/s^(n+1), L[e^(at)] = 1/(s-a), L[sin(bt)] = b/(s²+b²), L[cos(bt)] = s/(s²+b²). Tables of these pairs are essential references. Combinations via linearity and shifting theorems yield transforms of more complex functions, including step functions, impulses, and piecewise-defined inputs.
 
+## How It's Best Learned
+Derive three entries yourself instead of copying them: L[1] from the integral, L[t] by one integration by parts, and both trig entries at once from L[e^(ibt)] = 1/(s − ib) = (s + ib)/(s² + b²). Then build new entries from old ones, such as L[e^(−t)cos(2t)] = (s + 1)/((s + 1)² + 4), by naming which rule each step uses.
+
+## Common Misconceptions
+- L[sin(bt)] = s/(s² + b²). (That is the cosine entry; sine has b in the numerator, and a quick check is that L[sin(bt)] tends to 0 faster than L[cos(bt)] as s grows.)
+- The transform of a product is the product of the transforms. (L[f g] is not F(s)G(s) in general; F(s)G(s) is the transform of the convolution f * g.)
+- L[e^(at)] = 1/(s + a). (The correct entry is 1/(s − a), valid for s > a; a growing exponential puts the pole at s = a on the positive side.)
+- A table entry holds for every value of s. (Each entry holds only where the defining integral converges, such as s > 0 for L[1] and s > a for L[e^(at)].)
+
 ## Questions
 
 ```yaml

@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Higher-order partials are partial derivatives of partial derivatives: ∂²f/∂x², ∂²f/∂y², and mixed partials ∂²f/∂x∂y. Notation ∂²f/∂x∂y means first differentiate with respect to y, then x.
 
+## How It's Best Learned
+Work a function where the mixed partial needs the product rule, so each step matters. For f = e^{xy}, f_x = y e^{xy} and f_y = x e^{xy}. Then f_xx = y² e^{xy} and f_yy = x² e^{xy}. Differentiating f_x by y gives e^{xy} + xy e^{xy}, and differentiating f_y by x gives the same. Write the order beside each line in both notations.
+
+## Common Misconceptions
+- To get f_xy, you compute f_x and f_y separately and combine them. (f_xy is one chain: take f_x, then differentiate that result with respect to y, holding x constant.)
+- f_xx means (f_x)², the square of the first partial. (f_xx is the derivative of f_x with respect to x, not a product.)
+- There are only two second-order partials, f_xx and f_yy. (A function of two variables has four second partials, f_xx, f_xy, f_yx, f_yy; when Clairaut's theorem applies, the two mixed ones are equal.)
+- Subscript notation and Leibniz notation list the variables in the same order of differentiation. (f_xy means x first, while ∂²f/∂x∂y means y first.)
+
 ## Questions
 
 ```yaml

@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Cellular homology computes the homology of a CW complex using a chain complex whose n-th group is free abelian on the n-cells, with boundary operator determined by the degrees of the attaching maps. It produces the same homology as singular homology but with dramatically smaller chain groups — often making hand computation feasible. Cellular homology is the most efficient general-purpose method for computing homology: it combines the flexibility of CW complexes with the computability of finite chain complexes.
 
+## How It's Best Learned
+Work three surfaces from their square diagrams. For the torus, the 2-cell reads aba^{-1}b^{-1}, so each edge appears once forward and once backward and d_2 = 0. For the Klein bottle, abab^{-1} gives d_2(e^2) = 2a, so H_1 = Z ⊕ Z/2 and H_2 = 0. Then do RP^2 with the word aa. Counting signed letter appearances gives the degrees directly.
+
+## Common Misconceptions
+- The cellular boundary of a cell lists the lower cells it touches. (The coefficients are degrees of attaching maps. The torus 2-cell touches both 1-cells, yet its cellular boundary is zero because each edge is traversed once in each direction.)
+- Different CW structures on the same space give different cellular homology. (The chain complexes differ, but the homology is the same, because cellular homology agrees with singular homology.)
+- The map d_1 is zero in every CW complex. (It is zero when there is one 0-cell. With several 0-cells, d_1 sends each 1-cell to its end vertex minus its start vertex.)
+
 ## Questions
 
 ```yaml

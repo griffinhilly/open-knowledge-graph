@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 The multiplicative weights (MW) method is a meta-algorithm for online decision-making where, in each round, the learner maintains a weight for each option and selects (or randomizes) proportionally to these weights. After observing the loss, weights of poorly performing options are multiplicatively decreased: w_i <- w_i * (1 - eta * loss_i). This achieves O(sqrt(T * ln N)) regret over T rounds with N options. The method is a universal primitive that appears independently across computer science — as the Hedge algorithm in online learning, the Winnow algorithm in machine learning, boosting in ensemble methods, and equilibrium computation in game theory.
 
+## How It's Best Learned
+Let two players run multiplicative weights against each other in rock-paper-scissors, starting from slightly unequal weights. Plot each round's strategy and the running average. The round-by-round strategies keep circling, while the averages approach one third each, the equilibrium. Then compare the (1 − eta·loss) update with exp(−eta·loss) for a few rounds and small eta to see that they nearly agree.
+
+## Common Misconceptions
+- In self-play, each player's current strategy settles at the equilibrium. (In zero-sum games it is the time-averaged strategies that converge. The round-by-round strategies can keep cycling.)
+- The (1 − eta·loss) and exp(−eta·loss) updates are different methods with different guarantees. (For losses in [0, 1] and small eta they agree to first order and give the same O(sqrt(T ln N)) regret up to constants.)
+- A small learning rate is the safe choice. (Too small an eta keeps the weights near uniform and inflates the ln N / eta term of the bound. The best eta scales as sqrt(ln N / T).)
+
 ## Questions
 
 ```yaml

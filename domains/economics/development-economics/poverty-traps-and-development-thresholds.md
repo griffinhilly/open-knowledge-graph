@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 Poverty traps occur when poverty itself prevents escape: poor households lack capital for education or business startup and rely on subsistence work, leaving no savings for investment. Multiple equilibria can exist—countries may be stuck at low income even though higher-income equilibria are technically possible, if they cannot bootstrap across the threshold.
 
+## How It's Best Learned
+Plot next year's assets against this year's assets with a 45-degree line. Draw an S-shaped curve that crosses the line three times: low and high crossings are stable, and the middle one is the threshold. Start households on either side and step them forward a few periods. Then compare a one-time transfer that clears the threshold with a smaller yearly one that does not.
+
+## Common Misconceptions
+- Any group that stays poor for a long time is in a poverty trap. (Poverty can persist from low productivity with a single low steady state. A trap requires a threshold beyond which income rises on its own.)
+- The poor stay poor because they fail to save. (In a trap, income barely covers subsistence, so there is little or nothing left to save.)
+- Any amount of aid helps a household escape a trap. (In the model, a transfer that leaves a household below the threshold fades away and the household slides back to the low equilibrium.)
+- The evidence for traps is equally strong for households and for whole countries. (Household-level evidence of thresholds is stronger. National-level traps remain contested.)
+
 ## Questions
 
 ```yaml

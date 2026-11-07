@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Boosting theory proves that any "weak learner" — an algorithm that performs only slightly better than random guessing — can be transformed into an arbitrarily accurate "strong learner" by combining many weak hypotheses through weighted majority voting. AdaBoost achieves this by iteratively reweighting training examples to focus on those the current ensemble gets wrong, then combining weak hypotheses with weights proportional to their accuracy. The training error decreases exponentially with the number of rounds. The generalization theory, based on margin analysis rather than VC dimension of the combined classifier, explains why boosting often does not overfit even with many rounds — the margins on training examples continue to increase.
 
+## How It's Best Learned
+Run three rounds of AdaBoost by hand with decision stumps on six points on a line labeled + + − − + +, which no single threshold separates. After each round, record the weighted error epsilon_t, the vote weight alpha_t, and the new example weights, and watch the next stump move toward the points the ensemble gets wrong. Then run it in code for hundreds of rounds and plot training error, test error, and the margin distribution together.
+
+## Common Misconceptions
+- Boosting never overfits. (It often resists overfitting on clean data, but it can overfit, especially with label noise, because reweighting puts more and more weight on mislabeled points.)
+- The weak learner only needs to beat random guessing on the original training data. (The weak learning assumption asks for an edge on every reweighted distribution AdaBoost produces. If the weighted error reaches 1/2 in some round, the guarantee breaks.)
+- The exp(−2γ²T) bound describes test error. (It bounds training error. Test error needs a separate generalization argument, such as a margin-based bound.)
+
 ## Questions
 
 ```yaml

@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Stokes' theorem states ∮_C F · dr = ∬_S (∇ × F) · n dS, where S is a surface bounded by closed curve C. It generalizes Green's theorem to 3D: circulation around C equals flux of curl through S. Boundary orientation uses right-hand rule.
 
+## How It's Best Learned
+Practice the surface swap. Let F = ⟨z, x, y⟩, so ∇ × F = ⟨1, 1, 1⟩, and let C be the unit circle in the xy-plane, counterclockwise seen from above. The curl flux through the upper hemisphere looks hard, but the flat unit disk with n = k gives 1 · π = π. Check by direct computation: the line integral reduces to ∫_0^{2π} cos²t dt = π.
+
+## Common Misconceptions
+- Any convenient surface will do, even a closed one such as a full sphere. (S must have exactly C as its boundary; a closed surface has no boundary, and the flux of a curl through it is zero.)
+- The upward or outward normal is the right choice. (The normal must match the direction of C by the right-hand rule; a curve traversed clockwise seen from above needs a downward normal.)
+- If the circulation around one closed curve is zero, the curl is zero. (Only the total curl flux through S must vanish; for F = ⟨0, 0, x⟩, the circulation around the unit circle in the xy-plane is 0, yet ∇ × F = ⟨0, −1, 0⟩.)
+
 ## Questions
 
 ```yaml

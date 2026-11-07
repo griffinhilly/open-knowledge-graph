@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 Simon's algorithm finds a hidden period string s for a function f:{0,1}^n -> {0,1}^n satisfying f(x) = f(y) if and only if x = y or x = y xor s. Classically, finding s requires O(2^(n/2)) queries (birthday bound). Simon's algorithm uses O(n) quantum queries, each producing a random vector orthogonal to s, and classical Gaussian elimination recovers s — achieving an exponential speedup. It was the first algorithm to prove an exponential quantum advantage over all classical algorithms (including probabilistic ones) and directly inspired Shor's factoring algorithm.
 
+## How It's Best Learned
+Work n = 3 with s = 110. First write a two-to-one table for f, pairing 000 with 110, 001 with 111, 010 with 100, and 011 with 101. List the strings with y dot s = 0: 000, 001, 110, 111. Suppose two runs return 001 and 111. Solving s_3 = 0 and s_1 + s_2 + s_3 = 0 over GF(2) gives s_1 = s_2, so the nonzero answer is s = 110.
+
+## Common Misconceptions
+- One run of the circuit reveals s. (Each run gives one random string y with y dot s = 0. About n runs are needed to pin s down.)
+- The measured string y is s or a noisy copy of it. (y is a random string orthogonal to s. The answer comes only from solving the system of equations.)
+- Measuring the output register is what makes the algorithm work. (That measurement can be skipped. The distribution of y in the first register is the same either way.)
+- The algorithm cannot handle the case s = 0...0. (If f is one-to-one, the runs eventually give n independent equations, whose only solution is 0, so that case is detected too.)
+
 ## Questions
 
 ```yaml

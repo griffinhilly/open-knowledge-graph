@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Girsanov's theorem describes how Brownian motion transforms under a change of probability measure. If W is a Brownian motion under P and we define a new measure Q via the Radon-Nikodym derivative dQ/dP = exp(-∫θ dW - (1/2)∫θ² dt), then W̃(t) = W(t) + ∫₀ᵗ θ(s) ds is a Brownian motion under Q. This allows removing or adding drift: a process with drift under one measure becomes driftless under another. It is the mathematical foundation of risk-neutral pricing in finance.
 
+## How It's Best Learned
+Do the constant-θ case at a single time first. With Z = exp(-θW(T) - θ²T/2) and W(T) ~ N(0, T) under P, multiply the normal density by Z and complete the square. The result is the N(-θT, T) density, so W(T) + θT is N(0, T) under Q. The mean shifts and the variance stays put, which is the theorem seen at a single time.
+
+## Common Misconceptions
+- Changing the measure changes the Brownian paths. (Each path stays exactly as it is; Q reweights which paths are likely, and W̃ = W + ∫θ ds is a new process built from the same paths.)
+- A suitable change of measure can also change the volatility. (Quadratic variation is computed path by path and is the same under equivalent measures, so only the drift can change.)
+- With constant θ, Q is equivalent to P on the whole infinite time horizon. (Equivalence holds up to each finite T; on [0, ∞) the measures are mutually singular, since W(t)/t tends to 0 under P and to -θ under Q.)
+
 ## Questions
 
 ```yaml

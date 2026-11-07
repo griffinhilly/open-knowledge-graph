@@ -23,10 +23,19 @@ status: validated
 ## Core Idea
 For a rectangle R = [a, b] × [c, d], the double integral ∬_R f(x, y) dA equals the iterated integral ∫_a^b ∫_c^d f(x, y) dy dx. By Fubini's theorem, the order of integration can be switched if f is continuous. The integral represents signed volume under the surface.
 
+## How It's Best Learned
+Evaluate one integral in both orders and compare. For f(x, y) = xy² on [0, 2] × [0, 3], integrating y first gives 9x, then ∫₀² 9x dx = 18. Integrating x first gives 2y², then ∫₀³ 2y² dy = 18. Sketch the solid and shade one slice for each order, so the inner integral reads as the area of a cross-section.
+
+## Common Misconceptions
+- In ∫_a^b ∫_c^d f dy dx, the outer limits a and b go with y. (The limits pair from the inside out: the inner integral sign goes with the inner differential dy, so c to d are y-limits.)
+- While integrating with respect to y, x must also be integrated. (In the inner integral, x is held constant and treated like a number.)
+- A double integral is always a volume and so cannot be negative. (It is a signed volume; regions where f < 0 contribute negatively.)
+- When you switch the order of integration, you also need new limits. (On a rectangle, each variable keeps its own constant limits; only the nesting order changes.)
+
 ## Questions
 
 ```yaml
-- question: "You want to evaluate ∬_R f(x,y) dA over the rectangle R = [0,1]×[0,1] where f(x,y) = sin(y²). Which iterated integral is computable in closed form?"
+- question: "You want to evaluate ∬_R f(x,y) dA over the rectangle R = [0,1]×[0,1] where f(x,y) = sin(y²). Which iterated integral has an inner integral you can evaluate in closed form?"
   type: multiple-choice
   options:
     - "∫₀¹ ∫₀¹ sin(y²) dy dx — integrate y first, then x"

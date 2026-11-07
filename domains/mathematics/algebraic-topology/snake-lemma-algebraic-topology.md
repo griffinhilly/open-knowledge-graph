@@ -20,6 +20,14 @@ status: validated
 ## Core Idea
 The snake lemma is the fundamental diagram-chasing result in homological algebra. Given a commutative diagram of abelian groups with exact rows, it produces a connecting homomorphism between the kernels and cokernels of the vertical maps, forming a long exact sequence. The snake lemma is the algebraic engine that produces every long exact sequence in homology and cohomology — the long exact sequence of a pair, Mayer-Vietoris, the long exact sequence of a fibration in homotopy — all are instances of the snake lemma applied to appropriate short exact sequences of chain complexes.
 
+## How It's Best Learned
+Chase one element through a small diagram by hand. Take both rows to be 0 → Z → Z → Z/2 → 0, with multiplication by 2 as the first map, and let f, g, h all be multiplication by 2. Then ker(h) = Z/2 and coker(f) = Z/2. Lift [1] to 1, apply g to get 2, pull back to 1 in A', and find δ[1] = [1] ≠ 0. Then check exactness at all six terms.
+
+## Common Misconceptions
+- The connecting homomorphism depends on which lifts you pick. (A different lift of c changes a' by an element f(a), so the class [a'] in coker(f) stays the same.)
+- If h is the zero map, then δ must be zero too. (δ uses the whole diagram. In the example with every vertical map equal to multiplication by 2, h is zero on Z/2, yet δ: Z/2 → Z/2 is an isomorphism.)
+- The lemma needs both rows to be short exact. (The six-term sequence exists when the top row is A → B → C → 0 and the bottom row is 0 → A' → B' → C'. Short exact rows add injectivity of ker(f) → ker(g) and surjectivity of coker(g) → coker(h).)
+
 ## Questions
 
 ```yaml

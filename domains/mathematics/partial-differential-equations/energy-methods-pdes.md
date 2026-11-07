@@ -19,6 +19,14 @@ status: validated
 ## Core Idea
 Energy methods establish properties of PDE solutions by studying integral quantities (energies) rather than the solutions themselves. For the wave equation, the total energy E(t) = ½∫[u_t² + c²|∇u|²]dx is conserved, which immediately proves uniqueness and continuous dependence on data. For the heat equation, the L² norm ∫u²dx is non-increasing, reflecting dissipation. By choosing appropriate energy functionals and showing they satisfy differential inequalities (Gronwall-type arguments), energy methods prove existence, uniqueness, and stability results for a wide variety of linear and nonlinear PDEs without requiring explicit solution formulas.
 
+## How It's Best Learned
+Run the same three steps (multiply, integrate, integrate by parts) on two equations and compare the multipliers. For the heat equation multiply by u. For the wave equation multiply by u_t. Then test the decay bound on u = e^{−t} sin x, which solves u_t = u_xx on [0, π] with zero boundary values. Here ∫u² dx = (π/2)e^{−2t}, so the Poincaré estimate with λ₁ = 1 holds with equality.
+
+## Common Misconceptions
+- The multiplier is u for every equation. (For the wave equation, multiplying by u does not give a conserved quantity. The multiplier u_t produces the energy identity.)
+- Wave energy is conserved whatever happens at the boundary. (The derivative of E picks up the boundary term c²∫_∂Ω u_t ∂u/∂n dS. It vanishes for homogeneous Dirichlet or Neumann conditions, but other boundary conditions can add or remove energy.)
+- An energy estimate gives pointwise control of the solution. (It bounds integral norms. Pointwise bounds need further tools such as Sobolev embedding or a maximum principle.)
+
 ## Questions
 ```yaml
 - question: "For the wave equation u_tt = c²Δu, the total energy E(t) = ½∫(u_t² + c²|∇u|²)dx satisfies:"

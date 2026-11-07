@@ -27,6 +27,14 @@ status: validated
 ## Core Idea
 A Lie group is a group that is also a smooth manifold — its elements can vary continuously and the group operations are smooth. Representations of Lie groups are required to be continuous (or smooth) homomorphisms G → GL(V), which is a much stronger constraint than for finite groups. For compact Lie groups (like SO(n), SU(n), U(n)), a complete analogue of finite group theory holds: every representation is completely reducible, characters determine representations, and orthogonality relations hold — with integrals over the group (via Haar measure) replacing finite sums.
 
+## How It's Best Learned
+Start with the circle group U(1). Show that a continuous homomorphism ρ: U(1) → GL₁(ℂ) has the form ρ(e^{iθ}) = e^{iaθ}, and that periodicity in θ forces a to be an integer n. Then check that ∫₀^{2π} e^{i(m−n)θ} dθ/2π equals 1 if m = n and 0 otherwise. This is Fourier series, the first case of Peter-Weyl. Contrast with the noncompact group (ℝ, +) acting by t ↦ [[1, t], [0, 1]].
+
+## Common Misconceptions
+- Every finite-dimensional representation of a Lie group is completely reducible. (Compactness guarantees it, but without such a hypothesis it can fail. For (ℝ, +) acting by t ↦ [[1, t], [0, 1]], the line spanned by (1, 0) is invariant but has no invariant complement.)
+- Every irreducible representation of a Lie group is finite-dimensional. (That holds for compact groups. SL₂(ℝ) has infinite-dimensional irreducible unitary representations.)
+- Every representation of the Lie algebra comes from a representation of the group. (This is guaranteed when the group is connected and simply connected. The two-dimensional representation of the Lie algebra of SO(3) does not come from a representation of SO(3) itself.)
+
 ## Questions
 
 ```yaml

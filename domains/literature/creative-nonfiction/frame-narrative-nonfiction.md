@@ -23,6 +23,14 @@ status: draft
 ## Core Idea
 Frame narratives use an outer narrative to introduce and comment on an inner story. The frame might be the essayist's present-day investigation into a historical event. This technique creates distance and perspective while allowing the inner narrative its own voice.
 
+## How It's Best Learned
+Take a story you know secondhand, such as a family anecdote or a local event, and write it first as a plain account. Then add a frame: open with yourself in the present hearing the story or finding the record, move into the inner story, and return to the present at the end. List what the frame made visible that the plain version hid, such as doubts, gaps or reasons the story matters now.
+
+## Common Misconceptions
+- The frame is an introduction to get through before the real story starts. (The frame shapes how the inner story is read. The writer's present-day investigation, doubts and conclusions add meaning the inner story lacks on its own.)
+- The frame has to stay short so the inner story can dominate. (The frame can be substantial, even the larger part of the piece. What matters is the relationship between the two layers.)
+- Showing the writer's process weakens a nonfiction account. (Making the lens visible lets readers see where the story comes from and judge it, which can make the account more credible.)
+
 ## Questions
 
 ```yaml
@@ -58,6 +66,7 @@ Frame narratives use an outer narrative to introduce and comment on an inner sto
 
 - question: How might a frame narrative differ from a simple historical account? What does the frame add?
   type: short-answer
+  answer: "A plain historical account presents what happened. A frame narrative also shows a present-day writer investigating the past, so readers see how the history is pieced together, where its gaps are, and why it matters now."
   explanation: 'A straightforward historical account would present the past: here''s what happened, when, why. A frame narrative would show someone in the present investigating, questioning, encountering the past. The frame lets readers see the process of historical understanding. ''I read these documents and found gaps. I traveled to the location and interviewed descendants. Here''s what I learned, and here''s how understanding deepens.'' The frame transforms history from settled fact into active interpretation. It also creates emotional connection—readers follow the investigator''s journey of discovery, not just the historical events. The frame might reveal why this history matters now, what it teaches, how understanding the past changes the present. This adds complexity and relevance.'
 ```
 

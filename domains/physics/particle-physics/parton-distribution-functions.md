@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 Parton distribution functions (PDFs) f_i(x, Q^2) give the probability density of finding parton i (quark flavor or gluon) carrying momentum fraction x inside the proton at resolution scale Q^2. PDFs cannot be calculated perturbatively and must be extracted from experimental data, but their evolution with Q^2 is predicted by the DGLAP equations and serves as a rigorous test of QCD.
 
+## How It's Best Learned
+Plot x·f(x) for valence up, valence down, sea quarks, and the gluon from a public PDF set at Q² = 10 GeV² and 10⁴ GeV². Watch the gluon and sea grow at small x. Then find which x a process probes. A 125 GeV Higgs at rest in 13 TeV collisions needs x₁ = x₂ ≈ 125/13,000 ≈ 0.01, while a 2 TeV central dijet needs x ≈ 0.15.
+
+## Common Misconceptions
+- PDFs can be calculated from perturbative QCD like a cross section. (Their x dependence is non-perturbative and is fitted to data. Perturbative QCD predicts only how they change with Q².)
+- Each f_i(x) is a normalized probability, so its integral over x equals one. (The sum rules fix other quantities: the up valence distribution integrates to 2, the momentum fractions x·f sum to 1, and the gluon number integral diverges at small x.)
+- Each process needs its own PDFs. (Factorization makes PDFs universal, so the same set fitted to DIS and other data predicts LHC processes.)
+
 ## Questions
 
 ```yaml
@@ -40,7 +48,7 @@ Parton distribution functions (PDFs) f_i(x, Q^2) give the probability density of
   answer: "The gluon PDF is determined indirectly from several sources: (1) the momentum sum rule — the gluon carries whatever momentum fraction is not accounted for by quarks; (2) scaling violations in F_2 — the Q^2 dependence of the quark distributions is driven by gluon splitting, so measuring dF_2/d(ln Q^2) constrains g(x); (3) the longitudinal structure function F_L, which is directly proportional to g(x) at leading order; (4) jet production cross sections in pp and ppbar collisions, which are dominated by gluon-gluon and quark-gluon scattering; and (5) direct photon production and heavy quark production. Modern PDF fits combine all these data in global QCD analyses."
   explanation: "The indirect nature of gluon PDF extraction means it carries larger uncertainties than the quark PDFs, especially at very small and very large x. This is a major source of systematic uncertainty for LHC cross section predictions."
 
-- question: "Two major collaborations (CT, MSHT, NNPDF) provide independent PDF sets. These are critical inputs for predicting cross sections at the LHC. Why do different PDF sets give different predictions, and how are the differences handled?"
+- question: "Three major collaborations (CT, MSHT, NNPDF) provide independent PDF sets. These are critical inputs for predicting cross sections at the LHC. Why do different PDF sets give different predictions, and how are the differences handled?"
   type: multiple-choice
   options:
     - "They use different experimental data and so are measuring different things"

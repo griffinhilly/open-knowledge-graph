@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 The multiple access channel (MAC) models K independent senders transmitting to a single receiver over a shared medium. The capacity region — the set of simultaneously achievable rate tuples (R_1, ..., R_K) — is characterized by sum_{i in S} R_i <= I(X_S; Y | X_{S^c}) for all subsets S of senders, where X_S denotes the inputs from senders in S. For two users: R_1 <= I(X_1;Y|X_2), R_2 <= I(X_2;Y|X_1), R_1+R_2 <= I(X_1,X_2;Y). The capacity region is achieved by joint typicality decoding or successive interference cancellation (SIC), where the receiver decodes one user at a time, subtracting each decoded signal. The MAC was the first multi-user channel whose capacity region was fully characterized.
 
+## How It's Best Learned
+Start with the binary adder channel, Y = X_1 + X_2 with outputs 0, 1 or 2. With uniform inputs, compute I(X_1;Y|X_2) = 1 bit and I(X_1,X_2;Y) = 1.5 bits, then draw the pentagon with corners (1, 0.5) and (0.5, 1). Next, walk through SIC on that channel: decode one user, subtract it, decode the other. Then move to the Gaussian case.
+
+## Common Misconceptions
+- To the receiver, the other users' signals are just noise. (The receiver wants every message. Once it decodes one user, it can subtract that signal, which helps it decode the rest.)
+- The senders must coordinate their codewords to share the channel. (Each sender encodes its own message independently. All the joint processing happens at the receiver.)
+- Splitting the band in half always loses throughput compared with simultaneous transmission. (For two Gaussian users with equal power, an equal bandwidth split reaches the sum capacity. Non-orthogonal access matters for the other points on the sum-rate line and when the split does not match the powers.)
+- Maximizing the sum rate fixes how much each user gets. (Many rate pairs on the dominant face share the same maximum sum. Choosing among them is a fairness decision.)
+
 ## Questions
 
 ```yaml

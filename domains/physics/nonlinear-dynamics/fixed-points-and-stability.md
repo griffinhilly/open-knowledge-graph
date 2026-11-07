@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 A fixed point (or equilibrium) of ẋ = f(x) is a point x* where f(x*) = 0 — the system sits still. Stability classifies whether nearby trajectories are attracted to x* (stable), repelled from it (unstable), or exhibit mixed behavior (saddle). For linear systems, the eigenvalues of the coefficient matrix completely determine stability. For nonlinear systems, the eigenvalues of the Jacobian at x* determine local stability, provided no eigenvalue has zero real part.
 
+## How It's Best Learned
+Begin on the line with ẋ = sin x: mark the fixed points x = nπ, draw flow arrows from the sign of sin x, and check that the sign of f′(x*) = cos(nπ) predicts the same stability. Then move to the plane with A = [[0, 1], [−2, −3]]. Its trace is −3 and its determinant is 2, so the eigenvalues are −1 and −2 and the origin is a stable node. Place it on the trace–determinant diagram.
+
+## Common Misconceptions
+- A stable fixed point attracts every trajectory in phase space. (Stability is local: a stable fixed point attracts the trajectories in its basin of attraction, and other attractors can capture the rest.)
+- A fixed point counts as unstable only if every nearby trajectory moves away from it. (One unstable direction is enough; a saddle attracts along its stable manifold but is still unstable.)
+- Lyapunov stable means nearby trajectories eventually reach the fixed point. (Lyapunov stability only requires them to stay close; a center is Lyapunov stable, but its orbits circle forever without converging.)
+- If the linearization shows a center, the nonlinear system has a center there too. (Purely imaginary eigenvalues are a borderline case, and the nonlinear terms decide whether trajectories close up or spiral slowly in or out.)
+
 ## Questions
 
 ```yaml

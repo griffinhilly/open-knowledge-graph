@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 The Picard-Lindelöf theorem establishes conditions under which an initial value problem dy/dx = f(x,y), y(x₀) = y₀ has a unique solution. If f and ∂f/∂y are continuous in a rectangular region around (x₀, y₀), then a unique solution exists in some neighborhood of x₀. This is foundational for understanding when solutions are guaranteed and where they may fail to exist or be non-unique.
 
+## How It's Best Learned
+Run Picard iteration by hand on dy/dx = y, y(0) = 1: the iterates are 1, then 1 + x, then 1 + x + x²/2, which are the partial sums of eˣ. Then verify that both y ≡ 0 and y = (x/3)³ solve dy/dx = y^(2/3), y(0) = 0, and point to where ∂f/∂y fails to be continuous. Pair each hypothesis of the theorem with the example that breaks it.
+
+## Common Misconceptions
+- If the hypotheses fail, the IVP has no solution or many solutions. (The theorem is a sufficient condition; when it fails, the problem may still have exactly one solution, and you have to check by other means.)
+- A unique solution guaranteed by the theorem exists for all x. (The guarantee is local, on some interval around x₀; dy/dx = y², y(0) = 1 has the solution 1/(1 − x), which blows up at x = 1.)
+- Continuity of f is enough for uniqueness. (Continuity of f gives existence near x₀, but uniqueness needs more control in y, such as continuity of ∂f/∂y; y^(2/3) at y = 0 shows the difference.)
+
 ## Questions
 
 ```yaml

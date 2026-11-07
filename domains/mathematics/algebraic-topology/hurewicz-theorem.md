@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 The Hurewicz theorem is the fundamental bridge between homotopy groups and homology groups. It states: if X is a path-connected space with pi_k(X) = 0 for all k < n (where n >= 2), then H_k(X) = 0 for k < n and the Hurewicz homomorphism h : pi_n(X) -> H_n(X) is an isomorphism. In the n = 1 case, h : pi_1(X) -> H_1(X) is abelianization. The theorem says that the "first nontrivial" homotopy group always equals the corresponding homology group, providing a computable entry point into the homotopy groups of a space.
 
+## How It's Best Learned
+Apply the theorem to spaces whose homology you already know. S^2 ∨ S^2 and CP^2 are simply connected, so π_2 equals H_2: Z^2 and Z. For n = 1, compare π_1 of the figure-eight, the free group F_2, with its abelianization Z^2. Then look at π_3(S^2) = Z against H_3(S^2) = 0 to see where the theorem stops giving information.
+
+## Common Misconceptions
+- Vanishing homology below degree n is enough to apply the theorem. (The hypothesis is on homotopy groups. Vanishing homology is enough only when X is also simply connected. The Poincaré homology sphere has H_1 = 0 but a nontrivial π_1.)
+- The Hurewicz map is an isomorphism in every degree. (It is guaranteed to be one only in the first nontrivial degree. For S^2, h : π_3(S^2) = Z -> H_3(S^2) = 0 is not injective.)
+- When π_1 is the first nontrivial group, π_1 ≅ H_1. (For n = 1 the map is abelianization, which can lose information. The figure-eight has π_1 = F_2, which is nonabelian, while H_1 = Z^2.)
+
 ## Questions
 
 ```yaml
@@ -46,8 +54,8 @@ The Hurewicz theorem is the fundamental bridge between homotopy groups and homol
     - "X has the same homology as a point, but may not be contractible"
     - "π_n(X) = 0 for all n ≥ 1, so X is contractible (using Whitehead's theorem)"
     - "Both A and C, since they say the same thing"
-  answer: 0
-  explanation: "For a CW complex with trivial reduced homology: H_1(X) = 0 implies π_1(X) is a perfect group (equal to its own commutator subgroup). But actually, if X is simply connected AND has all homology vanishing, then by the Hurewicz theorem, π_n(X) = 0 for all n (by induction: each π_n is the first to be nontrivial, so it equals H_n = 0). Then Whitehead's theorem gives contractibility. If X is not simply connected, there exist acyclic spaces that are not contractible (like certain quotients of trees). So the full answer requires assuming simple connectivity or being more careful."
+  answer: 1
+  explanation: "For a CW complex with trivial reduced homology, H_1(X) = 0 implies only that π_1(X) is a perfect group (equal to its own commutator subgroup). If X is also simply connected, then by the Hurewicz theorem π_n(X) = 0 for all n (by induction: each π_n is the first possibly nontrivial group, so it equals H_n = 0), and Whitehead's theorem gives contractibility. Without simple connectivity this fails: the Poincaré homology sphere with one point removed has the homology of a point but a nontrivial fundamental group, so it is not contractible."
 
 - question: "Apply the Hurewicz theorem to compute π_n(S^n) for n ≥ 2."
   type: short-answer

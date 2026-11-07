@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 In signaling games, the informed player moves first with an action (signal) that communicates private information. Separating equilibria have different types taking different actions; pooling equilibria have all types taking the same action. The Intuitive Criterion eliminates equilibria depending on unreasonable out-of-equilibrium beliefs, selecting among multiple equilibria.
 
+## How It's Best Learned
+Solve a two-type example by hand. Let high types have productivity 2 and low types 1, with education cost e for low types and e/2 for high types. Low types will not mimic if 1 ≥ 2 − e, and high types will signal if 2 − e/2 ≥ 1, so every e between 1 and 2 supports separation. Then apply the Intuitive Criterion and see it select e = 1.
+
+## Common Misconceptions
+- Education can only work as a signal if it makes the worker more productive. (In the basic Spence model education adds nothing to productivity; it signals because it costs high types less than low types.)
+- In a pooling equilibrium every worker gets the low-type wage. (The employer learns nothing new, so it pays the expected productivity under its prior beliefs, which lies between the two types' productivities.)
+- Beliefs about off-equilibrium signals do not matter because no one sends those signals. (Those beliefs decide whether a deviation pays, so they are what sustain or break an equilibrium; this is why refinements like the Intuitive Criterion restrict them.)
+- A separating equilibrium is efficient because it reveals all the information. (When education is unproductive, its cost is a pure loss, and high types can end up worse off than they would be under pooling.)
+
 ## Questions
 
 ```yaml
@@ -36,7 +45,7 @@ In signaling games, the informed player moves first with an action (signal) that
     - "A separating equilibrium — different abilities choose the same signal but for different internal reasons"
     - "A pooling equilibrium — the employer infers average productivity and pays accordingly, revealing type information"
   answer: 1
-  explanation: "When all types choose the same action, the signal contains no information — it does not distinguish types. An employer observing a common education level cannot update their beliefs about any individual worker's ability beyond the prior. This is the defining feature of a pooling equilibrium: the signal is uninformative because it is not differentially costly. Note that option D is partially correct about wages (the employer pays expected average-productivity wages) but wrong that this reveals type — pooling means types are hidden, not revealed."
+  explanation: "When all types choose the same action, the signal contains no information — it does not distinguish types. An employer observing a common education level cannot update their beliefs about any individual worker's ability beyond the prior. This is the defining feature of a pooling equilibrium: the signal is uninformative because every type sends it. Note that option D is partially correct about wages (the employer pays expected average-productivity wages) but wrong that this reveals type — pooling means types are hidden, not revealed."
 
 - question: "In Spence's job market signaling model, education functions as a credible signal of worker ability even when education provides no direct productivity improvement. Why?"
   type: multiple-choice

@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 The single-particle Green's function G(k, omega) = 1/(omega - epsilon_k - Sigma(k, omega)) encodes the propagation of a single electron (or hole) through an interacting many-body system. The self-energy Sigma(k, omega) captures all interaction effects: its real part shifts the quasiparticle energy, and its imaginary part gives the quasiparticle lifetime. The spectral function A(k, omega) = -Im G(k, omega)/pi, which is directly measured by ARPES (angle-resolved photoemission spectroscopy), shows a sharp quasiparticle peak in a Fermi liquid and broad, incoherent features in strongly correlated systems. Feynman diagram techniques provide systematic perturbative approximations for Sigma.
 
+## How It's Best Learned
+Work a toy self-energy by hand. Couple a level ε to one other level ω₀, so Σ(ω) = g²/(ω − ω₀). G then has two poles, at the roots of (ω − ε)(ω − ω₀) = g², and their residues add to 1, which checks the sum rule. Next replace Σ with a constant −iΓ, plot the Lorentzian A(k, ω), and read off its width. Then add a slope in Re Σ and read off Z.
+
+## Common Misconceptions
+- ARPES measures the full spectral function A(k, ω). (Photoemission removes electrons, so it sees only the occupied part, A times the Fermi function, further weighted by matrix elements.)
+- A residue Z < 1 means part of the electron is lost. (The missing weight moves to the incoherent background; the integral of A(k, ω) over all ω stays equal to 1.)
+- If Im Σ is zero, the interactions have no effect. (A real self-energy still shifts and reshapes the dispersion; Hartree-Fock gives a purely real, static self-energy.)
+- Low-order perturbation theory is enough to compute Σ. (It works when interactions are weak or well screened; near a Mott transition the needed physics lies beyond any finite order.)
+
 ## Questions
 
 ```yaml

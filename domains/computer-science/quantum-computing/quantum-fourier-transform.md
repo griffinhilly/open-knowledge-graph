@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 The quantum Fourier transform (QFT) maps a computational basis state |j> of an n-qubit register to (1/sqrt(2^n)) * sum_{k=0}^{2^n - 1} e^(2*pi*i*j*k/2^n) |k> — the discrete Fourier transform of the basis state amplitudes. It can be implemented with O(n^2) gates using a circuit of Hadamard gates and controlled phase rotations, compared to the O(n * 2^n) operations of the classical FFT. The QFT does not compute the Fourier transform of classical data efficiently (reading out the result requires measurement), but it is the key subroutine in quantum phase estimation, Shor's algorithm, and many other quantum algorithms that extract periodic structure.
 
+## How It's Best Learned
+Write out the 4 x 4 QFT matrix for two qubits, with entries i^(jk)/2. Apply it to the period-2 state (|0> + |2>)/sqrt(2) and you get the same state back, with peaks at multiples of N/r = 2. Then apply it to the shifted state (|1> + |3>)/sqrt(2). The output is (|0> - |2>)/sqrt(2), so the peaks stay put and only a phase changes.
+
+## Common Misconceptions
+- Measuring after the QFT reads out the whole Fourier spectrum. (A measurement returns one basis state sampled from the output distribution. Getting the full spectrum would take many runs.)
+- Shifting a periodic state moves the peaks of its transform. (A shift changes only the phases of the output amplitudes. The peaks stay at multiples of N/r, which is why period finding works without knowing the offset.)
+- The SWAP gates at the end of the circuit are optional decoration. (Without them the output appears in reversed bit order. They can be dropped only if later steps relabel the qubits to match.)
+- The QFT makes Fourier analysis of ordinary data exponentially faster. (Loading data into amplitudes and reading the result out both carry heavy costs, so the gain shows up inside algorithms like phase estimation.)
+
 ## Questions
 
 ```yaml

@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 The surface area of a parametrized surface r(u, v) is A = ∬_D |r_u × r_v| du dv. For a scalar integral over surface S, ∬_S f dS = ∬_D f(r(u, v)) |r_u × r_v| du dv. This extends to vector integrals via flux.
 
+## How It's Best Learned
+Start with a flat piece where geometry gives the answer. For z = 2x + y over the unit square, r_x × r_y = ⟨−2, −1, 1⟩, so the area is √6, the same as the parallelogram spanned by ⟨1, 0, 2⟩ and ⟨0, 1, 1⟩. Then do the sphere of radius R: |r_φ × r_θ| = R² sin φ, which integrates to 4πR².
+
+## Common Misconceptions
+- The scalar surface integral uses the vector r_u × r_v. (It uses the magnitude |r_u × r_v|; the vector itself belongs in flux integrals.)
+- On a sphere, the area element is dφ dθ. (It is R² sin φ dφ dθ; dropping the factor on the unit sphere gives 2π² instead of the true area 4π.)
+- Integrating f over the shadow D in the xy-plane gives the surface integral. (That ignores the tilt; the factor |r_u × r_v|, or √(1 + g_x² + g_y²) for a graph, converts shadow area into surface area.)
+
 ## Questions
 
 ```yaml

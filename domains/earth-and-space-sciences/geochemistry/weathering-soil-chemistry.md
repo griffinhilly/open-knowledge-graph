@@ -25,6 +25,15 @@ status: validated
 ## Core Idea
 Chemical weathering is the dissolution and transformation of primary minerals (formed at high T-P) to secondary minerals (stable at surface conditions) through reactions with water, dissolved CO2, organic acids, and oxygen. Silicate weathering -- the dominant long-term process -- consumes atmospheric CO2 (e.g., CaSiO3 + CO2 -> CaCO3 + SiO2), acting as Earth's primary thermostat over million-year timescales. Weathering intensity depends on temperature, precipitation, biological activity, rock type, and topography. The products -- dissolved ions (Ca, Mg, Na, K, Si, HCO3-) and secondary clay minerals (kaolinite, smectite, gibbsite) -- determine soil composition, river chemistry, and ultimately the geochemical inputs to the ocean. Soil profiles develop through these processes, with distinct horizons reflecting progressive leaching and mineral transformation with depth.
 
+## How It's Best Learned
+Follow carbon through two paths to the ocean. Silicate path: CaSiO3 + 2CO2 + H2O -> Ca2+ + 2HCO3- + SiO2. Carbonate path: CaCO3 + CO2 + H2O -> Ca2+ + 2HCO3-. Then precipitate marine calcite from each, Ca2+ + 2HCO3- -> CaCO3 + CO2 + H2O. The silicate path removes one CO2 overall. The carbonate path removes none.
+
+## Common Misconceptions
+- Carbonate weathering removes CO2 from the atmosphere over the long term. (The CO2 it takes up is released again when the bicarbonate precipitates as marine carbonate. Silicate weathering followed by carbonate burial is what gives a net drawdown.)
+- Climate alone sets how fast a landscape weathers. (Weathering also needs a supply of fresh mineral. On old, thick soils with slow erosion, rates can be limited by that supply rather than by temperature or rain.)
+- Soil clays are small broken pieces of the parent rock. (Most are secondary minerals that form from dissolved products or by transformation of primary minerals.)
+- Soil horizons are layers laid down one on top of another. (They form in place. Water moves clay and iron down out of the E horizon, and they build up in the B horizon below.)
+
 ## Questions
 
 ```yaml

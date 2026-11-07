@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 For y'' + p(x)y' + q(x)y = 0, a point x₀ is ordinary if p and q are analytic at x₀ (power series solutions exist), and singular if either is not. Regular singular points admit Frobenius series solutions; irregular singular points do not.
 
+## How It's Best Learned
+Classify points in a short set of equations, always dividing by the leading coefficient first. For (x² − 1)y'' + xy' + y = 0, p = x/(x² − 1) and q = 1/(x² − 1); at x = 1, (x − 1)p = x/(x + 1) and (x − 1)²q = (x − 1)/(x + 1) are analytic, so x = 1 is regular singular. Contrast x³y'' + y = 0, where x²q = 1/x, so x = 0 is irregular.
+
+## Common Misconceptions
+- You can classify points from the coefficients as the equation is written. (Divide by the coefficient of y'' first; the singular points of p and q in standard form are what count.)
+- Only real singular points matter. (Complex singular points limit the radius of convergence too; (1 + x²)y'' + y = 0 has singular points at ±i, so a series at 0 is guaranteed only for |x| < 1.)
+- At a singular point the solutions themselves must blow up. (Some solutions stay well behaved; x²y'' − 2xy' + 2y = 0 is singular at 0, yet its solutions x and x² are polynomials.)
+
 ## Questions
 
 ```yaml

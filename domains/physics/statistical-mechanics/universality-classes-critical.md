@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Universality means systems with different microscopic details exhibit identical critical exponents when belonging to the same universality class, determined by symmetry and dimensionality. Near the critical point, correlations diverge as ξ ~ |T - T_c|^{-ν}, and observables scale as powers of |T - T_c|, independent of system-specific parameters.
 
+## How It's Best Learned
+Build a small table of β, γ and ν for mean-field theory, 3D Ising, 3D XY and the exactly solved 2D Ising model (β = 1/8, ν = 1, η = 1/4, α = 0). Use Fisher's relation γ = ν(2 − η) to get γ = 7/4 for 2D Ising, then check Rushbrooke's α + 2β + γ = 2. Then place a fluid, a uniaxial magnet and a superfluid in the table and say which column each belongs to.
+
+## Common Misconceptions
+- Systems in the same universality class share the same critical temperature. (T_c and the prefactors of the power laws are material-specific. What is shared is the set of exponents, plus some amplitude ratios and the form of the scaling functions.)
+- Changing the lattice changes the exponents. (The 2D Ising model on square and triangular lattices has different T_c but the same exponents, because the lattice geometry is irrelevant at large scales.)
+- Symmetry and dimension are the whole story. (Sufficiently long-range interactions, such as couplings that decay as a slow power of distance, can change the exponents. Short-range interactions are assumed in the usual classification.)
+- The power laws hold at any temperature near the transition. (They hold asymptotically as |t| → 0. Farther from T_c, corrections to scaling and crossovers between classes can change the apparent exponents.)
+
 ## Questions
 
 ```yaml
@@ -44,7 +53,7 @@ Universality means systems with different microscopic details exhibit identical 
     - "The critical temperature T_c and the transition enthalpy"
     - "The number of particles and the range of the interaction potential"
   answer: 1
-  explanation: "Universality class is determined entirely by the symmetry of the order parameter (e.g., Z₂/Ising for uniaxial magnets and fluids, U(1)/XY for superfluids, O(3)/Heisenberg for isotropic magnets) and the number of spatial dimensions. Material-specific quantities like interaction strength, T_c, and density affect the prefactors of scaling laws but not the critical exponents themselves. This is what makes universality so surprising — copper and water can belong to the same universality class despite nothing else being similar about them."
+  explanation: "For short-range interactions, universality class is determined by the symmetry of the order parameter (e.g., Z₂/Ising for uniaxial magnets and fluids, U(1)/XY for superfluids, O(3)/Heisenberg for isotropic magnets) and the number of spatial dimensions. Material-specific quantities like interaction strength, T_c, and density affect the prefactors of scaling laws but not the critical exponents themselves. This is what makes universality so surprising — copper and water can belong to the same universality class despite nothing else being similar about them."
 
 - question: "Systems in the same universality class share critical exponents because near T_c, collective long-range fluctuations dominate over microscopic details."
   type: true-false

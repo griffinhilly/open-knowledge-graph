@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Carbon has two stable isotopes (12C, 13C) with delta-13C measured relative to VPDB. The carbon cycle creates a fundamental isotopic dichotomy: inorganic carbon (atmosphere, ocean DIC, carbonates) clusters around delta-13C = 0 +/- 5 per mil, while organic carbon (biologically fixed) clusters around -25 +/- 10 per mil due to kinetic fractionation during photosynthesis. This ~25 per mil offset between the organic and inorganic carbon reservoirs is maintained by continuous biological carbon fixation and is one of the most diagnostic isotopic signals on Earth. Perturbations to the global carbon cycle (mass extinctions, volcanic degassing, methane release, organic carbon burial) shift the delta-13C of ocean DIC, recorded in marine carbonates as carbon isotope excursions that are among the most important chemostratigraphic markers in the geological record.
 
+## How It's Best Learned
+Work the steady-state mass balance: input delta-13C = f-org x delta-org + (1 - f-org) x delta-carb. With input -5, carbonate 0 and organic -25 per mil, f-org = 0.2. Now raise carbonate to +2 and organic to -23, keeping the 25 per mil offset. Solving gives f-org = 0.28, so a positive excursion means a larger buried organic fraction.
+
+## Common Misconceptions
+- Any large release of carbon will drive a large negative excursion. (The size of the shift depends on how light the added carbon is and how much is added. Mantle CO2 near -5 per mil is close to ocean DIC and moves it little.)
+- A positive excursion means the ocean was more productive. (It records a larger fraction of carbon buried as organic matter. Extra production that is respired back to CO2 does not shift whole-ocean DIC.)
+- Organic matter's delta-13C identifies its source without ambiguity. (Ranges overlap. Marine phytoplankton and C3 plants share part of the same range, so other evidence such as biomarkers is needed.)
+- Surface and deep ocean DIC have the same delta-13C. (Photosynthesis removes 12C at the surface and remineralization returns it at depth, so deep water is lighter.)
+
 ## Questions
 
 ```yaml

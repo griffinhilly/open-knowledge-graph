@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Graph neural networks (GNNs) extend deep learning to graph-structured data by recursively updating node representations through aggregation of neighbor information. GNN theory addresses expressiveness: what graph properties can GNNs learn to recognize? The Weisfeiler-Lehman test provides a theoretical bound on GNN expressiveness — GNNs cannot distinguish graphs that the WL test cannot distinguish. Higher-order GNNs (using k-WL test) increase expressiveness at computational cost. Spectral GNNs connect graph convolutions to spectral filtering on graphs. Message-passing frameworks unify various GNN architectures and enable analysis of their properties, including over-squashing (information bottleneck in graph structure) and over-smoothing (layer-wise feature collapse).
 
+## How It's Best Learned
+Run 1-WL color refinement by hand on a 6-cycle and on two disjoint triangles. Every node in both graphs has degree 2, so the colors never split, and WL cannot tell them apart even though one graph is connected and the other is not. Then check that a sum-aggregation GNN with any weights gives both graphs the same output. That pair makes the expressiveness bound concrete.
+
+## Common Misconceptions
+- A deep enough message-passing GNN can tell any two non-isomorphic graphs apart. (Message-passing GNNs are at most as expressive as 1-WL. Pairs like the 6-cycle and two triangles stay indistinguishable at every depth.)
+- Mean or max aggregation is as expressive as sum. (Mean and max cannot count repeated neighbor features: a node with one neighbor of feature a and a node with two such neighbors look the same. Reaching 1-WL power needs an injective aggregator such as sum.)
+- Adding layers solves over-squashing. (More layers widen the receptive field, but information from a growing number of nodes must still pass through fixed-size vectors. Extra depth also adds to over-smoothing.)
+
 ## Questions
 
 ```yaml

@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Quantum key distribution (QKD) enables two parties to establish a shared secret key whose security is guaranteed by the laws of quantum mechanics, not computational hardness assumptions. The BB84 protocol (Bennett-Brassard 1984) works by encoding random bits in one of two conjugate bases (rectilinear or diagonal). An eavesdropper measuring the qubits inevitably disturbs them (by the no-cloning theorem and measurement disturbance), introducing detectable errors. After basis reconciliation and error estimation, the parties distill a secure key. BB84 achieves information-theoretic security — it is provably secure even against adversaries with unlimited computational power, including quantum computers.
 
+## How It's Best Learned
+Run BB84 on paper with coin flips for 16 rounds. Use a table with columns for Alice's bit, Alice's basis, Bob's basis and Bob's result, then sift. Repeat with an Eve column doing intercept-resend. Derive the 25% error rate: Eve picks the wrong basis half the time, and then Bob's matched-basis result is wrong half the time.
+
+## Common Misconceptions
+- QKD sends the secret message itself in quantum states. (It only distributes a shared key. The message is then encrypted with that key over an ordinary channel.)
+- QKD needs no other security measures. (Alice and Bob need an authenticated classical channel. Without it, Eve can impersonate each party to the other.)
+- Any eavesdropper produces a 25% error rate. (That figure is for intercept-resend on every qubit. Attacking only some qubits, or using gentler attacks, causes fewer errors and leaks less information.)
+- A protocol with a security proof makes real QKD hardware unbreakable. (Proofs assume the devices behave as modeled. Real detectors and sources have had flaws that attackers exploited.)
+
 ## Questions
 
 ```yaml

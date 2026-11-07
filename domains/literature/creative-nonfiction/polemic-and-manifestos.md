@@ -22,6 +22,14 @@ status: draft
 ## Core Idea
 Polemics and manifestos stake out positions and invite controversy, embracing rhetorical force while remaining intellectually rigorous. These forms show that essayistic nonfiction can be combative and partisan while rejecting false balance or neutrality.
 
+## How It's Best Learned
+Read a short manifesto and mark each sentence as claim, evidence, or rhetorical flourish. Then write a one-page polemic on a narrow position you hold, such as a school policy. State the opposing view fairly in one paragraph before refuting it. Checking your draft with the same marking shows whether its force rests on reasons or on volume.
+
+## Common Misconceptions
+- A polemic is a rant, so it does not need evidence. (Strong polemics combine force with evidence and reasoning; weak ones rely on assertion.)
+- Taking a clear side makes an essay less credible than a balanced one. (Being open about a position can increase trust, provided the case is argued rigorously.)
+- Polemics and manifestos are the same thing. (A polemic argues against a position, while a manifesto declares a program and often speaks for a movement.)
+
 ## Questions
 
 ```yaml
@@ -53,10 +61,11 @@ Polemics and manifestos stake out positions and invite controversy, embracing rh
 - question: 'True: Polemics necessarily lack intellectual rigor because they are combative and confrontational.'
   type: true-false
   answer: false
-  explanation: A polemic can be combative and still rigorous—in fact, the strongest polemics are those that combine force with careful argumentation. Think of Susan Sontag's polemics against camp or against moralism in art—they're combative, partisan, and intellectually rigorous. Conversely, attempts at neutral objectivity sometimes lack rigor by avoiding difficult claims. The form (polemic) doesn't determine rigor; the quality of argumentation does.
+  explanation: A polemic can be combative and still rigorous—in fact, the strongest polemics are those that combine force with careful argumentation. Think of Susan Sontag's essay Against Interpretation—it's combative, partisan, and intellectually rigorous. Conversely, attempts at neutral objectivity sometimes lack rigor by avoiding difficult claims. The form (polemic) doesn't determine rigor; the quality of argumentation does.
 
 - question: What is the difference between a strong polemic and a weak one? How would you evaluate whether a manifesto is intellectually rigorous or merely rhetorical posturing?
   type: short-answer
+  answer: "A strong polemic backs its controversial claims with evidence and sound logic and engages fairly with opposing views before rejecting them. A weak one relies on assertion and emotion. To judge rigor, check whether the opposing view is represented fairly, claims are supported, the logic holds, and complications are acknowledged."
   explanation: 'A strong polemic makes controversial claims but backs them with evidence, logic, and genuine engagement with opposing views (even if it ultimately rejects them). It shows why the opposing position is wrong, not just that it is. A weak polemic relies on rhetoric, emotion, and assertion without supporting its claims. To evaluate rigor: Does the author understand and fairly represent the opposing view before attacking it? Are claims supported with evidence? Is the logic sound? Are exceptions and complications acknowledged? A rigorous polemic might say ''Position X is fundamentally wrong because [detailed argument], though I acknowledge that proponents of X have found it compelling for [reasons].'' A posture of mere rhetoric says ''Position X is obviously wrong, and anyone who disagrees is foolish.'' Rigor shows up in the quality of the reasoning, not in the forcefulness of the rhetoric.'
 ```
 

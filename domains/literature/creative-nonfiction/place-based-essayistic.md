@@ -24,6 +24,14 @@ status: draft
 ## Core Idea
 Place-based essays use a specific location as the organizing principle, combining observation, history, personal memory, and cultural analysis. The form assumes that attention to a particular place illuminates broader human experiences and ecological relationships.
 
+## How It's Best Learned
+Pick one place you can visit, such as a creek, a street corner, or a parking lot. Gather four short sets of notes: what you observe on site, one fact from its history, one memory of your own, and what the place means to the community around it. Then braid the four sets into a single draft that moves between scales.
+
+## Common Misconceptions
+- A place-based essay is a description of scenery. (The form layers observation with history, memory, and cultural meaning, so the place carries human significance.)
+- The place has to be famous, wild, or exotic to be worth an essay. (Close attention can make an ordinary place, like a childhood neighborhood, illuminate experiences readers share.)
+- Focusing on one small place keeps the essay small. (Moving from the particular spot out to the region and its history lets the form reach broad themes.)
+
 ## Questions
 
 ```yaml
@@ -59,6 +67,7 @@ Place-based essays use a specific location as the organizing principle, combinin
 
 - question: If you were writing a place-based essay about a location significant to you, what four types of 'attention' (observation, history, personal memory, cultural analysis) would you bring to it? What would each reveal?
   type: short-answer
+  answer: "Observation would show what the place looks like now and what has changed. History would show how it developed and who lived there. Personal memory would show what it meant to me, and cultural analysis would show what it represents for a community and the wider society."
   explanation: 'Using a childhood neighborhood as an example: Observation would reveal the current state of streets, buildings, plants—what''s changed and what endures. History would excavate how the neighborhood developed, what communities lived there before, industrial or cultural events that shaped it. Personal memory would explore your own experiences there—which houses held significance, how the neighborhood felt at different ages, what it meant to belong or leave. Cultural analysis would examine what the neighborhood represents—perhaps a particular immigrant community''s experience, changing class demographics, or displacement—and what that pattern reveals about society. Together, these create a portrait that is simultaneously intimate and connected to broader social forces.'
 ```
 

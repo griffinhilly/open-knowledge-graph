@@ -36,6 +36,14 @@ status: draft
 ## Core Idea
 Creative nonfiction applies narrative and rhetorical techniques traditionally associated with fiction to factual, lived experience and observed reality. It emphasizes the writer's distinctive voice, sensory detail, and emotional authenticity alongside factual accuracy, using literary craft to create engagement and meaning. The genre operates in the space between pure information and pure imagination, claiming commitment to truth while employing techniques that shape how truth is perceived.
 
+## How It's Best Learned
+Write one real event you witnessed three ways: as a factual news brief, as a creative nonfiction scene with sensory detail and voice, and as a short story where you change what happened. Then list which techniques the scene borrowed from fiction and which line the short story crossed. The contrast makes the genre's boundary concrete.
+
+## Common Misconceptions
+- Creative nonfiction lets the writer invent details as long as the main story is true. (Its commitment to truth extends to details. Writers select and shape real material, and the genre's standard is that they do not make up sensory experiences or events.)
+- Using fiction's techniques turns nonfiction into fiction. (Scene, dialogue, and structure are tools. What separates the genres is the claim that the events actually happened.)
+- Good creative nonfiction is objective. (The genre openly works from the writer's perspective and voice, so two truthful accounts of one event can differ.)
+
 ## Questions
 
 ```yaml
@@ -71,6 +79,7 @@ Creative nonfiction applies narrative and rhetorical techniques traditionally as
 
 - question: How might two different creative nonfiction writers tell truthfully about the same experience (say, attending a protest) in very different ways, and what would make both accounts valid creative nonfiction?
   type: short-answer
+  answer: "One writer might render the protest through sensory chaos and personal fear, another through its political and historical meaning in spare, analytical prose. Both are valid creative nonfiction if each truthfully represents what that writer saw and experienced while using craft to shape significance."
   explanation: One writer might emphasize the sensory chaos of the moment—the noise, the crowd, the physical risk, their fear. Another might emphasize the political significance, the historical resonance, the community formed. One might use visceral prose; another might use spare, analytical language. Both could be describing the same protest, truthfully, but creating different meaning through voice and focus. Both are valid creative nonfiction because each writer truthfully represents their perspective and experience while using craft to create engagement and significance. Creative nonfiction doesn't require a single 'correct' telling; it requires truthfulness to perspective within imaginative presentation.
 ```
 

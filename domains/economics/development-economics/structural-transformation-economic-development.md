@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 Structural transformation is the reallocation of labor from low-productivity agriculture to higher-productivity industry and services. Within-sector productivity growth matters, but accelerated development requires workers to shift sectors. Understanding why some countries stayed agricultural while others industrialized is central to explaining development divergence.
 
+## How It's Best Learned
+Compute the reallocation effect. Suppose 80 farm workers each produce 1 and 20 factory workers each produce 4. Output is 160, or 1.6 per worker. Move 10 farmers into factories with no change inside either sector: output becomes 70 + 120 = 190, or 1.9 per worker. Then ask what must happen on the farms to let those 10 leave.
+
+## Common Misconceptions
+- A shrinking farm workforce means agriculture is failing. (Fewer farmers producing as much or more food is a usual sign of development.)
+- Investing in agriculture slows industrialization. (Higher farm productivity frees workers and food for other sectors, so the two support each other.)
+- Any move out of agriculture raises productivity. (Workers who move into low-productivity informal services may gain little, which is the worry behind premature deindustrialization.)
+- Structural transformation means farm output falls. (Farm output can keep rising while agriculture's share of jobs and GDP falls.)
+
 ## Questions
 
 ```yaml

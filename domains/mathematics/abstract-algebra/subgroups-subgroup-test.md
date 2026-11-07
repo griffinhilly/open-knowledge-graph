@@ -22,7 +22,15 @@ status: validated
 # Subgroups and Subgroup Test
 
 ## Core Idea
-A subgroup H of a group G is a subset of G that is itself a group under the same operation. The one-step subgroup test states that H is a subgroup if and only if it is nonempty and closed under the operation and taking inverses.
+A subgroup H of a group G is a subset of G that is itself a group under the same operation. The two-step subgroup test states that H is a subgroup if and only if it is nonempty and closed under the operation and taking inverses.
+
+## How It's Best Learned
+Run the test on a mixed list and name the first condition that fails: 3ℤ in ℤ, {0, 4, 8} in ℤ₁₂, ℤ⁺ in ℤ, {e, (12), (13)} in S₃, and 2ℤ ∪ 3ℤ in ℤ. Then prove that a nonempty finite subset closed under the operation is already a subgroup, since powers of each element must repeat. Compare with ℤ⁺, which is infinite and fails.
+
+## Common Misconceptions
+- Closure under the operation is enough. (ℤ⁺ is closed under addition but has no inverses. Closure alone is enough only for nonempty finite subsets.)
+- A subgroup could have its own identity, different from the identity of G. (If f is the identity of H, then ff = f in G, and cancellation gives f = e.)
+- The union of two subgroups is a subgroup. (2ℤ ∪ 3ℤ contains 2 and 3 but not 5, so it is not closed under addition.)
 
 ## Questions
 
@@ -52,7 +60,7 @@ A subgroup H of a group G is a subset of G that is itself a group under the same
   answer: true
   explanation: "Take any element a ∈ H (possible since H is nonempty). By closure under inverses, a⁻¹ ∈ H. By closure under the operation, a · a⁻¹ = e ∈ H. So the identity is automatically present — you never need to check it separately. This is the elegance of the subgroup test: two conditions imply the third."
 
-- question: "To confirm that a subset H of a group G is a subgroup, you should verify most four group axioms — closure, associativity, identity, and inverses — because H might not inherit properties from G."
+- question: "To confirm that a subset H of a group G is a subgroup, you should verify all four group axioms — closure, associativity, identity, and inverses — because H might not inherit properties from G."
   type: true-false
   answer: false
   explanation: "Associativity is always inherited for free. Since H ⊆ G uses the same operation as G, and associativity holds for all elements of G, it holds in particular for all elements of H. There is no way for associativity to fail in a subset of an associative group. The subgroup test requires only nonemptiness, closure under the operation, and closure under inverses — three conditions, not four."
@@ -65,7 +73,7 @@ A subgroup H of a group G is a subset of G that is itself a group under the same
 
 ## Explainer
 
-To verify that H is a subgroup of G, you might think you need to check all four group axioms: closure, associativity, identity, inverses. But three of those are essentially free — and understanding why reveals the elegant economy of the subgroup test.
+To verify that H is a subgroup of G, you might think you need to check all four group axioms: closure, associativity, identity, inverses. But two of those are essentially free — and understanding why reveals the elegant economy of the subgroup test.
 
 **Associativity is inherited for free.** Since H ⊆ G and elements of H are also elements of G, associativity holds in H simply because it holds in G. You never need to check it separately. This is the key insight that reduces the subgroup verification from four conditions to two: closure under the operation, and closure under taking inverses. And once you have both of those (plus nonemptiness), the identity is automatic — if a ∈ H, then a⁻¹ ∈ H by closure under inverses, and then a·a⁻¹ = e, so e ∈ H by closure under the operation.
 

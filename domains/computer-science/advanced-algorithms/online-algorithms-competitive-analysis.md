@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Online algorithms must make irrevocable decisions as input arrives, without knowledge of future requests. Competitive analysis measures performance by comparing the online algorithm's cost to the optimal offline algorithm (which sees the entire input in advance). The competitive ratio is the worst-case ratio of online cost to offline optimal cost. The ski rental problem illustrates the core tension: buy skis (high upfront cost, free future use) or rent (low per-use cost, no commitment). The deterministic optimal strategy achieves competitive ratio 2; randomization improves this to e/(e-1) ≈ 1.58. For paging (cache management), LRU achieves optimal deterministic competitive ratio k (cache size), while randomized marking algorithms achieve O(log k). These results reveal a fundamental gap between deterministic and randomized online computation.
 
+## How It's Best Learned
+Play ski rental as a game against a partner who picks the season length after seeing your rule. Try "buy on day 1," "buy on day B" and "never buy," and record your cost against the optimum for each season length. Then do the same for paging with k = 3: write an adversary sequence on four pages that makes LRU fault on every request, and run Bélády's MIN on it for comparison.
+
+## Common Misconceptions
+- A competitive ratio of 2 means the algorithm is usually twice as costly as the optimum. (It is a worst-case bound over all inputs. On typical inputs, the ratio of online cost to optimal cost is often much smaller.)
+- The offline optimum is a realistic benchmark algorithm. (It knows the whole input in advance, so no online algorithm can run it. It serves only as a yardstick.)
+- Randomization helps against any adversary. (An adaptive adversary picks each request after seeing the algorithm's earlier random choices, and much of the advantage disappears. For paging, it can request the one page not in the cache every time, so the ratio returns to k. The gains hold against an oblivious adversary that fixes the input in advance.)
+- LRU and FIFO perform the same because they share the ratio k. (They match in worst-case competitive ratio, but they behave differently on real access patterns, where LRU often faults less.)
+
 ## Questions
 
 ```yaml

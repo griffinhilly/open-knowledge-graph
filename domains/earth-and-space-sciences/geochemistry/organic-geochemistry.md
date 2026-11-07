@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Organic geochemistry studies the fate of carbon-based compounds from their biological origin through burial, diagenesis, catagenesis, and metamorphism. Organic matter in sediments ranges from recognizable biomolecules to complex, insoluble kerogen. Biomarkers (molecular fossils) are specific organic compounds whose structures preserve information about their biological source, even after millions of years of burial: steranes record eukaryotic input, hopanes indicate bacterial sources, and alkenones record sea surface temperature through their degree of unsaturation. The thermal maturation of kerogen generates petroleum (oil and gas) through catagenesis, with the type and thermal history of the organic matter controlling whether oil, gas, or neither is produced. Organic carbon burial is also a primary control on atmospheric O2 through geological time.
 
+## How It's Best Learned
+Plot kerogen analyses on a van Krevelen diagram of H/C versus O/C. Trace how Types I, II, and III move toward low H/C as they mature. Then turn a burial history into temperature. With a 10 C surface and 30 C/km gradient, a source rock enters the 60 C oil window at about 1.7 km. It passes 160 C at 5 km.
+
+## Common Misconceptions
+- Deeper burial and higher temperature always produce more oil. (Past the oil window, oil cracks to wet gas and then methane, so over-mature rocks yield gas or nothing.)
+- A rock rich in organic carbon is a good oil source rock. (Kerogen type matters as much as amount. Hydrogen-poor Type III kerogen from land plants generates mainly gas.)
+- A biomarker extracted from an ancient rock must be as old as the rock. (Migrated oil and modern contamination can add younger compounds, so the age of the biomarkers must be tested.)
+- More photosynthesis means more oxygen in the atmosphere. (Respiration of the organic matter uses the O2 back up. The organic carbon that is buried, and so escapes respiration, is what leaves a net gain of O2.)
+
 ## Questions
 
 ```yaml

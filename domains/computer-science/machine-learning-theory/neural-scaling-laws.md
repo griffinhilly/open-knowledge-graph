@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Neural scaling laws describe how neural network performance improves predictably with three factors: model size (parameters), training data size (samples), and compute budget (FLOPs). Empirically, performance follows power-law relationships: loss scales as O(N^{-alpha}) where N is the factor being scaled and alpha is typically 0.07-0.1. These laws are striking because they hold across diverse architectures (transformers, CNNs, RNNs), domains (vision, language, multimodal), and scales (millions to billions of parameters). Scaling laws enable predicting performance before training, allocating compute efficiently between model size and data, and understanding fundamental limits of deep learning.
 
+## How It's Best Learned
+Fit a scaling curve yourself. Take final losses from a sweep of small models and fit L(N) = E + A·N^(−alpha) on log-log axes, then refit without the constant E to see the curve bend. Next, do compute-optimal arithmetic: with C ≈ 6ND and both N and D growing roughly as C^0.5, a 4× compute budget means about 2× parameters and 2× tokens.
+
+## Common Misconceptions
+- A power law means loss goes to zero with enough scale. (Fitted laws usually include an irreducible term E, so loss approaches a floor rather than zero.)
+- If loss improves smoothly with scale, every downstream ability does too. (Scaling laws describe pretraining loss. Accuracy on particular tasks can change unevenly or abruptly as scale grows.)
+- The compute-optimal model is the best one to deploy. (Compute-optimal allocation minimizes loss for a fixed training budget. When serving cost matters, a smaller model trained on more tokens can be the better choice.)
+
 ## Questions
 
 ```yaml

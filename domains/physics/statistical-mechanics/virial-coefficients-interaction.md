@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Virial coefficients B_n(T) encode information about n-body interactions in a gas. The second virial coefficient B₂ = -2π N_A ∫₀^∞ [e^{-u(r)/kT} - 1]r²dr depends directly on the pair potential u(r) and can be computed from quantum or classical mechanics.
 
+## How It's Best Learned
+Compute B₂ per molecule for a square well: hard core σ, depth ε out to λσ. The two regions give B₂ = (2πσ³/3)[1 − (λ³ − 1)(e^{ε/kT} − 1)]. Set it to zero to get kT_B = ε / ln[λ³/(λ³ − 1)], about 2.85ε for λ = 1.5. Then expand at high T to recover the van der Waals form b − a/kT.
+
+## Common Misconceptions
+- A negative B₂ means the molecules only attract, and a positive B₂ means they only repel. (Both parts of the potential act at every temperature. The sign of B₂ says which part dominates the Mayer integral at that temperature.)
+- B₃ is zero unless there are genuine three-body forces. (With purely pairwise forces B₃ is still nonzero, because it comes from triangles of pair f-functions. Three-body forces add a further correction on top.)
+- B₂ rises steadily toward a constant at high temperature for every real gas. (That holds for a hard core with an attractive well, such as the square well. With a soft repulsive core, as in the Lennard-Jones potential, B₂ passes through a maximum and then slowly falls as fast molecules penetrate the core.)
+
 ## Questions
 
 ```yaml

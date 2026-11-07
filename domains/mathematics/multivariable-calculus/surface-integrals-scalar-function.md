@@ -20,6 +20,14 @@ status: validated
 ## Core Idea
 ∬_S f(x, y, z) dS integrates a scalar function over a surface. For parametrization r(u, v), this equals ∬_D f(r(u, v)) |r_u × r_v| du dv. Applications include mass of a thin shell (integrating density ρ) and average value on a surface.
 
+## How It's Best Learned
+Compute ∬_S z dS over the upper unit hemisphere two ways. With spherical parameters, f = cos φ and |r_φ × r_θ| = sin φ, giving 2π · 1/2 = π. As the graph z = √(1 − x² − y²), the area factor is 1/z, so the integrand becomes 1 and the answer is the disk's area, π. Dividing by the surface area 2π gives an average height of 1/2.
+
+## Common Misconceptions
+- ∬_S f dS is the volume under f above the surface. (It weights each piece of surface area by f; with f = 1 it gives the area of S.)
+- The average value of f on S is the integral divided by the area of the parameter domain D. (Divide by the area of S itself; for the hemisphere that is 2π, not the area π² of the parameter rectangle.)
+- Flipping the surface's normal changes the sign of a scalar surface integral. (The scalar integral uses only |r_u × r_v|, which does not depend on the normal's direction.)
+
 ## Questions
 
 ```yaml

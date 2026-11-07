@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Information-theoretic lower bounds prove that no learning algorithm — regardless of computational power — can learn certain problems below a given sample complexity or error rate. These bounds are proved by constructing a family of "hard instances" that are indistinguishable from limited data and applying tools like Fano's inequality (which bounds the probability of correctly identifying a hypothesis when mutual information between the data and the hypothesis is small) or Le Cam's method (which reduces learning to a hypothesis test between two distributions). These bounds are unconditional — they hold against all algorithms, not just efficient ones — and establish the fundamental limits of statistical learning.
 
+## How It's Best Learned
+Work Le Cam's method on a coin, with P_0 = Bernoulli(1/2) and P_1 = Bernoulli(1/2 + epsilon). Their KL divergence over n flips is about 2n·epsilon², so Pinsker's inequality bounds the total variation by roughly epsilon·sqrt(n). Below about n = 1/(4·epsilon²) that is under 1/2, so any test between the two coins errs more than a quarter of the time on average, matching the 1/epsilon² rate of the Hoeffding upper bound.
+
+## Common Misconceptions
+- A lower bound means every instance of the problem is hard. (It is a worst-case statement: some instance in the class is hard. Particular instances, or a narrower class with extra structure, can be easier.)
+- To build a hard family, the hypotheses only need to be far apart. (They must be far apart in the parameter or loss, and their data distributions must also be close. Both conditions together force large error.)
+- A gap between the best upper bound and the lower bound means the lower bound is wrong. (A correctly proved lower bound still holds. The gap means at least one of the two bounds is not tight.)
+
 ## Questions
 
 ```yaml

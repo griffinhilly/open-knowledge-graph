@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 The Ricci tensor R_μν and the Ricci scalar R are contractions of the Riemann curvature tensor that extract the part of curvature directly coupled to matter. The Ricci tensor R_μν = R^λ_{μλν} is a symmetric (0,2) tensor that measures how volumes of small geodesic balls are deformed relative to flat space — it tells you whether nearby geodesics converge or diverge on average. The Ricci scalar R = g^{μν}R_μν is the trace of the Ricci tensor, a single scalar measuring the total curvature at a point. Together they form the Einstein tensor G_μν = R_μν - (1/2)g_μν R, which appears on the left side of Einstein's field equations. In vacuum (no matter), R_μν = 0, but the full Riemann tensor can still be nonzero — the remaining curvature is encoded in the Weyl tensor, which describes tidal forces and gravitational waves in empty space.
 
+## How It's Best Learned
+Compute the Ricci tensor of a 2-sphere of radius a and find R_ij = g_ij/a² and R = 2/a². Then, with G = c = 1, take a perfect fluid and use R_μν = 8π(T_μν − ½Tg_μν) to show R_μν u^μ u^ν = 4π(ρ + 3p). For dust this matches the Newtonian result that a small falling ball's volume obeys V̈/V = −4πρ.
+
+## Common Misconceptions
+- If the Ricci tensor vanishes, spacetime is flat. (The Weyl part of the Riemann tensor can remain. The Schwarzschild exterior has R_μν = 0 and real tidal forces.)
+- A zero Ricci scalar means no curvature at that point. (R is one number taken from 20 components. It vanishes outside a star and for radiation-filled regions, which are still curved.)
+- The field equations set R_μν directly proportional to T_μν. (That choice would clash with ∇^μT_μν = 0. The Einstein tensor G_μν appears instead, or equivalently R_μν equals the trace-reversed T_μν times 8πG/c⁴.)
+
 ## Questions
 
 ```yaml

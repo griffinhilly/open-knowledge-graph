@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Education, health, and skills (human capital) are essential for development because they raise productivity, enable technology adoption, and improve health outcomes. However, credit constraints and poverty in developing countries prevent human capital investment; children work instead of attending school, and malnutrition impairs cognitive development. Breaking this cycle requires targeted interventions addressing investment barriers.
 
+## How It's Best Learned
+Work a two-period schooling choice. A child can earn 100 this year on the farm, or attend school and earn 100 more per year as an adult. The payoff is large, but a family at subsistence that cannot borrow cannot give up 100 now. Then add a transfer of 100 paid only if the child attends, and watch the choice flip.
+
+## Common Misconceptions
+- Low school enrollment among the poor shows that they do not value education. (Families can expect high returns and still keep children home when they cannot borrow and need the child's work now.)
+- Human capital means years of schooling. (It also includes health and skills. A malnourished child gains less from each year in a classroom.)
+- More years in school always means more human capital. (Years build skills only if children learn. Low-quality schools can add enrollment with little gain in what students know.)
+- A person's wage gain captures the full value of their education. (Spillovers, such as healthier children of educated mothers, can make the social return larger than the private one.)
+
 ## Questions
 
 ```yaml

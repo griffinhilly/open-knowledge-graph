@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 A stochastic differential equation (SDE) dX(t) = μ(X,t)dt + σ(X,t)dW(t) describes a process whose evolution has both a deterministic drift μ and a random diffusion σ driven by Brownian motion. Under Lipschitz and linear growth conditions on μ and σ, the SDE has a unique strong solution — the stochastic analogue of the Picard-Lindelöf theorem for ODEs. SDEs are the central modeling tool of stochastic analysis, describing everything from particle diffusion to financial asset prices.
 
+## How It's Best Learned
+See each hypothesis fail in an ODE first. With σ = 0, dx/dt = 3x^{2/3} from x(0) = 0 has two solutions, x = 0 and x = t³, because the drift is not Lipschitz at 0. dx/dt = x² from x(0) = 1 gives 1/(1 - t), which explodes at t = 1. Then run Euler-Maruyama on GBM and compare with the exact solution on the same Brownian increments.
+
+## Common Misconceptions
+- An SDE is an ODE you get by dividing through by dt, with dW/dt as a noise term. (Brownian paths have no derivative; dX = μ dt + σ dW is shorthand for an integral equation with an Itô integral.)
+- The Lipschitz and linear growth conditions are needed for a unique solution. (They are sufficient, not necessary; the square-root diffusion dX = κ(θ - X)dt + σ√X dW is not Lipschitz at 0 but still has a pathwise unique solution.)
+- Euler-Maruyama converges at the same rate as Euler's method for ODEs. (Its strong order is 1/2 in general, against order 1 for ODEs; the Milstein scheme adds a correction term to reach strong order 1.)
+
 ## Questions
 
 ```yaml

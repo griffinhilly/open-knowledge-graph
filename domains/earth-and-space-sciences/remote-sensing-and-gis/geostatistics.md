@@ -21,6 +21,14 @@ status: validated
 ## Core Idea
 Geostatistics provides a framework for analyzing and predicting spatially distributed phenomena based on the principle that nearby measurements are more similar than distant ones. The variogram (or semivariogram) quantifies this spatial dependence by measuring how the variance between paired observations increases with separation distance. Kriging uses the variogram model to produce optimal, unbiased spatial predictions at unsampled locations, along with prediction uncertainty estimates. Unlike simple interpolation methods (inverse distance weighting, splines), kriging is grounded in the theory of regionalized variables and produces not just predicted values but confidence intervals -- telling you both what the estimate is and how reliable it is.
 
+## How It's Best Learned
+Compute a semivariogram by hand on a short transect with values 10, 12, 15, 14, 18 at 1 m spacing. At lag 1 the squared differences are 4, 9, 1, 16, so semivariance is 30/(2 x 4) = 3.75. At lag 2 they are 25, 4, 9, giving 38/6 = 6.33. Then fit a model to a real dataset and krige it.
+
+## Common Misconceptions
+- A kriged map shows how variable the real surface is. (Kriging smooths between samples, so the map varies less than reality. Conditional simulation is used when the spread of values matters.)
+- The kriging variance is high where the measured values are high or erratic. (In ordinary kriging the variance depends on the variogram model and the layout of samples, so it is highest far from samples.)
+- Kriging gives good predictions with any variogram model. (The weights come from the fitted model, so a poor fit, or a variogram from too few pairs, leads to poor predictions and misleading error estimates.)
+
 ## Questions
 
 ```yaml

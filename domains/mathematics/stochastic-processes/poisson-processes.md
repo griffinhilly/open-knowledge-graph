@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 A Poisson process N(t) with rate λ counts events occurring randomly in time: it has independent and stationary increments, with N(t) - N(s) ~ Poisson(λ(t-s)) for t > s. Equivalently, inter-arrival times are i.i.d. Exponential(λ). It is the continuous-time counting process with the "memoryless" property — the process restarts probabilistically after each event. The Poisson process is the fundamental model for random arrivals and the jump-process counterpart of Brownian motion.
 
+## How It's Best Learned
+Build the process yourself: draw i.i.d. Exponential(λ) gaps, stack them into arrival times, and count arrivals in [0, 1] over many runs. The histogram of counts matches Poisson(λ). Then try the bus-stop puzzle: with buses at rate λ, show that a rider arriving at a random time waits 1/λ on average. The gap they land in has mean length 2/λ.
+
+## Common Misconceptions
+- Random arrivals are spread out evenly. (Exponential gaps have a decreasing density, so short gaps are the most common and arrivals look clumped.)
+- After a long quiet stretch, an event is overdue. (By the memoryless property, the remaining wait is Exponential(λ) no matter how long you have already waited.)
+- A rider who shows up at a random time waits half the mean gap. (The expected wait is the full 1/λ, because a random time is more likely to fall in a long gap.)
+
 ## Questions
 
 ```yaml

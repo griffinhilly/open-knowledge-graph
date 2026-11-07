@@ -20,6 +20,14 @@ status: validated
 ## Core Idea
 The tensor product M ⊗_R N of two R-modules is the module that universally linearizes bilinear maps: every R-bilinear map M × N → P factors uniquely through M ⊗_R N. Tensor products perform "base change" (extending scalars from one ring to another), are right exact but not left exact in general, and are the algebraic mechanism behind many constructions in geometry and algebra.
 
+## How It's Best Learned
+Compute tensor products with the rule M ⊗_R R/I ≅ M/IM before relying on the universal property. For example, ℤ/4ℤ ⊗ ℤ/6ℤ ≅ (ℤ/4ℤ)/6(ℤ/4ℤ) = (ℤ/4ℤ)/(2̄) ≅ ℤ/2ℤ, matching gcd(4, 6) = 2. Then compare the element 2 ⊗ 1 in ℤ ⊗ ℤ/2ℤ and in 2ℤ ⊗ ℤ/2ℤ to see that the ambient module matters.
+
+## Common Misconceptions
+- Every element of M ⊗ N is a pure tensor m ⊗ n. (General elements are sums. In k² ⊗ k², the element e₁ ⊗ e₁ + e₂ ⊗ e₂ corresponds to a rank-2 matrix, while each pure tensor corresponds to a matrix of rank at most 1.)
+- Whether m ⊗ n is zero depends only on m and n. (In ℤ ⊗ ℤ/2ℤ, 2 ⊗ 1 = 1 ⊗ 2 = 0. In 2ℤ ⊗ ℤ/2ℤ ≅ ℤ/2ℤ, the element 2 ⊗ 1 is a generator and is not zero.)
+- The tensor product of two nonzero modules is nonzero. (ℤ/2ℤ ⊗ ℤ/3ℤ = 0, and ℚ ⊗ ℤ/2ℤ = 0, since 2 is invertible in ℚ and zero in ℤ/2ℤ.)
+
 ## Questions
 
 ```yaml

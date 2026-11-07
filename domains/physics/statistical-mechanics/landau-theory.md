@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Landau theory expands the free energy as a power series in an order parameter m that vanishes in the disordered phase. A phenomenological expansion F(m,T) = F_0 + a(T)m^2 + b m^4 + ... predicts second-order transitions at a(T)=0 and reproduces critical exponents (β=1/2, γ=1, ν=1/2), though these differ from experimental values due to mean-field approximations.
 
+## How It's Best Learned
+Add a gradient term c(∇m)² and a source field to F. Solve the linearized equation above T_c to get correlations that, in three dimensions, fall as e^(−r/ξ)/r with ξ = √(c/a), so ξ ∝ (T − T_c)^(−1/2) and ν = 1/2. Then add a cubic term, F = am² − wm³ + bm⁴, and show that a second minimum at nonzero m reaches F = 0 when a = w²/4b, while a is still positive: a first-order jump.
+
+## Common Misconceptions
+- F(m) is the equilibrium free energy for every value of m. (F(m) is the free energy with m held fixed. The equilibrium free energy is its minimum value.)
+- The law m ∝ (T_c − T)^(1/2) holds at all temperatures below T_c. (It holds only close to T_c, where m is small enough for the truncated expansion. Farther below T_c, higher terms matter and m saturates.)
+- A cubic term can be added to any Landau expansion if it fits the data better. (Symmetry decides. With m → −m symmetry the cubic term is forbidden. For a tensor order parameter, as in liquid crystals, it is allowed and makes the transition first order.)
+
 ## Questions
 
 ```yaml

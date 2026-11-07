@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 A double integral ∬ f(x,y) dA can be computed as an iterated integral ∫∫ f(x,y) dy dx. By Fubini's theorem, the order can be swapped if f is continuous; rewriting bounds requires understanding the region carefully.
 
+## How It's Best Learned
+After reversing an order, compute both versions to confirm the bounds. For the triangle 0 ≤ y ≤ x ≤ 1 and f = xy, ∫₀¹ ∫₀ˣ xy dy dx = ∫₀¹ x³/2 dx = 1/8. The reversed integral ∫₀¹ ∫_y^1 xy dx dy = ∫₀¹ y(1 − y²)/2 dy also gives 1/8. If the two disagree, redraw the region and recheck the inner limits.
+
+## Common Misconceptions
+- An iterated integral is evaluated from the outside in. (The innermost integral is done first, and its result is a function of the outer variable.)
+- During the inner integration, both variables change. (The outer variable is held constant while the inner integral runs.)
+- The final answer of a double iterated integral can still contain x or y. (With constant outer limits, the result is a number; a leftover variable signals a limit or order error.)
+- Swapping the order on a triangle can be done by exchanging the x and y labels in the limits. (Exchanging labels describes a different region; the bounds must be read again from the sketch.)
+
 ## Questions
 
 ```yaml

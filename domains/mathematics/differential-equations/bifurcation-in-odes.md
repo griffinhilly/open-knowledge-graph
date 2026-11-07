@@ -22,6 +22,14 @@ status: validated
 ## Core Idea
 A bifurcation occurs when the qualitative behavior of solutions to dy/dx = f(y, μ) changes as a parameter μ varies—typically when equilibria are created, destroyed, or collide. Bifurcation analysis reveals how system dynamics depend sensitively on parameters.
 
+## How It's Best Learned
+Draw phase lines for dy/dt = μ − y² at μ = −1, 0 and 1, stacked side by side, then join the equilibrium points across the stack to form the bifurcation diagram. Repeat for dy/dt = μy − y³: for μ > 0 the equilibria are 0 and ±√μ, and f'(y) = μ − 3y² shows 0 losing stability as the outer pair appears. Comparing the two diagrams shows saddle-node and pitchfork shapes.
+
+## Common Misconceptions
+- A bifurcation is any change in the location of an equilibrium. (Equilibria move with μ all the time; a bifurcation happens only when the number or stability of equilibria changes.)
+- At the bifurcation point the equilibrium is stable or unstable like any other. (At a saddle-node point f'(y*) = 0, so the derivative test fails; for μ − y² at μ = 0 the equilibrium is half-stable.)
+- The bifurcation diagram plots solutions y(t) over time. (It plots equilibrium values against the parameter μ; time does not appear on either axis.)
+
 ## Questions
 
 ```yaml

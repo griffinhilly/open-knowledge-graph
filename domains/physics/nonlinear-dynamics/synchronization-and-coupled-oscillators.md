@@ -25,6 +25,14 @@ status: validated
 ## Core Idea
 Synchronization is the spontaneous adjustment of rhythms of oscillating systems due to weak coupling. When limit-cycle oscillators are coupled, they can lock their phases and frequencies, oscillating in unison despite having different natural frequencies. The Kuramoto model — N oscillators with random natural frequencies coupled through a mean-field sine interaction — exhibits a phase transition: below a critical coupling strength, oscillators run independently; above it, a macroscopic fraction spontaneously synchronizes. Synchronization is ubiquitous: fireflies flashing, neurons firing, power grid generators, circadian rhythms, and cardiac pacemaker cells.
 
+## How It's Best Learned
+Begin with two Kuramoto oscillators, θ̇₁ = ω₁ + (K/2) sin(θ₂ − θ₁) and θ̇₂ = ω₂ + (K/2) sin(θ₁ − θ₂). Subtracting gives one equation for the phase difference: φ̇ = Δω − K sin φ. Plot φ̇ against φ and see that fixed points, which mean locking, exist exactly when |Δω| ≤ K. Then simulate a few hundred oscillators, sweep K, and plot the order parameter r.
+
+## Common Misconceptions
+- Synchronized oscillators all swing at the same phase. (Locking fixes the phase difference, which need not be zero; Huygens' clocks locked in anti-phase, and in the two-oscillator model the locked difference satisfies sin φ* = Δω/K.)
+- Once K passes K_c, every oscillator joins the synchronized group. (Just above K_c only oscillators with natural frequencies near the center lock; those with frequencies far out in the tails keep drifting, and the locked fraction grows as K increases.)
+- Synchronization needs strong coupling that overpowers each oscillator's own dynamics. (Weak coupling is enough when it exceeds the frequency mismatch; it nudges the phases without much change to the amplitudes.)
+
 ## Questions
 
 ```yaml
@@ -56,7 +64,7 @@ Synchronization is the spontaneous adjustment of rhythms of oscillating systems 
 - question: "Explain why synchronization is fundamentally a phase phenomenon, and why amplitude dynamics are often irrelevant."
   type: short-answer
   answer: "On a stable limit cycle, the amplitude is fixed — perturbations in the radial direction decay rapidly back to the cycle. But perturbations in the phase (along the cycle) neither grow nor decay — the phase is neutrally stable, with a zero Lyapunov exponent. This means weak coupling primarily affects the phase, not the amplitude. The phase reduction technique exploits this: near a limit cycle, the full dynamics reduce to a single equation for the phase θ, where coupling appears as a function of the phase difference. This reduction works because the amplitude dynamics are 'slaved' to the phase dynamics — they relax quickly and follow whatever the slow phase dynamics dictate."
-  explanation: "Phase reduction is the theoretical foundation of synchronization theory. It reduces N coupled oscillators (each potentially high-dimensional) to N coupled phase equations θ̇ᵢ = ωᵢ + Σⱼ Γ(θᵢ - θⱼ), where ωᵢ are natural frequencies and Γ is the phase interaction function derived from the oscillator's phase response curve. The Kuramoto model is the simplest case where Γ(θ) = (K/N)sin(θ). This dramatic simplification — from potentially high-dimensional coupled systems to scalar phase equations — makes analytical progress possible and reveals synchronization as a universal phenomenon independent of the oscillators' internal details."
+  explanation: "Phase reduction is the theoretical foundation of synchronization theory. It reduces N coupled oscillators (each potentially high-dimensional) to N coupled phase equations θ̇ᵢ = ωᵢ + Σⱼ Γ(θᵢ - θⱼ), where ωᵢ are natural frequencies and Γ is the phase interaction function derived from the oscillator's phase response curve. The Kuramoto model is the simplest case where Γ(θ) = -(K/N)sin(θ). This dramatic simplification — from potentially high-dimensional coupled systems to scalar phase equations — makes analytical progress possible and reveals synchronization as a universal phenomenon independent of the oscillators' internal details."
 ```
 
 ## Explainer

@@ -24,6 +24,15 @@ status: validated
 ## Core Idea
 Grover's algorithm searches an unstructured database of N items for a marked item using only O(sqrt(N)) oracle queries, compared to the classical O(N). It works by repeatedly applying two reflections — an oracle that flips the phase of the target state and a diffusion operator that reflects about the mean amplitude — to amplify the target's amplitude from 1/sqrt(N) to near 1. After approximately (pi/4)*sqrt(N) iterations, measurement yields the target with high probability. This quadratic speedup is provably optimal for unstructured search and has broad applications through amplitude amplification.
 
+## How It's Best Learned
+Run N = 4 by hand with a bar chart of amplitudes. Start with four bars at 1/2. The oracle flips the target to -1/2, so the mean becomes 1/4. Inverting about the mean (a -> 2m - a) sends the target to 1 and the others to 0. Then redraw the same step as a 60-degree rotation in the |w>, |w_perp> plane.
+
+## Common Misconceptions
+- The oracle's phase flip makes the target more likely to be measured. (A phase flip leaves every measurement probability unchanged. The diffusion step turns that phase difference into a larger amplitude.)
+- Grover's algorithm makes NP-complete problems solvable in polynomial time. (Searching 2^n candidates takes about 2^(n/2) queries, which is still exponential.)
+- The iteration count is the same however many items are marked. (With M marked items the best count is about (pi/4)*sqrt(N/M), so the number of marked items matters.)
+- Grover's algorithm searches an ordinary database on disk faster. (The speedup counts oracle queries. Data held in classical memory must first be made queryable in superposition, which has its own cost.)
+
 ## Questions
 
 ```yaml

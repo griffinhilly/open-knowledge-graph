@@ -20,6 +20,15 @@ status: validated
 ## Core Idea
 Fertility declines causally with female education and income, rising childcare costs, and falling child mortality (reducing insurance value of large families). Development and female education causally reduce fertility. Lower fertility enables greater per-child investment, generating a reinforcing development cycle. Understanding fertility decline drivers is essential for population and development policy.
 
+## How It's Best Learned
+Work the insurance arithmetic. A couple wants three surviving children. If 60% of children survive, they expect to need five births; if 90% survive, about 3.3. Then add the opportunity-cost channel: raise the mother's potential wage and ask how the cost of each child changes. Last, draw the loop from lower fertility to per-child investment to growth and back.
+
+## Common Misconceptions
+- Educated women have fewer children mainly because of cultural taste. (The main economic channels are a higher opportunity cost of time, better access to contraception, later marriage, and more bargaining power.)
+- Lower child mortality should make parents have more children. (With more children surviving, fewer births are needed to reach the desired family size, so the insurance motive weakens.)
+- Fertility falls as soon as child mortality falls. (Fertility usually lags mortality, partly because parents need time to trust that survival has improved and partly because family-size norms change slowly.)
+- Fewer children means less investment in the next generation. (Fewer children lets households spend more on each child's health and schooling.)
+
 ## Questions
 
 ```yaml

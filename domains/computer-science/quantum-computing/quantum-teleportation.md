@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Quantum teleportation is a protocol that transmits an unknown qubit state from one party (Alice) to another (Bob) using a shared entangled pair and two classical bits of communication. Alice performs a Bell-basis measurement on her unknown qubit and her half of the entangled pair, then sends the two-bit outcome to Bob, who applies a corrective Pauli gate to recover the original state. No physical qubit travels between them, no faster-than-light communication occurs, and the original state is destroyed in the process — consistent with the no-cloning theorem.
 
+## How It's Best Learned
+Expand (alpha|0> + beta|1>)(|00> + |11>)/sqrt(2) into eight terms, then regroup qubits 1 and 2 into the Bell basis. Each Bell state then pairs with Bob's qubit in |psi>, Z|psi>, X|psi> or XZ|psi>, each with weight 1/2. Check one branch with a concrete input: for |psi> = |+>, the Z branch leaves Bob with |->, and applying Z restores |+>.
+
+## Common Misconceptions
+- Teleportation moves the particle itself from Alice to Bob. (Only the state is transferred. Bob's qubit was already with him as his half of the entangled pair.)
+- Alice must know the state to teleport it. (The protocol works for an unknown state, and Alice learns nothing about alpha or beta from her measurement.)
+- Bob can skip the classical message and just guess the correction. (A guess is right only a quarter of the time, and Bob cannot tell when. Averaged over outcomes, his uncorrected qubit is maximally mixed.)
+- The shared Bell pair can be reused for the next qubit. (The protocol consumes the pair, so each teleported qubit needs a fresh one.)
+
 ## Questions
 
 ```yaml

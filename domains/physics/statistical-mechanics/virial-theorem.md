@@ -19,6 +19,14 @@ status: validated
 ## Core Idea
 The virial theorem relates the average kinetic energy ⟨K⟩ to the average potential energy ⟨V⟩ for power-law interactions V ∝ r^n: 2⟨K⟩ = n⟨V⟩. For gravity (n=−1), this gives 2⟨K⟩ + ⟨V⟩ = 0, connecting gravitational binding to temperature. For the ideal gas (no interactions), it implies the equipartition theorem.
 
+## How It's Best Learned
+Check 2⟨K⟩ = n⟨V⟩ on cases you can average by hand. For a harmonic oscillator (n = 2), averaging over one period gives ⟨K⟩ = ⟨V⟩. For a circular Kepler orbit (n = −1), the force balance mv²/r = GMm/r² gives 2K = −V directly. Then apply the theorem to a gas in a box: the wall forces give 2⟨K⟩ = 3PV, which matches PV = NkT when ⟨K⟩ = (3/2)NkT.
+
+## Common Misconceptions
+- The relation 2K = nV holds at every instant. (It holds for time or ensemble averages. On an elliptical orbit K and V change along the path, and only their averages over the orbit obey 2⟨K⟩ = −⟨V⟩.)
+- The theorem applies to any system with these forces. (The derivation assumes the average of dG/dt vanishes, which bounded motion guarantees. It fails for an unbound flyby or a freely expanding cloud, and for a gas in a box the wall forces must be included.)
+- Negative heat capacity breaks the rule that heat capacity is proportional to an energy variance and so cannot be negative. (That rule holds in the canonical ensemble, for a system in contact with a heat bath. A self-gravitating star is isolated, and there negative heat capacity is allowed.)
+
 ## Questions
 
 ```yaml

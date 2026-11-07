@@ -25,18 +25,27 @@ status: validated
 ## Core Idea
 Near a fixed point x*, a nonlinear system ẋ = f(x) can be approximated by its linearization ẋ ≈ Df(x*) · (x - x*), where Df(x*) is the Jacobian matrix of partial derivatives evaluated at the fixed point. The Hartman-Grobman theorem guarantees that this linear approximation captures the correct qualitative behavior — the nonlinear flow is topologically equivalent to the linearized flow — provided all eigenvalues have nonzero real parts (the fixed point is hyperbolic).
 
+## How It's Best Learned
+Linearize the undamped pendulum ẋ = y, ẏ = −sin x at both of its fixed points. At (π, 0) the Jacobian [[0, 1], [1, 0]] has eigenvalues ±1, a saddle that Hartman-Grobman covers. At (0, 0) it has eigenvalues ±i, a non-hyperbolic case. Contrast this with ẋ = −y + x(x² + y²), ẏ = x + y(x² + y²). Its linearization at the origin also has eigenvalues ±i, but in polar form ṙ = r³, so it is an unstable spiral.
+
+## Common Misconceptions
+- To linearize, you drop the nonlinear terms from the equations as written. (You first evaluate the Jacobian at the fixed point; dropping terms in the original variables works only for a fixed point at the origin and gives wrong results elsewhere.)
+- One Jacobian matrix describes the whole system. (The Jacobian depends on the point where it is evaluated, so each fixed point has its own matrix, and its eigenvalues describe only the nearby flow.)
+- Linearization cannot be trusted at a saddle because saddles are unstable. (A saddle with nonzero real-part eigenvalues is hyperbolic, so Hartman-Grobman applies; the failures come from eigenvalues with zero real part.)
+- Linearization predicts the actual trajectories near the fixed point. (It guarantees the same qualitative picture near a hyperbolic point, but distances, speeds and shapes can differ from the nonlinear flow.)
+
 ## Questions
 
 ```yaml
 - question: "For the system ẋ = x² + y, ẏ = x - y, what is the Jacobian matrix at the fixed point (0, 0)?"
   type: multiple-choice
   options:
-    - "[[0, 1], [1, -1]]"
+    - "[[0, 1], [-1, -1]]"
     - "[[1, 1], [1, -1]]"
     - "[[0, 0], [1, -1]]"
     - "[[2x, 1], [1, -1]] evaluated at (0,0), which is [[0, 1], [1, -1]]"
   answer: 3
-  explanation: "The Jacobian is [[∂f₁/∂x, ∂f₁/∂y], [∂f₂/∂x, ∂f₂/∂y]] = [[2x, 1], [1, -1]]. At (0,0), this gives [[0, 1], [1, -1]]. Options A and D describe the same correct matrix. The eigenvalues of this matrix ((-1 ± √5)/2) determine local stability: one positive and one negative eigenvalue means (0,0) is a saddle point."
+  explanation: "The Jacobian is [[∂f₁/∂x, ∂f₁/∂y], [∂f₂/∂x, ∂f₂/∂y]] = [[2x, 1], [1, -1]]. At (0,0), this gives [[0, 1], [1, -1]]. Option A has a sign error in the lower-left entry. The eigenvalues of this matrix ((-1 ± √5)/2) determine local stability: one positive and one negative eigenvalue means (0,0) is a saddle point."
 
 - question: "The Hartman-Grobman theorem guarantees that linearization gives the correct qualitative picture near a fixed point. Under what condition does this guarantee fail?"
   type: multiple-choice

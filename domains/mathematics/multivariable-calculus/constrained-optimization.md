@@ -20,6 +20,14 @@ status: validated
 ## Core Idea
 Constrained optimization models engineering problems: maximizing profit subject to resource constraints, minimizing surface area for fixed volume, finding shortest paths on surfaces. Lagrange multipliers solve these systematically.
 
+## How It's Best Learned
+Work one word problem from start to finish: the largest box with total surface area S. Name the objective V = xyz and the constraint 2(xy + yz + xz) = S before any calculus. Solving ∇V = λ∇g gives a cube of side x = √(S/6) and λ = x/4. Then differentiate V* = (S/6)^(3/2) with respect to S. You get x/4 again, which shows what λ measures.
+
+## Common Misconceptions
+- Every solution of the Lagrange system is a usable answer. (Some candidates make no physical sense. In the box problem, x = y = z = −√(S/6) also solves the system, but a box cannot have negative sides, so you discard it.)
+- Every applied problem of this kind has a maximum and a minimum. (A box with fixed volume has no largest surface area, because you can make it as thin as you like. Check that the optimum you want actually exists before you trust a candidate.)
+- The multiplier λ is a leftover variable you can discard. (λ is the rate at which the optimal value changes as the constraint level changes. In applications it often answers the follow-up question about relaxing the constraint.)
+
 ## Questions
 
 ```yaml

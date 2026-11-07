@@ -23,7 +23,15 @@ status: validated
 # Clausius-Clapeyron Equation
 
 ## Core Idea
-The Clausius-Clapeyron equation dP/dT = L/(T·ΔV) relates the slope of a phase boundary to the latent heat L and volume change ΔV. It explains why ice melts at higher temperatures under pressure (small ΔV gives positive dP/dT) and allows calculation of phase diagrams from thermodynamic data.
+The Clausius-Clapeyron equation dP/dT = L/(T·ΔV) relates the slope of a phase boundary to the latent heat L and volume change ΔV. It explains why ice melts at lower temperatures under pressure (ΔV < 0 on melting gives negative dP/dT) and allows calculation of phase diagrams from thermodynamic data.
+
+## How It's Best Learned
+Predict the boiling point in a pressure cooker at 2 atm with the integrated form. Use L ≈ 40.7 kJ/mol and T₁ = 373.15 K: 1/T₂ = 1/T₁ − (R/L) ln 2 ≈ 0.002680 − 0.000142 = 0.002538 K⁻¹. That gives T₂ ≈ 394 K, about 121 °C, close to the measured value near 120 °C. Then redo the derivation from G₁ = G₂ to see which assumptions the shortcut used.
+
+## Common Misconceptions
+- The straight line of ln P against 1/T is exact. (It assumes an ideal-gas vapor, negligible liquid volume and constant L. Near the critical point L and ΔV both shrink toward zero and the line bends.)
+- The equation applies to any phase transition. (At a continuous transition ΔS and ΔV are both zero, so L/(TΔV) is undefined. The Ehrenfest relations take its place there.)
+- Ice skates glide because blade pressure melts the ice. (For ice the melting point falls only about 0.0075 K per atmosphere. A skater's weight lowers it far too little to explain skating at −10 °C.)
 
 ## Questions
 

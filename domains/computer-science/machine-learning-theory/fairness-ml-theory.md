@@ -23,6 +23,14 @@ status: validated
 ## Core Idea
 Fairness in machine learning addresses how to build algorithms that treat individuals equitably and do not unfairly discriminate based on sensitive attributes (race, gender, age, etc.). Fairness definitions are formalized through competing metrics: demographic parity (equal representation across groups), equalized odds (equal error rates across groups), calibration (predictions equally reliable across groups), individual fairness (similar individuals treated similarly), and causal fairness (controlling for discrimination via causal graphs). Trade-offs between fairness and accuracy, and between different fairness notions, require careful analysis. Achieving fairness requires understanding sources of bias (data bias, model bias, deployment bias) and applying pre-processing, in-processing, or post-processing mitigation techniques.
 
+## How It's Best Learned
+Work one confusion-matrix example by hand. Group A has 100 people of whom 50 are actually positive, and group B has 100 people of whom 20 are; a classifier with true positive rate 0.8 and false positive rate 0.1 in both groups meets equalized odds. Yet it selects 45 people from A and 24 from B, and its precision is 40/45 in A but 16/24 in B, so demographic parity and equal precision both fail.
+
+## Common Misconceptions
+- Removing the sensitive attribute from the inputs makes a model fair. (Other features, such as zip code, can act as proxies for the attribute, so group disparities can remain.)
+- A well-built model can satisfy every common fairness criterion at once. (When base rates differ and the predictor is imperfect, calibration and equal error rates across groups cannot all hold together.)
+- Demographic parity means each group faces the same error rates. (Parity only equalizes selection rates. A classifier can select the same fraction from each group while making far more mistakes in one of them.)
+
 ## Questions
 
 ```yaml

@@ -21,6 +21,15 @@ status: validated
 ## Core Idea
 Path integral quantization of fields computes quantum amplitudes by summing over all possible field configurations, weighted by e^{iS[phi]}, where S is the classical action. It provides an alternative to canonical quantization that is manifestly Lorentz covariant, naturally handles gauge theories, and is the foundation for non-perturbative methods like lattice QFT.
 
+## How It's Best Learned
+Begin with the finite-dimensional Gaussian ∫dⁿx exp(−(1/2)xᵀAx + Jᵀx) ∝ (det A)^{−1/2} exp((1/2)JᵀA⁻¹J). Differentiate twice in J to show ⟨x_i x_j⟩ = (A⁻¹)_ij. Then repeat for the free scalar field: complete the square in the action, and the inverse of (−∂² − m²) becomes the Feynman propagator. Finally, Wick-rotate and compare e^{−S_E} with a Boltzmann weight.
+
+## Common Misconceptions
+- Only the classical field configuration contributes to the path integral. (Every configuration contributes; the classical one dominates only when the action is large compared to ħ, and fluctuations around it give the loop corrections.)
+- The configurations being summed are smooth solutions of the field equations. (Most configurations are not solutions, and the typical ones that dominate the integral are very rough.)
+- Path-integral quantization gives a different theory from canonical quantization. (The two methods are equivalent; they make the same predictions with different bookkeeping.)
+- The Minkowski path integral is a well-defined integral in the ordinary mathematical sense. (In practice it is defined through a lattice, a Euclidean continuation, or a perturbative expansion.)
+
 ## Questions
 
 ```yaml

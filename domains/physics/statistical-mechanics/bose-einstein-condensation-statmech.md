@@ -26,6 +26,14 @@ status: validated
 ## Core Idea
 Below the critical temperature, a macroscopic number of bosons occupy the ground state, and the system acquires a non-zero order parameter: the condensate wavefunction ψ. This spontaneous breaking of gauge symmetry is the hallmark of a quantum phase transition and manifests in phenomena like superfluidity.
 
+## How It's Best Learned
+Build a side-by-side table with the Ising ferromagnet: order parameter (magnetization m vs. ψ), broken symmetry (up-down flip vs. U(1) phase rotation), and value above and below Tc. Then plot the ideal-gas condensate fraction N₀/N = 1 − (T/Tc)^(3/2). At T = 0.5 Tc it is about 0.65, so most particles are already in one state well above absolute zero.
+
+## Common Misconceptions
+- Condensation happens only at absolute zero. (Below Tc a finite fraction of all particles is already in the ground state. That fraction grows continuously from zero at Tc to one at T = 0.)
+- The absolute phase φ of a single condensate can be measured. (Only phase differences are observable, for example in the interference fringes between two overlapping condensates.)
+- Every condensate is automatically a superfluid. (The ideal Bose gas condenses, but its free-particle spectrum gives a critical velocity of zero by Landau's criterion. Repulsive interactions produce the linear phonon spectrum that makes flow without dissipation possible.)
+
 ## Questions
 
 ```yaml

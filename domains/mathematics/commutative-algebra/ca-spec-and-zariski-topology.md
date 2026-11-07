@@ -28,6 +28,14 @@ status: validated
 ## Core Idea
 The prime spectrum Spec R of a commutative ring R, equipped with the Zariski topology and the structure sheaf O_X, is an affine scheme -- the fundamental geometric object in modern algebraic geometry. Closed sets correspond to radical ideals via V(I) = {P in Spec R : P ⊇ I}, and the distinguished open sets D(f) = {P : f not in P} form a basis. The structure sheaf assigns to each open set U the ring of "functions regular on U," with stalks O_{X,P} = R_P (the localization at P). This construction transforms commutative algebra into geometry, with ring homomorphisms becoming continuous maps and localization becoming restriction to open sets.
 
+## How It's Best Learned
+Draw Spec ℤ as a row of closed points (2), (3), (5), ... plus one generic point (0) that lies in every nonempty open set. Compute V(12) = {(2), (3)} and D(6), which removes those same two points. Then sketch Spec k[x, y] with k algebraically closed: closed points (x - a, y - b), a generic point for each irreducible curve such as (y - x²), and the point (0).
+
+## Common Misconceptions
+- The points of Spec R are its maximal ideals. (Every prime ideal is a point. Maximal ideals are the closed points, and a prime such as (0) in Spec ℤ is a point whose closure is the whole space.)
+- Different ideals give different closed sets. (V(x) = V(x²) in Spec k[x]. The correspondence is one to one only between closed sets and radical ideals.)
+- A ring map sends maximal ideals to maximal ideals. (A map R → S gives Spec S → Spec R by pulling back primes, and a maximal ideal can pull back to a non-maximal prime. For ℤ → ℚ, the maximal ideal (0) of ℚ pulls back to (0) in ℤ.)
+
 ## Questions
 
 ```yaml

@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 The flux of F through oriented surface S is ∬_S F · n dS = ∬_S F · (r_u × r_v) du dv, measuring flow through the surface. When F is the curl of another vector field, Stokes' theorem relates this to a line integral around the boundary.
 
+## How It's Best Learned
+Compute the upward flux of the uniform field F = ⟨0, 0, 1⟩ through the upper unit hemisphere. With r(φ, θ) = ⟨sin φ cos θ, sin φ sin θ, cos φ⟩, r_φ × r_θ = sin φ · r, which points outward. Then F · (r_φ × r_θ) = sin φ cos φ, and the integral is 2π · 1/2 = π. Compare with the flat unit disk, where the flux is 1 · π = π.
+
+## Common Misconceptions
+- The flux integral uses |r_u × r_v|, as scalar surface integrals do. (It uses the vector r_u × r_v dotted with F; the magnitude cancels against the normalization of n.)
+- A stronger field always gives a larger flux. (Only the component of F along n counts; a field tangent to S everywhere gives zero flux, however strong it is.)
+- Flux can be computed through any surface. (The surface must be orientable; a Möbius strip has no consistent choice of normal, so its flux is not defined.)
+
 ## Questions
 
 ```yaml

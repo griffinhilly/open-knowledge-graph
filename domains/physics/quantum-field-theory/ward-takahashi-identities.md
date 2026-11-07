@@ -23,6 +23,15 @@ status: validated
 ## Core Idea
 Ward-Takahashi identities are the quantum-mechanical consequences of gauge invariance, relating different Green's functions to each other. In QED, they ensure that the photon remains massless, that charge renormalization is universal, and that Z_1 = Z_2. They are the quantum analogs of Noether's conservation laws and constrain the structure of the theory at all orders in perturbation theory.
 
+## How It's Best Learned
+Check the vertex identity at tree level first. With Γ^μ = γ^μ and S⁻¹(p) = p̸ − m, the left side q̸ equals (p̸ + q̸ − m) − (p̸ − m). Then take q → 0 to get Γ^μ(p, p) = ∂S⁻¹/∂p_μ and read off Z₁ = Z₂. Finally, replace one photon polarization by its momentum in tree-level Compton scattering and confirm that the two diagrams cancel only when added.
+
+## Common Misconceptions
+- The Ward identity makes each Feynman diagram vanish when the photon polarization is replaced by its momentum. (In general only the sum of diagrams at a given order vanishes, with the other external charged particles on shell. Single Compton diagrams do not vanish on their own.)
+- Z₁ = Z₂ means the vertex correction has no divergence. (The vertex correction and the electron self-energy both diverge in general, for example in Feynman gauge. The identity makes their effects cancel in the charge, so the charge renormalizes through Z₃ alone.)
+- Ward identities are a perturbative result that has to be checked order by order. (The path-integral derivation gives an exact identity that holds beyond perturbation theory.)
+- The same identities carry over unchanged to non-abelian gauge theories. (There they become the Slavnov-Taylor identities, which involve ghost fields and have a richer structure.)
+
 ## Questions
 
 ```yaml

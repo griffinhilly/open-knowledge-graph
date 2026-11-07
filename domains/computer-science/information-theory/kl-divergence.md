@@ -28,6 +28,15 @@ status: validated
 ## Core Idea
 The Kullback-Leibler divergence D_KL(P || Q) = sum p(x) log(p(x)/q(x)) measures how much one probability distribution P differs from a reference distribution Q, in units of information. It quantifies the extra bits needed to encode samples from P using a code optimized for Q. KL divergence is always non-negative (Gibbs' inequality), equals zero only when P = Q, and is not symmetric: D_KL(P||Q) != D_KL(Q||P). It is the central tool for comparing distributions in information theory, statistics (likelihood ratio tests), and machine learning (variational inference, training generative models).
 
+## How It's Best Learned
+Compute D_KL(P||Q) and D_KL(Q||P) by hand for two small distributions on three outcomes, listing each term p(x) log(p(x)/q(x)). Note which terms are negative and that the total is still positive. Then set one q(x) to zero and watch D_KL(P||Q) become infinite. Finally, fit a single Gaussian to a two-peaked mixture under each direction and compare the two fits.
+
+## Common Misconceptions
+- Every term in the KL sum is non-negative. (A term is negative wherever q(x) > p(x). Gibbs' inequality says only the total is non-negative.)
+- KL divergence is always finite. (If Q gives zero probability to an outcome that P can produce, D_KL(P||Q) is infinite.)
+- Minimizing D_KL(q||p) and minimizing D_KL(p||q) give the same approximation. (D_KL(q||p) punishes q for putting mass where p is small, so it tends to lock onto one mode. D_KL(p||q) punishes q for missing mass where p is large, so it tends to spread over all modes.)
+- Minimizing cross-entropy and minimizing KL divergence are different training goals. (Cross-entropy equals H(P) + D_KL(P||Q). With P fixed, H(P) is a constant, so both have the same minimizer.)
+
 ## Questions
 
 ```yaml

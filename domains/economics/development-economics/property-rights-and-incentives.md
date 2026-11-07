@@ -26,6 +26,15 @@ status: validated
 ## Core Idea
 Secure property rights enable owners to invest, borrow against assets, and trade freely. Without security, investment is disincentivized; credit markets collapse (lenders cannot seize collateral); productive assets are held outside the formal economy. Property rights are thus foundational for capital accumulation and market development.
 
+## How It's Best Learned
+Work a commons example. Ten herders share a pasture. One more cow earns its owner 10 but causes 20 of damage, split as 2 per herder. Each herder gains 10 − 2 = 8, so each adds cows, though society loses 10 per cow. If one person owns the pasture, that owner bears the full 20 and stops. Then ask what would happen if the herders could bargain cheaply.
+
+## Common Misconceptions
+- Assigning property rights solves any externality. (The Coase result needs clear rights and cheap bargaining. With many parties, transaction costs can block the deal.)
+- Shared resources end up overused in every case. (Many communities manage common land or fisheries with their own rules on access and enforcement.)
+- Weak property rights hurt only the owner's incentive to invest. (They also stop assets from serving as collateral, which shrinks credit markets.)
+- Ownership on paper is what drives investment. (What matters is confidence of keeping the returns, which depends on enforcement in practice.)
+
 ## Questions
 
 ```yaml

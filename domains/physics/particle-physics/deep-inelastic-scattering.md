@@ -24,6 +24,14 @@ status: validated
 ## Core Idea
 Deep inelastic scattering (DIS) is the process of probing the internal structure of nucleons by scattering high-energy leptons off them. The observation of Bjorken scaling -- that structure functions depend on the dimensionless ratio x = Q^2/(2M*nu) rather than on Q^2 and nu independently -- provided the first direct evidence that protons contain point-like constituents (partons), confirming the quark model.
 
+## How It's Best Learned
+Compute the kinematics of one event. A 20 GeV electron scatters to 8 GeV with sin²(θ/2) = 0.01, so Q² = 4EE′sin²(θ/2) = 6.4 GeV², ν = 12 GeV, and x = Q²/(2Mν) ≈ 0.28. Then sketch F₂(x) for four pictures of the proton: one point charge, three free quarks, three bound quarks, and bound quarks plus a sea.
+
+## Common Misconceptions
+- The proton is three quarks that each carry a third of its momentum. (The valence quarks have broad momentum distributions, and the sea quarks and gluons carry a large share. Gluons alone carry about half.)
+- The "inelastic" in DIS means the electron scatters inelastically off a quark. (In the parton model the electron scatters elastically off a single quark. The scattering is inelastic because the proton breaks apart.)
+- DIS with a photon probe sees gluons directly. (Gluons have no electric charge. Their presence is inferred from the missing momentum in the sum rule and from scaling violations.)
+
 ## Questions
 
 ```yaml
@@ -34,7 +42,7 @@ Deep inelastic scattering (DIS) is the process of probing the internal structure
     - "A smooth distribution peaked at x = 1/3, because the quarks share momentum equally"
     - "A broad distribution peaked at moderate x, because the quarks are bound and exchange momentum through gluon interactions — but the integral of F_2 over x would equal the sum of e_i^2 times the momentum fractions, which for three valence quarks would account for all the proton's momentum"
     - "A flat distribution from x = 0 to x = 1"
-  answer: 2
+  answer: 0
   explanation: "If quarks were non-interacting, each would carry exactly 1/3 of the proton momentum and F_2(x) would have delta-function peaks. In reality, gluon exchange smears the momentum distribution. The valence quarks produce a broad distribution peaked around x ~ 0.15-0.3. Crucially, integrating x*f(x) for all quarks gives only about 50% of the proton momentum -- the other 50% is carried by gluons, which are electrically neutral and invisible to photon exchange. This 'momentum sum rule' violation was key evidence for gluons."
 
 - question: "Bjorken scaling states that the proton structure functions F_1(x,Q^2) and F_2(x,Q^2) depend only on x and not on Q^2 at high Q^2. This scaling is exact in QCD."

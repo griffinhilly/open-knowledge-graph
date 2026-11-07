@@ -30,6 +30,15 @@ status: validated
 ## Core Idea
 The dot product u·v = u₁v₁ + u₂v₂ + u₃v₃ measures alignment (equals |u||v|cos(θ)); it is zero when vectors are orthogonal. The cross product u × v produces a vector perpendicular to both, with magnitude |u||v|sin(θ) equal to the area of the parallelogram they span.
 
+## How It's Best Learned
+Work one pair with both products and check each answer against geometry. For u = (1, 2, 2) and v = (2, 0, −1), u · v = 0, so they are perpendicular. Then u × v = (−2, 5, −4); dotting it with u and with v gives 0 both times. Its length is √45, which matches |u||v| = 3√5 because sin 90° = 1.
+
+## Common Misconceptions
+- The dot product and cross product are two versions of the same kind of product. (The dot product returns a scalar that measures alignment; the cross product returns a vector perpendicular to both inputs.)
+- u × v and v × u are the same vector. (They have the same length but point in opposite directions: u × v = −(v × u).)
+- The cross product is defined for vectors in any dimension. (The usual cross product is defined in 3D; the dot product works in any dimension.)
+- A negative dot product means something went wrong. (It means the angle between the vectors is greater than 90°.)
+
 ## Questions
 
 ```yaml

@@ -22,6 +22,15 @@ status: validated
 ## Core Idea
 Economic development encompasses more than GDP growth—it includes improvements in living standards, access to services, opportunity, and human capability. The distinction between growth (quantitative output increase) and development (qualitative welfare improvement) is critical because countries can grow without developing. Development's multidimensional nature necessitates broader measurement frameworks beyond per capita income.
 
+## How It's Best Learned
+Line up this page's three cases (Saudi Arabia, Cuba, Equatorial Guinea) in a table with columns for income, health, education, and freedom. Mark where each country is strong or weak, and ask whether "richer" and "more developed" give the same ranking. Then restate each case in Sen's terms: what can a typical person there do or be?
+
+## Common Misconceptions
+- Economic growth and economic development mean the same thing. (Growth is a rise in output. Development is a broad improvement in people's lives, and a country can have one without the other.)
+- Health and education improve automatically as income rises. (Cases like Equatorial Guinea show that income gains can be captured by a few while most people see little change.)
+- Income does not matter for development. (In Sen's approach income is a means: it buys food, medicine, and schooling, which support capabilities.)
+- A broad definition makes development too vague to measure. (It makes measurement harder, which is why composite indices such as the HDI track several dimensions together.)
+
 ## Questions
 
 ```yaml
